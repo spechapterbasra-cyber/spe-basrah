@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/spe-basrah/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="SPE Basrah">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png?v=4"/>
+
+  <title>SPE Basrah</title>
+  <link rel="manifest" href="manifest.json?v=4">
+  <!-- OneSignal Web Push for SPE Basrah -->
+  <script>
+    // Define Flutter-callable helpers immediately. They wait until the
+    // OneSignal SDK is actually initialized, avoiding a race during app start.
+    window.speBasrahOneSignalReady = new Promise((resolve, reject) => {
+      window.__speBasrahResolveOneSignal = resolve;
+      window.__speBasrahRejectOneSignal = reject;
+    });
+
+    window.speBasrahOneSignalRequestPermission = async function() {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      await OneSignal.Notifications.requestPermission();
+      if (OneSignal.Notifications.permission === true) {
+        await OneSignal.User.PushSubscription.optIn();
+      }
+      return OneSignal.Notifications.permission === true;
+    };
+
+    window.speBasrahOneSignalOptIn = async function() {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      await OneSignal.User.PushSubscription.optIn();
+      return OneSignal.User.PushSubscription.optedIn === true;
+    };
+
+    window.speBasrahOneSignalOptOut = async function() {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      await OneSignal.User.PushSubscription.optOut();
+    };
+
+    window.speBasrahOneSignalIsOptedIn = async function() {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      return OneSignal.User.PushSubscription.optedIn === true;
+    };
+
+    window.speBasrahOneSignalSubscriptionId = async function() {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      return OneSignal.User.PushSubscription.id || null;
+    };
+
+    async function speBasrahWaitForPushSubscription(OneSignal, timeoutMs = 8000) {
+      const startedAt = Date.now();
+      while (Date.now() - startedAt < timeoutMs) {
+        const subscriptionId = OneSignal.User.PushSubscription.id;
+        const optedIn = OneSignal.User.PushSubscription.optedIn === true;
+        if (subscriptionId && optedIn) return subscriptionId;
+        await new Promise((resolve) => setTimeout(resolve, 250));
+      }
+      return OneSignal.User.PushSubscription.id || null;
+    }
+
+    async function speBasrahVerifyTag(OneSignal, key, expectedValue) {
+      try {
+        const tags = await OneSignal.User.getTags();
+        return String(tags?.[key] ?? "") === String(expectedValue ?? "");
+      } catch (_) {
+        return false;
+      }
+    }
+
+    async function speBasrahSetTagWithRetry(OneSignal, key, value) {
+      if (!key) return false;
+
+      await speBasrahWaitForPushSubscription(OneSignal);
+
+      const normalized = value === null || value === undefined ? "" : String(value);
+
+      for (let attempt = 0; attempt < 3; attempt++) {
+        if (normalized === "") {
+          await OneSignal.User.removeTag(key);
+          return true;
+        }
+
+        await OneSignal.User.addTag(key, normalized);
+
+        if (await speBasrahVerifyTag(OneSignal, key, normalized)) {
+          return true;
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+
+      console.warn("[SPE Basrah] OneSignal tag verification failed:", key, normalized);
+      return false;
+    }
+
+    window.speBasrahOneSignalSetStage = async function(stageId, courseId) {
+      const OneSignal = await window.speBasrahOneSignalReady;
+
+      // iOS/Safari may need a short delay after opt-in before the OneSignal
+      // user/subscription exists. Wait for it, then write + verify the tags.
+      await speBasrahWaitForPushSubscription(OneSignal);
+
+      const tags = {};
+      if (stageId) tags.stage = String(stageId);
+      if (courseId) tags.course = String(courseId);
+
+      if (Object.keys(tags).length > 0) {
+        for (let attempt = 0; attempt < 3; attempt++) {
+          await OneSignal.User.addTags(tags);
+          const saved = await OneSignal.User.getTags();
+
+          const stageOk = !tags.stage || String(saved?.stage ?? "") === tags.stage;
+          const courseOk = !tags.course || String(saved?.course ?? "") === tags.course;
+
+          if (stageOk && courseOk) {
+            console.log("[SPE Basrah] OneSignal stage/course synchronized", tags);
+            return true;
+          }
+
+          await new Promise((resolve) => setTimeout(resolve, 500));
+        }
+      }
+
+      console.warn("[SPE Basrah] OneSignal stage/course verification failed", tags);
+      return false;
+    };
+
+    window.speBasrahOneSignalSetTag = async function(key, value) {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      return speBasrahSetTagWithRetry(OneSignal, key, value);
+    };
+
+    window.speBasrahSyncStudentTags = async function(stageId, courseId, contentTypesCsv) {
+      const OneSignal = await window.speBasrahOneSignalReady;
+      const subscriptionId = await speBasrahWaitForPushSubscription(OneSignal, 12000);
+      if (!subscriptionId) {
+        console.warn("[SPE Basrah] No active OneSignal subscription available for tag sync.");
+        return false;
+      }
+
+      const stage = String(stageId || "").trim();
+      const course = String(courseId || "").trim();
+      if (!stage || !course) return false;
+
+      const allowedTypes = [
+        "professor_lectures",
+        "notes",
+        "resources",
+        "past_exams",
+        "solved_past_exams",
+        "youtube_lectures",
+        "spe_lectures",
+      ];
+
+      const selectedTypes = new Set(
+        String(contentTypesCsv || "")
+          .split(",")
+          .map((value) => value.trim())
+          .filter((value) => allowedTypes.includes(value))
+      );
+
+      try {
+        // Store targeting data directly in OneSignal. No Firestore document is
+        // created or read for push targeting.
+        const tags = {
+          stage,
+          course: stage === "graduate" ? "first_course" : course,
+          notifications_enabled: "true",
+        };
+
+        for (const type of allowedTypes) {
+          tags[`content_${type}`] = selectedTypes.has(type) ? "true" : "false";
+        }
+
+        for (let attempt = 0; attempt < 3; attempt++) {
+          await OneSignal.User.addTags(tags);
+          const saved = await OneSignal.User.getTags();
+
+          const baseOk =
+            String(saved?.stage ?? "") === tags.stage &&
+            String(saved?.course ?? "") === tags.course &&
+            String(saved?.notifications_enabled ?? "") === "true";
+
+          const typesOk = allowedTypes.every(
+            (type) => String(saved?.[`content_${type}`] ?? "") === tags[`content_${type}`]
+          );
+
+          if (baseOk && typesOk) {
+            try {
+              localStorage.setItem("spe_basrah_onesignal_tags_v2", JSON.stringify(tags));
+            } catch (_) {}
+            console.log("[SPE Basrah] OneSignal targeting tags synchronized", tags);
+            return true;
+          }
+
+          await new Promise((resolve) => setTimeout(resolve, 500));
+        }
+
+        console.warn("[SPE Basrah] OneSignal targeting tag verification failed", tags);
+        return false;
+      } catch (error) {
+        console.error("[SPE Basrah] OneSignal targeting tag sync failed", error);
+        return false;
+      }
+    };
+
+
+    // Academic cache invalidation queue written by the OneSignal service worker.
+    const SPE_CACHE_SIGNAL_DB = "spe_basrah_cache_signal_v1";
+    const SPE_CACHE_SIGNAL_STORE = "signals";
+
+    function speBasrahOpenCacheSignalDb() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(SPE_CACHE_SIGNAL_DB, 1);
+        request.onupgradeneeded = () => {
+          const db = request.result;
+          if (!db.objectStoreNames.contains(SPE_CACHE_SIGNAL_STORE)) {
+            db.createObjectStore(SPE_CACHE_SIGNAL_STORE, { keyPath: "id" });
+          }
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    async function speBasrahStoreAcademicInvalidation(data) {
+      if (!data) return false;
+      const academicStage = String(data.academicStage || data.academic_stage || data.stage || "").trim();
+      const academicCourse = String(data.academicCourse || data.academic_course || data.course || "").trim();
+      const subject = String(data.subject || data.academicSubject || "").trim();
+      const category = String(data.category || data.academicCategory || "").trim();
+      const action = String(data.cache_action || data.cacheAction || "academic_invalidate").toLowerCase();
+      if (!academicStage || !academicCourse) return false;
+      if (action !== "subject_info_invalidate" && (!subject || !category)) return false;
+      try {
+        const db = await speBasrahOpenCacheSignalDb();
+        const item = {
+          id: `${action}|${academicStage}|${academicCourse}|${subject}|${category}|${Date.now()}|${Math.random()}`,
+          cache_action: action,
+          academicStage,
+          academicCourse,
+          ...(subject ? { subject } : {}),
+          ...(category ? { category } : {}),
+          ...(data.publishedAtMs ? { publishedAtMs: String(data.publishedAtMs) } : {}),
+          createdAt: Date.now(),
+        };
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_CACHE_SIGNAL_STORE, "readwrite");
+          tx.objectStore(SPE_CACHE_SIGNAL_STORE).put(item);
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+        });
+        db.close();
+        return true;
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to store academic invalidation", error);
+        return false;
+      }
+    }
+
+    window.speBasrahDrainAcademicInvalidations = async function() {
+      try {
+        const db = await speBasrahOpenCacheSignalDb();
+        const items = await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_CACHE_SIGNAL_STORE, "readwrite");
+          const store = tx.objectStore(SPE_CACHE_SIGNAL_STORE);
+          const request = store.getAll();
+          request.onsuccess = () => {
+            const rows = Array.isArray(request.result) ? request.result : [];
+            store.clear();
+            resolve(rows);
+          };
+          request.onerror = () => reject(request.error);
+        });
+        db.close();
+        return JSON.stringify(items);
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to drain academic invalidations", error);
+        return "[]";
+      }
+    };
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.addEventListener("message", async (event) => {
+        if (event?.data?.type === "SPE_ACADEMIC_INVALIDATE") {
+          await speBasrahStoreAcademicInvalidation(event.data.data || {});
+        }
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Local notification inbox (IndexedDB). This intentionally avoids
+    // reading app_notifications from Firestore on every device.
+    // ------------------------------------------------------------------
+    const SPE_INBOX_DB = "spe_basrah_local_inbox_v1";
+    const SPE_INBOX_STORE = "notifications";
+
+    function speBasrahOpenInboxDb() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(SPE_INBOX_DB, 1);
+        request.onupgradeneeded = () => {
+          const db = request.result;
+          if (!db.objectStoreNames.contains(SPE_INBOX_STORE)) {
+            db.createObjectStore(SPE_INBOX_STORE, { keyPath: "id" });
+          }
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    function speBasrahNotificationFromObject(input) {
+      const notification = input?.notification || input || {};
+      const additional =
+        notification.additionalData ||
+        notification.data ||
+        input?.additionalData ||
+        input?.data ||
+        {};
+
+      const route =
+        String(additional.route || notification.route || "").trim();
+
+      return {
+        id: String(
+          additional.inboxId ||
+          additional.notificationId ||
+          notification.notificationId ||
+          notification.id ||
+          `${Date.now()}-${Math.random()}`
+        ),
+        title: String(
+          notification.title ||
+          additional.title ||
+          "SPE Basrah"
+        ),
+        body: String(
+          notification.body ||
+          additional.body ||
+          ""
+        ),
+        route,
+        academicStage: String(additional.academicStage || "").trim(),
+        academicCourse: String(additional.academicCourse || "").trim(),
+        subject: String(additional.subject || "").trim(),
+        category: String(additional.category || "").trim(),
+        contentType: String(additional.contentType || "").trim(),
+        createdAt: Date.parse(additional.sentAt || "") || Date.now(),
+      };
+    }
+
+    async function speBasrahStoreLocalNotification(input) {
+      try {
+        const item = speBasrahNotificationFromObject(input);
+        const db = await speBasrahOpenInboxDb();
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_INBOX_STORE, "readwrite");
+          tx.objectStore(SPE_INBOX_STORE).put(item);
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+        });
+        db.close();
+        window.dispatchEvent(new CustomEvent("spe-basrah-local-inbox-changed"));
+        return true;
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to store local notification", error);
+        return false;
+      }
+    }
+
+    window.speBasrahDrainLocalNotifications = async function() {
+      try {
+        const db = await speBasrahOpenInboxDb();
+        const items = await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_INBOX_STORE, "readwrite");
+          const store = tx.objectStore(SPE_INBOX_STORE);
+          const request = store.getAll();
+          request.onsuccess = () => {
+            const rows = Array.isArray(request.result) ? request.result : [];
+            store.clear();
+            resolve(rows);
+          };
+          request.onerror = () => reject(request.error);
+        });
+        db.close();
+
+        items.sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+        return JSON.stringify(items);
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to drain local notification inbox", error);
+        return "[]";
+      }
+    };
+
+  </script>
+
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      try {
+        const speOnGitHubPages =
+            window.location.hostname.endsWith("github.io") &&
+            window.location.pathname.startsWith("/spe-basrah");
+        const speOneSignalWorkerPath = speOnGitHubPages
+            ? "/spe-basrah/onesignal/OneSignalSDKWorker.js"
+            : "/onesignal/OneSignalSDKWorker.js";
+        const speOneSignalWorkerScope = speOnGitHubPages
+            ? "/spe-basrah/onesignal/"
+            : "/onesignal/";
+
+        await OneSignal.init({
+          appId: "2f9adc4c-b4f7-4a1a-9fac-9c5aeb7f5caf",
+          serviceWorkerPath: speOneSignalWorkerPath,
+          serviceWorkerParam: {
+            scope: speOneSignalWorkerScope
+          },
+          notifyButton: { enable: false },
+          notificationClickHandlerMatch: "origin",
+          notificationClickHandlerAction: "navigate",
+          allowLocalhostAsSecureOrigin: true
+        });
+
+        console.log("[SPE Basrah] OneSignal initialized");
+        window.__speBasrahResolveOneSignal(OneSignal);
+
+        // Keep web/PWA notification clicks inside the real SPE Basrah path.
+        OneSignal.Notifications.setDefaultUrl(
+          "https://spechapterbasra-cyber.github.io/spe-basrah/"
+        );
+        OneSignal.Notifications.addEventListener("foregroundWillDisplay", function(event) {
+          speBasrahStoreLocalNotification(event);
+        });
+
+        OneSignal.Notifications.addEventListener("click", async function(event) {
+          try {
+            // Store a copy locally, but DO NOT override navigation here.
+            // OneSignal will follow the web_url sent by the Worker.
+            // This avoids the old race where our window.location.assign()
+            // sometimes fought OneSignal's own click navigation.
+            await speBasrahStoreLocalNotification(event);
+          } catch (e) {
+            console.warn("[SPE Basrah] Notification click local-save failed", e);
+          }
+        });
+
+        // Recovery for devices that already granted notification permission
+        // before this build. This creates the missing OneSignal subscription.
+        if (OneSignal.Notifications.permission === true &&
+            OneSignal.User.PushSubscription.optedIn !== true) {
+          try {
+            await OneSignal.User.PushSubscription.optIn();
+            console.log("[SPE Basrah] Existing permission recovered into OneSignal subscription");
+          } catch (e) {
+            console.warn("[SPE Basrah] OneSignal auto opt-in recovery failed", e);
+          }
+        }
+
+        // Re-apply the last known targeting tags on every PWA session. This is
+        // important for existing Safari/iOS subscribers after an app update or
+        // browser data migration. It does not read Firestore.
+        if (OneSignal.Notifications.permission === true) {
+          try {
+            const raw = localStorage.getItem("spe_basrah_onesignal_tags_v2");
+            const savedTags = raw ? JSON.parse(raw) : null;
+            if (savedTags && typeof savedTags === "object") {
+              savedTags.notifications_enabled = "true";
+              await speBasrahWaitForPushSubscription(OneSignal, 12000);
+              await OneSignal.User.addTags(savedTags);
+              console.log("[SPE Basrah] Restored OneSignal targeting tags", savedTags);
+            } else {
+              // At minimum mark an already-subscribed device as enabled. Flutter
+              // will add stage/course/content tags from saved preferences.
+              await speBasrahSetTagWithRetry(OneSignal, "notifications_enabled", "true");
+            }
+          } catch (e) {
+            console.warn("[SPE Basrah] OneSignal tag restore failed", e);
+          }
+        }
+      } catch (e) {
+        console.error("[SPE Basrah] OneSignal init failed", e);
+        window.__speBasrahRejectOneSignal(e);
+      }
+    });
+  </script>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
