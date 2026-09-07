@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SPE Basrah OneSignal Check</title>
+  <style>
+    body{font-family:system-ui,-apple-system,sans-serif;padding:24px;line-height:1.55;max-width:760px;margin:auto}
+    pre{white-space:pre-wrap;background:#f4f4f4;padding:16px;border-radius:12px}
+    button{font:inherit;padding:12px 18px;border-radius:10px;border:0;background:#0759B8;color:white}
+  </style>
+</head>
+<body>
+<h2>SPE Basrah — OneSignal Check</h2>
+<pre id="out">Loading...</pre>
+<button id="fix" hidden>Register this device in OneSignal</button>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+  const out = document.getElementById('out');
+  const fix = document.getElementById('fix');
+  const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+  out.textContent = 'Standalone: ' + standalone + '\nLoading OneSignal...';
+  const render = async () => {
+    const sw = await navigator.serviceWorker.getRegistration('/spe-basrah/onesignal/');
+    out.textContent =
+      'Origin: ' + location.origin + '\n' +
+      'Path: ' + location.pathname + '\n' +
+      'Standalone: ' + (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true) + '\n' +
+      'Notification permission: ' + Notification.permission + '\n' +
+      'OneSignal permission: ' + OneSignal.Notifications.permission + '\n' +
+      'Opted in: ' + (OneSignal.User.PushSubscription.optedIn === true) + '\n' +
+      'Subscription ID: ' + (OneSignal.User.PushSubscription.id || '(not subscribed)') + '\n' +
+      'OneSignal SW: ' + (sw ? sw.scope : '(not registered)');
+    fix.hidden = OneSignal.User.PushSubscription.optedIn === true;
+  };
+  try {
+    await Promise.race([
+      OneSignal.init({
+      appId: '2f9adc4c-b4f7-4a1a-9fac-9c5aeb7f5caf',
+      serviceWorkerPath: '/spe-basrah/onesignal/OneSignalSDKWorker.js',
+      serviceWorkerParam: { scope: '/spe-basrah/onesignal/' },
+      notifyButton: { enable: false }
+      }),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('OneSignal initialization timed out')), 15000))
+    ]);
+    await render();
+    fix.onclick = async () => {
+      fix.disabled = true;
+      try {
+        if (OneSignal.Notifications.permission !== true) {
+          await OneSignal.Notifications.requestPermission();
+        }
+        if (OneSignal.Notifications.permission === true) {
+          if (OneSignal.User.PushSubscription.optedIn !== true) {
+            let lastError;
+            for (let attempt = 0; attempt < 4; attempt += 1) {
+              try {
+                await OneSignal.User.PushSubscription.optIn();
+                lastError = null;
+                break;
+              } catch (error) {
+                lastError = error;
+                const message = String(error || '').toLowerCase();
+                const transient = message.includes('aborterror') ||
+                  message.includes('connection was closed') ||
+                  message.includes('network');
+                if (!transient || attempt === 3) throw error;
+                await new Promise(resolve => setTimeout(resolve, 700 * (attempt + 1)));
+              }
+            }
+            if (lastError) throw lastError;
+          }
+        }
+      } catch (e) {
+        out.textContent += '\n\nERROR: ' + String(e);
+      }
+      await render();
+      fix.disabled = false;
+    };
+  } catch (e) {
+    out.textContent = 'Standalone: ' + standalone + '\nINIT ERROR\n' + String(e);
+  }
+});
+</script>
+</body>
+</html>

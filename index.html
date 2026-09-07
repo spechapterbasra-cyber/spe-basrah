@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/spe-basrah/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="SPE Basrah Student Chapter academic and engineering platform.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="SPE Basrah">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png?v=4"/>
+
+  <title>SPE Basrah</title>
+  <link rel="manifest" href="manifest.json?v=4">
+  <script>
+    // Academic cache invalidation queue written by the FCM service worker.
+    const SPE_CACHE_SIGNAL_DB = "spe_basrah_cache_signal_v1";
+    const SPE_CACHE_SIGNAL_STORE = "signals";
+
+    function speBasrahOpenCacheSignalDb() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(SPE_CACHE_SIGNAL_DB, 1);
+        request.onupgradeneeded = () => {
+          const db = request.result;
+          if (!db.objectStoreNames.contains(SPE_CACHE_SIGNAL_STORE)) {
+            db.createObjectStore(SPE_CACHE_SIGNAL_STORE, { keyPath: "id" });
+          }
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    async function speBasrahStoreAcademicInvalidation(data) {
+      if (!data) return false;
+      const academicStage = String(data.academicStage || data.academic_stage || data.stage || "").trim();
+      const academicCourse = String(data.academicCourse || data.academic_course || data.course || "").trim();
+      const subject = String(data.subject || data.academicSubject || "").trim();
+      const category = String(data.category || data.academicCategory || "").trim();
+      const action = String(data.cache_action || data.cacheAction || "academic_invalidate").toLowerCase();
+      if (!academicStage || !academicCourse) return false;
+      if (action !== "subject_info_invalidate" && (!subject || !category)) return false;
+      try {
+        const db = await speBasrahOpenCacheSignalDb();
+        const item = {
+          id: `${action}|${academicStage}|${academicCourse}|${subject}|${category}|${Date.now()}|${Math.random()}`,
+          cache_action: action,
+          academicStage,
+          academicCourse,
+          ...(subject ? { subject } : {}),
+          ...(category ? { category } : {}),
+          ...(data.publishedAtMs ? { publishedAtMs: String(data.publishedAtMs) } : {}),
+          createdAt: Date.now(),
+        };
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_CACHE_SIGNAL_STORE, "readwrite");
+          tx.objectStore(SPE_CACHE_SIGNAL_STORE).put(item);
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+        });
+        db.close();
+        return true;
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to store academic invalidation", error);
+        return false;
+      }
+    }
+
+    window.speBasrahDrainAcademicInvalidations = async function() {
+      try {
+        const db = await speBasrahOpenCacheSignalDb();
+        const items = await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_CACHE_SIGNAL_STORE, "readwrite");
+          const store = tx.objectStore(SPE_CACHE_SIGNAL_STORE);
+          const request = store.getAll();
+          request.onsuccess = () => {
+            const rows = Array.isArray(request.result) ? request.result : [];
+            store.clear();
+            resolve(rows);
+          };
+          request.onerror = () => reject(request.error);
+        });
+        db.close();
+        return JSON.stringify(items);
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to drain academic invalidations", error);
+        return "[]";
+      }
+    };
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.addEventListener("message", async (event) => {
+        if (event?.data?.type === "SPE_ACADEMIC_INVALIDATE") {
+          await speBasrahStoreAcademicInvalidation(event.data.data || {});
+        }
+      });
+    }
+
+    // ------------------------------------------------------------------
+    // Local notification inbox (IndexedDB). This intentionally avoids
+    // reading app_notifications from Firestore on every device.
+    // ------------------------------------------------------------------
+    const SPE_INBOX_DB = "spe_basrah_local_inbox_v1";
+    const SPE_INBOX_STORE = "notifications";
+
+    function speBasrahOpenInboxDb() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(SPE_INBOX_DB, 1);
+        request.onupgradeneeded = () => {
+          const db = request.result;
+          if (!db.objectStoreNames.contains(SPE_INBOX_STORE)) {
+            db.createObjectStore(SPE_INBOX_STORE, { keyPath: "id" });
+          }
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    function speBasrahNotificationFromObject(input) {
+      const notification = input?.notification || input || {};
+      const additional =
+        notification.additionalData ||
+        notification.data ||
+        input?.additionalData ||
+        input?.data ||
+        {};
+
+      const route =
+        String(additional.route || notification.route || "").trim();
+
+      return {
+        id: String(
+          additional.inboxId ||
+          additional.notificationId ||
+          notification.notificationId ||
+          notification.id ||
+          `${Date.now()}-${Math.random()}`
+        ),
+        title: String(
+          notification.title ||
+          additional.title ||
+          "SPE Basrah"
+        ),
+        body: String(
+          notification.body ||
+          additional.body ||
+          ""
+        ),
+        route,
+        academicStage: String(additional.academicStage || "").trim(),
+        academicCourse: String(additional.academicCourse || "").trim(),
+        subject: String(additional.subject || "").trim(),
+        category: String(additional.category || "").trim(),
+        contentType: String(additional.contentType || "").trim(),
+        createdAt: Date.parse(additional.sentAt || "") || Date.now(),
+      };
+    }
+
+    async function speBasrahStoreLocalNotification(input) {
+      try {
+        const item = speBasrahNotificationFromObject(input);
+        if (!item.body.trim() || Date.now() - item.createdAt >= 48 * 60 * 60 * 1000) return false;
+        const db = await speBasrahOpenInboxDb();
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_INBOX_STORE, "readwrite");
+          tx.objectStore(SPE_INBOX_STORE).put(item);
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+        });
+        db.close();
+        window.dispatchEvent(new CustomEvent("spe-basrah-local-inbox-changed"));
+        return true;
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to store local notification", error);
+        return false;
+      }
+    }
+
+    window.speBasrahDrainLocalNotifications = async function() {
+      try {
+        const db = await speBasrahOpenInboxDb();
+        const items = await new Promise((resolve, reject) => {
+          const tx = db.transaction(SPE_INBOX_STORE, "readwrite");
+          const store = tx.objectStore(SPE_INBOX_STORE);
+          const request = store.getAll();
+          request.onsuccess = () => {
+            const rows = Array.isArray(request.result) ? request.result : [];
+            store.clear();
+            resolve(rows);
+          };
+          request.onerror = () => reject(request.error);
+        });
+        db.close();
+
+        items.sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+        return JSON.stringify(items);
+      } catch (error) {
+        console.warn("[SPE Basrah] Failed to drain local notification inbox", error);
+        return "[]";
+      }
+    };
+
+
+  </script>
+  <script src="fcm-push.js" defer></script>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
