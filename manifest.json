@@ -1,0 +1,38 @@
+{
+  "name": "SPE Basrah",
+  "short_name": "SPE Basrah",
+  "start_url": "/spe-basrah/",
+  "display": "standalone",
+  "background_color": "#0759B8",
+  "theme_color": "#0759B8",
+  "description": "SPE University of Basrah Student Chapter",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/spe-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/spe-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/spe-icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/spe-icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "scope": "/spe-basrah/"
+}

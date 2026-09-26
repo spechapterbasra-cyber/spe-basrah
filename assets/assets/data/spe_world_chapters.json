@@ -1,0 +1,4444 @@
+{
+  "continents": [
+    {
+      "id": "asia",
+      "nameAr": "آسيا",
+      "nameEn": "Asia",
+      "aliases": [
+        "اسيا",
+        "الخليج",
+        "الخليج العربي",
+        "الشرق الاوسط",
+        "gulf",
+        "middle east",
+        "gcc"
+      ],
+      "countries": [
+        {
+          "id": "sa",
+          "flag": "🇸🇦",
+          "nameAr": "السعودية",
+          "nameEn": "Saudi Arabia",
+          "aliases": [
+            "السعوديه",
+            "المملكة العربية السعودية",
+            "المملكه",
+            "ksa",
+            "saudi"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة الملك فهد للبترول والمعادن",
+              "nameEn": "SPE KFUPM Student Chapter",
+              "aliases": [
+                "kfupm",
+                "فهد",
+                "الملك فهد",
+                "king fahd university of petroleum and minerals",
+                "الظهران",
+                "dhahran",
+                "البترول والمعادن"
+              ],
+              "links": [
+                "https://www.instagram.com/spekfupm",
+                "https://www.facebook.com/share/1LVGwiwZxb/",
+                "https://www.linkedin.com/company/spekfupmchapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/kfupm_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة الملك عبد الله للعلوم والتكنولوجيا",
+              "nameEn": "SPE KAUST Student Chapter",
+              "aliases": [
+                "kaust",
+                "كاوست",
+                "الملك عبدالله",
+                "king abdullah university of science and technology",
+                "ثول",
+                "thuwal"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_kaust",
+                "https://www.facebook.com/share/1K3oFg2HaF/",
+                "https://www.linkedin.com/company/kaust-spe-student-chapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/kaust_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة الملك سعود",
+              "nameEn": "SPE King Saud University Chapter",
+              "aliases": [
+                "ksu",
+                "الملك سعود",
+                "king saud university",
+                "الرياض",
+                "riyadh"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_ksu",
+                "https://www.facebook.com/share/19ZMNGBS3C/",
+                "https://www.linkedin.com/company/ksu-spe-student-chapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/king_saud_university_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة الأمير محمد بن فهد",
+              "nameEn": "SPE Prince Mohammad Bin Fahd University Chapter",
+              "aliases": [
+                "al khobar"
+              ],
+              "links": [
+                "https://www.instagram.com/pmu_spe",
+                "https://www.spe.org/en/chapter/6074/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الملك فيصل",
+              "nameEn": "SPE King Faisal University Chapter",
+              "aliases": [
+                "al-ahsa"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_kfu",
+                "https://www.linkedin.com/company/spe-kfu-student-chapter",
+                "https://www.spe.org/en/chapter/6160/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6160.jpg"
+            },
+            {
+              "nameAr": "كلية الجبيل الصناعية",
+              "nameEn": "SPE Jubail Industrial College Chapter",
+              "aliases": [
+                "jubail industrial"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6358/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الإمام عبد الرحمن بن فيصل",
+              "nameEn": "SPE Imam Abdulrahman Bin Faisal University Chapter",
+              "aliases": [
+                "dammam"
+              ],
+              "links": [
+                "https://x.com/spe_iau",
+                "https://www.spe.org/en/chapter/6363/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6363.jpg"
+            },
+            {
+              "nameAr": "جامعة الأعمال والتكنولوجيا",
+              "nameEn": "SPE University of Business and Technology Chapter",
+              "aliases": [
+                "jeddah"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6365/"
+              ]
+            },
+            {
+              "nameAr": "كليات الأصالة",
+              "nameEn": "SPE Alasala Colleges Chapter",
+              "aliases": [
+                "dammam"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6368/"
+              ]
+            },
+            {
+              "nameAr": "جامعة اليمامة",
+              "nameEn": "SPE Al Yamamah University Chapter",
+              "aliases": [
+                "khobar"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6403/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الفيصل",
+              "nameEn": "SPE Alfaisal University Chapter",
+              "aliases": [
+                "riyadh"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6404/"
+              ]
+            },
+            {
+              "nameAr": "جامعة طيبة",
+              "nameEn": "SPE Taibah University Chapter",
+              "aliases": [
+                "yanbu"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6407/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الطائف",
+              "nameEn": "SPE Taif University Chapter",
+              "aliases": [
+                "taif"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6408/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بيشة",
+              "nameEn": "SPE University of Bisha Chapter",
+              "aliases": [
+                "bisha"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6409/"
+              ]
+            },
+            {
+              "nameAr": "جامعة عفت",
+              "nameEn": "SPE Effat University Chapter",
+              "aliases": [
+                "jeddah"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6434/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ae",
+          "flag": "🇦🇪",
+          "nameAr": "الإمارات",
+          "nameEn": "United Arab Emirates",
+          "aliases": [
+            "الامارات",
+            "الإمارات العربية المتحدة",
+            "uae",
+            "emirates"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة خليفة / معهد البترول سابقاً",
+              "nameEn": "SPE Khalifa University Chapter / Petroleum Institute",
+              "aliases": [
+                "خليفة",
+                "khalifa",
+                "ku",
+                "petroleum institute",
+                "pi",
+                "معهد البترول",
+                "ابوظبي",
+                "أبوظبي",
+                "abu dhabi"
+              ],
+              "links": [
+                "https://www.instagram.com/ku_spe",
+                "https://www.linkedin.com/in/spe-ku-student-chapter-a8a69b2b7"
+              ],
+              "logo": "assets/images/spe_world_chapters/khalifa_university_chapter_petroleum_institute.jpg"
+            },
+            {
+              "nameAr": "جامعة الإمارات العربية المتحدة",
+              "nameEn": "SPE United Arab Emirates University Chapter",
+              "aliases": [
+                "uaeu",
+                "جامعة الامارات",
+                "العين",
+                "al ain"
+              ],
+              "links": [
+                "https://www.instagram.com/speuaeu",
+                "https://www.linkedin.com/company/speuaeu/"
+              ],
+              "logo": "assets/images/spe_world_chapters/united_arab_emirates_university_chapter.jpg"
+            },
+            {
+              "nameAr": "الجامعة الأمريكية في الشارقة",
+              "nameEn": "SPE American University of Sharjah Chapter",
+              "aliases": [
+                "aus",
+                "الشارقة",
+                "sharjah",
+                "الامريكية الشارقة"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_aus",
+                "https://www.facebook.com/share/1DFvL9eLeS/"
+              ],
+              "logo": "assets/images/spe_world_chapters/american_university_of_sharjah_chapter.jpg"
+            },
+            {
+              "nameAr": "الجامعة الأمريكية في رأس الخيمة",
+              "nameEn": "SPE American University of Ras Al Khaimah Chapter",
+              "aliases": [
+                "aurak",
+                "راس الخيمة",
+                "رأس الخيمة",
+                "ras al khaimah"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6305/"
+              ]
+            },
+            {
+              "nameAr": "بوليتكنك أبوظبي",
+              "nameEn": "SPE Abu Dhabi Polytechnic Chapter",
+              "aliases": [
+                "abu dhabi"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/adpoly-spe-student-chapter-2931a8195",
+                "https://www.spe.org/en/chapter/6200/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qa",
+          "flag": "🇶🇦",
+          "nameAr": "قطر",
+          "nameEn": "Qatar",
+          "aliases": [
+            "الدوحة",
+            "doha"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة قطر",
+              "nameEn": "SPE Qatar University Student Chapter",
+              "aliases": [
+                "qu",
+                "qatar university"
+              ],
+              "links": [],
+              "logo": "assets/images/spe_world_chapters/qatar_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة تكساس إي أند إم في قطر",
+              "nameEn": "SPE Texas A&M University at Qatar Chapter",
+              "aliases": [
+                "tamuq",
+                "texas a&m qatar",
+                "تكساس قطر",
+                "تكساس اي اند ام"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_tamuq",
+                "https://www.facebook.com/share/1CEdeSeue6/"
+              ],
+              "logo": "assets/images/spe_world_chapters/texas_a_m_university_at_qatar_chapter.jpg"
+            }
+          ]
+        },
+        {
+          "id": "om",
+          "flag": "🇴🇲",
+          "nameAr": "عُمان",
+          "nameEn": "Oman",
+          "aliases": [
+            "عمان",
+            "سلطنة عمان",
+            "مسقط",
+            "muscat",
+            "sultanate of oman"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة السلطان قابوس",
+              "nameEn": "SPE Sultan Qaboos University Chapter",
+              "aliases": [
+                "squ",
+                "قابوس",
+                "السلطان قابوس",
+                "sultan qaboos"
+              ],
+              "links": [
+                "https://www.instagram.com/spesqu",
+                "https://www.facebook.com/share/19Wo7cA8Xa/",
+                "https://www.linkedin.com/in/spesqu",
+                "https://youtube.com/@spesqu255"
+              ],
+              "logo": "assets/images/spe_world_chapters/sultan_qaboos_university_chapter.jpg"
+            },
+            {
+              "nameAr": "الكلية الدولية للهندسة والإدارة",
+              "nameEn": "SPE International College of Engineering & Management Chapter",
+              "aliases": [
+                "icem",
+                "الكلية الدولية",
+                "international college of engineering and management"
+              ],
+              "links": [
+                "https://www.instagram.com/spe.icem",
+                "https://www.linkedin.com/in/spe-icem-80a399318"
+              ],
+              "logo": "assets/images/spe_world_chapters/international_college_of_engineering_management_.jpg"
+            },
+            {
+              "nameAr": "الجامعة الوطنية للعلوم والتكنولوجيا",
+              "nameEn": "SPE National University of Science and Technology Chapter",
+              "aliases": [
+                "nust",
+                "الجامعة الوطنية",
+                "national university"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6023/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الألمانية للتكنولوجيا في عُمان",
+              "nameEn": "SPE German University of Technology Oman Chapter",
+              "aliases": [
+                "muscat"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6416/"
+              ]
+            },
+            {
+              "nameAr": "جامعة التقنية والعلوم التطبيقية - مسقط",
+              "nameEn": "SPE UTAS Muscat Chapter",
+              "aliases": [
+                "muscat"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6431/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bh",
+          "flag": "🇧🇭",
+          "nameAr": "البحرين",
+          "nameEn": "Bahrain",
+          "aliases": [
+            "بحرين",
+            "bahrein",
+            "المنامة",
+            "manama"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة البحرين",
+              "nameEn": "SPE University of Bahrain Student Chapter",
+              "aliases": [
+                "uob",
+                "university of bahrain",
+                "جامعه البحرين"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_uob",
+                "https://www.facebook.com/share/1DYfV2jDoS/",
+                "https://www.linkedin.com/in/spe-uob-chapter-074997215",
+                "https://youtube.com/@spe_uob"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_bahrain_student_chapter.jpg"
+            }
+          ]
+        },
+        {
+          "id": "kw",
+          "flag": "🇰🇼",
+          "nameAr": "الكويت",
+          "nameEn": "Kuwait",
+          "aliases": [
+            "كويت",
+            "q8"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة الكويت",
+              "nameEn": "SPE Kuwait University Student Chapter",
+              "aliases": [
+                "kuwait university",
+                "ku"
+              ],
+              "links": [
+                "https://www.instagram.com/q8spe",
+                "https://www.facebook.com/share/1FgFTCAPwS/",
+                "https://www.linkedin.com/company/spe-kuwait-section/"
+              ],
+              "logo": "assets/images/spe_world_chapters/kuwait_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "الجامعة الأسترالية في الكويت",
+              "nameEn": "SPE Australian University Chapter - AU",
+              "aliases": [
+                "au",
+                "الاسترالية",
+                "australian university",
+                "australian college of kuwait"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6116/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الشرق الأوسط الأمريكية",
+              "nameEn": "SPE American University of the Middle East Chapter - AUM",
+              "aliases": [
+                "aum",
+                "الشرق الاوسط الامريكية",
+                "american university of the middle east"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "in",
+          "flag": "🇮🇳",
+          "nameAr": "الهند",
+          "nameEn": "India",
+          "aliases": [
+            "india",
+            "هند"
+          ],
+          "chapters": [
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا (ISM) - دانباد",
+              "nameEn": "SPE Indian Institute of Technology (ISM), Dhanbad Chapter",
+              "aliases": [
+                "dhanbad"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-iit-ism-sc",
+                "https://www.instagram.com/spe_iitism",
+                "https://www.spe.org/en/chapter/5682/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5682.jpg"
+            },
+            {
+              "nameAr": "جامعة MIT للسلام العالمي",
+              "nameEn": "SPE Mit-World Peace University Chapter",
+              "aliases": [
+                "pune"
+              ],
+              "links": [
+                "https://www.facebook.com/mitwpuspesc",
+                "https://www.linkedin.com/in/mit-wpu-spe-sc-a126a316b",
+                "https://www.spe.org/en/chapter/5684/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بانديت ديندايال للطاقة",
+              "nameEn": "SPE Pandit Deendayal Energy University Chapter",
+              "aliases": [
+                "gandhinagar"
+              ],
+              "links": [
+                "https://x.com/spe_pdeu",
+                "https://www.spe.org/en/chapter/6035/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6035.jpg"
+            },
+            {
+              "nameAr": "جامعة دراسات البترول والطاقة (UPES)",
+              "nameEn": "SPE UPES Chapter",
+              "aliases": [
+                "dehradun"
+              ],
+              "links": [
+                "https://www.facebook.com/upes.spe",
+                "https://www.linkedin.com/company/upes-spe-student-chapter",
+                "https://www.spe.org/en/chapter/6051/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6051.jpg"
+            },
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا",
+              "nameEn": "SPE Indian Institute of Technology Chapter",
+              "aliases": [
+                "kharagpur"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-iit-kharagpur",
+                "https://www.spe.org/en/chapter/6067/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6067.jpg"
+            },
+            {
+              "nameAr": "معهد راجيف غاندي لتكنولوجيا البترول",
+              "nameEn": "SPE Rajiv Gandhi Institute of Petroleum Technology Chapter",
+              "aliases": [
+                "rae bareli"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_rgipt",
+                "https://www.spergipt.org",
+                "https://www.spe.org/en/chapter/6076/"
+              ]
+            },
+            {
+              "nameAr": "كلية AC للتكنولوجيا - جامعة آنا",
+              "nameEn": "SPE AC Tech, Anna University Chapter",
+              "aliases": [
+                "chennai"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_auact",
+                "https://www.spe.org/en/chapter/6098/"
+              ]
+            },
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا - مدراس",
+              "nameEn": "SPE Indian Institute of Technology Madras",
+              "aliases": [
+                "chennai"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/iit-madras-spe-student-chapter",
+                "https://linktr.ee/iitm.spe",
+                "https://www.spe.org/en/chapter/6099/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6099.jpg"
+            },
+            {
+              "nameAr": "جامعة ديبروغار",
+              "nameEn": "SPE Dibrugarh University Chapter",
+              "aliases": [
+                "dibrugarh"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_du_chapter",
+                "https://www.linkedin.com/company/spe-dibrugarh-university-student-chapter",
+                "https://www.spe.org/en/chapter/6112/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6112.jpg"
+            },
+            {
+              "nameAr": "جامعة جواهر لال نهرو التكنولوجية - كاكينادا",
+              "nameEn": "SPE Jawaharlal Nehru Technological University Kakinada - Chapter",
+              "aliases": [
+                "kakinada"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/jntuk-spe-student-chapter",
+                "https://www.spe.org/en/chapter/6114/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6114.jpg"
+            },
+            {
+              "nameAr": "معهد دهرادون للتكنولوجيا",
+              "nameEn": "SPE Dehradun Institute of Technology Chapter",
+              "aliases": [
+                "dehradun"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6115/"
+              ]
+            },
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا - بومباي",
+              "nameEn": "SPE Indian Institute of Technology Bombay Chapter",
+              "aliases": [
+                "mumbai"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-iitb",
+                "https://www.spe.org/en/chapter/6144/"
+              ]
+            },
+            {
+              "nameAr": "كلية نوروزجي واديا",
+              "nameEn": "SPE Nowrosjee Wadia College Chapter",
+              "aliases": [
+                "pune"
+              ],
+              "links": [
+                "https://www.instagram.com/nwc_spesc",
+                "https://www.facebook.com/NWCSPEChapter",
+                "https://www.linkedin.com/company/spe-nowrosjee-wadia-college-student-chapter",
+                "https://www.spe.org/en/chapter/6202/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6202.jpg"
+            },
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا - غواهاتي",
+              "nameEn": "SPE Indian Inst of Technology Guwahati Chapter",
+              "aliases": [
+                "guwahati"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-iit-guwahati-student-chapter",
+                "https://www.speiitg.in",
+                "https://www.spe.org/en/chapter/6246/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6246.jpg"
+            },
+            {
+              "nameAr": "معهد فيلور للتكنولوجيا",
+              "nameEn": "SPE Vellore Institute of Technology Chapter",
+              "aliases": [
+                "vellore"
+              ],
+              "links": [
+                "https://www.facebook.com/spevit",
+                "https://www.spe.org/en/chapter/6262/"
+              ]
+            },
+            {
+              "nameAr": "جامعة عليكرة الإسلامية",
+              "nameEn": "SPE Aligarh Muslim University Aligarh Chapter",
+              "aliases": [
+                "aligarh"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6267/"
+              ]
+            },
+            {
+              "nameAr": "جامعة غرافيك إيرا",
+              "nameEn": "SPE Graphic Era University Chapter",
+              "aliases": [
+                "dehradun"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.geu",
+                "https://www.linkedin.com/in/geu-spe-student-chapter-63b23a154",
+                "https://www.spe.org/en/chapter/6270/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بريزيدنسي - بنغالور",
+              "nameEn": "SPE Presidency University Bengaluru Chapter",
+              "aliases": [
+                "chokkanahalli"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_pu",
+                "https://www.linkedin.com/company/spe-presidency-university-student-chapter-bengaluru",
+                "https://www.spe.org/en/chapter/6306/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6306.jpg"
+            },
+            {
+              "nameAr": "المعهد الهندي للبترول والطاقة",
+              "nameEn": "SPE Indian Institute of Petroleum and Energy Chapter",
+              "aliases": [
+                "visakhapatnam"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/iipe-spe-student-chapter-new",
+                "https://www.spe.org/en/chapter/6332/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6332.jpg"
+            },
+            {
+              "nameAr": "جامعة بارول",
+              "nameEn": "SPE Parul University Chapter",
+              "aliases": [
+                "vadodara"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-pu-student-chapter",
+                "https://www.spe.org/en/chapter/6343/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6343.jpg"
+            },
+            {
+              "nameAr": "المعهد الهندي للتكنولوجيا - روركي",
+              "nameEn": "SPE Indian Institute of Technology Roorkee Chapter",
+              "aliases": [
+                "roorkee"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/iitr-spe",
+                "https://www.spe.org/en/chapter/6376/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6376.jpg"
+            },
+            {
+              "nameAr": "كلية دانيش أحمد للهندسة",
+              "nameEn": "SPE Dhaanish Ahmed College of Engineering Chapter",
+              "aliases": [
+                "chennai"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6413/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id",
+          "flag": "🇮🇩",
+          "nameAr": "إندونيسيا",
+          "nameEn": "Indonesia",
+          "aliases": [
+            "indonesia",
+            "اندونيسيا",
+            "جاكرتا"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة تريساكتي",
+              "nameEn": "SPE Trisakti University  Chapter",
+              "aliases": [
+                "jakarta"
+              ],
+              "links": [
+                "https://www.instagram.com/speusakti",
+                "https://www.linkedin.com/company/spe-trisakti-student-chapter",
+                "https://www.facebook.com/SPETrisaktiSC",
+                "https://www.spe.org/en/chapter/5507/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5507.jpg"
+            },
+            {
+              "nameAr": "معهد باندونغ للتكنولوجيا",
+              "nameEn": "SPE Bandung Institute of Technology Chapter",
+              "aliases": [
+                "bandung"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-bandung-institute-of-technology-student-chapter",
+                "https://www.instagram.com/speitbsc",
+                "https://www.facebook.com/speitbsc",
+                "https://www.spe.org/en/chapter/5512/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5512.jpg"
+            },
+            {
+              "nameAr": "جامعة UPN فيتيران - يوغياكارتا",
+              "nameEn": "SPE UPN Veteran Yogyakarta Chapter",
+              "aliases": [
+                "yogyakarta"
+              ],
+              "links": [
+                "https://www.instagram.com/speupnsc",
+                "https://www.linkedin.com/company/speupnsc",
+                "https://www.youtube.com/channel/UCGU1GUgCRlMOHT2L2Zc9hLA",
+                "https://www.spe.org/en/chapter/5933/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5933.jpg"
+            },
+            {
+              "nameAr": "جامعة إندونيسيا",
+              "nameEn": "SPE Universitas Indonesia Chapter",
+              "aliases": [
+                "depok"
+              ],
+              "links": [
+                "https://www.instagram.com/speuisc",
+                "https://www.linkedin.com/company/speuisc",
+                "https://www.facebook.com/speuisc",
+                "https://www.spe.org/en/chapter/5958/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5958.jpg"
+            },
+            {
+              "nameAr": "كلية ميغاس للتكنولوجيا - باليكبابان",
+              "nameEn": "SPE STT Migas Balikpapan Chapter",
+              "aliases": [
+                "kalimantan"
+              ],
+              "links": [
+                "https://www.instagram.com/spesttmigassc",
+                "https://www.linkedin.com/company/spesttmigassc",
+                "https://www.facebook.com/spesttmigassc",
+                "https://www.spe.org/en/chapter/5970/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5970.jpg"
+            },
+            {
+              "nameAr": "الجامعة الإسلامية في رياو",
+              "nameEn": "SPE Islamic University of Riau Chapter",
+              "aliases": [
+                "riau"
+              ],
+              "links": [
+                "https://www.facebook.com/speuirsc",
+                "https://spe.uir.ac.id",
+                "https://www.spe.org/en/chapter/5975/"
+              ]
+            },
+            {
+              "nameAr": "جامعة غادجاه مادا",
+              "nameEn": "SPE Gadjah Mada University Chapter",
+              "aliases": [
+                "java"
+              ],
+              "links": [
+                "https://www.instagram.com/speugmsc",
+                "https://www.linkedin.com/company/speugmsc",
+                "https://www.spe.org/en/chapter/6033/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6033.jpg"
+            },
+            {
+              "nameAr": "معهد سيبولوه نوبمبر للتكنولوجيا",
+              "nameEn": "SPE Institut Teknologi Sepuluh Nopember (ITS) Chapter",
+              "aliases": [
+                "surabaya"
+              ],
+              "links": [
+                "https://www.instagram.com/speitssc",
+                "https://www.linkedin.com/company/speitssc",
+                "https://www.spe.org/en/chapter/6073/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6073.jpg"
+            },
+            {
+              "nameAr": "جامعة حسن الدين",
+              "nameEn": "SPE Hasanuddin University Chapter",
+              "aliases": [
+                "makassar"
+              ],
+              "links": [
+                "https://www.instagram.com/speunhas",
+                "https://www.spe.org/en/chapter/6185/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ديبونيغورو",
+              "nameEn": "SPE Universitas Diponegoro Chapter",
+              "aliases": [
+                "semarang"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/speundipsc",
+                "https://linktr.ee/speundipsc",
+                "https://www.spe.org/en/chapter/6190/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6190.jpg"
+            },
+            {
+              "nameAr": "جامعة بادجادجاران",
+              "nameEn": "SPE Padjadjaran University Chapter",
+              "aliases": [
+                "sumedang"
+              ],
+              "links": [
+                "https://www.instagram.com/speunpadsc",
+                "https://www.linkedin.com/company/speunpadsc",
+                "https://www.spe.org/en/chapter/6204/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6204.jpg"
+            },
+            {
+              "nameAr": "معهد باندونغ للتكنولوجيا والعلوم",
+              "nameEn": "SPE Institut Teknologi dan Sains Bandung Chapter",
+              "aliases": [
+                "bekasi regency"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6277/"
+              ]
+            },
+            {
+              "nameAr": "بوليتكنك الطاقة والمعادن أكاميغاس",
+              "nameEn": "SPE Politeknik Energi dan Mineral (PEM) Akamigas Chapter",
+              "aliases": [
+                "blora"
+              ],
+              "links": [
+                "https://www.instagram.com/spepemakamigassc",
+                "https://www.linkedin.com/company/spe-pem-akamigas-student-chapter",
+                "https://www.spe.org/en/chapter/6278/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6278.jpg"
+            },
+            {
+              "nameAr": "معهد بالونغان لتكنولوجيا البترول",
+              "nameEn": "SPE Institut Teknologi Petroleum Balongan Chapter",
+              "aliases": [
+                "indramayu"
+              ],
+              "links": [
+                "https://www.instagram.com/speitpbsc",
+                "https://www.linkedin.com/in/speitpbsc",
+                "https://www.spe.org/en/chapter/6279/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بيرتامينا",
+              "nameEn": "SPE Universitas Pertamina Chapter",
+              "aliases": [
+                "jakarta"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-universitas-pertamina-sc",
+                "https://www.spe.org/en/chapter/6330/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6330.jpg"
+            },
+            {
+              "nameAr": "معهد كاليمانتان للتكنولوجيا",
+              "nameEn": "SPE Institut Teknologi Kalimantan Chapter",
+              "aliases": [
+                "karang joang"
+              ],
+              "links": [
+                "https://www.instagram.com/speitksc",
+                "https://www.linkedin.com/in/spe-itk-sc-86670b218",
+                "https://www.spe.org/en/chapter/6347/"
+              ]
+            },
+            {
+              "nameAr": "جامعة باتيمورا",
+              "nameEn": "SPE Universitas Pattimura Chapter",
+              "aliases": [
+                "maluku"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6372/"
+              ]
+            },
+            {
+              "nameAr": "جامعة مولاوارمان",
+              "nameEn": "SPE Universitas Mulawarman Chapter",
+              "aliases": [
+                "samarinda"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6402/"
+              ]
+            },
+            {
+              "nameAr": "بوليتكنك جاكرتا الحكومي",
+              "nameEn": "SPE Politeknik Negeri Jakarta Chapter",
+              "aliases": [
+                "depok"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6420/"
+              ]
+            },
+            {
+              "nameAr": "جامعة براويجايا",
+              "nameEn": "SPE Universitas Brawijaya Chapter",
+              "aliases": [
+                "malang"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/speubsc",
+                "https://www.spe.org/en/chapter/6427/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6427.jpg"
+            }
+          ]
+        },
+        {
+          "id": "kz",
+          "flag": "🇰🇿",
+          "nameAr": "كازاخستان",
+          "nameEn": "Kazakhstan",
+          "aliases": [
+            "kazakhstan",
+            "قازاخستان"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ساتباييف",
+              "nameEn": "SPE Satbayev University Chapter",
+              "aliases": [
+                "almaty"
+              ],
+              "links": [
+                "https://www.instagram.com/spe.su",
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-satbayev-university-students-chapter",
+                "https://www.spe.org/en/chapter/5938/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5938.jpg"
+            },
+            {
+              "nameAr": "الجامعة الكازاخية البريطانية التقنية",
+              "nameEn": "SPE Kazakh-British Technical University Chapter",
+              "aliases": [
+                "almaty"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5950/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أتيراو للنفط والغاز (أوتيباييف)",
+              "nameEn": "SPE S.Utebayev AOGU Chapter",
+              "aliases": [
+                "atyrau"
+              ],
+              "links": [
+                "https://www.instagram.com/aogispesc",
+                "https://www.spe.org/en/chapter/6064/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نزارباييف",
+              "nameEn": "SPE Nazarbayev University Chapter",
+              "aliases": [
+                "astana"
+              ],
+              "links": [
+                "https://www.instagram.com/nu_spe_sc",
+                "https://www.facebook.com/nu.spe.sc",
+                "https://www.spe.org/en/chapter/6148/"
+              ]
+            },
+            {
+              "nameAr": "مركز أتيراو للتعليم البترولي",
+              "nameEn": "SPE Atyrau Petroleum Education Center Chapter",
+              "aliases": [
+                "atyrau"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6219/"
+              ]
+            },
+            {
+              "nameAr": "جامعة يسينوف",
+              "nameEn": "SPE Yessenov University Chapter",
+              "aliases": [
+                "mangistau"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6224/"
+              ]
+            },
+            {
+              "nameAr": "جامعة قزوين",
+              "nameEn": "SPE Caspian University Chapter",
+              "aliases": [
+                "almaty"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6248/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الفارابي الوطنية الكازاخية",
+              "nameEn": "SPE Al-Farabi Kazakh National University Chapter",
+              "aliases": [
+                "almaty"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.kaznu",
+                "https://www.linkedin.com/company/spe-kaznu",
+                "https://www.spe.org/en/chapter/6298/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6298.jpg"
+            },
+            {
+              "nameAr": "جامعة هيريوت وات - جوبانوف في كازاخستان",
+              "nameEn": "SPE Heriot-Watt Zhubanov Univ Kazakhstan Chapter",
+              "aliases": [
+                "aktobe"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6436/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn",
+          "flag": "🇨🇳",
+          "nameAr": "الصين",
+          "nameEn": "China",
+          "aliases": [
+            "china",
+            "صين",
+            "بكين"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة الصين للبترول - بكين",
+              "nameEn": "SPE University of Petroleum China, Beijing Chapter",
+              "aliases": [
+                "beijing"
+              ],
+              "links": [
+                "https://www.facebook.com/p/China-University-of-Petroleum-Beijing-SPE-Student-Chapter-100071113450356",
+                "https://www.spe.org/en/chapter/5963/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الشمال الشرقي للبترول",
+              "nameEn": "SPE Northeast Petroleum University Chapter",
+              "aliases": [
+                "daqing"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5983/"
+              ]
+            },
+            {
+              "nameAr": "جامعة شيآن للبترول",
+              "nameEn": "SPE Xi'An Shiyou University Chapter",
+              "aliases": [
+                "xian shaanxi"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5986/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الصين لعلوم الأرض - بكين",
+              "nameEn": "SPE China University of Geosciences, Beijing Chapter",
+              "aliases": [
+                "beijing"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6017/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الجنوب الغربي للبترول",
+              "nameEn": "SPE Southwest Petroleum University Chapter",
+              "aliases": [
+                "chengdu"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6089/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الصين للبترول (شرق الصين)",
+              "nameEn": "SPE China University of Petroleum (East China) Chapter",
+              "aliases": [
+                "qingdao"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6129/"
+              ]
+            },
+            {
+              "nameAr": "جامعة خبي للتكنولوجيا البترولية",
+              "nameEn": "SPE Hebei Petroleum University of Technology Chapter",
+              "aliases": [
+                "hebei"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6192/"
+              ]
+            },
+            {
+              "nameAr": "جامعة يانغتسي",
+              "nameEn": "SPE Yangtze University Chapter",
+              "aliases": [
+                "wuhan"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6412/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tr",
+          "flag": "🇹🇷",
+          "nameAr": "تركيا",
+          "nameEn": "Turkey",
+          "aliases": [
+            "turkey",
+            "turkiye",
+            "türkiye",
+            "اسطنبول",
+            "انقرة"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة الشرق الأوسط التقنية",
+              "nameEn": "SPE Middle East Technical University Chapter",
+              "aliases": [
+                "ankara"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_metu",
+                "https://www.spe.org/en/chapter/5514/"
+              ]
+            },
+            {
+              "nameAr": "جامعة إسطنبول التقنية",
+              "nameEn": "SPE Istanbul Technical University Chapter",
+              "aliases": [
+                "istanbul"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-spe-istanbul-technical-university-chapter",
+                "https://www.spe.org/en/chapter/5519/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5519.jpg"
+            },
+            {
+              "nameAr": "جامعة الشرق الأوسط التقنية - قبرص",
+              "nameEn": "SPE Middle East Technical University-Cyprus Chapter",
+              "aliases": [
+                "guzelyurt"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-metu-ncc-student-chapter",
+                "https://www.facebook.com/spemetucyprus",
+                "https://www.spe.org/en/chapter/6041/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6041.jpg"
+            },
+            {
+              "nameAr": "جامعة باطمان",
+              "nameEn": "SPE Batman University Chapter",
+              "aliases": [
+                "batman"
+              ],
+              "links": [
+                "https://www.instagram.com/spebatman",
+                "https://www.linkedin.com/in/spe-batman-university-student-chapter-1a704715a",
+                "https://www.spe.org/en/chapter/6152/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الإسكندرون التقنية",
+              "nameEn": "SPE Iskenderun Technical University Chapter",
+              "aliases": [
+                "iskenderun"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6205/"
+              ]
+            },
+            {
+              "nameAr": "جامعة إزمير كاتب جلبي",
+              "nameEn": "SPE Izmir Katip Celebi University Chapter",
+              "aliases": [
+                "izmir"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/izmir-katip-%C3%A7elebi-university-spe-student-chapter-197350257",
+                "https://www.spe.org/en/chapter/6357/"
+              ]
+            },
+            {
+              "nameAr": "جامعة قبرص الدولية",
+              "nameEn": "SPE Cyprus International University Chapter",
+              "aliases": [
+                "mersin"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6371/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "my",
+          "flag": "🇲🇾",
+          "nameAr": "ماليزيا",
+          "nameEn": "Malaysia",
+          "aliases": [
+            "malaysia",
+            "كوالالمبور"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ماليزيا التكنولوجية",
+              "nameEn": "SPE Universiti Teknologi Malaysia Chapter",
+              "aliases": [
+                "johor darul takim"
+              ],
+              "links": [
+                "https://x.com/speutmsc",
+                "https://www.spe.org/en/chapter/5665/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5665.jpg"
+            },
+            {
+              "nameAr": "جامعة بتروناس التكنولوجية",
+              "nameEn": "SPE Universiti Teknologi Petronas Chapter",
+              "aliases": [
+                "perak darul ridzuan"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/speutpsc",
+                "https://www.instagram.com/speutpsc",
+                "https://www.spe.org/en/chapter/5957/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5957.jpg"
+            },
+            {
+              "nameAr": "جامعة UCSI",
+              "nameEn": "SPE UCSI University Chapter",
+              "aliases": [
+                "cheras"
+              ],
+              "links": [
+                "https://www.facebook.com/SPEUCSISC",
+                "https://www.spe.org/en/chapter/6054/"
+              ]
+            },
+            {
+              "nameAr": "جامعة مارا التكنولوجية",
+              "nameEn": "SPE Universiti Teknologi MARA (UiTM) Chapter",
+              "aliases": [
+                "sg buloh"
+              ],
+              "links": [
+                "https://www.facebook.com/speuitmsc",
+                "https://www.instagram.com/speuitmsc",
+                "https://www.spe.org/en/chapter/6128/"
+              ]
+            },
+            {
+              "nameAr": "جامعة مالايا",
+              "nameEn": "SPE Universiti Malaya Chapter",
+              "aliases": [
+                "kuala lumpur"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-um-sc",
+                "https://www.facebook.com/speumsc",
+                "https://www.spe.org/en/chapter/6211/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6211.jpg"
+            },
+            {
+              "nameAr": "جامعة آسيا والمحيط الهادئ",
+              "nameEn": "SPE Asia Pacific University Chapter",
+              "aliases": [
+                "kuala lumpur"
+              ],
+              "links": [
+                "https://www.facebook.com/speapusc",
+                "https://www.linkedin.com/company/spe-asia-pacific-univeristy-student-chapter",
+                "https://www.spe.org/en/chapter/6319/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6319.jpg"
+            },
+            {
+              "nameAr": "جامعة ماليزيا باهانغ السلطان عبد الله",
+              "nameEn": "SPE UMPSA Chapter",
+              "aliases": [
+                "kuantan"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6366/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pk",
+          "flag": "🇵🇰",
+          "nameAr": "باكستان",
+          "nameEn": "Pakistan",
+          "aliases": [
+            "pakistan"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة مهران للهندسة والتكنولوجيا - جامشورو",
+              "nameEn": "SPE Mehran University of Engr & Tech Jamshoro Chapter",
+              "aliases": [
+                "jamshoro sindh"
+              ],
+              "links": [
+                "https://www.facebook.com/spemuetofficial",
+                "https://www.spe.org/en/chapter/5690/"
+              ]
+            },
+            {
+              "nameAr": "جامعة NED للهندسة والتكنولوجيا",
+              "nameEn": "SPE NED University of Engineering & Technology Chapter",
+              "aliases": [
+                "sindh"
+              ],
+              "links": [
+                "https://www.facebook.com/spened",
+                "https://www.spe.org/en/chapter/5698/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الهندسة والتكنولوجيا - لاهور",
+              "nameEn": "SPE University of Engineering and Technology Lahore Chapter",
+              "aliases": [
+                "lahore"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-uet-lsc",
+                "https://www.facebook.com/SpeUet",
+                "https://www.spe.org/en/chapter/5700/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5700.jpg"
+            },
+            {
+              "nameAr": "جامعة بلوشستان لتقنية المعلومات والهندسة",
+              "nameEn": "SPE Balochistan U of Information Tech, Engr Chapter",
+              "aliases": [
+                "quetta"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-buitems-chapter",
+                "https://www.spe.org/en/chapter/6021/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6021.jpg"
+            },
+            {
+              "nameAr": "جامعة مهران - فرع خيربور مير",
+              "nameEn": "SPE MUET SZAB Campus Khairpur Mir’s Chapter",
+              "aliases": [
+                "khairpur"
+              ],
+              "links": [
+                "https://www.facebook.com/SPEMUCETSC",
+                "https://www.spe.org/en/chapter/6096/"
+              ]
+            },
+            {
+              "nameAr": "جامعة داود للهندسة والتكنولوجيا - كراتشي",
+              "nameEn": "SPE Dawood Univ. of Engineering & Technology, Karachi Chapter",
+              "aliases": [
+                "karachi city gpo"
+              ],
+              "links": [
+                "https://www.facebook.com/SPEDUETOFFICIAL",
+                "https://www.spe.org/en/chapter/6271/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bd",
+          "flag": "🇧🇩",
+          "nameAr": "بنغلاديش",
+          "nameEn": "Bangladesh",
+          "aliases": [
+            "bangladesh",
+            "بنجلاديش"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة دكا",
+              "nameEn": "SPE Dhaka University Chapter",
+              "aliases": [
+                "dhaka"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-du-chapter",
+                "https://www.spe.org/en/chapter/6015/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6015.jpg"
+            },
+            {
+              "nameAr": "جامعة بنغلاديش للهندسة والتكنولوجيا",
+              "nameEn": "SPE Bangladesh University of Engineering & Technology Chapter",
+              "aliases": [
+                "bangladesh"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6016/"
+              ]
+            },
+            {
+              "nameAr": "جامعة شاه جلال للعلوم والتكنولوجيا",
+              "nameEn": "SPE Shahjalal University of Science and Technology Chapter",
+              "aliases": [
+                "sylhet"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/sust-spe-student-chapter",
+                "https://www.spe.org/en/chapter/6068/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6068.jpg"
+            },
+            {
+              "nameAr": "جامعة شيتاغونغ للهندسة والتكنولوجيا",
+              "nameEn": "SPE Chittagong University of Engineering & Technology Chapter",
+              "aliases": [
+                "chittagong"
+              ],
+              "links": [
+                "https://www.facebook.com/CUETSPEStudentChapter",
+                "https://www.linkedin.com/company/cuet-spe-student-chapter-6268",
+                "https://www.spe.org/en/chapter/6268/"
+              ]
+            },
+            {
+              "nameAr": "جامعة جيسور للعلوم والتكنولوجيا",
+              "nameEn": "SPE Jashore University of Science and Technology Chapter",
+              "aliases": [
+                "jessore"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6274/"
+              ]
+            },
+            {
+              "nameAr": "المعهد العسكري للعلوم والتكنولوجيا",
+              "nameEn": "SPE Military Institute of Science and Technology Chapter",
+              "aliases": [
+                "dhaka"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/mist-spe-student-chapter",
+                "https://www.spe.org/en/chapter/6337/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6337.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lb",
+          "flag": "🇱🇧",
+          "nameAr": "لبنان",
+          "nameEn": "Lebanon",
+          "aliases": [
+            "lebanon",
+            "بيروت",
+            "beirut"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة بيروت العربية",
+              "nameEn": "SPE Beirut Arab University Chapter",
+              "aliases": [
+                "beirut"
+              ],
+              "links": [
+                "https://www.facebook.com/spebau",
+                "https://www.spe.org/en/chapter/6236/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة اللبنانية الأمريكية",
+              "nameEn": "SPE Lebanese American University Chapter",
+              "aliases": [
+                "blat"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6296/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة اللبنانية - رومية",
+              "nameEn": "SPE Lebanese University - Roumieh Chapter",
+              "aliases": [
+                "roumieh"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/ulfg2-spe",
+                "https://www.spe.org/en/chapter/6303/"
+              ]
+            },
+            {
+              "nameAr": "جامعة فينيقيا",
+              "nameEn": "SPE Phoenicia University Chapter",
+              "aliases": [
+                "tyre"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6359/"
+              ]
+            },
+            {
+              "nameAr": "جامعة البلمند",
+              "nameEn": "SPE University of Balamand Chapter",
+              "aliases": [
+                "al koura"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6395/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة اللبنانية - الحدث",
+              "nameEn": "SPE Lebanese University - Hadath Chaper",
+              "aliases": [
+                "hadath"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6419/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vn",
+          "flag": "🇻🇳",
+          "nameAr": "فيتنام",
+          "nameEn": "Vietnam",
+          "aliases": [
+            "vietnam",
+            "viet nam"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة هو تشي منه للتكنولوجيا",
+              "nameEn": "SPE Ho Chi Minh University of Technology Chapter",
+              "aliases": [
+                "ho chi minh city"
+              ],
+              "links": [
+                "https://www.facebook.com/HCMUTSPESC",
+                "https://www.spe.org/en/chapter/5955/"
+              ]
+            },
+            {
+              "nameAr": "جامعة هانوي للتعدين والجيولوجيا",
+              "nameEn": "SPE Hanoi University of Mining and Geology Chapter",
+              "aliases": [
+                "hanoi"
+              ],
+              "links": [
+                "https://www.facebook.com/HUMGSPESC",
+                "https://www.spe.org/en/chapter/6043/"
+              ]
+            },
+            {
+              "nameAr": "جامعة العلوم - مدينة هو تشي منه",
+              "nameEn": "SPE University of Science Ho Chi Minh City Chapter",
+              "aliases": [
+                "ho chi minh city"
+              ],
+              "links": [
+                "https://www.facebook.com/hcmus.spesc",
+                "https://www.spe.org/en/chapter/6069/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بتروفيتنام",
+              "nameEn": "SPE PetroVietnam University Chapter",
+              "aliases": [
+                "ba ria"
+              ],
+              "links": [
+                "https://www.facebook.com/pvuspesc",
+                "https://www.spe.org/en/chapter/6196/"
+              ]
+            },
+            {
+              "nameAr": "جامعة دا نانغ للعلوم والتكنولوجيا",
+              "nameEn": "SPE Da Nang Univ of Science and Technology Chapter",
+              "aliases": [
+                "da nang"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6385/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "th",
+          "flag": "🇹🇭",
+          "nameAr": "تايلاند",
+          "nameEn": "Thailand",
+          "aliases": [
+            "thailand",
+            "بانكوك"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة تشولالونغكورن",
+              "nameEn": "SPE Chulalongkorn University Chapter",
+              "aliases": [
+                "bangkok"
+              ],
+              "links": [
+                "https://www.facebook.com/SPEChula",
+                "https://www.spe.org/en/chapter/5508/"
+              ]
+            },
+            {
+              "nameAr": "جامعة سورناري للتكنولوجيا",
+              "nameEn": "SPE Suranaree University of Technology Chapter",
+              "aliases": [
+                "ratchasima"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6047/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الأمير سونغكلا",
+              "nameEn": "SPE Prince of Songkla University Chapter",
+              "aliases": [
+                "songkhla"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6238/"
+              ]
+            },
+            {
+              "nameAr": "جامعة شيانغ ماي",
+              "nameEn": "SPE Chiang Mai University Chapter",
+              "aliases": [
+                "chiang mai"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6339/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ye",
+          "flag": "🇾🇪",
+          "nameAr": "اليمن",
+          "nameEn": "Yemen",
+          "aliases": [
+            "yemen",
+            "يمن",
+            "صنعاء",
+            "عدن"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة حضرموت",
+              "nameEn": "SPE Hadhramout University Chapter",
+              "aliases": [
+                "almukalla"
+              ],
+              "links": [
+                "https://www.facebook.com/100057130042878",
+                "https://www.spe.org/en/chapter/6324/"
+              ]
+            },
+            {
+              "nameAr": "جامعة توينتك الدولية للتكنولوجيا",
+              "nameEn": "SPE International Univ. of Technology Twintech Chapter",
+              "aliases": [
+                "sana'a"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6331/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الإمارات الدولية",
+              "nameEn": "SPE Emirates International University Chapter",
+              "aliases": [
+                "sana'a"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6338/"
+              ]
+            },
+            {
+              "nameAr": "جامعة عدن",
+              "nameEn": "SPE University of Aden Chapter",
+              "aliases": [
+                "aden"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6340/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ph",
+          "flag": "🇵🇭",
+          "nameAr": "الفلبين",
+          "nameEn": "Philippines",
+          "aliases": [
+            "philippines",
+            "فلبين"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ولاية بالاوان",
+              "nameEn": "SPE Palawan State University Chapter",
+              "aliases": [
+                "palawan"
+              ],
+              "links": [
+                "https://www.facebook.com/spepsusc",
+                "https://www.spe.org/en/chapter/5699/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ولاية باتانغاس",
+              "nameEn": "SPE Batangas State University Chapter",
+              "aliases": [
+                "batangas"
+              ],
+              "links": [
+                "https://www.facebook.com/spebsusc",
+                "https://www.spe.org/en/chapter/5968/"
+              ]
+            },
+            {
+              "nameAr": "جامعة آدامسون",
+              "nameEn": "SPE Adamson University Chapter",
+              "aliases": [
+                "manila"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-adamson-university-student-chapter",
+                "https://www.facebook.com/speaduscofficial",
+                "https://www.spe.org/en/chapter/6364/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "az",
+          "flag": "🇦🇿",
+          "nameAr": "أذربيجان",
+          "nameEn": "Azerbaijan",
+          "aliases": [
+            "azerbaijan",
+            "اذربيجان",
+            "باكو",
+            "baku"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة خزر",
+              "nameEn": "SPE Khazar University Chapter",
+              "aliases": [
+                "baku"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-khazar-university-student-chapter",
+                "https://www.spe.org/en/chapter/5964/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5964.jpg"
+            },
+            {
+              "nameAr": "جامعة أذربيجان الحكومية للنفط والصناعة",
+              "nameEn": "SPE Azerbaijan State Oil and Industry University Chapter",
+              "aliases": [
+                "baku"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.asoiu.sc",
+                "https://www.spe.org/en/chapter/5965/"
+              ]
+            },
+            {
+              "nameAr": "مدرسة باكو العليا للنفط",
+              "nameEn": "SPE Baku Higher Oil School Chapter",
+              "aliases": [
+                "baku"
+              ],
+              "links": [
+                "https://www.instagram.com/spe.bhos",
+                "https://www.linkedin.com/company/spe-baku-higher-oil-school-student-chapter",
+                "https://www.spe.org/en/chapter/6213/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6213.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mm",
+          "flag": "🇲🇲",
+          "nameAr": "ميانمار",
+          "nameEn": "Myanmar",
+          "aliases": [
+            "myanmar",
+            "بورما",
+            "burma"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة يانغون التكنولوجية",
+              "nameEn": "SPE Yangon Technological University Chapter",
+              "aliases": [
+                "yangon"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6166/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ثانلين التكنولوجية",
+              "nameEn": "SPE Thanlyin Technological University Chapter",
+              "aliases": [
+                "thanlyin"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6287/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jp",
+          "flag": "🇯🇵",
+          "nameAr": "اليابان",
+          "nameEn": "Japan",
+          "aliases": [
+            "japan",
+            "يابان",
+            "طوكيو"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة واسيدا",
+              "nameEn": "SPE Waseda University Chapter",
+              "aliases": [
+                "shinjuku-ku"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6040/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uz",
+          "flag": "🇺🇿",
+          "nameAr": "أوزبكستان",
+          "nameEn": "Uzbekistan",
+          "aliases": [
+            "uzbekistan",
+            "اوزبكستان",
+            "طشقند"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة غوبكين الروسية للنفط والغاز - طشقند",
+              "nameEn": "SPE Gubkin Russian State Uni of Oil and Gas Tashkent Chapter",
+              "aliases": [
+                "toshkent"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6199/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kr",
+          "flag": "🇰🇷",
+          "nameAr": "كوريا الجنوبية",
+          "nameEn": "South Korea",
+          "aliases": [
+            "south korea",
+            "korea",
+            "كوريا",
+            "سيول"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة سيول الوطنية",
+              "nameEn": "SPE Seoul National University Chapter",
+              "aliases": [
+                "seoul"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6241/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bn",
+          "flag": "🇧🇳",
+          "nameAr": "بروناي",
+          "nameEn": "Brunei",
+          "aliases": [
+            "brunei",
+            "بروناي دار السلام"
+          ],
+          "chapters": [
+            {
+              "nameAr": "بوليتكنك بروناي",
+              "nameEn": "SPE Politeknik Brunei Chapter",
+              "aliases": [
+                "bandar seri begawan"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6247/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tl",
+          "flag": "🇹🇱",
+          "nameAr": "تيمور الشرقية",
+          "nameEn": "Timor-Leste",
+          "aliases": [
+            "timor leste",
+            "east timor",
+            "تيمور"
+          ],
+          "chapters": [
+            {
+              "nameAr": "تيمور الشرقية",
+              "nameEn": "SPE Timor-Leste Chapter",
+              "aliases": [
+                "dili"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6360/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tm",
+          "flag": "🇹🇲",
+          "nameAr": "تركمانستان",
+          "nameEn": "Turkmenistan",
+          "aliases": [
+            "turkmenistan"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ياغشيغيلدي كاكاييف الدولية للنفط والغاز",
+              "nameEn": "SPE Yagshygeldi Kakayev International Oil&Gas U Chapter",
+              "aliases": [
+                "ashgabat"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6374/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "nameAr": "أفريقيا",
+      "nameEn": "Africa",
+      "aliases": [
+        "افريقيا",
+        "إفريقيا",
+        "شمال افريقيا",
+        "شمال أفريقيا",
+        "north africa",
+        "المغرب العربي"
+      ],
+      "countries": [
+        {
+          "id": "eg",
+          "flag": "🇪🇬",
+          "nameAr": "مصر",
+          "nameEn": "Egypt",
+          "aliases": [
+            "مصر العربية",
+            "egypt",
+            "القاهرة",
+            "cairo"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة القاهرة",
+              "nameEn": "SPE Cairo University Student Chapter",
+              "aliases": [
+                "cusc",
+                "cairo university",
+                "جامعه القاهره"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_cusc",
+                "https://www.facebook.com/share/16BidbrUbTZ/",
+                "https://www.linkedin.com/company/specusc/",
+                "https://youtube.com/@spe-cairouniversitystudent4424"
+              ],
+              "logo": "assets/images/spe_world_chapters/cairo_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة السويس",
+              "nameEn": "SPE Suez University Student Chapter",
+              "aliases": [
+                "suez",
+                "susc",
+                "السويس"
+              ],
+              "links": [
+                "https://www.instagram.com/spesusc",
+                "https://www.facebook.com/share/1Lq8eQfTnk/",
+                "https://www.linkedin.com/company/spescusc/",
+                "https://youtube.com/@spescusc"
+              ],
+              "logo": "assets/images/spe_world_chapters/suez_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة الأزهر",
+              "nameEn": "SPE Al-Azhar University Student Chapter - SPE AUSC",
+              "aliases": [
+                "ausc",
+                "al-azhar",
+                "al azhar",
+                "الازهر"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_ausc",
+                "https://www.facebook.com/share/1KaEXGyS2B/",
+                "https://www.linkedin.com/company/speausc/",
+                "https://youtube.com/@speal-azhar3035"
+              ],
+              "logo": "assets/images/spe_world_chapters/al_azhar_university_student_chapter_spe_ausc.jpg"
+            },
+            {
+              "nameAr": "الجامعة الأمريكية بالقاهرة",
+              "nameEn": "SPE American University in Cairo Student Chapter - AUC",
+              "aliases": [
+                "auc",
+                "الامريكية بالقاهرة",
+                "american university in cairo"
+              ],
+              "links": [
+                "https://www.instagram.com/spe.auc",
+                "https://www.facebook.com/share/19hrsp93L4/"
+              ],
+              "logo": "assets/images/spe_world_chapters/american_university_in_cairo_student_chapter_auc.jpg"
+            },
+            {
+              "nameAr": "جامعة الإسكندرية",
+              "nameEn": "SPE Alexandria University Student Chapter",
+              "aliases": [
+                "alexandria",
+                "اسكندرية",
+                "الاسكندرية",
+                "alex"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_alexandria",
+                "https://www.facebook.com/share/1EWRUw2w55/",
+                "https://www.linkedin.com/company/spe-alex/"
+              ],
+              "logo": "assets/images/spe_world_chapters/alexandria_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "الجامعة البريطانية في مصر",
+              "nameEn": "SPE British University in Egypt Student Chapter - BUE",
+              "aliases": [
+                "bue",
+                "البريطانية",
+                "british university in egypt"
+              ],
+              "links": [
+                "https://www.instagram.com/spe.bue",
+                "https://www.facebook.com/share/19sngw1Qdw/",
+                "https://www.linkedin.com/company/spe-bue-sc/"
+              ],
+              "logo": "assets/images/spe_world_chapters/british_university_in_egypt_student_chapter_bue.jpg"
+            },
+            {
+              "nameAr": "جامعة المستقبل",
+              "nameEn": "SPE Future University in Egypt Student Chapter - FUE",
+              "aliases": [
+                "fue",
+                "future university",
+                "المستقبل"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_fue",
+                "https://www.facebook.com/share/19daiXzVZS/",
+                "https://www.linkedin.com/in/spe-fue-sc",
+                "https://youtube.com/@spe-futureuniversitystuden3919"
+              ],
+              "logo": "assets/images/spe_world_chapters/future_university_in_egypt_student_chapter_fue.jpg"
+            },
+            {
+              "nameAr": "جامعة عين شمس",
+              "nameEn": "SPE Ain Shams University Student Chapter",
+              "aliases": [
+                "ain shams",
+                "عين شمس",
+                "asu"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة طنطا",
+              "nameEn": "SPE Tanta University Student Chapter",
+              "aliases": [
+                "tanta",
+                "طنطا"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة المنصورة",
+              "nameEn": "SPE Mansoura University Student Chapter",
+              "aliases": [
+                "mansoura",
+                "المنصورة"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "الجامعة الألمانية بالقاهرة",
+              "nameEn": "SPE German University in Cairo Student Chapter - GUC",
+              "aliases": [
+                "guc",
+                "الالمانية",
+                "german university in cairo"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة فاروس",
+              "nameEn": "SPE Pharos University Student Chapter",
+              "aliases": [
+                "pharos",
+                "فاروس",
+                "pua"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "dz",
+          "flag": "🇩🇿",
+          "nameAr": "الجزائر",
+          "nameEn": "Algeria",
+          "aliases": [
+            "جزائر",
+            "algeria",
+            "algerie"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة بومرداس",
+              "nameEn": "SPE University of Boumerdes Chapter - #6198",
+              "aliases": [
+                "boumerdes",
+                "بومرداس",
+                "umbb"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_uob_sc",
+                "https://www.facebook.com/share/1EzMqxevoQ/",
+                "https://www.linkedin.com/company/society-of-petroleum-engineer-uuniversity-of-boumerdes-student-chapter/",
+                "https://youtube.com/@speuniversityofboumerdesst2691"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_boumerdes_chapter_6198.jpg"
+            },
+            {
+              "nameAr": "جامعة قاصدي مرباح ورقلة",
+              "nameEn": "SPE Université Kasdi Merbah Ouargla Chapter - #6272",
+              "aliases": [
+                "ouargla",
+                "ورقلة",
+                "kasdi merbah",
+                "قاصدي مرباح",
+                "ukmo"
+              ],
+              "links": [
+                "https://www.instagram.com/ukmo.spe.sc",
+                "https://www.facebook.com/share/1GNbgT2CJo/",
+                "https://www.linkedin.com/company/universit%C3%A9-kasdi-merbah-ouargla-spe-student-chapter/",
+                "https://youtube.com/@universitekasdimerbahouarg3319"
+              ],
+              "logo": "assets/images/spe_world_chapters/universit_kasdi_merbah_ouargla_chapter_6272.jpg"
+            },
+            {
+              "nameAr": "جامعة العلوم والتكنولوجيا هواري بومدين",
+              "nameEn": "SPE USTHB Chapter",
+              "aliases": [
+                "usthb",
+                "هواري بومدين",
+                "houari boumediene",
+                "باب الزوار"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة عبد الرحمن ميرة - بجاية",
+              "nameEn": "SPE University of Bejaia Chapter",
+              "aliases": [
+                "bejaia",
+                "بجاية",
+                "عبد الرحمن ميرة",
+                "abderrahmane mira"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة باتنة 2",
+              "nameEn": "SPE University of Batna 2 Chapter",
+              "aliases": [
+                "batna"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-spe-university-of-batna-2-student-chapter",
+                "https://www.facebook.com/SPEUB2",
+                "https://www.spe.org/en/chapter/6313/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6313.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ly",
+          "flag": "🇱🇾",
+          "nameAr": "ليبيا",
+          "nameEn": "Libya",
+          "aliases": [
+            "libya",
+            "ليبيه"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة طرابلس",
+              "nameEn": "SPE University of Tripoli Student Chapter - #5989",
+              "aliases": [
+                "tripoli",
+                "طرابلس",
+                "uot"
+              ],
+              "links": [
+                "https://www.instagram.com/thespeuot",
+                "https://www.facebook.com/share/1BiJrTu34E/",
+                "https://www.linkedin.com/in/university-of-tripoli-spe-student-chapter-4225b5242"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_tripoli_student_chapter_5989.jpg"
+            },
+            {
+              "nameAr": "جامعة سبها",
+              "nameEn": "SPE Sebha University Student Chapter",
+              "aliases": [
+                "sebha",
+                "سبها"
+              ],
+              "links": [
+                "https://www.facebook.com/share/18SpXxasZG/",
+                "https://www.linkedin.com/in/sebha-university-spe-student-chapter-023ab1396",
+                "https://youtube.com/@spe_sebhachaptr"
+              ],
+              "logo": "assets/images/spe_world_chapters/sebha_university_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة بنغازي",
+              "nameEn": "SPE University of Benghazi Student Chapter",
+              "aliases": [
+                "benghazi",
+                "بنغازي"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6429/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الأسمرية الإسلامية / كلية الهندسة",
+              "nameEn": "SPE Asmarya University Student Chapter",
+              "aliases": [
+                "asmarya",
+                "الاسمرية",
+                "زليتن",
+                "zliten"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة مصراتة",
+              "nameEn": "SPE Misurata University Chapter",
+              "aliases": [
+                "misurata"
+              ],
+              "links": [
+                "https://www.facebook.com/p/SPE-Misurata-University-Chapter-100069958051115",
+                "https://www.spe.org/en/chapter/6342/"
+              ]
+            },
+            {
+              "nameAr": "جامعة المرقب",
+              "nameEn": "SPE Elmergib University Chapter",
+              "aliases": [
+                "khoms"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6414/"
+              ]
+            },
+            {
+              "nameAr": "كلية التقنية الهندسية - جنزور",
+              "nameEn": "SPE College of Engineering Technology – Janzour Chapter",
+              "aliases": [
+                "janzour"
+              ],
+              "links": [
+                "https://www.facebook.com/p/College-of-Engineering-Technology-Janzour-SPE-Student-Chapter-61578179906852",
+                "https://www.spe.org/en/chapter/6415/"
+              ]
+            },
+            {
+              "nameAr": "جامعة سرت",
+              "nameEn": "SPE Sirte University Chapter",
+              "aliases": [
+                "sirte"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6422/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tn",
+          "flag": "🇹🇳",
+          "nameAr": "تونس",
+          "nameEn": "Tunisia",
+          "aliases": [
+            "tunisia",
+            "tunis"
+          ],
+          "chapters": [
+            {
+              "nameAr": "كلية العلوم بتونس",
+              "nameEn": "SPE Faculty of Sciences of Tunis Chapter - FST",
+              "aliases": [
+                "fst",
+                "faculty of sciences of tunis",
+                "كلية العلوم"
+              ],
+              "links": [
+                "https://www.facebook.com/share/1KcXSH7djv/"
+              ],
+              "logo": "assets/images/spe_world_chapters/faculty_of_sciences_of_tunis_chapter_fst.jpg"
+            },
+            {
+              "nameAr": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا",
+              "nameEn": "SPE INSAT Student Chapter",
+              "aliases": [
+                "insat",
+                "العلوم التطبيقية"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "المعهد الوطني للمهندسين بصفاقس",
+              "nameEn": "SPE ENIS Student Chapter",
+              "aliases": [
+                "enis",
+                "صفاقس",
+                "sfax"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة المنستير / المدرسة الوطنية للمهندسين بالمنستير",
+              "nameEn": "SPE ENIM Student Chapter",
+              "aliases": [
+                "enim",
+                "المنستير",
+                "monastir"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "ng",
+          "flag": "🇳🇬",
+          "nameAr": "نيجيريا",
+          "nameEn": "Nigeria",
+          "aliases": [
+            "nigeria",
+            "لاغوس",
+            "lagos"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة إبادان",
+              "nameEn": "SPE University of Ibadan Chapter",
+              "aliases": [
+                "ibadan"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-ui",
+                "https://www.facebook.com/speui",
+                "https://www.spe.org/en/chapter/5619/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5619.jpg"
+            },
+            {
+              "nameAr": "معهد التدريب البترولي",
+              "nameEn": "SPE Petroleum Training Institute Chapter",
+              "aliases": [
+                "warri"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/spe-pti-chapter-787801195",
+                "https://www.spe.org/en/chapter/5620/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ولاية ريفرز",
+              "nameEn": "SPE Rivers State University Chapter",
+              "aliases": [
+                "port harcourt"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-rivers-state-university",
+                "https://www.spe.org/en/chapter/5676/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5676.jpg"
+            },
+            {
+              "nameAr": "جامعة بورت هاركورت",
+              "nameEn": "SPE University of Port Harcourt Chapter",
+              "aliases": [
+                "port harcourt"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/speuniport",
+                "https://www.instagram.com/spe_uniport",
+                "https://www.facebook.com/Uniport.SPESTUDENTCHAPTER",
+                "https://www.spe.org/en/chapter/5678/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5678.jpg"
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية للتكنولوجيا - أويري",
+              "nameEn": "SPE Federal University of Technology Owerri Chapter",
+              "aliases": [
+                "owerri"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/spe-futo-students-91471b44",
+                "https://www.spe.org/en/chapter/5686/"
+              ]
+            },
+            {
+              "nameAr": "معهد الإدارة والتكنولوجيا",
+              "nameEn": "SPE Institute of Management & Technology Chapter",
+              "aliases": [
+                "enugu"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/spe-imt-30433a111",
+                "https://www.spe.org/en/chapter/5930/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أويو",
+              "nameEn": "SPE University of Uyo Chapter",
+              "aliases": [
+                "uyo"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-university-of-uyo",
+                "https://www.facebook.com/people/SPE-Uniuyo-Student-Chapter/100064116361734",
+                "https://www.spe.org/en/chapter/5937/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5937.jpg"
+            },
+            {
+              "nameAr": "جامعة بنين",
+              "nameEn": "SPE University of Benin Chapter",
+              "aliases": [
+                "benin"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-students-chapter-university-of-benin",
+                "https://www.spe.org/en/chapter/5939/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5939.jpg"
+            },
+            {
+              "nameAr": "جامعة ولاية إينوغو",
+              "nameEn": "SPE Enugu State University Chapter",
+              "aliases": [
+                "enugu"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5947/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ولاية لاغوس",
+              "nameEn": "SPE Lagos State University Chapter",
+              "aliases": [
+                "lagos"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/lasu-spe-student-chapter",
+                "https://www.spe.org/en/chapter/5954/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5954.jpg"
+            },
+            {
+              "nameAr": "جامعة دلتا النيجر",
+              "nameEn": "SPE Niger Delta University Chapter",
+              "aliases": [
+                "wilberforce island"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5961/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نيجيريا",
+              "nameEn": "SPE University of Nigeria Chapter",
+              "aliases": [
+                "nsukka"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5962/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أبو بكر تفاوا باليوا",
+              "nameEn": "SPE Abubakar Tafawa Balewa University Chapter",
+              "aliases": [
+                "bauchi"
+              ],
+              "links": [
+                "https://www.facebook.com/ATBUSPE",
+                "https://www.spe.org/en/chapter/5981/"
+              ]
+            },
+            {
+              "nameAr": "جامعة لاغوس",
+              "nameEn": "SPE University of Lagos Chapter",
+              "aliases": [
+                "akoka"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-university-of-lagos-student-chapter",
+                "https://www.instagram.com/speunilag",
+                "https://www.spe.org/en/chapter/5991/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5991.jpg"
+            },
+            {
+              "nameAr": "جامعة كالابار",
+              "nameEn": "SPE University of Calabar Chapter",
+              "aliases": [
+                "calabar"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6009/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نامدي أزيكيوي",
+              "nameEn": "SPE Nnamdi Azikiwe University Chapter",
+              "aliases": [
+                "awka"
+              ],
+              "links": [
+                "https://www.facebook.com/officialspenau",
+                "https://www.spe.org/en/chapter/6011/"
+              ]
+            },
+            {
+              "nameAr": "جامعة تشوكويميكا أودوميغو أوجوكو",
+              "nameEn": "SPE Chukwuemeka Odumegwu Ojukwu University Chapter",
+              "aliases": [
+                "anambra"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6025/"
+              ]
+            },
+            {
+              "nameAr": "جامعة كوفينانت",
+              "nameEn": "SPE Covenant University Chapter",
+              "aliases": [
+                "canaanland"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6026/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الأفريقية للعلوم والتكنولوجيا",
+              "nameEn": "SPE African University of Science & Technology Chapter",
+              "aliases": [
+                "abuja"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6078/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نوفينا",
+              "nameEn": "SPE Novena University Chapter",
+              "aliases": [
+                "delta state"
+              ],
+              "links": [
+                "https://www.facebook.com/100076012609263",
+                "https://www.spe.org/en/chapter/6079/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ولاية دلتا - أوليه",
+              "nameEn": "SPE Delta State University, Oleh Chapter",
+              "aliases": [
+                "oleh"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/spe-delta-state-university-oleh-chapter-845b0a205",
+                "https://www.spe.org/en/chapter/6084/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ولاية دلتا - أبراكا",
+              "nameEn": "SPE Delta State University, Abraka Chapter",
+              "aliases": [
+                "delta state"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6088/"
+              ]
+            },
+            {
+              "nameAr": "جامعة إيغبينيديون - أوكادا",
+              "nameEn": "SPE Igbinedion University Okada Chapter",
+              "aliases": [
+                "okada"
+              ],
+              "links": [
+                "https://www.facebook.com/speiuo",
+                "https://www.spe.org/en/chapter/6091/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أوبافيمي أوولوو",
+              "nameEn": "SPE Obafemi Awolowo University Chapter",
+              "aliases": [
+                "osun"
+              ],
+              "links": [
+                "https://www.facebook.com/oauspe",
+                "https://www.spe.org/en/chapter/6102/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية للموارد البترولية - إيفورون",
+              "nameEn": "SPE Federal University of Petroleum Resources Effurun Chapter",
+              "aliases": [
+                "effurun"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-fupre",
+                "https://www.spe.org/en/chapter/6108/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6108.jpg"
+            },
+            {
+              "nameAr": "بوليتكنك ولاية إيدو - أوسين",
+              "nameEn": "SPE Edo State Polytechnic Usen Chapter",
+              "aliases": [
+                "benin city"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6137/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أفي بابالولا",
+              "nameEn": "SPE Afe Babalola University Chapter",
+              "aliases": [
+                "ado-ekiti"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6162/"
+              ]
+            },
+            {
+              "nameAr": "جامعة النيل في نيجيريا",
+              "nameEn": "SPE Nile University of Nigeria Chapter",
+              "aliases": [
+                "abjua"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-nile-university-chapter",
+                "https://www.spe.org/en/chapter/6239/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6239.jpg"
+            },
+            {
+              "nameAr": "جامعة بايرو - كانو",
+              "nameEn": "SPE Bayero University, Kano Chapter",
+              "aliases": [
+                "kano"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/bayero-university-kano-buk-spe-student-chapter",
+                "https://www.spe.org/en/chapter/6292/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6292.jpg"
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية للتكنولوجيا - أكوري",
+              "nameEn": "SPE Federal University of Technology, Akure Chapter",
+              "aliases": [
+                "akure"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-futa-chapter",
+                "https://www.linkedin.com/in/spefuta",
+                "https://www.spe.org/en/chapter/6307/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6307.jpg"
+            },
+            {
+              "nameAr": "جامعة أليكس إيكويمي الفيدرالية",
+              "nameEn": "SPE Alex Ekwueme Federal University, Ndufu-Alike Chapter",
+              "aliases": [
+                "abakaliki"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/ae-funai-spe-chapter-b1597821a",
+                "https://www.spe.org/en/chapter/6308/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية للتكنولوجيا - مينا",
+              "nameEn": "SPE Federal University of Technology, Minna Chapter",
+              "aliases": [
+                "minna"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-futminna-student-chapter",
+                "https://www.instagram.com/spe_futminna",
+                "https://www.spe.org/en/chapter/6335/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6335.jpg"
+            },
+            {
+              "nameAr": "جامعة ولاية أكوا إيبوم",
+              "nameEn": "SPE Akwa Ibom State University Chapter",
+              "aliases": [
+                "ikot akpaden"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6344/"
+              ]
+            },
+            {
+              "nameAr": "بوليتكنك أوتشي",
+              "nameEn": "SPE Auchi Polytechnic, Auchi Nigeria Chapter",
+              "aliases": [
+                "auchi"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6346/"
+              ]
+            },
+            {
+              "nameAr": "البوليتكنك الفيدرالي - أدو إكيتي",
+              "nameEn": "SPE The Federal Polytechnic, Ado-Ekiti Chapter",
+              "aliases": [
+                "ado ekiti"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6348/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أحمدو بيلو - زاريا",
+              "nameEn": "SPE Ahmadu Bello University Zaria Chapter",
+              "aliases": [
+                "zaria"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6350/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نيجيريا البحرية",
+              "nameEn": "SPE Nigeria Maritime University Chapter",
+              "aliases": [
+                "warri"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6362/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أبيولا أجيموبي التقنية - إبادان",
+              "nameEn": "SPE Abiola Ajimobi Technical University, Ibadan Chapter",
+              "aliases": [
+                "ibadan"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-first-technical-university-ibadan-student-chapter",
+                "https://www.spe.org/en/chapter/6375/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6375.jpg"
+            },
+            {
+              "nameAr": "جامعة أولابيسي أونابانجو",
+              "nameEn": "SPE Olabisi Onabanjo University Chapter",
+              "aliases": [
+                "ago-iwoye"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6377/"
+              ]
+            },
+            {
+              "nameAr": "جامعة العلوم والتكنولوجيا - أوزورو",
+              "nameEn": "SPE University of Science and Technology, Ozoro Chapter",
+              "aliases": [
+                "ozoro"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6380/"
+              ]
+            },
+            {
+              "nameAr": "جامعة لادوكي أكينتولا للتكنولوجيا",
+              "nameEn": "SPE Ladoke Akintola University of Technology Chapter",
+              "aliases": [
+                "ogbomoso"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-ladoke-akintola-university-of-technology",
+                "https://www.spe.org/en/chapter/6382/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6382.jpg"
+            },
+            {
+              "nameAr": "جامعة بنسون إداهوسا",
+              "nameEn": "SPE Benson Idahosa University Chapter",
+              "aliases": [
+                "benin city"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6386/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أمبروز آلي - إيكبوما",
+              "nameEn": "SPE Ambrose Alli University Ekpoma Chapter",
+              "aliases": [
+                "benin"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6391/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية - أويي إكيتي",
+              "nameEn": "SPE Federal University Oye-Ekiti Chapter",
+              "aliases": [
+                "oye"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6392/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أديكونلي أجاسين",
+              "nameEn": "SPE Adekunle Ajasin University, Akungba-Akoko Chapter",
+              "aliases": [
+                "akungba-akoko"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6397/"
+              ]
+            },
+            {
+              "nameAr": "جامعة أبوجا",
+              "nameEn": "SPE University of Abuja Chapter",
+              "aliases": [
+                "gwagwalada"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6398/"
+              ]
+            },
+            {
+              "nameAr": "جامعة مايدوغوري",
+              "nameEn": "SPE University of Maiduguri Chapter",
+              "aliases": [
+                "maiduguri"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6399/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ريديمرز",
+              "nameEn": "SPE Redeemer's University Chapter",
+              "aliases": [
+                "akoda"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-run-student-chapter",
+                "https://www.spe.org/en/chapter/6401/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6401.jpg"
+            },
+            {
+              "nameAr": "الجامعة الفيدرالية - أوتوكي",
+              "nameEn": "SPE Federal University Otuoke, Bayelsa State Chapter",
+              "aliases": [
+                "otuoke"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6405/"
+              ]
+            },
+            {
+              "nameAr": "جامعة غرب الدلتا",
+              "nameEn": "SPE Western Delta University Chapter",
+              "aliases": [
+                "onaghagha"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6411/"
+              ]
+            },
+            {
+              "nameAr": "جامعة إلورين",
+              "nameEn": "SPE University of Ilorin Chapter",
+              "aliases": [
+                "ilorin"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-university-of-ilorin-student-chapter",
+                "https://www.spe.org/en/chapter/6430/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6430.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ug",
+          "flag": "🇺🇬",
+          "nameAr": "أوغندا",
+          "nameEn": "Uganda",
+          "aliases": [
+            "uganda",
+            "اوغندا",
+            "كمبالا"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ماكيريري",
+              "nameEn": "SPE Makerere University Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-makerere-university-chapter",
+                "https://www.spe.org/en/chapter/6104/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6104.jpg"
+            },
+            {
+              "nameAr": "جامعة نكومبا",
+              "nameEn": "SPE Nkumba University Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/nkumba-university-08946993",
+                "https://www.spe.org/en/chapter/6109/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الدولية لشرق أفريقيا",
+              "nameEn": "SPE International University of East Africa Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6138/"
+              ]
+            },
+            {
+              "nameAr": "معهد أوغندا للبترول - كيغومبا",
+              "nameEn": "SPE Uganda Petroleum Institute Kigumba Chapter",
+              "aliases": [
+                "kigumba"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6173/"
+              ]
+            },
+            {
+              "nameAr": "جامعة كيامبوغو",
+              "nameEn": "SPE Kyambogo University Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/kyambogo-university-spe-sudent-s-chapter-ug",
+                "https://www.spe.org/en/chapter/6276/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6276.jpg"
+            },
+            {
+              "nameAr": "جامعة مبارارا للعلوم والتكنولوجيا",
+              "nameEn": "SPE Mbarara University of Science and Technology Chapter",
+              "aliases": [
+                "mbarara"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6354/"
+              ]
+            },
+            {
+              "nameAr": "جامعة كينغ سيزر",
+              "nameEn": "SPE King Ceasor University Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6417/"
+              ]
+            },
+            {
+              "nameAr": "جامعة فيكتوريا",
+              "nameEn": "SPE Victoria University Chapter",
+              "aliases": [
+                "kampala"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6432/"
+              ]
+            },
+            {
+              "nameAr": "جامعة بوسيتيما",
+              "nameEn": "SPE Busitema University Chapter",
+              "aliases": [
+                "tororo"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6435/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gh",
+          "flag": "🇬🇭",
+          "nameAr": "غانا",
+          "nameEn": "Ghana",
+          "aliases": [
+            "ghana",
+            "اكرا"
+          ],
+          "chapters": [
+            {
+              "nameAr": "الجامعة البحرية الإقليمية",
+              "nameEn": "SPE Regional Maritime University Chapter",
+              "aliases": [
+                "accra"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5997/"
+              ]
+            },
+            {
+              "nameAr": "جامعة كوامي نكروما للعلوم والتكنولوجيا",
+              "nameEn": "SPE Kwame Nkrumah U of Science & Technology Chapter",
+              "aliases": [
+                "ashanti"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-knust",
+                "https://www.spe.org/en/chapter/6053/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6053.jpg"
+            },
+            {
+              "nameAr": "جامعة كل الأمم",
+              "nameEn": "SPE All Nations University Chapter",
+              "aliases": [
+                "koforidua"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6110/"
+              ]
+            },
+            {
+              "nameAr": "جامعة المناجم والتكنولوجيا",
+              "nameEn": "SPE University of Mines and Technology Chapter",
+              "aliases": [
+                "tarkwa"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-umat-chapter",
+                "https://www.instagram.com/speumatchaptergh",
+                "https://www.spe.org/en/chapter/6176/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6176.jpg"
+            },
+            {
+              "nameAr": "جامعة غانا",
+              "nameEn": "SPE University of Ghana Chapter",
+              "aliases": [
+                "accra"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6320/"
+              ]
+            },
+            {
+              "nameAr": "جامعة الطاقة والموارد الطبيعية",
+              "nameEn": "SPE University of Energy and Natural Resources Chapter",
+              "aliases": [
+                "sunyani"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6325/"
+              ]
+            },
+            {
+              "nameAr": "جامعة تاكورادي التقنية",
+              "nameEn": "SPE Takoradi Technical University Chapter",
+              "aliases": [
+                "takoradi"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6388/"
+              ]
+            },
+            {
+              "nameAr": "جامعة كوماسي التقنية",
+              "nameEn": "SPE Kumasi Technical University Chapter",
+              "aliases": [
+                "kumasi"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6389/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ao",
+          "flag": "🇦🇴",
+          "nameAr": "أنغولا",
+          "nameEn": "Angola",
+          "aliases": [
+            "angola",
+            "انغولا",
+            "انجولا",
+            "لواندا"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة أغوستينو نيتو",
+              "nameEn": "SPE Universidade Agostinho Neto Chapter",
+              "aliases": [
+                "luanda"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5988/"
+              ]
+            },
+            {
+              "nameAr": "جامعة جان بياجيه",
+              "nameEn": "SPE Universidade Jean Piaget Chapter",
+              "aliases": [
+                "luanda"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6171/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الكاثوليكية في أنغولا",
+              "nameEn": "SPE Universidade Catolica de Angola Chapter",
+              "aliases": [
+                "luanda"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6425/"
+              ]
+            },
+            {
+              "nameAr": "المعهد العالي للتكنولوجيا والعلوم (ISPTEC)",
+              "nameEn": "SPE ISPTEC Chapter",
+              "aliases": [
+                "talatona"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6437/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tz",
+          "flag": "🇹🇿",
+          "nameAr": "تنزانيا",
+          "nameEn": "Tanzania",
+          "aliases": [
+            "tanzania"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة دودوما",
+              "nameEn": "SPE University of Dodoma Chapter",
+              "aliases": [
+                "dodoma"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6174/"
+              ]
+            },
+            {
+              "nameAr": "جامعة دار السلام",
+              "nameEn": "SPE University of Dar es Salaam Chapter",
+              "aliases": [
+                "dar es salaam"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6250/"
+              ]
+            },
+            {
+              "nameAr": "معهد دار السلام للتكنولوجيا",
+              "nameEn": "SPE Dar es Salaam Institute of Technology Chapter",
+              "aliases": [
+                "dar es salaam"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6352/"
+              ]
+            },
+            {
+              "nameAr": "معهد دار السلام البحري",
+              "nameEn": "SPE Dar es Salaam Maritime Institute Chapter",
+              "aliases": [
+                "dar es salaam"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6370/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sd",
+          "flag": "🇸🇩",
+          "nameAr": "السودان",
+          "nameEn": "Sudan",
+          "aliases": [
+            "sudan",
+            "سودان",
+            "الخرطوم"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة السودان للعلوم والتكنولوجيا",
+              "nameEn": "SPE Sudan University of Science & Technology Chapter",
+              "aliases": [
+                "khartoum"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-sudan-university-of-science-and-technology-student-chapter",
+                "https://www.facebook.com/p/SPE-in-SUST-Sudan-University-of-Science-and-Technology-100077205476402",
+                "https://www.spe.org/en/chapter/6020/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6020.jpg"
+            },
+            {
+              "nameAr": "جامعة الخرطوم",
+              "nameEn": "SPE University of Khartoum Chapter",
+              "aliases": [
+                "khartoum"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6297/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ke",
+          "flag": "🇰🇪",
+          "nameAr": "كينيا",
+          "nameEn": "Kenya",
+          "aliases": [
+            "kenya",
+            "نيروبي"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة كينياتا",
+              "nameEn": "SPE Kenyatta University Chapter",
+              "aliases": [
+                "nairobi gpo"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_ku",
+                "https://www.spe.org/en/chapter/6240/"
+              ]
+            },
+            {
+              "nameAr": "جامعة جبل كينيا",
+              "nameEn": "SPE Mount Kenya University Chapter",
+              "aliases": [
+                "thika"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-spe-mku-chapter",
+                "https://www.spe.org/en/chapter/6333/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6333.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mz",
+          "flag": "🇲🇿",
+          "nameAr": "موزمبيق",
+          "nameEn": "Mozambique",
+          "aliases": [
+            "mozambique"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة إدواردو موندلاني",
+              "nameEn": "SPE Universidade Eduardo Mondlane Chapter",
+              "aliases": [
+                "maputo"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spe-student-chapter-%E2%80%93-universidade-eduardo-mondlane",
+                "https://www.spe.org/en/chapter/6170/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6170.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ss",
+          "flag": "🇸🇸",
+          "nameAr": "جنوب السودان",
+          "nameEn": "South Sudan",
+          "aliases": [
+            "south sudan",
+            "جوبا"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة جوبا",
+              "nameEn": "SPE University of Juba Chapter",
+              "aliases": [
+                "juba"
+              ],
+              "links": [
+                "https://www.facebook.com/people/University-of-Juba-SPE-Student-Chapter/100084780954899",
+                "https://www.spe.org/en/chapter/6311/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "na",
+          "flag": "🇳🇦",
+          "nameAr": "ناميبيا",
+          "nameEn": "Namibia",
+          "aliases": [
+            "namibia"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ناميبيا",
+              "nameEn": "SPE University of Namibia Chapter",
+              "aliases": [
+                "keetmanshoop"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6396/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cm",
+          "flag": "🇨🇲",
+          "nameAr": "الكاميرون",
+          "nameEn": "Cameroon",
+          "aliases": [
+            "cameroon",
+            "كاميرون"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة بامندا",
+              "nameEn": "SPE University of Bamenda Chapter",
+              "aliases": [
+                "bamenda"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6428/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north_america",
+      "nameAr": "أمريكا الشمالية",
+      "nameEn": "North America",
+      "aliases": [
+        "امريكا الشمالية",
+        "أميركا الشمالية",
+        "north america"
+      ],
+      "countries": [
+        {
+          "id": "us",
+          "flag": "🇺🇸",
+          "nameAr": "الولايات المتحدة",
+          "nameEn": "United States",
+          "aliases": [
+            "امريكا",
+            "أمريكا",
+            "اميركا",
+            "الولايات المتحدة الامريكية",
+            "usa",
+            "us",
+            "america",
+            "united states of america"
+          ],
+          "chapters": [
+            {
+              "region": "تكساس",
+              "regionEn": "Texas",
+              "nameAr": "جامعة تكساس إيه آند إم",
+              "nameEn": "SPE Texas A&M University Student Chapter - College Station",
+              "aliases": [
+                "tamu",
+                "texas a&m",
+                "a&m",
+                "كوليج ستيشن",
+                "college station",
+                "تكساس اي اند ام"
+              ],
+              "links": [
+                "https://www.instagram.com/tamu_spe",
+                "https://www.linkedin.com/company/tamu-spe-texas-a-m-university-student-chapter-of-the-society-of-petroleum-engineers/"
+              ],
+              "logo": "assets/images/spe_world_chapters/texas_a_m_university_student_chapter_college_sta.jpg"
+            },
+            {
+              "region": "تكساس",
+              "regionEn": "Texas",
+              "nameAr": "جامعة تكساس في أوستن",
+              "nameEn": "SPE University of Texas at Austin Student Chapter - UT Austin",
+              "aliases": [
+                "ut austin",
+                "ut",
+                "austin",
+                "اوستن",
+                "أوستن"
+              ],
+              "links": [
+                "https://www.instagram.com/txspe",
+                "https://www.facebook.com/share/19uyiTqSFE/",
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-ut-austin-chapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_texas_at_austin_student_chapter_ut.jpg"
+            },
+            {
+              "region": "تكساس",
+              "regionEn": "Texas",
+              "nameAr": "جامعة تكساس تقني",
+              "nameEn": "SPE Texas Tech University Student Chapter - Lubbock",
+              "aliases": [
+                "texas tech",
+                "ttu",
+                "lubbock",
+                "لوبوك",
+                "تكساس تك"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/society-of-petroleum-engineers-texas-tech-university-chapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/texas_tech_university_student_chapter_lubbock.jpg"
+            },
+            {
+              "region": "تكساس",
+              "regionEn": "Texas",
+              "nameAr": "جامعة هيوستن",
+              "nameEn": "SPE University of Houston Student Chapter - UH",
+              "aliases": [
+                "uh",
+                "houston",
+                "هيوستن",
+                "هيوستون"
+              ],
+              "links": [
+                "https://www.instagram.com/uhspe",
+                "https://www.facebook.com/share/1EgvBL9Chi/",
+                "https://www.linkedin.com/company/uhspe/"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_houston_student_chapter_uh.jpg"
+            },
+            {
+              "region": "تكساس",
+              "regionEn": "Texas",
+              "nameAr": "جامعة ولاية سام هيوستن",
+              "nameEn": "SPE Sam Houston State University Student Chapter",
+              "aliases": [
+                "shsu",
+                "sam houston",
+                "سام هيوستن"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة تكساس - حوض بيرميان",
+              "nameEn": "SPE University of Texas-Permian Basin Chapter",
+              "aliases": [
+                "odessa",
+                "texas"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/society-of-petroleum-engineers-ut-permian-basin-student-chapter-531283327",
+                "https://www.spe.org/en/chapter/5999/"
+              ],
+              "region": "تكساس",
+              "regionEn": "Texas"
+            },
+            {
+              "nameAr": "جامعة رايس",
+              "nameEn": "SPE Rice University Chapter",
+              "aliases": [
+                "houston",
+                "texas"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/rice-spe-091188170",
+                "https://www.spe.org/en/chapter/6142/"
+              ],
+              "region": "تكساس",
+              "regionEn": "Texas"
+            },
+            {
+              "nameAr": "جامعة ميدويسترن الحكومية",
+              "nameEn": "SPE Midwestern State University Chapter",
+              "aliases": [
+                "wichita falls",
+                "texas"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6221/"
+              ],
+              "region": "تكساس",
+              "regionEn": "Texas"
+            },
+            {
+              "nameAr": "جامعة تكساس - وادي ريو غراندي",
+              "nameEn": "SPE The University of Texas Rio Grande Valley Chapter",
+              "aliases": [
+                "edinburg",
+                "texas"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6295/"
+              ],
+              "region": "تكساس",
+              "regionEn": "Texas"
+            },
+            {
+              "nameAr": "جامعة تكساس إي أند إم الدولية",
+              "nameEn": "SPE Texas A&M International University Chapter",
+              "aliases": [
+                "laredo",
+                "texas"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6384/"
+              ],
+              "region": "تكساس",
+              "regionEn": "Texas"
+            },
+            {
+              "region": "لويزيانا",
+              "regionEn": "Louisiana",
+              "nameAr": "جامعة ولاية لويزيانا",
+              "nameEn": "SPE Louisiana State University Student Chapter - LSU",
+              "aliases": [
+                "lsu",
+                "louisiana state",
+                "باتون روج",
+                "baton rouge"
+              ],
+              "links": [
+                "https://www.instagram.com/lsu_spe",
+                "https://www.facebook.com/share/1Eop9QwxmB/",
+                "https://www.linkedin.com/company/lsuspe/"
+              ],
+              "logo": "assets/images/spe_world_chapters/louisiana_state_university_student_chapter_lsu.jpg"
+            },
+            {
+              "region": "لويزيانا",
+              "regionEn": "Louisiana",
+              "nameAr": "جامعة لويزيانا في لافاييت",
+              "nameEn": "SPE University of Louisiana at Lafayette Student Chapter - UL Lafayette",
+              "aliases": [
+                "ul lafayette",
+                "lafayette",
+                "لافاييت",
+                "ull"
+              ],
+              "links": [
+                "https://www.linkedin.com/in/speullafayettestudents",
+                "https://www.spe.org/en/chapter/5572/"
+              ]
+            },
+            {
+              "region": "لويزيانا",
+              "regionEn": "Louisiana",
+              "nameAr": "جامعة لويزيانا تقني",
+              "nameEn": "SPE Louisiana Tech University Student Chapter",
+              "aliases": [
+                "louisiana tech",
+                "latech",
+                "رستون",
+                "ruston"
+              ],
+              "links": []
+            },
+            {
+              "nameAr": "جامعة نيكولز الحكومية",
+              "nameEn": "SPE Nicholls State University Chapter",
+              "aliases": [
+                "thibodaux",
+                "louisiana"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5663/"
+              ],
+              "region": "لويزيانا",
+              "regionEn": "Louisiana"
+            },
+            {
+              "region": "أوكلاهوما",
+              "regionEn": "Oklahoma",
+              "nameAr": "جامعة أوكلاهوما",
+              "nameEn": "SPE University of Oklahoma Student Chapter - OU",
+              "aliases": [
+                "ou",
+                "oklahoma",
+                "نورمان",
+                "norman"
+              ],
+              "links": [
+                "https://www.instagram.com/ou_spe",
+                "https://www.facebook.com/share/1AwuoyFe6q/",
+                "https://www.linkedin.com/company/ou-spe/"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_oklahoma_student_chapter_ou.jpg"
+            },
+            {
+              "region": "أوكلاهوما",
+              "regionEn": "Oklahoma",
+              "nameAr": "جامعة تولسا",
+              "nameEn": "SPE University of Tulsa Student Chapter - TU",
+              "aliases": [
+                "tu",
+                "tulsa",
+                "تولسا"
+              ],
+              "links": [
+                "https://www.instagram.com/utulsaspe",
+                "https://www.facebook.com/share/1CExyYbnFx/",
+                "https://www.linkedin.com/company/spe-student-chapter-university-of-tulsa/"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_tulsa_student_chapter_tu.jpg"
+            },
+            {
+              "region": "أوكلاهوما",
+              "regionEn": "Oklahoma",
+              "nameAr": "جامعة ولاية أوكلاهوما",
+              "nameEn": "SPE Oklahoma State University Student Chapter - OSU",
+              "aliases": [
+                "osu",
+                "oklahoma state",
+                "ستيلووتر",
+                "stillwater"
+              ],
+              "links": [
+                "https://x.com/speokstate",
+                "https://www.linkedin.com/in/oklahoma-state-society-of-petroleum-engineers-spe-b34a18195",
+                "https://www.spe.org/en/chapter/6135/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_6135.jpg"
+            },
+            {
+              "region": "كاليفورنيا",
+              "regionEn": "California",
+              "nameAr": "جامعة ستانفورد",
+              "nameEn": "SPE Stanford University Student Chapter",
+              "aliases": [
+                "stanford",
+                "ستانفورد",
+                "ستانفرد"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_stanford",
+                "https://www.linkedin.com/company/stanford-spe/"
+              ],
+              "logo": "assets/images/spe_world_chapters/stanford_university_student_chapter.jpg"
+            },
+            {
+              "region": "كاليفورنيا",
+              "regionEn": "California",
+              "nameAr": "جامعة جنوب كاليفورنيا",
+              "nameEn": "SPE University of Southern California Student Chapter - USC",
+              "aliases": [
+                "usc",
+                "southern california",
+                "لوس انجلوس",
+                "los angeles"
+              ],
+              "links": [
+                "https://www.instagram.com/spe_usc",
+                "https://www.linkedin.com/in/usc-spe-0898aa16b"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_southern_california_student_chapte.jpg"
+            },
+            {
+              "region": "بنسلفانيا",
+              "regionEn": "Pennsylvania",
+              "nameAr": "جامعة ولاية بنسلفانيا",
+              "nameEn": "SPE Pennsylvania State University Chapter - Penn State",
+              "aliases": [
+                "penn state",
+                "psu",
+                "بن ستيت"
+              ],
+              "links": [
+                "https://www.instagram.com/spepennstate",
+                "https://www.facebook.com/share/1Gs6zxAGJ6/",
+                "https://www.linkedin.com/company/penn-state-society-of-petroleum-engineers/"
+              ],
+              "logo": "assets/images/spe_world_chapters/pennsylvania_state_university_chapter_penn_state.jpg"
+            },
+            {
+              "region": "بنسلفانيا",
+              "regionEn": "Pennsylvania",
+              "nameAr": "جامعة بيتسبرغ",
+              "nameEn": "SPE University of Pittsburgh Student Chapter",
+              "aliases": [
+                "pitt",
+                "pittsburgh",
+                "بيتسبرغ",
+                "بتسبرغ"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spepittsburghsection/"
+              ],
+              "logo": "assets/images/spe_world_chapters/university_of_pittsburgh_student_chapter.jpg"
+            },
+            {
+              "nameAr": "جامعة سليبري روك في بنسلفانيا",
+              "nameEn": "SPE Slippery Rock University of Pennsylvania Chapter",
+              "aliases": [
+                "slippery rock",
+                "pennsylvania"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/spesru",
+                "https://www.spe.org/en/chapter/6312/"
+              ],
+              "region": "بنسلفانيا",
+              "regionEn": "Pennsylvania",
+              "logo": "assets/images/spe_world_chapters/spe_6312.jpg"
+            },
+            {
+              "region": "فرجينيا الغربية",
+              "regionEn": "West Virginia",
+              "nameAr": "جامعة فرجينيا الغربية",
+              "nameEn": "SPE West Virginia University Student Chapter - WVU",
+              "aliases": [
+                "wvu",
+                "west virginia",
+                "فيرجينيا الغربية",
+                "مورغانتاون",
+                "morgantown"
+              ],
+              "links": [
+                "https://www.instagram.com/spewvu",
+                "https://www.linkedin.com/company/wvu-spe-student-chapter/"
+              ],
+              "logo": "assets/images/spe_world_chapters/west_virginia_university_student_chapter_wvu.jpg"
+            },
+            {
+              "nameAr": "جامعة كانساس",
+              "nameEn": "SPE University of Kansas Chapter",
+              "aliases": [
+                "lawrence",
+                "kansas"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5518/"
+              ],
+              "region": "كانساس",
+              "regionEn": "Kansas"
+            },
+            {
+              "nameAr": "جامعة مونتانا التقنية",
+              "nameEn": "SPE Montana Tech Chapter",
+              "aliases": [
+                "butte",
+                "montana"
+              ],
+              "links": [
+                "https://www.instagram.com/mtechspe",
+                "https://www.facebook.com/mtspe",
+                "https://www.linkedin.com/in/montana-tech-spe-student-chapter-544514a7",
+                "https://www.spe.org/en/chapter/5529/"
+              ],
+              "region": "مونتانا",
+              "regionEn": "Montana"
+            },
+            {
+              "nameAr": "جامعة وايومنغ",
+              "nameEn": "SPE University of Wyoming Chapter",
+              "aliases": [
+                "laramie",
+                "wyoming"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/uw-spe-student-chapter",
+                "https://www.instagram.com/uwyo_spe_chapter",
+                "https://www.spe.org/en/chapter/5569/"
+              ],
+              "region": "وايومنغ",
+              "regionEn": "Wyoming",
+              "logo": "assets/images/spe_world_chapters/spe_5569.jpg"
+            },
+            {
+              "nameAr": "كلية كولورادو للمناجم",
+              "nameEn": "SPE Colorado School of Mines Chapter",
+              "aliases": [
+                "golden",
+                "colorado"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/csmspe",
+                "https://www.instagram.com/spe_mines",
+                "https://www.facebook.com/CSM.SPE",
+                "https://www.spe.org/en/chapter/5571/"
+              ],
+              "region": "كولورادو",
+              "regionEn": "Colorado"
+            },
+            {
+              "nameAr": "كلية ماريتا",
+              "nameEn": "SPE Marietta College Chapter",
+              "aliases": [
+                "marietta",
+                "ohio"
+              ],
+              "links": [
+                "https://www.facebook.com/MariettaCollegeSPE",
+                "https://www.spe.org/en/chapter/5573/"
+              ],
+              "region": "أوهايو",
+              "regionEn": "Ohio"
+            },
+            {
+              "nameAr": "جامعة ولاية أوهايو",
+              "nameEn": "SPE Ohio State University Chapter",
+              "aliases": [
+                "columbus",
+                "ohio"
+              ],
+              "links": [
+                "https://www.facebook.com/327148687757749",
+                "https://www.spe.org/en/chapter/6153/"
+              ],
+              "region": "أوهايو",
+              "regionEn": "Ohio"
+            },
+            {
+              "nameAr": "جامعة ميزوري للعلوم والتكنولوجيا",
+              "nameEn": "SPE Missouri University of Science & Technology Chapter",
+              "aliases": [
+                "rolla",
+                "missouri"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.mst",
+                "https://www.spe.org/en/chapter/5590/"
+              ],
+              "region": "ميزوري",
+              "regionEn": "Missouri"
+            },
+            {
+              "nameAr": "معهد نيومكسيكو للتكنولوجيا",
+              "nameEn": "SPE New Mexico Tech Chapter",
+              "aliases": [
+                "socorro",
+                "new mexico"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5635/"
+              ],
+              "region": "نيو مكسيكو",
+              "regionEn": "New Mexico"
+            },
+            {
+              "nameAr": "جامعة ألاسكا",
+              "nameEn": "SPE University of Alaska Chapter",
+              "aliases": [
+                "fairbanks",
+                "alaska"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5664/"
+              ],
+              "region": "ألاسكا",
+              "regionEn": "Alaska"
+            },
+            {
+              "nameAr": "جامعة داكوتا الشمالية",
+              "nameEn": "SPE University of North Dakota Chapter",
+              "aliases": [
+                "grand forks",
+                "north dakota"
+              ],
+              "links": [
+                "https://www.facebook.com/UNDSPE",
+                "https://www.spe.org/en/chapter/6081/"
+              ],
+              "region": "داكوتا الشمالية",
+              "regionEn": "North Dakota"
+            },
+            {
+              "nameAr": "جامعة ولاية ميسيسيبي",
+              "nameEn": "SPE Mississippi State University Chapter",
+              "aliases": [
+                "mississippi state",
+                "mississippi"
+              ],
+              "links": [
+                "https://www.facebook.com/msuspe",
+                "https://www.spe.org/en/chapter/6231/"
+              ],
+              "region": "ميسيسيبي",
+              "regionEn": "Mississippi"
+            },
+            {
+              "nameAr": "معهد فرجينيا للفنون التطبيقية (فرجينيا تك)",
+              "nameEn": "SPE Virginia Polytechnic Institute and State University Chapter",
+              "aliases": [
+                "blacksburg",
+                "virginia"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/vtspe",
+                "https://www.instagram.com/spe_at_vt",
+                "https://x.com/spe_vt",
+                "https://www.spe.org/en/chapter/6257/"
+              ],
+              "region": "فرجينيا",
+              "regionEn": "Virginia",
+              "logo": "assets/images/spe_world_chapters/spe_6257.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ca",
+          "flag": "🇨🇦",
+          "nameAr": "كندا",
+          "nameEn": "Canada",
+          "aliases": [
+            "canada",
+            "كنده"
+          ],
+          "chapters": [
+            {
+              "region": "ألبرتا",
+              "regionEn": "Alberta",
+              "nameAr": "جامعة كالغاري - جمعية البترول والطاقة",
+              "nameEn": "SPE University of Calgary Student Chapter / PES",
+              "aliases": [
+                "calgary",
+                "كالغاري",
+                "كالجاري",
+                "ucalgary",
+                "pes"
+              ],
+              "links": [
+                "https://www.pesucalgary.ca/",
+                "https://www.spe.org/en/chapter/5687/"
+              ]
+            },
+            {
+              "region": "ألبرتا",
+              "regionEn": "Alberta",
+              "nameAr": "جامعة ألبرتا",
+              "nameEn": "SPE University of Alberta Student Chapter - UAlberta",
+              "aliases": [
+                "ualberta",
+                "alberta",
+                "البرتا",
+                "ادمونتون",
+                "edmonton"
+              ],
+              "links": [
+                "https://speualberta.wixsite.com/peteclub",
+                "https://www.spe.org/en/chapter/5688/"
+              ]
+            },
+            {
+              "nameAr": "معهد جنوب ألبرتا للتكنولوجيا",
+              "nameEn": "SPE Southern Alberta Institute of Technology Chapter",
+              "aliases": [
+                "calgary"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5520/"
+              ],
+              "region": "ألبرتا",
+              "regionEn": "Alberta"
+            },
+            {
+              "nameAr": "معهد شمال ألبرتا للتكنولوجيا",
+              "nameEn": "SPE Northern Alberta Institute of Technology Chapter",
+              "aliases": [
+                "edmonton"
+              ],
+              "links": [
+                "https://www.instagram.com/nait_spe",
+                "https://www.spe.org/en/chapter/5934/"
+              ],
+              "region": "ألبرتا",
+              "regionEn": "Alberta"
+            },
+            {
+              "region": "ساسكاتشوان",
+              "regionEn": "Saskatchewan",
+              "nameAr": "جامعة ريجاينا",
+              "nameEn": "SPE University of Regina Student Chapter",
+              "aliases": [
+                "regina",
+                "ريجاينا",
+                "ريجينا"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5977/"
+              ]
+            },
+            {
+              "region": "ساسكاتشوان",
+              "regionEn": "Saskatchewan",
+              "nameAr": "جامعة ساسكاتشوان",
+              "nameEn": "SPE University of Saskatchewan Student Chapter - USask",
+              "aliases": [
+                "usask",
+                "saskatchewan",
+                "ساسكاتون",
+                "saskatoon"
+              ],
+              "links": [
+                "https://www.facebook.com/groups/123331715049936/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ميموريال في نيوفاوندلاند",
+              "nameEn": "SPE Memorial University of Newfoundland Chapter",
+              "aliases": [
+                "st. john's"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/sspemun",
+                "https://www.spe.org/en/chapter/5940/"
+              ],
+              "region": "نيوفاوندلاند ولابرادور",
+              "regionEn": "Newfoundland and Labrador",
+              "logo": "assets/images/spe_world_chapters/spe_5940.jpg"
+            },
+            {
+              "nameAr": "جامعة كيب بريتون",
+              "nameEn": "SPE Cape Breton University Chapter",
+              "aliases": [
+                "sydney"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6071/"
+              ],
+              "region": "نوفا سكوشا",
+              "regionEn": "Nova Scotia"
+            },
+            {
+              "nameAr": "جامعة كولومبيا البريطانية",
+              "nameEn": "SPE University of British Columbia Chapter",
+              "aliases": [
+                "vancouver"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6180/"
+              ],
+              "region": "كولومبيا البريطانية",
+              "regionEn": "British Columbia"
+            }
+          ]
+        },
+        {
+          "id": "mx",
+          "flag": "🇲🇽",
+          "nameAr": "المكسيك",
+          "nameEn": "Mexico",
+          "aliases": [
+            "mexico",
+            "مكسيك",
+            "méxico"
+          ],
+          "chapters": [
+            {
+              "nameAr": "المعهد الوطني للفنون التطبيقية",
+              "nameEn": "SPE Instituto Politecnico Nacional Chapter",
+              "aliases": [
+                "mexico city"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.politecnico",
+                "https://www.spe.org/en/chapter/5691/"
+              ]
+            },
+            {
+              "nameAr": "الجامعة الوطنية المستقلة في المكسيك",
+              "nameEn": "SPE Universidad Nacional Autonoma de Mexico Chapter",
+              "aliases": [
+                "delegacion coyoacan"
+              ],
+              "links": [
+                "https://www.linkedin.com/company/unam-spe-student-chapter",
+                "https://www.spe.org/en/chapter/5692/"
+              ],
+              "logo": "assets/images/spe_world_chapters/spe_5692.jpg"
+            },
+            {
+              "nameAr": "جامعة كارمن المستقلة",
+              "nameEn": "SPE Universidad Autonoma del Carmen Chapter",
+              "aliases": [
+                "ciudad del carmen"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.mx.unacar",
+                "https://www.linkedin.com/in/spe-unacar-student-chapter-4764b720a",
+                "https://www.spe.org/en/chapter/6117/"
+              ]
+            },
+            {
+              "nameAr": "جامعة خليج المكسيك التقنية",
+              "nameEn": "SPE Universidad Politecnica del Golfo De Mexico Chapter",
+              "aliases": [
+                "monte adentro"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6188/"
+              ]
+            },
+            {
+              "nameAr": "جامعة فيراكروز - بوثا ريكا",
+              "nameEn": "SPE Universidad Veracruzana, Poza Rica Chapter",
+              "aliases": [
+                "poza rica de hidalgo"
+              ],
+              "links": [
+                "https://www.facebook.com/speuvpr",
+                "https://www.spe.org/en/chapter/6209/"
+              ]
+            },
+            {
+              "nameAr": "جامعة نويفو ليون المستقلة",
+              "nameEn": "SPE Universidad Autonoma De Nuevo Leon Chapter",
+              "aliases": [
+                "linares"
+              ],
+              "links": [
+                "https://www.facebook.com/UANLSPE",
+                "https://www.spe.org/en/chapter/6232/"
+              ]
+            },
+            {
+              "nameAr": "المعهد التكنولوجي العالي في كواتزاكوالكوس",
+              "nameEn": "SPE Instituto Tecnologico Superior de Coatzacoalcos Chapter",
+              "aliases": [
+                "coatzacoalcos"
+              ],
+              "links": [
+                "https://www.facebook.com/ItescoSPE",
+                "https://www.spe.org/en/chapter/6258/"
+              ]
+            },
+            {
+              "nameAr": "المعهد التكنولوجي في سيرو أزول",
+              "nameEn": "SPE Instituto Tecnologico De Cerro Azul Chapter",
+              "aliases": [
+                "cerro azul"
+              ],
+              "links": [
+                "https://www.facebook.com/spe.itca",
+                "https://www.spe.org/en/chapter/6265/"
+              ]
+            },
+            {
+              "nameAr": "المعهد التكنولوجي في سيوداد ماديرو",
+              "nameEn": "SPE Instituto Tecnologico de Ciudad Madero Chapter",
+              "aliases": [
+                "ciudad madero"
+              ],
+              "links": [
+                "https://www.facebook.com/100084257839269",
+                "https://www.spe.org/en/chapter/6309/"
+              ]
+            },
+            {
+              "nameAr": "المعهد التكنولوجي العالي في ميسانتلا",
+              "nameEn": "SPE Instituto Tecnologico Superior De Misantla Chapter",
+              "aliases": [
+                "misantla"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6369/"
+              ]
+            },
+            {
+              "nameAr": "جامعة تشياباس التقنية",
+              "nameEn": "SPE Universidad Politecnica de Chiapas",
+              "aliases": [
+                "suchiapa"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/6424/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tt",
+          "flag": "🇹🇹",
+          "nameAr": "ترينيداد وتوباغو",
+          "nameEn": "Trinidad and Tobago",
+          "aliases": [
+            "trinidad and tobago",
+            "trinidad",
+            "ترينيداد",
+            "الكاريبي",
+            "caribbean"
+          ],
+          "chapters": [
+            {
+              "nameAr": "جامعة ويست إنديز",
+              "nameEn": "SPE The University of the West Indies Chapter",
+              "aliases": [
+                "st. augustine"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5618/"
+              ]
+            },
+            {
+              "nameAr": "جامعة ترينيداد وتوباغو",
+              "nameEn": "SPE The University of Trinidad & Tobago Chapter",
+              "aliases": [
+                "couva"
+              ],
+              "links": [
+                "https://www.spe.org/en/chapter/5996/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
