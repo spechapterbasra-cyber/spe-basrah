@@ -1,0 +1,4421 @@
+{
+ "version": 8,
+ "topics": [
+  {
+   "id": "rig",
+   "ar": "الحفر الدوراني ومعدات البرج",
+   "en": "Rotary drilling & the rig"
+  },
+  {
+   "id": "fluids",
+   "ar": "سوائل الحفر",
+   "en": "Drilling fluids"
+  },
+  {
+   "id": "hydraulics",
+   "ar": "هيدروليكا الحفر",
+   "en": "Drilling hydraulics"
+  },
+  {
+   "id": "pressure",
+   "ar": "ضغط المسامات والتكسير",
+   "en": "Pore & fracture pressure"
+  },
+  {
+   "id": "casing",
+   "ar": "التغليف (Casing)",
+   "en": "Casing"
+  },
+  {
+   "id": "cement",
+   "ar": "الإسمنت",
+   "en": "Cementing"
+  },
+  {
+   "id": "wellcontrol",
+   "ar": "السيطرة على البئر (Well control)",
+   "en": "Well control"
+  },
+  {
+   "id": "bits",
+   "ar": "البتات وسرعة الحفر",
+   "en": "Bits & ROP"
+  },
+  {
+   "id": "string",
+   "ar": "أنابيب الحفر والـ BHA",
+   "en": "Drill string & BHA"
+  },
+  {
+   "id": "directional",
+   "ar": "الحفر الاتجاهي",
+   "en": "Directional drilling"
+  },
+  {
+   "id": "problems",
+   "ar": "مشاكل الحفر",
+   "en": "Drilling problems"
+  },
+  {
+   "id": "mwd",
+   "ar": "القياس وتقييم الطبقات أثناء الحفر",
+   "en": "MWD, LWD & formation evaluation"
+  }
+ ],
+ "entries": [
+  {
+   "id": "rig-01",
+   "topic": "rig",
+   "q": "شنو هو الحفر الدوراني؟",
+   "qEn": "What is rotary drilling?",
+   "k": [
+    "rotary",
+    "دوراني",
+    "bit",
+    "بت"
+   ],
+   "a": "الحفر الدوراني هو الطريقة الأساسية لحفر آبار النفط والغاز: البت (Bit) تُدار وهي تحت وزن، فتكسر الصخر، وطين الحفر يُضخ داخل الأنابيب ويخرج من فتحات البت ويرجع من الحلقة (Annulus) حاملاً القطع الصخرية (Cuttings) للسطح.\n• الدوران يجي من الـ Top drive أو الـ Rotary table، أو من موتور طيني (Mud motor) قرب البت.\n• الوزن على البت (WOB) يجي من أثقال الحفر (Drill collars) مو من الأنابيب.\n• الطين يبرّد البت وينظف الحفرة ويسيطر على ضغط الطبقات.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1"
+   ],
+   "fig": [
+    "circulation"
+   ]
+  },
+  {
+   "id": "rig-02",
+   "topic": "rig",
+   "q": "شنو هي أنظمة برج الحفر الرئيسية؟",
+   "qEn": "What are the main rig systems?",
+   "k": [
+    "systems",
+    "انظمه",
+    "rig components",
+    "مكونات"
+   ],
+   "a": "برج الحفر الدوراني يتكون من ستة أنظمة رئيسية:\n• نظام الطاقة (Power system): محركات ديزل ومولدات تجهز الكهرباء والقدرة.\n• نظام الرفع (Hoisting system): الـ Drawworks وحبل الحفر والبكرات، لرفع وإنزال الأنابيب.\n• نظام التدوير (Rotating system): الـ Top drive أو الـ Kelly والـ Rotary table.\n• نظام الدوران الطيني (Circulating system): المضخات والأنابيب والخزانات ومعدات فصل المواد الصلبة.\n• نظام السيطرة على البئر (Well control): موانع الانفجار (BOP) والـ Choke manifold.\n• نظام المراقبة (Monitoring): مؤشرات الوزن والضغط ومستوى الأحواض وسرعة الحفر.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1"
+   ]
+  },
+  {
+   "id": "rig-03",
+   "topic": "rig",
+   "q": "شنو أنواع أبراج الحفر؟",
+   "qEn": "What are the types of drilling rigs?",
+   "k": [
+    "rig types",
+    "land rig",
+    "jackup",
+    "semisubmersible",
+    "drillship",
+    "انواع"
+   ],
+   "a": "تنقسم الأبراج حسب مكان العمل:\n• أبراج برية (Land rigs): تقليدية تتفكك وتنتقل، أو متحركة على شاحنات (Mobile rigs) للآبار الضحلة.\n• أبراج بحرية مثبتة: منصات ثابتة (Platform rigs)، والـ Jack-up اللي أرجلها تنزل لقاع البحر (أعماق مياه قليلة، عادة لحد حوالي 120 م).\n• أبراج بحرية طافية: شبه الغاطسة (Semisubmersible) وسفن الحفر (Drillships) للمياه العميقة، وتثبت بالمراسي أو بالتموضع الديناميكي (Dynamic positioning).\n• الـ Barge و الـ Submersible للمياه الضحلة جداً والمستنقعات.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.4"
+   ]
+  },
+  {
+   "id": "rig-04",
+   "topic": "rig",
+   "q": "منو هم فريق الحفر وشنو دور كل واحد؟",
+   "qEn": "Who is the drilling team?",
+   "k": [
+    "team",
+    "فريق",
+    "company man",
+    "toolpusher",
+    "driller",
+    "derrickman"
+   ],
+   "a": "• ممثل الشركة المشغلة (Company man / Drilling supervisor): يمثل صاحب البئر ويقرر بالموقع.\n• مهندس الحفر (Drilling engineer): يصمم البئر (التغليف، الطين، البتات، الكلفة) ويتابع التنفيذ.\n• الـ Toolpusher: مسؤول البرج من جهة شركة الحفر.\n• الحفار (Driller): يشغّل البرج فعلياً ويراقب البئر.\n• الـ Derrickman: يشتغل فوق بالـ Monkey board أثناء سحب الأنابيب، ويتابع الطين والمضخات.\n• الـ Floormen / Roughnecks: عمال أرضية البرج.\n• إضافة لشركات الخدمة: مهندس الطين، الـ Mud logger، الحفر الاتجاهي، الإسمنت، والمجسات.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.3"
+   ]
+  },
+  {
+   "id": "rig-05",
+   "topic": "rig",
+   "q": "شنو مكونات نظام الرفع؟",
+   "qEn": "What does the hoisting system consist of?",
+   "k": [
+    "hoisting",
+    "drawworks",
+    "crown block",
+    "travelling block",
+    "drilling line",
+    "رفع"
+   ],
+   "a": "نظام الرفع يرفع وينزل الأنابيب والتغليف، ويتكون من:\n• الـ Drawworks: ونش كبير بي أسطوانة (Drum) يلف عليها حبل الحفر، ومعه فرامل رئيسية ومساعدة.\n• الـ Crown block: بكرات ثابتة بأعلى البرج.\n• الـ Traveling block: بكرات متحركة يتعلق بيها الـ Hook أو الـ Top drive.\n• حبل الحفر (Drilling line): الطرف السريع (Fast line) يروح للـ Drawworks، والطرف الميت (Dead line) مثبت بالـ Deadline anchor اللي عليه حساس الوزن.\n• البرج أو الصاري (Derrick / Mast) يتحمل كل هذا الحمل.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ],
+   "fig": [
+    "hoisting"
+   ]
+  },
+  {
+   "id": "rig-06",
+   "topic": "rig",
+   "q": "شلون أحسب حمل الطرف السريع وكفاءة البكرات؟",
+   "qEn": "How do I calculate fast line load and block efficiency?",
+   "k": [
+    "fast line",
+    "block efficiency",
+    "كفاءه",
+    "حمل",
+    "lines strung",
+    "sheave"
+   ],
+   "a": "إذا الحمل المعلق W موزع على n من الخطوط بين البكرتين، فالحمل المثالي على الطرف السريع W/n، بس الاحتكاك بالبكرات يزيده:\n$$ F_{fast} = \\dfrac{W}{E\\,n}\nحيث E كفاءة نظام البكرات. قيم تقريبية شائعة:\n• 6 خطوط: E ≈ 0.874\n• 8 خطوط: E ≈ 0.841\n• 10 خطوط: E ≈ 0.810\n• 12 خطوط: E ≈ 0.770\nوالقدرة المطلوبة بالـ Drawworks تساوي الحمل × سرعة الرفع ÷ الكفاءة.",
+   "refs": [
+    "Bourgoyne, Ch. 1 (Table 1.x)",
+    "Mitchell & Miska, Ch. 1.5"
+   ],
+   "fig": [
+    "hoisting"
+   ]
+  },
+  {
+   "id": "rig-07",
+   "topic": "rig",
+   "q": "شلون أحسب حمل البرج (Derrick load)؟",
+   "qEn": "How is derrick load calculated?",
+   "k": [
+    "derrick load",
+    "dead line",
+    "حمل البرج",
+    "equivalent derrick load"
+   ],
+   "a": "البرج يتحمل الحمل المعلق W زائد شد الطرف السريع والطرف الميت:\n$$ F_{fast} = \\dfrac{W}{E\\,n}\n$$ F_{dead} = \\dfrac{W}{n}\n$$ F_{derrick} = W + F_{fast} + F_{dead} = W\\,\\dfrac{1 + E + E\\,n}{E\\,n}\nالحمل مو موزع بالتساوي على أرجل البرج لأن الطرفين السريع والميت بجهات محددة، لهذا يستخدمون مفهوم الحمل المكافئ (Equivalent derrick load) = 4 × حمل أكثر رجل محملة.",
+   "refs": [
+    "Bourgoyne, Ch. 1"
+   ],
+   "fig": [
+    "hoisting"
+   ]
+  },
+  {
+   "id": "rig-08",
+   "topic": "rig",
+   "q": "شنو يعني Slip and cut لحبل الحفر؟",
+   "qEn": "What is slip and cut of the drilling line?",
+   "k": [
+    "slip and cut",
+    "ton-mile",
+    "ton miles",
+    "drilling line",
+    "حبل",
+    "طن ميل"
+   ],
+   "a": "حبل الحفر يتآكل أكثر شي بنقاط معينة (فوق البكرات وبنقاط الالتفاف على الـ Drum). حتى ما ينقطع، يُقاس الشغل اللي أداه بوحدة الطن-ميل (Ton-mile)، وبعد ما يوصل حد معين:\n• Slip: يُسحب طول جديد من بكرة الخزن حتى تتغير نقاط الاحتكاك.\n• Cut: يُقص الطول المستهلك من جهة الـ Drum.\nيعني برنامج منتظم يحسب الطن-ميل لكل عملية (حفر، سحب أنابيب، إنزال تغليف) ويقرر متى يصير القص.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ]
+  },
+  {
+   "id": "rig-09",
+   "topic": "rig",
+   "q": "شنو الفرق بين Kelly و Top drive؟",
+   "qEn": "Kelly versus top drive",
+   "k": [
+    "kelly",
+    "top drive",
+    "rotary table",
+    "كيلي",
+    "تدوير"
+   ],
+   "a": "• الـ Kelly: أنبوب مربع أو سداسي يمر من الـ Kelly bushing بالـ Rotary table، والطاولة هي اللي تديره. لازم تضيف الأنابيب واحد واحد (حوالي 30 قدم) وما تگدر تدوّر أو تدوّر الطين وإنت ترفع.\n• الـ Top drive: محرك معلق بالـ Traveling block يدير الأنابيب من فوك مباشرة. يحفر بثلاث أنابيب (Stand ~90 قدم) مرة وحدة، ويگدر يدوّر ويضخ أثناء الرفع (Backreaming)، فيقلل حالات التعلق ويوفر وقت.\nأغلب الأبراج الحديثة تستخدم الـ Top drive.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ]
+  },
+  {
+   "id": "rig-10",
+   "topic": "rig",
+   "q": "شنو مكونات نظام دوران الطين؟",
+   "qEn": "What makes up the circulating system?",
+   "k": [
+    "circulating system",
+    "مسار الطين",
+    "standpipe",
+    "swivel",
+    "mud pits",
+    "دوره"
+   ],
+   "a": "مسار الطين بالبئر:\n• خزانات الطين (Mud pits) ← المضخات (Mud pumps) ← الـ Standpipe ← الخرطوم (Rotary hose) ← الـ Swivel أو الـ Top drive ← داخل أنابيب الحفر والـ Collars ← فتحات البت (Nozzles) ← الحلقة (Annulus) ← خط الرجوع (Flowline) ← معدات فصل المواد الصلبة ← رجوع للخزانات.\n• الضغط بالـ Standpipe يساوي مجموع خسائر الاحتكاك بكل هذا المسار.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ],
+   "fig": [
+    "circulation"
+   ]
+  },
+  {
+   "id": "rig-11",
+   "topic": "rig",
+   "q": "شلون أحسب تصريف مضخة الطين؟",
+   "qEn": "How do I calculate mud pump output?",
+   "k": [
+    "pump output",
+    "displacement",
+    "triplex",
+    "duplex",
+    "تصريف",
+    "stroke",
+    "liner"
+   ],
+   "a": "المضخة الثلاثية (Triplex، أحادية الفعل) هي الشائعة حالياً:\n$$ q\\ \\text{(bbl/stroke)} = 0.000243 \\times d^2 \\times L \\times E_v\nحيث d قطر الـ Liner (in)، L طول الشوط (in)، E_v الكفاءة الحجمية (عادة 0.9–0.97).\nالمضخة الثنائية (Duplex، مزدوجة الفعل):\n$$ q\\ \\text{(bbl/stroke)} = 0.000162 \\times L \\times (2d^2 - d_r^2) \\times E_v\nحيث dr قطر الـ Piston rod.\nوالتصريف بالدقيقة = q × عدد الأشواط بالدقيقة (SPM).",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ]
+  },
+  {
+   "id": "rig-12",
+   "topic": "rig",
+   "q": "شلون أحسب القدرة الهيدروليكية للمضخة؟",
+   "qEn": "What is pump hydraulic horsepower?",
+   "k": [
+    "hhp",
+    "hydraulic horsepower",
+    "قدره",
+    "horsepower"
+   ],
+   "a": "القدرة الهيدروليكية اللي تعطيها المضخة للطين:\n$$ HHP = \\dfrac{P \\times q}{1714}\nحيث P الضغط (psi) و q التصريف (gal/min).\nوالقدرة الداخلة للمضخة أكبر لأن بيها كفاءة ميكانيكية (عادة ~0.85–0.9):\n$$ \\text{Input HP} = \\dfrac{HHP}{E_m}",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Bourgoyne, Ch. 4"
+   ]
+  },
+  {
+   "id": "rig-13",
+   "topic": "rig",
+   "q": "شنو هي موانع الانفجار (BOP) وأنواعها؟",
+   "qEn": "What is a BOP stack?",
+   "k": [
+    "bop",
+    "annular",
+    "ram",
+    "pipe ram",
+    "blind ram",
+    "shear ram",
+    "accumulator",
+    "موانع"
+   ],
+   "a": "مجموعة صمامات كبيرة على رأس البئر تسد البئر إذا صار تدفق (Kick):\n• Annular preventer: عنصر مطاطي يسد على أي شكل أو قطر أنبوب، وحتى على البئر الفارغ.\n• Pipe rams: تسد على قطر أنبوب محدد.\n• Blind rams: تسد البئر لما ماكو أنابيب.\n• Shear rams: تقص الأنبوب وتسد البئر (للطوارئ).\nتشتغل بالضغط الهيدروليكي من الـ Accumulator unit، والـ Choke و Kill lines توصلها بالـ Choke manifold حتى نسيطر على الضغط أثناء قتل البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "bop"
+   ]
+  },
+  {
+   "id": "rig-14",
+   "topic": "rig",
+   "q": "شنو الأشياء اللي تراقبها أنظمة المراقبة بالبرج؟",
+   "qEn": "What does rig monitoring track?",
+   "k": [
+    "monitoring",
+    "مراقبه",
+    "pit volume",
+    "flow show",
+    "weight indicator",
+    "mud logging"
+   ],
+   "a": "أهم القراءات اللي يتابعها الحفار والـ Mud logger:\n• العمق وسرعة الحفر (ROP).\n• حمل الخطاف (Hook load) والوزن على البت (WOB).\n• عزم الدوران (Torque) وسرعة الدوران (RPM).\n• ضغط الضخ وأشواط المضخات.\n• مستوى الطين بالخزانات (Pit volume) وجريان الرجوع (Flow-out): أهم مؤشرات اكتشاف الـ Kick مبكراً.\n• الغاز بالطين وكثافة الطين الداخل والراجع.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ]
+  },
+  {
+   "id": "rig-15",
+   "topic": "rig",
+   "q": "شلون تنحسب كلفة الحفر لكل قدم؟",
+   "qEn": "Drilling cost per foot",
+   "k": [
+    "cost per foot",
+    "كلفه",
+    "drilling cost",
+    "rig rate",
+    "trip time"
+   ],
+   "a": "المعادلة الأساسية لتقييم أداء البت:\n$$ C_f = \\dfrac{C_b + C_r\\,(t_b + t_c + t_t)}{\\Delta D}\nحيث:\n• C_b كلفة البت، C_r كلفة تشغيل البرج بالساعة.\n• t_b وقت الدوران (حفر فعلي)، t_c وقت الاتصالات، t_t وقت السحب والإنزال (Trip).\n• ΔD العمق المحفور بهالبت.\nالبت الأفضل مو بالضرورة اللي تحفر أسرع، بل اللي تعطي أقل كلفة لكل قدم.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.7 و 6.9"
+   ]
+  },
+  {
+   "id": "rig-16",
+   "topic": "rig",
+   "q": "شنو هو الـ Trip وشلون يتقدر وقته؟",
+   "qEn": "What is a trip and trip time?",
+   "k": [
+    "trip",
+    "tripping",
+    "round trip",
+    "سحب",
+    "انزال",
+    "stand"
+   ],
+   "a": "الـ Trip هو سحب أنابيب الحفر من البئر (Trip out / POOH) أو إنزالها (Trip in / RIH)، عادةً لتبديل البت أو الـ BHA أو قبل إنزال التغليف.\n• الأنابيب تُسحب كـ Stands (عادة 3 أنابيب ≈ 90 قدم) وتتوقف بالبرج.\n• الوقت تقريباً يتناسب مع العمق، فكلما البئر أعمق صار تبديل البت أغلى، وهذا يدخل بحساب كلفة القدم.\n• أثناء السحب لازم نعبي البئر بالطين (Fill-up) لتعويض حجم الحديد المسحوب، وإلا ينزل الضغط الهيدروستاتيكي ويصير خطر Kick.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "rig-17",
+   "topic": "rig",
+   "q": "شنو أهم مكونات أنابيب الحفر (Drill string)؟",
+   "qEn": "What is the drill string made of?",
+   "k": [
+    "drill string",
+    "drill pipe",
+    "drill collar",
+    "hwdp",
+    "bha",
+    "سلسله"
+   ],
+   "a": "من الأعلى للأسفل:\n• أنابيب الحفر (Drill pipe): خفيفة نسبياً، تنقل الدوران والطين، وتشتغل بالشد (Tension).\n• الأنابيب الثقيلة (HWDP): انتقال تدريجي بين الأنابيب والـ Collars.\n• أثقال الحفر (Drill collars): أنابيب سميكة وثقيلة تعطي الوزن على البت وتبقي الأنابيب فوكها بالشد.\n• مكونات الـ BHA: المثبتات (Stabilizers)، الـ Jars، الـ MWD/LWD، الموتور الطيني أو الـ RSS.\n• البت بالنهاية.\nالقاعدة: نقطة التعادل (Neutral point) لازم تبقى داخل الـ Collars.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 9"
+   ]
+  },
+  {
+   "id": "rig-18",
+   "topic": "rig",
+   "q": "شنو مراحل حفر البئر بشكل عام؟",
+   "qEn": "What are the general stages of drilling a well?",
+   "k": [
+    "stages",
+    "مراحل",
+    "spud",
+    "sections",
+    "hole sections"
+   ],
+   "a": "• التحضير: الموقع، وتركيب البرج (Rig up)، وأحياناً الأنبوب الموصّل (Conductor).\n• الـ Spud: بداية الحفر.\n• الحفر على شكل أقسام (Sections) بأقطار تصغر مع العمق، مثلاً 26\" ثم 17½\" ثم 12¼\" ثم 8½\".\n• بنهاية كل قسم: سحب الأنابيب، إنزال التغليف (Casing)، وتسميته بالإسمنت، ثم تركيب الـ BOP والاختبار.\n• بالأقسام العميقة: المجسات (Logging) وتقييم الطبقات.\n• أخيراً: تغليف الإنتاج، والإكمال (Completion) أو الهجر (P&A) إذا البئر جاف.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1"
+   ]
+  },
+  {
+   "id": "rig-19",
+   "topic": "rig",
+   "q": "شنو مصادر الطاقة بالبرج وشلون تنقل؟",
+   "qEn": "Rig power systems",
+   "k": [
+    "power",
+    "طاقه",
+    "diesel",
+    "sCR",
+    "electric rig",
+    "mechanical rig"
+   ],
+   "a": "أغلب الأبراج تشتغل بمحركات ديزل. الطاقة تنتقل بطريقتين:\n• برج ميكانيكي (Mechanical): المحركات مربوطة بسلاسل وأحزمة وقوابض (Compound) مع الـ Drawworks والمضخات.\n• برج كهربائي (Diesel-electric): المحركات تولّد كهرباء، وتنقل بالكيبلات لمحركات كهربائية بكل جهاز، والسيطرة عليها بأنظمة SCR أو VFD. هذا أمرن وأسهل بالتوزيع، وهو الشائع حالياً.\nالكفاءة الكلية = القدرة الخارجة ÷ الطاقة الحرارية للوقود.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 1.5"
+   ]
+  },
+  {
+   "id": "rig-20",
+   "topic": "rig",
+   "q": "شلون أحسب كفاءة محرك الديزل بالبرج؟",
+   "qEn": "How is rig engine efficiency calculated?",
+   "k": [
+    "efficiency",
+    "كفاءه",
+    "fuel consumption",
+    "heating value",
+    "وقود"
+   ],
+   "a": "الكفاءة الكلية للمحرك = القدرة الخارجة ÷ الطاقة الداخلة من الوقود:\n$$ E_t = \\dfrac{P_{out}}{Q_{in}}\n$ Q_in = معدل استهلاك الوقود × القيمة الحرارية للوقود\nالقيمة الحرارية للديزل تقريباً 19,000 BTU/lbm، وكثافته حوالي 7.2 lb/gal. كفاءة محركات الديزل بالحمل الكامل عادة بحدود 30–40%.",
+   "refs": [
+    "Bourgoyne, Ch. 1"
+   ]
+  },
+  {
+   "id": "fl-01",
+   "topic": "fluids",
+   "q": "شنو وظائف طين الحفر؟",
+   "qEn": "What are the functions of drilling fluid?",
+   "k": [
+    "functions",
+    "وظائف",
+    "mud functions",
+    "فوائد"
+   ],
+   "a": "أهم وظائف سائل الحفر:\n• السيطرة على ضغط الطبقات بالضغط الهيدروستاتيكي ومنع الـ Kicks.\n• نقل القطع الصخرية (Cuttings) للسطح وتعليقها لما يتوقف الضخ.\n• تبريد وتزييت البت والأنابيب.\n• الحفاظ على ثبات جدار البئر بتكوين كيكة طين (Filter cake) رقيقة.\n• تقليل الضرر على الطبقة المنتجة.\n• نقل القدرة الهيدروليكية للبت والموتور الطيني.\n• نقل المعلومات (Mud logging وإشارات الـ MWD).\n• دعم جزء من وزن الأنابيب بالطفو (Buoyancy).",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.3"
+   ]
+  },
+  {
+   "id": "fl-02",
+   "topic": "fluids",
+   "q": "شنو أنواع سوائل الحفر؟",
+   "qEn": "What are the types of drilling fluids?",
+   "k": [
+    "types",
+    "انواع",
+    "wbm",
+    "obm",
+    "sbm",
+    "pneumatic",
+    "air",
+    "foam"
+   ],
+   "a": "ثلاث مجموعات رئيسية:\n• طين أساسه ماء (WBM): الأرخص والأكثر استخداماً. منه البنتونايتي، والـ Lignosulfonate، والبوليمري، والمملح (KCl) لتثبيت الشيل.\n• طين أساسه نفط أو مواد صناعية (OBM / SBM): مستحلب ماء بالنفط (Invert emulsion). ممتاز للشيل المتفاعل، والحرارة العالية، والتزييت، والآبار المائلة، بس أغلى وبيه قيود بيئية.\n• سوائل هوائية (Pneumatic): هواء، غاز، رغوة (Foam)، أو طين مهوّى. تستخدم بالطبقات الصلبة أو قليلة الضغط حتى نقلل الخسارة.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.4"
+   ]
+  },
+  {
+   "id": "fl-03",
+   "topic": "fluids",
+   "q": "شلون أحسب الضغط الهيدروستاتيكي للطين؟",
+   "qEn": "How do I calculate hydrostatic pressure?",
+   "k": [
+    "hydrostatic pressure",
+    "ضغط هيدروستاتيكي",
+    "0.052",
+    "tvd",
+    "gradient"
+   ],
+   "a": "بالوحدات الحقلية:\n$$ P_{\\text{(psi)}} = 0.052 \\times MW_{\\text{(ppg)}} \\times TVD_{\\text{(ft)}}\nوبالمترية:\n$$ P_{\\text{(kPa)}} = 0.00981 \\times \\rho_{(\\text{kg/m}^3)} \\times TVD_{\\text{(m)}}\nالعمق المستخدم هو العمق العمودي الحقيقي (TVD) مو العمق المقاس (MD).\nتدرج الضغط (Gradient) = 0.052 × MW بوحدة psi/ft. مثال: طين 10 ppg يعطي 0.52 psi/ft، وعلى عمق 10,000 قدم يعطي 5,200 psi.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.2"
+   ]
+  },
+  {
+   "id": "fl-04",
+   "topic": "fluids",
+   "q": "شنو هو وزن الطين وشلون ينقاس؟",
+   "qEn": "What is mud weight and how is it measured?",
+   "k": [
+    "mud weight",
+    "mud balance",
+    "ميزان الطين",
+    "pressurized"
+   ],
+   "a": "وزن الطين (Mud weight) هو كثافته، ويُعبَّر عنه بـ ppg أو lb/ft³ أو g/cm³ (SG).\n• يُقاس بميزان الطين (Mud balance): كوب بحجم ثابت على ذراع بي مؤشر، يُعاير بالماء العذب = 8.33 ppg.\n• إذا الطين بي غاز أو هواء محبوس، نستخدم الميزان المضغوط (Pressurized mud balance) حتى نضغط الفقاعات ونقرا الكثافة الحقيقية.\n• التحويل: SG × 8.33 = ppg، و ppg × 7.48 = lb/ft³.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-05",
+   "topic": "fluids",
+   "q": "شلون أحسب كمية الباريت لتثقيل الطين؟",
+   "qEn": "How much barite to weight up the mud?",
+   "k": [
+    "weight up",
+    "barite",
+    "تثقيل",
+    "اثقل",
+    "يثقل",
+    "زياده الوزن",
+    "ارفع الوزن",
+    "1470",
+    "sacks"
+   ],
+   "a": "إذا نريد نرفع وزن الطين من W1 إلى W2 (ppg)، وكثافة الباريت 35 ppg (SG 4.2):\n$$ \\text{Barite (lb/bbl)} = \\dfrac{1470\\,(W_2 - W_1)}{35 - W_2}\nوالحجم يزيد بسبب الباريت المضاف:\n$$ \\Delta V\\ \\text{(bbl/bbl)} = \\dfrac{W_2 - W_1}{35 - W_2}\nكيس الباريت عادة 100 lb. وإذا نريد نحافظ على نفس الحجم، لازم نسحب جزء من الطين قبل الإضافة.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.6"
+   ]
+  },
+  {
+   "id": "fl-06",
+   "topic": "fluids",
+   "q": "شلون أخفف وزن الطين بالماء؟",
+   "qEn": "How do I dilute (reduce) mud weight?",
+   "k": [
+    "dilution",
+    "تخفيف",
+    "reduce weight",
+    "water addition"
+   ],
+   "a": "من موازنة الكتلة، الماء المطلوب لكل برميل طين حتى ينزل الوزن من W1 إلى W2:\n$$ V_{water}\\ \\text{(bbl/bbl)} = \\dfrac{W_1 - W_2}{W_2 - W_w}\nحيث W_w كثافة الماء (8.33 ppg للعذب). مثال: من 12 إلى 11 ppg يحتاج (12−11)/(11−8.33) ≈ 0.375 bbl ماء لكل bbl طين.\nالتخفيف يقلل نسبة المواد الصلبة أيضاً، بس يغيّر خواص الطين الأخرى فلازم نعيد معالجتها.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.6"
+   ]
+  },
+  {
+   "id": "fl-07",
+   "topic": "fluids",
+   "q": "شلون أحسب كثافة خليط من عدة مواد (Mixing)؟",
+   "qEn": "Mixture density from components",
+   "k": [
+    "mixture",
+    "خليط",
+    "mass balance",
+    "volume fraction",
+    "ideal mixing"
+   ],
+   "a": "بافتراض الخلط المثالي (الحجوم تنجمع):\n$$ \\rho_{mix} = \\dfrac{\\sum \\rho_i V_i}{\\sum V_i}\nيعني كتلة كل مكوّن = كثافته × حجمه. هاي الطريقة تُستخدم لحساب وزن الطين من الماء والبنتونايت والباريت، أو لحساب الحجم النهائي بعد الإضافة.\nكثافات تقريبية: ماء 8.33، بنتونايت ~21.7، باريت ~35، ديزل ~7 ppg.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.6"
+   ]
+  },
+  {
+   "id": "fl-08",
+   "topic": "fluids",
+   "q": "شنو هي اللزوجة اللدنة (PV) ونقطة الخضوع (YP)؟",
+   "qEn": "What are plastic viscosity and yield point?",
+   "k": [
+    "pv",
+    "yp",
+    "plastic viscosity",
+    "yield point",
+    "bingham",
+    "600",
+    "300"
+   ],
+   "a": "تنقاس بجهاز الـ Viscometer الدوار (Fann) عند 600 و 300 دورة بالدقيقة:\n$$ PV\\ \\text{(cp)} = \\theta_{600} - \\theta_{300}\n$$ YP\\ (\\text{lb/100 ft}^2) = \\theta_{300} - PV\n$$ AV\\ \\text{(cp)} = \\dfrac{\\theta_{600}}{2}\n• الـ PV تعكس الاحتكاك الميكانيكي، وتزيد مع زيادة المواد الصلبة (خصوصاً الناعمة).\n• الـ YP تعكس قوى التجاذب الكهربائي بين الجزيئات، ومسؤولة عن حمل القطع الصخرية.\nهذا هو نموذج Bingham plastic.",
+   "refs": [
+    "Bourgoyne, Ch. 2 و 4",
+    "Mitchell & Miska, Ch. 3.7 و 5.4"
+   ],
+   "fig": [
+    "rheology"
+   ]
+  },
+  {
+   "id": "fl-09",
+   "topic": "fluids",
+   "q": "شنو هي قوة الجل (Gel strength) وليش مهمة؟",
+   "qEn": "What is gel strength?",
+   "k": [
+    "gel strength",
+    "10 sec",
+    "10 min",
+    "thixotropic",
+    "جل"
+   ],
+   "a": "قوة الجل تقيس قابلية الطين يكوّن هيكل هلامي لما يوقف (خاصية Thixotropy).\n• تنقاس بالـ Viscometer بسرعة 3 rpm بعد سكون 10 ثواني و 10 دقايق (lb/100ft²).\n• الجل الكافي يعلّق القطع الصخرية والباريت لما يتوقف الضخ.\n• الجل العالي جداً (Progressive gels) مشكلة: يحتاج ضغط كبير لكسره عند بدء الضخ، فممكن يكسر الطبقة ويسبب فقدان طين، ويسبب Swab/Surge أثناء الـ Trip.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-10",
+   "topic": "fluids",
+   "q": "شنو هو قمع مارش (Marsh funnel)؟",
+   "qEn": "What is the Marsh funnel viscosity?",
+   "k": [
+    "marsh funnel",
+    "funnel viscosity",
+    "قمع",
+    "seconds per quart"
+   ],
+   "a": "فحص سريع بالموقع: نحسب الثواني اللازمة حتى ينزل ربع غالون (Quart = 946 cm³) من الطين من القمع.\n• الماء العذب حوالي 26 ثانية.\n• القراءة ما تعطي لزوجة حقيقية بوحدات علمية، بس تفيد للمقارنة السريعة وكشف التغيرات المفاجئة بالطين.\nللتصميم والحسابات نعتمد قراءات الـ Viscometer (PV و YP).",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-11",
+   "topic": "fluids",
+   "q": "شنو هو فحص الترشيح (API filtrate) وكيكة الطين؟",
+   "qEn": "What is the API filtration test?",
+   "k": [
+    "api filtrate",
+    "filter press",
+    "fluid loss",
+    "filter cake",
+    "hthp",
+    "رشح"
+   ],
+   "a": "يقيس كمية السائل اللي تتسرب من الطين خلال ورقة ترشيح:\n• فحص API: فرق ضغط 100 psi، بحرارة الغرفة، لمدة 30 دقيقة، والنتيجة بـ cm³.\n• فحص HTHP: ضغط وحرارة عاليين (مثلاً 500 psi فرق ضغط و 300°F) حتى يمثل ظروف البئر.\n• نقيس أيضاً سمك الكيكة (عادة بـ 1/32 inch).\nالهدف: راشح قليل وكيكة رقيقة وقوية، لأن الكيكة السميكة تسبب تعلق تفاضلي (Differential sticking) والراشح الكثير يضر الطبقة ويسبب انتفاخ الشيل.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-12",
+   "topic": "fluids",
+   "q": "ليش حجم الراشح يتناسب مع الجذر التربيعي للزمن؟",
+   "qEn": "Why is filtrate volume proportional to the square root of time?",
+   "k": [
+    "square root",
+    "جذر",
+    "7.5 min",
+    "spurt loss",
+    "static filtration"
+   ],
+   "a": "بالترشيح الساكن، الكيكة تثخن كلما ينزل راشح أكثر، فتصير مقاومة أكبر، والنتيجة:\n$$ V_f \\propto \\sqrt{t}\nلهذا نگدر نقيس الراشح لمدة 7.5 دقيقة ونضربه بـ 2 حتى نقدّر قراءة الـ 30 دقيقة (لأن √30 / √7.5 = 2).\nإذا الخط ما يمر بالصفر، الفرق يسمى Spurt loss: كمية تنزل بسرعة بالبداية قبل ما تتكون الكيكة.",
+   "refs": [
+    "Bourgoyne, Ch. 2"
+   ]
+  },
+  {
+   "id": "fl-13",
+   "topic": "fluids",
+   "q": "شنو هو البنتونايت وشلون يشتغل؟",
+   "qEn": "What is bentonite and how does it work?",
+   "k": [
+    "bentonite",
+    "montmorillonite",
+    "sodium",
+    "yield of clay",
+    "بنتونايت",
+    "تميؤ"
+   ],
+   "a": "البنتونايت طين معدني أغلبه مونتموريلونايت (Montmorillonite) صوديومي. صفائحه الرقيقة تمتص الماء وتنتفخ (Hydration)، فتعطي:\n• لزوجة ونقطة خضوع وجل لحمل القطع الصخرية.\n• كيكة طين رقيقة وقليلة النفاذية تقلل الراشح.\nيُقيّم بالـ Yield: عدد براميل الطين بلزوجة ظاهرية 15 cp اللي يعطيها طن واحد من الطين. البنتونايت الجيد يعطي حوالي 90–100 bbl/ton، والأطيان المحلية الأقل جودة تعطي أقل بكثير.\nبالماء المالح ما يتميأ زين، فنحتاج نخلطه بماء عذب أولاً أو نستخدم Attapulgite.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.5"
+   ]
+  },
+  {
+   "id": "fl-14",
+   "topic": "fluids",
+   "q": "شنو هي حالات الطين: التجمع والتلبد والتشتت؟",
+   "qEn": "Aggregation, flocculation and dispersion of clays",
+   "k": [
+    "flocculation",
+    "dispersion",
+    "aggregation",
+    "deflocculation",
+    "تلبد",
+    "تشتت",
+    "thinners"
+   ],
+   "a": "صفائح الطين تترتب بأربع حالات:\n• التجمع (Aggregation): الصفائح فوق بعض وجه لوجه، لزوجة قليلة.\n• التشتت (Dispersion): الصفائح منفصلة، لزوجة أعلى.\n• التلبد (Flocculation): ترتبط حافة لوجه وتكوّن هيكل ('بيت ورق')، فتزيد الـ YP والجل كثير. أسبابه: الأملاح، والكالسيوم، والحرارة، والمواد الصلبة.\n• منع التلبد (Deflocculation): نضيف مشتتات (Thinners) مثل الـ Lignosulfonate والـ Lignite حتى تتعادل الشحنات وتنزل اللزوجة.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.5"
+   ]
+  },
+  {
+   "id": "fl-15",
+   "topic": "fluids",
+   "q": "شنو هو فحص المثيلين الأزرق (MBT)؟",
+   "qEn": "What is the methylene blue test?",
+   "k": [
+    "mbt",
+    "methylene blue",
+    "cec",
+    "reactive clay",
+    "مثيلين"
+   ],
+   "a": "فحص MBT يقيس كمية الأطيان الفعّالة (Reactive clays) بالطين عن طريق سعة التبادل الأيوني (CEC).\n• نضيف صبغة المثيلين الأزرق تدريجياً لحد ما تتشبع الأطيان ويظهر حلقة زرقاء على ورقة الترشيح.\n• النتيجة تتحول لمكافئ بنتونايت (lb/bbl).\nالقيمة العالية تعني الشيل المحفور ديتجمع بالطين، فنحتاج تخفيف أو تحسين فصل المواد الصلبة.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-16",
+   "topic": "fluids",
+   "q": "شلون ينقاس محتوى المواد الصلبة والسوائل بالطين (Retort)؟",
+   "qEn": "What does the retort test measure?",
+   "k": [
+    "retort",
+    "solids content",
+    "oil water ratio",
+    "lgs",
+    "hgs",
+    "تقطير",
+    "نسبه المواد الصلبه",
+    "محتوى المواد الصلبه",
+    "قياس المواد الصلبه",
+    "مواد صلبه كثيره"
+   ],
+   "a": "بالـ Retort نسخن حجم معروف من الطين لحد ما يتبخر الماء والنفط، ونكثفهم ونقيس حجمهم:\n• نسبة الماء ونسبة النفط، والباقي مواد صلبة.\n• من وزن الطين ونسبة المواد الصلبة نفصل بين المواد الصلبة الخفيفة (LGS، كثافتها ~2.6) والثقيلة (HGS مثل الباريت ~4.2).\nالـ LGS هي الشي المضر (قطع حفر ناعمة)، وزيادتها ترفع الـ PV وتقلل الـ ROP، لهذا نحاول نبقيها قليلة (عادة أقل من 5–6% حجماً).",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-17",
+   "topic": "fluids",
+   "q": "شنو أهمية الـ pH والقلوية بالطين؟",
+   "qEn": "Why do pH and alkalinity matter in mud?",
+   "k": [
+    "ph",
+    "alkalinity",
+    "pf",
+    "mf",
+    "caustic",
+    "قلويه"
+   ],
+   "a": "• أغلب الأطيان المائية تُبقى قلوية (pH ~9–10.5) حتى تشتغل المشتتات زين، وتقل التآكل، وتترسب أيونات الكالسيوم والمغنيسيوم.\n• نرفع الـ pH بالصودا الكاوية (NaOH) أو البوتاس الكاوية.\n• فحوص القلوية (Pf و Mf بالتسحيح) تفرق بين الهيدروكسيد والكاربونات والبيكاربونات، وتكشف تلوث CO₂ اللي يسبب مشاكل لزوجة.\n• بوجود H₂S، يُرفع الـ pH حتى نحمي الحديد ونقلل الخطر.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.7"
+   ]
+  },
+  {
+   "id": "fl-18",
+   "topic": "fluids",
+   "q": "شنو هي الملوثات الشائعة للطين المائي وشلون تُعالج؟",
+   "qEn": "Common water-based mud contaminants",
+   "k": [
+    "contamination",
+    "تلوث",
+    "cement",
+    "anhydrite",
+    "salt",
+    "co2",
+    "calcium"
+   ],
+   "a": "• الإسمنت: يرفع الـ pH والكالسيوم ويسبب تلبد. يعالج بالبيكاربونات (Bicarb) وتقليل الـ pH.\n• الجبس والأنهايدرايت (كالسيوم): يعالج بالصودا آش (Soda ash) أو يُحوَّل الطين لنظام جبسي.\n• الملح (حفر طبقات ملحية أو تدفق ماء مالح): يزيد التلبد وينزل أداء البنتونايت. يعالج بالتخفيف والمشتتات أو التحول لطين مشبع بالملح.\n• CO₂ والكاربونات: تسبب جل عالي. تعالج بالجير (Lime) أو الجبس حسب نوع الأيون.\n• المواد الصلبة الناعمة: تعالج بفصل المواد الصلبة والتخفيف.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3"
+   ]
+  },
+  {
+   "id": "fl-19",
+   "topic": "fluids",
+   "q": "متى نستخدم الطين النفطي (OBM) بدل المائي؟",
+   "qEn": "When is oil-based mud used?",
+   "k": [
+    "obm",
+    "invert emulsion",
+    "oil water ratio",
+    "electrical stability",
+    "nonaqueous"
+   ],
+   "a": "الطين النفطي (مستحلب ماء بالنفط، Invert emulsion) ينفع خصوصاً لما:\n• الشيل حساس وينتفخ بالماء.\n• الحرارة عالية جداً.\n• الحفر بطبقات ملحية أو بي غازات حامضية.\n• الآبار المائلة والأفقية (تزييت أفضل وعزم واحتكاك أقل).\n• نريد نقلل ضرر الطبقة المنتجة.\nأهم فحوصه: نسبة النفط للماء (OWR)، والثبات الكهربائي (Electrical stability) للمستحلب، وملوحة الطور المائي (Activity) حتى نمنع سحب الماء من الشيل.\nعيوبه: كلفة عالية، وقيود بيئية، وصعوبة كشف الـ Kick لأن الغاز يذوب بالنفط.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.4"
+   ]
+  },
+  {
+   "id": "fl-20",
+   "topic": "fluids",
+   "q": "شنو هي الإضافات الرئيسية بالطين ووظيفة كل وحدة؟",
+   "qEn": "Main mud additives and their roles",
+   "k": [
+    "additives",
+    "اضافات",
+    "viscosifier",
+    "fluid loss control",
+    "thinner",
+    "lcm",
+    "lubricant"
+   ],
+   "a": "• مواد التثقيل (Weighting): الباريت، والهيماتايت، وكاربونات الكالسيوم (تذوب بالحامض، مناسبة للمكامن).\n• رافعات اللزوجة (Viscosifiers): البنتونايت، والبوليمرات مثل Xanthan gum.\n• مقللات الراشح (Fluid loss control): النشا (Starch)، والـ CMC، والـ PAC.\n• المشتتات (Thinners): Lignosulfonate، Lignite، وبوليمرات منخفضة الوزن الجزيئي.\n• ضبط الـ pH: الصودا الكاوية، والجير.\n• مثبطات الشيل: KCl، والـ Glycol، والبوليمرات المغلّفة (PHPA).\n• مواد سد الفقدان (LCM): ألياف، وقشور، وكاربونات بأحجام متدرجة.\n• المزلقات، ومضادات الرغوة، ومضادات التآكل، والمبيدات الحيوية.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3"
+   ]
+  },
+  {
+   "id": "fl-21",
+   "topic": "fluids",
+   "q": "ليش لازم نزيل المواد الصلبة من الطين؟",
+   "qEn": "Why is solids control important?",
+   "k": [
+    "solids control",
+    "فصل",
+    "drilled solids",
+    "lgs"
+   ],
+   "a": "القطع الصخرية الناعمة اللي تبقى بالطين:\n• ترفع وزن الطين بدون فائدة، فتقل سرعة الحفر (ROP).\n• ترفع الـ PV وتسبب كيكة سميكة، فيزيد خطر التعلق التفاضلي.\n• تتآكل بيها المضخات والبتات.\n• تزيد كلفة الطين لأننا نحتاج تخفيف أكثر.\nلهذا نشيلها بأسرع وقت، من الأكبر للأصغر، وكل ما تنكسر القطع أصغر تصير أصعب بالإزالة.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.8"
+   ]
+  },
+  {
+   "id": "fl-22",
+   "topic": "fluids",
+   "q": "شنو معدات فصل المواد الصلبة وترتيبها؟",
+   "qEn": "Solids control equipment and their order",
+   "k": [
+    "shale shaker",
+    "desander",
+    "desilter",
+    "mud cleaner",
+    "centrifuge",
+    "hydrocyclone",
+    "degasser"
+   ],
+   "a": "حسب ترتيب مرور الطين:\n• الهزاز (Shale shaker): مناخل تهتز وتشيل القطع الكبيرة. أول وأهم خط دفاع.\n• مزيل الغاز (Degasser): إذا الطين بي غاز، قبل الـ Hydrocyclones.\n• مزيل الرمل (Desander): مخاريط كبيرة (عادة 6–12 بوصة) تشيل جزيئات بحدود ~40–75 مايكرون.\n• مزيل الطمي (Desilter): مخاريط أصغر (2–5 بوصة) تشيل جزيئات بحدود ~15–20 مايكرون.\n• منظف الطين (Mud cleaner): Desilter فوك منخل ناعم، حتى نرجع الباريت ونشيل القطع بالطين الثقيل.\n• الطارد المركزي (Centrifuge): يفصل أنعم الجزيئات، أو يسترجع الباريت ويرمي السائل الناعم.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.8"
+   ],
+   "fig": [
+    "solids"
+   ]
+  },
+  {
+   "id": "fl-23",
+   "topic": "fluids",
+   "q": "شنو يعني رقم المنخل (Mesh) بالهزاز؟",
+   "qEn": "What does shaker screen mesh mean?",
+   "k": [
+    "mesh",
+    "screen",
+    "منخل",
+    "api screen",
+    "cut point"
+   ],
+   "a": "رقم الـ Mesh هو عدد الفتحات بالبوصة الطولية. كلما زاد الرقم صارت الفتحات أصغر، وتنشال جزيئات أنعم.\n• مثلاً منخل 200 mesh يشيل جزيئات أكبر من حوالي 74 مايكرون.\n• حالياً تُصنف المناخل بمعيار API حسب حجم الفتحة الفعلي (رقم API).\nالمناخل الناعمة جداً تخلي الطين يطفح ويفقد (Overflow)، لهذا نختار أنعم منخل يتحمل معدل الضخ.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.8"
+   ]
+  },
+  {
+   "id": "fl-24",
+   "topic": "fluids",
+   "q": "شنو الفرق بين الـ Desander والـ Desilter؟",
+   "qEn": "Desander vs desilter",
+   "k": [
+    "desander",
+    "desilter",
+    "hydrocyclone",
+    "cone size"
+   ],
+   "a": "الاثنين Hydrocyclones: الطين يدخل بسرعة بشكل مماسي، فالقوة الطاردة ترمي الجزيئات الثقيلة للجدار وتطلع من الأسفل (Underflow)، والسائل النظيف يطلع من الأعلى.\n• الـ Desander: مخاريط كبيرة (6–12 بوصة)، حد فصل تقريباً 40–75 مايكرون.\n• الـ Desilter: مخاريط صغيرة (2–5 بوصة)، حد فصل تقريباً 15–20 مايكرون.\nما ينفعون بالطين المثقل بالباريت، لأن الباريت بنفس الحجم وراح ينرمي، لهذا نستخدم الـ Mud cleaner أو الـ Centrifuge.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.8"
+   ],
+   "fig": [
+    "solids"
+   ]
+  },
+  {
+   "id": "fl-25",
+   "topic": "fluids",
+   "q": "شلون يشتغل الطارد المركزي (Centrifuge)؟",
+   "qEn": "How does a decanting centrifuge work?",
+   "k": [
+    "centrifuge",
+    "barite recovery",
+    "decanting",
+    "g force"
+   ],
+   "a": "أسطوانة تدور بسرعة عالية جداً (قوة تعادل مئات أضعاف الجاذبية)، فالجزيئات الثقيلة تترسب على الجدار وينقلها لولب (Conveyor) للخارج، والسائل الخفيف يطلع من الجهة الثانية.\nاستخدامين أساسيين:\n• بالطين المثقل: نسترجع الباريت (الثقيل) ونرمي السائل بي الأطيان الناعمة، فتنزل اللزوجة.\n• بالطين الخفيف: نشيل المواد الصلبة الناعمة جداً (لحد ~2–5 مايكرون).",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.8"
+   ]
+  },
+  {
+   "id": "fl-26",
+   "topic": "fluids",
+   "q": "شنو هي الطين البوليمري ومتى يستخدم؟",
+   "qEn": "What are polymer muds?",
+   "k": [
+    "polymer",
+    "بوليمر",
+    "xanthan",
+    "phpa",
+    "pac",
+    "cmc",
+    "low solids"
+   ],
+   "a": "طين مائي يعتمد على البوليمرات بدل كميات كبيرة من البنتونايت:\n• الـ Xanthan gum: يعطي لزوجة وجل ممتاز بسرعات القص المنخفضة لحمل القطع، ويخف بالسرعات العالية (Shear thinning) فيقلل خسائر الضغط.\n• الـ PAC و الـ CMC: تقلل الراشح.\n• الـ PHPA: يغلّف الشيل والقطع ويمنع تفككها.\nمميزاته: مواد صلبة قليلة، فسرعة حفر أعلى. عيوبه: البوليمرات تتحلل بالحرارة العالية (عادة فوق ~250–300°F حسب النوع) وبالبكتيريا.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.4"
+   ]
+  },
+  {
+   "id": "fl-27",
+   "topic": "fluids",
+   "q": "شلون نحافظ على ثبات الشيل بالطين المائي؟",
+   "qEn": "How is shale stabilized with water-based mud?",
+   "k": [
+    "shale stability",
+    "inhibition",
+    "kcl",
+    "glycol",
+    "swelling",
+    "تثبيط",
+    "انتفاخ"
+   ],
+   "a": "الشيل يمتص الماء من الطين فينتفخ ويتفكك ويسبب انهيار وضيق الحفرة. الحلول:\n• التثبيط الأيوني: إضافة KCl، لأن أيون البوتاسيوم يدخل بين صفائح الطين ويقلل انتفاخها.\n• البوليمرات المغلّفة (PHPA) والـ Glycols: تقلل دخول الماء.\n• تقليل الراشح وتحسين الكيكة.\n• وزن طين مناسب حتى يسند جدار البئر ميكانيكياً.\n• تقليل وقت تعرّض الشيل للطين.\nوإذا هاي ما كفّت، الحل الأقوى هو الطين النفطي.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 2 و 3"
+   ]
+  },
+  {
+   "id": "fl-28",
+   "topic": "fluids",
+   "q": "شنو هو الطفو (Buoyancy) وشلون أحسب وزن الأنابيب بالطين؟",
+   "qEn": "Buoyancy factor and buoyed weight",
+   "k": [
+    "buoyancy",
+    "buoyancy factor",
+    "طفو",
+    "buoyed weight",
+    "65.5"
+   ],
+   "a": "الطين يدفع الأنابيب لفوك، فوزنها بالطين أقل من وزنها بالهواء:\n$$ BF = 1 - \\dfrac{MW}{65.5}\nحيث 65.5 ppg كثافة الحديد تقريباً.\n$$ W_{buoyed} = W_{air} \\times BF\nمثال: طين 10 ppg يعطي BF ≈ 0.847، يعني الأنابيب تفقد حوالي 15% من وزنها.",
+   "refs": [
+    "Bourgoyne, Ch. 4 و 7",
+    "Mitchell & Miska, Ch. 9"
+   ]
+  },
+  {
+   "id": "fl-29",
+   "topic": "fluids",
+   "q": "شنو تأثير الحرارة والضغط على كثافة الطين؟",
+   "qEn": "Effect of temperature and pressure on mud density",
+   "k": [
+    "temperature",
+    "حراره",
+    "compressibility",
+    "thermal expansion",
+    "hpht"
+   ],
+   "a": "• الحرارة تمدد السائل فتقل الكثافة، والضغط يضغطه فتزيد الكثافة.\n• بالآبار العادية التأثيرين تقريباً يلغون بعض.\n• بالآبار العميقة والحارة (HPHT) والطين النفطي (النفط ينضغط ويتمدد أكثر من الماء)، الفرق ممكن يكون مهم، فالضغط الهيدروستاتيكي الحقيقي بالقاع يختلف عن المحسوب من الوزن السطحي، ونحتاج نموذج كثافة يعتمد على الحرارة والضغط.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.2"
+   ]
+  },
+  {
+   "id": "fl-30",
+   "topic": "fluids",
+   "q": "شنو مخاطر الطين على الصحة والسلامة والبيئة؟",
+   "qEn": "HSE considerations for drilling fluids",
+   "k": [
+    "hse",
+    "safety",
+    "environment",
+    "بيئه",
+    "سلامه",
+    "waste",
+    "h2s"
+   ],
+   "a": "• المواد الكيميائية: بعضها كاوي أو سام (الصودا الكاوية، الكرومات القديمة)، فنحتاج معدات حماية وورقة بيانات السلامة (SDS).\n• الطين النفطي: تلامس الجلد واستنشاق الأبخرة، وقيود تصريف القطع الملوثة بالنفط.\n• غاز H₂S: يحتاج مراقبة، ورفع الـ pH، ومواد ماسكة (Scavengers) مثل مركبات الزنك.\n• النفايات: القطع والطين المستهلك يحتاج معالجة أو حقن أو نقل حسب القوانين البيئية.\n• تقليل حجم الطين المرمي بتحسين فصل المواد الصلبة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 3.9"
+   ]
+  },
+  {
+   "id": "fl-31",
+   "topic": "fluids",
+   "q": "شنو هو الطين المهوّى والرغوي والحفر بالهواء؟",
+   "qEn": "Air, foam and aerated drilling",
+   "k": [
+    "air drilling",
+    "foam",
+    "aerated",
+    "pneumatic",
+    "underbalanced",
+    "هواء",
+    "رغوه"
+   ],
+   "a": "نستخدم الغاز بدل السائل أو وياه حتى نخلي الضغط بقاع البئر قليل:\n• الحفر بالهواء الجاف: أسرع حفر بالصخور الصلبة الجافة، بس ما ينفع إذا أكو تدفق ماء.\n• الضباب (Mist): هواء ويا كمية ماء ومادة رغوية قليلة.\n• الرغوة (Foam): قابلية حمل عالية للقطع وضغط قليل.\n• الطين المهوّى (Aerated): طين ويا غاز حتى نخفف الوزن، يفيد بمناطق الفقدان الكلي.\nعيوبها: صعوبة السيطرة على البئر، ومخاطر الحرائق بوجود هيدروكاربونات، ومحدودية بالطبقات اللي بيها ماء.",
+   "refs": [
+    "Bourgoyne, Ch. 2",
+    "Mitchell & Miska, Ch. 3.4"
+   ]
+  },
+  {
+   "id": "fl-32",
+   "topic": "fluids",
+   "q": "شنو هي سرعة القص ونماذج سلوك الطين (Rheology)؟",
+   "qEn": "Shear rate and rheological models",
+   "k": [
+    "rheology",
+    "shear rate",
+    "shear stress",
+    "newtonian",
+    "power law",
+    "herschel bulkley",
+    "bingham"
+   ],
+   "a": "الريولوجيا تدرس العلاقة بين إجهاد القص (Shear stress) وسرعة القص (Shear rate):\n• نيوتوني (Newtonian): خط مستقيم يمر بالصفر (الماء، النفط). لزوجة ثابتة.\n• Bingham plastic: خط مستقيم يقطع محور الإجهاد بالـ YP، وميله الـ PV.\n• Power law: τ = K × γⁿ، حيث n أقل من 1 للطين اللي يخف بالقص.\n• Herschel–Bulkley: يجمع الاثنين (Yield stress + Power law) وهو الأدق لأغلب الأطيان.\nبالـ Fann viscometer، سرعة القص (s⁻¹) ≈ 1.703 × rpm.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.4"
+   ],
+   "fig": [
+    "rheology"
+   ]
+  },
+  {
+   "id": "fl-33",
+   "topic": "fluids",
+   "q": "شلون أحسب n و K لنموذج Power law من قراءات الفان؟",
+   "qEn": "Power-law n and K from Fann readings",
+   "k": [
+    "power law",
+    "n",
+    "k",
+    "flow index",
+    "consistency index",
+    "fann"
+   ],
+   "a": "من قراءتي 600 و 300:\n$$ n = 3.32\\,\\log\\!\\left(\\dfrac{\\theta_{600}}{\\theta_{300}}\\right)\n$$ K = \\dfrac{510\\,\\theta_{300}}{511^{\\,n}}\\ \\text{(eq. cp)}\n• n يسمى مؤشر السلوك (Flow behavior index): كلما قل عن 1، الطين يخف أكثر بالقص.\n• K مؤشر القوام (Consistency index).\nبالحلقة (Annulus) يفضّل نستخدم القراءات الواطية (3 و 100 rpm) لأن سرعات القص هناك أقل.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.4"
+   ]
+  },
+  {
+   "id": "fl-34",
+   "topic": "fluids",
+   "q": "شنو هو طين الحفر بالمكمن (Drill-in fluid)؟",
+   "qEn": "What is a reservoir drill-in fluid?",
+   "k": [
+    "drill-in",
+    "reservoir",
+    "مكمن",
+    "formation damage",
+    "calcium carbonate",
+    "ضرر"
+   ],
+   "a": "سائل خاص لحفر الطبقة المنتجة، هدفه أقل ضرر ممكن للنفاذية:\n• بدون بنتونايت أو باريت (ما ينشالن بسهولة).\n• يستخدم كاربونات الكالسيوم بأحجام مدروسة (تذوب بالحامض) أو أملاح مذابة للتثقيل.\n• بوليمرات قابلة للتكسير (Breakable) حتى تنشال الكيكة قبل الإنتاج.\n• أحجام الجزيئات تُختار حسب فتحات مسامات الصخر حتى تسد السطح بس وما تدخل عميق.",
+   "refs": [
+    "Mitchell & Miska, Ch. 3.4"
+   ]
+  },
+  {
+   "id": "fl-35",
+   "topic": "fluids",
+   "q": "شنو هو الـ ECD وليش يختلف عن وزن الطين؟",
+   "qEn": "What is equivalent circulating density?",
+   "k": [
+    "ecd",
+    "equivalent circulating density",
+    "annular pressure loss",
+    "كثافه مكافئه"
+   ],
+   "a": "لما نضخ الطين، خسائر الاحتكاك بالحلقة (Annulus) تضيف ضغط على قاع البئر، فكأن الطين أثقل:\n$$ ECD = MW + \\dfrac{\\Delta P_{annulus}}{0.052 \\times TVD}\nالـ ECD لازم يبقى بين ضغط المسامات وضغط تكسير الطبقة. إذا عبَر ضغط التكسير يصير فقدان طين (Lost circulation)، خصوصاً بالآبار الضيقة والعميقة.\nالـ ECD يزيد مع: زيادة معدل الضخ، ولزوجة أعلى، وحلقة أضيق، وقطع صخرية كثيرة بالحلقة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.9"
+   ]
+  },
+  {
+   "id": "hy-01",
+   "topic": "hydraulics",
+   "q": "شنو هي هيدروليكا الحفر وليش مهمة؟",
+   "qEn": "What is drilling hydraulics and why does it matter?",
+   "k": [
+    "hydraulics",
+    "هيدروليكا",
+    "pressure losses",
+    "خسائر الضغط"
+   ],
+   "a": "هيدروليكا الحفر تدرس ضغوط الطين وجريانه بالبئر، وتنفعنا حتى:\n• نحسب الضغط الهيدروستاتيكي ونسيطر على البئر.\n• نحسب خسائر الاحتكاك بالأنابيب والحلقة ونختار المضخات والضغط المطلوب.\n• نختار أحجام فتحات البت (Nozzles) حتى ننظف قاع البئر بأحسن شكل.\n• نحسب الـ ECD وضغوط الـ Surge والـ Swab حتى ما نكسر الطبقة أو نسحب Kick.\n• نتأكد إن الطين يحمل القطع الصخرية للسطح.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.1"
+   ]
+  },
+  {
+   "id": "hy-02",
+   "topic": "hydraulics",
+   "q": "شلون أحسب ضغط القاع إذا الحفرة بيها أكثر من سائل؟",
+   "qEn": "Bottom-hole pressure with several fluid columns",
+   "k": [
+    "complex fluid column",
+    "عمود سوائل",
+    "multiple fluids",
+    "spacer",
+    "slug"
+   ],
+   "a": "الضغط بالقاع = ضغط السطح + مجموع ضغط كل عمود سائل:\n$$ P_{bottom} = P_{surface} + 0.052 \\sum MW_i\\,h_i\nحيث h_i الطول العمودي (TVD) لكل سائل. هذا يستخدم مثلاً لحساب الضغط وقت الإسمنت (عدة سوائل بالحلقة)، أو بعد ضخ Slug ثقيل قبل السحب، أو بالـ U-tube بين الأنابيب والحلقة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.2"
+   ]
+  },
+  {
+   "id": "hy-03",
+   "topic": "hydraulics",
+   "q": "شنو هي ظاهرة الـ U-tube بالبئر؟",
+   "qEn": "What is the U-tube effect?",
+   "k": [
+    "u-tube",
+    "u tube",
+    "slug",
+    "free fall",
+    "انبوب حرف"
+   ],
+   "a": "داخل الأنابيب والحلقة مثل أنبوب على شكل حرف U متصلين بالقاع. إذا كثافة الطين بالجهتين مختلفة، السائل يتحرك لحد ما يتساوى الضغط بالقاع.\n• مثال: نضخ Slug ثقيل داخل الأنابيب قبل السحب، فينزل مستوى الطين داخلها حتى نسحب الأنابيب جافة.\n• وقت الإسمنت: الإسمنت الثقيل بالأنابيب ممكن ينزل لوحده (Free fall) ويطلع الطين من الحلقة أسرع من الضخ.\nالحساب يعتمد على موازنة ضغط عمودي الجهتين بالقاع.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.2"
+   ],
+   "fig": [
+    "utube"
+   ]
+  },
+  {
+   "id": "hy-04",
+   "topic": "hydraulics",
+   "q": "شلون أحسب الضغط بعمود الغاز؟",
+   "qEn": "Pressure in a gas column",
+   "k": [
+    "gas column",
+    "عمود غاز",
+    "gas gradient",
+    "z factor",
+    "compressible"
+   ],
+   "a": "الغاز ينضغط، فكثافته تزيد مع العمق، ونستخدم المعادلة:\n$$ P_2 = P_1 \\exp\\!\\left(\\dfrac{M\\,\\Delta D}{1544\\,z\\,T}\\right)\nحيث M الوزن الجزيئي للغاز، ΔD الارتفاع (ft)، T درجة الحرارة المطلقة (°R)، z معامل الانحراف.\nللتقريب السريع، تدرج الغاز عادة 0.05–0.15 psi/ft حسب الضغط ونوع الغاز. هذا مهم بحسابات الـ Kick وضغط رأس البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.2"
+   ]
+  },
+  {
+   "id": "hy-05",
+   "topic": "hydraulics",
+   "q": "شنو هو رقم رينولدز وشلون أعرف الجريان طبقي لو مضطرب؟",
+   "qEn": "Reynolds number: laminar or turbulent flow?",
+   "k": [
+    "reynolds",
+    "رينولدز",
+    "laminar",
+    "turbulent",
+    "طبقي",
+    "مضطرب",
+    "critical velocity"
+   ],
+   "a": "رقم رينولدز يقارن قوى القصور الذاتي بقوى اللزوجة.\nبالوحدات الحقلية للسائل النيوتوني:\n$$ N_{Re,\\ pipe} = \\dfrac{928\\,\\rho\\,v\\,d}{\\mu}\n$$ N_{Re,\\ ann} = \\dfrac{757\\,\\rho\\,v\\,(d_2 - d_1)}{\\mu}\nحيث ρ بالـ ppg، v بالـ ft/s، d بالـ in، μ بالـ cp.\n• تقريباً أقل من 2,100: جريان طبقي (Laminar).\n• أكثر من حوالي 4,000: مضطرب (Turbulent)، وبينهما انتقالي.\nللطين غير النيوتوني نستخدم لزوجة ظاهرية مناسبة للنموذج (Bingham أو Power law).",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.5–5.6"
+   ]
+  },
+  {
+   "id": "hy-06",
+   "topic": "hydraulics",
+   "q": "شلون أحسب السرعة المتوسطة للطين بالأنابيب والحلقة؟",
+   "qEn": "Average velocity in pipe and annulus",
+   "k": [
+    "velocity",
+    "سرعه",
+    "annular velocity",
+    "سرعه الحلقه",
+    "av"
+   ],
+   "a": "بالوحدات الحقلية (q بالـ gal/min والأقطار بالبوصة):\n$$ v_{pipe}\\ \\text{(ft/s)} = \\dfrac{q}{2.448\\,d^2}\n$$ v_{ann}\\ \\text{(ft/s)} = \\dfrac{q}{2.448\\,(d_2^2 - d_1^2)}\nحيث d2 قطر الحفرة أو التغليف، d1 القطر الخارجي للأنابيب.\nوبالـ ft/min نضرب بـ 60. السرعة بالحلقة (Annular velocity) مهمة لتنظيف البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.3"
+   ]
+  },
+  {
+   "id": "hy-07",
+   "topic": "hydraulics",
+   "q": "شلون أحسب خسارة الضغط بالجريان الطبقي (Bingham)؟",
+   "qEn": "Laminar frictional pressure loss, Bingham plastic",
+   "k": [
+    "laminar",
+    "bingham",
+    "frictional pressure",
+    "خساره الضغط",
+    "احتكاك"
+   ],
+   "a": "لطين Bingham بالجريان الطبقي (وحدات حقلية: psi/ft، cp، lb/100ft²، ft/s، in):\n$$ \\text{Pipe:}\\ \\dfrac{dP}{dL} = \\dfrac{\\mu_p\\,v}{1500\\,d^2} + \\dfrac{\\tau_y}{225\\,d}\n$$ \\text{Annulus:}\\ \\dfrac{dP}{dL} = \\dfrac{\\mu_p\\,v}{1000\\,(d_2 - d_1)^2} + \\dfrac{\\tau_y}{200\\,(d_2 - d_1)}\nالحد الأول يمثل اللزوجة اللدنة، والثاني يمثل نقطة الخضوع. نضرب بطول المقطع حتى نحصل الخسارة الكلية.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.5"
+   ]
+  },
+  {
+   "id": "hy-08",
+   "topic": "hydraulics",
+   "q": "شلون أحسب خسارة الضغط بالجريان المضطرب؟",
+   "qEn": "Turbulent frictional pressure loss",
+   "k": [
+    "turbulent",
+    "fanning",
+    "friction factor",
+    "معامل الاحتكاك",
+    "blasius"
+   ],
+   "a": "بالجريان المضطرب نستخدم معامل احتكاك Fanning (f):\n$$ \\dfrac{dP}{dL}\\ \\text{(psi/ft)} = \\dfrac{f\\,\\rho\\,v^2}{25.8\\,d}\nحيث ρ بالـ ppg، v بالـ ft/s، d بالـ in. للحلقة نستخدم القطر الهيدروليكي المكافئ (تقريباً 0.816 × (d2 − d1) أو حسب الطريقة).\nلأنابيب ملساء تقريب Blasius:\n$$ f = \\dfrac{0.0791}{N_{Re}^{\\,0.25}}\nوبالطين غير النيوتوني نستخدم علاقات خاصة بالنموذج (مثلاً Dodge–Metzner للـ Power law). الخسارة المضطربة تزيد تقريباً مع q^1.75.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.6"
+   ]
+  },
+  {
+   "id": "hy-09",
+   "topic": "hydraulics",
+   "q": "شلون أحسب خسارة الضغط عبر فتحات البت (Nozzles)؟",
+   "qEn": "Bit nozzle pressure drop",
+   "k": [
+    "bit pressure drop",
+    "nozzle",
+    "فتحات",
+    "tfa",
+    "jets",
+    "8.311"
+   ],
+   "a": "عبر فتحات البت الطين يتسارع كثير، وخسارة الضغط:\n$$ \\Delta P_{bit}\\ \\text{(psi)} = \\dfrac{8.311\\times10^{-5}\\,\\rho\\,q^2}{C_d^2\\,A_t^2}\nحيث ρ بالـ ppg، q بالـ gal/min، At مجموع مساحة الفتحات (in²)، Cd معامل التصريف (عادة 0.95).\nمساحة الفتحات من أقطارها (تُعطى بـ 1/32 بوصة):\n$$ A_t = \\sum \\dfrac{\\pi}{4}\\left(\\dfrac{d_n}{32}\\right)^2",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.8"
+   ]
+  },
+  {
+   "id": "hy-10",
+   "topic": "hydraulics",
+   "q": "شلون أحسب سرعة الفوهة وقوة الدفع (Jet impact force)؟",
+   "qEn": "Nozzle velocity and jet impact force",
+   "k": [
+    "nozzle velocity",
+    "jet impact",
+    "impact force",
+    "قوه الدفع",
+    "0.01823"
+   ],
+   "a": "سرعة الطين الخارج من الفتحات:\n$$ v_n\\ \\text{(ft/s)} = \\dfrac{0.3208\\,q}{A_t}\nوقوة الدفع على قاع البئر:\n$$ F_j\\ \\text{(lbf)} = 0.01823\\,C_d\\,q\\,\\sqrt{\\rho\\,\\Delta P_{bit}}\nالقوة العالية تساعد تنظيف القطع من تحت البت مباشرة، فتمنع إعادة طحنها وتزيد سرعة الحفر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.8"
+   ]
+  },
+  {
+   "id": "hy-11",
+   "topic": "hydraulics",
+   "q": "شلون أحسب القدرة الهيدروليكية عند البت (Bit HHP)؟",
+   "qEn": "Bit hydraulic horsepower",
+   "k": [
+    "bit hhp",
+    "hsi",
+    "horsepower per square inch",
+    "قدره البت"
+   ],
+   "a": "$$ HHP_{bit} = \\dfrac{\\Delta P_{bit}\\,q}{1714}\nوالقدرة لكل بوصة مربعة من مساحة الحفرة:\n$$ HSI = \\dfrac{HHP_{bit}}{\\frac{\\pi}{4}\\,d_{bit}^2}\nقيم الـ HSI الشائعة للتنظيف الجيد تقريباً بحدود 2.5–5 hp/in² حسب الطبقة ونوع البت. بنفس الوقت، نسبة ضغط البت من ضغط الضخ الكلي مؤشر مهم لكفاءة استغلال المضخة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.8"
+   ]
+  },
+  {
+   "id": "hy-12",
+   "topic": "hydraulics",
+   "q": "شنو هو التحسين الهيدروليكي واختيار أحجام الفتحات؟",
+   "qEn": "Hydraulics optimization and nozzle selection",
+   "k": [
+    "optimization",
+    "تحسين",
+    "nozzle selection",
+    "max hhp",
+    "max impact",
+    "0.65",
+    "0.48"
+   ],
+   "a": "ضغط الضخ يتوزع بين خسائر الاحتكاك بالنظام (Parasitic) وخسارة البت. نختار التصريف وأحجام الفتحات حتى نعظّم أحد المعيارين:\n• أقصى قدرة هيدروليكية عند البت: لما خسارة البت ≈ 65% من الضغط الأقصى للمضخة.\n• أقصى قوة دفع (Impact force): لما خسارة البت ≈ 48% من الضغط الأقصى.\nبالتطبيق: نقيس خسائر النظام عند تصريفين (أو نحسبها) حتى نحدد الأس m بالعلاقة ΔP_parasitic ∝ q^m، ونختار q والـ At المناسبين، وبنفس الوقت نحافظ على حد أدنى لتنظيف الحلقة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.8"
+   ]
+  },
+  {
+   "id": "hy-13",
+   "topic": "hydraulics",
+   "q": "شلون أحسب ضغط المضخة الكلي (Standpipe pressure)؟",
+   "qEn": "Total pump (standpipe) pressure",
+   "k": [
+    "standpipe pressure",
+    "pump pressure",
+    "ضغط المضخه",
+    "system losses"
+   ],
+   "a": "ضغط المضخة = مجموع كل خسائر الاحتكاك بالمسار:\n$$ P_{pump} = \\Delta P_{surf} + \\Delta P_{dp} + \\Delta P_{dc} + \\Delta P_{bit} + \\Delta P_{ann}\n(الضغط الهيدروستاتيكي يلغي نفسه لأن نفس الطين داخل الأنابيب والحلقة.)\nإذا تغير الضغط فجأة بدون تغيير التصريف، فهي علامة مشكلة: نقصان مفاجئ يعني ممكن تسريب بالأنابيب (Washout) أو فقدان فتحة بالبت، وزيادة تعني انسداد فتحة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.9"
+   ]
+  },
+  {
+   "id": "hy-14",
+   "topic": "hydraulics",
+   "q": "شلون يتغير ضغط المضخة مع التصريف ووزن الطين؟",
+   "qEn": "How pump pressure changes with rate and mud weight",
+   "k": [
+    "pressure vs rate",
+    "slow pump rate",
+    "spr",
+    "scr",
+    "ضغط بطيء"
+   ],
+   "a": "قاعدة تقريبية مفيدة بالموقع:\n$$ P_2 \\approx P_1 \\left(\\dfrac{q_2}{q_1}\\right)^2\n$$ P_2 \\approx P_1\\,\\dfrac{MW_2}{MW_1}\nالأس الحقيقي للتصريف أقل شوية من 2 بالجريان المضطرب (~1.75–1.86).\nلهذا نسجل ضغط المضخة بسرعات بطيئة (Slow circulating rate) بكل شفت أو بعد تغيير الطين، حتى نستخدمه بحسابات قتل البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "hy-15",
+   "topic": "hydraulics",
+   "q": "شنو هي ضغوط الـ Surge والـ Swab؟",
+   "qEn": "What are surge and swab pressures?",
+   "k": [
+    "surge",
+    "swab",
+    "tripping speed",
+    "سحب",
+    "انزال",
+    "trip speed"
+   ],
+   "a": "لما ننزل الأنابيب بسرعة، الطين يندفع لفوك بالحلقة فيزيد الضغط بالقاع (Surge). ولما نسحبها بسرعة، الطين ينزل يملأ الفراغ فيقل الضغط (Swab).\n• الـ Surge الكبير ممكن يكسر الطبقة ويسبب فقدان طين.\n• الـ Swab ممكن ينزّل الضغط تحت ضغط المسامات ويسحب Kick.\nتزيد مع: سرعة السحب، والحلقة الضيقة، ولزوجة وجل عاليين، والبت المسدودة (Balled) أو الأنابيب المغلقة النهاية. الحل: تحديد سرعة سحب وإنزال آمنة، وأحياناً إضافة هامش (Trip margin) لوزن الطين.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.10"
+   ]
+  },
+  {
+   "id": "hy-16",
+   "topic": "hydraulics",
+   "q": "شنو هو هامش السحب (Trip margin)؟",
+   "qEn": "What is a trip margin?",
+   "k": [
+    "trip margin",
+    "هامش",
+    "safety margin",
+    "riser margin",
+    "overbalance"
+   ],
+   "a": "زيادة صغيرة بوزن الطين فوك الوزن اللازم لموازنة ضغط المسامات، حتى تعوض الـ Swab أثناء السحب:\n$$ \\text{Trip margin (ppg)} \\approx \\dfrac{\\Delta P_{swab}}{0.052 \\times TVD}\nعادة بحدود 0.1–0.3 ppg. بنفس الوقت لازم يبقى الوزن ويا الـ Surge والـ ECD تحت ضغط التكسير. بالحفر البحري أكو مفهوم Riser margin إذا انفصل الـ Riser.",
+   "refs": [
+    "Bourgoyne, Ch. 4 و 6",
+    "Mitchell & Miska, Ch. 5.10"
+   ]
+  },
+  {
+   "id": "hy-17",
+   "topic": "hydraulics",
+   "q": "شنو العوامل اللي تأثر على تنظيف البئر ونقل القطع؟",
+   "qEn": "What controls hole cleaning and cuttings transport?",
+   "k": [
+    "hole cleaning",
+    "cuttings transport",
+    "تنظيف",
+    "نقل القطع",
+    "slip velocity",
+    "cuttings bed"
+   ],
+   "a": "• السرعة بالحلقة: لازم تكون أكبر من سرعة انزلاق القطع (Slip velocity) بهامش.\n• خواص الطين: الـ YP والقراءات الواطية (6 و 3 rpm) والجل تساعد حمل القطع.\n• وزن الطين: الأثقل يعطي طفو أكبر للقطع.\n• دوران الأنابيب: مهم جداً بالآبار المائلة حتى يحرك القطع المترسبة.\n• زاوية البئر: بين ~30–60° أصعب منطقة، لأن القطع تترسب وتنزلق لتحت (Avalanching).\n• حجم وشكل القطع وسرعة الحفر.\nعلامات سوء التنظيف: زيادة الـ Torque والـ Drag، وتعلق أثناء السحب، وزيادة الـ ECD.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.11"
+   ]
+  },
+  {
+   "id": "hy-18",
+   "topic": "hydraulics",
+   "q": "شنو هي سرعة انزلاق القطع (Slip velocity) ونسبة النقل؟",
+   "qEn": "Cuttings slip velocity and transport ratio",
+   "k": [
+    "slip velocity",
+    "transport ratio",
+    "transport efficiency",
+    "سرعه الانزلاق",
+    "moore"
+   ],
+   "a": "سرعة الانزلاق هي سرعة نزول القطعة الصخرية بالطين بسبب وزنها. وصافي صعود القطع:\n$$ v_{cuttings} = v_{ann} - v_{slip}\n$$ \\text{Transport ratio} = 1 - \\dfrac{v_{slip}}{v_{ann}}\nنسبة النقل الأقرب لـ 1 أفضل، وعادة نريدها أكبر من ~0.5 بالآبار العمودية. سرعة الانزلاق تُقدّر بعلاقات تجريبية (مثل Moore أو Chien) تعتمد على حجم القطعة وكثافتها وكثافة ولزوجة الطين.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.11"
+   ]
+  },
+  {
+   "id": "hy-19",
+   "topic": "hydraulics",
+   "q": "شلون تأثر القطع الصخرية بالحلقة على الـ ECD؟",
+   "qEn": "Cuttings loading effect on ECD",
+   "k": [
+    "cuttings concentration",
+    "تركيز القطع",
+    "effective mud weight",
+    "loading"
+   ],
+   "a": "القطع المعلقة بالحلقة تزيد الكثافة الفعلية للطين:\n$$ \\rho_{eff} \\approx \\rho_{mud}\\,(1 - C_a) + \\rho_{cuttings}\\,C_a\nحيث Ca نسبة حجم القطع بالحلقة. Ca يزيد مع سرعة الحفر العالية وتصريف قليل. لهذا بالحفر السريع لازم نراقب الـ ECD، وأحياناً نحدد سرعة الحفر أو نزيد التدوير حتى ما نكسر الطبقة.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.11"
+   ]
+  },
+  {
+   "id": "hy-20",
+   "topic": "hydraulics",
+   "q": "ليش ضغط بدء الضخ أعلى من الضغط وقت الجريان؟",
+   "qEn": "Why is break-circulation pressure higher?",
+   "k": [
+    "break circulation",
+    "gel breaking",
+    "كسر الجل",
+    "start pumps"
+   ],
+   "a": "بعد ما يوقف الطين فترة، يكوّن جل. حتى نحركه لازم نتغلب على قوة الجل على طول الأنابيب والحلقة، فيصير ضغط أعلى لحظياً:\n$$ \\Delta P_{gel} \\approx \\dfrac{\\tau_{gel}\\,L}{300\\,d}\\quad \\text{(pipe)}\n$$ \\Delta P_{gel} \\approx \\dfrac{\\tau_{gel}\\,L}{300\\,(d_2 - d_1)}\\quad \\text{(annulus)}\nهذا الضغط الإضافي على الحلقة ممكن يكسر الطبقة الضعيفة، فلهذا نبدأ الضخ ببطء ونزيد تدريجياً، وأحياناً ندوّر الأنابيب قبل الضخ.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 5.9"
+   ]
+  },
+  {
+   "id": "hy-21",
+   "topic": "hydraulics",
+   "q": "شنو تأثير لا مركزية الأنابيب بالحلقة على الضغط؟",
+   "qEn": "Effect of pipe eccentricity in the annulus",
+   "k": [
+    "eccentric",
+    "eccentricity",
+    "لا مركزيه",
+    "concentric"
+   ],
+   "a": "الأنابيب نادراً تكون بنص الحفرة بالضبط، خصوصاً بالآبار المائلة. بالحلقة اللامركزية:\n• خسارة الضغط بالاحتكاك أقل من الحلقة المركزية (ممكن تنزل لحد ~40–60% منها عند لا مركزية كاملة بالجريان الطبقي).\n• الطين بالجهة الضيقة يكاد يكون واقف، فالقطع تترسب هناك، والإسمنت ما يزيح الطين منها زين.\nلهذا نستخدم المركزات (Centralizers) بالتغليف وندوّر الأنابيب.",
+   "refs": [
+    "Mitchell & Miska, Ch. 5.7"
+   ]
+  },
+  {
+   "id": "pr-01",
+   "topic": "pressure",
+   "q": "شنو هو ضغط المسامات (Pore pressure)؟",
+   "qEn": "What is pore pressure?",
+   "k": [
+    "pore pressure",
+    "ضغط المسامات",
+    "formation pressure",
+    "ضغط الطبقه"
+   ],
+   "a": "ضغط المسامات هو ضغط السوائل (ماء، نفط، غاز) داخل مسامات الصخر.\n• الضغط الطبيعي (Normal): يساوي ضغط عمود ماء متصل بالسطح، تدرجه تقريباً 0.433 psi/ft للماء العذب و 0.465 psi/ft للماء المالح (شائع بالخليج).\n• الضغط العالي (Abnormal / Overpressure): أكبر من الطبيعي.\n• الضغط الواطي (Subnormal): أقل من الطبيعي، مثل المكامن المستنزفة.\nمعرفته أساس اختيار وزن الطين ونقاط التغليف.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-02",
+   "topic": "pressure",
+   "q": "شنو هو ضغط الحمل الصخري (Overburden)؟",
+   "qEn": "What is overburden stress?",
+   "k": [
+    "overburden",
+    "حمل صخري",
+    "lithostatic",
+    "vertical stress",
+    "1 psi/ft"
+   ],
+   "a": "ضغط الحمل الصخري هو وزن كل الصخور والسوائل فوك نقطة معينة:\n$$ \\sigma_{ob} = 0.052 \\int \\rho_{bulk}\\,dD\nحيث ρ_bulk الكثافة الكلية للصخر (من مجس الكثافة).\nكقيمة تقريبية يقال 1 psi/ft، بس الحقيقي أقل بالأعماق الضحلة (الرسوبيات غير متماسكة) ويزيد مع العمق. بالبحر لازم نحسب عمود الماء الخفيف فوك القاع.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-03",
+   "topic": "pressure",
+   "q": "شنو هو الإجهاد الفعال (Effective stress)؟",
+   "qEn": "What is effective stress (Terzaghi)?",
+   "k": [
+    "effective stress",
+    "اجهاد فعال",
+    "terzaghi",
+    "matrix stress"
+   ],
+   "a": "الحمل الصخري يتحمله جزئين: هيكل الصخر (الحبيبات) والسائل بالمسامات:\n$$ \\sigma_{ob} = \\sigma_{eff} + p_p\nالإجهاد الفعال σ_eff هو اللي يتحمله الهيكل ويضغط الصخر. لما يكون ضغط المسامات عالي بشكل غير طبيعي، الإجهاد الفعال يقل، فالصخر يبقى أقل تراصاً وبي مسامية أعلى من المتوقع لعمقه. على هالفكرة تعتمد أغلب طرق كشف الضغط العالي.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-04",
+   "topic": "pressure",
+   "q": "شنو أسباب الضغط العالي غير الطبيعي؟",
+   "qEn": "Causes of abnormal pressure",
+   "k": [
+    "abnormal pressure",
+    "overpressure",
+    "undercompaction",
+    "ضغط عالي",
+    "اسباب"
+   ],
+   "a": "• عدم التراص (Undercompaction): ترسيب سريع للطين والشيل، فالماء ما يلحق يطلع ويتحمل جزء من الحمل. هذا أشهر سبب.\n• التمدد الحراري للسوائل (Aquathermal).\n• تحولات المعادن وتحرير الماء (مثلاً Smectite إلى Illite).\n• الأملاح والأنهايدرايت كطبقات عازلة.\n• التراكيب الجيولوجية: الصدوع، والطيات، والقباب الملحية.\n• عمود الهيدروكربونات بطبقة مائلة (فرق الكثافة بين الغاز والماء).\n• الشحن من طبقة أعمق عبر صدع أو بئر بي تسريب.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-05",
+   "topic": "pressure",
+   "q": "شلون نكشف الضغط العالي أثناء الحفر؟",
+   "qEn": "Detecting abnormal pressure while drilling",
+   "k": [
+    "detection",
+    "كشف",
+    "connection gas",
+    "background gas",
+    "shale density",
+    "warning signs"
+   ],
+   "a": "علامات بالحفر وبالطين تدل على دخولنا منطقة ضغط عالي:\n• زيادة سرعة الحفر بالشيل بدون سبب (الشيل أقل تراص).\n• زيادة الـ d-exponent المصحح بشكل عكسي (يقل عن الخط الطبيعي).\n• زيادة الغاز الخلفي (Background gas)، وظهور غاز الاتصالات (Connection gas) وغاز السحب (Trip gas).\n• قطع شيل أكبر ومتشظية (Cavings).\n• نقصان كثافة الشيل المقاسة بالقطع.\n• زيادة حرارة الطين الراجع.\n• زيادة الـ Torque والـ Drag وضيق الحفرة.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-06",
+   "topic": "pressure",
+   "q": "شنو هو الـ d-exponent وشلون أحسبه؟",
+   "qEn": "What is the d-exponent and how is it calculated?",
+   "k": [
+    "d-exponent",
+    "d exponent",
+    "dc",
+    "corrected d",
+    "دي اكسبوننت"
+   ],
+   "a": "مؤشر يطبّع سرعة الحفر بالنسبة للوزن والدوران وقطر البت حتى يعكس تراص الصخر:\n$$ d = \\dfrac{\\log\\left(\\frac{R}{60\\,N}\\right)}{\\log\\left(\\frac{12\\,W}{10^6\\,d_b}\\right)}\nحيث R سرعة الحفر (ft/hr)، N الدوران (rpm)، W الوزن على البت (lbf)، db قطر البت (in).\nوالمصحح لوزن الطين:\n$$ d_c = d\\,\\dfrac{\\rho_{normal}}{\\rho_{ECD}}\nبالشيل الطبيعي dc يزيد مع العمق. لما يبدأ يقل عن خط الاتجاه الطبيعي، فهي إشارة دخول ضغط عالي.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ],
+   "fig": [
+    "dexp"
+   ]
+  },
+  {
+   "id": "pr-07",
+   "topic": "pressure",
+   "q": "شلون نقدّر ضغط المسامات من المجسات (طريقة Eaton)؟",
+   "qEn": "Pore pressure from logs (Eaton method)",
+   "k": [
+    "eaton",
+    "sonic",
+    "resistivity",
+    "logs",
+    "مجسات",
+    "normal compaction trend"
+   ],
+   "a": "نرسم قراءة المجس بالشيل (المقاومة أو الزمن الصوتي) ضد العمق، ونرسم خط التراص الطبيعي (Normal compaction trend). الانحراف عن الخط يدل على ضغط عالي. طريقة Eaton:\n$$ p_p = \\sigma_{ob} - (\\sigma_{ob} - p_n)\\left(\\dfrac{R_{obs}}{R_n}\\right)^{1.2}\\quad\\text{(resistivity)}\n$$ p_p = \\sigma_{ob} - (\\sigma_{ob} - p_n)\\left(\\dfrac{\\Delta t_n}{\\Delta t_{obs}}\\right)^{3}\\quad\\text{(sonic)}\nحيث p_n الضغط الطبيعي، و R_n أو Δt_n قيمة خط الاتجاه الطبيعي. الأسس (1.2 و 3) تجريبية وتعدّل حسب المنطقة.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2.4"
+   ]
+  },
+  {
+   "id": "pr-08",
+   "topic": "pressure",
+   "q": "شنو هو ضغط التكسير (Fracture pressure)؟",
+   "qEn": "What is fracture pressure?",
+   "k": [
+    "fracture pressure",
+    "fracture gradient",
+    "ضغط التكسير",
+    "تدرج التكسير"
+   ],
+   "a": "ضغط التكسير هو الضغط اللي تنشق عنده الطبقة ويدخلها الطين. يعتمد أساساً على أقل إجهاد أفقي بالصخر.\n• هو الحد الأعلى لوزن الطين والـ ECD والـ Surge.\n• المسافة بين ضغط المسامات وضغط التكسير تسمى نافذة وزن الطين (Mud weight window)، وهي اللي تحدد كم قسم تغليف نحتاج.\n• يُقدّر بعلاقات تجريبية، ويُقاس فعلياً بفحص الـ Leak-off test بعد كل تغليف.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ],
+   "fig": [
+    "window"
+   ]
+  },
+  {
+   "id": "pr-09",
+   "topic": "pressure",
+   "q": "شنو طرق تقدير ضغط التكسير؟",
+   "qEn": "Fracture gradient prediction methods",
+   "k": [
+    "hubbert willis",
+    "matthews kelly",
+    "eaton fracture",
+    "poisson",
+    "بواسون",
+    "fracture gradient"
+   ],
+   "a": "أغلبها على شكل:\n$$ p_{frac} = K\\,(\\sigma_{ob} - p_p) + p_p\nوالفرق بينها بقيمة K (نسبة الإجهاد الأفقي للعمودي الفعال):\n• Hubbert & Willis: K بين 1/3 و 1/2.\n• Matthews & Kelly: K متغير مع العمق من بيانات المنطقة.\n• Eaton: K = ν / (1 − ν)، حيث ν نسبة بواسون (تزيد مع العمق).\nكلها تقديرات، والقيمة الحقيقية تنقاس بالـ LOT.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-10",
+   "topic": "pressure",
+   "q": "شنو هو فحص التسريب (Leak-off test) وشلون ينحسب؟",
+   "qEn": "What is a leak-off test (LOT)?",
+   "k": [
+    "lot",
+    "leak off test",
+    "leak-off",
+    "فحص التسريب",
+    "shoe test"
+   ],
+   "a": "بعد إسمنت التغليف وحفر كم قدم تحت الحذاء (Shoe)، نسد البئر ونضخ ببطء، ونرسم الضغط ضد الحجم المضخوخ:\n• الخط بالبداية مستقيم (انضغاط الطين). النقطة اللي يبدأ يميل بيها هي ضغط التسريب (Leak-off).\nنحوله لكثافة مكافئة:\n$$ EMW_{LOT} = MW + \\dfrac{P_{LOT}}{0.052 \\times TVD_{shoe}}\nهذي أقصى كثافة مكافئة نگدر نوصلها عند الحذاء، وتستخدم لتحديد وزن الطين الأقصى وتحمّل الـ Kick (Kick tolerance).",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ],
+   "fig": [
+    "lot"
+   ]
+  },
+  {
+   "id": "pr-11",
+   "topic": "pressure",
+   "q": "شنو الفرق بين LOT و FIT؟",
+   "qEn": "LOT versus FIT",
+   "k": [
+    "fit",
+    "formation integrity test",
+    "lot",
+    "فرق"
+   ],
+   "a": "• الـ LOT: نضخ لحد ما يبدأ التسريب فعلاً، فنعرف حد الطبقة الحقيقي.\n• الـ FIT (Formation integrity test): نضخ لضغط محدد مسبقاً فقط (حسب أقصى وزن طين نحتاجه للقسم الجاي) ونتوقف، حتى نتأكد إن الطبقة تتحمل بدون ما نكسرها.\nالـ FIT أكثر أماناً للطبقة، بس ما يعطي الحد الحقيقي.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-12",
+   "topic": "pressure",
+   "q": "شنو هي نافذة وزن الطين وشلون نختار نقاط التغليف منها؟",
+   "qEn": "Mud weight window and casing seat selection",
+   "k": [
+    "mud weight window",
+    "نافذه",
+    "casing seat",
+    "نقاط التغليف",
+    "casing points"
+   ],
+   "a": "نرسم ضد العمق: ضغط المسامات، وضغط التكسير، ووزن الطين المخطط (مع هامش).\nنبدأ من القاع لفوك:\n• وزن الطين بالقاع (ضغط المسامات + هامش) يحدد أقل عمق نگدر نوصله بأمان. فوكه ضغط التكسير يصير أقل من هذا الوزن، فلازم نتغلف قبله.\n• نكرر لكل قسم لحد السطح.\nإضافة لهذا نحسب تحمّل الـ Kick، وطبقات المشاكل (فقدان، شيل غير مستقر، ملح)، والمتطلبات القانونية (حماية المياه الجوفية).",
+   "refs": [
+    "Bourgoyne, Ch. 6 و 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ],
+   "fig": [
+    "window"
+   ]
+  },
+  {
+   "id": "pr-13",
+   "topic": "pressure",
+   "q": "شلون أحول الضغط إلى كثافة مكافئة (EMW)؟",
+   "qEn": "Converting pressure to equivalent mud weight",
+   "k": [
+    "emw",
+    "equivalent mud weight",
+    "كثافه مكافئه",
+    "gradient conversion"
+   ],
+   "a": "$$ EMW_{\\text{(ppg)}} = \\dfrac{P_{\\text{(psi)}}}{0.052 \\times TVD_{\\text{(ft)}}}\n$$ \\text{Gradient (psi/ft)} = EMW \\times 0.052\nأمثلة: تدرج 0.465 psi/ft = 8.94 ppg، وتدرج 1 psi/ft = 19.2 ppg. استخدام الـ EMW يسهّل مقارنة ضغط المسامات والتكسير ووزن الطين على نفس الرسم.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 2"
+   ]
+  },
+  {
+   "id": "pr-14",
+   "topic": "pressure",
+   "q": "شنو هو ثبات جدار البئر (Wellbore stability)؟",
+   "qEn": "What is wellbore stability?",
+   "k": [
+    "wellbore stability",
+    "ثبات",
+    "collapse",
+    "breakout",
+    "انهيار",
+    "rock mechanics"
+   ],
+   "a": "لما نحفر، نشيل صخر كان ساند الجدار، والطين لازم يعوض. الإجهادات حول البئر تتركز:\n• إذا وزن الطين قليل: الجدار ينهار بالقص (Shear failure)، فيصير توسع وكافيز (Breakouts) وتعلق.\n• إذا وزن الطين عالي: الجدار ينشق بالشد (Tensile failure)، فيصير فقدان طين.\nفنافذة الثبات بين ضغط الانهيار وضغط التكسير. تعتمد على الإجهادات الأرضية، وقوة الصخر، واتجاه وميلان البئر، والتفاعل الكيميائي ويا الطين.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2.1–2.3"
+   ]
+  },
+  {
+   "id": "pr-15",
+   "topic": "pressure",
+   "q": "شلون يأثر ميلان البئر واتجاهه على الثبات؟",
+   "qEn": "Effect of inclination and azimuth on stability",
+   "k": [
+    "inclined wells",
+    "inclination",
+    "azimuth",
+    "ميلان",
+    "اتجاه",
+    "horizontal stress"
+   ],
+   "a": "بالآبار المائلة الإجهادات حول البئر تختلف عن العمودي:\n• عادة كلما زاد الميلان يرتفع وزن الطين اللازم لمنع الانهيار، ويقل ضغط التكسير، فالنافذة تضيق.\n• الاتجاه (Azimuth) بالنسبة للإجهادات الأفقية مهم: الحفر باتجاه أقل إجهاد أفقي يختلف عن أكبره.\nلهذا تحليل الثبات للآبار الأفقية والممتدة (ERD) ضروري قبل التصميم.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2.2"
+   ]
+  },
+  {
+   "id": "pr-16",
+   "topic": "pressure",
+   "q": "شنو هي الضغوط الواطية غير الطبيعية (Subnormal) ومخاطرها؟",
+   "qEn": "Subnormal pressure and its risks",
+   "k": [
+    "subnormal",
+    "depleted",
+    "مستنزف",
+    "underpressure",
+    "depletion"
+   ],
+   "a": "ضغط أقل من الطبيعي، أسبابه:\n• استنزاف المكامن بالإنتاج.\n• تبريد الطبقات أو تمدد الصخر بالتعرية.\n• المناطق المرتفعة اللي مستوى الماء الجوفي بيها عميق.\nالمخاطر: فقدان طين، والتعلق التفاضلي (فرق ضغط كبير بين الطين والطبقة)، وضرر للمكمن. الحلول: طين أخف، أو سوائل هوائية، أو مواد سد (LCM)، أو تغليف إضافي.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 10.1"
+   ]
+  },
+  {
+   "id": "pr-17",
+   "topic": "pressure",
+   "q": "شنو هو الـ Shale density وشلون يكشف الضغط؟",
+   "qEn": "Shale density as a pressure indicator",
+   "k": [
+    "shale density",
+    "كثافه الشيل",
+    "cuttings density",
+    "bulk density"
+   ],
+   "a": "بالضغط الطبيعي، كثافة الشيل تزيد مع العمق لأن التراص يزيد. نقيس كثافة قطع الشيل (بعمود سوائل مدرّج أو ميزان) ونرسمها ضد العمق.\n• إذا الكثافة بدأت تقل عن الاتجاه الطبيعي، معناها الشيل أقل تراص، وهي علامة ضغط عالي.\nالطريقة بسيطة وتنعمل بالموقع، بس تتأثر بنوع الشيل وتلوث القطع.",
+   "refs": [
+    "Bourgoyne, Ch. 6"
+   ]
+  },
+  {
+   "id": "pr-18",
+   "topic": "pressure",
+   "q": "شنو هو الـ Overbalance والـ Underbalance؟",
+   "qEn": "Overbalanced vs underbalanced drilling",
+   "k": [
+    "overbalance",
+    "underbalance",
+    "underbalanced drilling",
+    "ubd",
+    "mpd",
+    "managed pressure"
+   ],
+   "a": "• Overbalance: ضغط الطين بالقاع أكبر من ضغط المسامات. هذا الحفر التقليدي الآمن، بس الزيادة الكبيرة تقلل سرعة الحفر وتزيد التعلق التفاضلي وضرر الطبقة.\n• Underbalance: ضغط الطين أقل من ضغط المسامات عن قصد، فالطبقة تنتج أثناء الحفر، ونسيطر عليها بمعدات سطحية. ميزته سرعة حفر أعلى وضرر أقل للمكمن، بس يحتاج معدات وخبرة.\n• الـ MPD (Managed Pressure Drilling): نتحكم بضغط القاع بدقة باستخدام ضغط سطحي (Back pressure) حتى نحفر بالنوافذ الضيقة.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 5 و 10"
+   ]
+  },
+  {
+   "id": "pr-19",
+   "topic": "pressure",
+   "q": "شلون تأثر درجة الحرارة على ضغط المسامات والحفر؟",
+   "qEn": "Temperature effects in drilling",
+   "k": [
+    "temperature",
+    "حراره",
+    "geothermal gradient",
+    "bhst",
+    "bhct",
+    "flowline temperature"
+   ],
+   "a": "• التدرج الحراري الأرضي عادة بحدود 1–2°F لكل 100 قدم.\n• حرارة الطين الراجع (Flowline temperature) تزيد بشكل غير طبيعي لما ندخل منطقة ضغط عالي، لأن الشيل غير المتراص عازل حراري أكثر.\n• الحرارة العالية تأثر على الطين (تحلل البوليمرات، تلبد البنتونايت)، وعلى الإسمنت (سرعة التصلب)، وعلى أدوات الـ MWD والإلكترونيات.\n• نفرق بين حرارة القاع الساكنة (BHST) وحرارة الدوران (BHCT) الأقل، والأخيرة تستخدم بتصميم الإسمنت.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 4.6"
+   ]
+  },
+  {
+   "id": "cs-01",
+   "topic": "casing",
+   "q": "ليش نغلف البئر بالـ Casing؟",
+   "qEn": "Why is casing run?",
+   "k": [
+    "casing purpose",
+    "وظائف التغليف",
+    "why casing",
+    "تغليف"
+   ],
+   "a": "التغليف أنابيب فولاذية تنزل للبئر وتنسمت، ووظائفها:\n• تمنع انهيار جدار البئر بالطبقات الضعيفة.\n• تعزل الطبقات عن بعض (مياه جوفية عذبة، طبقات ضغط عالي، مناطق فقدان).\n• تسمح نرفع وزن الطين للقسم الجاي بدون ما نكسر الطبقات الضحلة.\n• تعطي قاعدة نركب عليها الـ BOP ورأس البئر.\n• تكون مسار آمن للإنتاج والإكمال.\n• تمنع تلوث الطبقات بالطين، والطين بسوائل الطبقات.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.1"
+   ],
+   "fig": [
+    "casing"
+   ]
+  },
+  {
+   "id": "cs-02",
+   "topic": "casing",
+   "q": "شنو أنواع التغليف حسب العمق ووظيفته؟",
+   "qEn": "Types of casing strings",
+   "k": [
+    "conductor",
+    "surface casing",
+    "intermediate",
+    "production casing",
+    "liner",
+    "انواع التغليف"
+   ],
+   "a": "• الموصّل (Conductor): أول وأكبر قطر، ضحل، يمنع انهيار الطبقات السطحية الرخوة ويوجه الطين للسطح.\n• السطحي (Surface casing): يحمي المياه الجوفية العذبة، ويتحمل رأس البئر والـ BOP، ويعطي سند لتكملة الحفر.\n• الوسطي (Intermediate): يعزل مناطق المشاكل (ضغط عالي، فقدان، شيل غير مستقر، ملح) قبل الوصول للمكمن.\n• الإنتاجي (Production casing): آخر تغليف، يعزل المكمن ومنه يصير الإنتاج.\n• البطانة (Liner): تغليف ما يوصل للسطح، يتعلق داخل التغليف السابق، أرخص وأخف، ويقلل خسائر الضغط.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.1"
+   ],
+   "fig": [
+    "casing"
+   ]
+  },
+  {
+   "id": "cs-03",
+   "topic": "casing",
+   "q": "شنو معنى رتبة التغليف مثل J-55 و N-80 و P-110؟",
+   "qEn": "What do API casing grades mean?",
+   "k": [
+    "grade",
+    "رتبه",
+    "j55",
+    "k55",
+    "n80",
+    "l80",
+    "p110",
+    "q125",
+    "yield strength"
+   ],
+   "a": "الحرف يميز الرتبة (نوع المعالجة والكيمياء)، والرقم هو أقل مقاومة خضوع (Minimum yield strength) بالألف psi:\n• J-55 و K-55: خضوع 55,000 psi، للآبار الضحلة.\n• N-80 و L-80: 80,000 psi. الـ L-80 مقاوم لغاز H₂S (Sour service) بسبب صلادة محدودة.\n• C-90 و T-95: مقاومة للـ H₂S.\n• P-110: 110,000 psi، قوية للآبار العميقة بس ما تنفع بوجود H₂S بدرجات الحرارة الواطية.\n• Q-125: 125,000 psi.\nكلما زادت القوة تقل مقاومة التشقق بالكبريت (SSC).",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.3"
+   ]
+  },
+  {
+   "id": "cs-04",
+   "topic": "casing",
+   "q": "شلون يوصفون أنبوب التغليف (القطر والوزن والـ Drift)؟",
+   "qEn": "How is a casing joint specified?",
+   "k": [
+    "od",
+    "weight",
+    "drift",
+    "wall thickness",
+    "range",
+    "وزن",
+    "قطر"
+   ],
+   "a": "يتوصف التغليف بـ:\n• القطر الخارجي (OD)، مثل 9⅝\".\n• الوزن الاسمي (lb/ft)، اللي يحدد سمك الجدار والقطر الداخلي.\n• الرتبة (Grade).\n• نوع الوصلة (Connection).\n• الطول (Range): R1 تقريباً 16–25 قدم، R2 حوالي 25–34، R3 حوالي 34–48.\n• قطر الـ Drift: أكبر أداة أسطوانية مضمون تمر داخله (أقل من الـ ID الاسمي). مهم لاختيار البت والأدوات اللي تنزل بعده.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.3"
+   ]
+  },
+  {
+   "id": "cs-05",
+   "topic": "casing",
+   "q": "شنو الأحمال اللي يتصمم عليها التغليف؟",
+   "qEn": "What loads is casing designed for?",
+   "k": [
+    "design loads",
+    "burst",
+    "collapse",
+    "tension",
+    "احمال",
+    "تصميم"
+   ],
+   "a": "ثلاث أحمال رئيسية:\n• الانفجار (Burst): الضغط الداخلي أكبر من الخارجي، مثلاً وقت Kick غاز أو فحص ضغط.\n• الانهيار (Collapse): الضغط الخارجي أكبر من الداخلي، مثلاً لما يفرغ التغليف (فقدان طين أو إنتاج).\n• الشد (Tension): وزن التغليف المعلق (مع الطفو)، زائد الشد الإضافي وقت السحب أو الإسمنت.\nإضافة لأحمال ثانوية: الحرارة، والانحناء بالآبار المائلة، والضغط (Compression)، والتآكل والـ H₂S.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.5–7.9"
+   ]
+  },
+  {
+   "id": "cs-06",
+   "topic": "casing",
+   "q": "شلون أحسب مقاومة الانفجار (Burst) للتغليف؟",
+   "qEn": "How is casing burst rating calculated?",
+   "k": [
+    "burst",
+    "انفجار",
+    "barlow",
+    "internal yield",
+    "0.875"
+   ],
+   "a": "تحسب بمعادلة Barlow مع تقليل 12.5% لسمك الجدار المسموح به بالتصنيع:\n$$ P_{burst} = 0.875\\,\\dfrac{2\\,Y_p\\,t}{D}\nحيث Yp أقل مقاومة خضوع (psi)، t سمك الجدار (in)، D القطر الخارجي (in).\nمثال: 20\" بسمك 0.635\" ورتبة 55: P = 0.875 × 2 × 55,000 × 0.635 / 20 ≈ 3,060 psi.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.6"
+   ]
+  },
+  {
+   "id": "cs-07",
+   "topic": "casing",
+   "q": "شنو أنواع انهيار التغليف (Collapse)؟",
+   "qEn": "Casing collapse regimes",
+   "k": [
+    "collapse",
+    "انهيار",
+    "d/t",
+    "yield collapse",
+    "plastic",
+    "elastic collapse",
+    "api 5c3"
+   ],
+   "a": "مقاومة الانهيار تعتمد على نسبة القطر للسمك (D/t) والرتبة، والـ API يقسمها لأربع مناطق:\n• انهيار الخضوع (Yield collapse): للأنابيب السميكة (D/t صغيرة).\n• الانهيار اللدن (Plastic).\n• الانتقالي (Transition).\n• الانهيار المرن (Elastic): للأنابيب الرقيقة (D/t كبيرة)، ويعتمد على الصلابة مو على الخضوع.\nكل منطقة إلها معادلة خاصة بالمواصفة API 5C3. والشد المحوري يقلل مقاومة الانهيار.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.6"
+   ]
+  },
+  {
+   "id": "cs-08",
+   "topic": "casing",
+   "q": "شلون يأثر الشد على مقاومة الانهيار (Biaxial)؟",
+   "qEn": "Biaxial effect of tension on collapse",
+   "k": [
+    "biaxial",
+    "ثنائي المحور",
+    "tension collapse",
+    "reduced yield",
+    "ellipse"
+   ],
+   "a": "لما التغليف يكون تحت شد محوري، مقاومة الانهيار تقل، ومقاومة الانفجار تزيد شوية. هذا يوصفه قطع ناقص الإجهادات (Von Mises / Ellipse of plasticity).\nبالتطبيق، API تعوض الخضوع بخضوع مكافئ أقل حسب نسبة الإجهاد المحوري:\n$$ Y_{p,eff} = Y_p\\left[\\sqrt{1 - 0.75\\left(\\dfrac{S_a}{Y_p}\\right)^2} - 0.5\\,\\dfrac{S_a}{Y_p}\\right]\nحيث Sa الإجهاد المحوري. لهذا الأنابيب الفوكانية (أكثر شد) تحتاج تدقيق بالانهيار.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.6"
+   ]
+  },
+  {
+   "id": "cs-09",
+   "topic": "casing",
+   "q": "شلون أحسب حمل الشد على التغليف؟",
+   "qEn": "Tension load on casing",
+   "k": [
+    "tension",
+    "شد",
+    "pipe body yield",
+    "joint strength",
+    "hook load"
+   ],
+   "a": "الحمل الأساسي = وزن التغليف بالطين (مع الطفو):\n$$ F_{tension} = BF \\sum w_i\\,L_i\nزائد أحمال إضافية: قوة السحب لتحرير التغليف (Overpull)، وصدمات التوقف المفاجئ (Shock)، والانحناء بالآبار المائلة، وضغط الإسمنت أو الفحص.\nنقارن مع الأقل بين مقاومة جسم الأنبوب (Pipe body yield = Yp × مساحة المقطع) ومقاومة الوصلة (Joint strength)، ونقسم على معامل أمان.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ]
+  },
+  {
+   "id": "cs-10",
+   "topic": "casing",
+   "q": "شنو هي معاملات الأمان (Design factors) بتصميم التغليف؟",
+   "qEn": "Casing design factors",
+   "k": [
+    "design factor",
+    "safety factor",
+    "معامل الامان",
+    "df"
+   ],
+   "a": "نقسم مقاومة الأنبوب على معامل أمان، أو نضرب الحمل بيه، حتى نغطي عدم الدقة بالأحمال والمواد. قيم شائعة (تختلف بين الشركات):\n• الانهيار: حوالي 1.0–1.125.\n• الانفجار: حوالي 1.0–1.1.\n• الشد: حوالي 1.6–1.8 (أعلى بسبب أحمال الصدمات وحساسية الوصلات).\nبالطرق الحديثة يستخدمون أيضاً تحليل الإجهاد المركب (Triaxial / Von Mises) بمعامل حوالي 1.25.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ]
+  },
+  {
+   "id": "cs-11",
+   "topic": "casing",
+   "q": "شلون نصمم التغليف للانفجار (Burst design)؟",
+   "qEn": "Burst design procedure",
+   "k": [
+    "burst design",
+    "تصميم الانفجار",
+    "gas kick",
+    "load line",
+    "backup"
+   ],
+   "a": "الخطوات العامة:\n• نحدد أسوأ حالة ضغط داخلي، عادة البئر مملوء غاز (من Kick) مع ضغط بالسطح محدود بضغط تكسير الحذاء، أو ضغط فحص التغليف.\n• نطرح الضغط الخارجي الساند (Backup)، عادة عمود ماء مالح أو طين متدهور.\n• صافي الضغط بكل عمق = خط الحمل (Load line).\n• نضربه بمعامل الأمان ونختار أرخص وزن ورتبة تتحمله بكل جزء.\nبالانفجار عادة أكبر حمل يكون فوك (قرب السطح).",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ]
+  },
+  {
+   "id": "cs-12",
+   "topic": "casing",
+   "q": "شلون نصمم التغليف للانهيار (Collapse design)؟",
+   "qEn": "Collapse design procedure",
+   "k": [
+    "collapse design",
+    "تصميم الانهيار",
+    "evacuation",
+    "تفريغ",
+    "lost returns"
+   ],
+   "a": "• أسوأ حالة عادة: التغليف فارغ (كامل أو جزئي) من الداخل بسبب فقدان طين أو إنتاج، وبالخارج عمود الطين اللي انسمت وياه.\n• صافي الضغط = الخارجي − الداخلي، ويكبر مع العمق.\n• نختار الأوزان والرتب من الأسفل لفوك. بالانهيار أكبر حمل يكون بالأسفل.\n• نرجع نتأكد من تأثير الشد (Biaxial) على الأجزاء العليا.\nالتصميم النهائي يجمع متطلبات الانفجار والانهيار والشد، وأحياناً يطلع تغليف مركب من أوزان ورتب مختلفة (Combination string).",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ]
+  },
+  {
+   "id": "cs-13",
+   "topic": "casing",
+   "q": "شنو أنواع وصلات التغليف؟",
+   "qEn": "Casing connection types",
+   "k": [
+    "connection",
+    "وصلات",
+    "stc",
+    "ltc",
+    "btc",
+    "buttress",
+    "premium",
+    "threads"
+   ],
+   "a": "• STC (Short round thread) و LTC (Long round thread): أسنان مدورة 8 بالبوصة، الأبسط والأرخص. الـ LTC أقوى بالشد.\n• BTC (Buttress): أسنان مربعة تقريباً، مقاومة شد أعلى.\n• الوصلات الممتازة (Premium): بيها ختم معدن على معدن (Metal-to-metal seal) وكتف، لمنع تسريب الغاز والضغوط العالية والحرارة.\n• الوصلات المتكاملة (Integral / Flush): بدون Coupling، قطرها الخارجي قليل، للحلقات الضيقة.\nتسريب الوصلات من أشهر أسباب مشاكل سلامة البئر، والـ API round threads تعتمد على الشحم (Dope) للختم.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.8"
+   ]
+  },
+  {
+   "id": "cs-14",
+   "topic": "casing",
+   "q": "شنو هو الـ Buckling بالتغليف وليش يصير؟",
+   "qEn": "What is casing buckling?",
+   "k": [
+    "buckling",
+    "التواء",
+    "انبعاج",
+    "helical",
+    "neutral point",
+    "stability"
+   ],
+   "a": "إذا جزء من التغليف غير المسمت صار تحت ضغط محوري فعّال (Effective compression)، ممكن ينحني بشكل لولبي (Helical buckling).\n• أسبابه: زيادة الحرارة أو الضغط الداخلي بعد الإسمنت (تمدد)، أو وزن الطين اللي جوه أثقل.\n• نتائجه: تآكل التغليف بدوران الأنابيب، وصعوبة نزول الأدوات، وإجهادات إضافية.\n• الحل: نسمت أعلى أو نسحب التغليف شد (Pre-tension) قبل تثبيته برأس البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.12"
+   ]
+  },
+  {
+   "id": "cs-15",
+   "topic": "casing",
+   "q": "شنو تأثير الـ H₂S والتآكل على اختيار التغليف؟",
+   "qEn": "Corrosion and sour service in casing selection",
+   "k": [
+    "corrosion",
+    "تآكل",
+    "h2s",
+    "sour service",
+    "ssc",
+    "co2",
+    "sulfide stress cracking"
+   ],
+   "a": "• غاز H₂S يسبب تشقق إجهادي كبريتي (SSC) للفولاذ عالي القوة والصلادة، خصوصاً بالحرارة الواطية. نختار رتب مقاومة (مثل L-80، C-90، T-95) بصلادة محدودة.\n• غاز CO₂ ويا الماء يسبب تآكل حامضي (Sweet corrosion)، فنستخدم فولاذ بي كروم (13Cr وغيرها) أو مثبطات تآكل.\n• التآكل الخارجي من المياه الجوفية المالحة، ويعالج بالإسمنت الجيد والحماية الكاثودية.\n• التآكل الداخلي بالاحتكاك (Casing wear) من دوران الأنابيب، يقلل السمك والمقاومة.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.7"
+   ]
+  },
+  {
+   "id": "cs-16",
+   "topic": "casing",
+   "q": "شلون نختار أقطار الحفر والتغليف؟",
+   "qEn": "Selecting hole and casing sizes",
+   "k": [
+    "hole size",
+    "casing size",
+    "clearance",
+    "اقطار",
+    "bit size",
+    "program"
+   ],
+   "a": "نبدأ من الأسفل: حجم أنبوب الإنتاج (Tubing) والإكمال يحدد قطر تغليف الإنتاج، وبعدها نرجع لفوك:\n• لكل تغليف نختار بت تمر داخل الـ Drift للتغليف السابق.\n• نترك فراغ حلقي كافي للإسمنت (عادة ~0.75–1.5 بوصة على القطر) ولمرور الوصلات والمركزات.\nأمثلة شائعة: 30\" ← 20\" ← 13⅜\" ← 9⅝\" ← 7\" ← 4½\"، وحفر مقابلة مثل 26\"، 17½\"، 12¼\"، 8½\"، 6\".",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.9"
+   ]
+  },
+  {
+   "id": "cs-17",
+   "topic": "casing",
+   "q": "شنو هي البطانة (Liner) ومتى نستخدمها؟",
+   "qEn": "What is a liner and when is it used?",
+   "k": [
+    "liner",
+    "بطانه",
+    "liner hanger",
+    "tieback",
+    "overlap"
+   ],
+   "a": "البطانة تغليف يتعلق من داخل التغليف السابق بمعلّاق (Liner hanger) بتداخل (Overlap) عادة 100–500 قدم، وما يوصل للسطح.\nمميزاتها: كلفة أقل (حديد أقل)، وأخف على البرج، وخسائر ضغط أقل لأن فوكها الأنابيب أكبر.\nعيوبها: نقطة تداخل ممكن تسرب، وإسمنتها أصعب.\nإذا احتجنا بعدين، نگدر نوصلها للسطح بتغليف ربط (Tieback).",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 7.1"
+   ]
+  },
+  {
+   "id": "cs-18",
+   "topic": "casing",
+   "q": "شنو هو التصميم الاحتمالي للتغليف (Reliability-based)؟",
+   "qEn": "Probabilistic (reliability-based) casing design",
+   "k": [
+    "probabilistic",
+    "reliability",
+    "احتمالي",
+    "risk",
+    "probability of failure"
+   ],
+   "a": "بدل معامل أمان ثابت، نتعامل ويا الأحمال ومقاومة الأنابيب كمتغيرات عشوائية (بي توزيعات احتمالية بسبب اختلاف التصنيع وعدم دقة الأحمال)، ونحسب احتمال الفشل.\nالهدف: احتمال فشل مقبول ومتوازن بين كل الأجزاء، فنتجنب التصميم المبالغ بيه (كلفة عالية) أو الضعيف. يستخدم أكثر بالآبار المعقدة والعالية الكلفة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 7.10"
+   ]
+  },
+  {
+   "id": "cs-19",
+   "topic": "casing",
+   "q": "شنو هي مكونات أسفل التغليف (Float equipment)؟",
+   "qEn": "Casing float equipment",
+   "k": [
+    "float shoe",
+    "float collar",
+    "guide shoe",
+    "centralizer",
+    "scratcher",
+    "حذاء"
+   ],
+   "a": "• حذاء التوجيه (Guide shoe / Float shoe): بنهاية التغليف، يوجهه بالنزول. الـ Float shoe بي صمام يمنع رجوع الإسمنت لداخل التغليف.\n• الـ Float collar: صمام عكسي فوك الحذاء بأنبوب أو أنبوبين. عليه يستقر سدّاد الإسمنت، والمسافة بينهم (Shoe track) تحجز الإسمنت الملوث.\n• المركزات (Centralizers): تبعد التغليف عن الجدار حتى يتوزع الإسمنت حوله بشكل متساوي.\n• الكاشطات (Scratchers): تكشط كيكة الطين حتى يلتصق الإسمنت أحسن.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ],
+   "fig": [
+    "cementing"
+   ]
+  },
+  {
+   "id": "ce-01",
+   "topic": "cement",
+   "q": "شنو أهداف إسمنت البئر؟",
+   "qEn": "Objectives of primary cementing",
+   "k": [
+    "primary cementing",
+    "اهداف الاسمنت",
+    "zonal isolation",
+    "عزل"
+   ],
+   "a": "الإسمنت الأولي (Primary cementing) يملأ الفراغ بين التغليف والجدار حتى:\n• يعزل الطبقات عن بعض (Zonal isolation) ويمنع هجرة السوائل والغاز.\n• يسند التغليف ويثبته محورياً.\n• يحمي التغليف من التآكل بالمياه الخارجية.\n• يسد مناطق الفقدان أو الطبقات الضعيفة.\nفشل الإسمنت من أشهر أسباب مشاكل سلامة الآبار ويحتاج إسمنت تصحيحي مكلف.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4"
+   ]
+  },
+  {
+   "id": "ce-02",
+   "topic": "cement",
+   "q": "شنو مكونات إسمنت بورتلاند وشلون يتصلب؟",
+   "qEn": "Portland cement composition and hydration",
+   "k": [
+    "portland",
+    "c3s",
+    "c2s",
+    "c3a",
+    "c4af",
+    "hydration",
+    "تميؤ",
+    "مكونات"
+   ],
+   "a": "إسمنت بورتلاند يتكون أساساً من أربع مركبات:\n• C₃S (سيليكات ثلاثي الكالسيوم): أهم مكون، يعطي القوة المبكرة.\n• C₂S (سيليكات ثنائي الكالسيوم): يتفاعل ببطء ويعطي القوة على المدى البعيد.\n• C₃A (ألومينات ثلاثي الكالسيوم): سريع التفاعل، يأثر على وقت التصلب وحساس للكبريتات.\n• C₄AF: تأثيره أقل.\nلما ينخلط ويا الماء يصير تميؤ (Hydration) ينتج هلام سيليكات الكالسيوم المائي (C-S-H) اللي يعطي القوة، ويطلع حرارة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.1"
+   ]
+  },
+  {
+   "id": "ce-03",
+   "topic": "cement",
+   "q": "شنو أصناف إسمنت API (A إلى H)؟",
+   "qEn": "API cement classes",
+   "k": [
+    "api class",
+    "class g",
+    "class h",
+    "class a",
+    "اصناف",
+    "صنف"
+   ],
+   "a": "• A و B و C: للأعماق الضحلة. B مقاوم للكبريتات، و C يعطي قوة مبكرة عالية.\n• D و E و F: للأعماق والحرارة المتوسطة والعالية (قليلة الاستخدام حالياً).\n• G و H: الإسمنت الأساسي (Basic well cement)، الأكثر استخداماً عالمياً. يُخلط ويا مضافات حتى يناسب أغلب الأعماق والحرارة. الـ H أخشن شوية ويحتاج ماء أقل.\nتقريباً: الصنف G بماء ~44% يعطي ~15.8 ppg، والصنف H بماء ~38% يعطي ~16.4 ppg.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.3"
+   ]
+  },
+  {
+   "id": "ce-04",
+   "topic": "cement",
+   "q": "شلون أحسب كثافة ومردود الملاط (Slurry yield)؟",
+   "qEn": "Cement slurry density and yield",
+   "k": [
+    "slurry density",
+    "yield",
+    "مردود",
+    "ft3/sk",
+    "absolute volume",
+    "water requirement"
+   ],
+   "a": "نستخدم الحجم المطلق (Absolute volume) لكل مكون لكيس إسمنت واحد (94 lb):\n$$ \\text{Slurry volume (gal/sk)} = \\sum \\dfrac{m_i}{\\rho_i}\n$$ \\text{Density (ppg)} = \\dfrac{\\sum m_i}{\\sum m_i/\\rho_i}\n$$ \\text{Yield}\\ (\\text{ft}^3\\text{/sk}) = \\dfrac{\\text{Slurry volume (gal)}}{7.48}\nكثافة الإسمنت الجاف حوالي 26.3 ppg (SG ~3.15)، والماء 8.33 ppg.\nمثال: صنف G بماء 44% يعطي تقريباً 15.8 ppg ومردود ~1.15 ft³/sk.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.4"
+   ]
+  },
+  {
+   "id": "ce-05",
+   "topic": "cement",
+   "q": "شلون أحسب حجم الإسمنت وعدد الأكياس؟",
+   "qEn": "Cement volume and number of sacks",
+   "k": [
+    "cement volume",
+    "حجم الاسمنت",
+    "sacks",
+    "اكياس",
+    "excess",
+    "shoe track"
+   ],
+   "a": "حجم الملاط المطلوب =\n• حجم الحلقة بين الحفرة والتغليف على طول الإسمنت (بالحفرة المفتوحة نضيف فائض Excess، عادة 10–50% أو حسب مجس القطر Caliper).\n• + حجم الحلقة بين التغليفين بمنطقة التداخل.\n• + حجم الـ Shoe track داخل التغليف.\n$$ \\text{Sacks} = \\dfrac{\\text{Slurry volume}\\ (\\text{ft}^3)}{\\text{Yield}\\ (\\text{ft}^3\\text{/sk})}\nحجم الحلقة بالـ bbl/ft = (D² − d²) / 1029.4.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ]
+  },
+  {
+   "id": "ce-06",
+   "topic": "cement",
+   "q": "شنو هو وقت التصلب (Thickening time)؟",
+   "qEn": "What is thickening time?",
+   "k": [
+    "thickening time",
+    "pumpability",
+    "وقت التصلب",
+    "consistometer",
+    "bc"
+   ],
+   "a": "الوقت اللي يبقى بي الملاط قابل للضخ تحت ظروف البئر (الحرارة والضغط). ينقاس بجهاز الـ Consistometer المضغوط، لحد ما يوصل القوام 70 أو 100 Bc (Bearden units).\n• لازم يكون أطول من وقت العملية (الخلط والضخ والإزاحة) زائد هامش أمان (عادة ~1–2 ساعة).\n• الحرارة هي أهم عامل: كلما زادت قصر الوقت.\nنتحكم بيه بالمسرّعات أو المؤخّرات.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.2"
+   ]
+  },
+  {
+   "id": "ce-07",
+   "topic": "cement",
+   "q": "شنو أهم فحوصات الإسمنت بالمختبر؟",
+   "qEn": "Main cement laboratory tests",
+   "k": [
+    "cement tests",
+    "فحوصات",
+    "compressive strength",
+    "free water",
+    "fluid loss",
+    "rheology",
+    "uca"
+   ],
+   "a": "حسب مواصفات API:\n• الكثافة.\n• وقت التصلب (Thickening time).\n• مقاومة الانضغاط (Compressive strength)، بالكسر أو بالموجات الصوتية (UCA).\n• الماء الحر (Free water): الماء اللي ينفصل على الوجه، لازم يكون قليل خصوصاً بالآبار المائلة.\n• فقدان السائل (Fluid loss).\n• الريولوجيا (Rheology) لحساب الضغوط وكفاءة الإزاحة.\n• التوافق ويا الطين والـ Spacer.\nكل الفحوص تنعمل بحرارة وضغط البئر المتوقعة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.2"
+   ]
+  },
+  {
+   "id": "ce-08",
+   "topic": "cement",
+   "q": "شنو هو وقت انتظار الإسمنت (WOC)؟",
+   "qEn": "What is waiting on cement (WOC)?",
+   "k": [
+    "woc",
+    "waiting on cement",
+    "انتظار",
+    "500 psi",
+    "compressive strength"
+   ],
+   "a": "الوقت اللي ننتظره بعد الإسمنت قبل ما نكمل الحفر أو نسوي أي عمل على التغليف، حتى يوصل الإسمنت مقاومة كافية.\nالشائع إن الإسمنت يكون وصل تقريباً 500 psi مقاومة انضغاط قبل ما نحفر الحذاء، ويعتمد على الحرارة ونوع الإسمنت والمسرّعات. الـ WOC الطويل يكلف وقت البرج، فالمسرّعات تستخدم بالأجزاء الباردة الضحلة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4"
+   ]
+  },
+  {
+   "id": "ce-09",
+   "topic": "cement",
+   "q": "شنو أنواع مضافات الإسمنت؟",
+   "qEn": "Cement additives",
+   "k": [
+    "additives",
+    "مضافات",
+    "accelerator",
+    "retarder",
+    "extender",
+    "dispersant",
+    "fluid loss additive",
+    "cacl2"
+   ],
+   "a": "• المسرّعات (Accelerators): مثل كلوريد الكالسيوم (CaCl₂) وكلوريد الصوديوم بتراكيز قليلة، للأعماق الضحلة الباردة.\n• المؤخّرات (Retarders): مثل الـ Lignosulfonates، للحرارة العالية.\n• المخففات (Extenders): تقلل الكثافة وتزيد المردود، مثل البنتونايت والبوزولانا والكرات الدقيقة (Microspheres) والنيتروجين (Foamed cement).\n• مواد التثقيل: الهيماتايت والباريت.\n• المشتتات (Dispersants): تقلل اللزوجة حتى يصير جريان مضطرب بضغط أقل.\n• مقللات فقدان السائل (Fluid loss additives).\n• مواد سد الفقدان (LCM).\n• مضافات خاصة: السيليكا للحرارة العالية، ومضادات هجرة الغاز، ومضادات الرغوة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.4"
+   ]
+  },
+  {
+   "id": "ce-10",
+   "topic": "cement",
+   "q": "ليش نضيف السيليكا للإسمنت بالحرارة العالية؟",
+   "qEn": "Why add silica flour at high temperature?",
+   "k": [
+    "silica",
+    "سيليكا",
+    "retrogression",
+    "230",
+    "high temperature"
+   ],
+   "a": "فوك حوالي 230°F (110°C)، هلام الـ C-S-H يتحول لمركب (Alpha dicalcium silicate hydrate) أضعف وأعلى نفاذية، فمقاومة الإسمنت تقل مع الوقت (Strength retrogression).\nإضافة طحين السيليكا (Silica flour)، عادة 35–40% من وزن الإسمنت، يغيّر التفاعل وينتج مركبات مستقرة وقوية بالحرارة العالية. البنتونايت بهالحرارة يزيد المشكلة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.4"
+   ]
+  },
+  {
+   "id": "ce-11",
+   "topic": "cement",
+   "q": "شلون تصير عملية الإسمنت الأولي خطوة بخطوة؟",
+   "qEn": "Primary cementing procedure (two-plug)",
+   "k": [
+    "two plug",
+    "procedure",
+    "خطوات",
+    "bottom plug",
+    "top plug",
+    "bump",
+    "displacement"
+   ],
+   "a": "طريقة السدّادين (Two-plug method):\n1. ندوّر الطين حتى ننظف البئر ونهيئ خواصه.\n2. نضخ سائل غسيل أو فاصل (Wash / Spacer).\n3. نطلق السدّاد السفلي (Bottom plug) اللي يفصل الطين عن الإسمنت ويمسح جدار التغليف.\n4. نضخ ملاط الإسمنت (Lead ثم Tail عادة).\n5. نطلق السدّاد العلوي (Top plug) الصلب.\n6. نزيح بالطين أو الماء بحجم محسوب لحد ما يستقر السدّاد العلوي على الـ Float collar، ونشوف ارتفاع الضغط (Bump the plug).\n7. نفك الضغط ونتأكد إن الصمامات ماسكة، وننتظر الـ WOC.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ],
+   "fig": [
+    "cementing"
+   ]
+  },
+  {
+   "id": "ce-12",
+   "topic": "cement",
+   "q": "شلون أحسب حجم الإزاحة بعد الإسمنت؟",
+   "qEn": "Displacement volume calculation",
+   "k": [
+    "displacement volume",
+    "حجم الازاحه",
+    "pump strokes",
+    "bump plug"
+   ],
+   "a": "حجم الإزاحة = سعة التغليف الداخلية من السطح لحد الـ Float collar:\n$$ V_{disp}\\ \\text{(bbl)} = \\dfrac{ID^2}{1029.4} \\times L_{float\\ collar}\nإذا التغليف بي أوزان مختلفة نجمع كل جزء. ونحوله لأشواط مضخة بالقسمة على تصريف الشوط. ما نزيد على الحجم المحسوب (Over-displacement) إلا بحدود صغيرة، لأننا نطلع الإسمنت من حول الحذاء ونترك تغليف بدون إسمنت.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ],
+   "fig": [
+    "cementing"
+   ]
+  },
+  {
+   "id": "ce-13",
+   "topic": "cement",
+   "q": "شنو أسباب فشل الإسمنت الأولي؟",
+   "qEn": "Causes of poor primary cement jobs",
+   "k": [
+    "cement failure",
+    "فشل",
+    "mud channel",
+    "poor displacement",
+    "microannulus",
+    "gas migration"
+   ],
+   "a": "• إزاحة طين سيئة: يبقى طين محصور بالجهة الضيقة من الحلقة (Mud channel) بسبب لا مركزية التغليف أو جل الطين العالي.\n• هجرة الغاز (Gas migration) أثناء تصلب الإسمنت، لأن الضغط الهيدروستاتيكي يقل لما يتحول لجل.\n• فقدان الإسمنت لطبقة ضعيفة، فما يوصل للارتفاع المطلوب.\n• تلوث الإسمنت بالطين فما يتصلب زين.\n• الحلقة الدقيقة (Microannulus): فراغ رقيق بين التغليف والإسمنت بسبب تغيّر الضغط أو الحرارة بعد التصلب.\n• ماء حر وقنوات بالآبار المائلة.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5–4.6"
+   ]
+  },
+  {
+   "id": "ce-14",
+   "topic": "cement",
+   "q": "شلون نحسّن إزاحة الطين بالإسمنت؟",
+   "qEn": "Improving mud displacement during cementing",
+   "k": [
+    "mud removal",
+    "displacement efficiency",
+    "spacer",
+    "centralizers",
+    "pipe movement",
+    "ازاحه"
+   ],
+   "a": "• تمركز التغليف بالمركزات (Standoff عادة أكثر من ~67–70%).\n• تدوير الطين قبل الإسمنت حتى نكسر الجل وننظف الحفرة.\n• تقليل لزوجة الطين وجله قبل الإسمنت.\n• استخدام Spacer أثقل وأعلى لزوجة من الطين وأخف من الإسمنت (تدرج كثافات واحتكاكات).\n• تحريك التغليف (دوران أو سحب ونزول) أثناء الإسمنت.\n• ضخ بمعدل يعطي جريان مضطرب أو بأعلى معدل آمن.\n• وقت تماس كافي للـ Spacer ويا الجدار.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ]
+  },
+  {
+   "id": "ce-15",
+   "topic": "cement",
+   "q": "شنو هو الإسمنت التصحيحي (Squeeze cementing)؟",
+   "qEn": "What is squeeze cementing?",
+   "k": [
+    "squeeze",
+    "عصر",
+    "remedial",
+    "تصحيحي",
+    "hesitation",
+    "bradenhead"
+   ],
+   "a": "ضخ إسمنت تحت ضغط لمكان محدد حتى:\n• نصلح إسمنت أولي ضعيف أو قنوات خلف التغليف.\n• نسد ثقوب (Perforations) ما نحتاجها، أو نقلل إنتاج الماء والغاز.\n• نصلح تسريب بالتغليف.\nالفكرة إن الملاط يفقد ماءه للطبقة ويكوّن عُقد إسمنت (Nodes) تسد الفتحات. الطرق: عصر بضغط منخفض (أقل من ضغط التكسير) وهو المفضل، أو عالي. ويصير بأداة عزل (Packer/Retainer) أو بالـ Bradenhead.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ]
+  },
+  {
+   "id": "ce-16",
+   "topic": "cement",
+   "q": "شنو هي سدادات الإسمنت (Cement plugs)؟",
+   "qEn": "What are cement plugs used for?",
+   "k": [
+    "cement plug",
+    "سداده",
+    "balanced plug",
+    "kickoff plug",
+    "abandonment",
+    "p&a"
+   ],
+   "a": "عمود إسمنت داخل البئر (بحفرة مفتوحة أو تغليف) لأغراض مثل:\n• هجر البئر (Plug & abandonment).\n• سد منطقة فقدان طين.\n• سداد لبدء الحفر الجانبي (Kick-off plug / Sidetrack).\n• عزل منطقة بالبئر.\nأشهر طريقة هي السداد المتوازن (Balanced plug): نضخ الإسمنت من نهاية الأنابيب بحيث يكون ارتفاعه داخل الأنابيب نفس ارتفاعه بالحلقة، وبعدين نسحب الأنابيب ببطء فوكه.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ]
+  },
+  {
+   "id": "ce-17",
+   "topic": "cement",
+   "q": "شنو هو الإسمنت على مراحل (Stage cementing)؟",
+   "qEn": "What is stage cementing?",
+   "k": [
+    "stage cementing",
+    "مراحل",
+    "dv tool",
+    "stage tool",
+    "multi-stage"
+   ],
+   "a": "إذا العمود الطويل من الإسمنت راح يعطي ضغط يكسر طبقة ضعيفة، أو نريد نسمت مقطعين بعيدين، نقسم العملية:\n• ننزل أداة مرحلة (Stage tool / DV tool) بالتغليف بعمق محدد.\n• نسمت المرحلة الأولى من الحذاء بالطريقة العادية.\n• نفتح فتحات أداة المرحلة بسدّاد خاص، وندوّر، ونسمت المرحلة الثانية من هناك، وبعدين نسد الأداة.\nهذا يقلل الضغط على الطبقات الضعيفة، بس الأداة نقطة ضعف محتملة بالتغليف.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.5"
+   ]
+  },
+  {
+   "id": "ce-18",
+   "topic": "cement",
+   "q": "شلون نقيّم جودة الإسمنت بعد العملية؟",
+   "qEn": "Evaluating cement quality",
+   "k": [
+    "cbl",
+    "vdl",
+    "cement bond log",
+    "ultrasonic",
+    "تقييم",
+    "temperature log"
+   ],
+   "a": "• مجس ترابط الإسمنت (CBL): يقيس سعة الموجة الصوتية بالتغليف. سعة عالية تعني تغليف حر (ماكو إسمنت)، وواطية تعني إسمنت ملتصق.\n• الـ VDL: يعرض الموجة الكاملة حتى نشوف ترابط الإسمنت ويا الطبقة.\n• المجسات فوق الصوتية (Ultrasonic): تعطي خريطة 360° للإسمنت حول التغليف.\n• مجس الحرارة بعد ساعات من الإسمنت: يحدد قمة الإسمنت من حرارة التميؤ.\n• فحوص الضغط (Pressure test) وفحص الحذاء (LOT/FIT) تأكيد عملي.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.6"
+   ]
+  },
+  {
+   "id": "ce-19",
+   "topic": "cement",
+   "q": "شنو هي هجرة الغاز بالإسمنت وشلون نمنعها؟",
+   "qEn": "Gas migration through cement",
+   "k": [
+    "gas migration",
+    "هجره الغاز",
+    "transition time",
+    "gel strength",
+    "sustained casing pressure"
+   ],
+   "a": "أثناء تحول الإسمنت من سائل لصلب، يكوّن جل يسند وزنه بنفسه، فالضغط الهيدروستاتيكي على الطبقة يقل. إذا نزل تحت ضغط طبقة غازية، الغاز يدخل ويكوّن قنوات، فيصير ضغط مستمر بين التغليفات (Sustained casing pressure).\nالحلول:\n• تقليل وقت الانتقال (Transition time) بين الجل الضعيف والقوي.\n• مضافات مانعة لهجرة الغاز (لاتكس، بوليمرات، مواد تتمدد).\n• فقدان سائل قليل جداً.\n• ضغط سطحي على الحلقة أثناء التصلب، أو تقليل طول عمود الإسمنت فوك الطبقة الغازية.",
+   "refs": [
+    "Bourgoyne, Ch. 3",
+    "Mitchell & Miska, Ch. 4.6"
+   ]
+  },
+  {
+   "id": "wc-01",
+   "topic": "wellcontrol",
+   "q": "شنو هو الـ Kick والـ Blowout؟",
+   "qEn": "What is a kick and a blowout?",
+   "k": [
+    "kick",
+    "blowout",
+    "influx",
+    "تدفق",
+    "انفجار البئر"
+   ],
+   "a": "• الـ Kick: دخول سوائل الطبقة (غاز، نفط، أو ماء) للبئر لأن ضغط البئر بالقاع صار أقل من ضغط المسامات. هو حالة نگدر نسيطر عليها إذا اكتشفناها مبكر وسدينا البئر.\n• الـ Blowout: تدفق غير مسيطر عليه لسوائل الطبقة، للسطح (Surface blowout) أو لطبقة ثانية تحت الأرض (Underground blowout). من أخطر الحوادث بالحفر.\nالسيطرة الأولية (Primary control) هي وزن الطين، والثانوية (Secondary) هي الـ BOP.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "kick"
+   ]
+  },
+  {
+   "id": "wc-02",
+   "topic": "wellcontrol",
+   "q": "شنو أسباب حدوث الـ Kick؟",
+   "qEn": "What causes a kick?",
+   "k": [
+    "causes of kick",
+    "اسباب",
+    "insufficient mud weight",
+    "swabbing",
+    "fill the hole"
+   ],
+   "a": "• وزن طين غير كافي (الدخول لطبقة ضغطها أعلى من المتوقع).\n• عدم تعبئة البئر أثناء سحب الأنابيب (Failure to fill the hole).\n• الـ Swab أثناء السحب السريع أو والبت مسدودة.\n• فقدان الطين (Lost circulation)، فينزل مستوى الطين والضغط الهيدروستاتيكي.\n• الطين المقطوع بالغاز (Gas-cut mud) بكميات كبيرة.\n• توقف الضخ (فقدان الـ ECD) ببئر هامشه قليل.\n• أخطاء بالإسمنت (هجرة غاز) أو حفر قرب بئر ثاني بي ضغط.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-03",
+   "topic": "wellcontrol",
+   "q": "شنو علامات حدوث الـ Kick؟",
+   "qEn": "Kick warning signs",
+   "k": [
+    "warning signs",
+    "علامات",
+    "pit gain",
+    "flow increase",
+    "drilling break",
+    "flow check"
+   ],
+   "a": "علامات أكيدة (Positive):\n• زيادة حجم الطين بالخزانات (Pit gain).\n• زيادة جريان الرجوع (Flow-out) بنفس معدل الضخ.\n• البئر يجري والمضخات طافية.\n• أثناء السحب: البئر ياخذ طين أقل من المحسوب (Trip tank).\nعلامات تحذيرية:\n• زيادة مفاجئة بسرعة الحفر (Drilling break).\n• نقصان ضغط المضخة وزيادة أشواطها.\n• طين مقطوع بالغاز، وزيادة غاز الاتصالات.\n• تغيّر وزن الأنابيب (Hook load).\nأول ما تشك: افحص التدفق (Flow check) بإطفاء المضخات ومراقبة البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-04",
+   "topic": "wellcontrol",
+   "q": "شلون نسد البئر لما يصير Kick؟",
+   "qEn": "Shut-in procedures (hard vs soft)",
+   "k": [
+    "shut in",
+    "سد البئر",
+    "hard shut in",
+    "soft shut in",
+    "procedure",
+    "اسد",
+    "نسد",
+    "يسد",
+    "اسكر",
+    "نسكر",
+    "اغلق البئر",
+    "سكر البئر"
+   ],
+   "a": "أثناء الحفر، الخطوات العامة:\n1. نوقف الدوران ونرفع الأنابيب حتى تصير الوصلة فوك الـ Rams (Space out).\n2. نطفي المضخات.\n3. نسد البئر بالـ BOP.\n4. نسجل الضغوط (SIDPP و SICP) وزيادة حجم الخزانات.\n• السد الصلب (Hard shut-in): نسد الـ BOP والـ Choke مسدود أصلاً. أسرع، فيدخل تدفق أقل، وهو الشائع حالياً.\n• السد الناعم (Soft shut-in): نفتح خط الـ Choke، نسد الـ BOP، وبعدين نسد الـ Choke. أبطأ، فيدخل تدفق أكبر.\nلازم يكون نوع السد محدد مسبقاً ويتمرن عليه الفريق.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-05",
+   "topic": "wellcontrol",
+   "q": "شنو هو SIDPP و SICP وليش مختلفين؟",
+   "qEn": "What are SIDPP and SICP?",
+   "k": [
+    "sidpp",
+    "sicp",
+    "shut in drill pipe pressure",
+    "shut in casing pressure",
+    "ضغط الانابيب",
+    "ضغط التغليف"
+   ],
+   "a": "بعد سد البئر واستقرار الضغوط:\n• SIDPP (ضغط الأنابيب المسدودة): ضغط على جهة أنابيب الحفر. داخل الأنابيب طين نظيف معروف الوزن، فهو مقياس دقيق للفرق بين ضغط الطبقة وضغط عمود الطين:\n$$ P_{formation} = SIDPP + 0.052 \\times MW \\times TVD\n• SICP (ضغط التغليف المسدود): على جهة الحلقة. عادة أكبر من SIDPP لأن الحلقة بيها التدفق الخفيف (غاز) اللي يقلل الضغط الهيدروستاتيكي.\nإذا بالأنابيب صمام عكسي (Float)، نحتاج إجراء خاص حتى نقرا الـ SIDPP.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "kick"
+   ]
+  },
+  {
+   "id": "wc-06",
+   "topic": "wellcontrol",
+   "q": "شلون أحسب وزن طين القتل (Kill mud weight)؟",
+   "qEn": "How do I calculate kill mud weight?",
+   "k": [
+    "kill mud weight",
+    "kmw",
+    "وزن طين القتل",
+    "kill weight"
+   ],
+   "a": "$$ KMW\\ \\text{(ppg)} = OMW + \\dfrac{SIDPP}{0.052 \\times TVD}\nحيث OMW وزن الطين الأصلي، و TVD العمق العمودي الحقيقي للبت (أو القاع).\nنلاحظ إن الـ SICP وحجم التدفق ما يدخلون بالمعادلة، يعني ضغط تغليف عالي ما يعني بالضرورة نحتاج طين أثقل بكثير. بعض الشركات تضيف هامش صغير (Safety margin)، بس الزيادة الكبيرة ممكن تكسر الحذاء.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-07",
+   "topic": "wellcontrol",
+   "q": "شلون أحسب ضغط الدوران الأولي والنهائي (ICP و FCP)؟",
+   "qEn": "Initial and final circulating pressures",
+   "k": [
+    "icp",
+    "fcp",
+    "initial circulating pressure",
+    "final circulating pressure",
+    "kill sheet",
+    "scr"
+   ],
+   "a": "نحتاج ضغط المضخة بالسرعة البطيئة (SCR / Kill rate pressure) المسجل قبل الـ Kick:\n$$ ICP = SCR + SIDPP\n$$ FCP = SCR \\times \\dfrac{KMW}{OMW}\nبطريقة الانتظار والتثقيل، ضغط الأنابيب ينزل تدريجياً من ICP إلى FCP خلال وقت ما ينزل طين القتل من السطح للبت، وبعدها نثبته على FCP لحد ما يوصل طين القتل للسطح. هذا الجدول يسمى ورقة القتل (Kill sheet).",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "killgraph"
+   ]
+  },
+  {
+   "id": "wc-08",
+   "topic": "wellcontrol",
+   "q": "شنو هي طريقة الحفار (Driller's method)؟",
+   "qEn": "What is the driller's method?",
+   "k": [
+    "driller's method",
+    "drillers method",
+    "طريقه الحفار",
+    "two circulation"
+   ],
+   "a": "طريقة دورتين، مبدأها نحافظ على ضغط القاع ثابت:\n• الدورة الأولى: بنفس الطين الأصلي، نطلع التدفق من البئر. نشغل المضخة بسرعة القتل، ونتحكم بالـ Choke حتى نبقي ضغط الأنابيب ثابت على ICP.\n• الدورة الثانية: بطين القتل، والضغط على الأنابيب ينزل من ICP لـ FCP، وبعدين يثبت.\nمميزاتها: بسيطة، ونبدأ بسرعة بدون انتظار تثقيل الطين. عيوبها: وقت أطول، وضغط أعلى على الحذاء والسطح لما يوصل الغاز فوك.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-09",
+   "topic": "wellcontrol",
+   "q": "شنو هي طريقة الانتظار والتثقيل (Wait and weight)؟",
+   "qEn": "What is the wait and weight method?",
+   "k": [
+    "wait and weight",
+    "engineer's method",
+    "الانتظار والتثقيل",
+    "one circulation"
+   ],
+   "a": "طريقة دورة وحدة (تسمى أيضاً طريقة المهندس):\n• بعد السد، نثقل الطين لوزن القتل بالخزانات أولاً.\n• نضخ طين القتل مباشرة، وضغط الأنابيب ينزل حسب جدول من ICP لـ FCP لحد ما يوصل طين القتل للبت، وبعدين نبقيه ثابت على FCP لحد ما ترجع الحلقة كلها طين قتل.\nمميزاتها: أقل ضغط على الحذاء والسطح بأغلب الحالات، ووقت دوران أقصر. عيوبها: وقت انتظار للتثقيل، وحسابات أكثر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "killgraph"
+   ]
+  },
+  {
+   "id": "wc-10",
+   "topic": "wellcontrol",
+   "q": "ليش ضغط القاع لازم يبقى ثابت أثناء القتل؟",
+   "qEn": "Constant bottomhole pressure principle",
+   "k": [
+    "constant bottomhole pressure",
+    "ضغط القاع ثابت",
+    "cbhp",
+    "choke"
+   ],
+   "a": "كل طرق القتل التقليدية مبنية على إبقاء ضغط القاع أعلى بشوية من ضغط الطبقة طول العملية:\n• إذا قل: يدخل تدفق إضافي ويكبر الـ Kick.\n• إذا زاد كثير: ممكن نكسر الحذاء أو طبقة ضعيفة ويصير Underground blowout.\nنتحكم بيه بفتح وغلق الـ Choke ويا مراقبة ضغط الأنابيب (لأن جهة الأنابيب نظيفة ونعرف وزن طينها). تغيير الـ Choke ياخذ وقت حتى يوصل تأثيره لعداد الأنابيب، فنعدل بخطوات صغيرة وننتظر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-11",
+   "topic": "wellcontrol",
+   "q": "شلون أعرف نوع التدفق (غاز لو ماء لو نفط)؟",
+   "qEn": "Estimating the type of influx",
+   "k": [
+    "influx gradient",
+    "نوع التدفق",
+    "kick density",
+    "gas or water"
+   ],
+   "a": "نحسب طول التدفق بالحلقة من زيادة حجم الخزانات (Pit gain) وسعة الحلقة حول الـ Collars:\n$$ h_{kick} = \\dfrac{\\text{Pit gain}}{\\text{Annular capacity}}\nوبعدين تدرج التدفق:\n$$ G_{kick}\\ \\text{(psi/ft)} = 0.052 \\times MW - \\dfrac{SICP - SIDPP}{h_{kick}}\nتقريباً:\n• 0.05–0.2 psi/ft: غاز.\n• 0.2–0.4 psi/ft: خليط غاز ونفط أو ماء.\n• أكبر من 0.5 psi/ft: ماء مالح أو نفط.\nالنتيجة تقريبية لأن التدفق ممكن يكون مختلط ويا الطين.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-12",
+   "topic": "wellcontrol",
+   "q": "شلون يتمدد الغاز وهو يطلع بالبئر؟",
+   "qEn": "Gas expansion while circulating out a kick",
+   "k": [
+    "gas expansion",
+    "تمدد الغاز",
+    "boyle",
+    "migration",
+    "هجره"
+   ],
+   "a": "حسب قانون بويل تقريباً:\n$$ P_1 V_1 = P_2 V_2\nالغاز بالقاع يكون مضغوط وحجمه صغير. لما ندوّره لفوك ويقل الضغط حوله يتمدد كثير، فيزيد حجم الخزانات بشكل طبيعي أثناء القتل، ويزيد ضغط التغليف.\n• لازم نخليه يتمدد بشكل مسيطر عليه (عن طريق الـ Choke) مع إبقاء ضغط القاع ثابت.\n• إذا منعناه يتمدد (البئر مسدود والغاز يهاجر لفوك)، ينقل ضغط القاع وياه للأعلى، فترتفع كل الضغوط وممكن نكسر الحذاء.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-13",
+   "topic": "wellcontrol",
+   "q": "شنو هي الطريقة الحجمية (Volumetric method)؟",
+   "qEn": "What is the volumetric method?",
+   "k": [
+    "volumetric method",
+    "الطريقه الحجميه",
+    "gas migration",
+    "no circulation",
+    "bleed"
+   ],
+   "a": "تستخدم لما ما نگدر ندوّر (الأنابيب خارج البئر، أو البت مسدودة، أو الأنابيب بعيدة عن القاع) والغاز يهاجر لفوك:\n• نخلي ضغط التغليف يرتفع بمقدار هامش أمان، وبعدين ننزف (Bleed) حجم طين محسوب حتى نخلي الغاز يتمدد، بحيث ضغط القاع يبقى ثابت تقريباً.\n• كل حجم ننزفه يقابله نقصان بالضغط الهيدروستاتيكي، فنعوضه بزيادة مسموحة بضغط التغليف.\nنكرر الدورة لحد ما يوصل الغاز للسطح، وبعدها نستخدم طريقة الحقن والنزف (Lubricate and bleed) حتى نطلعه.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-14",
+   "topic": "wellcontrol",
+   "q": "شنو هو أقصى ضغط سطحي مسموح (MAASP)؟",
+   "qEn": "What is MAASP?",
+   "k": [
+    "maasp",
+    "maximum allowable annular surface pressure",
+    "اقصى ضغط",
+    "shoe fracture"
+   ],
+   "a": "أقصى ضغط بالسطح على الحلقة قبل ما ينكسر الحذاء (أضعف نقطة عادة):\n$$ MAASP = (EMW_{LOT} - MW) \\times 0.052 \\times TVD_{shoe}\nحيث EMW_LOT الكثافة المكافئة من فحص التسريب عند الحذاء.\nلما نزيد وزن الطين، الـ MAASP يقل. ولازم ينحسب من جديد بعد كل تغيير بالوزن، ويكون مكتوب بورقة القتل.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-15",
+   "topic": "wellcontrol",
+   "q": "شنو هو تحمّل الـ Kick (Kick tolerance)؟",
+   "qEn": "What is kick tolerance?",
+   "k": [
+    "kick tolerance",
+    "تحمل الكك",
+    "maximum kick volume",
+    "kick intensity"
+   ],
+   "a": "أكبر حجم تدفق (عادة غاز) نگدر نسد عليه وندوّره للسطح بدون ما نكسر الحذاء، عند فرق ضغط (Kick intensity) معين.\n• يعتمد على: ضغط تكسير الحذاء، وطول القسم المفتوح، ووزن الطين، والفرق المتوقع بين ضغط الطبقة والطين، وأحجام الحلقة.\n• يستخدم لتحديد أعمق نقطة نگدر نحفر لها قبل التغليف الجاي، ولتحديد حجم التنبيه (Alarm) للخزانات.\nإذا تحمّل الـ Kick صغير جداً، لازم نغلف أبكر أو نحفر بحذر أكبر.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2",
+    "Bourgoyne, Ch. 7"
+   ]
+  },
+  {
+   "id": "wc-16",
+   "topic": "wellcontrol",
+   "q": "شنو مكونات معدات السيطرة على البئر؟",
+   "qEn": "Well control equipment",
+   "k": [
+    "well control equipment",
+    "choke manifold",
+    "accumulator",
+    "mud gas separator",
+    "kill line",
+    "iBOP",
+    "معدات"
+   ],
+   "a": "• مجموعة الـ BOP: Annular وأنواع الـ Rams.\n• وحدة التحكم والـ Accumulator: قناني نيتروجين وزيت تحت ضغط، تسد الـ BOP حتى لو انقطعت الطاقة.\n• الـ Choke manifold: صمامات وخانقات (Chokes) نتحكم بيها بالضغط الراجع أثناء القتل.\n• خط القتل (Kill line) وخط الخنق (Choke line).\n• فاصل الغاز عن الطين (Mud-gas separator / Poor boy) ومزيل الغاز.\n• صمامات داخل الأنابيب: صمام الـ Kelly، والـ Inside BOP، وصمام الأمان المفتوح (FOSV) يكون جاهز على أرض البرج.\n• خزان السحب (Trip tank) ومؤشرات الحجم والجريان.",
+   "refs": [
+    "Bourgoyne, Ch. 1",
+    "Mitchell & Miska, Ch. 10.2"
+   ],
+   "fig": [
+    "bop"
+   ]
+  },
+  {
+   "id": "wc-17",
+   "topic": "wellcontrol",
+   "q": "ليش نستخدم خزان السحب (Trip tank) وورقة السحب؟",
+   "qEn": "Trip tank and trip sheet",
+   "k": [
+    "trip tank",
+    "trip sheet",
+    "خزان السحب",
+    "fill up",
+    "displacement"
+   ],
+   "a": "أثناء سحب الأنابيب، الحديد المسحوب يترك فراغ لازم يتعبى بالطين، وإلا ينزل المستوى ويقل الضغط.\n• خزان السحب صغير ودقيق، فيكشف فروقات بحجوم قليلة.\n• ورقة السحب (Trip sheet): نسجل لكل Stands الحجم المحسوب (إزاحة الحديد) والحجم الفعلي اللي اخذه البئر.\n• إذا البئر اخذ أقل من المحسوب: معناها دخلنا تدفق (Swab)، فنوقف ونفحص التدفق، وممكن نرجع ننزل للقاع وندوّر.\n• إذا اخذ أكثر: فقدان طين.\nإزاحة الأنابيب الجافة أقل من الأنابيب المملوءة بالطين (Wet trip).",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-18",
+   "topic": "wellcontrol",
+   "q": "شنو هو الـ Bullheading ومتى يستخدم؟",
+   "qEn": "What is bullheading?",
+   "k": [
+    "bullheading",
+    "بولهيدنك",
+    "pump into formation",
+    "h2s kick"
+   ],
+   "a": "ضخ الطين (أو طين القتل) من السطح لتحت مباشرة، وكبس التدفق رجوع للطبقة بدل ما نطلعه للسطح.\nيستخدم لما:\n• التدفق بي H₂S ونريد نتجنب طلوعه للسطح.\n• حجم الغاز كبير جداً ومعدات السطح ما تتحمله.\n• الأنابيب خارج البئر أو ما نگدر ندوّر.\n• بآبار الإنتاج قبل الصيانة (Workover).\nخطره: ممكن نكسر طبقة ثانية (عادة عند الحذاء) قبل ما يرجع التدفق لطبقته، فيصير Underground blowout.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-19",
+   "topic": "wellcontrol",
+   "q": "شنو هو الـ Underground blowout وشلون نكتشفه؟",
+   "qEn": "What is an underground blowout?",
+   "k": [
+    "underground blowout",
+    "انفجار تحت الارض",
+    "crossflow",
+    "internal blowout"
+   ],
+   "a": "تدفق غير مسيطر عليه من طبقة ضغطها عالي لطبقة ثانية ضعيفة (عادة عند الحذاء) داخل البئر، بدون ما يطلع للسطح.\nعلاماته:\n• ضغط الأنابيب يتذبذب أو ينزل بعد السد، بدون منطق.\n• ضغط التغليف يرتفع وبعدين يثبت أو ينزل رغم إن البئر مسدود.\n• فقدان طين أثناء الضخ.\n• أحياناً تدفق للسطح من خارج التغليف (Broaching) إذا الحذاء ضحل، وهذا خطير جداً على البرج.\nالمعالجة صعبة وقد تحتاج سدادات ثقيلة أو إسمنت أو بئر إغاثة (Relief well).",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-20",
+   "topic": "wellcontrol",
+   "q": "شنو مخاطر الغاز الضحل (Shallow gas)؟",
+   "qEn": "Shallow gas hazards",
+   "k": [
+    "shallow gas",
+    "الغاز الضحل",
+    "diverter",
+    "top hole"
+   ],
+   "a": "جيوب غاز بأعماق قليلة قبل ما يكون عندنا تغليف قوي:\n• الوقت قليل جداً للتصرف، لأن المسافة للسطح قصيرة.\n• الطبقات الضحلة ضعيفة، فإذا سدينا البئر ممكن نكسرها ويطلع الغاز من حول البرج أو قاع البحر.\nلهذا بهالمرحلة نستخدم نظام التحويل (Diverter) بدل السد: يحوّل التدفق بعيد عن البرج عبر خطوط كبيرة. ويا مسح زلزالي ضحل، وحفر حفرة تجريبية صغيرة (Pilot hole)، وضخ بمعدلات محسوبة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-21",
+   "topic": "wellcontrol",
+   "q": "شنو هي حواجز البئر (Well barriers)؟",
+   "qEn": "What are well barriers?",
+   "k": [
+    "barrier",
+    "حواجز",
+    "primary barrier",
+    "secondary barrier",
+    "two barriers"
+   ],
+   "a": "المبدأ إن لازم يكون عندنا دائماً حاجزين مستقلين على الأقل يمنعون تدفق الطبقة للسطح:\n• الحاجز الأولي: عمود الطين بوزن كافي (أثناء الحفر)، أو الإسمنت والسدادات بعد الإكمال.\n• الحاجز الثانوي: الـ BOP، ورأس البئر، والتغليف المسمت.\nلازم كل حاجز يكون مفحوص ومعروف حالته، ولما واحد يفشل نوقف ونرجع الحاجز قبل ما نكمل.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-22",
+   "topic": "wellcontrol",
+   "q": "شنو خصوصية السيطرة على البئر بالطين النفطي؟",
+   "qEn": "Kick detection in oil-based mud",
+   "k": [
+    "obm kick",
+    "gas solubility",
+    "ذوبان الغاز",
+    "oil based mud kick"
+   ],
+   "a": "الغاز يذوب بالنفط بكميات كبيرة تحت الضغط العالي، فبالطين النفطي:\n• حجم الخزانات ما يزيد كثير بالبداية، فالـ Kick أصعب بالكشف.\n• الغاز يبقى ذايب لحد ما يقرب للسطح ويقل الضغط، وبعدين يطلع فجأة ويتمدد بسرعة كبيرة قرب السطح.\nلهذا لازم انتباه أعلى لأي علامة صغيرة، وفحص التدفق بشكل أكثر، وتدوير البئر عبر الـ Choke بأي شك بعد الـ Trip.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-23",
+   "topic": "wellcontrol",
+   "q": "شنو مخاطر غاز H₂S بالحفر؟",
+   "qEn": "H2S hazards while drilling",
+   "k": [
+    "h2s",
+    "hydrogen sulfide",
+    "كبريتيد الهيدروجين",
+    "sour gas",
+    "ppm"
+   ],
+   "a": "غاز سام جداً، أثقل من الهواء، ويشل حاسة الشم بالتراكيز العالية فما تشمه.\n• تراكيز قليلة (عشرات ppm) تسبب أعراض، ومئات ppm ممكن تكون قاتلة بسرعة.\n• يسبب تشقق الحديد عالي القوة (SSC) لأنابيب الحفر والتغليف.\nالإجراءات: حساسات بالبرج، وأجهزة تنفس، وتدريب ومحطات تجمع باتجاه الريح، ورفع الـ pH للطين ومواد ماسكة للكبريت (Scavengers)، واختيار معدات مقاومة، وحرق الغاز بالـ Flare بدل تصريفه.",
+   "refs": [
+    "Mitchell & Miska, Ch. 3.9 و 10.2"
+   ]
+  },
+  {
+   "id": "wc-24",
+   "topic": "wellcontrol",
+   "q": "شلون أحسب سعة الحلقة لحساب طول التدفق؟",
+   "qEn": "Annular capacity for kick height",
+   "k": [
+    "annular capacity",
+    "سعه الحلقه",
+    "bbl/ft",
+    "1029.4"
+   ],
+   "a": "$$ \\text{Capacity (bbl/ft)} = \\dfrac{D_{hole}^2 - d_{pipe}^2}{1029.4}\nحيث الأقطار بالبوصة. حول الـ Drill collars السعة أقل، فنفس حجم التدفق يطلع أطول، والفرق بين SICP و SIDPP يصير أكبر.\nإذا التدفق أطول من مقطع الـ Collars، نحسب الجزء الأول حول الـ Collars والباقي حول أنابيب الحفر.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "wc-25",
+   "topic": "wellcontrol",
+   "q": "شنو أخطاء شائعة بالسيطرة على البئر؟",
+   "qEn": "Common well-control mistakes",
+   "k": [
+    "mistakes",
+    "اخطاء",
+    "lessons",
+    "دروس"
+   ],
+   "a": "• التأخر بسد البئر للتأكد بدل ما نفحص التدفق فوراً.\n• تغيير سرعة المضخة أثناء القتل بدون تعديل الحسابات.\n• التحكم بضغط التغليف بدل ضغط الأنابيب (إلا بحالات محددة مثل بداية الضخ).\n• فتح الـ Choke بسرعة لما يوصل الغاز للسطح، فينزل ضغط القاع ويدخل تدفق جديد.\n• عدم تحديث الـ SCR بعد تغيير الطين أو العمق.\n• سحب الأنابيب بسرعة وبدون مراقبة ورقة السحب.\n• عدم فحص وتجربة الـ BOP وتدريب الطاقم بانتظام.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.2"
+   ]
+  },
+  {
+   "id": "bt-01",
+   "topic": "bits",
+   "q": "شنو أنواع بتات الحفر؟",
+   "qEn": "What are the types of drill bits?",
+   "k": [
+    "bit types",
+    "انواع البتات",
+    "roller cone",
+    "tricone",
+    "pdc",
+    "diamond",
+    "fixed cutter"
+   ],
+   "a": "نوعين رئيسيين:\n• البتات الدوارة المخروطية (Roller cone / Tricone): ثلاث مخاريط تدور حول محاورها، تكسر الصخر بالسحق والتنقير. منها:\n  – بأسنان مفرزة من الحديد (Milled tooth): للصخور الرخوة.\n  – بأسنان كاربيد التنكستن المدخلة (TCI): للمتوسطة والصلبة.\n• البتات ثابتة القواطع (Fixed cutter): بدون أجزاء متحركة، تقطع الصخر بالقص. منها:\n  – الـ PDC (ماس متعدد البلورات): الأكثر استخداماً حالياً، سريعة وعمرها طويل.\n  – بتات الماس الطبيعي والمشرّب (Impregnated): للصخور الصلبة جداً والكاشطة، وتشتغل بسرعة دوران عالية (توربين).\nأكو أيضاً بتات هجينة (Hybrid) تجمع مخاريط وقواطع PDC.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.2"
+   ],
+   "fig": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bt-02",
+   "topic": "bits",
+   "q": "شلون تكسر البتات الصخر؟",
+   "qEn": "Rock failure mechanisms during drilling",
+   "k": [
+    "rock failure",
+    "تكسير الصخر",
+    "crushing",
+    "shearing",
+    "gouging",
+    "chip"
+   ],
+   "a": "• البتات المخروطية: الأسنان تضغط على الصخر فتسحقه وتكوّن شقوق ورقائق (Chips) حول نقطة الضغط، ومع انزياح المخاريط شوية يصير كشط (Gouging/Scraping). الأسنان الطويلة للرخو، والقصيرة الكثيرة للصلب.\n• بتات الـ PDC: القواطع تكشط وتقص الصخر طبقة طبقة، مثل المحراث، وهذا يحتاج طاقة أقل لكل حجم صخر، فتكون أسرع بأغلب الطبقات الرخوة والمتوسطة.\n• بتات الماس المشرّب: تطحن الصخر بحبيبات دقيقة (Grinding).\nضغط الطين العالي فوك الصخر (Overbalance) يصعّب انفصال الرقائق، فتقل سرعة الحفر.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.6"
+   ]
+  },
+  {
+   "id": "bt-03",
+   "topic": "bits",
+   "q": "شلون تُصنف البتات المخروطية بنظام IADC؟",
+   "qEn": "IADC classification of roller cone bits",
+   "k": [
+    "iadc",
+    "classification",
+    "تصنيف",
+    "three digit",
+    "series",
+    "roller cone code"
+   ],
+   "a": "رمز من ثلاث أرقام وحرف:\n• الرقم الأول (Series): 1–3 للأسنان المفرزة (من الرخو للصلب)، و 4–8 لأسنان الكاربيد المدخلة (من الرخو للصلب جداً).\n• الرقم الثاني (Type): 1–4، درجة صلادة الطبقة ضمن السلسلة.\n• الرقم الثالث: نوع المحامل والحماية (هوائية، مختومة، Journal bearings، حماية القطر).\n• الحرف الإضافي: ميزة خاصة (مثل فتحات مركزية، أسنان قطر إضافية).\nمثال: 517 يعني بت أسنان كاربيد لطبقات رخوة، بمحامل Journal مختومة وحماية قطر.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.4",
+    "Bourgoyne, Ch. 5"
+   ]
+  },
+  {
+   "id": "bt-04",
+   "topic": "bits",
+   "q": "شلون نقيّم البت بعد ما تطلع (Dull grading)؟",
+   "qEn": "IADC dull grading system",
+   "k": [
+    "dull grading",
+    "تقييم البت",
+    "iadc dull",
+    "wear",
+    "8 columns",
+    "reason pulled"
+   ],
+   "a": "نظام IADC يوصف البت المستهلكة بثمان خانات:\n1. تآكل الصفوف الداخلية (0–8).\n2. تآكل الصفوف الخارجية (0–8).\n3. أهم صفة للتلف (Dull characteristic) بحرفين، مثل BT أسنان مكسورة، WT تآكل، CT تشظي، BU تكتل الطين (Balling)، LC فقدان مخروط.\n4. مكان التلف على وجه البت.\n5. المحامل والأختام (للمخروطية).\n6. القطر (Gauge): داخل القطر (I) أو ناقص بمقدار 1/16 بوصة.\n7. صفات ثانية.\n8. سبب سحب البت (مثل TD الوصول للعمق، PR سرعة حفر واطية، HR ساعات).\nالتقييم يفيدنا باختيار البت الجاية وتحسين ظروف التشغيل.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.5",
+    "Bourgoyne, Ch. 5"
+   ]
+  },
+  {
+   "id": "bt-05",
+   "topic": "bits",
+   "q": "شنو العوامل اللي تأثر على سرعة الحفر (ROP)؟",
+   "qEn": "Factors affecting rate of penetration",
+   "k": [
+    "rop factors",
+    "سرعه الحفر",
+    "rate of penetration",
+    "factors",
+    "عوامل"
+   ],
+   "a": "• نوع البت وتصميمها وحالتها (التآكل).\n• الوزن على البت (WOB): ROP تزيد معه لحد ما يصير تنظيف القاع غير كافي (Floundering).\n• سرعة الدوران (RPM): تزيد ROP بس أقل من خطياً بالطبقات الصلبة.\n• الهيدروليكا: تنظيف القطع من تحت البت، وتجنب تكتل الطين (Bit balling).\n• خواص الطين: الوزن الزائد (Overbalance) والمواد الصلبة واللزوجة العالية تقلل ROP.\n• خواص الصخر: القوة والقابلية للحفر والكشط.\n• الاهتزازات (Vibrations) وأداء الـ BHA.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.8"
+   ]
+  },
+  {
+   "id": "bt-06",
+   "topic": "bits",
+   "q": "شنو هو نموذج Bourgoyne & Young لسرعة الحفر؟",
+   "qEn": "Bourgoyne and Young ROP model",
+   "k": [
+    "bourgoyne young",
+    "rop model",
+    "نموذج",
+    "drillability",
+    "multiple regression"
+   ],
+   "a": "نموذج يحسب سرعة الحفر كحاصل ضرب ثمان دوال، كل وحدة تمثل عامل:\n$$ ROP = \\exp\\!\\left(a_1 + \\sum_{j=2}^{8} a_j\\,x_j\\right)\n• a1: قابلية حفر الطبقة.\n• a2, a3: تأثير التراص والعمق الطبيعي.\n• a4: فرق الضغط (Overbalance).\n• a5: الوزن على البت.\n• a6: سرعة الدوران.\n• a7: تآكل الأسنان.\n• a8: الهيدروليكا عند البت.\nالمعاملات تنحسب من بيانات آبار المنطقة بالانحدار (Regression)، وبعدين نستخدمه لتحسين الوزن والدوران ولكشف الضغط العالي.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.8"
+   ]
+  },
+  {
+   "id": "bt-07",
+   "topic": "bits",
+   "q": "شنو هو فحص الـ Drill-off؟",
+   "qEn": "What is a drill-off test?",
+   "k": [
+    "drill off test",
+    "drill-off",
+    "فحص",
+    "optimum wob",
+    "founder point"
+   ],
+   "a": "فحص بالموقع لإيجاد أفضل وزن ودوران:\n• نحط وزن عالي على البت، ونقفل الفرامل، ونسجل شلون ينزل الوزن مع الزمن بينما البت تحفر وتتمدد الأنابيب.\n• معدل نزول الوزن يدل على سرعة الحفر عند كل وزن.\n• نكرره بسرعات دوران مختلفة.\nالنتيجة: نشوف عند أي وزن تتوقف ROP عن الزيادة (Founder point)، ونختار الوزن والدوران المثالي.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.8"
+   ]
+  },
+  {
+   "id": "bt-08",
+   "topic": "bits",
+   "q": "شلون نختار البت المناسبة؟",
+   "qEn": "How is a bit selected?",
+   "k": [
+    "bit selection",
+    "اختيار البت",
+    "offset wells",
+    "formation",
+    "compressive strength"
+   ],
+   "a": "• بيانات الآبار المجاورة (Offset wells): أي بتات اشتغلت زين بنفس الطبقات، وكلفة القدم وتقييم البتات المستهلكة.\n• نوع الطبقة: قوة الانضغاط (من المجسات)، والكاشطية، ووجود طبقات متداخلة صلبة ورخوة، والقابلية للتكتل (Balling).\n• نوع البئر: عمودي أو اتجاهي، واستخدام موتور أو RSS.\n• الطين والهيدروليكا المتاحة.\n• المتطلبات الاقتصادية: البت الأغلى (PDC) تبرر كلفتها إذا قللت عدد الـ Trips.\nعادة الـ PDC للشيل والرمل والكاربونات المتوسطة، والمخروطية أو الهجينة للطبقات الصلبة والمتداخلة.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6"
+   ]
+  },
+  {
+   "id": "bt-09",
+   "topic": "bits",
+   "q": "متى نسحب البت (اقتصادياً)؟",
+   "qEn": "When should a bit be pulled?",
+   "k": [
+    "when to pull bit",
+    "متى نسحب",
+    "bit economics",
+    "minimum cost",
+    "cost per foot"
+   ],
+   "a": "نراقب كلفة القدم التراكمية أثناء الحفر:\n$$ C_f(t) = \\dfrac{C_b + C_r\\,(t + t_t)}{D(t)}\nحيث t وقت الدوران لحد اللحظة، و D(t) العمق المحفور.\nبالبداية الكلفة تنزل، ومع تآكل البت وبطء الحفر تبدأ ترتفع. أفضل وقت للسحب هو لما توصل أقل قيمة. بالتطبيق نسحب أيضاً إذا: زاد عزم الدوران فجأة (مشكلة محامل)، أو نزل ضغط المضخة (فقدان فتحة)، أو وصلنا عمق التغليف.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.9"
+   ]
+  },
+  {
+   "id": "bt-10",
+   "topic": "bits",
+   "q": "شنو هو تكتل الطين على البت (Bit balling)؟",
+   "qEn": "What is bit balling?",
+   "k": [
+    "bit balling",
+    "تكتل",
+    "balling",
+    "sticky shale"
+   ],
+   "a": "لما الشيل اللزج يلتصق على وجه البت والقواطع أو بين أسنان المخاريط، فيغطيها وتصير البت كأنها كرة.\nالعلامات: نزول مفاجئ بسرعة الحفر رغم الوزن، وزيادة بسيطة بضغط المضخة، وتغير بالعزم.\nالأسباب: شيل متفاعل، وهيدروليكا ضعيفة، ووزن على البت عالي، وطين مائي بدون تثبيط.\nالعلاج: تحسين الهيدروليكا والفتحات، وتقليل الوزن، ومزلقات ومثبطات بالطين، أو طين نفطي، أو تصميم بت مناسب.",
+   "refs": [
+    "Bourgoyne, Ch. 5",
+    "Mitchell & Miska, Ch. 6.10"
+   ]
+  },
+  {
+   "id": "bt-11",
+   "topic": "bits",
+   "q": "شنو أنواع الاهتزازات بالحفر وتأثيرها؟",
+   "qEn": "Drillstring vibrations: axial, torsional, lateral",
+   "k": [
+    "vibration",
+    "اهتزاز",
+    "stick slip",
+    "whirl",
+    "bit bounce",
+    "torsional"
+   ],
+   "a": "• محورية (Axial / Bit bounce): البت تنطح وترتد، شائعة ويا البتات المخروطية بالصخر الصلب.\n• التوائية (Torsional / Stick-slip): البت تتوقف وبعدين تدور بسرعة كبيرة بشكل دوري، شائعة ويا الـ PDC.\n• جانبية (Lateral / Whirl): البت أو الـ BHA تدور حول الحفرة بشكل غير مركزي، أخطرها وتسبب تلف القواطع.\nتأثيرها: تلف البت والأدوات (MWD)، وإرهاق الأنابيب، وسرعة حفر أقل.\nالعلاج: تعديل الوزن والدوران، وتصميم BHA ومثبتات، وأدوات تخميد، وأنظمة تحكم آلية بالـ Top drive.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.10 و 9"
+   ]
+  },
+  {
+   "id": "bt-12",
+   "topic": "bits",
+   "q": "شلون نشغّل البت الجديدة بالبداية (Break-in)؟",
+   "qEn": "Bit run-in and break-in practices",
+   "k": [
+    "break in",
+    "run in",
+    "bit operation",
+    "تشغيل البت",
+    "tagging bottom"
+   ],
+   "a": "• ننزل البت بحذر قرب القاع، خصوصاً عند الأماكن الضيقة والحذاء، حتى ما نكسر القواطع.\n• نوصل القاع بالمضخات شغالة وبدوران خفيف، ونغسل آخر قدمين حتى ننظف أي بقايا.\n• نبدأ بوزن ودوران خفيفين حتى البت تكوّن نمط الحفر بالقاع (Bottom-hole pattern)، وبعدين نزيد تدريجياً للقيم المثالية.\n• للبتات المخروطية نخلي المحامل تاخذ وقت تتأقلم.\nالبداية الغلط ممكن تخرب بت غالية بأول ساعة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.10"
+   ]
+  },
+  {
+   "id": "bt-13",
+   "topic": "bits",
+   "q": "شنو هي المواتير الطينية وأنظمة الـ RSS؟",
+   "qEn": "Mud motors and rotary steerable systems",
+   "k": [
+    "mud motor",
+    "pdm",
+    "موتور",
+    "rss",
+    "rotary steerable",
+    "turbine"
+   ],
+   "a": "• الموتور الطيني (PDM / Positive displacement motor): الطين يدوّر عمود لولبي داخل غلاف مطاطي، فتدور البت تحت بدون ما ندوّر الأنابيب كلها. سرعة دوران البت أعلى، ويستخدم بالحفر الاتجاهي (Bent housing).\n• التوربين: شفرات يدورها الطين بسرعة عالية جداً، يناسب بتات الماس.\n• أنظمة التوجيه الدوارة (RSS): نوجه البئر والأنابيب كلها تدور، فتنظيف أحسن واحتكاك أقل وحفرة أنعم.\nضغط الموتور (Differential pressure) يتناسب مع العزم، ونراقبه حتى نعرف حمل البت.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.3",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "ds-01",
+   "topic": "string",
+   "q": "شنو وظيفة أثقال الحفر (Drill collars)؟",
+   "qEn": "What are drill collars for?",
+   "k": [
+    "drill collars",
+    "اثقال الحفر",
+    "wob",
+    "collars"
+   ],
+   "a": "أنابيب سميكة الجدار وثقيلة، توضع فوك البت مباشرة:\n• تعطي الوزن على البت (WOB) بدون ما نحط أنابيب الحفر الرقيقة تحت ضغط.\n• تبقي أنابيب الحفر فوكها تحت شد فتتجنب الانحناء والإرهاق.\n• توفر صلابة تساعد على التحكم باتجاه البئر.\nأنواعها: ملساء، أو حلزونية (Spiral) تقلل مساحة التماس ويا الجدار فتقل حالات التعلق التفاضلي.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 9.2"
+   ]
+  },
+  {
+   "id": "ds-02",
+   "topic": "string",
+   "q": "شلون أحسب طول الـ Drill collars المطلوب؟",
+   "qEn": "How many drill collars are needed?",
+   "k": [
+    "collar length",
+    "طول الاثقال",
+    "neutral point",
+    "نقطه التعادل",
+    "bha weight"
+   ],
+   "a": "نريد نقطة التعادل (Neutral point) تبقى داخل الـ Collars (عادة بحدود 85% من طولها):\n$$ L_{dc} = \\dfrac{WOB \\times SF}{w_{dc} \\times BF \\times \\cos\\theta}\nحيث WOB الوزن المطلوب على البت، و SF معامل أمان (حوالي 1.15–1.2)، و w_dc وزن الـ Collar (lb/ft)، و BF معامل الطفو، و θ زاوية الميلان.\nبالآبار الأفقية والعالية الميلان نخلي الوزن من HWDP أو أنابيب بالجزء العمودي، لأن الـ Collars بالأفقي ما تعطي وزن فعّال.",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 9.2 و 9.5"
+   ]
+  },
+  {
+   "id": "ds-03",
+   "topic": "string",
+   "q": "شنو هي نسبة الصلابة للانحناء (BSR) بالوصلات؟",
+   "qEn": "Bending strength ratio of connections",
+   "k": [
+    "bsr",
+    "bending strength ratio",
+    "connection",
+    "box",
+    "pin"
+   ],
+   "a": "نسبة مقاومة الانحناء بين الصندوق (Box) والدبوس (Pin) بوصلات الـ Collars. تقيس توازن الوصلة:\n• إذا الـ BSR عالية جداً: الدبوس ضعيف وممكن ينكسر.\n• إذا واطية: الصندوق يتشقق.\nالقيم المرغوبة عادة حوالي 2.25–2.75 حسب حجم الـ Collar والظروف. وصلات الـ BHA من أكثر الأماكن تعرضاً للإرهاق، فلازم نختار نوع الوصلة وعزم الربط (Make-up torque) بدقة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.2"
+   ]
+  },
+  {
+   "id": "ds-04",
+   "topic": "string",
+   "q": "شنو رتب أنابيب الحفر (E-75، G-105، S-135)؟",
+   "qEn": "Drill pipe grades",
+   "k": [
+    "drill pipe grade",
+    "e75",
+    "x95",
+    "g105",
+    "s135",
+    "رتب انابيب الحفر"
+   ],
+   "a": "الرقم هو أقل مقاومة خضوع بالألف psi:\n• E-75: خضوع 75,000 psi، للآبار الضحلة وبيئات الـ H₂S.\n• X-95: خضوع 95,000 psi.\n• G-105: خضوع 105,000 psi.\n• S-135: خضوع 135,000 psi، للآبار العميقة والممتدة، بس حساسة للـ H₂S.\nتوصف الأنابيب أيضاً بالقطر الخارجي والوزن الاسمي ونوع الـ Tool joint والطول (Range 2 تقريباً 30 قدم هو الشائع).",
+   "refs": [
+    "Bourgoyne, Ch. 7",
+    "Mitchell & Miska, Ch. 9.3"
+   ]
+  },
+  {
+   "id": "ds-05",
+   "topic": "string",
+   "q": "شنو تصنيف حالة أنابيب الحفر (New, Premium, Class 2)؟",
+   "qEn": "Drill pipe classification by wear",
+   "k": [
+    "premium",
+    "class 2",
+    "new pipe",
+    "inspection",
+    "wall thickness",
+    "تصنيف"
+   ],
+   "a": "مع الاستخدام الجدار يتآكل، فالأنابيب تُصنف بالفحص حسب سمك الجدار المتبقي:\n• جديد (New): السمك الأصلي.\n• ممتاز (Premium): لا يقل الجدار المتبقي عن 80% من الأصلي.\n• الصنف الثاني (Class 2): لا يقل عن حوالي 70%.\nالمقاومات (الشد، العزم، الانهيار، الانفجار) تنحسب حسب الصنف، فلازم نصمم على مقاومة الصنف الفعلي مو الجديد.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.3–9.4",
+    "Bourgoyne, Ch. 7"
+   ]
+  },
+  {
+   "id": "ds-06",
+   "topic": "string",
+   "q": "شنو هو هامش السحب الزائد (Margin of overpull)؟",
+   "qEn": "Margin of overpull",
+   "k": [
+    "margin of overpull",
+    "mop",
+    "overpull",
+    "هامش السحب",
+    "tensile capacity"
+   ],
+   "a": "الفرق بين أقصى شد مسموح بالأنابيب وبين الحمل الفعلي عليها، حتى نگدر نسحب إضافي لما تتعلق:\n$$ MOP = 0.9\\,F_{yield} - F_{actual}\nحيث 0.9 معامل تصميم شائع لمقاومة الشد. الـ MOP عادة يكون بحدود 50,000–150,000 lbf حسب البئر واحتمال التعلق. إذا السحب المطلوب أكبر، نحتاج رتبة أقوى أو أوزان أخف أو تقليل الطول.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.5",
+    "Bourgoyne, Ch. 7"
+   ]
+  },
+  {
+   "id": "ds-07",
+   "topic": "string",
+   "q": "شلون نصمم أنابيب الحفر للشد؟",
+   "qEn": "Drill string design for tension",
+   "k": [
+    "drill string design",
+    "تصميم",
+    "tension design",
+    "maximum length"
+   ],
+   "a": "من الأسفل لفوك، كل جزء من الأنابيب لازم يتحمل وزن كل شي تحته (بالطين):\n$$ L_{max} = \\dfrac{0.9\\,F_{yield} - MOP}{w_{dp}\\,BF} - \\dfrac{W_{bha}\\,BF}{w_{dp}\\,BF}\nنحسب أقصى طول لكل رتبة أو وزن، فإذا ما كفى للعمق نضيف فوكه جزء أقوى (Tapered string). نتأكد بعدين من العزم، والانهيار (لو فرغت الأنابيب أثناء فحص DST)، وأحمال الإسفين (Slip crushing).",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.5",
+    "Bourgoyne, Ch. 7"
+   ]
+  },
+  {
+   "id": "ds-08",
+   "topic": "string",
+   "q": "شنو هو سحق الإسفين (Slip crushing)؟",
+   "qEn": "What is slip crushing?",
+   "k": [
+    "slip crushing",
+    "slips",
+    "اسفين",
+    "سحق",
+    "slip"
+   ],
+   "a": "لما نعلق الأنابيب بالأسافين (Slips) على أرضية البرج، الأسافين تضغط الأنبوب جانبياً، فالضغط الجانبي ويا الشد يقللون الحمل اللي يتحمله الأنبوب قبل ما يخضع.\n$$ F_{slip} = \\dfrac{F_{tension}}{S_h / S_t}\nحيث نسبة الإجهاد الأفقي للشد (S_h/S_t) تعتمد على طول الأسافين ومعامل الاحتكاك والقطر، وعادة بين ~1.2 و 1.6. لهذا بالآبار العميقة نستخدم أسافين أطول، ونقارن الحمل الأقصى ويا مقاومة السحق.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.4"
+   ]
+  },
+  {
+   "id": "ds-09",
+   "topic": "string",
+   "q": "شنو هو إرهاق أنابيب الحفر (Fatigue) وشلون نقلله؟",
+   "qEn": "Drill pipe fatigue",
+   "k": [
+    "fatigue",
+    "ارهاق",
+    "dogleg",
+    "cyclic bending",
+    "washout"
+   ],
+   "a": "الأنابيب اللي تدور داخل انحناء بالبئر (Dogleg) تنحني ذهاباً وإياباً مع كل دورة، فتتراكم الشقوق الدقيقة وتكبر لحد ما يصير تسريب (Washout) أو كسر.\nيزيد مع: شدة الانحناء (Dogleg severity)، والشد العالي بنفس المكان، والتآكل والـ H₂S، وعدد الدورات.\nنقلله بـ: تقليل الـ Doglegs بالتصميم والتنفيذ، وفحص الأنابيب دورياً، وتدوير مواقع الأنابيب بالسلسلة، وتجنب الدوران الطويل بنفس العمق.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.3",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "ds-10",
+   "topic": "string",
+   "q": "شنو هي الأنابيب الثقيلة (HWDP) وليش نستخدمها؟",
+   "qEn": "Heavy-weight drill pipe",
+   "k": [
+    "hwdp",
+    "heavy weight",
+    "heavyweight",
+    "transition"
+   ],
+   "a": "أنابيب بجدار أسمك من الأنابيب العادية وبيها جزء سميك (Upset) بالنص، ووصلات أطول:\n• انتقال تدريجي بالصلابة بين الـ Collars الصلبة وأنابيب الحفر المرنة، فيقلل الإرهاق بمنطقة الانتقال.\n• تعطي وزن على البت بالآبار المائلة وتگدر تشتغل بضغط محوري خفيف.\n• مساحة تماس أقل ويا الجدار من الـ Collars، فأقل تعلق تفاضلي.\nعادة نحط على الأقل 15–20 أنبوب HWDP فوك الـ Collars.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.3"
+   ]
+  },
+  {
+   "id": "ds-11",
+   "topic": "string",
+   "q": "شنو مكونات الـ BHA الرئيسية؟",
+   "qEn": "Bottom-hole assembly components",
+   "k": [
+    "bha",
+    "stabilizer",
+    "jar",
+    "mwd",
+    "lwd",
+    "reamer",
+    "مكونات"
+   ],
+   "a": "• البت.\n• الموتور الطيني أو الـ RSS (للحفر الاتجاهي).\n• المثبتات (Stabilizers): تمركز الـ BHA وتتحكم بالزاوية، وتقلل الاهتزاز.\n• أدوات القياس أثناء الحفر: MWD للاتجاه والزاوية، و LWD لخواص الطبقة.\n• الـ Collars والـ HWDP.\n• الـ Jar: أداة طرق تعطي صدمة قوية لتحرير الأنابيب لما تتعلق.\n• أدوات أخرى: موسّعات الحفرة (Reamers)، وممتصات الصدمات (Shock subs)، وصمامات عكسية (Float sub)، وأدوات الدوران (Circulating sub).",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.2 و 9",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "ds-12",
+   "topic": "string",
+   "q": "شلون أحسب مقاومة أنابيب الحفر للعزم (Torsion)؟",
+   "qEn": "Torsional strength of drill pipe",
+   "k": [
+    "torque",
+    "torsional strength",
+    "عزم",
+    "make up torque",
+    "tool joint"
+   ],
+   "a": "مقاومة الالتواء لجسم الأنبوب (للأنبوب الأنبوبي):\n$$ Q\\ \\text{(ft-lbf)} = \\dfrac{0.096167\\,J\\,Y_m}{D}\nحيث J عزم القصور القطبي = π × (D⁴ − d⁴) / 32، و Ym مقاومة الخضوع، و D و d القطرين الخارجي والداخلي.\nبالعادة الـ Tool joint هو الأضعف بالعزم، فعزم الحفر الأقصى لازم يبقى تحت عزم ربط الوصلة (Make-up torque)، وإلا الوصلة تنربط زيادة وتنضرر. والشد يقلل مقاومة العزم.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.4"
+   ]
+  },
+  {
+   "id": "ds-13",
+   "topic": "string",
+   "q": "شنو هو الـ Jar وشلون يشتغل؟",
+   "qEn": "How does a drilling jar work?",
+   "k": [
+    "jar",
+    "جار",
+    "jarring",
+    "stuck pipe",
+    "hydraulic jar"
+   ],
+   "a": "أداة بالـ BHA تخزن طاقة بشد أو كبس الأنابيب، وبعدين تطلقها فجأة كصدمة قوية لفوك (Up jar) أو لتحت (Down jar) حتى نحرر الأنابيب المتعلقة.\n• الهيدروليكية: تأخير بزيت يمر من فتحة صغيرة، وبعدين تنطلق.\n• الميكانيكية: تنطلق عند حمل محدد مسبقاً.\nموقعها بالـ BHA مهم: فوك نقطة التعلق المتوقعة، وبمكان تكون بي تحت شد أو ضغط مناسب، وغالباً بين الـ HWDP مع مسرّع (Accelerator) فوكها.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3"
+   ]
+  },
+  {
+   "id": "dd-01",
+   "topic": "directional",
+   "q": "ليش نحفر آبار اتجاهية (مائلة)؟",
+   "qEn": "Why drill directional wells?",
+   "k": [
+    "directional drilling",
+    "حفر اتجاهي",
+    "deviated",
+    "مائل",
+    "reasons"
+   ],
+   "a": "• نوصل لهدف ما نگدر نحفر فوكه (تحت مدينة، نهر، منطقة محمية).\n• نحفر عدة آبار من منصة وحدة بالبحر أو بموقع واحد (Pad drilling).\n• نوصل لمكامن بعيدة عن الساحل من اليابسة.\n• الآبار الأفقية تزيد التماس ويا المكمن، فيزيد الإنتاج، وتقلل مشاكل الماء والغاز (Coning).\n• الحفر الجانبي (Sidetrack) لتجاوز سمكة عالقة أو لهدف جديد.\n• آبار الإغاثة (Relief wells) لقتل بئر منفجر.\n• تجنب الصدوع والقباب الملحية.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ]
+  },
+  {
+   "id": "dd-02",
+   "topic": "directional",
+   "q": "شنو المصطلحات الأساسية بالحفر الاتجاهي؟",
+   "qEn": "Basic directional drilling terms",
+   "k": [
+    "md",
+    "tvd",
+    "inclination",
+    "azimuth",
+    "kop",
+    "departure",
+    "vertical section",
+    "مصطلحات"
+   ],
+   "a": "• العمق المقاس (MD): طول البئر على مساره الفعلي.\n• العمق العمودي الحقيقي (TVD): المسافة العمودية من السطح.\n• الميلان (Inclination): زاوية البئر عن العمود (0° عمودي، 90° أفقي).\n• الاتجاه (Azimuth): اتجاه البئر بالمستوى الأفقي من الشمال باتجاه عقارب الساعة.\n• نقطة البداية (KOP): العمق اللي نبدأ منه نميل البئر.\n• معدل البناء (Build rate): زيادة الزاوية لكل 100 قدم.\n• الإزاحة الأفقية (Departure / Displacement): المسافة الأفقية من رأس البئر.\n• المقطع العمودي (Vertical section): الإزاحة بإسقاطها على اتجاه الهدف.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ]
+  },
+  {
+   "id": "dd-03",
+   "topic": "directional",
+   "q": "شنو أشكال مسارات الآبار الاتجاهية؟",
+   "qEn": "Directional well profiles",
+   "k": [
+    "profiles",
+    "build and hold",
+    "s-type",
+    "j-type",
+    "horizontal",
+    "مسار",
+    "اشكال"
+   ],
+   "a": "• بناء وثبات (Build-and-hold / J-type): نبني زاوية لحد قيمة معينة ونثبت عليها لحد الهدف. الأبسط والأكثر شيوعاً.\n• شكل S: بناء، ثبات، ثم نزول بالزاوية (Drop) حتى ندخل الهدف عمودي أو بزاوية قليلة. مفيد لما نريد ندخل المكمن عمودي أو لعدة أهداف.\n• بناء مستمر (Continuous build).\n• أفقي (Horizontal): نبني لحد ~90° وندخل المكمن ونمشي بي أفقياً. بنصف قطر طويل أو متوسط أو قصير حسب معدل البناء.\n• ممتد (ERD): نسبة الإزاحة الأفقية للـ TVD كبيرة (أكثر من ~2).",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ],
+   "fig": [
+    "profiles"
+   ]
+  },
+  {
+   "id": "dd-04",
+   "topic": "directional",
+   "q": "شلون أحسب نصف قطر الانحناء من معدل البناء؟",
+   "qEn": "Radius of curvature from build rate",
+   "k": [
+    "radius of curvature",
+    "build rate",
+    "نصف القطر",
+    "bur",
+    "5729"
+   ],
+   "a": "إذا معدل البناء BUR بالدرجات لكل 100 قدم:\n$$ R\\ \\text{(ft)} = \\dfrac{18{,}000}{\\pi \\times BUR} = \\dfrac{5{,}729.6}{BUR}\nمثال: 3°/100ft يعطي نصف قطر ~1,910 قدم.\nوخلال قوس البناء من زاوية 0 لزاوية θ:\n$$ \\Delta TVD = R\\,\\sin\\theta\n$$ \\Delta H = R\\,(1 - \\cos\\theta)\n$$ \\Delta MD = R\\,\\theta_{\\text{(rad)}} = \\dfrac{100\\,\\theta^\\circ}{BUR}",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ],
+   "fig": [
+    "buildhold"
+   ]
+  },
+  {
+   "id": "dd-05",
+   "topic": "directional",
+   "q": "شلون أصمم بئر بناء وثبات (Build and hold)؟",
+   "qEn": "Designing a build-and-hold well",
+   "k": [
+    "build and hold design",
+    "تصميم",
+    "hold angle",
+    "target",
+    "kop design"
+   ],
+   "a": "المعطيات: إحداثيات الهدف (TVD والإزاحة الأفقية X3)، وعمق الـ KOP، ومعدل البناء (فيعطي R).\nإذا X3 أكبر من R، زاوية الثبات:\n$$ \\theta = \\arctan\\dfrac{D_3 - D_1}{X_3 - R} - \\arccos\\!\\left[\\dfrac{R}{D_3 - D_1}\\,\\sin\\!\\left(\\arctan\\dfrac{D_3 - D_1}{X_3 - R}\\right)\\right]\nحيث D1 عمق الـ KOP و D3 عمق الهدف. بعدها نحسب نهاية البناء (EOB) والـ MD لكل نقطة. بالتطبيق، البرامج تحسب هذا، بس المبدأ هندسي بحت: قوس دائري وبعده خط مستقيم يمر بالهدف.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ],
+   "fig": [
+    "buildhold"
+   ]
+  },
+  {
+   "id": "dd-06",
+   "topic": "directional",
+   "q": "شنو هي شدة الانحناء (Dogleg severity)؟",
+   "qEn": "What is dogleg severity?",
+   "k": [
+    "dogleg",
+    "dls",
+    "dogleg severity",
+    "شده الانحناء",
+    "انحناء"
+   ],
+   "a": "مقياس لمقدار تغيّر اتجاه البئر الكلي (ميلان واتجاه سوية) لكل 100 قدم:\n$$ \\cos\\beta = \\cos(I_2 - I_1) - \\sin I_1 \\sin I_2\\,\\big(1 - \\cos(A_2 - A_1)\\big)\n$$ DLS\\ (^\\circ\\text{/100 ft}) = \\dfrac{100\\,\\beta}{\\Delta MD}\nحيث I الميلان و A الاتجاه بنقطتي قياس.\nالـ DLS العالي يسبب: إرهاق الأنابيب، وعزم واحتكاك عالي، ومجاري (Key seats)، وصعوبة نزول التغليف والإكمال. لهذا نحدد حد أقصى بالتصميم وننفذ بنعومة.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ]
+  },
+  {
+   "id": "dd-07",
+   "topic": "directional",
+   "q": "شنو طرق حساب مسار البئر من المسوحات (Survey calculations)؟",
+   "qEn": "Survey calculation methods",
+   "k": [
+    "survey calculation",
+    "minimum curvature",
+    "average angle",
+    "tangential",
+    "radius of curvature",
+    "مسح"
+   ],
+   "a": "عندنا قياسات (MD، الميلان، الاتجاه) كل مسافة، ونريد الإحداثيات (TVD، شمال، شرق):\n• الطريقة المماسية (Tangential): الأبسط وأقل دقة.\n• المماسية المتوازنة (Balanced tangential).\n• متوسط الزاوية (Average angle): سهلة ودقيقة نسبياً للحساب اليدوي.\n• نصف قطر الانحناء (Radius of curvature).\n• أقل انحناء (Minimum curvature): المعيار بالصناعة. تفترض قوس دائري بين النقطتين وتضرب الطريقة المتوازنة بعامل تصحيح:\n$$ RF = \\dfrac{2}{\\beta}\\tan\\dfrac{\\beta}{2}\n$$ \\Delta TVD = \\dfrac{\\Delta MD}{2}\\,(\\cos I_1 + \\cos I_2)\\,RF",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.1"
+   ]
+  },
+  {
+   "id": "dd-08",
+   "topic": "directional",
+   "q": "شنو أدوات تحريف البئر (Deflection tools)؟",
+   "qEn": "Deflection tools for directional drilling",
+   "k": [
+    "deflection tools",
+    "whipstock",
+    "jetting",
+    "bent sub",
+    "bent housing",
+    "ادوات"
+   ],
+   "a": "• الإسفين (Whipstock): إسفين فولاذي يوجه البت للجانب. قديم، يستخدم اليوم أكثر لفتح نافذة بالتغليف للحفر الجانبي.\n• التنفيث (Jetting / Badgering): بالطبقات الرخوة، فتحة بت كبيرة باتجاه واحد تآكل الجانب.\n• الموتور ويا غلاف منحني (Bent housing motor): الأشهر. نوجه وجه الأداة (Toolface) ونحفر بدون دوران الأنابيب (Sliding) حتى نبني أو نغير الاتجاه، وندوّر الأنابيب (Rotating) حتى نحفر مستقيم.\n• أنظمة التوجيه الدوارة (RSS): توجيه أثناء دوران الأنابيب، حفرة أنعم وتنظيف أفضل.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.3"
+   ]
+  },
+  {
+   "id": "dd-09",
+   "topic": "directional",
+   "q": "شنو هو وجه الأداة (Toolface)؟",
+   "qEn": "What is toolface?",
+   "k": [
+    "toolface",
+    "tool face",
+    "وجه الاداه",
+    "gravity toolface",
+    "magnetic toolface",
+    "high side"
+   ],
+   "a": "الاتجاه اللي يأشر عليه انحناء الموتور (أو الإسفين) حول محور البئر:\n• Gravity toolface (للزوايا الأكبر من ~5°): يقاس من الجهة العليا للبئر (High side). 0° يعني نبني زاوية، 180° نسقط زاوية، 90° يمين و 270° يسار.\n• Magnetic toolface (للآبار شبه العمودية): يقاس من الشمال المغناطيسي.\nلازم نحسب أيضاً عزم الموتور الارتدادي (Reactive torque) اللي يلف الأنابيب عكس عقارب الساعة لما يحفر، فنضبط الوجه قبل البدء.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.3",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "dd-10",
+   "topic": "directional",
+   "q": "شلون نتحكم بالزاوية بالـ BHA الدوارة؟",
+   "qEn": "Angle control with rotary BHAs",
+   "k": [
+    "fulcrum",
+    "pendulum",
+    "packed hole",
+    "build assembly",
+    "drop assembly",
+    "stabilizer placement"
+   ],
+   "a": "بمكان المثبتات (Stabilizers) بالـ BHA:\n• تجميعة الرافعة (Fulcrum / Build): مثبت قريب من البت والـ Collars فوكه تنحني فتدفع البت لفوك، فتزيد الزاوية. زيادة الوزن تزيد البناء.\n• تجميعة البندول (Pendulum / Drop): بدون مثبت قريب من البت، فالجاذبية تسحب البت لتحت، فتقل الزاوية. تستخدم لتعديل الآبار العمودية.\n• التجميعة المرصوصة (Packed / Hold): عدة مثبتات قريبة ومتباعدة بشكل مدروس، تحافظ على الزاوية والاتجاه.\nالطبقات المائلة والمتداخلة تأثر كمان على ميل البت.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.2"
+   ],
+   "fig": [
+    "bha"
+   ]
+  },
+  {
+   "id": "dd-11",
+   "topic": "directional",
+   "q": "شلون نقيس اتجاه البئر (MWD والجايرو)؟",
+   "qEn": "Surveying tools: MWD and gyro",
+   "k": [
+    "mwd",
+    "gyro",
+    "survey tools",
+    "magnetometer",
+    "accelerometer",
+    "magnetic interference",
+    "مسح"
+   ],
+   "a": "• الـ MWD: مقاييس تسارع (Accelerometers) للميلان، ومقاييس مغناطيسية (Magnetometers) للاتجاه، وترسل البيانات للسطح بنبضات بالطين (Mud pulse). يقيس أثناء الحفر عند كل اتصال.\n• المغناطيسية تتأثر بالحديد القريب (تغليف، آبار مجاورة)، فنستخدم Collars غير مغناطيسية (Monel) حول الحساسات، وتصحيحات للانحراف المغناطيسي (Declination).\n• الجايرو (Gyro): يعتمد على دوران الأرض مو المغناطيسية، فيشتغل داخل التغليف وقرب الآبار الثانية، وأدق.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "dd-12",
+   "topic": "directional",
+   "q": "شنو هو العزم والاحتكاك (Torque and drag) بالآبار الاتجاهية؟",
+   "qEn": "Torque and drag in directional wells",
+   "k": [
+    "torque and drag",
+    "drag",
+    "عزم واحتكاك",
+    "friction factor",
+    "soft string",
+    "hook load"
+   ],
+   "a": "بالآبار المائلة، الأنابيب تستند على الجدار، فيصير احتكاك يزيد حمل السحب (Pick-up)، ويقلل حمل الإنزال (Slack-off)، ويزيد عزم الدوران.\nالنموذج الشائع (Soft-string) يحسب لكل مقطع القوة الجانبية (من الوزن والانحناء والشد) ويضربها بمعامل احتكاك (عادة ~0.2–0.35 بالحفرة المفتوحة، أقل بالتغليف وبالطين النفطي).\nالاستخدامات: نتأكد إن البرج والأنابيب تتحمل، ونعرف إذا نگدر نوصل التغليف للقاع، ونراقب تنظيف البئر (زيادة الـ Drag عن النموذج تدل على قطع متراكمة).",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.5–8.6"
+   ]
+  },
+  {
+   "id": "dd-13",
+   "topic": "directional",
+   "q": "شنو تحديات الآبار الأفقية والممتدة (ERD)؟",
+   "qEn": "Challenges in horizontal and ERD wells",
+   "k": [
+    "horizontal well",
+    "erd",
+    "extended reach",
+    "افقي",
+    "ممتد",
+    "challenges"
+   ],
+   "a": "• تنظيف البئر: القطع تترسب بالجزء الأفقي، فنحتاج تصريف عالي ودوران أنابيب سريع.\n• العزم والاحتكاك العاليين: حدود البرج والأنابيب، وصعوبة نقل الوزن للبت (Buckling).\n• نزول التغليف والبطانة للقاع.\n• الـ ECD العالي يضيق نافذة وزن الطين.\n• ثبات جدار البئر بالميلان العالي.\n• التوجيه الدقيق داخل المكمن (Geosteering) باستخدام الـ LWD.\nالحلول: RSS، وطين نفطي أو مزلقات، وأنابيب بوصلات عالية العزم، وتصميم دقيق للعزم والاحتكاك.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8"
+   ]
+  },
+  {
+   "id": "dd-14",
+   "topic": "directional",
+   "q": "شنو هو تجنب التصادم (Anti-collision) بين الآبار؟",
+   "qEn": "Well anti-collision",
+   "k": [
+    "anti collision",
+    "تصادم",
+    "separation factor",
+    "ellipse of uncertainty",
+    "offset well"
+   ],
+   "a": "بالمنصات اللي بيها آبار كثيرة قريبة، لازم نتأكد البئر الجديد ما يصطدم ببئر موجود (خطر Blowout وتلف).\n• كل مسح بي خطأ، فموقع البئر الحقيقي يكون ضمن قطع ناقص من عدم التأكد (Ellipse of uncertainty) يكبر مع العمق.\n• نحسب المسافة بين مراكز الآبار مقسومة على مجموع أنصاف أقطار عدم التأكد = معامل الفصل (Separation factor). إذا قل عن حد معين (مثل 1.5)، نوقف أو نغير المسار أو نستخدم الجايرو.\nبرامج التخطيط تسوي هالتحليل لكل الآبار المجاورة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8"
+   ]
+  },
+  {
+   "id": "dp-01",
+   "topic": "problems",
+   "q": "شنو هو فقدان الطين (Lost circulation) وأنواعه؟",
+   "qEn": "What is lost circulation?",
+   "k": [
+    "lost circulation",
+    "losses",
+    "فقدان الطين",
+    "seepage",
+    "partial",
+    "total losses",
+    "فقدان الطين",
+    "فقدان",
+    "ضياع الطين",
+    "الطين ما يرجع",
+    "no returns"
+   ],
+   "a": "فقدان الطين للطبقة بدل ما يرجع للسطح. حسب الشدة:\n• تسرّب (Seepage): أقل من ~10 bbl/hr تقريباً.\n• جزئي (Partial): جزء من الطين يرجع.\n• كلي (Total): ماكو رجوع أبداً، وهو الأخطر لأن مستوى الطين ينزل وممكن يصير Kick.\nالطبقات المعرضة: الكهوف والطبقات المتكسرة طبيعياً (مثل بعض الكاربونات)، والطبقات عالية النفاذية، والمكامن المستنزفة، والطبقات اللي نكسرها نحن بضغط عالي (Induced fractures).",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.1",
+    "Bourgoyne, Ch. 2"
+   ]
+  },
+  {
+   "id": "dp-02",
+   "topic": "problems",
+   "q": "شلون نعالج فقدان الطين؟",
+   "qEn": "Curing lost circulation",
+   "k": [
+    "lcm",
+    "lost circulation material",
+    "علاج الفقدان",
+    "cement plug",
+    "reduce mud weight"
+   ],
+   "a": "حسب الشدة والسبب:\n• نقلل الضغط: وزن طين أقل إذا الضغط يسمح، وتصريف أقل لتقليل الـ ECD، وسحب وإنزال أبطأ، وكسر الجل بهدوء.\n• مواد سد الفقدان (LCM): ألياف، وقشور، وحبيبات (كاربونات، جرافيت) بأحجام مدروسة حسب عرض الشقوق. تُضاف للطين كله أو كدفعة (Pill).\n• دفعات خاصة: دفعات تتصلب (Cross-linked)، أو إسمنت، أو إسمنت ويا بنتونايت وديزل للفقدان الكلي.\n• الحفر بدون رجوع (Blind drilling) إذا الطبقة ما بيها خطر ونقدر نعوض.\n• تغليف المنطقة إذا ما انحلت.\nالوقاية: تقوية الجدار (Wellbore strengthening) وتحكم جيد بالـ ECD.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.1",
+    "Bourgoyne, Ch. 2"
+   ]
+  },
+  {
+   "id": "dp-03",
+   "topic": "problems",
+   "q": "شنو هو التعلق التفاضلي (Differential sticking)؟",
+   "qEn": "What is differential sticking?",
+   "k": [
+    "differential sticking",
+    "تعلق تفاضلي",
+    "stuck pipe",
+    "filter cake",
+    "overbalance"
+   ],
+   "a": "الأنابيب الساكنة تلامس كيكة الطين مقابل طبقة نفاذة، والضغط بالبئر أعلى من ضغط الطبقة، فينحصر جزء من الأنبوب بالكيكة ويندفع على الجدار بقوة كبيرة:\n$$ F_{pull} \\approx f \\times \\Delta P \\times A_{contact}\nحيث f معامل الاحتكاك، و ΔP فرق الضغط، و A مساحة التماس.\nعلاماته: الأنابيب تتعلق بعد توقف (اتصال أو مسح)، ونگدر ندوّر الطين بشكل طبيعي، بس ما نگدر نحرك أو ندوّر الأنابيب.\nيزيد مع: Overbalance عالي، وكيكة سميكة، و Collars كبيرة وملساء، وتوقف طويل.",
+   "refs": [
+    "Bourgoyne, Ch. 4",
+    "Mitchell & Miska, Ch. 10.3"
+   ],
+   "fig": [
+    "sticking"
+   ]
+  },
+  {
+   "id": "dp-04",
+   "topic": "problems",
+   "q": "شلون نحرر الأنابيب من التعلق التفاضلي؟",
+   "qEn": "Freeing differentially stuck pipe",
+   "k": [
+    "free stuck pipe",
+    "تحرير",
+    "spotting fluid",
+    "jarring",
+    "reduce hydrostatic"
+   ],
+   "a": "• نتصرف بسرعة، لأن مساحة التماس تكبر مع الوقت.\n• نطرق بالـ Jar، عادة لتحت أولاً، ويا عزم دوران.\n• نضخ سائل نقع (Spotting fluid) حول منطقة التعلق: سوائل نفطية أو خاصة تخترق الكيكة وتقلل الاحتكاك، ونتركه يشتغل ساعات.\n• نقلل الضغط الهيدروستاتيكي (طين أخف، أو U-tube بسائل خفيف) إذا السيطرة على البئر تسمح.\n• إذا ما نفع: نحدد نقطة الحرية (Free point)، ونفك الأنابيب فوكها (Back-off)، ونبدأ الصيد (Fishing).\nالوقاية: تقليل الـ Overbalance، وطين بكيكة رقيقة، و Collars حلزونية، وعدم ترك الأنابيب ساكنة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3",
+    "Bourgoyne, Ch. 4"
+   ]
+  },
+  {
+   "id": "dp-05",
+   "topic": "problems",
+   "q": "شنو أنواع التعلق الميكانيكي؟",
+   "qEn": "Mechanical pipe sticking mechanisms",
+   "k": [
+    "mechanical sticking",
+    "pack off",
+    "bridge",
+    "keyseat",
+    "undergauge",
+    "تعلق ميكانيكي"
+   ],
+   "a": "• الانسداد (Pack-off / Bridge): تراكم قطع، أو انهيار شيل، أو كافيز حول الأنابيب. الدوران يصعب أو يتوقف، والضغط يرتفع.\n• المجرى (Key seat): الأنابيب تحفر شق ضيق بجانب انحناء البئر، وتعلق الـ Collars الأكبر بيه وقت السحب.\n• حفرة ضيقة (Undergauge): بعد بت متآكلة، أو شيل منتفخ، أو ملح زاحف (Salt creep).\n• هندسة البئر (Wellbore geometry): الـ BHA الصلبة ما تمر بالانحناءات أو الدرجات (Ledges).\n• حطام (Junk) أو إسمنت أو أشياء ساقطة.\nعادة نحدد النوع من: هل نگدر ندوّر الطين؟ وهل نگدر نحرك لفوك لو لتحت؟ وشنو كنا نسوي وقت التعلق؟",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "dp-06",
+   "topic": "problems",
+   "q": "شلون أحدد نقطة الحرية (Free point)؟",
+   "qEn": "Determining the free point",
+   "k": [
+    "free point",
+    "نقطه الحريه",
+    "stretch",
+    "back off",
+    "free point indicator"
+   ],
+   "a": "بطريقة الاستطالة (Stretch method): نسحب الأنابيب بقوة إضافية ΔF ونقيس كم تمددت ΔL بالسطح. الجزء الحر فقط يتمدد:\n$$ L_{free} = \\dfrac{E\\,A\\,\\Delta L}{\\Delta F}\nحيث E معامل يونغ للحديد (~30×10⁶ psi)، و A مساحة مقطع جدار الأنبوب. ننتبه للوحدات (ΔL بالبوصة تعطي الطول بالبوصة، فنقسم على 12 للأقدام).\nللدقة نستخدم أداة نقطة الحرية (Free point indicator) بالكيبل، اللي تقيس الشد والعزم بنقاط مختلفة. بعدها نفك الأنابيب فوك النقطة بشحنة متفجرة صغيرة (Back-off shot).",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3"
+   ]
+  },
+  {
+   "id": "dp-07",
+   "topic": "problems",
+   "q": "شنو هو الصيد (Fishing) وأدواته؟",
+   "qEn": "Fishing operations and tools",
+   "k": [
+    "fishing",
+    "صيد",
+    "overshot",
+    "spear",
+    "junk basket",
+    "mill",
+    "washover"
+   ],
+   "a": "استخراج أي شي عالق أو ساقط بالبئر (Fish): أنابيب، أو بت، أو أدوات، أو حطام.\nأشهر الأدوات:\n• الـ Overshot: يمسك الأنبوب من الخارج.\n• الحربة (Spear): تمسكه من الداخل.\n• سلة الحطام (Junk basket) والمغناطيس: للقطع الصغيرة.\n• الطاحونة (Mill): تطحن الحطام أو الأنابيب.\n• أنبوب الغسل (Washover pipe): يحفر حول الأنابيب العالقة حتى يحررها.\n• الـ Jars والمسرّعات بسلسلة الصيد.\nقبل الصيد ننزل كتلة رصاص (Impression block) حتى نشوف شكل رأس السمكة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3"
+   ]
+  },
+  {
+   "id": "dp-08",
+   "topic": "problems",
+   "q": "متى نوقف الصيد ونحفر جانبي (Sidetrack)؟",
+   "qEn": "Fishing economics: when to sidetrack",
+   "k": [
+    "fishing economics",
+    "sidetrack",
+    "حفر جانبي",
+    "اقتصاديات الصيد"
+   ],
+   "a": "الصيد مكلف بوقت البرج، وكل ما طوّل تقل فرصة النجاح. نقارن:\n• كلفة الصيد المتوقعة (أيام البرج × السعر + الأدوات) × احتمال النجاح.\n• مقابل كلفة الحفر الجانبي (سداد إسمنت، وإعادة الحفر من فوك السمكة، وقيمة المعدات المفقودة).\nقاعدة شائعة: نحدد أقصى أيام صيد مسموحة تقريباً بحيث كلفتها ما تتجاوز كلفة الحفر الجانبي وقيمة السمكة. بالأدوات المشعة (بمجسات الـ Logging) أكو قوانين تفرض محاولات إضافية قبل الترك.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3"
+   ]
+  },
+  {
+   "id": "dp-09",
+   "topic": "problems",
+   "q": "شنو مشاكل الشيل غير المستقر؟",
+   "qEn": "Unstable shale problems",
+   "k": [
+    "shale instability",
+    "شيل غير مستقر",
+    "sloughing",
+    "cavings",
+    "swelling",
+    "tight hole"
+   ],
+   "a": "• الشيل المتفاعل ينتفخ بالماء فيضيق الحفرة ويسبب تعلق.\n• الشيل الهش أو المتشقق يتساقط (Sloughing) فيكبر قطر الحفرة (Washout) ويطلع كافيز كبيرة.\n• الشيل تحت ضغط عالي أو بوزن طين قليل ينهار ميكانيكياً.\nالعلامات: قطع كبيرة ومتشظية بالهزاز، وزيادة العزم والاحتكاك، وضيق الحفرة (Tight hole) أثناء السحب، وحاجة لإعادة التوسيع (Reaming).\nالحلول: وزن طين مناسب، وطين مثبّط أو نفطي، وتقليل الراشح، وتقليل وقت التعرض، وتغليف المنطقة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2 و 10",
+    "Bourgoyne, Ch. 2"
+   ]
+  },
+  {
+   "id": "dp-10",
+   "topic": "problems",
+   "q": "شنو مشاكل الحفر بطبقات الملح؟",
+   "qEn": "Drilling through salt",
+   "k": [
+    "salt",
+    "ملح",
+    "salt creep",
+    "زحف الملح",
+    "washout",
+    "saturated mud"
+   ],
+   "a": "• الملح يذوب بالطين المائي غير المشبع، فتكبر الحفرة بشكل كبير (Washout) ويضعف الإسمنت.\n• الملح يزحف (Creep) خصوصاً بالحرارة والعمق العاليين، فتضيق الحفرة وتعلق الأنابيب أو التغليف، وممكن يسحق التغليف.\n• تحت الملح وحوله ممكن نلگه ضغوط غير طبيعية وطبقات مكسرة.\nالحلول: طين مشبع بالملح أو نفطي، ووزن طين كافي لإبطاء الزحف، وتوسيع الحفرة (Reaming)، وتغليف أسمك أو مزدوج مقابل الملح، وإسمنت مشبع بالملح.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2 و 7.13",
+    "Bourgoyne, Ch. 2"
+   ]
+  },
+  {
+   "id": "dp-11",
+   "topic": "problems",
+   "q": "شنو هو ضيق الحفرة (Tight hole) وشلون نتعامل وياه؟",
+   "qEn": "Tight hole: causes and handling",
+   "k": [
+    "tight hole",
+    "ضيق الحفره",
+    "overpull",
+    "reaming",
+    "backreaming"
+   ],
+   "a": "لما الأنابيب تحتاج سحب إضافي (Overpull) أو تنزل بصعوبة بمكان معين.\nالأسباب: شيل منتفخ، وكيكة سميكة، وبت ناقصة القطر، ومجاري (Key seats)، وتراكم قطع، وزحف ملح، أو هندسة البئر.\nالتعامل:\n• ما نسحب بقوة كبيرة مرة وحدة، حتى ما نتعلق أكثر.\n• ندوّر الطين ونرجع ننزل شوية، وبعدين نسحب بهدوء ويا التدوير والدوران (Backreaming) إذا لازم.\n• نسجل الأعماق الضيقة ونوسعها (Wiper trip / Reaming) قبل نزول التغليف.\n• نعالج السبب: تحسين الطين، ووزن مناسب، وتنظيف أحسن.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10.3"
+   ]
+  },
+  {
+   "id": "dp-12",
+   "topic": "problems",
+   "q": "شنو أسباب تسريب أنابيب الحفر (Washout) وعلاماته؟",
+   "qEn": "Drill string washout",
+   "k": [
+    "washout",
+    "تسريب",
+    "pressure drop",
+    "twist off",
+    "انكسار"
+   ],
+   "a": "ثقب صغير بأنبوب أو وصلة، الطين يطلع منه بسرعة عالية فيوسعه، وممكن يوصل لانكسار الأنابيب (Twist-off).\nالأسباب: الإرهاق بالانحناءات، والتآكل، وربط الوصلات بعزم خاطئ، والطين الكاشط.\nالعلامة الأساسية: نقصان تدريجي بضغط المضخة بنفس التصريف بدون سبب آخر.\nالتصرف: نوقف الحفر، ونسحب الأنابيب ونفحص كل وصلة حتى نلگه الثقب قبل ما ينكسر الأنبوب ويصير صيد.",
+   "refs": [
+    "Mitchell & Miska, Ch. 9.3 و 10.3"
+   ]
+  },
+  {
+   "id": "dp-13",
+   "topic": "problems",
+   "q": "شنو هي المؤشرات العامة لمشاكل الحفرة أثناء الحفر؟",
+   "qEn": "General hole-problem indicators",
+   "k": [
+    "indicators",
+    "مؤشرات",
+    "torque increase",
+    "drag",
+    "pressure",
+    "cavings",
+    "hole problems"
+   ],
+   "a": "نراقب الاتجاهات (Trends) مو بس القيم:\n• زيادة العزم والاحتكاك عن المعتاد أو عن النموذج: تنظيف سيء، أو شيل، أو مجاري.\n• ارتفاع ضغط المضخة: تراكم قطع أو انسداد فتحة. نقصانه: تسريب أو فقدان فتحة.\n• تغيّر حجم الخزانات: فقدان أو Kick.\n• شكل وكمية القطع بالهزاز: كافيز كبيرة تعني عدم استقرار.\n• صعوبة الاتصالات، وتراكم وزن بعد التوقف (Overpull).\n• تغيّر سرعة الحفر بشكل مفاجئ.\nالتصرف المبكر على الاتجاه أرخص بكثير من معالجة التعلق أو الـ Kick.",
+   "refs": [
+    "Mitchell & Miska, Ch. 10",
+    "Bourgoyne, Ch. 4 و 6"
+   ]
+  },
+  {
+   "id": "mw-01",
+   "topic": "mwd",
+   "q": "شنو الفرق بين الـ MWD والـ LWD والـ PWD؟",
+   "qEn": "MWD vs LWD vs PWD",
+   "k": [
+    "mwd",
+    "lwd",
+    "pwd",
+    "measurement while drilling",
+    "logging while drilling",
+    "قياس اثناء الحفر",
+    "تسجيل اثناء الحفر"
+   ],
+   "a": "كلها حساسات تنحط بالـ BHA وتقيس وإحنا نحفر، الفرق بشنو تقيس:\n• الـ MWD (Measurement while drilling): يقيس موقع البئر: الميلان والاتجاه والـ Toolface، ويرسل البيانات للسطح. هو \"البوصلة\" مال الحفر الاتجاهي.\n• الـ LWD (Logging while drilling): يقيس خواص الطبقات مثل الـ Wireline logs: أشعة كاما، المقاومة، الكثافة والنيوترون، الصوت، والصور.\n• الـ PWD (Pressure while drilling): يقيس ضغط الحلقة والأنبوب بالقاع، فنعرف الـ ECD الحقيقي بدل الحساب.\nالميزة إن القراءة تصير قبل ما الطين يغزو الطبقة (Invasion) وقبل ما تتدهور الحفرة، وبالآبار الأفقية ما عدنا غير الـ LWD لأن الـ Wireline صعب ينزل.",
+   "refs": [
+    "Mitchell & Miska, Ch. 1.5.6 و 8.1.1"
+   ]
+  },
+  {
+   "id": "mw-02",
+   "topic": "mwd",
+   "q": "شلون توصل بيانات الـ MWD للسطح (Telemetry)؟",
+   "qEn": "MWD telemetry: mud pulse, EM and wired pipe",
+   "k": [
+    "telemetry",
+    "mud pulse",
+    "positive pulse",
+    "negative pulse",
+    "continuous wave",
+    "em telemetry",
+    "wired pipe",
+    "نبضات",
+    "ارسال البيانات"
+   ],
+   "a": "• نبضات الطين (Mud pulse): الأكثر استخداماً. الأداة تغيّر ضغط الطين داخل الأنابيب بشكل مشفّر، وحساس بالسطح على خط الـ Standpipe يقرا النبضات ويفكها.\n  – موجبة (Positive): صمام يضيّق المجرى فيرتفع الضغط لحظياً.\n  – سالبة (Negative): صمام يفتح للحلقة فينزل الضغط لحظياً.\n  – موجة مستمرة (Continuous wave): دوّار يولّد موجة ضغط ونشفّر بطورها، أسرع من النوعين.\n  سرعتها محدودة (بضع bits بالثانية تقريباً)، وتحتاج دوران طين، وتتأثر بالغاز والهواء بالطين وضجيج المضخات.\n• الكهرومغناطيسية (EM): ترسل إشارة كهربائية عبر الطبقات، ما تحتاج طين يدور فتنفع بالحفر بالهواء أو تحت التوازن، بس تضعف بالعمق وبالطبقات قليلة المقاومة.\n• الأنابيب السلكية (Wired / telemetry drill pipe): كابل داخل كل أنبوب يوصل البيانات بسرعة أعلى بآلاف المرات، فنشوف البيانات الكثيفة (صور، اهتزازات) لحظياً.",
+   "refs": [
+    "Mitchell & Miska, Ch. 1.5.6 و 9.3"
+   ]
+  },
+  {
+   "id": "mw-03",
+   "topic": "mwd",
+   "q": "منين تجي الطاقة لأدوات الـ MWD والـ LWD؟",
+   "qEn": "Downhole power: turbine alternator and batteries",
+   "k": [
+    "turbine",
+    "alternator",
+    "battery",
+    "بطاريه",
+    "power",
+    "طاقه",
+    "مولد"
+   ],
+   "a": "• مولّد توربيني (Turbine alternator): الطين اللي يمر بالأداة يدوّر توربين يولّد كهرباء. يشتغل بس وقت الضخ، وله مدى تدفق (Flow range) لازم نلتزم بيه.\n• بطاريات (Lithium): تشغّل الأداة لما الضخ متوقف أو قليل، ونحسب عمرها حسب الساعات والحرارة.\nلهذا نختار معدل الضخ ضمن حدود الأداة، والحرارة العالية تقلل عمر البطاريات والإلكترونيات، فكل أداة إلها حد حرارة وضغط لازم نقارنه ويا البئر.",
+   "refs": [
+    "Mitchell & Miska, Ch. 3.3.8"
+   ]
+  },
+  {
+   "id": "mw-04",
+   "topic": "mwd",
+   "q": "شنو تقيس أداة أشعة كاما (Gamma ray) وشنو فايدتها؟",
+   "qEn": "Gamma-ray logging while drilling",
+   "k": [
+    "gamma ray",
+    "gamma",
+    "كاما",
+    "اشعه كاما",
+    "shale indicator",
+    "correlation",
+    "near bit gamma",
+    "azimuthal gamma"
+   ],
+   "a": "تقيس الإشعاع الطبيعي للصخر (من البوتاسيوم والثوريوم واليورانيوم).\n• الطين الصفحي (Shale) قراءته عالية، والرمل النظيف والكاربونات قراءتها واطية. فهي مؤشر على نوع الصخر وكمية الطين بيه.\n• نستخدمها للمطابقة (Correlation) ويا الآبار المجاورة، فنعرف وين وصلنا بالتتابع الطبقي ووين نحط الـ Casing.\n• الكاما القريبة من البت (Near-bit gamma) تعطينا الجواب أبكر، والكاما الاتجاهية (Azimuthal) تفرق بين فوك وجوه البئر، فتفيد بالتوجيه الجيولوجي (Geosteering).\nملاحظة: بعض الرمال إلها قراءة عالية (فيها فلدسبار أو مايكا)، فما نعتمد عليها وحدها.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.1.1 و 8.2.2"
+   ]
+  },
+  {
+   "id": "mw-05",
+   "topic": "mwd",
+   "q": "شلون تشتغل أداة المقاومة (Resistivity) أثناء الحفر؟",
+   "qEn": "LWD resistivity tools",
+   "k": [
+    "resistivity",
+    "مقاومه",
+    "propagation resistivity",
+    "phase",
+    "attenuation",
+    "laterolog",
+    "invasion",
+    "depth of investigation"
+   ],
+   "a": "الماء المالح يوصل الكهرباء، والنفط والغاز ما يوصلون، فالطبقة الحاملة هيدروكاربونات مقاومتها أعلى.\n• المقاومة بالانتشار (Propagation): ملفات ترسل موجة كهرومغناطيسية وتقيس تغيّر طورها (Phase) وتضاؤلها (Attenuation). كل قياس يشوف لعمق مختلف بالطبقة، فنقارنها حتى نعرف تأثير غزو الطين (Invasion). تشتغل ويا الطين المائي والزيتي.\n• نوع الـ Laterolog: يمرر تيار بالطبقة، يحتاج طين موصل (مائي) ويعطي دقة أحسن بالمقاومات العالية وصور للجدار.\nنوع الطين يأثر على القراءة، فلازم نختار الأداة حسب الطين أو الطين حسب الأداة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 3.3.7"
+   ]
+  },
+  {
+   "id": "mw-06",
+   "topic": "mwd",
+   "q": "شنو أدوات الكثافة والنيوترون أثناء الحفر؟",
+   "qEn": "LWD density and neutron porosity",
+   "k": [
+    "density log",
+    "neutron",
+    "نيوترون",
+    "porosity",
+    "مساميه",
+    "gas crossover",
+    "standoff",
+    "photoelectric"
+   ],
+   "a": "• الكثافة (Density): مصدر يرسل أشعة كاما والكواشف تحسب الراجع، فنعرف الكثافة الكلية للصخر (Bulk density)، ومنها المسامية. فيها كمان معامل كهروضوئي (Pe) يساعد بمعرفة نوع الصخر.\n• النيوترون: يقيس كمية الهيدروجين بالصخر، يعني الماء والنفط بالمسام.\n• لما نرسمهم سوية: الغاز يقلل الكثافة ويقلل قراءة النيوترون، فيصير تقاطع (Crossover) واضح يدل على الغاز.\nالقراءة تتأثر بالمسافة بين الأداة والجدار (Standoff)، فنستخدم مثبت على الأداة وبيانات اتجاهية نختار منها أحسن جهة. وهي أدوات بيها مصادر مشعة، فلازم إجراءات سلامة صارمة.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2 و 8.2.2"
+   ]
+  },
+  {
+   "id": "mw-07",
+   "topic": "mwd",
+   "q": "شنو فايدة الأداة الصوتية (Sonic) أثناء الحفر؟",
+   "qEn": "LWD sonic (acoustic) logging",
+   "k": [
+    "sonic",
+    "acoustic",
+    "صوتيه",
+    "slowness",
+    "compressional",
+    "shear",
+    "delta t",
+    "seismic while drilling",
+    "sonic log",
+    "اداه صوتيه"
+   ],
+   "a": "ترسل موجة صوتية وتقيس زمن وصولها (Slowness, Δt) للموجة الانضغاطية (Compressional) والقصية (Shear).\n• المسامية: الصوت يبطأ بالمسام.\n• ضغط المسامات: بالطفل (Shale) لما Δt يطلع عن الاتجاه الطبيعي، يدل على ضغط عالي (نفس فكرة الـ Resistivity بطريقة Eaton).\n• الميكانيك الصخري: من الموجتين نحسب الثوابت المرنة ومتانة الصخر، فنستخدمها لاستقرار البئر واختيار وزن الطين.\n• الربط ويا الزلزالي (Seismic): نحول العمق لزمن ونعرف مكاننا على المقطع الزلزالي.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2",
+    "Bourgoyne, Ch. 6"
+   ]
+  },
+  {
+   "id": "mw-08",
+   "topic": "mwd",
+   "q": "شنو هي صور جدار البئر (Borehole images) أثناء الحفر؟",
+   "qEn": "LWD borehole imaging",
+   "k": [
+    "image",
+    "borehole image",
+    "صور",
+    "صوره الجدار",
+    "breakout",
+    "fracture",
+    "dip",
+    "caliper",
+    "azimuthal"
+   ],
+   "a": "لأن الأداة تدور ويا الأنابيب، الحساس يمر على كل جهات الجدار، فنرسم صورة كاملة للجدار (360°) من قراءات الكاما أو الكثافة أو المقاومة أو الموجات فوق الصوتية.\nشنو نشوف بيها:\n• ميل الطبقات (Dip) واتجاهه، فنعرف إذا داخلين أو طالعين من الطبقة.\n• الكسور الطبيعية والكسور اللي سببها الحفر.\n• الانهيار (Breakouts): يدل على اتجاه الإجهادات وإن وزن الطين قليل.\n• القطر (Caliper): من الأدوات الصوتية أو الكثافة، يبين التآكل (Washout) أو الضيق.\nهاي المعلومات مهمة لاستقرار البئر ولتوجيه البئر الأفقي.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2 و 8.1.1"
+   ]
+  },
+  {
+   "id": "mw-09",
+   "topic": "mwd",
+   "q": "شلون نقيس ضغط الطبقة أثناء الحفر (Formation pressure while drilling)؟",
+   "qEn": "Formation pressure testing while drilling",
+   "k": [
+    "formation pressure",
+    "pressure test",
+    "formation tester",
+    "pretest",
+    "mobility",
+    "ضغط الطبقه",
+    "فحص ضغط",
+    "depletion",
+    "fluid contact"
+   ],
+   "a": "أداة بالـ BHA بيها مجس (Probe) ينضغط على الجدار ويعزل نقطة صغيرة، وبعدين يسحب كمية قليلة من السائل (Pretest) ويراقب رجوع الضغط.\n• الضغط اللي يستقر عليه = ضغط المسامات الحقيقي بهذا العمق.\n• سرعة رجوع الضغط تعطينا الحركية (Mobility = k/μ).\nفايدتها:\n• نصحح وزن الطين بأرقام حقيقية بدل التقدير، خاصة بالطبقات المستنزفة (Depleted) اللي تسبب تعلق وفقدان.\n• نرسم تدرج الضغط (Pressure gradient) بعدة نقاط، فنعرف نوع السائل ونقاط التماس (Gas/oil/water contacts).\nلازم الحفر يوقف ونثبت الأنابيب وقت القياس، فنحدد وقته ونراقب التعلق التفاضلي.",
+   "refs": [
+    "Mitchell & Miska, Ch. 2",
+    "Bourgoyne, Ch. 6"
+   ]
+  },
+  {
+   "id": "mw-10",
+   "topic": "mwd",
+   "q": "شنو هو التوجيه الجيولوجي (Geosteering)؟",
+   "qEn": "Geosteering and reservoir navigation",
+   "k": [
+    "geosteering",
+    "توجيه جيولوجي",
+    "reservoir navigation",
+    "boundary detection",
+    "deep resistivity",
+    "horizontal well",
+    "بئر افقي"
+   ],
+   "a": "بدل ما نحفر على مسار هندسي ثابت، نعدل المسار لحظياً حسب قراءات الـ LWD حتى نبقى داخل أحسن جزء من المكمن.\nشلون:\n• نقارن القراءات (كاما، مقاومة) ويا نموذج متوقع للطبقات، فنعرف إذا قربنا من السقف أو القاع.\n• الأدوات الاتجاهية تفرق بين فوك وجوه، فنعرف أي جهة نصحح.\n• أدوات المقاومة العميقة تكشف حدود الطبقات أو تماس النفط ويا الماء على بعد أمتار من البئر قبل ما نوصلها.\nالنتيجة: تماس أكثر ويا المكمن، ابتعاد عن الماء (WOC)، وتصحيحات أقل للمسار. وتشتغل أحسن ويا الـ RSS.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.1.1 و 8.2.6"
+   ]
+  },
+  {
+   "id": "mw-11",
+   "topic": "mwd",
+   "q": "شنو يعني نوقف بالضبط قبل الطبقة (Geostopping)؟",
+   "qEn": "Geostopping: picking casing and coring points",
+   "k": [
+    "geostopping",
+    "casing point",
+    "coring point",
+    "نقطه تغليف",
+    "look ahead",
+    "stop drilling",
+    "توقف"
+   ],
+   "a": "أحياناً لازم نوقف الحفر قبل ما ندخل طبقة معينة بمسافة قليلة، مثل:\n• نقطة التغليف فوك طبقة ضغطها عالي أو طبقة فقدان، حتى نغلف قبلها ونرفع وزن الطين بأمان.\n• نقطة بداية الأخذ اللبابي (Coring point) بأعلى المكمن.\n• نوقف فوك تماس الماء.\nنعتمد على حساسات قريبة من البت، وقياسات تكشف التغير قبل ما نوصله، ومطابقة ويا الآبار المجاورة، وعلامات الحفر (تغيّر السرعة والـ d-exponent والغاز). كل ما الحساس أقرب للبت، كل ما كانت المسافة اللي نحفرها داخل الطبقة قبل ما ننتبه أقل.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.1.1",
+    "Bourgoyne, Ch. 6"
+   ]
+  },
+  {
+   "id": "mw-12",
+   "topic": "mwd",
+   "q": "شنو فايدة قياس الوزن والعزم والاهتزاز بالقاع؟",
+   "qEn": "Downhole drilling dynamics measurements",
+   "k": [
+    "downhole wob",
+    "downhole torque",
+    "dynamics",
+    "vibration sensor",
+    "bending moment",
+    "حساسات القاع",
+    "annular pressure",
+    "pwd"
+   ],
+   "a": "الوزن والعزم اللي نقراهن بالسطح مو نفسهن بالبت، لأن الاحتكاك (Drag) والسحب بالآبار المائلة ياكل جزء منهن.\nحساسات قريبة من البت تقيس:\n• الوزن والعزم الحقيقي على البت (Downhole WOB / Torque)، فنعرف شكد وزن يوصل فعلاً ونعدل الحفر.\n• عزم الانحناء (Bending moment) واتجاهه، فنعرف شدة الانحناء ونحمي الـ BHA.\n• الاهتزازات (محورية، التوائية Stick-slip، جانبية Whirl)، فنغيّر الوزن والدوران قبل ما تتلف البت والأدوات.\n• ضغط الحلقة (PWD)، فنعرف الـ ECD الحقيقي وتنظيف الحفرة.\nبيانات عالية الدقة تنحفظ بالأداة، وملخصها ينرسل للسطح.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.7.1 و 8.5 و 9.1"
+   ]
+  },
+  {
+   "id": "mw-13",
+   "topic": "mwd",
+   "q": "شنو يسوي المسجل الطيني (Mud logging)؟",
+   "qEn": "Mud logging (surface logging)",
+   "k": [
+    "mud logging",
+    "mud logger",
+    "تسجيل طيني",
+    "cuttings",
+    "فتات",
+    "gas detection",
+    "chromatograph",
+    "background gas",
+    "connection gas",
+    "trip gas"
+   ],
+   "a": "وحدة على السطح تراقب الحفر وكل شي يطلع ويا الطين:\n• الفتات (Cuttings): ناخذ عينات من الهزاز (Shale shaker) بفترات منتظمة، نوصف الصخر ونسجله حسب العمق، ونحفظ عينات للدراسة.\n• الغاز: نسحب الغاز من الطين ونقيس الغاز الكلي، وجهاز الـ Chromatograph يفصل مكوناته (C1 لحد C5)، فنكشف المكامن الهيدروكاربونية.\n• معاملات الحفر: العمق، السرعة، الوزن، الدوران، الضغط، حجم الأحواض.\nأنواع الغاز تعطي إشارات للضغط:\n  – غاز الخلفية (Background).\n  – غاز الاتصال (Connection gas): يطلع بعد كل اتصال لما توقف المضخات، زيادته تدل إن الضغط يقرب من التوازن.\n  – غاز الرحلة (Trip gas): بعد السحب والإنزال.",
+   "refs": [
+    "Mitchell & Miska, Ch. 1.5.6",
+    "Bourgoyne, Ch. 6"
+   ]
+  },
+  {
+   "id": "mw-14",
+   "topic": "mwd",
+   "q": "شلون نحسب زمن التأخير (Lag time) للعينات؟",
+   "qEn": "Lag time and lag strokes",
+   "k": [
+    "lag time",
+    "lag",
+    "زمن التاخير",
+    "bottoms up",
+    "lag strokes",
+    "sample depth",
+    "عينات"
+   ],
+   "a": "الفتات اللي نشوفه هسه بالهزاز انحفر قبل فترة، لأن ياخذ وقت حتى يصعد بالحلقة. لهذا نحسب التأخير حتى نربط كل عينة بعمقها الصحيح:\n$$ t_{lag}\\ \\text{(min)} = \\dfrac{V_{annulus}\\ \\text{(bbl)}}{q\\ \\text{(bbl/min)}}\n$$ \\text{Lag strokes} = \\dfrac{V_{annulus}\\ \\text{(bbl)}}{\\text{Pump output (bbl/stroke)}}\nنحسب حجم الحلقة من القاع للسطح لكل قسم. الحساب يفترض إن الحفرة بقطرها، فإذا الحفرة متآكلة (Washout) الوقت الفعلي يطول. لهذا نتحقق بمادة دالة (Tracer) مثل الكاربيد اللي يطلع غاز نكشفه، ونقارن الضربات الفعلية بالمحسوبة.",
+   "refs": [
+    "Bourgoyne, Ch. 6",
+    "Mitchell & Miska, Ch. 1.5.6"
+   ]
+  },
+  {
+   "id": "mw-15",
+   "topic": "mwd",
+   "q": "شلون ناخذ لباب صخري (Coring)؟",
+   "qEn": "Conventional coring and core recovery",
+   "k": [
+    "coring",
+    "core",
+    "لباب",
+    "لباب صخري",
+    "core barrel",
+    "core bit",
+    "core catcher",
+    "core recovery",
+    "jamming"
+   ],
+   "a": "نحفر بالبت اللبابية (Core bit) وهي حلقة تقطع حول اسطوانة صخر، والصخر يدخل بالبرميل الداخلي (Inner barrel) وأداة بالأسفل (Core catcher) تمسكه وقت السحب.\nالمكونات: برميل خارجي يدور ويا الأنابيب، برميل داخلي ما يدور يحمي اللباب، ومحامل بيناتهم.\nنسبة الاسترجاع:\n$$ \\text{Core recovery (\\%)} = \\dfrac{L_{recovered}}{L_{cut}} \\times 100\nمشاكل وحلول:\n• الانحشار (Jamming): اللباب يعلق بالبرميل خاصة بالصخر المتكسر، فيتوقف دخوله. نراقب ارتفاع الضغط أو العزم وانخفاض السرعة.\n• نستخدم وزن ودوران قليل وثابت، وضخ معتدل حتى ما نغسل اللباب.\n• للحفاظ على السوائل الأصلية: لباب بغزو قليل، أو بطانة إسفنجية تمتص النفط، أو لباب تحت الضغط.\nبعد الطلوع نعلّم الاتجاه والعمق ونحفظه بسرعة حتى ما يجف.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.2 و 6.4"
+   ]
+  },
+  {
+   "id": "dd-15",
+   "topic": "directional",
+   "q": "شلون نوجه البئر بالموتور الموجّه (Slide و Rotate)؟",
+   "qEn": "Steerable motor: sliding vs rotating",
+   "k": [
+    "steerable motor",
+    "sliding",
+    "slide",
+    "rotating mode",
+    "bent housing",
+    "موتور موجه",
+    "انزلاق",
+    "slide percentage"
+   ],
+   "a": "الموتور فيه انحناء صغير (Bent housing) فوك البت:\n• وضع الانزلاق (Sliding): ما ندوّر الأنابيب، بس الموتور يدوّر البت. نوجه الانحناء بالـ Toolface، فالبئر يبني أو يلف بالاتجاه اللي نريده.\n• وضع الدوران (Rotating): ندوّر الأنابيب، فالانحناء يدور ويلغي تأثيره، والبئر يمشي تقريباً مستقيم (والحفرة أوسع شوية).\nإذا الموتور يعطي انحناء أكبر من المطلوب، نخلط بين الوضعين:\n$$ \\text{Slide fraction} \\approx \\dfrac{DLS_{required}}{DLS_{motor}}\nمثلاً الموتور يعطي 7°/100ft والخطة تريد 4°/100ft، فننزلق تقريباً 57% من الطول وندوّر الباقي.\nمشاكل الانزلاق: الوزن ما يوصل للبت بسهولة، تنظيف أضعف، تعلق تفاضلي، ووقت يضيع بضبط الـ Toolface. هذا اللي خلّى أنظمة الـ RSS تنتشر.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.2.5",
+    "Bourgoyne, Ch. 8"
+   ]
+  },
+  {
+   "id": "dd-16",
+   "topic": "directional",
+   "q": "شنو الفرق بين Push-the-bit و Point-the-bit بالـ RSS؟",
+   "qEn": "RSS: push-the-bit vs point-the-bit",
+   "k": [
+    "rss",
+    "rotary steerable",
+    "push the bit",
+    "point the bit",
+    "pads",
+    "توجيه دوار",
+    "hybrid rss"
+   ],
+   "a": "الـ RSS يوجه البئر والأنابيب كلها تدور، بدون انزلاق.\n• يدفع البت (Push-the-bit): وسادات (Pads) تنضغط على الجدار من جهة وحدة، فتدفع البت جانبياً للاتجاه الثاني. يحتاج بت بجوانب قصيرة تقطع جانبياً. يضعف بالحفر المتآكلة (Washout) لأن الوسادات ما توصل للجدار.\n• يوجّه البت (Point-the-bit): عمود داخلي ينحني فيغيّر اتجاه البت نفسها، مثل الموتور بس والأنابيب تدور. يعطي حفرة أنعم وأقل تأثراً بالتآكل، ويستخدم بت بجوانب أطول.\n• هجين (Hybrid): يجمع الفكرتين حتى يعطي انحناء أعلى.\nالمميزات: سرعة أعلى بالأقسام المائلة الطويلة، تنظيف أحسن، احتكاك وتعلق أقل، وحفرة أنعم، خاصة بالآبار البعيدة (ERD) والأفقية.",
+   "refs": [
+    "Mitchell & Miska, Ch. 8.2.6"
+   ]
+  },
+  {
+   "id": "bt-14",
+   "topic": "bits",
+   "q": "شلون يشتغل الموتور الطيني (PDM) وشنو علاقة التدفق والضغط بيه؟",
+   "qEn": "Positive displacement motor: power section and performance",
+   "k": [
+    "pdm",
+    "mud motor",
+    "power section",
+    "rotor",
+    "stator",
+    "lobes",
+    "stall",
+    "differential pressure",
+    "موتور طيني",
+    "عزم"
+   ],
+   "a": "قسم القدرة (Power section): عمود حلزوني (Rotor) داخل غلاف مطاطي (Stator) عدد فصوصه أكثر بواحد. الطين يدفع بالتجاويف بيناتهم فيدوّر العمود.\n• عدد فصوص قليل (مثل 1:2): سرعة عالية وعزم قليل.\n• عدد فصوص أكثر (مثل 7:8): سرعة أقل وعزم أعلى.\nالعلاقات الأساسية:\n• سرعة الموتور تتناسب ويا معدل الضخ.\n• العزم يتناسب ويا فرق الضغط على الموتور (Differential pressure). فلما نزيد الوزن على البت، يرتفع ضغط المضخة.\n$$ N_{bit} = N_{rotary} + k \\times q\n$$ HP_{mech} = \\dfrac{T\\ \\text{(ft-lbf)} \\times N\\ \\text{(rpm)}}{5252}\n(k = دورة لكل gallon من مواصفات الموتور).\nالتوقف (Stall): إذا العزم المطلوب أكبر من قدرة الموتور يوقف الدوران، والضغط يقفز فجأة. نرفع البت فوراً ونقلل الوزن، لأن التوقف المتكرر يقطّع المطاط.\nالمطاط يتأثر بالحرارة وبعض أنواع الطين الزيتي، فنختار نوعه حسب البئر.",
+   "refs": [
+    "Bourgoyne, Ch. 8",
+    "Mitchell & Miska, Ch. 8.2.5"
+   ]
+  },
+  {
+   "id": "bt-15",
+   "topic": "bits",
+   "q": "شنو هو توسيع الحفرة (Hole enlargement / Underreaming)؟",
+   "qEn": "Hole enlargement: underreamers and reamers while drilling",
+   "k": [
+    "underreamer",
+    "underreaming",
+    "hole opener",
+    "reamer",
+    "توسيع الحفره",
+    "توسيع",
+    "bicenter",
+    "reaming while drilling"
+   ],
+   "a": "نحفر حفرة أوسع من القطر اللي يعبر من التغليف اللي فوك.\nليش؟\n• نزيد الفراغ حول التغليف فينزل أسهل ويتحسن الإسمنت.\n• نقلل ضغط الاحتكاك بالحلقة (ECD) بالآبار اللي نافذتها ضيقة.\n• نخلي مجال لتغليف إضافي أو أنابيب قابلة للتوسيع.\nالأدوات:\n• موسّع بأذرع (Underreamer): ينزل مسدود، وبعدين تنفتح أذرعه بضغط الطين أو بكرة (Ball drop). ممكن يشتغل ويا البت سوية (Reaming while drilling).\n• فاتح الحفرة (Hole opener): قطره ثابت، يوسّع حفرة موجودة.\n• البت غير المركزية (Bicenter): بت شكلها غير متماثل، تعبر من التغليف وتحفر أوسع وهي تدور.\nنتأكد من القطر بقياس (Caliper)، وننتبه لزيادة الاهتزاز ولتوزيع الوزن بين البت والموسّع.",
+   "refs": [
+    "Mitchell & Miska, Ch. 6.2.2"
+   ]
+  }
+ ]
+}
