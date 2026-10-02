@@ -1,5 +1,5 @@
 {
- "version": 9,
+ "version": 10,
  "topics": [
   {
    "id": "rig",
@@ -80,6 +80,11 @@
    "id": "planning",
    "ar": "تخطيط البئر والكلفة",
    "en": "Well planning & cost"
+  },
+  {
+   "id": "plt",
+   "ar": "تسجيل الإنتاج (PLT)",
+   "en": "Production logging (PLT)"
   }
  ],
  "entries": [
@@ -6512,6 +6517,676 @@
    "refs": [
     "Mitchell & Miska, Ch. 1",
     "Bourgoyne, Ch. 1"
+   ]
+  },
+  {
+   "id": "plt-01",
+   "topic": "plt",
+   "q": "شنو هو تسجيل الإنتاج (Production logging)؟",
+   "qEn": "What is production logging?",
+   "k": [
+    "production logging",
+    "plt",
+    "تسجيل الانتاج",
+    "بي ال تي",
+    "production log",
+    "مجسات الانتاج",
+    "pl"
+   ],
+   "a": "تسجيل الإنتاج (PL أو PLT) مجموعة قياسات تنزل للبئر وهو منتج أو حاقن (أو مسدود)، وتقيس الجريان والخصائص على طول البئر.\nالسؤال اللي يجاوب عليه: \"شكد من أي سائل جاي من وين؟\"\n• شكد: معدل الجريان لكل طبقة.\n• أي سائل: نفط، ماء، أو غاز.\n• من وين: أي ثقوب أو طبقات تنتج، وأيها ما تنتج.\nالأهداف الرئيسية:\n• مراقبة أداء المكمن.\n• تشخيص مشاكل الإكمال (تسريب، قنوات خلف التغليف، ثقوب مسدودة).\n• تقييم نجاح المعالجات (حامض، تكسير، إسمنت عصر، سدادات).\nالشي المشترك بكل أنواع الـ PLT هو وجود جهاز قياس جريان بالقاع (Flowmeter)، ويا قياسات مساعدة مثل الحرارة والضغط والكثافة.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-02",
+   "topic": "plt",
+   "q": "شنو الأدوات الموجودة بسلسلة الـ PLT؟",
+   "qEn": "What tools make up a PLT string?",
+   "k": [
+    "plt tool string",
+    "سلسله ادوات",
+    "plt tools",
+    "gamma ray",
+    "ccl",
+    "spinner",
+    "capacitance",
+    "fluid density",
+    "quartz pressure",
+    "temperature",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج",
+    "flowmeter",
+    "سبنر",
+    "فلوميتر",
+    "حراره"
+   ],
+   "a": "سلسلة نموذجية (من فوك لتحت تقريباً):\n• التليمتري (Telemetry): يرسل البيانات للسطح، أو ذاكرة (Memory) إذا التنزيل بالسلك الرفيع.\n• أشعة كاما (GR) وكاشف وصلات التغليف (CCL): لضبط العمق ومطابقته ويا المجسات القديمة.\n• مقياس الضغط الكوارتز: بروفايل الضغط والكثافة الكاذبة والـ PVT.\n• الحرارة: كشف الدخول والتسريب والقنوات.\n• كثافة السائل (Fluid density): نسبة الطور الثقيل.\n• السعة (Capacitance / CWH): التفريق بين الماء والهيدروكاربونات.\n• Flowmeter داخلي (Inline spinner) و/أو Flowmeter كامل القطر (Fullbore) بالأسفل.\n• ممركزات (Centralizers) حتى تبقى الأدوات بنص الحفرة، وأحياناً كاليبر.\nأحياناً نضيف أدوات مصفوفة (Array) للآبار المائلة، أو أدوات تآكل.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-03",
+   "topic": "plt",
+   "q": "شلون يشتغل الـ Flowmeter (Spinner)؟",
+   "qEn": "How does a spinner flowmeter work?",
+   "k": [
+    "flowmeter",
+    "spinner",
+    "سبنر",
+    "rps",
+    "impeller",
+    "مروحه",
+    "fluid velocity",
+    "سرعه السائل",
+    "فلوميتر"
+   ],
+   "a": "الـ Spinner مروحة صغيرة تدور بسبب حركة السائل بالنسبة للأداة:\n• عدد الدورات بالثانية (rps) يتناسب خطياً تقريباً ويا السرعة النسبية بين السائل والأداة.\n• اتجاه الدوران (موجب أو سالب) يعتمد على اتجاه الجريان النسبي.\nالمعادلة الأساسية:\n$$ RPS = K\\,(V_a - V_t)\nحيث K ميل الأداة (rps لكل ft/min)، V_a السرعة الظاهرية، و V_t العتبة (Threshold): أقل سرعة تبدأ بيها المروحة تدور بسبب الاحتكاك.\nبالمعالجة: نحول الـ rps إلى سرعة، والسرعة إلى معدل جريان. لهذا الـ Flowmeter أهم أداة بالسلسلة، والباقي يساعد نعرف نوع السائل.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-04",
+   "topic": "plt",
+   "q": "شنو أنواع الـ Flowmeters وشوكت نستخدم كل نوع؟",
+   "qEn": "What are the types of flowmeters and when is each used?",
+   "k": [
+    "fullbore",
+    "cfb",
+    "continuous flowmeter",
+    "cfs",
+    "inline spinner",
+    "ils",
+    "diverter basket",
+    "dbt",
+    "انواع الفلوميتر",
+    "spinner",
+    "flowmeter",
+    "سبنر",
+    "فلوميتر"
+   ],
+   "a": "• كامل القطر بقفص (Caged fullbore، بـ 3 أو 6 أذرع): ينطوي داخل الـ Tubing وينفتح تلقائياً لما يطلع للتغليف، فمروحته كبيرة وتغطي أغلب مقطع التغليف ← أدق قياس. الـ 3 أذرع تساعد كممركز بالآبار المائلة، والـ 6 أذرع تحمي المروحة أكثر بالأقطار الكبيرة والآبار الأفقية.\n• المستمر (Continuous، CFS): قطره ثابت ويشتغل بالـ Tubing والتغليف. مناسب للسرعات العالية جداً، بس حساس للانسداد بالحطام (أكو نسخة بشبابيك جانبية تطرد الحطام).\n• الداخلي (Inline، ILS): مروحة صغيرة بجسم الأداة، غالباً كاحتياط أو للقياس داخل الـ Tubing. جسم الأداة يأثر على الجريان.\n• السلة المحوّلة (Diverter basket، DBT): قماش يسد المقطع ويجبر كل الجريان يمر من المروحة ← لقياس المعدلات الواطية جداً، ويقلل تأثير انفصال الأطوار. بس تحتاج قياسات ثابتة (Stations).",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-05",
+   "topic": "plt",
+   "q": "ليش نسوي عدة مرات تسجيل (Multipass) بسرعات مختلفة؟",
+   "qEn": "Why run multiple passes at different cable speeds?",
+   "k": [
+    "multipass",
+    "passes",
+    "مرات التسجيل",
+    "cable speed",
+    "سرعه الكيبل",
+    "up pass",
+    "down pass",
+    "stationary",
+    "logging program"
+   ],
+   "a": "الـ Spinner يقيس السرعة النسبية (السائل + حركة الأداة)، فحتى نفصل سرعة السائل نسجل بعدة سرعات للكيبل:\n• عادة 3–4 مرات نازل و 3–4 صاعد، مثلاً 30، 60، 90، 120 ft/min، بسرعة ثابتة بكل مرة (± 3 ft/min).\n• قياسات ثابتة (Stations) فوك وتحت الثقوب حتى نتأكد من القراءات.\n• نسجل والبئر منتج (Flowing) بعد ما يستقر، وأحياناً بأكثر من خانق، وكمان والبئر مسدود (Shut-in).\nالفوائد:\n• نرسم منحنى المعايرة (rps مقابل سرعة الكيبل) بكل منطقة.\n• نعرف العتبة والميل بظروف البئر الفعلية (اللزوجة تأثر عليهم).\n• المرات المتعددة تكشف الضوضاء وتأثير تغير نوع السائل.\nملاحظة: 6 مرات أحياناً ما تكفي إذا الجريان معقد أو متعدد الأطوار.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-06",
+   "topic": "plt",
+   "q": "شلون نسوي معايرة الـ Spinner بالبئر (In-situ calibration)؟",
+   "qEn": "How is the spinner calibrated in situ?",
+   "k": [
+    "spinner calibration",
+    "معايره السبنر",
+    "calibration plot",
+    "threshold",
+    "slope",
+    "gradient",
+    "عتبه",
+    "ميل",
+    "spinner",
+    "flowmeter",
+    "سبنر",
+    "فلوميتر"
+   ],
+   "a": "المعايرة تنعمل بالبئر نفسه مو بالسطح، لأن الميل والعتبة يعتمدون على نوع السائل ولزوجته.\nالطريقة:\n• بمنطقة ما بيها دخول (فوك أو تحت الثقوب)، نرسم rps مقابل سرعة الكيبل لكل المرات.\n• النقاط تطلع على خطين تقريباً: واحد للنزول وواحد للصعود.\n• الميل (Slope أو Gradient) بوحدة rps لكل ft/min.\n• العتبة (Threshold): الفجوة حول الصفر اللي المروحة ما تدور بيها.\nالإشارات المتعارف عليها:\n• سرعة الكيبل موجبة لما الأداة نازلة، وسالبة لما صاعدة.\n• الـ rps موجب لما الجريان النسبي جاي من تحت المروحة.\nأفضل معايرة تكون والبئر مسدود (السائل ساكن)، لأن وقتها الخط يمر قريب من الصفر. والبئر منتج، الخط ينزاح أفقياً بمقدار سرعة السائل.\nمثال من مسح فعلي: ميل ≈ 0.035 rps/(ft/min) بالنزول و 0.030 بالصعود، وعتبة ≈ ±7.4 ft/min.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-07",
+   "topic": "plt",
+   "q": "شلون أحسب سرعة السائل من قراءة الـ Spinner؟",
+   "qEn": "How is fluid velocity calculated from the spinner reading?",
+   "k": [
+    "fluid velocity",
+    "سرعه السائل",
+    "apparent velocity",
+    "سرعه ظاهريه",
+    "vapp",
+    "velocity profile factor",
+    "cv",
+    "0.83",
+    "spinner",
+    "flowmeter",
+    "سبنر",
+    "فلوميتر"
+   ],
+   "a": "أولاً السرعة الظاهرية (Apparent velocity) من المعايرة:\n$$ V_a = \\dfrac{RPS}{\\text{Slope}} + \\text{Threshold} - V_{cable}\nبعدين نحولها لمتوسط سرعة المقطع، لأن المروحة تقيس الجزء الوسطي (الأسرع) من الجريان:\n$$ V_m = C_v \\times V_a\nحيث C_v معامل تصحيح بروفايل السرعة، عادة ~0.83 للجريان المضطرب، وأقل (لحد ~0.5) بالجريان الطبقي.\nمثال: نزول بسرعة كيبل +60 ft/min، القراءة 5.25 rps، ميل 0.035، عتبة 7.46 ft/min:\n• V_a = 5.25 ÷ 0.035 + 7.46 − 60 ≈ 97.5 ft/min (لفوك).\n• V_m = 0.83 × 97.5 ≈ 81 ft/min.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-08",
+   "topic": "plt",
+   "q": "شلون أحسب معدل الجريان من سرعة السائل؟",
+   "qEn": "How is the flow rate calculated from fluid velocity?",
+   "k": [
+    "flow rate",
+    "معدل الجريان",
+    "1.4",
+    "b/d",
+    "rate calculation",
+    "حساب المعدل",
+    "casing id",
+    "casing",
+    "تغليف",
+    "كيسنك"
+   ],
+   "a": "بالوحدات الحقلية:\n$$ Q\\ \\text{(B/D)} = 1.4 \\times V_m\\ \\text{(ft/min)} \\times ID^2\\ \\text{(in)}\nالرقم 1.4 يجي من تحويل المساحة (π/4 × ID² ÷ 144) والوقت (1,440 دقيقة/يوم) والحجم (5.615 ft³/bbl).\nمثال: تغليف 7\" بقطر داخلي 6.276\" (ID² ≈ 39.4)، و V_m = 83 ft/min:\nQ ≈ 1.4 × 83 × 39.4 ≈ 4,580 B/D (بظروف القاع).\nملاحظات:\n• إذا جسم الأداة يشغل جزء مهم من المقطع، نطرح مساحته (نستخدم ID² − d²).\n• الناتج معدل بظروف القاع؛ لتحويله للسطح نحتاج معاملات الـ PVT (مثل Bo و Bg).",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-09",
+   "topic": "plt",
+   "q": "شلون أحسب مساهمة كل طبقة؟",
+   "qEn": "How is each zone's contribution calculated?",
+   "k": [
+    "zone contribution",
+    "مساهمه الطبقه",
+    "flow profile",
+    "بروفايل الجريان",
+    "calibration zones",
+    "مناطق المعايره",
+    "qzi",
+    "qzt"
+   ],
+   "a": "ما نقيس الجريان مقابل الثقوب نفسها (الجريان مضطرب هناك)، بل بمناطق المعايرة: فوك وتحت كل مجموعة ثقوب.\nالطريقة:\n• نحسب المعدل الكلي فوك كل طبقة (Q_C1، Q_C2، ...).\n• مساهمة الطبقة = المعدل فوكها − المعدل تحتها.\n$$ Q_A = Q_{C1} - Q_{C2}\nوتحت آخر طبقة (بالـ Sump) المعدل لازم يكون صفر.\nمثال: فوك الطبقة A المعدل 5,000 B/D، وبينها وبين B المعدل 3,500، وفوك C المعدل 1,000، وتحت C صفر:\n• A = 1,500، B = 2,500، C = 1,000 B/D.\nبالمخطط النهائي عادة نشوف عمود المعدل التراكمي (QZT) وعمود مساهمة كل طبقة (QZI).",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-10",
+   "topic": "plt",
+   "q": "شنو هو الـ Holdup؟",
+   "qEn": "What is holdup?",
+   "k": [
+    "holdup",
+    "هولد اب",
+    "yw",
+    "yo",
+    "yg",
+    "water holdup",
+    "phase fraction",
+    "نسبه الطور",
+    "water cut"
+   ],
+   "a": "الـ Holdup هو نسبة مساحة المقطع اللي يشغلها كل طور بلحظة القياس بالقاع:\n$$ Y_w + Y_o + Y_g = 1\nمهم: الـ Holdup مو نفس نسبة الماء بالإنتاج (Water cut)، لأن الأطوار ما تمشي بنفس السرعة. النفط والغاز أخف، فيصعدون أسرع من الماء، يعني نسبة الماء بالمقطع (Holdup) تكون أكبر من نسبتها بالمعدل.\nكم أداة نحتاج؟\n• طور واحد: ما نحتاج أداة Holdup.\n• طورين: أداة وحدة (كثافة أو سعة).\n• ثلاث أطوار: أداتين تقيس خاصيتين مختلفتين (مثلاً كثافة + سعة).\nكل القياسات بظروف القاع.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-11",
+   "topic": "plt",
+   "q": "شلون أحسب الـ Holdup من الكثافة؟",
+   "qEn": "How is holdup calculated from fluid density?",
+   "k": [
+    "holdup from density",
+    "كثافه السائل",
+    "fluid density",
+    "density holdup",
+    "yw from density",
+    "fdn",
+    "holdup",
+    "هولد اب",
+    "نسبه الطور"
+   ],
+   "a": "الكثافة المقاسة متوسط موزون للأطوار:\n$$ \\rho_m = Y_w\\,\\rho_w + Y_o\\,\\rho_o\nفنستخرج نسبة الطور الثقيل:\n$$ Y_h = \\dfrac{\\rho_m - \\rho_l}{\\rho_h - \\rho_l}\nحيث ρ_h كثافة الطور الثقيل (الماء)، ρ_l الخفيف (النفط أو الغاز)، وكلها بظروف القاع.\nمثال: ρ_m = 0.92، النفط 0.75، الماء 1.05 g/cc:\nY_w = (0.92 − 0.75) ÷ (1.05 − 0.75) ≈ 0.57، و Y_o ≈ 0.43.\nالدقة تعتمد على معرفة كثافة كل طور بالقاع (من الـ PVT أو من قياس بمنطقة فيها طور واحد بس، مثل الـ Sump المملي ماء).",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-12",
+   "topic": "plt",
+   "q": "شلون تشتغل أداة السعة (Capacitance) وشلون أحسب منها الـ Holdup؟",
+   "qEn": "How does the capacitance tool work and how is holdup derived from it?",
+   "k": [
+    "capacitance",
+    "cwh",
+    "سعه",
+    "dielectric",
+    "ثابت العزل",
+    "water holdup",
+    "frequency",
+    "تردد",
+    "hydro",
+    "holdup",
+    "هولد اب",
+    "نسبه الطور"
+   ],
+   "a": "الأداة متسعة: قطب وسطي وجسم الأداة، والسائل يمر بينهم. ثابت العزل الكهربائي للماء (~80) أكبر بكثير من النفط (~2–4) والغاز (~1)، فيتغير تردد المذبذب:\n• الماء ← تردد واطي (مثلاً ~27,000 Hz).\n• النفط والغاز ← تردد عالي (مثلاً ~32,500–33,500 Hz).\nتقدير نسبة الماء (تقريب خطي):\n$$ Y_w = \\dfrac{F_o - F_m}{F_o - F_w}\nمثال: F_o = 32,500، F_w = 27,500، F_m = 31,000 Hz ← Y_w ≈ 0.30.\nتنبيهات:\n• الاستجابة غير خطية: حساسة جداً بين 0–40% ماء، وفوكها الماء يسيطر والأداة تقرب من قراءة الماء الكامل.\n• تقيس بنص الحفرة بس، فبالآبار المائلة ممكن تضلل.\n• ما تفرق كثير بين النفط والغاز، لهذا نجمعها ويا الكثافة.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-13",
+   "topic": "plt",
+   "q": "شنو هي سرعة الانزلاق (Slip velocity) وليش مهمة؟",
+   "qEn": "What is slip velocity and why does it matter?",
+   "k": [
+    "slip velocity",
+    "سرعه الانزلاق",
+    "vs",
+    "phase velocity",
+    "سرعه الطور",
+    "multiphase",
+    "متعدد الاطوار",
+    "bubble flow"
+   ],
+   "a": "سرعة الانزلاق هي الفرق بين سرعة الطور الخفيف والثقيل:\n$$ V_s = V_l - V_h\nبالآبار العمودية الخفيف (نفط أو غاز) يطفو ويصعد أسرع. وما نقيسها مباشرة؛ نحسبها من نماذج تعتمد على فرق الكثافة، قطر الأنبوب، الميلان، والـ Holdup.\nبعدها نحسب سرعة كل طور:\n$$ V_h = V_m - (1 - Y_h)\\,V_s\n$$ V_l = V_h + V_s\nمثال: V_m = 80 ft/min، Y_w = 0.4، V_s = 15 ft/min، تغليف 6.276\":\n• V_w = 80 − 0.6 × 15 = 71، و V_o = 86 ft/min.\n• Q_w ≈ 0.4 × 1.4 × 39.4 × 71 ≈ 1,570 B/D.\n• Q_o ≈ 0.6 × 1.4 × 39.4 × 86 ≈ 2,850 B/D.\nلو تجاهلنا الانزلاق (Q_w = Q_t × Y_w) نطلع ~1,760 B/D ماء، يعني نبالغ بالماء بحوالي 12%.",
+   "refs": [
+    "Abbas R. Abbas, Production Logging Tools (2017)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-14",
+   "topic": "plt",
+   "q": "شلون أحسب الـ Holdup بثلاث أطوار (نفط وماء وغاز)؟",
+   "qEn": "How is three-phase holdup calculated?",
+   "k": [
+    "three phase",
+    "ثلاث اطوار",
+    "three phase holdup",
+    "gas holdup",
+    "yg",
+    "density and capacitance",
+    "holdup",
+    "هولد اب",
+    "نسبه الطور"
+   ],
+   "a": "بثلاث أطوار عندنا ثلاث مجاهيل (Y_w، Y_o، Y_g)، فنحتاج ثلاث معادلات:\n$$ Y_w + Y_o + Y_g = 1\n$$ \\rho_m = Y_w\\rho_w + Y_o\\rho_o + Y_g\\rho_g\n$$ H_m = Y_w H_w + Y_o H_o + Y_g H_g\nحيث H قراءة أداة السعة (أو أي أداة ثانية تقيس خاصية مختلفة عن الكثافة).\nنحل المعادلات سوية (عادة بالبرنامج) فنطلع النسب الثلاث.\nشروط النجاح:\n• الأداتين لازم تقيس خواص مختلفة (ما ينفع كثافتين).\n• نحتاج قيم كل طور بظروف القاع (من الـ PVT أو مناطق مرجعية).\n• بالآبار المائلة نفضل أدوات المصفوفة (Array) لأن الأطوار تنفصل بالمقطع.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)"
+   ]
+  },
+  {
+   "id": "plt-15",
+   "topic": "plt",
+   "q": "شنو أنواع أدوات كثافة السائل؟",
+   "qEn": "What are the types of fluid density tools?",
+   "k": [
+    "density tool",
+    "اداه الكثافه",
+    "gradiomanometer",
+    "fdd",
+    "fdr",
+    "nuclear density",
+    "differential pressure",
+    "كثافه نوويه"
+   ],
+   "a": "• الـ Gradiomanometer: يقيس فرق الضغط بين نقطتين قريبتين (كان مملي زئبق، وصار قديم).\n• كثافة بفرق الضغط (FDD): حساسات ضغط تقيس فرق الضغط على مسافة معروفة ← كثافة. تتأثر بالاحتكاك بالمعدلات العالية وبالميلان.\n• الكثافة النووية (FDR): مصدر أشعة كاما وكاشف، والسائل يمر بينهم. كلما زادت الكثافة قلّ العد. لوغاريتم العد يتناسب خطياً تقريباً ويا الكثافة.\nملاحظات على النووية:\n• تقيس السائل بالشباك بس (عينة صغيرة من المقطع).\n• فوك ~1.0 g/cc، أيونات الكلور بالماء المالح تمتص أشعة كاما فيتغير ميل الاستجابة، لهذا المعايرة تراعي الملوحة.\n• تحتاج إجراءات سلامة للمصدر المشع.",
+   "refs": [
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-16",
+   "topic": "plt",
+   "q": "شلون نستخدم الضغط ككثافة (Pseudo-density)؟",
+   "qEn": "How is pressure used as a pseudo-density?",
+   "k": [
+    "pseudo density",
+    "كثافه كاذبه",
+    "pressure gradient",
+    "تدرج الضغط",
+    "quartz pressure",
+    "0.433",
+    "psi/ft"
+   ],
+   "a": "تدرج الضغط بالعمق يعطي كثافة عمود السائل:\n$$ \\rho\\ \\text{(g/cc)} = \\dfrac{dP/dZ\\ \\text{(psi/ft)}}{0.433}\nأمثلة:\n• 0.05 psi/ft ← ~0.12 g/cc (غاز).\n• 0.32 psi/ft ← ~0.74 g/cc (نفط).\n• 0.47 psi/ft ← ~1.09 g/cc (ماء مالح).\nبالآبار المائلة نقسم على cos θ لأن العمق المقاس (MD) أطول من العمودي:\n$$ \\rho = \\dfrac{dP/dMD}{0.433\\,\\cos\\theta}\nالاستخدامات:\n• نتأكد من دقة أداة الكثافة لما البئر مستقر.\n• نستخدمه بدل أداة الكثافة إذا ما متوفرة.\nتنبيه: بالمعدلات العالية احتكاك الجريان يزيد التدرج، فالكثافة الكاذبة تطلع أعلى من الحقيقية.",
+   "refs": [
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-17",
+   "topic": "plt",
+   "q": "شلون نقرا مجس الحرارة بالـ PLT؟",
+   "qEn": "How is the temperature log interpreted in PLT?",
+   "k": [
+    "temperature log",
+    "مجس الحراره",
+    "geothermal gradient",
+    "تدرج حراري",
+    "warming",
+    "cooling",
+    "تسخين",
+    "تبريد",
+    "prt",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج",
+    "temperature",
+    "حراره"
+   ],
+   "a": "الحرارة أداة مساعدة بس حساسة جداً: تكشف دخول صغير ما يبين بالـ Spinner، وهي الوحيدة اللي \"تشوف\" خلف التغليف.\nالمرجع هو التدرج الحراري الطبيعي (Geothermal gradient)، وهو يختلف حسب توصيلية كل طبقة للحرارة. ونقرا الانحراف عنه:\n• تسخين فوك التدرج ← سائل جاي من أعمق (أحر) وصاعد، مثل الإنتاج الطبيعي للسائل.\n• تبريد ← سائل نازل من الأعلى، مثل الحقن، أو دخول غاز يتمدد.\n• الماء والنفط فوك نقطة الفقاعة يسببون تسخين عند الدخول؛ والغاز يسبب تبريد واضح بسبب تمدده (Joule–Thomson). فوك ~7,500 psi ممكن تأثير التبريد ما يبين.\n• المعدل الأعلى يرفع الحرارة أكثر، ومع الوقت الحرارة تقترب من الحرارة الجارية الحقيقية.\n• الاحتكاك بالمعدلات العالية ممكن يسبب تسخين بسيط.\nأفضل تسجيل بسرعة ~30 ft/min، وضد اتجاه الجريان باتجاه سائل جديد.",
+   "refs": [
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-18",
+   "topic": "plt",
+   "q": "شلون نكشف الجريان المتقاطع (Crossflow) بين الطبقات؟",
+   "qEn": "How is crossflow between zones detected?",
+   "k": [
+    "crossflow",
+    "جريان متقاطع",
+    "thief zone",
+    "طبقه سارقه",
+    "shut in crossflow",
+    "depleted layer",
+    "طبقه مستنزفه"
+   ],
+   "a": "الجريان المتقاطع يصير لما طبقتين بضغطين مختلفين مفتوحات على نفس البئر: الطبقة الأعلى ضغطاً تدفع سوائلها للطبقة المستنزفة.\nيبين أوضح والبئر مسدود:\n• الـ Spinner يبين جريان رغم إن البئر مسدود: صاعد من طبقة ونازل لطبقة ثانية.\n• الحرارة تنحرف عن التدرج بين الطبقتين.\n• حتى والبئر منتج، الطبقة المستنزفة ممكن ما تنتج أو \"تشرب\" إذا ضغط القاع الجاري أعلى من ضغطها.\nمثال: ثلاث طبقات مثقوبة، والوسطى استنزفت بسرعة (نفاذية عالية أو حجم صغير). وقت السد، الأولى والثالثة يغذّون الوسطى.\nالحلول:\n• إنتاج بمعدل أعلى (ضغط قاع أوطى) حتى تنتج كل الطبقات.\n• سد أو عزل الطبقة المستنزفة (Straddle أو سدادة).\n• إكمال منفصل (أنابيب منفصلة) للطبقات المختلفة.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-19",
+   "topic": "plt",
+   "q": "شلون نكشف القنوات خلف التغليف (Channeling) بالـ PLT؟",
+   "qEn": "How is channeling behind casing detected?",
+   "k": [
+    "channeling",
+    "قنوات خلف التغليف",
+    "flow behind casing",
+    "جريان خلف التغليف",
+    "cement channel",
+    "tracer",
+    "pnl",
+    "casing",
+    "تغليف",
+    "كيسنك",
+    "cement",
+    "cementing",
+    "اسمنت",
+    "سمنت",
+    "تسميت"
+   ],
+   "a": "القناة خلف التغليف غالباً سببها إسمنت أولي ضعيف، فيصعد أو ينزل سائل (مثلاً ماء من طبقة قريبة) خلف التغليف ويدخل من الثقوب.\nكشفها:\n• الحرارة: هي الأداة الوحيدة اللي تحس بالجريان خلف التغليف؛ نشوف انحراف عن التدرج بمكان ما بيه ثقوب.\n• الـ Spinner ما يشوف الجريان خلف التغليف، فإذا الحرارة تبين جريان والـ Spinner لا، نشك بقناة.\n• المتتبعات المشعة (Tracer) ومجسات النيوترون النبضي (PNL) أو تنشيط الأوكسجين (Oxygen activation) تكشف حركة الماء خلف التغليف.\nالعلاج: إسمنت عصر (Squeeze)، والأفضل نكتشفها قبل الإكمال والثقب.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-20",
+   "topic": "plt",
+   "q": "شلون نفرق بين التخروط (Coning) والاختراق المبكر للماء؟",
+   "qEn": "How is coning distinguished from early water breakthrough?",
+   "k": [
+    "coning",
+    "تخروط",
+    "water coning",
+    "gas coning",
+    "cone up",
+    "cone down",
+    "early breakthrough",
+    "اختراق مبكر",
+    "water production"
+   ],
+   "a": "التخروط (Coning): انسحاب الماء من تحت (Cone up) أو الغاز من فوك (Cone down) نحو الثقوب بسبب السحب العالي.\nحتى نقول إنه تخروط نحتاج:\n• مسار عمودي (نسبة Kv/Kh كافية).\n• إسمنت جيد (حتى نستبعد القناة).\n• معرفة عمق تماس الماء أو الغاز.\n• سحب (Drawdown) عالي.\n• الـ PLT يبين الماء يدخل من أسفل الثقوب (أو الغاز من أعلاها) القريبة من التماس.\nالعلاج: تقليل الخانق ممكن يقلل تخروط الغاز، بس تخروط الماء غالباً ما يرجع بسهولة لأن الماء \"يبلل\" الطبقة.\nالاختراق المبكر (Early breakthrough): الماء يوصل عبر طبقة عالية النفاذية أو كسور من الحاقن، فيدخل من طبقة معينة (مو بالضرورة الأقرب للتماس). الـ PLT يحدد الطبقة، والعلاج بسدها أو بمعالجة تحكم (Conformance).",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-21",
+   "topic": "plt",
+   "q": "شنو هو الـ PLT بآبار الحقن؟",
+   "qEn": "What does production logging do in injection wells?",
+   "k": [
+    "injection profile",
+    "بروفايل الحقن",
+    "injection well",
+    "بئر حقن",
+    "injector",
+    "thief zone",
+    "warmback",
+    "shut in temperature",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج",
+    "temperature",
+    "حراره"
+   ],
+   "a": "بآبار الحقن نريد نعرف وين يروح السائل المحقون:\n• بروفايل الحقن: كل طبقة شكد تاخذ (Flowmeter، Tracer).\n• هل كل الطبقات تاخذ؟ وهل أكو طبقة تاخذ أكثر من حقها (Thief zone)؟\n• هل يروح السائل لمكان غلط: تسريب بالتغليف أو الـ Tubing أو الحشوة، ثقوب معصورة تسرب، أو قناة خلف التغليف؟\n• هل أكو جريان متقاطع لما نوقف الحقن؟\n• هل صمامات التنظيم (Regulator valves) تشتغل صح؟\nالحرارة مفيدة جداً: بعد إيقاف الحقن، الطبقات اللي أخذت ماء بارد أكثر ترجع لحرارتها الطبيعية أبطأ (Warmback)، فتبين كمناطق باردة بمسح الحرارة بعد السد.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Abbas R. Abbas, Production Logging Tools (2017)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-22",
+   "topic": "plt",
+   "q": "شنو أنظمة الجريان بالآبار المائلة والأفقية وشلون تأثر على الـ PLT؟",
+   "qEn": "How do flow regimes in deviated and horizontal wells affect PLT?",
+   "k": [
+    "flow regime",
+    "نظام الجريان",
+    "deviated well",
+    "بئر مائل",
+    "horizontal",
+    "segregated flow",
+    "array tools",
+    "maps",
+    "stratified",
+    "directional",
+    "حفر اتجاهي",
+    "افقي",
+    "بير افقي",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "• بالآبار العمودية تقريباً: النفط والماء مخلوطين على كل المقطع، والأدوات الوسطية تمثل المقطع زين.\n• بالآبار المائلة: الجريان معقد جداً؛ الماء ينزل على الجانب السفلي (وممكن يرجع لتحت)، والنفط يصعد بسرعة على الجانب العلوي.\n• بالآبار الأفقية: جريان طبقي تقريباً: النفط فوك، الماء تحت، وخليط بالنص.\nالمشكلة: الأدوات التقليدية تقيس بنص الحفرة بس، فقراءتها ممكن تضلل تماماً.\nالحلول الحديثة:\n• أدوات المصفوفة (Array tools): عدة حساسات سرعة و Holdup موزعة على المقطع (مثل MAPS).\n• تقنيات نووية لقياس الـ Holdup الكلي للأطوار الثلاث.\n• قياس سرعة كل طور مباشرة (مثل تنشيط الأوكسجين للماء).",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-23",
+   "topic": "plt",
+   "q": "شنو هي معايير جودة البيانات (QC) بالـ PLT؟",
+   "qEn": "What are the PLT log quality control criteria?",
+   "k": [
+    "log quality control",
+    "جوده البيانات",
+    "qc",
+    "repeatability",
+    "تكرار",
+    "depth match",
+    "line speed",
+    "plt qc",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "معايير شائعة:\n• سرعة كيبل ثابتة بكل مرة (± 3 ft/min)، والشد على الكيبل شبه ثابت.\n• مطابقة العمق بين كل المرات بالـ GR والـ CCL، ومطابقتها ويا مجسات الحفرة المفتوحة.\n• التسجيل يغطي ~30 ft فوك وتحت الثقوب، ومحطات ثابتة (~1 دقيقة) فوك وتحت.\n• استجابة الـ Spinner متماثلة بالـ Sump (منطقة بدون جريان)، ومنحنيات المرات متوازية.\nالتكرار بين المرات بنفس العمق تقريباً:\n• الضغط ± 5 psi.\n• الحرارة ± 0.1°F.\n• الكثافة ± 0.02 g/cc.\n• السعة ± 200 Hz.\nوملاحظة على الـ GR: إذا الـ GR بالـ PLT أعلى بشكل واضح من الحفرة المفتوحة مقابل الثقوب، ممكن يكون بسبب ترسبات مشعة (Radioactive scale).",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Abbas R. Abbas, Production Logging Tools (2017)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-24",
+   "topic": "plt",
+   "q": "شلون نخطط لعملية PLT؟",
+   "qEn": "How is a PLT job planned?",
+   "k": [
+    "plt planning",
+    "تخطيط plt",
+    "job program",
+    "logging program",
+    "stabilization",
+    "استقرار",
+    "choke sequence",
+    "tool selection",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "قبل العملية:\n• تحديد الهدف بوضوح (بروفايل إنتاج، تسريب، قبل/بعد معالجة...)، لأنه يحدد الأدوات والبرنامج.\n• مخطط البئر: أقطار الـ Tubing والتغليف، القيود (Nipples)، الأعماق، وأقل قطر داخلي.\n• اختيار الأدوات: حجم الـ Fullbore المناسب للتغليف، وأدوات الـ Holdup حسب عدد الأطوار.\n• عمق مرجعي للضغط إذا أكو اختبار ضغط مرافق.\nالبرنامج النموذجي:\n• تسجيل تدرج (Gradient) أثناء النزول والصعود.\n• البئر يكون مستقر (Steady state) قبل التسجيل؛ ننتظر الاستقرار بعد كل تغيير خانق.\n• عدة مرات بعدة سرعات، ومحطات ثابتة بأعماق محددة.\n• أحياناً تسلسل معدلات متعددة (Multi-rate)، وبعدين سد البئر ومرات بالسد لقياس الجريان المتقاطع وبناء الضغط.\nبعدها نجمع بيانات الإنتاج السطحي والـ PVT للتفسير.",
+   "refs": [
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-25",
+   "topic": "plt",
+   "q": "شنو هو الـ PLT متعدد المعدلات ومؤشر الإنتاجية الانتقائي (SIP)؟",
+   "qEn": "What is multi-rate PLT and selective inflow performance (SIP)?",
+   "k": [
+    "mrpl",
+    "multi rate",
+    "متعدد المعدلات",
+    "sip",
+    "selective inflow performance",
+    "productivity index",
+    "مؤشر الانتاجيه",
+    "pi",
+    "layer pressure",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "بالـ PLT متعدد المعدلات (MRPL) نسجل والبئر منتج بعدة خوانق، فنطلع لكل طبقة: معدلها وضغط القاع الجاري مقابلها بكل معدل.\nنرسم لكل طبقة الضغط الجاري مقابل معدلها (SIP plot):\n$$ Q_i = J_i\\,(P_{r,i} - P_{wf})\n• ميل الخط ← مؤشر الإنتاجية (J) للطبقة.\n• التقاطع عند معدل صفر ← ضغط الطبقة (P_r).\nمثال: طبقة تنتج 1,000 B/D عند 2,900 psi و 2,000 B/D عند 2,800 psi:\n• J = 1,000 ÷ 100 = 10 B/D/psi.\n• P_r = 2,900 + 1,000 ÷ 10 = 3,000 psi.\nالفوائد: نعرف ضغط كل طبقة بدون عزلها، ونقارن الإنتاجية ونكشف الضرر (Skin) بالتنسيق ويا تحليل اختبار الضغط، ونتوقع الجريان المتقاطع.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-26",
+   "topic": "plt",
+   "q": "شلون نقيّم نجاح التحفيز بالـ PLT (مثال قبل وبعد)؟",
+   "qEn": "How is stimulation success evaluated with PLT (before/after example)?",
+   "k": [
+    "stimulation evaluation",
+    "تقييم التحفيز",
+    "before and after",
+    "قبل وبعد",
+    "acid job",
+    "frac evaluation",
+    "baseline plt",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "أفضل طريقة: PLT قبل المعالجة و PLT بعدها، بنفس البرنامج والخوانق.\nمثال من بئر فعلي:\n• قبل التحفيز: بثلاث خوانق (24، 32، 48/64\")، كل الإنتاج تقريباً جاي من الطبقة السفلى. الطبقات العلوية (حوالي 2,200–2,250 m) ما تساهم، والحرارة ما بيها انحراف مقابلها.\n• بعد التحفيز: بخانق 48/64\" الطبقات العلوية صارت تنتج بوضوح، والـ Spinner والحرارة يبينون دخول مقابلها، والمعدل الكلي زاد.\n• بالسد بعد التحفيز: ظهر جريان متقاطع بين الطبقات لأن ضغوطها مختلفة، وهي معلومة مهمة لإدارة البئر.\nالدروس:\n• الـ PLT يبين وين راحت المعالجة فعلاً، مو بس إذا زاد الإنتاج الكلي.\n• نسجل PLT مرجعي (Baseline) والبئر بحالة جيدة حتى نقارن عليه بالمستقبل.",
+   "refs": [
+    "Halliburton, Production Logging (2016)",
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)"
+   ]
+  },
+  {
+   "id": "plt-27",
+   "topic": "plt",
+   "q": "شنو مشاكل الآبار المنتجة اللي يشخصها الـ PLT؟",
+   "qEn": "What producing-well problems does PLT diagnose?",
+   "k": [
+    "well problems",
+    "مشاكل الابار",
+    "diagnosis",
+    "تشخيص",
+    "casing leak",
+    "tubing leak",
+    "packer leak",
+    "تسريب",
+    "perforations off depth",
+    "fracture production",
+    "casing",
+    "تغليف",
+    "كيسنك",
+    "packer",
+    "باكر",
+    "حشوه",
+    "tubing",
+    "تيوبنك"
+   ],
+   "a": "أهم المشاكل:\n• ثقوب بعمق غلط أو غير فعالة (مسدودة أو ضعيفة).\n• جريان متقاطع بين الطبقات.\n• قنوات خلف التغليف (Channeling).\n• تخروط الماء أو الغاز.\n• تسريب بالتغليف أو الـ Tubing أو الحشوة أو الأكمام المنزلقة (SSD): يبين كتغير مفاجئ بالـ Spinner والحرارة بمكان ما بيه ثقوب.\n• إنتاج من كسور: بعض الثقوب تقطع كسور فتعطي معدل عالي ونفث قوي، والباقي ما ينتج شي.\n• اختراق مبكر للماء أو الغاز.\n• ضرر الطبقة (Skin موجب) يقلل الإنتاجية.\n• التآكل (يحتاج أدوات خاصة: كاليبر ميكانيكي للداخل، صوتية أو كهرومغناطيسية للداخل والخارج وعدة تغليفات).\nالقاعدة: نجمع كل الأدوات سوية (Spinner + حرارة + كثافة + سعة + ضغط)، لأن أداة وحدة نادراً تعطي التشخيص الكامل.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
+   ]
+  },
+  {
+   "id": "plt-28",
+   "topic": "plt",
+   "q": "شنو بيانات الـ PVT اللي نحتاجها لتفسير الـ PLT؟",
+   "qEn": "What PVT data is needed for PLT interpretation?",
+   "k": [
+    "pvt",
+    "بي في تي",
+    "bo",
+    "bg",
+    "rs",
+    "solution gas",
+    "api gravity",
+    "salinity",
+    "ملوحه",
+    "downhole to surface",
+    "plt",
+    "production logging",
+    "تسجيل الانتاج"
+   ],
+   "a": "الـ PLT يقيس بظروف القاع، فنحتاج الـ PVT حتى:\n1. نحسب كثافات ولزوجات الأطوار بالقاع (للـ Holdup والانزلاق).\n2. نحول المعدلات من القاع لظروف السطح القياسية.\nالحد الأدنى من البيانات:\n• الماء: الملوحة (ppm).\n• النفط: الكثافة (API)، ونسبة الغاز المذاب (Rs). انتبه: Rs مو بالضرورة نفس الـ GOR المنتج.\n• الغاز: الكثافة النوعية (Specific gravity).\nويا الضغط والحرارة المقاسة بكل عمق، نحسب Bo و Bg و Bw، مثلاً:\n$$ Q_{o,surface} = \\dfrac{Q_{o,downhole}}{B_o}\nإذا الضغط تحت نقطة الفقاعة، جزء من الغاز يطلع من النفط داخل البئر، فيصير الجريان ثلاثي الأطوار حتى لو الطبقة تنتج نفط بس.",
+   "refs": [
+    "Aljarah, Production Log Interpretation (SPE Mosul SC)",
+    "Halliburton, Production Logging (2016)"
    ]
   }
  ]
