@@ -664,9 +664,10 @@
   },
   {
    "a": "CCR",
-   "en": "Continuous Catalytic Reforming",
-   "ar": "التهذيب الحفزي المستمر",
-   "c": "gs"
+   "en": "Continuous Catalyst Regeneration",
+   "ar": "التجديد المستمر للعامل المساعد",
+   "c": "gs",
+   "n": "نوع وحدات التهذيب الحفزي الحديثة."
   },
   {
    "a": "CDC",
@@ -1000,12 +1001,6 @@
    "c": "gs"
   },
   {
-   "a": "DEM",
-   "en": "Demulsifier",
-   "ar": "كاسر الاستحلاب",
-   "c": "pd"
-  },
-  {
    "a": "DF",
    "en": "Design Factor",
    "ar": "معامل التصميم",
@@ -1190,8 +1185,8 @@
   },
   {
    "a": "DTF",
-   "en": "Drilling Tool Failure",
-   "ar": "عطل أداة الحفر",
+   "en": "Downhole Tool Failure",
+   "ar": "عطل أداة قاعية",
    "c": "dr",
    "n": "رمز سبب سحب البت."
   },
@@ -1941,7 +1936,7 @@
   },
   {
    "a": "HCR",
-   "en": "High Closing Ratio (valve)",
+   "en": "High Closing Ratio / Hydraulically Controlled Remote (valve)",
    "ar": "صمام هيدروليكي على خط الخنق",
    "c": "wc"
   },
@@ -2743,7 +2738,7 @@
   {
    "a": "LOTO",
    "en": "Lock-Out / Tag-Out",
-   "ar": "القفل والتعليم",
+   "ar": "القفل ووضع بطاقة التحذير",
    "c": "hs",
    "n": "عزل مصادر الطاقة قبل الصيانة."
   },
@@ -3021,12 +3016,6 @@
    "n": "طريقة فحص خطوط الأنابيب."
   },
   {
-   "a": "MFT",
-   "en": "Mud Flow Totalizer / Flow Show",
-   "ar": "مؤشر تدفق الطين الراجع",
-   "c": "dr"
-  },
-  {
    "a": "MGS",
    "en": "Mud Gas Separator",
    "ar": "فاصل الطين والغاز",
@@ -3170,8 +3159,8 @@
   },
   {
    "a": "MRR",
-   "en": "Minimum Required Return",
-   "ar": "أقل عائد مطلوب",
+   "en": "Minimum Rate of Return",
+   "ar": "أقل معدل عائد مقبول",
    "c": "gen"
   },
   {
@@ -3241,7 +3230,7 @@
   },
   {
    "a": "MTT",
-   "en": "Multi-Finger Thickness / Magnetic Thickness Tool",
+   "en": "Magnetic Thickness Tool",
    "ar": "أداة قياس سمك التغليف",
    "c": "lg"
   },
@@ -3256,6 +3245,13 @@
    "en": "Multiplex (BOP control system)",
    "ar": "نظام تحكم متعدد الإرسال",
    "c": "wc"
+  },
+  {
+   "a": "MVT",
+   "en": "Mud Volume Totalizer",
+   "ar": "مجموع حجوم الطين بالأحواض",
+   "c": "dr",
+   "n": "نفس وظيفة الـ PVT."
   },
   {
    "a": "MW",
@@ -3450,7 +3446,7 @@
   {
    "a": "NPSH",
    "en": "Net Positive Suction Head",
-   "ar": "صافي ضغط السحب الموجب",
+   "ar": "صافي علو السحب الموجب",
    "c": "pd",
    "n": "شرط تجنب التكهف بالمضخات."
   },
@@ -3538,12 +3534,6 @@
    "en": "Original Gas in Place",
    "ar": "الغاز الأصلي بالمكمن",
    "c": "re"
-  },
-  {
-   "a": "OGM",
-   "en": "Oil Gathering Manifold",
-   "ar": "مجمّع تجميع النفط",
-   "c": "pd"
   },
   {
    "a": "OGOC",
@@ -3706,7 +3696,7 @@
   },
   {
    "a": "PBL",
-   "en": "Bypass (circulating) Sub",
+   "en": "PBL Multiple Activation Bypass Sub",
    "ar": "وصلة تدوير جانبي",
    "c": "dr",
    "n": "تنفتح بكرة لضخ الـ LCM."
@@ -3815,7 +3805,7 @@
   {
    "a": "PFR",
    "en": "Plug Flow Reactor",
-   "ar": "مفاعل الجريان الكتلي",
+   "ar": "مفاعل الجريان المكبسي",
    "c": "gs"
   },
   {
@@ -4639,7 +4629,7 @@
    "en": "Slow Circulating Rate",
    "ar": "معدل الدوران البطيء",
    "c": "wc",
-   "n": "ضغط المضخة بمعدل القتل (ويسمى RPSP)."
+   "n": "معدل ضخ مخفّض نسجل ضغطه مسبقاً لعملية القتل (ويسمى SPR)."
   },
   {
    "a": "SCR",
@@ -4734,12 +4724,6 @@
    "c": "re"
   },
   {
-   "a": "SGK",
-   "en": "Shallow Gas Kick",
-   "ar": "رفسة غاز ضحل",
-   "c": "wc"
-  },
-  {
    "a": "SGR",
    "en": "Spectral Gamma Ray",
    "ar": "أشعة كاما الطيفية",
@@ -4793,7 +4777,7 @@
   {
    "a": "SIL",
    "en": "Safety Integrity Level",
-   "ar": "مستوى سلامة النظام",
+   "ar": "مستوى تكامل السلامة",
    "c": "hs"
   },
   {
