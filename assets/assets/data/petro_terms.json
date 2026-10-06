@@ -1,0 +1,6169 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "dr",
+   "ar": "الحفر والبرج",
+   "en": "Drilling & rig"
+  },
+  {
+   "id": "fl",
+   "ar": "سوائل الحفر",
+   "en": "Drilling fluids"
+  },
+  {
+   "id": "wc",
+   "ar": "السيطرة على البئر",
+   "en": "Well control"
+  },
+  {
+   "id": "cs",
+   "ar": "التغليف والإسمنت",
+   "en": "Casing & cementing"
+  },
+  {
+   "id": "lg",
+   "ar": "المجسات والفحوص",
+   "en": "Logging & testing"
+  },
+  {
+   "id": "co",
+   "ar": "الإكمال والصيانة",
+   "en": "Completion & workover"
+  },
+  {
+   "id": "pd",
+   "ar": "الإنتاج والرفع الصناعي",
+   "en": "Production & artificial lift"
+  },
+  {
+   "id": "re",
+   "ar": "هندسة المكامن",
+   "en": "Reservoir engineering"
+  },
+  {
+   "id": "gs",
+   "ar": "الغاز والتكرير",
+   "en": "Gas & refining"
+  },
+  {
+   "id": "of",
+   "ar": "البحري والأنابيب",
+   "en": "Offshore & pipelines"
+  },
+  {
+   "id": "hs",
+   "ar": "السلامة والفحص",
+   "en": "Safety & inspection"
+  },
+  {
+   "id": "org",
+   "ar": "المنظمات والمعايير",
+   "en": "Organisations & standards"
+  },
+  {
+   "id": "un",
+   "ar": "الوحدات والقياسات",
+   "en": "Units & measurements"
+  },
+  {
+   "id": "gen",
+   "ar": "الإدارة والعقود",
+   "en": "Management & contracts"
+  }
+ ],
+ "terms": [
+  {
+   "a": "1P",
+   "en": "Proved Reserves",
+   "ar": "الاحتياطي المؤكد",
+   "c": "re"
+  },
+  {
+   "a": "2P",
+   "en": "Proved plus Probable Reserves",
+   "ar": "الاحتياطي المؤكد والمحتمل",
+   "c": "re"
+  },
+  {
+   "a": "3P",
+   "en": "Proved plus Probable plus Possible Reserves",
+   "ar": "المؤكد والمحتمل والممكن",
+   "c": "re"
+  },
+  {
+   "a": "A&R",
+   "en": "Abandonment and Recovery",
+   "ar": "الترك والاسترجاع",
+   "c": "of",
+   "n": "بمدّ خطوط الأنابيب."
+  },
+  {
+   "a": "AAPG",
+   "en": "American Association of Petroleum Geologists",
+   "ar": "الرابطة الأمريكية لجيولوجيي البترول",
+   "c": "org"
+  },
+  {
+   "a": "ABS",
+   "en": "American Bureau of Shipping",
+   "ar": "المكتب الأمريكي للملاحة",
+   "c": "org"
+  },
+  {
+   "a": "AC",
+   "en": "Alternating Current",
+   "ar": "تيار متناوب",
+   "c": "un"
+  },
+  {
+   "a": "AC",
+   "en": "Anti-Collision",
+   "ar": "منع التصادم بين الآبار",
+   "c": "dr"
+  },
+  {
+   "a": "ACP",
+   "en": "Annular Casing Packer",
+   "ar": "حشوة حلقية للتغليف",
+   "c": "cs"
+  },
+  {
+   "a": "AD",
+   "en": "Assistant Driller",
+   "ar": "مساعد الحفار",
+   "c": "gen"
+  },
+  {
+   "a": "AE",
+   "en": "Acoustic Emission",
+   "ar": "الانبعاث الصوتي",
+   "c": "hs",
+   "n": "طريقة فحص."
+  },
+  {
+   "a": "AFE",
+   "en": "Authorization for Expenditure",
+   "ar": "تخويل الصرف (ميزانية البئر)",
+   "c": "gen"
+  },
+  {
+   "a": "AGA",
+   "en": "American Gas Association",
+   "ar": "الرابطة الأمريكية للغاز",
+   "c": "org"
+  },
+  {
+   "a": "AISI",
+   "en": "American Iron and Steel Institute",
+   "ar": "المعهد الأمريكي للحديد والفولاذ",
+   "c": "org"
+  },
+  {
+   "a": "AKI",
+   "en": "Anti-Knock Index",
+   "ar": "مؤشر مقاومة الطرق",
+   "c": "gs",
+   "n": "(RON + MON) ÷ 2."
+  },
+  {
+   "a": "AKO",
+   "en": "Adjustable Kick-Off (bent housing)",
+   "ar": "غلاف منحني قابل للتعديل",
+   "c": "dr"
+  },
+  {
+   "a": "AL",
+   "en": "Artificial Lift",
+   "ar": "الرفع الصناعي",
+   "c": "pd"
+  },
+  {
+   "a": "ALARP",
+   "en": "As Low As Reasonably Practicable",
+   "ar": "أقل ما يمكن عملياً",
+   "c": "hs",
+   "n": "مبدأ تقليل المخاطر."
+  },
+  {
+   "a": "ANN",
+   "en": "Artificial Neural Network",
+   "ar": "شبكة عصبية اصطناعية",
+   "c": "gen"
+  },
+  {
+   "a": "ANSI",
+   "en": "American National Standards Institute",
+   "ar": "المعهد الوطني الأمريكي للمعايير",
+   "c": "org"
+  },
+  {
+   "a": "AOF",
+   "en": "Absolute Open Flow",
+   "ar": "الجريان المفتوح المطلق",
+   "c": "pd",
+   "n": "أقصى معدل نظري لبئر الغاز."
+  },
+  {
+   "a": "AP",
+   "en": "Annular Preventer",
+   "ar": "المانع الحلقي",
+   "c": "wc"
+  },
+  {
+   "a": "APB",
+   "en": "Annular Pressure Buildup",
+   "ar": "تراكم ضغط الحلقة",
+   "c": "cs",
+   "n": "بسبب تمدد السائل المحبوس بالحرارة."
+  },
+  {
+   "a": "API",
+   "en": "API Gravity",
+   "ar": "درجة API لكثافة النفط",
+   "c": "re",
+   "n": "°API = 141.5/SG − 131.5."
+  },
+  {
+   "a": "API",
+   "en": "American Petroleum Institute",
+   "ar": "المعهد الأمريكي للبترول",
+   "c": "org",
+   "n": "يصدر مواصفات المعدات والإجراءات."
+  },
+  {
+   "a": "APWD",
+   "en": "Annular Pressure While Drilling",
+   "ar": "ضغط الحلقة أثناء الحفر",
+   "c": "lg"
+  },
+  {
+   "a": "AR",
+   "en": "Atmospheric Residue",
+   "ar": "متبقي التقطير الجوي",
+   "c": "gs"
+  },
+  {
+   "a": "ASME",
+   "en": "American Society of Mechanical Engineers",
+   "ar": "الجمعية الأمريكية للمهندسين الميكانيكيين",
+   "c": "org"
+  },
+  {
+   "a": "ASP",
+   "en": "Alkaline-Surfactant-Polymer",
+   "ar": "قلوي-مادة سطحية-بوليمر",
+   "c": "re",
+   "n": "طريقة استخلاص كيمياوي."
+  },
+  {
+   "a": "ASTM",
+   "en": "American Society for Testing and Materials",
+   "ar": "الجمعية الأمريكية للفحص والمواد",
+   "c": "org"
+  },
+  {
+   "a": "AUV",
+   "en": "Autonomous Underwater Vehicle",
+   "ar": "مركبة غاطسة ذاتية",
+   "c": "of"
+  },
+  {
+   "a": "AV",
+   "en": "Apparent Viscosity",
+   "ar": "اللزوجة الظاهرية",
+   "c": "fl",
+   "n": "AV = θ600 ÷ 2."
+  },
+  {
+   "a": "AWS",
+   "en": "American Welding Society",
+   "ar": "الجمعية الأمريكية للحام",
+   "c": "org"
+  },
+  {
+   "a": "AZI",
+   "en": "Azimuth",
+   "ar": "السمت (اتجاه البئر)",
+   "c": "dr",
+   "n": "من الشمال باتجاه عقارب الساعة."
+  },
+  {
+   "a": "BBL",
+   "en": "Barrel",
+   "ar": "برميل (42 غالون أمريكي)",
+   "c": "un"
+  },
+  {
+   "a": "BBS",
+   "en": "Behaviour-Based Safety",
+   "ar": "السلامة المبنية على السلوك",
+   "c": "hs"
+  },
+  {
+   "a": "BC",
+   "en": "Bearden Units of Consistency",
+   "ar": "وحدة قوام الإسمنت",
+   "c": "cs"
+  },
+  {
+   "a": "BDV",
+   "en": "Blowdown Valve",
+   "ar": "صمام التنفيس السريع",
+   "c": "hs"
+  },
+  {
+   "a": "BF",
+   "en": "Buoyancy Factor",
+   "ar": "معامل الطفو",
+   "c": "dr",
+   "n": "BF = 1 − MW/65.5 (بالـ ppg)."
+  },
+  {
+   "a": "BFPD",
+   "en": "Barrels of Fluid per Day",
+   "ar": "برميل مائع باليوم",
+   "c": "un"
+  },
+  {
+   "a": "BG",
+   "en": "Background Gas",
+   "ar": "غاز الخلفية",
+   "c": "lg"
+  },
+  {
+   "a": "BG",
+   "en": "Gas Formation Volume Factor",
+   "ar": "معامل حجم الغاز",
+   "c": "re"
+  },
+  {
+   "a": "BH",
+   "en": "Big Hole (charge)",
+   "ar": "شحنة بفتحة كبيرة",
+   "c": "co"
+  },
+  {
+   "a": "BHA",
+   "en": "Bottom Hole Assembly",
+   "ar": "تجميعة قاع البئر",
+   "c": "dr",
+   "n": "الجزء السفلي من سلسلة الحفر: البت، الموتور، المثبتات، الـ MWD، أثقال الحفر والـ Jar."
+  },
+  {
+   "a": "BHCT",
+   "en": "Bottom Hole Circulating Temperature",
+   "ar": "حرارة القاع أثناء الدوران",
+   "c": "cs"
+  },
+  {
+   "a": "BHFP",
+   "en": "Bottom Hole Flowing Pressure",
+   "ar": "ضغط القاع الجاري",
+   "c": "pd"
+  },
+  {
+   "a": "BHH",
+   "en": "Bit Hydraulic Horsepower",
+   "ar": "القدرة الهيدروليكية عند البت",
+   "c": "dr"
+  },
+  {
+   "a": "BHP",
+   "en": "Bottom Hole Pressure",
+   "ar": "ضغط قاع البئر",
+   "c": "wc"
+  },
+  {
+   "a": "BHSP",
+   "en": "Bottom Hole Static Pressure",
+   "ar": "ضغط القاع الساكن",
+   "c": "pd"
+  },
+  {
+   "a": "BHST",
+   "en": "Bottom Hole Static Temperature",
+   "ar": "حرارة القاع الساكنة",
+   "c": "cs"
+  },
+  {
+   "a": "BHT",
+   "en": "Bottom Hole Temperature",
+   "ar": "حرارة قاع البئر",
+   "c": "cs"
+  },
+  {
+   "a": "BLPD",
+   "en": "Barrels of Liquid per Day",
+   "ar": "برميل سائل باليوم",
+   "c": "un"
+  },
+  {
+   "a": "BO",
+   "en": "Oil Formation Volume Factor",
+   "ar": "معامل حجم النفط",
+   "c": "re",
+   "n": "rb/STB."
+  },
+  {
+   "a": "BOC",
+   "en": "Basra Oil Company",
+   "ar": "شركة نفط البصرة",
+   "c": "gen"
+  },
+  {
+   "a": "BOD",
+   "en": "Basis of Design",
+   "ar": "أساس التصميم",
+   "c": "gen"
+  },
+  {
+   "a": "BOE",
+   "en": "Barrel of Oil Equivalent",
+   "ar": "برميل نفط مكافئ",
+   "c": "un",
+   "n": "~6,000 scf غاز = برميل واحد."
+  },
+  {
+   "a": "BOP",
+   "en": "Blowout Preventer",
+   "ar": "مانع الانفجار",
+   "c": "wc"
+  },
+  {
+   "a": "BOPD",
+   "en": "Barrels of Oil per Day",
+   "ar": "برميل نفط باليوم",
+   "c": "un"
+  },
+  {
+   "a": "BOPE",
+   "en": "Blowout Prevention Equipment",
+   "ar": "معدات منع الانفجار",
+   "c": "wc"
+  },
+  {
+   "a": "BP",
+   "en": "Bridge Plug",
+   "ar": "سدادة جسرية",
+   "c": "co"
+  },
+  {
+   "a": "BP",
+   "en": "Bubble Point",
+   "ar": "نقطة الفقاعة",
+   "c": "re"
+  },
+  {
+   "a": "BPM",
+   "en": "Barrels per Minute",
+   "ar": "برميل بالدقيقة",
+   "c": "un"
+  },
+  {
+   "a": "BPV",
+   "en": "Back Pressure Valve",
+   "ar": "صمام الضغط الخلفي",
+   "c": "co",
+   "n": "ينزل بمعلّاق الأنابيب."
+  },
+  {
+   "a": "BS",
+   "en": "British Standards",
+   "ar": "المعايير البريطانية",
+   "c": "org"
+  },
+  {
+   "a": "BS&W",
+   "en": "Basic Sediment and Water",
+   "ar": "الرواسب والماء",
+   "c": "pd",
+   "n": "نسبة الشوائب بالنفط الخام."
+  },
+  {
+   "a": "BSD",
+   "en": "Barrels per Stream Day",
+   "ar": "برميل بيوم التشغيل",
+   "c": "un"
+  },
+  {
+   "a": "BSR",
+   "en": "Bending Strength Ratio",
+   "ar": "نسبة مقاومة الانحناء",
+   "c": "dr",
+   "n": "توازن الـ Pin والـ Box بوصلات أثقال الحفر (~2.5)."
+  },
+  {
+   "a": "BSR",
+   "en": "Blind Shear Ram",
+   "ar": "رام أعمى قاص",
+   "c": "wc",
+   "n": "يقص الأنبوب ويسد البئر."
+  },
+  {
+   "a": "BT",
+   "en": "Broken Teeth",
+   "ar": "أسنان مكسورة",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "BTC",
+   "en": "Buttress Thread and Coupling",
+   "ar": "وصلة Buttress",
+   "c": "cs"
+  },
+  {
+   "a": "BTS",
+   "en": "Bit to Surface Strokes",
+   "ar": "أشواط من البت للسطح",
+   "c": "wc"
+  },
+  {
+   "a": "BTU",
+   "en": "British Thermal Unit",
+   "ar": "وحدة حرارية بريطانية",
+   "c": "un"
+  },
+  {
+   "a": "BTX",
+   "en": "Benzene, Toluene, Xylene",
+   "ar": "بنزين، تولوين، زايلين",
+   "c": "gs"
+  },
+  {
+   "a": "BU",
+   "en": "Bottoms Up",
+   "ar": "تدوير حجم الحلقة (من القاع للسطح)",
+   "c": "dr"
+  },
+  {
+   "a": "BUR",
+   "en": "Build-Up Rate",
+   "ar": "معدل بناء الزاوية",
+   "c": "dr",
+   "n": "بالدرجات لكل 100 قدم أو 30 متر."
+  },
+  {
+   "a": "BV",
+   "en": "Ball Valve",
+   "ar": "صمام كروي",
+   "c": "co"
+  },
+  {
+   "a": "BVI",
+   "en": "Bulk Volume Irreducible",
+   "ar": "الحجم الكلي للماء المقيّد",
+   "c": "lg"
+  },
+  {
+   "a": "BW",
+   "en": "Water Formation Volume Factor",
+   "ar": "معامل حجم الماء",
+   "c": "re"
+  },
+  {
+   "a": "BWOC",
+   "en": "By Weight of Cement",
+   "ar": "نسبة من وزن الإسمنت",
+   "c": "cs"
+  },
+  {
+   "a": "BWOW",
+   "en": "By Weight of Water",
+   "ar": "نسبة من وزن الماء",
+   "c": "cs"
+  },
+  {
+   "a": "BWPD",
+   "en": "Barrels of Water per Day",
+   "ar": "برميل ماء باليوم",
+   "c": "un"
+  },
+  {
+   "a": "C&K",
+   "en": "Choke and Kill (lines)",
+   "ar": "خطوط الخنق والقتل",
+   "c": "wc"
+  },
+  {
+   "a": "C/O",
+   "en": "Carbon/Oxygen Log",
+   "ar": "مجس الكاربون/الأوكسجين",
+   "c": "lg",
+   "n": "يقيس تشبع النفط خلف التغليف."
+  },
+  {
+   "a": "CALI",
+   "en": "Caliper",
+   "ar": "مقياس قطر البئر",
+   "c": "lg"
+  },
+  {
+   "a": "CALM",
+   "en": "Catenary Anchor Leg Mooring",
+   "ar": "رباط بسلاسل منحنية",
+   "c": "of"
+  },
+  {
+   "a": "CAPEX",
+   "en": "Capital Expenditure",
+   "ar": "النفقات الرأسمالية",
+   "c": "gen"
+  },
+  {
+   "a": "CBHP",
+   "en": "Constant Bottom Hole Pressure",
+   "ar": "ضغط قاع ثابت",
+   "c": "dr",
+   "n": "أشيع أنواع الـ MPD."
+  },
+  {
+   "a": "CBL",
+   "en": "Cement Bond Log",
+   "ar": "مجس ترابط الإسمنت",
+   "c": "lg"
+  },
+  {
+   "a": "CBM",
+   "en": "Coalbed Methane",
+   "ar": "ميثان طبقات الفحم",
+   "c": "re"
+  },
+  {
+   "a": "CBM",
+   "en": "Condition-Based Maintenance",
+   "ar": "الصيانة حسب الحالة",
+   "c": "hs"
+  },
+  {
+   "a": "CBU",
+   "en": "Circulate Bottoms Up",
+   "ar": "تدوير قاع لسطح",
+   "c": "dr"
+  },
+  {
+   "a": "CCE",
+   "en": "Constant Composition Expansion",
+   "ar": "التمدد بتركيب ثابت",
+   "c": "re"
+  },
+  {
+   "a": "CCI",
+   "en": "Carrying Capacity Index",
+   "ar": "مؤشر قدرة الحمل",
+   "c": "fl",
+   "n": "مؤشر تنظيف البئر."
+  },
+  {
+   "a": "CCL",
+   "en": "Casing Collar Locator",
+   "ar": "محدد وصلات التغليف",
+   "c": "lg",
+   "n": "لربط الأعماق."
+  },
+  {
+   "a": "CCR",
+   "en": "Continuous Catalytic Reforming",
+   "ar": "التهذيب الحفزي المستمر",
+   "c": "gs"
+  },
+  {
+   "a": "CDC",
+   "en": "Capillary Desaturation Curve",
+   "ar": "منحني إزالة التشبع الشعري",
+   "c": "re"
+  },
+  {
+   "a": "CDU",
+   "en": "Crude Distillation Unit",
+   "ar": "وحدة تقطير الخام",
+   "c": "gs"
+  },
+  {
+   "a": "CEC",
+   "en": "Cation Exchange Capacity",
+   "ar": "سعة التبادل الكاتيوني",
+   "c": "fl"
+  },
+  {
+   "a": "CET",
+   "en": "Cement Evaluation Tool",
+   "ar": "أداة تقييم الإسمنت",
+   "c": "lg"
+  },
+  {
+   "a": "CFD",
+   "en": "Computational Fluid Dynamics",
+   "ar": "ديناميكا الموائع الحسابية",
+   "c": "gen"
+  },
+  {
+   "a": "CFR",
+   "en": "Code of Federal Regulations",
+   "ar": "مدونة اللوائح الفيدرالية",
+   "c": "org"
+  },
+  {
+   "a": "CG",
+   "en": "Connection Gas",
+   "ar": "غاز الاتصال",
+   "c": "lg"
+  },
+  {
+   "a": "CGI",
+   "en": "Continuous Gas Injection",
+   "ar": "حقن غاز مستمر",
+   "c": "pd"
+  },
+  {
+   "a": "CGR",
+   "en": "Computed Gamma Ray",
+   "ar": "أشعة كاما المحسوبة (بدون يورانيوم)",
+   "c": "lg",
+   "n": "(وبالإنتاج: نسبة المكثفات للغاز)."
+  },
+  {
+   "a": "CH",
+   "en": "Cased Hole",
+   "ar": "الحفرة المغلّفة",
+   "c": "dr"
+  },
+  {
+   "a": "CHF",
+   "en": "Casing Head Flange",
+   "ar": "فلنج رأس التغليف",
+   "c": "cs"
+  },
+  {
+   "a": "CHH",
+   "en": "Casing Head Housing",
+   "ar": "حاضنة رأس التغليف",
+   "c": "co"
+  },
+  {
+   "a": "CHP",
+   "en": "Casing Head Pressure",
+   "ar": "ضغط رأس التغليف",
+   "c": "pd"
+  },
+  {
+   "a": "CI",
+   "en": "Corrosion Inhibitor",
+   "ar": "مثبط التآكل",
+   "c": "pd"
+  },
+  {
+   "a": "CIBP",
+   "en": "Cast Iron Bridge Plug",
+   "ar": "سدادة جسرية من الحديد الزهر",
+   "c": "co"
+  },
+  {
+   "a": "CIM",
+   "en": "Chemical Injection Mandrel",
+   "ar": "مندريل الحقن الكيمياوي",
+   "c": "co"
+  },
+  {
+   "a": "CIV",
+   "en": "Chemical Injection Valve",
+   "ar": "صمام الحقن الكيمياوي",
+   "c": "co"
+  },
+  {
+   "a": "CM",
+   "en": "Corrective Maintenance",
+   "ar": "الصيانة التصحيحية",
+   "c": "hs"
+  },
+  {
+   "a": "CMC",
+   "en": "Carboxymethyl Cellulose",
+   "ar": "كاربوكسي مثيل سليلوز",
+   "c": "fl",
+   "n": "مقلل راشح ومثخّن."
+  },
+  {
+   "a": "CMG",
+   "en": "Computer Modelling Group",
+   "ar": "شركة CMG لبرامج محاكاة المكامن",
+   "c": "org"
+  },
+  {
+   "a": "CNG",
+   "en": "Compressed Natural Gas",
+   "ar": "الغاز الطبيعي المضغوط",
+   "c": "gs"
+  },
+  {
+   "a": "CNL",
+   "en": "Compensated Neutron Log",
+   "ar": "مجس النيوترون المعوَّض",
+   "c": "lg"
+  },
+  {
+   "a": "CP",
+   "en": "Casing Pressure",
+   "ar": "ضغط التغليف",
+   "c": "wc"
+  },
+  {
+   "a": "CP",
+   "en": "Cathodic Protection",
+   "ar": "الحماية الكاثودية",
+   "c": "of"
+  },
+  {
+   "a": "CP",
+   "en": "Centipoise",
+   "ar": "سنتي بواز",
+   "c": "un",
+   "n": "وحدة اللزوجة."
+  },
+  {
+   "a": "CP",
+   "en": "Conductor Pipe",
+   "ar": "أنبوب الموصّل",
+   "c": "cs"
+  },
+  {
+   "a": "CPF",
+   "en": "Central Processing Facility",
+   "ar": "منشأة المعالجة المركزية",
+   "c": "pd"
+  },
+  {
+   "a": "CR",
+   "en": "Cement Retainer",
+   "ar": "ماسك الإسمنت",
+   "c": "cs",
+   "n": "لعمليات العصر."
+  },
+  {
+   "a": "CRA",
+   "en": "Corrosion Resistant Alloy",
+   "ar": "سبيكة مقاومة للتآكل",
+   "c": "cs",
+   "n": "مثل 13Cr."
+  },
+  {
+   "a": "CRI",
+   "en": "Cuttings Re-Injection",
+   "ar": "إعادة حقن الفتات",
+   "c": "fl"
+  },
+  {
+   "a": "CSE",
+   "en": "Confined Space Entry",
+   "ar": "دخول الأماكن المحصورة",
+   "c": "hs"
+  },
+  {
+   "a": "CSG",
+   "en": "Casing",
+   "ar": "التغليف",
+   "c": "cs"
+  },
+  {
+   "a": "CSGP",
+   "en": "Casing Pressure",
+   "ar": "ضغط التغليف",
+   "c": "wc"
+  },
+  {
+   "a": "CSP",
+   "en": "Corresponding States Principle",
+   "ar": "مبدأ الحالات المتناظرة",
+   "c": "re"
+  },
+  {
+   "a": "CSR",
+   "en": "Casing Shear Ram",
+   "ar": "رام قص التغليف",
+   "c": "wc"
+  },
+  {
+   "a": "CSS",
+   "en": "Cyclic Steam Stimulation",
+   "ar": "التحفيز الدوري بالبخار",
+   "c": "re"
+  },
+  {
+   "a": "CSTR",
+   "en": "Continuous Stirred Tank Reactor",
+   "ar": "مفاعل خزاني مستمر التحريك",
+   "c": "gs"
+  },
+  {
+   "a": "CT",
+   "en": "Chipped Teeth",
+   "ar": "أسنان متشظية",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "CT",
+   "en": "Coiled Tubing",
+   "ar": "الأنابيب الملفوفة",
+   "c": "co"
+  },
+  {
+   "a": "CTD",
+   "en": "Coiled Tubing Drilling",
+   "ar": "الحفر بالأنابيب الملفوفة",
+   "c": "dr"
+  },
+  {
+   "a": "CTR",
+   "en": "Cuttings Transport Ratio",
+   "ar": "نسبة نقل الفتات",
+   "c": "fl"
+  },
+  {
+   "a": "CTU",
+   "en": "Coiled Tubing Unit",
+   "ar": "وحدة الأنابيب الملفوفة",
+   "c": "co"
+  },
+  {
+   "a": "CTU",
+   "en": "Crude Topping Unit",
+   "ar": "وحدة تقطير الخام الأولية",
+   "c": "gs"
+  },
+  {
+   "a": "CVD",
+   "en": "Constant Volume Depletion",
+   "ar": "الاستنزاف بحجم ثابت",
+   "c": "re"
+  },
+  {
+   "a": "DAO",
+   "en": "Deasphalted Oil",
+   "ar": "زيت منزوع الأسفلت",
+   "c": "gs"
+  },
+  {
+   "a": "DAS",
+   "en": "Distributed Acoustic Sensing",
+   "ar": "القياس الصوتي الموزع",
+   "c": "lg"
+  },
+  {
+   "a": "DC",
+   "en": "Direct Current",
+   "ar": "تيار مستمر",
+   "c": "un"
+  },
+  {
+   "a": "DC",
+   "en": "Drill Collar",
+   "ar": "ثقل الحفر",
+   "c": "dr",
+   "n": "أنابيب سميكة تعطي الوزن على البت."
+  },
+  {
+   "a": "DCA",
+   "en": "Decline Curve Analysis",
+   "ar": "تحليل منحنيات الانحدار",
+   "c": "re"
+  },
+  {
+   "a": "DCS",
+   "en": "Distributed Control System",
+   "ar": "نظام التحكم الموزع",
+   "c": "gen"
+  },
+  {
+   "a": "DD",
+   "en": "Directional Drilling / Directional Driller",
+   "ar": "الحفر الاتجاهي / مهندس الحفر الاتجاهي",
+   "c": "dr"
+  },
+  {
+   "a": "DDR",
+   "en": "Daily Drilling Report",
+   "ar": "التقرير اليومي للحفر",
+   "c": "gen"
+  },
+  {
+   "a": "DEA",
+   "en": "Diethanolamine",
+   "ar": "ثنائي إيثانول أمين",
+   "c": "gs"
+  },
+  {
+   "a": "DEG",
+   "en": "Diethylene Glycol",
+   "ar": "ثنائي إيثيلين كلايكول",
+   "c": "gs"
+  },
+  {
+   "a": "DEM",
+   "en": "Demulsifier",
+   "ar": "كاسر الاستحلاب",
+   "c": "pd"
+  },
+  {
+   "a": "DF",
+   "en": "Design Factor",
+   "ar": "معامل التصميم",
+   "c": "cs"
+  },
+  {
+   "a": "DF",
+   "en": "Drill Floor / Derrick Floor",
+   "ar": "أرضية البرج",
+   "c": "dr"
+  },
+  {
+   "a": "DFA",
+   "en": "Downhole Fluid Analysis",
+   "ar": "تحليل الموائع بالقاع",
+   "c": "lg"
+  },
+  {
+   "a": "DGA",
+   "en": "Diglycolamine",
+   "ar": "ثنائي كلايكول أمين",
+   "c": "gs",
+   "n": "لتحلية الغاز."
+  },
+  {
+   "a": "DGD",
+   "en": "Dual Gradient Drilling",
+   "ar": "الحفر بتدرج مزدوج",
+   "c": "dr",
+   "n": "للمياه العميقة."
+  },
+  {
+   "a": "DGS",
+   "en": "Degassing Station",
+   "ar": "محطة عزل الغاز",
+   "c": "pd"
+  },
+  {
+   "a": "DHSV",
+   "en": "Downhole Safety Valve",
+   "ar": "صمام الأمان القاعي",
+   "c": "co"
+  },
+  {
+   "a": "DIV",
+   "en": "Diverter",
+   "ar": "محوِّل الجريان",
+   "c": "wc"
+  },
+  {
+   "a": "DLE",
+   "en": "Differential Liberation Expansion",
+   "ar": "التحرر التفاضلي",
+   "c": "re"
+  },
+  {
+   "a": "DLL",
+   "en": "Dual Laterolog",
+   "ar": "لاترولوگ مزدوج",
+   "c": "lg"
+  },
+  {
+   "a": "DLS",
+   "en": "Dogleg Severity",
+   "ar": "شدة الانحناء",
+   "c": "dr",
+   "n": "تغيّر اتجاه البئر الكلي لكل 100 قدم."
+  },
+  {
+   "a": "DMF",
+   "en": "Downhole Motor Failure",
+   "ar": "عطل الموتور القاعي",
+   "c": "dr",
+   "n": "رمز سبب سحب البت."
+  },
+  {
+   "a": "DNV",
+   "en": "Det Norske Veritas",
+   "ar": "هيئة التصنيف النرويجية",
+   "c": "org"
+  },
+  {
+   "a": "DOB",
+   "en": "Diesel Oil Bentonite",
+   "ar": "ديزل-بنتونايت",
+   "c": "fl",
+   "n": "حبة لمعالجة الفقدان (Gunk)."
+  },
+  {
+   "a": "DOBC",
+   "en": "Diesel Oil Bentonite Cement",
+   "ar": "ديزل-بنتونايت-إسمنت",
+   "c": "fl",
+   "n": "حبة لمعالجة الفقدان الشديد."
+  },
+  {
+   "a": "DOC",
+   "en": "Depth of Cut",
+   "ar": "عمق القطع",
+   "c": "dr"
+  },
+  {
+   "a": "DOR",
+   "en": "Drop-Off Rate",
+   "ar": "معدل إسقاط الزاوية",
+   "c": "dr"
+  },
+  {
+   "a": "DP",
+   "en": "Deep Penetrating (charge)",
+   "ar": "شحنة عميقة الاختراق",
+   "c": "co"
+  },
+  {
+   "a": "DP",
+   "en": "Drill Pipe",
+   "ar": "أنبوب الحفر",
+   "c": "dr"
+  },
+  {
+   "a": "DP",
+   "en": "Dynamic Positioning",
+   "ar": "التموضع الديناميكي",
+   "c": "of"
+  },
+  {
+   "a": "DPHI",
+   "en": "Density Porosity",
+   "ar": "مسامية الكثافة",
+   "c": "lg"
+  },
+  {
+   "a": "DPI",
+   "en": "Dye Penetrant Inspection",
+   "ar": "الفحص بالصبغة النافذة",
+   "c": "hs"
+  },
+  {
+   "a": "DPP",
+   "en": "Drill Pipe Pressure",
+   "ar": "ضغط أنابيب الحفر",
+   "c": "wc"
+  },
+  {
+   "a": "DRA",
+   "en": "Drag Reducing Agent",
+   "ar": "مادة مقللة للاحتكاك",
+   "c": "pd"
+  },
+  {
+   "a": "DROPS",
+   "en": "Dropped Objects Prevention Scheme",
+   "ar": "برنامج منع سقوط الأجسام",
+   "c": "hs"
+  },
+  {
+   "a": "DSF",
+   "en": "Drill String Failure",
+   "ar": "عطل سلسلة الحفر",
+   "c": "dr"
+  },
+  {
+   "a": "DST",
+   "en": "Drill Stem Test",
+   "ar": "اختبار ساق الحفر",
+   "c": "lg",
+   "n": "إنتاج مؤقت عبر أنابيب الحفر."
+  },
+  {
+   "a": "DSV",
+   "en": "Drilling Supervisor",
+   "ar": "مشرف الحفر",
+   "c": "gen",
+   "n": "ممثل الشركة المشغلة (Company man)."
+  },
+  {
+   "a": "DT",
+   "en": "Delta-T (Sonic Transit Time)",
+   "ar": "زمن عبور الموجة الصوتية",
+   "c": "lg",
+   "n": "بالـ µs/ft."
+  },
+  {
+   "a": "DTF",
+   "en": "Drilling Tool Failure",
+   "ar": "عطل أداة الحفر",
+   "c": "dr",
+   "n": "رمز سبب سحب البت."
+  },
+  {
+   "a": "DTS",
+   "en": "Distributed Temperature Sensing",
+   "ar": "قياس الحرارة الموزع",
+   "c": "lg",
+   "n": "بالألياف البصرية."
+  },
+  {
+   "a": "DV",
+   "en": "Differential Valve / Stage Tool",
+   "ar": "أداة الإسمنت على مرحلتين",
+   "c": "cs"
+  },
+  {
+   "a": "DWKS",
+   "en": "Drawworks",
+   "ar": "الونش الرئيسي للبرج",
+   "c": "dr"
+  },
+  {
+   "a": "DWOB",
+   "en": "Downhole Weight on Bit",
+   "ar": "الوزن القاعي على البت",
+   "c": "dr"
+  },
+  {
+   "a": "DXC",
+   "en": "Corrected d-Exponent",
+   "ar": "الأس d المصحح",
+   "c": "lg",
+   "n": "مؤشر ضغط المسامات أثناء الحفر."
+  },
+  {
+   "a": "E-LINE",
+   "en": "Electric Line",
+   "ar": "السلك الكهربائي",
+   "c": "co"
+  },
+  {
+   "a": "EC",
+   "en": "Electrical Conductivity",
+   "ar": "الموصلية الكهربائية",
+   "c": "fl"
+  },
+  {
+   "a": "ECD",
+   "en": "Equivalent Circulating Density",
+   "ar": "الكثافة المكافئة أثناء الدوران",
+   "c": "fl",
+   "n": "وزن الطين + تأثير احتكاك الحلقة."
+  },
+  {
+   "a": "ECP",
+   "en": "External Casing Packer",
+   "ar": "حشوة تغليف خارجية",
+   "c": "cs"
+  },
+  {
+   "a": "EDL",
+   "en": "Electrical Double Layer",
+   "ar": "الطبقة الكهربائية المزدوجة",
+   "c": "re"
+  },
+  {
+   "a": "EDS",
+   "en": "Emergency Disconnect Sequence",
+   "ar": "تسلسل الفصل الطارئ",
+   "c": "wc"
+  },
+  {
+   "a": "EDTA",
+   "en": "Ethylenediaminetetraacetic Acid",
+   "ar": "حامض EDTA",
+   "c": "co",
+   "n": "مذيب مخلبي للترسبات."
+  },
+  {
+   "a": "EEBD",
+   "en": "Emergency Escape Breathing Device",
+   "ar": "جهاز تنفس للهروب الطارئ",
+   "c": "hs"
+  },
+  {
+   "a": "EGS",
+   "en": "Enhanced Geothermal System",
+   "ar": "نظام حراري جوفي محسّن",
+   "c": "re"
+  },
+  {
+   "a": "EHD",
+   "en": "Entrance Hole Diameter",
+   "ar": "قطر فتحة الثقب",
+   "c": "co"
+  },
+  {
+   "a": "EI",
+   "en": "Energy Institute",
+   "ar": "معهد الطاقة",
+   "c": "org"
+  },
+  {
+   "a": "EIA",
+   "en": "Environmental Impact Assessment",
+   "ar": "تقييم الأثر البيئي",
+   "c": "hs"
+  },
+  {
+   "a": "EIPS",
+   "en": "Extra Improved Plow Steel",
+   "ar": "فولاذ محراث محسّن جداً",
+   "c": "dr",
+   "n": "رتبة حبل الحفر."
+  },
+  {
+   "a": "EKD",
+   "en": "Early Kick Detection",
+   "ar": "الكشف المبكر عن الـ Kick",
+   "c": "wc"
+  },
+  {
+   "a": "EMI",
+   "en": "Electromagnetic Inspection",
+   "ar": "الفحص الكهرومغناطيسي",
+   "c": "hs"
+  },
+  {
+   "a": "EMV",
+   "en": "Expected Monetary Value",
+   "ar": "القيمة النقدية المتوقعة",
+   "c": "gen"
+  },
+  {
+   "a": "EMW",
+   "en": "Equivalent Mud Weight",
+   "ar": "وزن الطين المكافئ",
+   "c": "fl",
+   "n": "ضغط معبّر عنه كوزن طين عند عمق معين."
+  },
+  {
+   "a": "EOB",
+   "en": "End of Build",
+   "ar": "نهاية مقطع البناء",
+   "c": "dr"
+  },
+  {
+   "a": "EOC",
+   "en": "End of Curve",
+   "ar": "نهاية المنحني",
+   "c": "dr"
+  },
+  {
+   "a": "EOR",
+   "en": "Enhanced Oil Recovery",
+   "ar": "الاستخلاص المعزز للنفط",
+   "c": "re"
+  },
+  {
+   "a": "EOS",
+   "en": "Equation of State",
+   "ar": "معادلة الحالة",
+   "c": "re"
+  },
+  {
+   "a": "EOU",
+   "en": "Ellipse of Uncertainty",
+   "ar": "إهليلج عدم اليقين",
+   "c": "dr"
+  },
+  {
+   "a": "EPA",
+   "en": "Environmental Protection Agency",
+   "ar": "وكالة حماية البيئة الأمريكية",
+   "c": "org"
+  },
+  {
+   "a": "EPC",
+   "en": "Engineering, Procurement and Construction",
+   "ar": "الهندسة والتوريد والإنشاء",
+   "c": "gen"
+  },
+  {
+   "a": "EPT",
+   "en": "Electromagnetic Propagation Tool",
+   "ar": "مجس الانتشار الكهرومغناطيسي",
+   "c": "lg"
+  },
+  {
+   "a": "ER",
+   "en": "Erosion",
+   "ar": "تعرية جسم البت",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "ERD",
+   "en": "Extended Reach Drilling",
+   "ar": "الحفر الممتد المدى",
+   "c": "dr",
+   "n": "آبار إزاحتها الأفقية كبيرة نسبة للعمق العمودي."
+  },
+  {
+   "a": "ERP",
+   "en": "Emergency Response Plan",
+   "ar": "خطة الاستجابة للطوارئ",
+   "c": "hs"
+  },
+  {
+   "a": "ERW",
+   "en": "Electric Resistance Welded",
+   "ar": "ملحوم بالمقاومة الكهربائية",
+   "c": "cs"
+  },
+  {
+   "a": "ES",
+   "en": "Electrical Stability",
+   "ar": "الثباتية الكهربائية",
+   "c": "fl",
+   "n": "تقيس ثبات مستحلب الطين النفطي (فولت)."
+  },
+  {
+   "a": "ESD",
+   "en": "Emergency Shutdown",
+   "ar": "الإيقاف الطارئ",
+   "c": "hs"
+  },
+  {
+   "a": "ESD",
+   "en": "Equivalent Static Density",
+   "ar": "الكثافة المكافئة الساكنة",
+   "c": "fl",
+   "n": "(وبالسلامة ESD = إيقاف طارئ)."
+  },
+  {
+   "a": "ESDV",
+   "en": "Emergency Shutdown Valve",
+   "ar": "صمام الإيقاف الطارئ",
+   "c": "hs"
+  },
+  {
+   "a": "ESP",
+   "en": "Electric Submersible Pump",
+   "ar": "المضخة الكهربائية الغاطسة",
+   "c": "pd"
+  },
+  {
+   "a": "ETR",
+   "en": "Early Time Region",
+   "ar": "المنطقة الزمنية المبكرة",
+   "c": "re",
+   "n": "بتحليل فحوص الآبار (خزن البئر)."
+  },
+  {
+   "a": "EUR",
+   "en": "Estimated Ultimate Recovery",
+   "ar": "الاستخلاص النهائي المقدّر",
+   "c": "re"
+  },
+  {
+   "a": "EWI",
+   "en": "Engineered Water Injection",
+   "ar": "حقن الماء المهندَس",
+   "c": "re"
+  },
+  {
+   "a": "F&G",
+   "en": "Fire and Gas (system)",
+   "ar": "نظام كشف الحريق والغاز",
+   "c": "hs"
+  },
+  {
+   "a": "FAC",
+   "en": "First Aid Case",
+   "ar": "حالة إسعاف أولي",
+   "c": "hs"
+  },
+  {
+   "a": "FAT",
+   "en": "Factory Acceptance Test",
+   "ar": "فحص القبول بالمصنع",
+   "c": "gen"
+  },
+  {
+   "a": "FBE",
+   "en": "Fusion Bonded Epoxy",
+   "ar": "إيبوكسي ملتحم بالصهر",
+   "c": "of",
+   "n": "طلاء خطوط الأنابيب."
+  },
+  {
+   "a": "FBHP",
+   "en": "Flowing Bottom Hole Pressure",
+   "ar": "ضغط القاع الجاري",
+   "c": "pd"
+  },
+  {
+   "a": "FBP",
+   "en": "Final Boiling Point",
+   "ar": "نقطة الغليان النهائية",
+   "c": "gs"
+  },
+  {
+   "a": "FBS",
+   "en": "Full-Bore Spinner",
+   "ar": "مروحة كاملة القطر",
+   "c": "lg"
+  },
+  {
+   "a": "FC",
+   "en": "Flow Check",
+   "ar": "فحص الجريان",
+   "c": "wc"
+  },
+  {
+   "a": "FCC",
+   "en": "Fluid Catalytic Cracking",
+   "ar": "التكسير الحفزي المائع",
+   "c": "gs"
+  },
+  {
+   "a": "FCD",
+   "en": "Dimensionless Fracture Conductivity",
+   "ar": "موصلية الكسر اللابعدية",
+   "c": "co"
+  },
+  {
+   "a": "FCP",
+   "en": "Final Circulating Pressure",
+   "ar": "ضغط الدوران النهائي",
+   "c": "wc",
+   "n": "FCP = ضغط SCR × KMW ÷ OMW."
+  },
+  {
+   "a": "FCV",
+   "en": "Flow Control Valve",
+   "ar": "صمام التحكم بالجريان",
+   "c": "co"
+  },
+  {
+   "a": "FDP",
+   "en": "Field Development Plan",
+   "ar": "خطة تطوير الحقل",
+   "c": "gen"
+  },
+  {
+   "a": "FEED",
+   "en": "Front-End Engineering Design",
+   "ar": "التصميم الهندسي الأولي",
+   "c": "gen"
+  },
+  {
+   "a": "FF",
+   "en": "Friction Factor",
+   "ar": "معامل الاحتكاك",
+   "c": "dr"
+  },
+  {
+   "a": "FFI",
+   "en": "Free Fluid Index",
+   "ar": "مؤشر المائع الحر",
+   "c": "lg"
+  },
+  {
+   "a": "FG",
+   "en": "Fracture Gradient",
+   "ar": "تدرج التكسير",
+   "c": "wc"
+  },
+  {
+   "a": "FH",
+   "en": "Full Hole",
+   "ar": "وصلة Full Hole",
+   "c": "dr",
+   "n": "نوع وصلة لأنابيب الحفر."
+  },
+  {
+   "a": "FIT",
+   "en": "Formation Integrity Test",
+   "ar": "فحص سلامة الطبقة",
+   "c": "wc",
+   "n": "ضغط لحد قيمة محددة بدون تسرب."
+  },
+  {
+   "a": "FL",
+   "en": "Fluid Loss",
+   "ar": "فقدان الراشح",
+   "c": "fl"
+  },
+  {
+   "a": "FLNG",
+   "en": "Floating Liquefied Natural Gas",
+   "ar": "منشأة عائمة لتسييل الغاز",
+   "c": "of"
+  },
+  {
+   "a": "FLP",
+   "en": "Flowline Pressure",
+   "ar": "ضغط خط الجريان",
+   "c": "pd"
+  },
+  {
+   "a": "FLT",
+   "en": "Flowline Temperature",
+   "ar": "حرارة خط الجريان",
+   "c": "pd"
+  },
+  {
+   "a": "FMEA",
+   "en": "Failure Modes and Effects Analysis",
+   "ar": "تحليل أنماط الفشل وتأثيراتها",
+   "c": "hs"
+  },
+  {
+   "a": "FMECA",
+   "en": "Failure Mode, Effects and Criticality Analysis",
+   "ar": "تحليل أنماط الفشل وتأثيراتها وحرجيتها",
+   "c": "hs"
+  },
+  {
+   "a": "FMI",
+   "en": "Formation Micro-Imager",
+   "ar": "مصوّر الطبقة الدقيق",
+   "c": "lg",
+   "n": "صورة كهربائية لجدار البئر."
+  },
+  {
+   "a": "FOSV",
+   "en": "Full Opening Safety Valve",
+   "ar": "صمام أمان كامل الفتحة",
+   "c": "wc",
+   "n": "ينربط على الأنابيب عند الـ Kick أثناء الرحلة."
+  },
+  {
+   "a": "FP",
+   "en": "Formation Pressure",
+   "ar": "ضغط الطبقة",
+   "c": "wc"
+  },
+  {
+   "a": "FPIT",
+   "en": "Free Point Indicator Tool",
+   "ar": "أداة تحديد النقطة الحرة",
+   "c": "dr",
+   "n": "تحدد عمق التعلق."
+  },
+  {
+   "a": "FPS",
+   "en": "Floating Production System",
+   "ar": "نظام إنتاج عائم",
+   "c": "of"
+  },
+  {
+   "a": "FPSO",
+   "en": "Floating Production, Storage and Offloading",
+   "ar": "وحدة عائمة للإنتاج والخزن والتفريغ",
+   "c": "of"
+  },
+  {
+   "a": "FS",
+   "en": "Float Shoe",
+   "ar": "حذاء عوّام",
+   "c": "cs"
+  },
+  {
+   "a": "FSIP",
+   "en": "Final Shut-In Pressure",
+   "ar": "ضغط الإغلاق النهائي",
+   "c": "lg"
+  },
+  {
+   "a": "FSO",
+   "en": "Floating Storage and Offloading",
+   "ar": "وحدة عائمة للخزن والتفريغ",
+   "c": "of"
+  },
+  {
+   "a": "FT-LB",
+   "en": "Foot-Pound",
+   "ar": "قدم-باوند",
+   "c": "un",
+   "n": "وحدة العزم."
+  },
+  {
+   "a": "FTA",
+   "en": "Fault Tree Analysis",
+   "ar": "تحليل شجرة الأخطاء",
+   "c": "hs"
+  },
+  {
+   "a": "FTHP",
+   "en": "Flowing Tubing Head Pressure",
+   "ar": "ضغط رأس الأنابيب الجاري",
+   "c": "pd"
+  },
+  {
+   "a": "FV",
+   "en": "Funnel Viscosity",
+   "ar": "لزوجة القمع",
+   "c": "fl",
+   "n": "بالثواني لكل ربع غالون (Marsh funnel)."
+  },
+  {
+   "a": "FVF",
+   "en": "Formation Volume Factor",
+   "ar": "معامل حجم التكوين",
+   "c": "re"
+  },
+  {
+   "a": "FWKO",
+   "en": "Free Water Knockout",
+   "ar": "فاصل الماء الحر",
+   "c": "pd"
+  },
+  {
+   "a": "FWL",
+   "en": "Free Water Level",
+   "ar": "مستوى الماء الحر",
+   "c": "re"
+  },
+  {
+   "a": "FZI",
+   "en": "Flow Zone Indicator",
+   "ar": "مؤشر منطقة الجريان",
+   "c": "re"
+  },
+  {
+   "a": "GBS",
+   "en": "Gravity-Based Structure",
+   "ar": "منشأة تستقر بوزنها",
+   "c": "of"
+  },
+  {
+   "a": "GC",
+   "en": "Gas Cut",
+   "ar": "مقطوع بالغاز",
+   "c": "fl",
+   "n": "(وبالمختبر: Gas Chromatography)."
+  },
+  {
+   "a": "GCM",
+   "en": "Gas-Cut Mud",
+   "ar": "طين مقطوع بالغاز",
+   "c": "fl"
+  },
+  {
+   "a": "GHG",
+   "en": "Greenhouse Gas",
+   "ar": "غازات الاحتباس الحراري",
+   "c": "hs"
+  },
+  {
+   "a": "GHSV",
+   "en": "Gas Hourly Space Velocity",
+   "ar": "السرعة الفراغية الساعية للغاز",
+   "c": "gs"
+  },
+  {
+   "a": "GI",
+   "en": "Gas Injection",
+   "ar": "حقن الغاز",
+   "c": "re"
+  },
+  {
+   "a": "GIH",
+   "en": "Go in Hole",
+   "ar": "النزول للبئر",
+   "c": "co"
+  },
+  {
+   "a": "GIIP",
+   "en": "Gas Initially in Place",
+   "ar": "الغاز الأصلي بالمكمن",
+   "c": "re"
+  },
+  {
+   "a": "GIW",
+   "en": "Gas Injection Well",
+   "ar": "بئر حقن غاز",
+   "c": "re"
+  },
+  {
+   "a": "GL",
+   "en": "Gas Lift",
+   "ar": "الرفع بالغاز",
+   "c": "pd"
+  },
+  {
+   "a": "GL",
+   "en": "Ground Level",
+   "ar": "مستوى سطح الأرض",
+   "c": "dr"
+  },
+  {
+   "a": "GLM",
+   "en": "Gas Lift Mandrel",
+   "ar": "مندريل الرفع بالغاز",
+   "c": "co"
+  },
+  {
+   "a": "GLR",
+   "en": "Gas-Liquid Ratio",
+   "ar": "نسبة الغاز للسائل",
+   "c": "pd"
+  },
+  {
+   "a": "GLV",
+   "en": "Gas Lift Valve",
+   "ar": "صمام الرفع بالغاز",
+   "c": "co"
+  },
+  {
+   "a": "GOC",
+   "en": "Gas-Oil Contact",
+   "ar": "تماس الغاز والنفط",
+   "c": "re"
+  },
+  {
+   "a": "GOR",
+   "en": "Gas-Oil Ratio",
+   "ar": "نسبة الغاز للنفط",
+   "c": "pd",
+   "n": "scf/STB."
+  },
+  {
+   "a": "GOSP",
+   "en": "Gas-Oil Separation Plant",
+   "ar": "محطة عزل الغاز عن النفط",
+   "c": "pd"
+  },
+  {
+   "a": "GP",
+   "en": "Gravel Pack",
+   "ar": "حشو الحصى",
+   "c": "co",
+   "n": "للسيطرة على الرمل."
+  },
+  {
+   "a": "GPM",
+   "en": "Gallons per Minute",
+   "ar": "غالون بالدقيقة",
+   "c": "un",
+   "n": "وحدة معدل الضخ."
+  },
+  {
+   "a": "GPSA",
+   "en": "Gas Processors Suppliers Association",
+   "ar": "رابطة مجهزي معالجة الغاز",
+   "c": "org"
+  },
+  {
+   "a": "GR",
+   "en": "Gamma Ray",
+   "ar": "أشعة كاما",
+   "c": "lg",
+   "n": "مجس يميّز الشيل من الرمل والكاربونات."
+  },
+  {
+   "a": "GS",
+   "en": "GS Pulling Tool",
+   "ar": "أداة سحب GS",
+   "c": "co",
+   "n": "أداة Slickline لرقاب الصيد الداخلية."
+  },
+  {
+   "a": "GS",
+   "en": "Gel Strength",
+   "ar": "قوة الجل",
+   "c": "fl",
+   "n": "تقاس بعد 10 ثواني و10 دقائق."
+  },
+  {
+   "a": "GST",
+   "en": "Gamma Spectroscopy Tool",
+   "ar": "أداة مطيافية كاما",
+   "c": "lg"
+  },
+  {
+   "a": "GTL",
+   "en": "Gas to Liquids",
+   "ar": "تحويل الغاز إلى سوائل",
+   "c": "gs"
+  },
+  {
+   "a": "GWC",
+   "en": "Gas-Water Contact",
+   "ar": "تماس الغاز والماء",
+   "c": "re"
+  },
+  {
+   "a": "GWD",
+   "en": "Gyro While Drilling",
+   "ar": "الجايرو أثناء الحفر",
+   "c": "lg"
+  },
+  {
+   "a": "H2S",
+   "en": "Hydrogen Sulfide",
+   "ar": "كبريتيد الهيدروجين",
+   "c": "hs",
+   "n": "غاز سام جداً، أثقل من الهواء."
+  },
+  {
+   "a": "HAP",
+   "en": "Hazardous Air Pollutant",
+   "ar": "ملوث هواء خطر",
+   "c": "hs"
+  },
+  {
+   "a": "HAZID",
+   "en": "Hazard Identification",
+   "ar": "تحديد المخاطر",
+   "c": "hs"
+  },
+  {
+   "a": "HAZOP",
+   "en": "Hazard and Operability Study",
+   "ar": "دراسة المخاطر وقابلية التشغيل",
+   "c": "hs"
+  },
+  {
+   "a": "HC",
+   "en": "Heat Checking",
+   "ar": "تشققات حرارية",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "HCl",
+   "en": "Hydrochloric Acid",
+   "ar": "حامض الهيدروكلوريك",
+   "c": "co",
+   "n": "لتحميض الكاربونات."
+  },
+  {
+   "a": "HCO",
+   "en": "Heavy Cycle Oil",
+   "ar": "زيت الدورة الثقيل",
+   "c": "gs"
+  },
+  {
+   "a": "HCPV",
+   "en": "Hydrocarbon Pore Volume",
+   "ar": "الحجم المسامي الهيدروكربوني",
+   "c": "re"
+  },
+  {
+   "a": "HCR",
+   "en": "High Closing Ratio (valve)",
+   "ar": "صمام هيدروليكي على خط الخنق",
+   "c": "wc"
+  },
+  {
+   "a": "HCU",
+   "en": "Hydrocracking Unit",
+   "ar": "وحدة التكسير الهيدروجيني",
+   "c": "gs"
+  },
+  {
+   "a": "HD",
+   "en": "Horizontal Displacement / Departure",
+   "ar": "الإزاحة الأفقية",
+   "c": "dr"
+  },
+  {
+   "a": "HDD",
+   "en": "Horizontal Directional Drilling",
+   "ar": "الحفر الأفقي الموجّه",
+   "c": "dr",
+   "n": "يستخدم لعبور الأنهار والطرق بخطوط الأنابيب."
+  },
+  {
+   "a": "HDR",
+   "en": "Hot Dry Rock",
+   "ar": "الصخر الحار الجاف",
+   "c": "re",
+   "n": "مصدر حراري جوفي."
+  },
+  {
+   "a": "HDS",
+   "en": "Hydrodesulfurization",
+   "ar": "نزع الكبريت بالهيدروجين",
+   "c": "gs"
+  },
+  {
+   "a": "HDT",
+   "en": "Hydrotreating",
+   "ar": "المعالجة بالهيدروجين",
+   "c": "gs"
+  },
+  {
+   "a": "HEC",
+   "en": "Hydroxyethyl Cellulose",
+   "ar": "هيدروكسي إيثيل سليلوز",
+   "c": "fl",
+   "n": "مثخّن لسوائل الإكمال."
+  },
+  {
+   "a": "HF",
+   "en": "Hydraulic Fracturing",
+   "ar": "التكسير الهيدروليكي",
+   "c": "co",
+   "n": "(وبالكيمياء: حامض الهيدروفلوريك)."
+  },
+  {
+   "a": "HFU",
+   "en": "Hydraulic Flow Unit",
+   "ar": "وحدة جريان هيدروليكية",
+   "c": "re"
+  },
+  {
+   "a": "HGO",
+   "en": "Heavy Gas Oil",
+   "ar": "زيت الغاز الثقيل",
+   "c": "gs"
+  },
+  {
+   "a": "HGS",
+   "en": "High Gravity Solids",
+   "ar": "مواد صلبة عالية الكثافة",
+   "c": "fl",
+   "n": "مواد التثقيل مثل الباريت (4.2 SG)."
+  },
+  {
+   "a": "HHP",
+   "en": "Hydraulic Horsepower",
+   "ar": "القدرة الهيدروليكية",
+   "c": "dr",
+   "n": "HHP = P × Q ÷ 1714."
+  },
+  {
+   "a": "HHV",
+   "en": "Higher Heating Value",
+   "ar": "القيمة الحرارية العليا",
+   "c": "gs"
+  },
+  {
+   "a": "HIC",
+   "en": "Hydrogen Induced Cracking",
+   "ar": "التشقق المستحث بالهيدروجين",
+   "c": "cs"
+  },
+  {
+   "a": "HIPO",
+   "en": "High Potential Incident",
+   "ar": "حادث عالي الخطورة المحتملة",
+   "c": "hs"
+  },
+  {
+   "a": "HISC",
+   "en": "Hydrogen-Induced Stress Cracking",
+   "ar": "التشقق الإجهادي المستحث بالهيدروجين",
+   "c": "cs"
+  },
+  {
+   "a": "HJP",
+   "en": "Hydraulic Jet Pump",
+   "ar": "المضخة النفاثة الهيدروليكية",
+   "c": "pd"
+  },
+  {
+   "a": "HKLD",
+   "en": "Hook Load",
+   "ar": "حمل الخطاف",
+   "c": "dr"
+  },
+  {
+   "a": "HO",
+   "en": "Hole Opener",
+   "ar": "فاتح الحفرة",
+   "c": "dr"
+  },
+  {
+   "a": "HOC",
+   "en": "Hazard Observation Card",
+   "ar": "بطاقة ملاحظة الخطر",
+   "c": "hs"
+  },
+  {
+   "a": "HOCM",
+   "en": "Heavily Oil-Cut Mud",
+   "ar": "طين مقطوع بالنفط بشدة",
+   "c": "fl"
+  },
+  {
+   "a": "HP",
+   "en": "Horsepower",
+   "ar": "حصان",
+   "c": "un"
+  },
+  {
+   "a": "HP",
+   "en": "Hydrostatic Pressure",
+   "ar": "الضغط الهيدروستاتيكي",
+   "c": "wc",
+   "n": "HP = 0.052 × MW × TVD."
+  },
+  {
+   "a": "HPG",
+   "en": "Hydroxypropyl Guar",
+   "ar": "هيدروكسي بروبيل كوار",
+   "c": "co",
+   "n": "مثخّن سوائل التكسير."
+  },
+  {
+   "a": "HPHT",
+   "en": "High Pressure High Temperature",
+   "ar": "ضغط عالي وحرارة عالية",
+   "c": "dr",
+   "n": "آبار فوق ~10,000 psi و300°F."
+  },
+  {
+   "a": "HPU",
+   "en": "Hydraulic Power Unit",
+   "ar": "وحدة القدرة الهيدروليكية",
+   "c": "wc",
+   "n": "وحدة الـ Accumulator (Koomey)."
+  },
+  {
+   "a": "HS",
+   "en": "High Side",
+   "ar": "الجهة العليا من البئر",
+   "c": "dr",
+   "n": "مرجع قياس وجه الأداة بالجاذبية."
+  },
+  {
+   "a": "HSE",
+   "en": "Health, Safety and Environment",
+   "ar": "الصحة والسلامة والبيئة",
+   "c": "hs"
+  },
+  {
+   "a": "HSI",
+   "en": "Hard Shut-In",
+   "ar": "الإغلاق الصلب",
+   "c": "wc",
+   "n": "الخانق مسدود قبل إغلاق الـ BOP."
+  },
+  {
+   "a": "HSI",
+   "en": "Hydraulic Horsepower per Square Inch",
+   "ar": "القدرة الهيدروليكية لكل إنج مربع",
+   "c": "dr",
+   "n": "مؤشر تنظيف تحت البت."
+  },
+  {
+   "a": "HTHP",
+   "en": "High Temperature High Pressure (fluid loss)",
+   "ar": "راشح الحرارة والضغط العاليين",
+   "c": "fl",
+   "n": "فحص الراشح عند 300°F و500 psi."
+  },
+  {
+   "a": "HUD",
+   "en": "Hold-Up Depth",
+   "ar": "عمق التوقف",
+   "c": "co",
+   "n": "العمق اللي توقف عنده أدوات السلك."
+  },
+  {
+   "a": "HWDP",
+   "en": "Heavy Weight Drill Pipe",
+   "ar": "أنابيب الحفر الثقيلة",
+   "c": "dr",
+   "n": "منطقة انتقال بين أثقال الحفر وأنابيب الحفر."
+  },
+  {
+   "a": "HWO",
+   "en": "Hydraulic Workover (Snubbing)",
+   "ar": "الصيانة الهيدروليكية",
+   "c": "co"
+  },
+  {
+   "a": "IADC",
+   "en": "International Association of Drilling Contractors",
+   "ar": "الرابطة الدولية لمقاولي الحفر",
+   "c": "org",
+   "n": "تصنيف البتات وتقييم التآكل والتقارير اليومية."
+  },
+  {
+   "a": "IADC WellSharp",
+   "en": "IADC WellSharp Certification",
+   "ar": "شهادة السيطرة على البئر من IADC",
+   "c": "org"
+  },
+  {
+   "a": "IBOP",
+   "en": "Inside Blowout Preventer",
+   "ar": "مانع الانفجار الداخلي",
+   "c": "wc",
+   "n": "صمام بسلسلة الحفر أو بالـ Top drive."
+  },
+  {
+   "a": "IBP",
+   "en": "Initial Boiling Point",
+   "ar": "نقطة الغليان الابتدائية",
+   "c": "gs"
+  },
+  {
+   "a": "IBS",
+   "en": "Integral Blade Stabilizer",
+   "ar": "مثبت بشفرات متكاملة",
+   "c": "dr"
+  },
+  {
+   "a": "ICD",
+   "en": "Inflow Control Device",
+   "ar": "جهاز التحكم بالتدفق",
+   "c": "co"
+  },
+  {
+   "a": "ICP",
+   "en": "Initial Circulating Pressure",
+   "ar": "ضغط الدوران الابتدائي",
+   "c": "wc",
+   "n": "ICP = SIDPP + ضغط SCR."
+  },
+  {
+   "a": "ICS",
+   "en": "Incident Command System",
+   "ar": "نظام قيادة الحوادث",
+   "c": "hs"
+  },
+  {
+   "a": "ICV",
+   "en": "Interval Control Valve",
+   "ar": "صمام التحكم بالمقطع",
+   "c": "co",
+   "n": "بالإكمال الذكي."
+  },
+  {
+   "a": "ID",
+   "en": "Inside Diameter",
+   "ar": "القطر الداخلي",
+   "c": "un"
+  },
+  {
+   "a": "IDC",
+   "en": "Iraqi Drilling Company",
+   "ar": "شركة الحفر العراقية",
+   "c": "gen"
+  },
+  {
+   "a": "IDLH",
+   "en": "Immediately Dangerous to Life or Health",
+   "ar": "خطر مباشر على الحياة أو الصحة",
+   "c": "hs"
+  },
+  {
+   "a": "IEA",
+   "en": "International Energy Agency",
+   "ar": "وكالة الطاقة الدولية",
+   "c": "org"
+  },
+  {
+   "a": "IEC",
+   "en": "International Electrotechnical Commission",
+   "ar": "اللجنة الكهروتقنية الدولية",
+   "c": "org"
+  },
+  {
+   "a": "IEEE",
+   "en": "Institute of Electrical and Electronics Engineers",
+   "ar": "معهد مهندسي الكهرباء والإلكترونيات",
+   "c": "org"
+  },
+  {
+   "a": "IF",
+   "en": "Internal Flush",
+   "ar": "وصلة بقطر داخلي مستوي",
+   "c": "dr",
+   "n": "نوع وصلة لأنابيب الحفر (مثل 4½ IF)."
+  },
+  {
+   "a": "IFR",
+   "en": "In-Field Referencing",
+   "ar": "المرجعية المغناطيسية الحقلية",
+   "c": "lg"
+  },
+  {
+   "a": "IFT",
+   "en": "Interfacial Tension",
+   "ar": "الشد البيني",
+   "c": "re"
+  },
+  {
+   "a": "IHP",
+   "en": "Initial Hydrostatic Pressure",
+   "ar": "الضغط الهيدروستاتيكي الابتدائي",
+   "c": "lg",
+   "n": "على مخطط الـ DST."
+  },
+  {
+   "a": "II",
+   "en": "Injectivity Index",
+   "ar": "مؤشر الحقنية",
+   "c": "pd"
+  },
+  {
+   "a": "ILD",
+   "en": "Induction Log Deep",
+   "ar": "مجس الحث العميق",
+   "c": "lg"
+  },
+  {
+   "a": "ILI",
+   "en": "In-Line Inspection",
+   "ar": "الفحص الداخلي للخط",
+   "c": "of",
+   "n": "بالـ Smart pig."
+  },
+  {
+   "a": "ILT",
+   "en": "Invisible Lost Time",
+   "ar": "الوقت الضائع المخفي",
+   "c": "gen",
+   "n": "عمليات مخططة تنعمل أبطأ من الممكن."
+  },
+  {
+   "a": "IMO",
+   "en": "International Maritime Organization",
+   "ar": "المنظمة البحرية الدولية",
+   "c": "org"
+  },
+  {
+   "a": "INC",
+   "en": "Inclination",
+   "ar": "زاوية الميلان",
+   "c": "dr",
+   "n": "زاوية البئر عن العمودي."
+  },
+  {
+   "a": "INOC",
+   "en": "Iraq National Oil Company",
+   "ar": "شركة النفط الوطنية العراقية",
+   "c": "gen"
+  },
+  {
+   "a": "IOC",
+   "en": "International Oil Company",
+   "ar": "شركة نفط عالمية",
+   "c": "gen"
+  },
+  {
+   "a": "IOGP",
+   "en": "International Association of Oil and Gas Producers",
+   "ar": "الرابطة الدولية لمنتجي النفط والغاز",
+   "c": "org"
+  },
+  {
+   "a": "IOR",
+   "en": "Improved Oil Recovery",
+   "ar": "الاستخلاص المحسّن للنفط",
+   "c": "re"
+  },
+  {
+   "a": "IPO",
+   "en": "Injection Pressure Operated (valve)",
+   "ar": "صمام يعمل بضغط الحقن",
+   "c": "pd",
+   "n": "نوع صمام Gas lift."
+  },
+  {
+   "a": "IPR",
+   "en": "Inflow Performance Relationship",
+   "ar": "علاقة أداء التدفق للبئر",
+   "c": "pd"
+  },
+  {
+   "a": "IPS",
+   "en": "Improved Plow Steel",
+   "ar": "فولاذ محراث محسّن",
+   "c": "dr",
+   "n": "رتبة حبل الحفر والـ Slickline."
+  },
+  {
+   "a": "IPTT",
+   "en": "Interval Pressure Transient Test",
+   "ar": "اختبار الضغط العابر للفترة",
+   "c": "lg"
+  },
+  {
+   "a": "IRR",
+   "en": "Internal Rate of Return",
+   "ar": "معدل العائد الداخلي",
+   "c": "gen"
+  },
+  {
+   "a": "ISCWSA",
+   "en": "Industry Steering Committee on Wellbore Survey Accuracy",
+   "ar": "لجنة دقة مسوحات الآبار",
+   "c": "org"
+  },
+  {
+   "a": "ISICP",
+   "en": "Initial Shut-In Casing Pressure",
+   "ar": "ضغط الإغلاق الابتدائي بالحلقة",
+   "c": "wc"
+  },
+  {
+   "a": "ISIDPP",
+   "en": "Initial Shut-In Drill Pipe Pressure",
+   "ar": "ضغط الإغلاق الابتدائي بالأنابيب",
+   "c": "wc"
+  },
+  {
+   "a": "ISIP",
+   "en": "Initial Shut-In Pressure",
+   "ar": "ضغط الإغلاق الابتدائي",
+   "c": "lg",
+   "n": "(وبالتكسير: ضغط الإغلاق اللحظي)."
+  },
+  {
+   "a": "ISO",
+   "en": "International Organization for Standardization",
+   "ar": "المنظمة الدولية للتقييس",
+   "c": "org"
+  },
+  {
+   "a": "ISP",
+   "en": "Intermediate Strength Proppant",
+   "ar": "مادة دعم متوسطة القوة",
+   "c": "co"
+  },
+  {
+   "a": "ISRS",
+   "en": "Inside Screw Rising Stem",
+   "ar": "ساق صاعد بسن داخلي",
+   "c": "co",
+   "n": "تصميم صمام بوابة."
+  },
+  {
+   "a": "IWCF",
+   "en": "International Well Control Forum",
+   "ar": "المنتدى الدولي للسيطرة على الآبار",
+   "c": "org",
+   "n": "جهة شهادات السيطرة على البئر."
+  },
+  {
+   "a": "IWRC",
+   "en": "Independent Wire Rope Core",
+   "ar": "قلب من حبل سلكي مستقل",
+   "c": "dr",
+   "n": "بناء حبل الحفر (مثل 6×19 IWRC)."
+  },
+  {
+   "a": "JB",
+   "en": "Junk Basket",
+   "ar": "سلة المخلفات",
+   "c": "dr"
+  },
+  {
+   "a": "JD",
+   "en": "Junk Damage",
+   "ar": "ضرر من مخلفات",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "JHA",
+   "en": "Job Hazard Analysis",
+   "ar": "تحليل مخاطر العمل",
+   "c": "hs"
+  },
+  {
+   "a": "JIF",
+   "en": "Jet Impact Force",
+   "ar": "قوة صدم النفاث",
+   "c": "dr"
+  },
+  {
+   "a": "JSA",
+   "en": "Job Safety Analysis",
+   "ar": "تحليل سلامة العمل",
+   "c": "hs"
+  },
+  {
+   "a": "JT",
+   "en": "Joule-Thomson",
+   "ar": "تأثير جول-تومسون",
+   "c": "gs",
+   "n": "تبريد الغاز بالتمدد."
+  },
+  {
+   "a": "JU",
+   "en": "Jack-Up",
+   "ar": "منصة حفر رافعة",
+   "c": "of"
+  },
+  {
+   "a": "JV",
+   "en": "Joint Venture",
+   "ar": "مشروع مشترك",
+   "c": "gen"
+  },
+  {
+   "a": "KB",
+   "en": "Kelly Bushing",
+   "ar": "بطانة الكيلي",
+   "c": "dr",
+   "n": "مرجع قياس الأعماق على الأرضية (مثل RKB)."
+  },
+  {
+   "a": "KCl",
+   "en": "Potassium Chloride",
+   "ar": "كلوريد البوتاسيوم",
+   "c": "fl",
+   "n": "مثبط للشيل."
+  },
+  {
+   "a": "KFW",
+   "en": "Kick Fluid Weight",
+   "ar": "وزن مائع الـ Kick",
+   "c": "wc"
+  },
+  {
+   "a": "KH",
+   "en": "Permeability-Thickness Product",
+   "ar": "حاصل ضرب النفاذية بالسمك",
+   "c": "re"
+  },
+  {
+   "a": "KLB",
+   "en": "Thousand Pounds",
+   "ar": "ألف باوند",
+   "c": "un"
+  },
+  {
+   "a": "KMW",
+   "en": "Kill Mud Weight",
+   "ar": "وزن طين القتل",
+   "c": "wc",
+   "n": "KMW = OMW + SIDPP ÷ (0.052 × TVD)."
+  },
+  {
+   "a": "KO",
+   "en": "Knock-Out (drum)",
+   "ar": "وعاء فصل السوائل",
+   "c": "pd"
+  },
+  {
+   "a": "KOD",
+   "en": "Kick-Off Depth",
+   "ar": "عمق بدء الانحراف",
+   "c": "dr"
+  },
+  {
+   "a": "KOP",
+   "en": "Kick-Off Point",
+   "ar": "نقطة بدء الانحراف",
+   "c": "dr",
+   "n": "العمق اللي نبدأ منه نميّل البئر."
+  },
+  {
+   "a": "KOT",
+   "en": "Kick-Over Tool",
+   "ar": "أداة الانحراف",
+   "c": "co",
+   "n": "لتبديل صمامات الجيب الجانبي."
+  },
+  {
+   "a": "KPI",
+   "en": "Key Performance Indicator",
+   "ar": "مؤشر أداء رئيسي",
+   "c": "gen"
+  },
+  {
+   "a": "KRO",
+   "en": "Relative Permeability to Oil",
+   "ar": "النفاذية النسبية للنفط",
+   "c": "re"
+  },
+  {
+   "a": "KRW",
+   "en": "Relative Permeability to Water",
+   "ar": "النفاذية النسبية للماء",
+   "c": "re"
+  },
+  {
+   "a": "KT",
+   "en": "Kick Tolerance",
+   "ar": "تحمّل الـ Kick",
+   "c": "wc",
+   "n": "أكبر حجم Kick نگدر نسد عليه ونطلعه بدون كسر الحذاء."
+  },
+  {
+   "a": "KV/KH",
+   "en": "Vertical to Horizontal Permeability Ratio",
+   "ar": "نسبة النفاذية العمودية للأفقية",
+   "c": "re"
+  },
+  {
+   "a": "KWM",
+   "en": "Kill Weight Mud",
+   "ar": "طين القتل",
+   "c": "wc"
+  },
+  {
+   "a": "L/D",
+   "en": "Lay Down",
+   "ar": "إنزال الأنابيب على الرف",
+   "c": "dr"
+  },
+  {
+   "a": "LA",
+   "en": "Lead Angle",
+   "ar": "زاوية القيادة",
+   "c": "dr",
+   "n": "إزاحة اتجاه الـ Kick-off لتعويض ميل البت."
+  },
+  {
+   "a": "LACT",
+   "en": "Lease Automatic Custody Transfer",
+   "ar": "وحدة النقل الآلي للملكية",
+   "c": "pd"
+  },
+  {
+   "a": "LC",
+   "en": "Landing Collar",
+   "ar": "طوق الهبوط",
+   "c": "cs"
+  },
+  {
+   "a": "LCM",
+   "en": "Lost Circulation Material",
+   "ar": "مواد معالجة فقدان الدورة",
+   "c": "fl"
+  },
+  {
+   "a": "LCO",
+   "en": "Light Cycle Oil",
+   "ar": "زيت الدورة الخفيف",
+   "c": "gs"
+  },
+  {
+   "a": "LDHI",
+   "en": "Low Dosage Hydrate Inhibitor",
+   "ar": "مثبط هيدرات بجرعة قليلة",
+   "c": "gs"
+  },
+  {
+   "a": "LDT",
+   "en": "Litho-Density Tool",
+   "ar": "أداة الكثافة والليثولوجيا",
+   "c": "lg"
+  },
+  {
+   "a": "LEL",
+   "en": "Lower Explosive Limit",
+   "ar": "الحد الأدنى للانفجار",
+   "c": "hs"
+  },
+  {
+   "a": "LFL",
+   "en": "Lower Flammable Limit",
+   "ar": "الحد الأدنى للاشتعال",
+   "c": "hs"
+  },
+  {
+   "a": "LGO",
+   "en": "Light Gas Oil",
+   "ar": "زيت الغاز الخفيف",
+   "c": "gs"
+  },
+  {
+   "a": "LGS",
+   "en": "Low Gravity Solids",
+   "ar": "مواد صلبة واطئة الكثافة",
+   "c": "fl",
+   "n": "الفتات والبنتونايت (~2.6 SG)."
+  },
+  {
+   "a": "LH",
+   "en": "Liner Hanger",
+   "ar": "معلّاق البطانة",
+   "c": "cs"
+  },
+  {
+   "a": "LHSV",
+   "en": "Liquid Hourly Space Velocity",
+   "ar": "السرعة الفراغية الساعية للسائل",
+   "c": "gs"
+  },
+  {
+   "a": "LIB",
+   "en": "Lead Impression Block",
+   "ar": "كتلة الانطباع الرصاصية",
+   "c": "dr",
+   "n": "تاخذ صورة لرأس السمكة."
+  },
+  {
+   "a": "LIH",
+   "en": "Left in Hole",
+   "ar": "متروك بالبئر",
+   "c": "dr",
+   "n": "أدوات ما انسحبت بعد الصيد."
+  },
+  {
+   "a": "LLD",
+   "en": "Laterolog Deep",
+   "ar": "لاترولوگ عميق",
+   "c": "lg"
+  },
+  {
+   "a": "LLS",
+   "en": "Laterolog Shallow",
+   "ar": "لاترولوگ ضحل",
+   "c": "lg"
+  },
+  {
+   "a": "LMRP",
+   "en": "Lower Marine Riser Package",
+   "ar": "الحزمة السفلى للـ Riser البحري",
+   "c": "wc"
+  },
+  {
+   "a": "LMV",
+   "en": "Lower Master Valve",
+   "ar": "الصمام الرئيسي السفلي",
+   "c": "co"
+  },
+  {
+   "a": "LN",
+   "en": "Lost Nozzle",
+   "ar": "فتحة مفقودة",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "LNG",
+   "en": "Liquefied Natural Gas",
+   "ar": "الغاز الطبيعي المسال",
+   "c": "gs"
+  },
+  {
+   "a": "LNGC",
+   "en": "Liquefied Natural Gas Carrier",
+   "ar": "ناقلة الغاز الطبيعي المسال",
+   "c": "gs"
+  },
+  {
+   "a": "LOT",
+   "en": "Leak-Off Test",
+   "ar": "فحص التسرب",
+   "c": "wc",
+   "n": "يقيس ضغط بدء تسرب الطين للطبقة عند الحذاء."
+  },
+  {
+   "a": "LOTO",
+   "en": "Lock-Out / Tag-Out",
+   "ar": "القفل والتعليم",
+   "c": "hs",
+   "n": "عزل مصادر الطاقة قبل الصيانة."
+  },
+  {
+   "a": "LPG",
+   "en": "Liquefied Petroleum Gas",
+   "ar": "غاز البترول المسال",
+   "c": "gs",
+   "n": "بروبان وبيوتان."
+  },
+  {
+   "a": "LPR",
+   "en": "Lower Pipe Ram",
+   "ar": "رام الأنابيب السفلي",
+   "c": "wc"
+  },
+  {
+   "a": "LR",
+   "en": "Long Radius",
+   "ar": "نصف قطر طويل",
+   "c": "dr",
+   "n": "بئر أفقي ببناء 2–6°/100 ft."
+  },
+  {
+   "a": "LRP",
+   "en": "Lower Riser Package",
+   "ar": "الحزمة السفلى للرايزر",
+   "c": "wc"
+  },
+  {
+   "a": "LSR",
+   "en": "Life-Saving Rules",
+   "ar": "قواعد إنقاذ الحياة",
+   "c": "hs"
+  },
+  {
+   "a": "LSRN",
+   "en": "Light Straight-Run Naphtha",
+   "ar": "نفثا خفيفة من التقطير المباشر",
+   "c": "gs"
+  },
+  {
+   "a": "LSRV",
+   "en": "Low Shear Rate Viscosity",
+   "ar": "اللزوجة عند القص الواطي",
+   "c": "fl"
+  },
+  {
+   "a": "LSWAG",
+   "en": "Low Salinity Water Alternating Gas",
+   "ar": "ماء واطئ الملوحة بالتناوب ويا الغاز",
+   "c": "re"
+  },
+  {
+   "a": "LSWF",
+   "en": "Low Salinity Waterflooding",
+   "ar": "الغمر بماء واطئ الملوحة",
+   "c": "re"
+  },
+  {
+   "a": "LSYP",
+   "en": "Low Shear Yield Point",
+   "ar": "نقطة الخضوع بالقص الواطي",
+   "c": "fl",
+   "n": "2 × θ3 − θ6."
+  },
+  {
+   "a": "LT",
+   "en": "Lost Teeth",
+   "ar": "أسنان مفقودة",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "LT&C",
+   "en": "Long Thread and Coupling",
+   "ar": "وصلة تغليف بسن طويل",
+   "c": "cs"
+  },
+  {
+   "a": "LTC",
+   "en": "Long Thread and Coupling",
+   "ar": "وصلة تغليف بسن طويل",
+   "c": "cs"
+  },
+  {
+   "a": "LTI",
+   "en": "Lost Time Injury",
+   "ar": "إصابة مضيعة للوقت",
+   "c": "hs"
+  },
+  {
+   "a": "LTIF",
+   "en": "Lost Time Injury Frequency",
+   "ar": "معدل تكرار الإصابات المضيعة للوقت",
+   "c": "hs"
+  },
+  {
+   "a": "LTOBM",
+   "en": "Low-Toxicity Oil-Based Mud",
+   "ar": "طين نفطي واطئ السمية",
+   "c": "fl"
+  },
+  {
+   "a": "LTP",
+   "en": "Liner Top Packer",
+   "ar": "حشوة رأس البطانة",
+   "c": "cs"
+  },
+  {
+   "a": "LTR",
+   "en": "Late Time Region",
+   "ar": "المنطقة الزمنية المتأخرة",
+   "c": "re",
+   "n": "تأثير الحدود."
+  },
+  {
+   "a": "LTS",
+   "en": "Low Temperature Separation",
+   "ar": "الفصل بالحرارة الواطئة",
+   "c": "gs"
+  },
+  {
+   "a": "LWD",
+   "en": "Logging While Drilling",
+   "ar": "التسجيل أثناء الحفر",
+   "c": "lg",
+   "n": "يقيس خواص الطبقات (كاما، مقاومية، كثافة...) أثناء الحفر."
+  },
+  {
+   "a": "M/U",
+   "en": "Make Up",
+   "ar": "ربط الوصلات",
+   "c": "dr"
+  },
+  {
+   "a": "MAASP",
+   "en": "Maximum Allowable Annular Surface Pressure",
+   "ar": "أقصى ضغط سطحي مسموح بالحلقة",
+   "c": "wc",
+   "n": "حتى ما ينكسر الحذاء."
+  },
+  {
+   "a": "MAH",
+   "en": "Major Accident Hazard",
+   "ar": "خطر حادث كبير",
+   "c": "hs"
+  },
+  {
+   "a": "MAOP",
+   "en": "Maximum Allowable Operating Pressure",
+   "ar": "أقصى ضغط تشغيل مسموح",
+   "c": "of"
+  },
+  {
+   "a": "MARPOL",
+   "en": "International Convention for the Prevention of Pollution from Ships",
+   "ar": "اتفاقية منع التلوث من السفن",
+   "c": "org"
+  },
+  {
+   "a": "MASP",
+   "en": "Maximum Anticipated Surface Pressure",
+   "ar": "أقصى ضغط سطحي متوقع",
+   "c": "wc"
+  },
+  {
+   "a": "MAWOP",
+   "en": "Maximum Allowable Wellhead Operating Pressure",
+   "ar": "أقصى ضغط تشغيل مسموح برأس البئر",
+   "c": "cs"
+  },
+  {
+   "a": "MBE",
+   "en": "Material Balance Equation",
+   "ar": "معادلة موازنة المادة",
+   "c": "re"
+  },
+  {
+   "a": "MBO",
+   "en": "Modified Black Oil",
+   "ar": "نموذج النفط الأسود المعدّل",
+   "c": "re"
+  },
+  {
+   "a": "MBR",
+   "en": "Minimum Bend Radius",
+   "ar": "أقل نصف قطر انحناء",
+   "c": "of"
+  },
+  {
+   "a": "MBT",
+   "en": "Methylene Blue Test",
+   "ar": "فحص أزرق المثيلين",
+   "c": "fl",
+   "n": "يقيس محتوى الأطيان الفعالة بالطين."
+  },
+  {
+   "a": "MD",
+   "en": "Measured Depth",
+   "ar": "العمق المقاس",
+   "c": "dr",
+   "n": "طول البئر على مساره الفعلي."
+  },
+  {
+   "a": "MD",
+   "en": "Millidarcy",
+   "ar": "ملي دارسي",
+   "c": "un",
+   "n": "وحدة النفاذية."
+  },
+  {
+   "a": "MDEA",
+   "en": "Methyldiethanolamine",
+   "ar": "مثيل ثنائي إيثانول أمين",
+   "c": "gs"
+  },
+  {
+   "a": "MDH",
+   "en": "Miller-Dyes-Hutchinson",
+   "ar": "طريقة MDH لتحليل بناء الضغط",
+   "c": "re"
+  },
+  {
+   "a": "MDT",
+   "en": "Modular Formation Dynamics Tester",
+   "ar": "فاحص ديناميكية الطبقة المعياري",
+   "c": "lg",
+   "n": "ضغوط وعينات بالواير لاين."
+  },
+  {
+   "a": "MEA",
+   "en": "Monoethanolamine",
+   "ar": "أحادي إيثانول أمين",
+   "c": "gs",
+   "n": "لتحلية الغاز."
+  },
+  {
+   "a": "MEDEVAC",
+   "en": "Medical Evacuation",
+   "ar": "الإخلاء الطبي",
+   "c": "hs"
+  },
+  {
+   "a": "MEG",
+   "en": "Monoethylene Glycol",
+   "ar": "أحادي إيثيلين كلايكول",
+   "c": "gs",
+   "n": "مثبط هيدرات."
+  },
+  {
+   "a": "MER",
+   "en": "Maximum Efficient Rate",
+   "ar": "أقصى معدل إنتاج كفوء",
+   "c": "re"
+  },
+  {
+   "a": "MF",
+   "en": "Methyl Orange Alkalinity of Filtrate",
+   "ar": "قلوية الراشح (ميثيل أورانج)",
+   "c": "fl"
+  },
+  {
+   "a": "MFC",
+   "en": "Multi-Finger Caliper",
+   "ar": "كاليبر متعدد الأصابع",
+   "c": "lg",
+   "n": "لفحص تآكل التغليف والأنابيب."
+  },
+  {
+   "a": "MFL",
+   "en": "Magnetic Flux Leakage",
+   "ar": "تسرب الفيض المغناطيسي",
+   "c": "of",
+   "n": "طريقة فحص خطوط الأنابيب."
+  },
+  {
+   "a": "MFT",
+   "en": "Mud Flow Totalizer / Flow Show",
+   "ar": "مؤشر تدفق الطين الراجع",
+   "c": "dr"
+  },
+  {
+   "a": "MGS",
+   "en": "Mud Gas Separator",
+   "ar": "فاصل الطين والغاز",
+   "c": "wc",
+   "n": "يسمى Poor boy degasser."
+  },
+  {
+   "a": "MIC",
+   "en": "Microbiologically Influenced Corrosion",
+   "ar": "التآكل المتأثر بالأحياء المجهرية",
+   "c": "hs"
+  },
+  {
+   "a": "MIRU",
+   "en": "Move In and Rig Up",
+   "ar": "نقل البرج ونصبه",
+   "c": "dr"
+  },
+  {
+   "a": "MISICP",
+   "en": "Maximum Initial Shut-In Casing Pressure",
+   "ar": "أقصى ضغط إغلاق ابتدائي بالحلقة",
+   "c": "wc"
+  },
+  {
+   "a": "ML",
+   "en": "Microlog",
+   "ar": "الميكرولوگ",
+   "c": "lg",
+   "n": "يدل على الطبقات النفاذة من كعكة الطين."
+  },
+  {
+   "a": "ML",
+   "en": "Mudline",
+   "ar": "قاع البحر",
+   "c": "of"
+  },
+  {
+   "a": "MLL",
+   "en": "Microlaterolog",
+   "ar": "الميكرولاترولوگ",
+   "c": "lg"
+  },
+  {
+   "a": "MLS",
+   "en": "Mudline Suspension",
+   "ar": "تعليق التغليف عند قاع البحر",
+   "c": "of"
+  },
+  {
+   "a": "MMCF",
+   "en": "Million Cubic Feet",
+   "ar": "مليون قدم مكعب",
+   "c": "un"
+  },
+  {
+   "a": "MMH",
+   "en": "Mixed Metal Hydroxide",
+   "ar": "هيدروكسيدات معدنية مختلطة",
+   "c": "fl"
+  },
+  {
+   "a": "MMP",
+   "en": "Minimum Miscibility Pressure",
+   "ar": "أقل ضغط امتزاجية",
+   "c": "re"
+  },
+  {
+   "a": "MMSCFD",
+   "en": "Million Standard Cubic Feet per Day",
+   "ar": "مليون قدم مكعب قياسي باليوم",
+   "c": "un"
+  },
+  {
+   "a": "MOC",
+   "en": "Management of Change",
+   "ar": "إدارة التغيير",
+   "c": "hs"
+  },
+  {
+   "a": "MODU",
+   "en": "Mobile Offshore Drilling Unit",
+   "ar": "وحدة حفر بحرية متنقلة",
+   "c": "of"
+  },
+  {
+   "a": "MON",
+   "en": "Motor Octane Number",
+   "ar": "رقم الأوكتان المحركي",
+   "c": "gs"
+  },
+  {
+   "a": "MOP",
+   "en": "Margin of Overpull",
+   "ar": "هامش السحب الإضافي",
+   "c": "dr",
+   "n": "الفرق بين أقصى شد مسموح والحمل الفعلي."
+  },
+  {
+   "a": "MOV",
+   "en": "Motor-Operated Valve",
+   "ar": "صمام يعمل بمحرك",
+   "c": "co"
+  },
+  {
+   "a": "MPD",
+   "en": "Managed Pressure Drilling",
+   "ar": "الحفر بالضغط المُدار",
+   "c": "dr"
+  },
+  {
+   "a": "MPFM",
+   "en": "Multiphase Flow Meter",
+   "ar": "مقياس الجريان متعدد الأطوار",
+   "c": "pd"
+  },
+  {
+   "a": "MPI",
+   "en": "Magnetic Particle Inspection",
+   "ar": "الفحص بالجسيمات المغناطيسية",
+   "c": "hs"
+  },
+  {
+   "a": "MPLT",
+   "en": "Memory Production Logging Tool",
+   "ar": "أداة تسجيل الإنتاج بالذاكرة",
+   "c": "lg"
+  },
+  {
+   "a": "MPMS",
+   "en": "Manual of Petroleum Measurement Standards",
+   "ar": "دليل معايير قياس البترول (API)",
+   "c": "org"
+  },
+  {
+   "a": "MR",
+   "en": "Medium Radius",
+   "ar": "نصف قطر متوسط",
+   "c": "dr",
+   "n": "بناء 6–35°/100 ft."
+  },
+  {
+   "a": "MRR",
+   "en": "Minimum Required Return",
+   "ar": "أقل عائد مطلوب",
+   "c": "gen"
+  },
+  {
+   "a": "MSA",
+   "en": "Multi-Station Analysis",
+   "ar": "تحليل المحطات المتعددة",
+   "c": "lg",
+   "n": "تصحيح مسوحات الـ MWD."
+  },
+  {
+   "a": "MSCF",
+   "en": "Thousand Standard Cubic Feet",
+   "ar": "ألف قدم مكعب قياسي",
+   "c": "un"
+  },
+  {
+   "a": "MSDS",
+   "en": "Material Safety Data Sheet",
+   "ar": "صحيفة بيانات سلامة المادة",
+   "c": "hs"
+  },
+  {
+   "a": "MSE",
+   "en": "Mechanical Specific Energy",
+   "ar": "الطاقة الميكانيكية النوعية",
+   "c": "dr",
+   "n": "الطاقة المصروفة لحفر وحدة حجم من الصخر."
+  },
+  {
+   "a": "MSFL",
+   "en": "Micro-Spherically Focused Log",
+   "ar": "مجس المقاومية الدقيق المركّز",
+   "c": "lg",
+   "n": "يقرا Rxo."
+  },
+  {
+   "a": "MSL",
+   "en": "Mean Sea Level",
+   "ar": "متوسط مستوى سطح البحر",
+   "c": "dr"
+  },
+  {
+   "a": "MT",
+   "en": "Milled Tooth",
+   "ar": "بت بأسنان مفرزة",
+   "c": "dr",
+   "n": "بت مخروطي للطبقات الرخوة."
+  },
+  {
+   "a": "MTBF",
+   "en": "Mean Time Between Failures",
+   "ar": "متوسط الزمن بين الأعطال",
+   "c": "pd"
+  },
+  {
+   "a": "MTC",
+   "en": "Medical Treatment Case",
+   "ar": "حالة علاج طبي",
+   "c": "hs"
+  },
+  {
+   "a": "MTR",
+   "en": "Middle Time Region",
+   "ar": "المنطقة الزمنية الوسطى",
+   "c": "re",
+   "n": "الجريان الشعاعي (الخط المستقيم)."
+  },
+  {
+   "a": "MTT",
+   "en": "Multi-Finger Thickness / Magnetic Thickness Tool",
+   "ar": "أداة قياس سمك التغليف",
+   "c": "lg"
+  },
+  {
+   "a": "MUT",
+   "en": "Make-Up Torque",
+   "ar": "عزم الربط",
+   "c": "dr"
+  },
+  {
+   "a": "MUX",
+   "en": "Multiplex (BOP control system)",
+   "ar": "نظام تحكم متعدد الإرسال",
+   "c": "wc"
+  },
+  {
+   "a": "MW",
+   "en": "Mud Weight",
+   "ar": "وزن الطين (كثافته)",
+   "c": "fl",
+   "n": "بالـ ppg أو SG أو pcf."
+  },
+  {
+   "a": "MWD",
+   "en": "Measurement While Drilling",
+   "ar": "القياس أثناء الحفر",
+   "c": "lg",
+   "n": "يقيس الميلان والاتجاه ووجه الأداة ويرسلها للسطح."
+  },
+  {
+   "a": "MWI",
+   "en": "Mud Weight Increase",
+   "ar": "مقدار زيادة وزن الطين",
+   "c": "wc"
+  },
+  {
+   "a": "N-M",
+   "en": "Newton-Metre",
+   "ar": "نيوتن-متر",
+   "c": "un",
+   "n": "وحدة العزم."
+  },
+  {
+   "a": "N/D",
+   "en": "Nipple Down",
+   "ar": "فك (الـ BOP أو رأس البئر)",
+   "c": "dr"
+  },
+  {
+   "a": "N/U",
+   "en": "Nipple Up",
+   "ar": "تركيب (الـ BOP أو رأس البئر)",
+   "c": "dr"
+  },
+  {
+   "a": "NACE",
+   "en": "National Association of Corrosion Engineers",
+   "ar": "الرابطة الوطنية لمهندسي التآكل",
+   "c": "org",
+   "n": "معيار MR0175 للخدمة الحامضية."
+  },
+  {
+   "a": "NAF",
+   "en": "Non-Aqueous Fluid",
+   "ar": "سائل غير مائي",
+   "c": "fl",
+   "n": "يشمل OBM و SBM."
+  },
+  {
+   "a": "NB",
+   "en": "Near Bit",
+   "ar": "قرب البت",
+   "c": "dr",
+   "n": "مثل Near-bit stabilizer."
+  },
+  {
+   "a": "NBS",
+   "en": "Near-Bit Stabilizer",
+   "ar": "مثبت قرب البت",
+   "c": "dr"
+  },
+  {
+   "a": "NC",
+   "en": "Numbered Connection",
+   "ar": "وصلة مرقّمة (تسمية API)",
+   "c": "dr",
+   "n": "مثل NC50 = 4½ IF."
+  },
+  {
+   "a": "NCT",
+   "en": "Normal Compaction Trend",
+   "ar": "اتجاه التراص الطبيعي",
+   "c": "lg"
+  },
+  {
+   "a": "NDE",
+   "en": "Non-Destructive Evaluation",
+   "ar": "التقييم غير الإتلافي",
+   "c": "hs"
+  },
+  {
+   "a": "NDT",
+   "en": "Non-Destructive Testing",
+   "ar": "الفحص غير الإتلافي",
+   "c": "hs"
+  },
+  {
+   "a": "NEMA",
+   "en": "National Electrical Manufacturers Association",
+   "ar": "الرابطة الوطنية لمصنعي الكهربائيات",
+   "c": "org"
+  },
+  {
+   "a": "NFPA",
+   "en": "National Fire Protection Association",
+   "ar": "الرابطة الوطنية للحماية من الحريق",
+   "c": "org"
+  },
+  {
+   "a": "NGH",
+   "en": "Natural Gas Hydrate",
+   "ar": "هيدرات الغاز الطبيعي",
+   "c": "gs"
+  },
+  {
+   "a": "NGL",
+   "en": "Natural Gas Liquids",
+   "ar": "سوائل الغاز الطبيعي",
+   "c": "gs"
+  },
+  {
+   "a": "NGV",
+   "en": "Natural Gas Vehicle",
+   "ar": "مركبة تعمل بالغاز الطبيعي",
+   "c": "gs"
+  },
+  {
+   "a": "NL",
+   "en": "Neutron Log",
+   "ar": "مجس النيوترون",
+   "c": "lg"
+  },
+  {
+   "a": "NLL",
+   "en": "Neutron Lifetime Log",
+   "ar": "مجس عمر النيوترون",
+   "c": "lg"
+  },
+  {
+   "a": "NM",
+   "en": "Near Miss",
+   "ar": "حادث وشيك",
+   "c": "hs"
+  },
+  {
+   "a": "NMDC",
+   "en": "Non-Magnetic Drill Collar",
+   "ar": "ثقل حفر غير مغناطيسي",
+   "c": "dr",
+   "n": "يحمي حساسات الاتجاه المغناطيسية (Monel)."
+  },
+  {
+   "a": "NMR",
+   "en": "Nuclear Magnetic Resonance",
+   "ar": "الرنين المغناطيسي النووي",
+   "c": "lg",
+   "n": "يعطي المسامية والمائع الحر والنفاذية."
+  },
+  {
+   "a": "NOC",
+   "en": "National Oil Company",
+   "ar": "شركة نفط وطنية",
+   "c": "gen"
+  },
+  {
+   "a": "NORM",
+   "en": "Naturally Occurring Radioactive Material",
+   "ar": "مواد مشعة طبيعية المنشأ",
+   "c": "hs"
+  },
+  {
+   "a": "NORSOK",
+   "en": "Norwegian Petroleum Industry Standards",
+   "ar": "المعايير النرويجية لصناعة البترول",
+   "c": "org"
+  },
+  {
+   "a": "NOV",
+   "en": "National Oilwell Varco",
+   "ar": "شركة NOV لمعدات الحفر",
+   "c": "org"
+  },
+  {
+   "a": "NP",
+   "en": "Neutral Point",
+   "ar": "نقطة التعادل",
+   "c": "dr",
+   "n": "النقطة اللي يتحول عندها الحمل من ضغط لشد."
+  },
+  {
+   "a": "NPHI",
+   "en": "Neutron Porosity",
+   "ar": "مسامية النيوترون",
+   "c": "lg"
+  },
+  {
+   "a": "NPSH",
+   "en": "Net Positive Suction Head",
+   "ar": "صافي ضغط السحب الموجب",
+   "c": "pd",
+   "n": "شرط تجنب التكهف بالمضخات."
+  },
+  {
+   "a": "NPT",
+   "en": "Non-Productive Time",
+   "ar": "الوقت غير المنتج",
+   "c": "gen",
+   "n": "وقت ضائع بأحداث غير مخططة."
+  },
+  {
+   "a": "NPV",
+   "en": "Net Present Value",
+   "ar": "القيمة الحالية الصافية",
+   "c": "gen"
+  },
+  {
+   "a": "NRI",
+   "en": "Net Revenue Interest",
+   "ar": "حصة الإيراد الصافية",
+   "c": "gen"
+  },
+  {
+   "a": "NRS",
+   "en": "Non-Rising Stem",
+   "ar": "ساق غير صاعد",
+   "c": "co"
+  },
+  {
+   "a": "NRU",
+   "en": "Nitrogen Rejection Unit",
+   "ar": "وحدة طرد النيتروجين",
+   "c": "gs"
+  },
+  {
+   "a": "NRV",
+   "en": "Non-Return Valve",
+   "ar": "صمام عدم رجوع",
+   "c": "dr"
+  },
+  {
+   "a": "NTG",
+   "en": "Net to Gross",
+   "ar": "نسبة الصافي للكلي",
+   "c": "re"
+  },
+  {
+   "a": "OBG",
+   "en": "Overburden Gradient",
+   "ar": "تدرج حمل الغطاء",
+   "c": "wc"
+  },
+  {
+   "a": "OBM",
+   "en": "Oil-Based Mud",
+   "ar": "طين نفطي الأساس",
+   "c": "fl"
+  },
+  {
+   "a": "OBS",
+   "en": "Observation Well",
+   "ar": "بئر مراقبة",
+   "c": "re"
+  },
+  {
+   "a": "OCIMF",
+   "en": "Oil Companies International Marine Forum",
+   "ar": "المنتدى البحري الدولي لشركات النفط",
+   "c": "org"
+  },
+  {
+   "a": "OCS",
+   "en": "Outer Continental Shelf",
+   "ar": "الجرف القاري الخارجي",
+   "c": "of"
+  },
+  {
+   "a": "OD",
+   "en": "Outside Diameter",
+   "ar": "القطر الخارجي",
+   "c": "un"
+  },
+  {
+   "a": "OGIP",
+   "en": "Original Gas in Place",
+   "ar": "الغاز الأصلي بالمكمن",
+   "c": "re"
+  },
+  {
+   "a": "OGM",
+   "en": "Oil Gathering Manifold",
+   "ar": "مجمّع تجميع النفط",
+   "c": "pd"
+  },
+  {
+   "a": "OGOC",
+   "en": "Original Gas-Oil Contact",
+   "ar": "تماس الغاز والنفط الأصلي",
+   "c": "re"
+  },
+  {
+   "a": "OH",
+   "en": "Open Hole",
+   "ar": "الحفرة المفتوحة",
+   "c": "dr",
+   "n": "مقطع بدون تغليف."
+  },
+  {
+   "a": "OHGP",
+   "en": "Open Hole Gravel Pack",
+   "ar": "حشو حصى بالحفرة المفتوحة",
+   "c": "co"
+  },
+  {
+   "a": "OHTC",
+   "en": "Overall Heat Transfer Coefficient",
+   "ar": "معامل انتقال الحرارة الكلي",
+   "c": "of"
+  },
+  {
+   "a": "OIM",
+   "en": "Offshore Installation Manager",
+   "ar": "مدير المنشأة البحرية",
+   "c": "gen"
+  },
+  {
+   "a": "OIW",
+   "en": "Oil in Water",
+   "ar": "النفط بالماء",
+   "c": "pd"
+  },
+  {
+   "a": "OMW",
+   "en": "Original Mud Weight",
+   "ar": "وزن الطين الأصلي",
+   "c": "wc"
+  },
+  {
+   "a": "OOC",
+   "en": "Oil on Cuttings",
+   "ar": "النفط على الفتات",
+   "c": "fl"
+  },
+  {
+   "a": "OOIP",
+   "en": "Original Oil in Place",
+   "ar": "النفط الأصلي بالمكمن",
+   "c": "re"
+  },
+  {
+   "a": "OPEC",
+   "en": "Organization of the Petroleum Exporting Countries",
+   "ar": "منظمة الدول المصدرة للنفط (أوبك)",
+   "c": "org"
+  },
+  {
+   "a": "OPEX",
+   "en": "Operating Expenditure",
+   "ar": "النفقات التشغيلية",
+   "c": "gen"
+  },
+  {
+   "a": "OS",
+   "en": "Overshot",
+   "ar": "أداة صيد خارجية",
+   "c": "dr"
+  },
+  {
+   "a": "OSHA",
+   "en": "Occupational Safety and Health Administration",
+   "ar": "إدارة السلامة والصحة المهنية",
+   "c": "org"
+  },
+  {
+   "a": "OSRP",
+   "en": "Oil Spill Response Plan",
+   "ar": "خطة الاستجابة للانسكاب النفطي",
+   "c": "hs"
+  },
+  {
+   "a": "OWC",
+   "en": "Oil-Water Contact",
+   "ar": "تماس النفط والماء",
+   "c": "re"
+  },
+  {
+   "a": "OWR",
+   "en": "Oil-Water Ratio",
+   "ar": "نسبة النفط للماء",
+   "c": "fl",
+   "n": "بالطين النفطي، مثل 80/20."
+  },
+  {
+   "a": "P&A",
+   "en": "Plug and Abandon",
+   "ar": "السد والهجر",
+   "c": "co"
+  },
+  {
+   "a": "P&ID",
+   "en": "Piping and Instrumentation Diagram",
+   "ar": "مخطط الأنابيب والأجهزة",
+   "c": "gen"
+  },
+  {
+   "a": "P/U",
+   "en": "Pick Up",
+   "ar": "رفع (الوزن عند السحب)",
+   "c": "dr"
+  },
+  {
+   "a": "P10",
+   "en": "10th Percentile Estimate",
+   "ar": "تقدير المئين العاشر",
+   "c": "gen"
+  },
+  {
+   "a": "P50",
+   "en": "50th Percentile Estimate (median)",
+   "ar": "التقدير الوسيط",
+   "c": "gen"
+  },
+  {
+   "a": "P90",
+   "en": "90th Percentile Estimate",
+   "ar": "تقدير المئين التسعين",
+   "c": "gen"
+  },
+  {
+   "a": "PAC",
+   "en": "Polyanionic Cellulose",
+   "ar": "سليلوز متعدد الأنيونات",
+   "c": "fl",
+   "n": "مقلل راشح."
+  },
+  {
+   "a": "PAIL",
+   "en": "Plunger-Assisted Intermittent Lift",
+   "ar": "رفع متقطع بمساعدة المكبس",
+   "c": "pd"
+  },
+  {
+   "a": "PB",
+   "en": "Bubble Point Pressure",
+   "ar": "ضغط نقطة الفقاعة",
+   "c": "re"
+  },
+  {
+   "a": "PBD",
+   "en": "Plugged-Back Depth",
+   "ar": "العمق بعد السد",
+   "c": "cs"
+  },
+  {
+   "a": "PBL",
+   "en": "Bypass (circulating) Sub",
+   "ar": "وصلة تدوير جانبي",
+   "c": "dr",
+   "n": "تنفتح بكرة لضخ الـ LCM."
+  },
+  {
+   "a": "PBR",
+   "en": "Polished Bore Receptacle",
+   "ar": "مستقبِل بتجويف مصقول",
+   "c": "cs",
+   "n": "برأس البطانة للربط الخلفي."
+  },
+  {
+   "a": "PBTD",
+   "en": "Plug Back Total Depth",
+   "ar": "العمق الكلي بعد السد",
+   "c": "cs"
+  },
+  {
+   "a": "PBU",
+   "en": "Pressure Build-Up",
+   "ar": "بناء الضغط",
+   "c": "re",
+   "n": "فحص بئر بعد إغلاقه."
+  },
+  {
+   "a": "PC",
+   "en": "Capillary Pressure",
+   "ar": "الضغط الشعري",
+   "c": "re"
+  },
+  {
+   "a": "PCESP",
+   "en": "Progressing Cavity Electric Submersible Pump",
+   "ar": "مضخة لولبية بمحرك غاطس",
+   "c": "pd"
+  },
+  {
+   "a": "PCF",
+   "en": "Pounds per Cubic Foot",
+   "ar": "باوند لكل قدم مكعب",
+   "c": "un"
+  },
+  {
+   "a": "PCP",
+   "en": "Progressing Cavity Pump",
+   "ar": "المضخة اللولبية (التجويفية)",
+   "c": "pd"
+  },
+  {
+   "a": "PD",
+   "en": "Dew Point Pressure",
+   "ar": "ضغط نقطة الندى",
+   "c": "re"
+  },
+  {
+   "a": "PDC",
+   "en": "Polycrystalline Diamond Compact",
+   "ar": "بت الماس متعدد البلورات",
+   "c": "dr",
+   "n": "بت بقواطع ثابتة تقص الصخر."
+  },
+  {
+   "a": "PDD",
+   "en": "Pressure Drawdown",
+   "ar": "سحب الضغط",
+   "c": "re"
+  },
+  {
+   "a": "PDG",
+   "en": "Permanent Downhole Gauge",
+   "ar": "مقياس قاعي دائم",
+   "c": "co"
+  },
+  {
+   "a": "PDM",
+   "en": "Positive Displacement Motor",
+   "ar": "الموتور الطيني الإزاحي",
+   "c": "dr",
+   "n": "موتور قاعي يدوّر البت بقوة الطين."
+  },
+  {
+   "a": "PEF",
+   "en": "Photoelectric Factor",
+   "ar": "المعامل الكهروضوئي",
+   "c": "lg",
+   "n": "يميّز نوع الصخر."
+  },
+  {
+   "a": "PEL",
+   "en": "Permissible Exposure Limit",
+   "ar": "حد التعرض المسموح",
+   "c": "hs"
+  },
+  {
+   "a": "PF",
+   "en": "Phenolphthalein Alkalinity of Filtrate",
+   "ar": "قلوية الراشح (فينولفثالين)",
+   "c": "fl"
+  },
+  {
+   "a": "PFD",
+   "en": "Process Flow Diagram",
+   "ar": "مخطط جريان العملية",
+   "c": "gen"
+  },
+  {
+   "a": "PFR",
+   "en": "Plug Flow Reactor",
+   "ar": "مفاعل الجريان الكتلي",
+   "c": "gs"
+  },
+  {
+   "a": "pH",
+   "en": "Potential of Hydrogen",
+   "ar": "الأس الهيدروجيني",
+   "c": "fl",
+   "n": "مقياس الحموضة والقاعدية."
+  },
+  {
+   "a": "PHIE",
+   "en": "Effective Porosity",
+   "ar": "المسامية الفعالة",
+   "c": "lg"
+  },
+  {
+   "a": "PHIT",
+   "en": "Total Porosity",
+   "ar": "المسامية الكلية",
+   "c": "lg"
+  },
+  {
+   "a": "PHPA",
+   "en": "Partially Hydrolyzed Polyacrylamide",
+   "ar": "بولي أكريلاميد متحلل جزئياً",
+   "c": "fl",
+   "n": "بوليمر يغلّف الشيل ويثبته."
+  },
+  {
+   "a": "PI",
+   "en": "Productivity Index",
+   "ar": "مؤشر الإنتاجية",
+   "c": "pd",
+   "n": "J = q ÷ (Pr − Pwf)."
+  },
+  {
+   "a": "PIP",
+   "en": "Pump Intake Pressure",
+   "ar": "ضغط سحب المضخة",
+   "c": "pd"
+  },
+  {
+   "a": "PKR",
+   "en": "Packer",
+   "ar": "حشوة",
+   "c": "co"
+  },
+  {
+   "a": "PL",
+   "en": "Proximity Log",
+   "ar": "مجس القرب",
+   "c": "lg"
+  },
+  {
+   "a": "PLC",
+   "en": "Programmable Logic Controller",
+   "ar": "متحكم منطقي مبرمج",
+   "c": "gen"
+  },
+  {
+   "a": "PLEM",
+   "en": "Pipeline End Manifold",
+   "ar": "مجمّع نهاية الخط",
+   "c": "of"
+  },
+  {
+   "a": "PLET",
+   "en": "Pipeline End Termination",
+   "ar": "نهاية خط الأنابيب",
+   "c": "of"
+  },
+  {
+   "a": "PLT",
+   "en": "Production Logging Tool",
+   "ar": "أداة تسجيل الإنتاج",
+   "c": "lg",
+   "n": "تحدد منو ينتج شنو ومن أي ثقب."
+  },
+  {
+   "a": "PM",
+   "en": "Phenolphthalein Alkalinity of Mud",
+   "ar": "قلوية الطين",
+   "c": "fl"
+  },
+  {
+   "a": "PM",
+   "en": "Preventive Maintenance",
+   "ar": "الصيانة الوقائية",
+   "c": "hs"
+  },
+  {
+   "a": "PMCD",
+   "en": "Pressurized Mud Cap Drilling",
+   "ar": "الحفر بغطاء طيني مضغوط",
+   "c": "dr",
+   "n": "للفقدان الكلي."
+  },
+  {
+   "a": "PN",
+   "en": "Plugged Nozzle",
+   "ar": "فتحة مسدودة",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "PNC",
+   "en": "Pulsed Neutron Capture",
+   "ar": "الالتقاط النيوتروني النبضي",
+   "c": "lg"
+  },
+  {
+   "a": "PNL",
+   "en": "Pulsed Neutron Log",
+   "ar": "مجس النيوترون النبضي",
+   "c": "lg"
+  },
+  {
+   "a": "POB",
+   "en": "Personnel on Board",
+   "ar": "عدد الأشخاص على المنشأة",
+   "c": "hs"
+  },
+  {
+   "a": "POOH",
+   "en": "Pull Out of Hole",
+   "ar": "سحب الأنابيب من البئر",
+   "c": "dr"
+  },
+  {
+   "a": "PP",
+   "en": "Pore Pressure",
+   "ar": "ضغط المسامات",
+   "c": "wc"
+  },
+  {
+   "a": "PPD",
+   "en": "Pour Point Depressant",
+   "ar": "مخفّض نقطة الانسكاب",
+   "c": "pd"
+  },
+  {
+   "a": "PPE",
+   "en": "Personal Protective Equipment",
+   "ar": "معدات الوقاية الشخصية",
+   "c": "hs"
+  },
+  {
+   "a": "PPF",
+   "en": "Pounds per Foot",
+   "ar": "باوند لكل قدم",
+   "c": "un",
+   "n": "وزن الأنابيب."
+  },
+  {
+   "a": "PPFG",
+   "en": "Pore Pressure and Fracture Gradient",
+   "ar": "ضغط المسامات وتدرج التكسير",
+   "c": "wc"
+  },
+  {
+   "a": "PPG",
+   "en": "Pounds per Gallon",
+   "ar": "باوند لكل غالون",
+   "c": "un",
+   "n": "وحدة وزن الطين."
+  },
+  {
+   "a": "PPM",
+   "en": "Parts per Million",
+   "ar": "جزء بالمليون",
+   "c": "un"
+  },
+  {
+   "a": "PPRL",
+   "en": "Peak Polished Rod Load",
+   "ar": "أقصى حمل على القضيب المصقول",
+   "c": "pd"
+  },
+  {
+   "a": "PPT",
+   "en": "Permeability Plugging Test",
+   "ar": "فحص سد النفاذية",
+   "c": "fl"
+  },
+  {
+   "a": "PR",
+   "en": "Peng-Robinson",
+   "ar": "معادلة حالة Peng-Robinson",
+   "c": "re"
+  },
+  {
+   "a": "PRA",
+   "en": "Preliminary Risk Analysis",
+   "ar": "التحليل الأولي للمخاطر",
+   "c": "hs"
+  },
+  {
+   "a": "PRMS",
+   "en": "Petroleum Resources Management System",
+   "ar": "نظام إدارة الموارد البترولية",
+   "c": "re",
+   "n": "معيار تصنيف الاحتياطيات (SPE)."
+  },
+  {
+   "a": "PRV",
+   "en": "Pressure Relief Valve",
+   "ar": "صمام تنفيس الضغط",
+   "c": "hs"
+  },
+  {
+   "a": "PSA",
+   "en": "Pressure Swing Adsorption",
+   "ar": "الامتزاز بتأرجح الضغط",
+   "c": "gs"
+  },
+  {
+   "a": "PSC",
+   "en": "Production Sharing Contract",
+   "ar": "عقد مشاركة الإنتاج",
+   "c": "gen"
+  },
+  {
+   "a": "PSD",
+   "en": "Particle Size Distribution",
+   "ar": "توزيع حجم الجسيمات",
+   "c": "fl"
+  },
+  {
+   "a": "PSI",
+   "en": "Pounds per Square Inch",
+   "ar": "باوند على الإنج المربع",
+   "c": "un"
+  },
+  {
+   "a": "PSIA",
+   "en": "Pounds per Square Inch Absolute",
+   "ar": "باوند/إنج² (ضغط مطلق)",
+   "c": "un"
+  },
+  {
+   "a": "PSIG",
+   "en": "Pounds per Square Inch Gauge",
+   "ar": "باوند/إنج² (ضغط مقياسي)",
+   "c": "un"
+  },
+  {
+   "a": "PSV",
+   "en": "Pressure Safety Valve",
+   "ar": "صمام أمان الضغط",
+   "c": "hs"
+  },
+  {
+   "a": "PTA",
+   "en": "Pressure Transient Analysis",
+   "ar": "تحليل الضغط العابر",
+   "c": "re"
+  },
+  {
+   "a": "PTB",
+   "en": "Pounds per Thousand Barrels",
+   "ar": "باوند لكل ألف برميل",
+   "c": "un",
+   "n": "محتوى الملح بالخام."
+  },
+  {
+   "a": "PTS",
+   "en": "Pressure-Temperature-Spinner",
+   "ar": "ضغط-حرارة-مروحة",
+   "c": "lg",
+   "n": "أبسط تجميعة PLT."
+  },
+  {
+   "a": "PTW",
+   "en": "Permit to Work",
+   "ar": "تصريح العمل",
+   "c": "hs"
+  },
+  {
+   "a": "PUW",
+   "en": "Pick-Up Weight",
+   "ar": "وزن الرفع",
+   "c": "dr"
+  },
+  {
+   "a": "PV",
+   "en": "Plastic Viscosity",
+   "ar": "اللزوجة اللدنة",
+   "c": "fl",
+   "n": "PV = θ600 − θ300 (cP)؛ تدل على محتوى المواد الصلبة."
+  },
+  {
+   "a": "PV",
+   "en": "Pore Volume",
+   "ar": "الحجم المسامي",
+   "c": "re",
+   "n": "(وبالطين: اللزوجة اللدنة)."
+  },
+  {
+   "a": "PVG",
+   "en": "Pit Volume Gain",
+   "ar": "زيادة حجم الأحواض",
+   "c": "wc"
+  },
+  {
+   "a": "PVI",
+   "en": "Pore Volumes Injected",
+   "ar": "الحجوم المسامية المحقونة",
+   "c": "re"
+  },
+  {
+   "a": "PVT",
+   "en": "Pit Volume Totalizer",
+   "ar": "مجموع حجوم الأحواض",
+   "c": "dr",
+   "n": "أهم مؤشر لكشف الـ Kick والفقدان."
+  },
+  {
+   "a": "PVT",
+   "en": "Pressure-Volume-Temperature",
+   "ar": "الضغط والحجم والحرارة",
+   "c": "re",
+   "n": "تحاليل خواص موائع المكمن."
+  },
+  {
+   "a": "PW",
+   "en": "Produced Water",
+   "ar": "الماء المنتج",
+   "c": "pd"
+  },
+  {
+   "a": "PWD",
+   "en": "Pressure While Drilling",
+   "ar": "قياس الضغط أثناء الحفر",
+   "c": "lg",
+   "n": "يعطي الـ ECD الحقيقي بالقاع."
+  },
+  {
+   "a": "PWF",
+   "en": "Flowing Bottomhole Pressure (Pwf)",
+   "ar": "ضغط القاع الجاري",
+   "c": "pd"
+  },
+  {
+   "a": "PWRI",
+   "en": "Produced Water Re-Injection",
+   "ar": "إعادة حقن الماء المنتج",
+   "c": "pd"
+  },
+  {
+   "a": "PZC",
+   "en": "Point of Zero Charge",
+   "ar": "نقطة الشحنة الصفرية",
+   "c": "re"
+  },
+  {
+   "a": "QHSE",
+   "en": "Quality, Health, Safety and Environment",
+   "ar": "الجودة والصحة والسلامة والبيئة",
+   "c": "hs"
+  },
+  {
+   "a": "QRA",
+   "en": "Quantitative Risk Assessment",
+   "ar": "التقييم الكمي للمخاطر",
+   "c": "hs"
+  },
+  {
+   "a": "R/D",
+   "en": "Rig Down",
+   "ar": "تفكيك البرج أو المعدات",
+   "c": "dr"
+  },
+  {
+   "a": "R/U",
+   "en": "Rig Up",
+   "ar": "نصب البرج أو المعدات",
+   "c": "dr"
+  },
+  {
+   "a": "RBP",
+   "en": "Retrievable Bridge Plug",
+   "ar": "سدادة جسرية قابلة للاسترجاع",
+   "c": "co"
+  },
+  {
+   "a": "RBT",
+   "en": "Radial Bond Tool",
+   "ar": "أداة الترابط الشعاعي",
+   "c": "lg"
+  },
+  {
+   "a": "RCAL",
+   "en": "Routine Core Analysis",
+   "ar": "التحليل الروتيني للباب",
+   "c": "lg"
+  },
+  {
+   "a": "RCD",
+   "en": "Rotating Control Device",
+   "ar": "جهاز التحكم الدوّار",
+   "c": "dr",
+   "n": "يسد حول الأنابيب وهي تدور."
+  },
+  {
+   "a": "RCJB",
+   "en": "Reverse Circulation Junk Basket",
+   "ar": "سلة مخلفات بالدوران العكسي",
+   "c": "dr"
+  },
+  {
+   "a": "RCM",
+   "en": "Reliability-Centered Maintenance",
+   "ar": "الصيانة المرتكزة على الموثوقية",
+   "c": "hs"
+  },
+  {
+   "a": "RCV",
+   "en": "Remotely Controlled Vehicle",
+   "ar": "مركبة يُتحكم بيها عن بعد",
+   "c": "of"
+  },
+  {
+   "a": "RDMO",
+   "en": "Rig Down and Move Out",
+   "ar": "تفكيك البرج ونقله",
+   "c": "dr"
+  },
+  {
+   "a": "REG",
+   "en": "Regular (connection)",
+   "ar": "وصلة Regular",
+   "c": "dr",
+   "n": "وصلة البتات غالباً (مثل 6⅝ REG)."
+  },
+  {
+   "a": "RF",
+   "en": "Recovery Factor",
+   "ar": "معامل الاستخلاص",
+   "c": "re"
+  },
+  {
+   "a": "RFCC",
+   "en": "Residue Fluid Catalytic Cracking",
+   "ar": "التكسير الحفزي المائع للمتبقي",
+   "c": "gs"
+  },
+  {
+   "a": "RFT",
+   "en": "Repeat Formation Tester",
+   "ar": "فاحص الطبقة المتكرر",
+   "c": "lg"
+  },
+  {
+   "a": "RHOB",
+   "en": "Bulk Density",
+   "ar": "الكثافة الكلية",
+   "c": "lg",
+   "n": "قراءة مجس الكثافة."
+  },
+  {
+   "a": "RIH",
+   "en": "Run in Hole",
+   "ar": "إنزال الأنابيب للبئر",
+   "c": "dr"
+  },
+  {
+   "a": "RK",
+   "en": "Redlich-Kwong",
+   "ar": "معادلة حالة Redlich-Kwong",
+   "c": "re"
+  },
+  {
+   "a": "RKB",
+   "en": "Rotary Kelly Bushing",
+   "ar": "مرجع القياس عند طاولة الدوران",
+   "c": "dr",
+   "n": "نقطة الصفر لقياس الأعماق على أرضية البرج."
+  },
+  {
+   "a": "RM",
+   "en": "Mud Resistivity",
+   "ar": "مقاومية الطين",
+   "c": "lg"
+  },
+  {
+   "a": "RMC",
+   "en": "Mud Cake Resistivity",
+   "ar": "مقاومية كعكة الطين",
+   "c": "lg"
+  },
+  {
+   "a": "RMF",
+   "en": "Mud Filtrate Resistivity",
+   "ar": "مقاومية راشح الطين",
+   "c": "lg"
+  },
+  {
+   "a": "RMS",
+   "en": "Root Mean Square",
+   "ar": "الجذر التربيعي لمتوسط المربعات",
+   "c": "un"
+  },
+  {
+   "a": "RO",
+   "en": "Reverse Osmosis",
+   "ar": "التناضح العكسي",
+   "c": "pd",
+   "n": "لمعالجة المياه."
+  },
+  {
+   "a": "RO",
+   "en": "Ring Out",
+   "ar": "تآكل حلقي",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "ROC",
+   "en": "Retention on Cuttings",
+   "ar": "النفط المحتجز على الفتات",
+   "c": "fl"
+  },
+  {
+   "a": "RON",
+   "en": "Research Octane Number",
+   "ar": "رقم الأوكتان البحثي",
+   "c": "gs"
+  },
+  {
+   "a": "ROP",
+   "en": "Rate of Penetration",
+   "ar": "معدل الاختراق (سرعة الحفر)",
+   "c": "dr",
+   "n": "بالقدم أو المتر بالساعة."
+  },
+  {
+   "a": "ROS",
+   "en": "Residual Oil Saturation",
+   "ar": "التشبع النفطي المتبقي",
+   "c": "re"
+  },
+  {
+   "a": "ROSE",
+   "en": "Residual Oil Supercritical Extraction",
+   "ar": "الاستخلاص فوق الحرج للمتبقي",
+   "c": "gs"
+  },
+  {
+   "a": "ROTW",
+   "en": "Rotating Weight",
+   "ar": "الوزن أثناء الدوران",
+   "c": "dr"
+  },
+  {
+   "a": "ROV",
+   "en": "Remotely Operated Vehicle",
+   "ar": "مركبة تُدار عن بعد",
+   "c": "of"
+  },
+  {
+   "a": "RPM",
+   "en": "Relative Permeability Modifier",
+   "ar": "معدِّل النفاذية النسبية",
+   "c": "co",
+   "n": "لتقليل إنتاج الماء."
+  },
+  {
+   "a": "RPM",
+   "en": "Revolutions per Minute",
+   "ar": "عدد الدورات بالدقيقة",
+   "c": "dr",
+   "n": "سرعة دوران سلسلة الحفر أو البت."
+  },
+  {
+   "a": "RPSP",
+   "en": "Reduced Pump Stroke Pressure",
+   "ar": "ضغط المضخة بالمعدل المخفّض",
+   "c": "wc",
+   "n": "نفس ضغط الـ SCR."
+  },
+  {
+   "a": "RQI",
+   "en": "Reservoir Quality Index",
+   "ar": "مؤشر جودة المكمن",
+   "c": "re"
+  },
+  {
+   "a": "RS",
+   "en": "Solution Gas-Oil Ratio",
+   "ar": "نسبة الغاز المذاب للنفط",
+   "c": "re"
+  },
+  {
+   "a": "RSS",
+   "en": "Rotary Steerable System",
+   "ar": "نظام التوجيه الدوّار",
+   "c": "dr",
+   "n": "يوجّه البئر والأنابيب كلها تدور."
+  },
+  {
+   "a": "RST",
+   "en": "Reservoir Saturation Tool",
+   "ar": "أداة تشبع المكمن",
+   "c": "lg"
+  },
+  {
+   "a": "RSV",
+   "en": "Rising Stem Valve",
+   "ar": "صمام بساق صاعد",
+   "c": "co"
+  },
+  {
+   "a": "RT",
+   "en": "Rotary Table",
+   "ar": "طاولة الدوران",
+   "c": "dr",
+   "n": "وتستخدم كمرجع عمق (Below RT)."
+  },
+  {
+   "a": "RT",
+   "en": "True Formation Resistivity",
+   "ar": "مقاومية الطبقة الحقيقية",
+   "c": "lg"
+  },
+  {
+   "a": "RTA",
+   "en": "Rate Transient Analysis",
+   "ar": "تحليل المعدل العابر",
+   "c": "re"
+  },
+  {
+   "a": "RTOC",
+   "en": "Real-Time Operations Center",
+   "ar": "مركز العمليات بالوقت الحقيقي",
+   "c": "gen"
+  },
+  {
+   "a": "RTTS",
+   "en": "Retrievable Test-Treat-Squeeze (packer)",
+   "ar": "حشوة قابلة للاسترجاع للفحص والمعالجة والعصر",
+   "c": "co"
+  },
+  {
+   "a": "RVP",
+   "en": "Reid Vapor Pressure",
+   "ar": "ضغط بخار ريد",
+   "c": "gs"
+  },
+  {
+   "a": "RW",
+   "en": "Formation Water Resistivity",
+   "ar": "مقاومية ماء الطبقة",
+   "c": "lg"
+  },
+  {
+   "a": "RWC",
+   "en": "Restricted Work Case",
+   "ar": "حالة عمل مقيّد",
+   "c": "hs"
+  },
+  {
+   "a": "RWD",
+   "en": "Reaming While Drilling",
+   "ar": "التوسيع أثناء الحفر",
+   "c": "dr"
+  },
+  {
+   "a": "RXO",
+   "en": "Flushed Zone Resistivity",
+   "ar": "مقاومية المنطقة المغسولة",
+   "c": "lg"
+  },
+  {
+   "a": "S/O",
+   "en": "Slack Off",
+   "ar": "إنزال (الوزن عند النزول)",
+   "c": "dr"
+  },
+  {
+   "a": "SAE",
+   "en": "Society of Automotive Engineers",
+   "ar": "جمعية مهندسي السيارات",
+   "c": "org"
+  },
+  {
+   "a": "SAGD",
+   "en": "Steam-Assisted Gravity Drainage",
+   "ar": "التصريف بالجاذبية بمساعدة البخار",
+   "c": "re"
+  },
+  {
+   "a": "SALM",
+   "en": "Single Anchor Leg Mooring",
+   "ar": "رباط بساق مرساة واحدة",
+   "c": "of"
+  },
+  {
+   "a": "SAPP",
+   "en": "Sodium Acid Pyrophosphate",
+   "ar": "بيروفوسفات الصوديوم الحامضي",
+   "c": "fl",
+   "n": "معالجة تلوث الإسمنت."
+  },
+  {
+   "a": "SARA",
+   "en": "Saturates, Aromatics, Resins, Asphaltenes",
+   "ar": "مشبعات، عطريات، راتنجات، أسفلتينات",
+   "c": "re",
+   "n": "تحليل مكونات النفط الخام."
+  },
+  {
+   "a": "SAS",
+   "en": "Stand-Alone Screen",
+   "ar": "مصفاة ذاتية",
+   "c": "co"
+  },
+  {
+   "a": "SBHP",
+   "en": "Static Bottom Hole Pressure",
+   "ar": "ضغط القاع الساكن",
+   "c": "pd"
+  },
+  {
+   "a": "SBM",
+   "en": "Single Buoy Mooring",
+   "ar": "رباط بعوامة واحدة",
+   "c": "of"
+  },
+  {
+   "a": "SBM",
+   "en": "Synthetic-Based Mud",
+   "ar": "طين صناعي الأساس",
+   "c": "fl"
+  },
+  {
+   "a": "SBP",
+   "en": "Surface Back Pressure",
+   "ar": "الضغط السطحي الخلفي",
+   "c": "dr"
+  },
+  {
+   "a": "SBR",
+   "en": "Shear Blind Ram",
+   "ar": "رام قاص أعمى",
+   "c": "wc",
+   "n": "(وبالمطاط: Styrene-Butadiene Rubber)."
+  },
+  {
+   "a": "SCADA",
+   "en": "Supervisory Control and Data Acquisition",
+   "ar": "نظام المراقبة والتحكم وجمع البيانات",
+   "c": "gen"
+  },
+  {
+   "a": "SCAL",
+   "en": "Special Core Analysis",
+   "ar": "التحليل الخاص للباب",
+   "c": "lg",
+   "n": "ضغط شعري ونفاذية نسبية."
+  },
+  {
+   "a": "SCBA",
+   "en": "Self-Contained Breathing Apparatus",
+   "ar": "جهاز تنفس مستقل",
+   "c": "hs"
+  },
+  {
+   "a": "SCC",
+   "en": "Stress Corrosion Cracking",
+   "ar": "التشقق الإجهادي التآكلي",
+   "c": "cs"
+  },
+  {
+   "a": "SCE",
+   "en": "Safety Critical Element",
+   "ar": "عنصر حرج للسلامة",
+   "c": "hs",
+   "n": "(وبالطين: معدات فصل المواد الصلبة)."
+  },
+  {
+   "a": "SCE",
+   "en": "Solids Control Equipment",
+   "ar": "معدات فصل المواد الصلبة",
+   "c": "fl",
+   "n": "هزازات، Desander، Desilter، Centrifuge."
+  },
+  {
+   "a": "SCF",
+   "en": "Standard Cubic Foot",
+   "ar": "قدم مكعب قياسي",
+   "c": "un"
+  },
+  {
+   "a": "SCMT",
+   "en": "Slim Cement Mapping Tool",
+   "ar": "أداة تخطيط الإسمنت النحيفة",
+   "c": "lg"
+  },
+  {
+   "a": "SCN",
+   "en": "Single Carbon Number",
+   "ar": "رقم كاربون مفرد",
+   "c": "re"
+  },
+  {
+   "a": "SCP",
+   "en": "Sustained Casing Pressure",
+   "ar": "ضغط التغليف المستمر",
+   "c": "cs",
+   "n": "ضغط حلقي يرجع بعد النزف."
+  },
+  {
+   "a": "SCR",
+   "en": "Silicon Controlled Rectifier",
+   "ar": "مقوّم التحكم السيليكوني",
+   "c": "dr",
+   "n": "نظام تحكم كهربائي لمحركات البرج (DC)."
+  },
+  {
+   "a": "SCR",
+   "en": "Slow Circulating Rate",
+   "ar": "معدل الدوران البطيء",
+   "c": "wc",
+   "n": "ضغط المضخة بمعدل القتل (ويسمى RPSP)."
+  },
+  {
+   "a": "SCR",
+   "en": "Steel Catenary Riser",
+   "ar": "رايزر فولاذي سلسلي",
+   "c": "of"
+  },
+  {
+   "a": "SCSSSV",
+   "en": "Surface-Controlled Subsurface Safety Valve",
+   "ar": "صمام أمان تحت سطحي يُتحكم بيه من السطح",
+   "c": "co"
+  },
+  {
+   "a": "SCSSV",
+   "en": "Surface-Controlled Subsurface Safety Valve",
+   "ar": "صمام أمان تحت سطحي يُتحكم بيه من السطح",
+   "c": "co"
+  },
+  {
+   "a": "SDC",
+   "en": "Spiral Drill Collar",
+   "ar": "ثقل حفر حلزوني",
+   "c": "dr"
+  },
+  {
+   "a": "SDO",
+   "en": "Shut Down for Orders",
+   "ar": "توقف بانتظار التعليمات",
+   "c": "gen"
+  },
+  {
+   "a": "SDS",
+   "en": "Safety Data Sheet",
+   "ar": "صحيفة بيانات السلامة",
+   "c": "hs"
+  },
+  {
+   "a": "SEG",
+   "en": "Society of Exploration Geophysicists",
+   "ar": "جمعية الجيوفيزيائيين الاستكشافيين",
+   "c": "org"
+  },
+  {
+   "a": "SEM",
+   "en": "Scanning Electron Microscopy",
+   "ar": "المجهر الإلكتروني الماسح",
+   "c": "lg",
+   "n": "لدراسة عينات الصخور."
+  },
+  {
+   "a": "SF",
+   "en": "Safety Factor",
+   "ar": "معامل الأمان",
+   "c": "cs"
+  },
+  {
+   "a": "SF",
+   "en": "Separation Factor",
+   "ar": "معامل الفصل",
+   "c": "dr",
+   "n": "بحسابات منع التصادم."
+  },
+  {
+   "a": "SFL",
+   "en": "Spherically Focused Log",
+   "ar": "مجس مركّز كروياً",
+   "c": "lg"
+  },
+  {
+   "a": "SFS",
+   "en": "Saybolt Furol Seconds",
+   "ar": "ثواني سايبولت فيورول",
+   "c": "un"
+  },
+  {
+   "a": "SG",
+   "en": "Show of Gas",
+   "ar": "شاهد غاز",
+   "c": "lg"
+  },
+  {
+   "a": "SG",
+   "en": "Specific Gravity",
+   "ar": "الكثافة النسبية",
+   "c": "un"
+  },
+  {
+   "a": "SGC",
+   "en": "Critical Gas Saturation",
+   "ar": "تشبع الغاز الحرج",
+   "c": "re"
+  },
+  {
+   "a": "SGK",
+   "en": "Shallow Gas Kick",
+   "ar": "رفسة غاز ضحل",
+   "c": "wc"
+  },
+  {
+   "a": "SGR",
+   "en": "Spectral Gamma Ray",
+   "ar": "أشعة كاما الطيفية",
+   "c": "lg",
+   "n": "يفصل البوتاسيوم واليورانيوم والثوريوم."
+  },
+  {
+   "a": "SHMAX",
+   "en": "Maximum Horizontal Stress",
+   "ar": "الإجهاد الأفقي الأقصى",
+   "c": "wc"
+  },
+  {
+   "a": "SHMIN",
+   "en": "Minimum Horizontal Stress",
+   "ar": "الإجهاد الأفقي الأدنى",
+   "c": "wc"
+  },
+  {
+   "a": "SI",
+   "en": "Saturation Index",
+   "ar": "مؤشر التشبع",
+   "c": "pd",
+   "n": "للتنبؤ بالترسبات (Scale)."
+  },
+  {
+   "a": "SI",
+   "en": "Shut-In",
+   "ar": "إغلاق البئر",
+   "c": "wc"
+  },
+  {
+   "a": "SICP",
+   "en": "Shut-In Casing Pressure",
+   "ar": "ضغط التغليف (الحلقة) بعد الإغلاق",
+   "c": "wc"
+  },
+  {
+   "a": "SIDP",
+   "en": "Shut-In Drill Pipe (pressure)",
+   "ar": "ضغط أنابيب الحفر المغلق",
+   "c": "wc"
+  },
+  {
+   "a": "SIDPP",
+   "en": "Shut-In Drill Pipe Pressure",
+   "ar": "ضغط أنابيب الحفر بعد الإغلاق",
+   "c": "wc",
+   "n": "يستخدم لحساب وزن طين القتل."
+  },
+  {
+   "a": "SIL",
+   "en": "Safety Integrity Level",
+   "ar": "مستوى سلامة النظام",
+   "c": "hs"
+  },
+  {
+   "a": "SIMOPS",
+   "en": "Simultaneous Operations",
+   "ar": "العمليات المتزامنة",
+   "c": "hs"
+  },
+  {
+   "a": "SIP",
+   "en": "Selective Inflow Performance",
+   "ar": "أداء التدفق الانتقائي",
+   "c": "lg"
+  },
+  {
+   "a": "SIS",
+   "en": "Safety Instrumented System",
+   "ar": "نظام السلامة الآلي",
+   "c": "hs"
+  },
+  {
+   "a": "SITHP",
+   "en": "Shut-In Tubing Head Pressure",
+   "ar": "ضغط رأس الأنابيب المغلق",
+   "c": "pd"
+  },
+  {
+   "a": "SIWHP",
+   "en": "Shut-In Wellhead Pressure",
+   "ar": "ضغط رأس البئر المغلق",
+   "c": "pd"
+  },
+  {
+   "a": "SK",
+   "en": "Sack (of cement)",
+   "ar": "كيس (إسمنت 94 باوند)",
+   "c": "un"
+  },
+  {
+   "a": "SL",
+   "en": "Slickline",
+   "ar": "السلك الرفيع",
+   "c": "co"
+  },
+  {
+   "a": "SL",
+   "en": "Sonic Log",
+   "ar": "المجس الصوتي",
+   "c": "lg"
+  },
+  {
+   "a": "SMLS",
+   "en": "Seamless",
+   "ar": "بدون لحام",
+   "c": "cs"
+  },
+  {
+   "a": "SMR",
+   "en": "Steam Methane Reforming",
+   "ar": "إعادة تشكيل الميثان بالبخار",
+   "c": "gs"
+  },
+  {
+   "a": "SMYS",
+   "en": "Specified Minimum Yield Strength",
+   "ar": "أقل مقاومة خضوع محددة",
+   "c": "cs"
+  },
+  {
+   "a": "SNG",
+   "en": "Synthetic (Substitute) Natural Gas",
+   "ar": "غاز طبيعي بديل",
+   "c": "gs"
+  },
+  {
+   "a": "SO",
+   "en": "Show of Oil",
+   "ar": "شاهد نفط",
+   "c": "lg",
+   "n": "بتقارير الـ Mud logging."
+  },
+  {
+   "a": "SO&G",
+   "en": "Show of Oil and Gas",
+   "ar": "شاهد نفط وغاز",
+   "c": "lg"
+  },
+  {
+   "a": "SOBM",
+   "en": "Synthetic Oil-Based Mud",
+   "ar": "طين بأساس زيت صناعي",
+   "c": "fl"
+  },
+  {
+   "a": "SOHIC",
+   "en": "Stress-Oriented Hydrogen-Induced Cracking",
+   "ar": "تشقق هيدروجيني موجّه بالإجهاد",
+   "c": "cs"
+  },
+  {
+   "a": "SOLAS",
+   "en": "Safety of Life at Sea",
+   "ar": "سلامة الأرواح بالبحر",
+   "c": "org"
+  },
+  {
+   "a": "SOMO",
+   "en": "State Organization for Marketing of Oil",
+   "ar": "شركة تسويق النفط (سومو)",
+   "c": "gen"
+  },
+  {
+   "a": "SOR",
+   "en": "Residual Oil Saturation",
+   "ar": "التشبع النفطي المتبقي",
+   "c": "re",
+   "n": "(وبالبخار: Steam-Oil Ratio)."
+  },
+  {
+   "a": "SOW",
+   "en": "Slack-Off Weight",
+   "ar": "وزن الإنزال",
+   "c": "dr"
+  },
+  {
+   "a": "SP",
+   "en": "Spontaneous Potential",
+   "ar": "الجهد الذاتي",
+   "c": "lg",
+   "n": "يحدد الطبقات النفاذة ويحسب Rw."
+  },
+  {
+   "a": "SP",
+   "en": "Surfactant-Polymer",
+   "ar": "مادة سطحية-بوليمر",
+   "c": "re",
+   "n": "طريقة استخلاص كيمياوي."
+  },
+  {
+   "a": "SPE",
+   "en": "Society of Petroleum Engineers",
+   "ar": "جمعية مهندسي البترول",
+   "c": "org"
+  },
+  {
+   "a": "SPF",
+   "en": "Shots per Foot",
+   "ar": "عدد الثقوب بالقدم",
+   "c": "co"
+  },
+  {
+   "a": "SPM",
+   "en": "Side Pocket Mandrel",
+   "ar": "مندريل الجيب الجانبي",
+   "c": "co",
+   "n": "يحمل صمام الـ Gas lift."
+  },
+  {
+   "a": "SPM",
+   "en": "Single Point Mooring",
+   "ar": "رباط بنقطة واحدة",
+   "c": "of"
+  },
+  {
+   "a": "SPM",
+   "en": "Strokes per Minute",
+   "ar": "عدد أشواط المضخة بالدقيقة",
+   "c": "dr"
+  },
+  {
+   "a": "SPP",
+   "en": "Standpipe Pressure",
+   "ar": "ضغط الـ Standpipe",
+   "c": "dr",
+   "n": "ضغط الضخ المقروء على الأرضية."
+  },
+  {
+   "a": "SPUD",
+   "en": "Spud (start of drilling)",
+   "ar": "بدء حفر البئر",
+   "c": "dr"
+  },
+  {
+   "a": "SPWLA",
+   "en": "Society of Petrophysicists and Well Log Analysts",
+   "ar": "جمعية البتروفيزيائيين ومحللي المجسات",
+   "c": "org"
+  },
+  {
+   "a": "SR",
+   "en": "Short Radius",
+   "ar": "نصف قطر قصير",
+   "c": "dr"
+  },
+  {
+   "a": "SRB",
+   "en": "Sulfate-Reducing Bacteria",
+   "ar": "بكتيريا مختزلة للكبريتات",
+   "c": "hs",
+   "n": "تسبب تآكل ميكروبي وتولد H₂S."
+  },
+  {
+   "a": "SRGO",
+   "en": "Straight-Run Gas Oil",
+   "ar": "زيت غاز التقطير المباشر",
+   "c": "gs"
+  },
+  {
+   "a": "SRK",
+   "en": "Soave-Redlich-Kwong",
+   "ar": "معادلة حالة SRK",
+   "c": "re"
+  },
+  {
+   "a": "SRP",
+   "en": "Sucker Rod Pump",
+   "ar": "مضخة القضبان الماصة",
+   "c": "pd"
+  },
+  {
+   "a": "SRU",
+   "en": "Sulfur Recovery Unit",
+   "ar": "وحدة استرجاع الكبريت",
+   "c": "gs"
+  },
+  {
+   "a": "SRV",
+   "en": "Stimulated Reservoir Volume",
+   "ar": "حجم المكمن المحفَّز",
+   "c": "re"
+  },
+  {
+   "a": "SS",
+   "en": "Semi-Submersible",
+   "ar": "منصة شبه غاطسة",
+   "c": "of"
+  },
+  {
+   "a": "SS",
+   "en": "Stick-Slip",
+   "ar": "اهتزاز التوائي (توقف-انزلاق)",
+   "c": "dr",
+   "n": "(وبالبحري: Semi-Submersible)."
+  },
+  {
+   "a": "SSC",
+   "en": "Sulfide Stress Cracking",
+   "ar": "التشقق الإجهادي الكبريتي",
+   "c": "cs",
+   "n": "يصيب الفولاذ الصلد بوجود H₂S."
+  },
+  {
+   "a": "SSD",
+   "en": "Sliding Side Door",
+   "ar": "الكم المنزلق",
+   "c": "co",
+   "n": "يوصل الأنابيب بالحلقة."
+  },
+  {
+   "a": "SSI",
+   "en": "Soft Shut-In",
+   "ar": "الإغلاق اللين",
+   "c": "wc",
+   "n": "الخانق مفتوح قبل إغلاق الـ BOP."
+  },
+  {
+   "a": "SSO",
+   "en": "Slight Show of Oil",
+   "ar": "شاهد نفط خفيف",
+   "c": "lg"
+  },
+  {
+   "a": "SSOW",
+   "en": "Safe System of Work",
+   "ar": "نظام العمل الآمن",
+   "c": "hs"
+  },
+  {
+   "a": "SSP",
+   "en": "Static Spontaneous Potential",
+   "ar": "الجهد الذاتي الساكن",
+   "c": "lg"
+  },
+  {
+   "a": "SSSV",
+   "en": "Subsurface Safety Valve",
+   "ar": "صمام الأمان تحت السطحي",
+   "c": "co"
+  },
+  {
+   "a": "SSV",
+   "en": "Surface Safety Valve",
+   "ar": "صمام الأمان السطحي",
+   "c": "co"
+  },
+  {
+   "a": "SSV",
+   "en": "Surface Support Vessel",
+   "ar": "سفينة إسناد سطحي",
+   "c": "of"
+  },
+  {
+   "a": "SSXT",
+   "en": "Subsea Christmas Tree",
+   "ar": "شجرة إنتاج تحت البحر",
+   "c": "of"
+  },
+  {
+   "a": "ST",
+   "en": "Sidetrack",
+   "ar": "حفر جانبي",
+   "c": "dr"
+  },
+  {
+   "a": "ST&C",
+   "en": "Short Thread and Coupling",
+   "ar": "وصلة تغليف بسن قصير",
+   "c": "cs"
+  },
+  {
+   "a": "STB",
+   "en": "Stabilizer",
+   "ar": "مثبّت",
+   "c": "dr",
+   "n": "(وبالإنتاج STB = برميل خزن)."
+  },
+  {
+   "a": "STB",
+   "en": "Stock Tank Barrel",
+   "ar": "برميل خزن (بالظروف القياسية)",
+   "c": "un"
+  },
+  {
+   "a": "STBD",
+   "en": "Stock Tank Barrels per Day",
+   "ar": "برميل خزن باليوم",
+   "c": "un"
+  },
+  {
+   "a": "STC",
+   "en": "Short Thread and Coupling",
+   "ar": "وصلة تغليف بسن قصير",
+   "c": "cs"
+  },
+  {
+   "a": "STEL",
+   "en": "Short-Term Exposure Limit",
+   "ar": "حد التعرض قصير الأمد",
+   "c": "hs",
+   "n": "15 دقيقة."
+  },
+  {
+   "a": "STG",
+   "en": "Short Trip Gas",
+   "ar": "غاز الرحلة القصيرة",
+   "c": "lg"
+  },
+  {
+   "a": "STOIIP",
+   "en": "Stock Tank Oil Initially in Place",
+   "ar": "النفط الأصلي بالمكمن بظروف الخزان السطحي",
+   "c": "re"
+  },
+  {
+   "a": "STOP",
+   "en": "Safety Training Observation Program",
+   "ar": "برنامج الملاحظة للسلامة (بطاقة STOP)",
+   "c": "hs"
+  },
+  {
+   "a": "STS",
+   "en": "Surface to Bit Strokes",
+   "ar": "أشواط من السطح للبت",
+   "c": "wc"
+  },
+  {
+   "a": "SURF",
+   "en": "Subsea Umbilicals, Risers and Flowlines",
+   "ar": "الحبال السرّية والرايزرات والخطوط تحت البحر",
+   "c": "of"
+  },
+  {
+   "a": "SUS",
+   "en": "Saybolt Universal Seconds",
+   "ar": "ثواني سايبولت العامة",
+   "c": "un",
+   "n": "وحدة لزوجة."
+  },
+  {
+   "a": "SV",
+   "en": "Standing Valve",
+   "ar": "الصمام الثابت",
+   "c": "pd",
+   "n": "بمضخة القضبان، وبسلسلة الإكمال."
+  },
+  {
+   "a": "SV",
+   "en": "Swab Valve",
+   "ar": "صمام السحب (العلوي)",
+   "c": "co"
+  },
+  {
+   "a": "SW",
+   "en": "Water Saturation",
+   "ar": "التشبع المائي",
+   "c": "lg",
+   "n": "يحسب بمعادلة Archie."
+  },
+  {
+   "a": "SWA",
+   "en": "Stop Work Authority",
+   "ar": "صلاحية إيقاف العمل",
+   "c": "hs"
+  },
+  {
+   "a": "SWAS",
+   "en": "Surface Well Access System",
+   "ar": "نظام الدخول السطحي للبئر",
+   "c": "of"
+  },
+  {
+   "a": "SWC",
+   "en": "Connate Water Saturation",
+   "ar": "تشبع الماء المتلازم",
+   "c": "re"
+  },
+  {
+   "a": "SWC",
+   "en": "Sidewall Core",
+   "ar": "لباب جداري",
+   "c": "lg"
+  },
+  {
+   "a": "SWCTT",
+   "en": "Single-Well Chemical Tracer Test",
+   "ar": "اختبار المقتفي الكيمياوي ببئر واحد",
+   "c": "re",
+   "n": "يقيس التشبع النفطي المتبقي."
+  },
+  {
+   "a": "SWI",
+   "en": "Irreducible Water Saturation",
+   "ar": "التشبع المائي غير القابل للإزاحة",
+   "c": "lg"
+  },
+  {
+   "a": "SWL",
+   "en": "Safe Working Load",
+   "ar": "حمل العمل الآمن",
+   "c": "hs"
+  },
+  {
+   "a": "SWOB",
+   "en": "Surface Weight on Bit",
+   "ar": "الوزن السطحي على البت",
+   "c": "dr"
+  },
+  {
+   "a": "SXO",
+   "en": "Flushed Zone Water Saturation",
+   "ar": "تشبع المنطقة المغسولة",
+   "c": "lg"
+  },
+  {
+   "a": "T&D",
+   "en": "Torque and Drag",
+   "ar": "العزم والسحب",
+   "c": "dr",
+   "n": "الاحتكاك بالآبار المائلة."
+  },
+  {
+   "a": "TAML",
+   "en": "Technology Advancement of Multilaterals",
+   "ar": "تصنيف الآبار متعددة الأفرع",
+   "c": "co",
+   "n": "المستويات 1–6."
+  },
+  {
+   "a": "TAN",
+   "en": "Total Acid Number",
+   "ar": "الرقم الحامضي الكلي",
+   "c": "gs"
+  },
+  {
+   "a": "TB",
+   "en": "Tie-Back",
+   "ar": "ربط البطانة للسطح",
+   "c": "cs"
+  },
+  {
+   "a": "TBG",
+   "en": "Tubing",
+   "ar": "أنابيب الإنتاج",
+   "c": "co"
+  },
+  {
+   "a": "TBP",
+   "en": "True Boiling Point",
+   "ar": "نقطة الغليان الحقيقية",
+   "c": "gs"
+  },
+  {
+   "a": "TBR",
+   "en": "Trickle Bed Reactor",
+   "ar": "مفاعل السرير المتقاطر",
+   "c": "gs"
+  },
+  {
+   "a": "TBS",
+   "en": "Tie-Back Sleeve",
+   "ar": "كم الربط الخلفي",
+   "c": "cs"
+  },
+  {
+   "a": "TBT",
+   "en": "Toolbox Talk",
+   "ar": "اجتماع السلامة قبل العمل",
+   "c": "hs"
+  },
+  {
+   "a": "TCC",
+   "en": "Thermomechanical Cuttings Cleaner",
+   "ar": "منظف الفتات الحراري",
+   "c": "fl"
+  },
+  {
+   "a": "TCF",
+   "en": "Trillion Cubic Feet",
+   "ar": "ترليون قدم مكعب",
+   "c": "un"
+  },
+  {
+   "a": "TCI",
+   "en": "Tungsten Carbide Insert",
+   "ar": "بت بإدخالات كاربيد التنكستن",
+   "c": "dr",
+   "n": "بت مخروطي للطبقات المتوسطة والصلبة."
+  },
+  {
+   "a": "TCP",
+   "en": "Tubing Conveyed Perforating",
+   "ar": "التثقيب المحمول على الأنابيب",
+   "c": "co"
+  },
+  {
+   "a": "TD",
+   "en": "Total Depth",
+   "ar": "العمق الكلي",
+   "c": "dr",
+   "n": "العمق النهائي المخطط أو المحفور للبئر أو للمقطع."
+  },
+  {
+   "a": "TDH",
+   "en": "Total Dynamic Head",
+   "ar": "الرفع الديناميكي الكلي",
+   "c": "pd",
+   "n": "لتصميم الـ ESP."
+  },
+  {
+   "a": "TDS",
+   "en": "Top Drive System",
+   "ar": "نظام التدوير العلوي",
+   "c": "dr"
+  },
+  {
+   "a": "TDS",
+   "en": "Total Dissolved Solids",
+   "ar": "المواد الصلبة الذائبة الكلية",
+   "c": "fl",
+   "n": "ملوحة الماء (mg/L)."
+  },
+  {
+   "a": "TDT",
+   "en": "Thermal Decay Time",
+   "ar": "زمن الاضمحلال الحراري",
+   "c": "lg",
+   "n": "مجس نيوتروني نبضي خلف التغليف."
+  },
+  {
+   "a": "TEG",
+   "en": "Triethylene Glycol",
+   "ar": "ثلاثي إيثيلين كلايكول",
+   "c": "gs",
+   "n": "لتجفيف الغاز."
+  },
+  {
+   "a": "TF",
+   "en": "Toolface",
+   "ar": "وجه الأداة",
+   "c": "dr",
+   "n": "الاتجاه اللي يأشر عليه انحناء الموتور."
+  },
+  {
+   "a": "TFA",
+   "en": "Total Flow Area",
+   "ar": "مساحة الجريان الكلية",
+   "c": "dr",
+   "n": "مجموع مساحات فتحات البت (in²)."
+  },
+  {
+   "a": "TFL",
+   "en": "Through Flow Line",
+   "ar": "عبر خط الجريان",
+   "c": "co",
+   "n": "صيانة آبار تحت البحر بأدوات مضخوخة."
+  },
+  {
+   "a": "TG",
+   "en": "Total Gas / Trip Gas",
+   "ar": "الغاز الكلي / غاز الرحلة",
+   "c": "lg"
+  },
+  {
+   "a": "TH",
+   "en": "Tubing Hanger",
+   "ar": "معلّاق الأنابيب",
+   "c": "co"
+  },
+  {
+   "a": "THP",
+   "en": "Tubing Head Pressure",
+   "ar": "ضغط رأس الأنابيب",
+   "c": "pd"
+  },
+  {
+   "a": "THRT",
+   "en": "Tubing Hanger Running Tool",
+   "ar": "أداة إنزال معلّاق الأنابيب",
+   "c": "co"
+  },
+  {
+   "a": "THS",
+   "en": "Tubing Head Spool",
+   "ar": "بكرة رأس الأنابيب",
+   "c": "co"
+  },
+  {
+   "a": "TIH",
+   "en": "Trip in Hole",
+   "ar": "رحلة إنزال",
+   "c": "dr"
+  },
+  {
+   "a": "TJ",
+   "en": "Tool Joint",
+   "ar": "وصلة أنبوب الحفر",
+   "c": "dr"
+  },
+  {
+   "a": "TLC",
+   "en": "Tough Logging Conditions",
+   "ar": "التسجيل بالظروف الصعبة",
+   "c": "lg",
+   "n": "إنزال المجسات على أنابيب الحفر."
+  },
+  {
+   "a": "TLP",
+   "en": "Tension Leg Platform",
+   "ar": "منصة مشدودة الأرجل",
+   "c": "of"
+  },
+  {
+   "a": "TMD",
+   "en": "Total Measured Depth",
+   "ar": "العمق المقاس الكلي",
+   "c": "dr"
+  },
+  {
+   "a": "TOC",
+   "en": "Top of Cement",
+   "ar": "قمة الإسمنت",
+   "c": "cs",
+   "n": "(وبالجيوكيمياء: الكاربون العضوي الكلي)."
+  },
+  {
+   "a": "TOC",
+   "en": "Total Organic Carbon",
+   "ar": "الكاربون العضوي الكلي",
+   "c": "re",
+   "n": "مؤشر غنى صخرة المصدر."
+  },
+  {
+   "a": "TOF",
+   "en": "Top of Fish",
+   "ar": "قمة السمكة",
+   "c": "dr",
+   "n": "عمق أعلى الأدوات العالقة."
+  },
+  {
+   "a": "TOH",
+   "en": "Trip out of Hole",
+   "ar": "رحلة سحب",
+   "c": "dr"
+  },
+  {
+   "a": "TOL",
+   "en": "Top of Liner",
+   "ar": "قمة البطانة",
+   "c": "cs"
+  },
+  {
+   "a": "TP",
+   "en": "Tool Pusher",
+   "ar": "مسؤول البرج",
+   "c": "gen",
+   "n": "من جهة مقاول الحفر."
+  },
+  {
+   "a": "TPO",
+   "en": "Tubing Pressure Operated (valve)",
+   "ar": "صمام يعمل بضغط الأنابيب",
+   "c": "pd"
+  },
+  {
+   "a": "TPR",
+   "en": "Tubing Performance Relationship",
+   "ar": "علاقة أداء الأنابيب",
+   "c": "pd"
+  },
+  {
+   "a": "TQ",
+   "en": "Torque",
+   "ar": "العزم",
+   "c": "dr"
+  },
+  {
+   "a": "TRIR",
+   "en": "Total Recordable Incident Rate",
+   "ar": "معدل الحوادث المسجلة الكلي",
+   "c": "hs"
+  },
+  {
+   "a": "TRSSSV",
+   "en": "Tubing-Retrievable Subsurface Safety Valve",
+   "ar": "صمام أمان يُسترجع ويا الأنابيب",
+   "c": "co"
+  },
+  {
+   "a": "TS",
+   "en": "Tensile Strength",
+   "ar": "مقاومة الشد",
+   "c": "cs"
+  },
+  {
+   "a": "TSC",
+   "en": "Technical Service Contract",
+   "ar": "عقد الخدمة الفنية",
+   "c": "gen"
+  },
+  {
+   "a": "TSP",
+   "en": "Thermally Stable Polycrystalline",
+   "ar": "ماس متعدد البلورات مستقر حرارياً",
+   "c": "dr"
+  },
+  {
+   "a": "TST",
+   "en": "True Stratigraphic Thickness",
+   "ar": "السمك الطبقي الحقيقي",
+   "c": "lg"
+  },
+  {
+   "a": "TT",
+   "en": "Thickening Time",
+   "ar": "وقت تثخّن الإسمنت",
+   "c": "cs",
+   "n": "(وبالمجسات: زمن العبور)."
+  },
+  {
+   "a": "TT",
+   "en": "Transit Time",
+   "ar": "زمن العبور",
+   "c": "lg"
+  },
+  {
+   "a": "TV",
+   "en": "Traveling Valve",
+   "ar": "الصمام المتحرك",
+   "c": "pd",
+   "n": "بمضخة القضبان."
+  },
+  {
+   "a": "TVD",
+   "en": "True Vertical Depth",
+   "ar": "العمق العمودي الحقيقي",
+   "c": "dr",
+   "n": "المسافة العمودية من السطح؛ هو اللي يدخل بحساب الضغط الهيدروستاتيكي."
+  },
+  {
+   "a": "TVDSS",
+   "en": "True Vertical Depth Subsea",
+   "ar": "العمق العمودي الحقيقي تحت مستوى سطح البحر",
+   "c": "dr"
+  },
+  {
+   "a": "TVT",
+   "en": "True Vertical Thickness",
+   "ar": "السمك العمودي الحقيقي",
+   "c": "lg"
+  },
+  {
+   "a": "TWA",
+   "en": "Time-Weighted Average",
+   "ar": "المتوسط الموزون زمنياً",
+   "c": "hs",
+   "n": "حد التعرض لـ 8 ساعات."
+  },
+  {
+   "a": "TWCV",
+   "en": "Two-Way Check Valve",
+   "ar": "صمام عدم رجوع باتجاهين",
+   "c": "co"
+  },
+  {
+   "a": "UBD",
+   "en": "Underbalanced Drilling",
+   "ar": "الحفر تحت التوازن",
+   "c": "dr"
+  },
+  {
+   "a": "UBI",
+   "en": "Ultrasonic Borehole Imager",
+   "ar": "مصوّر البئر فوق الصوتي",
+   "c": "lg"
+  },
+  {
+   "a": "UCA",
+   "en": "Ultrasonic Cement Analyzer",
+   "ar": "محلل الإسمنت فوق الصوتي",
+   "c": "cs",
+   "n": "يقيس تطور المقاومة بدون كسر."
+  },
+  {
+   "a": "UCS",
+   "en": "Unconfined Compressive Strength",
+   "ar": "مقاومة الانضغاط غير المحصورة",
+   "c": "dr",
+   "n": "مقياس صلابة الصخر."
+  },
+  {
+   "a": "UEL",
+   "en": "Upper Explosive Limit",
+   "ar": "الحد الأعلى للانفجار",
+   "c": "hs"
+  },
+  {
+   "a": "UGBO",
+   "en": "Underground Blowout",
+   "ar": "انفجار تحت سطحي",
+   "c": "wc"
+  },
+  {
+   "a": "ULCC",
+   "en": "Ultra Large Crude Carrier",
+   "ar": "ناقلة خام عملاقة جداً",
+   "c": "of"
+  },
+  {
+   "a": "ULSD",
+   "en": "Ultra-Low Sulfur Diesel",
+   "ar": "ديزل فائق انخفاض الكبريت",
+   "c": "gs"
+  },
+  {
+   "a": "UMV",
+   "en": "Upper Master Valve",
+   "ar": "الصمام الرئيسي العلوي",
+   "c": "co"
+  },
+  {
+   "a": "UOP",
+   "en": "Universal Oil Products",
+   "ar": "شركة UOP لتقنيات التكرير",
+   "c": "org"
+  },
+  {
+   "a": "UPR",
+   "en": "Upper Pipe Ram",
+   "ar": "رام الأنابيب العلوي",
+   "c": "wc"
+  },
+  {
+   "a": "UR",
+   "en": "Underreamer",
+   "ar": "موسّع تحتي",
+   "c": "dr"
+  },
+  {
+   "a": "USBM",
+   "en": "U.S. Bureau of Mines (wettability index)",
+   "ar": "مؤشر التبللية USBM",
+   "c": "re"
+  },
+  {
+   "a": "USDW",
+   "en": "Underground Source of Drinking Water",
+   "ar": "مصدر مياه شرب جوفي",
+   "c": "hs"
+  },
+  {
+   "a": "USGS",
+   "en": "United States Geological Survey",
+   "ar": "هيئة المسح الجيولوجي الأمريكية",
+   "c": "org"
+  },
+  {
+   "a": "USIT",
+   "en": "Ultrasonic Imager Tool",
+   "ar": "أداة التصوير فوق الصوتي",
+   "c": "lg"
+  },
+  {
+   "a": "UT",
+   "en": "Ultrasonic Testing",
+   "ar": "الفحص بالأمواج فوق الصوتية",
+   "c": "hs"
+  },
+  {
+   "a": "UTM",
+   "en": "Universal Transverse Mercator",
+   "ar": "نظام الإحداثيات UTM",
+   "c": "dr",
+   "n": "إحداثيات Easting و Northing بالمتر."
+  },
+  {
+   "a": "VBR",
+   "en": "Variable Bore Ram",
+   "ar": "رام متغير القطر",
+   "c": "wc"
+  },
+  {
+   "a": "VDL",
+   "en": "Variable Density Log",
+   "ar": "مجس الكثافة المتغيرة",
+   "c": "lg",
+   "n": "يعرض الموجة الكاملة ويا الـ CBL."
+  },
+  {
+   "a": "VDU",
+   "en": "Vacuum Distillation Unit",
+   "ar": "وحدة التقطير الفراغي",
+   "c": "gs"
+  },
+  {
+   "a": "VFD",
+   "en": "Variable Frequency Drive",
+   "ar": "مغيّر التردد",
+   "c": "dr",
+   "n": "نظام تحكم لمحركات AC بالبرج."
+  },
+  {
+   "a": "VGO",
+   "en": "Vacuum Gas Oil",
+   "ar": "زيت الغاز الفراغي",
+   "c": "gs"
+  },
+  {
+   "a": "VIT",
+   "en": "Vertical Interference Test",
+   "ar": "اختبار التداخل العمودي",
+   "c": "lg"
+  },
+  {
+   "a": "VIV",
+   "en": "Vortex-Induced Vibration",
+   "ar": "الاهتزاز المستحث بالدوامات",
+   "c": "of"
+  },
+  {
+   "a": "VLE",
+   "en": "Vapor-Liquid Equilibrium",
+   "ar": "توازن البخار والسائل",
+   "c": "re"
+  },
+  {
+   "a": "VLP",
+   "en": "Vertical Lift Performance",
+   "ar": "أداء الرفع العمودي",
+   "c": "pd"
+  },
+  {
+   "a": "VOC",
+   "en": "Volatile Organic Compounds",
+   "ar": "مركبات عضوية متطايرة",
+   "c": "hs"
+  },
+  {
+   "a": "VR",
+   "en": "Vacuum Residue",
+   "ar": "متبقي التقطير الفراغي",
+   "c": "gs"
+  },
+  {
+   "a": "VR",
+   "en": "Valve Removal (plug)",
+   "ar": "سدادة إزالة الصمام",
+   "c": "co",
+   "n": "بمنافذ رأس البئر."
+  },
+  {
+   "a": "VRR",
+   "en": "Voidage Replacement Ratio",
+   "ar": "نسبة تعويض الفراغ",
+   "c": "re"
+  },
+  {
+   "a": "VS",
+   "en": "Vertical Section",
+   "ar": "المقطع العمودي",
+   "c": "dr",
+   "n": "إسقاط الإزاحة الأفقية على اتجاه الهدف."
+  },
+  {
+   "a": "VSD",
+   "en": "Variable Speed Drive",
+   "ar": "مغيّر السرعة",
+   "c": "pd"
+  },
+  {
+   "a": "VSH",
+   "en": "Shale Volume",
+   "ar": "حجم الشيل",
+   "c": "lg",
+   "n": "يحسب من مجس الكاما."
+  },
+  {
+   "a": "VSP",
+   "en": "Vertical Seismic Profile",
+   "ar": "المقطع الزلزالي العمودي",
+   "c": "lg"
+  },
+  {
+   "a": "VSST",
+   "en": "Viscometer Sag Shoe Test",
+   "ar": "فحص ترسب الباريت",
+   "c": "fl"
+  },
+  {
+   "a": "W&W",
+   "en": "Wait and Weight (method)",
+   "ar": "طريقة الانتظار والتثقيل",
+   "c": "wc",
+   "n": "قتل البئر بدورة وحدة."
+  },
+  {
+   "a": "WABT",
+   "en": "Weighted Average Bed Temperature",
+   "ar": "متوسط حرارة السرير الموزون",
+   "c": "gs"
+  },
+  {
+   "a": "WAG",
+   "en": "Water Alternating Gas",
+   "ar": "حقن الماء والغاز بالتناوب",
+   "c": "re"
+  },
+  {
+   "a": "WAH",
+   "en": "Working at Height",
+   "ar": "العمل بالمرتفعات",
+   "c": "hs"
+  },
+  {
+   "a": "WAIT",
+   "en": "Weighted Average Inlet Temperature",
+   "ar": "متوسط حرارة الدخول الموزون",
+   "c": "gs"
+  },
+  {
+   "a": "WAT",
+   "en": "Wax Appearance Temperature",
+   "ar": "حرارة ظهور الشمع",
+   "c": "pd"
+  },
+  {
+   "a": "WBE",
+   "en": "Well Barrier Element",
+   "ar": "عنصر حاجز البئر",
+   "c": "hs"
+  },
+  {
+   "a": "WBM",
+   "en": "Water-Based Mud",
+   "ar": "طين مائي الأساس",
+   "c": "fl"
+  },
+  {
+   "a": "WBS",
+   "en": "Wellbore Stability",
+   "ar": "ثباتية جدار البئر",
+   "c": "wc",
+   "n": "(وبفحص الآبار: Wellbore Storage)."
+  },
+  {
+   "a": "WBS",
+   "en": "Wellbore Storage",
+   "ar": "خزن البئر",
+   "c": "re"
+  },
+  {
+   "a": "WC",
+   "en": "Water Cushion",
+   "ar": "وسادة الماء",
+   "c": "lg",
+   "n": "بفحص الـ DST."
+  },
+  {
+   "a": "WC",
+   "en": "Water Cut",
+   "ar": "نسبة الماء المنتج",
+   "c": "pd",
+   "n": "(وبالسيطرة: Well Control)."
+  },
+  {
+   "a": "WD",
+   "en": "Water Depth",
+   "ar": "عمق الماء",
+   "c": "of"
+  },
+  {
+   "a": "WEG",
+   "en": "Wireline Entry Guide",
+   "ar": "دليل دخول السلك",
+   "c": "co"
+  },
+  {
+   "a": "WF",
+   "en": "Waterflooding",
+   "ar": "الغمر بالماء",
+   "c": "re"
+  },
+  {
+   "a": "WFT",
+   "en": "Wireline Formation Tester",
+   "ar": "فاحص الطبقة بالواير لاين",
+   "c": "lg"
+  },
+  {
+   "a": "WH",
+   "en": "Wellhead",
+   "ar": "رأس البئر",
+   "c": "co"
+  },
+  {
+   "a": "WHCP",
+   "en": "Wellhead Control Panel",
+   "ar": "لوحة التحكم برأس البئر",
+   "c": "pd"
+  },
+  {
+   "a": "WHP",
+   "en": "Wellhead Pressure",
+   "ar": "ضغط رأس البئر",
+   "c": "pd"
+  },
+  {
+   "a": "WHSV",
+   "en": "Weight Hourly Space Velocity",
+   "ar": "السرعة الفراغية الساعية الوزنية",
+   "c": "gs"
+  },
+  {
+   "a": "WHT",
+   "en": "Wellhead Temperature",
+   "ar": "حرارة رأس البئر",
+   "c": "pd"
+  },
+  {
+   "a": "WI",
+   "en": "Wobbe Index",
+   "ar": "مؤشر ووب",
+   "c": "gs"
+  },
+  {
+   "a": "WI",
+   "en": "Working Interest",
+   "ar": "حصة التشغيل",
+   "c": "gen"
+  },
+  {
+   "a": "WIMS",
+   "en": "Well Integrity Management System",
+   "ar": "نظام إدارة سلامة الآبار",
+   "c": "hs"
+  },
+  {
+   "a": "WITSML",
+   "en": "Wellsite Information Transfer Standard Markup Language",
+   "ar": "معيار نقل بيانات موقع البئر",
+   "c": "gen"
+  },
+  {
+   "a": "WIW",
+   "en": "Water Injection Well",
+   "ar": "بئر حقن ماء",
+   "c": "re"
+  },
+  {
+   "a": "WL",
+   "en": "Wireline",
+   "ar": "السلك (الواير لاين)",
+   "c": "lg"
+  },
+  {
+   "a": "WLL",
+   "en": "Working Load Limit",
+   "ar": "حد حمل العمل",
+   "c": "hs"
+  },
+  {
+   "a": "WO",
+   "en": "Workover",
+   "ar": "صيانة الآبار",
+   "c": "co"
+  },
+  {
+   "a": "WOB",
+   "en": "Weight on Bit",
+   "ar": "الوزن على البت",
+   "c": "dr",
+   "n": "يجي من أثقال الحفر، مو من أنابيب الحفر."
+  },
+  {
+   "a": "WOC",
+   "en": "Waiting on Cement",
+   "ar": "انتظار تصلب الإسمنت",
+   "c": "cs"
+  },
+  {
+   "a": "WOC",
+   "en": "Water-Oil Contact",
+   "ar": "تماس الماء والنفط",
+   "c": "re"
+  },
+  {
+   "a": "WOCS",
+   "en": "Workover Control System",
+   "ar": "نظام التحكم بالصيانة",
+   "c": "co"
+  },
+  {
+   "a": "WOE",
+   "en": "Well Operating Envelope",
+   "ar": "حدود تشغيل البئر",
+   "c": "hs"
+  },
+  {
+   "a": "WOO",
+   "en": "Waiting on Orders",
+   "ar": "انتظار التعليمات",
+   "c": "dr"
+  },
+  {
+   "a": "WOR",
+   "en": "Water-Oil Ratio",
+   "ar": "نسبة الماء للنفط",
+   "c": "pd"
+  },
+  {
+   "a": "WOW",
+   "en": "Waiting on Weather",
+   "ar": "انتظار تحسن الطقس",
+   "c": "dr"
+  },
+  {
+   "a": "WPS",
+   "en": "Water Phase Salinity",
+   "ar": "ملوحة الطور المائي",
+   "c": "fl"
+  },
+  {
+   "a": "WRSSSV",
+   "en": "Wireline-Retrievable Subsurface Safety Valve",
+   "ar": "صمام أمان يُسترجع بالسلك",
+   "c": "co"
+  },
+  {
+   "a": "WSG",
+   "en": "Wellsite Geologist",
+   "ar": "جيولوجي الموقع",
+   "c": "gen"
+  },
+  {
+   "a": "WSIP",
+   "en": "Wellhead Shut-In Pressure",
+   "ar": "ضغط الإغلاق عند رأس البئر",
+   "c": "pd"
+  },
+  {
+   "a": "WSM",
+   "en": "Wellbore Strengthening Material",
+   "ar": "مواد تقوية جدار البئر",
+   "c": "fl"
+  },
+  {
+   "a": "WT",
+   "en": "Wall Thickness",
+   "ar": "سمك الجدار",
+   "c": "un"
+  },
+  {
+   "a": "WT",
+   "en": "Worn Teeth",
+   "ar": "أسنان متآكلة",
+   "c": "dr",
+   "n": "رمز تقييم تآكل البت."
+  },
+  {
+   "a": "WTI",
+   "en": "West Texas Intermediate",
+   "ar": "خام غرب تكساس الوسيط",
+   "c": "gen",
+   "n": "خام قياسي للتسعير."
+  },
+  {
+   "a": "WV",
+   "en": "Wing Valve",
+   "ar": "الصمام الجانبي",
+   "c": "co"
+  },
+  {
+   "a": "X-TREE",
+   "en": "Christmas Tree",
+   "ar": "شجرة الإنتاج (شجرة الميلاد)",
+   "c": "co"
+  },
+  {
+   "a": "XC",
+   "en": "Xanthan Gum (XC polymer)",
+   "ar": "صمغ الزانثان",
+   "c": "fl",
+   "n": "مثخّن يرفع اللزوجة بالقص الواطي."
+  },
+  {
+   "a": "XG",
+   "en": "Xanthan Gum",
+   "ar": "صمغ الزانثان",
+   "c": "fl"
+  },
+  {
+   "a": "XH",
+   "en": "Extra Hole",
+   "ar": "وصلة Extra Hole",
+   "c": "dr",
+   "n": "نوع وصلة لأنابيب الحفر."
+  },
+  {
+   "a": "XL",
+   "en": "Extreme Line",
+   "ar": "وصلة تغليف متكاملة",
+   "c": "cs"
+  },
+  {
+   "a": "XLOT",
+   "en": "Extended Leak-Off Test",
+   "ar": "فحص التسرب الممتد",
+   "c": "wc"
+  },
+  {
+   "a": "XO",
+   "en": "Crossover Sub",
+   "ar": "وصلة تحويل",
+   "c": "dr"
+  },
+  {
+   "a": "YP",
+   "en": "Yield Point",
+   "ar": "نقطة الخضوع",
+   "c": "fl",
+   "n": "YP = θ300 − PV (lb/100 ft²)؛ قدرة حمل الفتات."
+  }
+ ]
+}
