@@ -1,5 +1,5 @@
 {
- "version": 235,
+ "version": 238,
  "topics": [
   {
    "id": "rig",
@@ -115,6 +115,11 @@
    "id": "reservoir",
    "ar": "هندسة المكامن",
    "en": "Reservoir Engineering"
+  },
+  {
+   "id": "geology",
+   "ar": "جيولوجيا النفط والاستكشاف",
+   "en": "Petroleum geology & exploration"
   }
  ],
  "entries": [
@@ -4901,12 +4906,12 @@
     "ductile brittle",
     "youngs modulus"
    ],
-   "a": "باختبار الشد نرسم الإجهاد (الحمل ÷ المساحة الأصلية) ضد الانفعال (التمدد ÷ الطول الأصلي):\n• المنطقة المرنة: خط مستقيم (قانون Hooke)، وميله معامل يونغ (E ≈ 30×10⁶ psi). إذا رفعنا الحمل يرجع الحديد لطوله.\n• الخضوع (Yield): بعد حد المرونة يصير تشوه دائم. بالحديد الطري يبين \"منطقة خضوع\" بحمل شبه ثابت، وبالحديد القوي ما يبين بوضوح، فنعرّفه اصطلاحاً.\n• التقوّي وبعدين أقصى إجهاد = مقاومة الشد النهائية (Tensile strength)، وبعدها يضعف المقطع (تعنّق) لحد الكسر.\nتعريف API لخضوع أنابيب التغليف والإنتاج: الإجهاد اللي يعطي تمدد كلي 0.5% من طول القياس (و 0.6% لبعض الرتب العالية مثل P-110)، بدل 0.2% الدائم الشائع بالصناعة.\nالمادة المطيلة (Ductile) تتشوه كثير قبل الكسر، والهشة (Brittle) تنكسر بدون تشوه يذكر، وهذا مهم بالحرارة الواطية.\nبالتصميم نستخدم أقل خضوع (Minimum yield) أساس لكل الحسابات. API 5CT تحدد للأنابيب العادية بس أقصى فسفور وكبريت، بس للرتب المقيدة (C-75، C-95، L-80) تحدد الكيمياء كاملة. والرتب كلها إلها حد أقصى للخضوع كمان (عدا H-40).",
+   "a": "باختبار الشد نرسم الإجهاد (الحمل ÷ المساحة الأصلية) ضد الانفعال (التمدد ÷ الطول الأصلي):\n• المنطقة المرنة: خط مستقيم (قانون Hooke)، وميله معامل يونغ (E ≈ 30×10⁶ psi). إذا رفعنا الحمل يرجع الحديد لطوله.\n• الخضوع (Yield): بعد حد المرونة يصير تشوه دائم. بالحديد الطري يبين \"منطقة خضوع\" بحمل شبه ثابت، وبالحديد القوي ما يبين بوضوح، فنعرّفه اصطلاحاً.\n• التقوّي وبعدين أقصى إجهاد = مقاومة الشد النهائية (Tensile strength)، وبعدها يضعف المقطع (تعنّق) لحد الكسر.\nتعريف API لخضوع أنابيب التغليف والإنتاج: الإجهاد اللي يعطي تمدد كلي 0.5% من طول القياس (و 0.6% لبعض الرتب العالية مثل P-110)، بدل 0.2% الدائم الشائع بالصناعة.\nالمادة المطيلة (Ductile) تتشوه كثير قبل الكسر، والهشة (Brittle) تنكسر بدون تشوه يذكر، وهذا مهم بالحرارة الواطية.\nبالتصميم نستخدم أقل خضوع (Minimum yield) أساس لكل الحسابات. API 5CT تحدد للأنابيب العادية بس أقصى فسفور وكبريت، بس للرتب المقيدة (C-75، C-95، L-80) تحدد الكيمياء كاملة. والرتب إلها حد أقصى للخضوع كمان (دليل ENI يستثني H-40، بس API 5CT الحالية تحدد لها حد أقصى 80,000 psi مثل J-55 و K-55).",
    "refs": [
     "ENI, Drilling Design Manual (STAP-P-1-M-6100)",
     "Bourgoyne, Ch. 7"
    ],
-   "aEn": "In a tensile test we plot stress (load ÷ original area) against strain (elongation ÷ original length):\n• Elastic region: a straight line (Hooke's law), whose slope is Young's modulus (E ≈ 30×10⁶ psi). If the load is removed the steel returns to its length.\n• Yield: beyond the elastic limit there is permanent deformation. Mild steel shows a \"yield plateau\" at nearly constant load; strong steel does not show it clearly, so it is defined by convention.\n• Strain hardening and then the maximum stress = ultimate tensile strength, after which the section weakens (necking) until fracture.\nThe API definition of yield for casing and tubing: the stress that gives a total extension of 0.5% of the gauge length (and 0.6% for some high grades such as P-110), instead of the 0.2% permanent offset common in industry.\nA ductile material deforms a lot before fracture, and a brittle one breaks with almost no deformation; this matters at low temperature.\nIn design we use the minimum yield as the basis of all calculations. API 5CT specifies only maximum phosphorus and sulfur for ordinary pipe, but for the restricted grades (C-75, C-95, L-80) it specifies the full chemistry. All grades also have a maximum yield (except H-40)."
+   "aEn": "In a tensile test we plot stress (load ÷ original area) against strain (elongation ÷ original length):\n• Elastic region: a straight line (Hooke's law), whose slope is Young's modulus (E ≈ 30×10⁶ psi). If the load is removed the steel returns to its length.\n• Yield: beyond the elastic limit there is permanent deformation. Mild steel shows a \"yield plateau\" at nearly constant load; strong steel does not show it clearly, so it is defined by convention.\n• Strain hardening and then the maximum stress = ultimate tensile strength, after which the section weakens (necking) until fracture.\nThe API definition of yield for casing and tubing: the stress that gives a total extension of 0.5% of the gauge length (and 0.6% for some high grades such as P-110), instead of the 0.2% permanent offset common in industry.\nA ductile material deforms a lot before fracture, and a brittle one breaks with almost no deformation; this matters at low temperature.\nIn design we use the minimum yield as the basis of all calculations. API 5CT specifies only maximum phosphorus and sulfur for ordinary pipe, but for the restricted grades (C-75, C-95, L-80) it specifies the full chemistry. The grades also have a maximum yield (the ENI manual excepts H-40, but the current API 5CT gives it a maximum of 80,000 psi, the same as J-55 and K-55)."
   },
   {
    "id": "cs-35",
@@ -5175,6 +5180,26 @@
     "ENI Drilling Procedures Manual, 12.2 CRA Casing Operations"
    ],
    "aEn": "Preparation (ENI):\n• Racks that allow the pipe to be rolled 360° for cleaning and inspection; a Teflon drift to specification; thread protectors always clean; red paint (reject) and yellow (repairable).\n• Wooden covering for the V-door, ramps and racks; special stop collars without set screws and tong jaws that leave no marks (non-marking jaws).\n• API Modified compound with an anti-galling spray, and an accurate torque/time/turns recorder.\nHandling and running:\n• No hooks; lift with nylon slings to the V-door, latch the elevator only after the connection is made up, and a safety clamp on the joint in the slips.\n• Always a stabbing guide, and the protectors stay on until stabbing.\n• A power tong with integral back-up and a monitoring system that plots torque against time and turns (and prints), and a dump valve that prevents over-torque.\n• Premium connections: spin in at ~10 rpm and final make-up at 1–3 rpm, holding ~3 seconds so the \"plateau\" shows on the curve.\n• Any premium connection that fails the make-up criteria is rejected, with a maximum of three attempts."
+  },
+  {
+   "id": "cs-49",
+   "topic": "casing",
+   "q": "شنو الأنابيب القابلة للتمدد (Expandable tubulars) والتبطين البديل (Alternative borehole liner)، ووين تفيد؟",
+   "qEn": "What are expandable tubulars and the alternative borehole liner, and where are they useful?",
+   "k": [
+    "expandable tubulars solid expandable liner",
+    "expansion cone",
+    "alternative borehole liner",
+    "isolate problem formation without losing hole size",
+    "الأنابيب القابلة للتمدد",
+    "تبطين بديل",
+    "مخروط التمديد"
+   ],
+   "a": "الأنابيب القابلة للتمدد (Expandable tubulars): أنابيب فولاذية تنزل بالبئر بقطرها الأصلي، وبعدها يتوسع قطرها داخل البئر بدفع مخروط (Expansion cone) بداخلها.\nالفكرة: كل Casing اعتيادي لازم يمر من داخل اللي قبله، فكل مرحلة نخسر من قطر الحفرة. الأنبوب المتمدد ينزل من داخل التغليف السابق وبعدها يتوسع لقطر قريب منه — فنعزل منطقة بدون ما نخسر هواية من القطر.\nالتبطين البديل (Alternative borehole liner): تبطين للبئر من سمنت مقوّى بأنبوب قابل للتمدد، ينحط حتى يسد التكوينات اللي تسبب مشاكل أثناء الحفر — بدل ما نضطر ننزل Casing كامل ونصغّر الحفرة.\nوين تفيد:\n• عزل منطقة فقدان دورة أو Shale غير مستقر أو منطقة ضغطها مختلف، ونكمل الحفر بنفس قطر الريشة تقريباً.\n• الآبار العميقة اللي تحتاج مراحل تغليف هواية وما يبقى قطر كافي للإنتاج.\n• ترقيع Casing تالف أو ثقوب قديمة (Casing patch).\n• مصافي رمل متمددة (Expandable screens) تلتصق بجدار الحفرة.\nانتبه: التمديد يرقق جدار الأنبوب، فمقاومته للانهيار (Collapse) تصير أقل من أنبوب اعتيادي بنفس القياس — لازم تنحسب بالتصميم.",
+   "aEn": "Expandable tubulars are steel pipes run into the well at their original diameter and then enlarged downhole by driving an expansion cone through them.\nThe idea: every conventional casing string must pass through the one before it, so hole diameter is lost at each stage. An expandable pipe is run through the previous casing and then expanded to a diameter close to it — so a zone is isolated without losing much diameter.\nThe alternative borehole liner: a well lining of cement reinforced by an expandable pipe, set to seal off formations that cause problems during drilling — instead of having to run a full casing string and reduce the hole size.\nWhere they are useful:\n• Isolating a lost-circulation zone, unstable shale or a zone of different pressure, and drilling on with nearly the same bit size.\n• Deep wells that need many casing stages and would be left with too small a diameter for production.\n• Patching damaged casing or old perforations (casing patch).\n• Expandable sand screens that conform to the borehole wall.\nNote: expansion thins the pipe wall, so its collapse resistance becomes lower than that of a conventional pipe of the same size — this must be allowed for in the design.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — expandable tubulars, alternative borehole liner"
+   ]
   },
   {
    "id": "ce-01",
@@ -7315,12 +7340,12 @@
     "مانع الانفجار",
     "موانع الانفجار"
    ],
-   "a": "المانع الحلقي عنصر مطاطي مقوّى بالحديد، يسد حول أي أنبوب تقريباً (وبعض الأنواع على حفرة فارغة بس مو مفضل).\nزمن الإغلاق الأقصى:\n• بالسطح: 30 ثانية للأقطار أصغر من 18-3/4\"، و 45 ثانية لـ 18-3/4\" وأكبر.\n• تحت البحر: 60 ثانية.\nالزمن يبدأ من ضغط الزر وينتهي لما يرجع ضغط التشغيل المنظم لقيمته الطبيعية (علامة إن العنصر سد).\nأنواع المطاط (حسب الحرارة ونوع الطين):\n• مطاط طبيعي (أسود، NR): من −30 إلى +225°F، للطين المائي.\n• نتريل (شريط أحمر، NBR): من +20 إلى +190°F، للطين النفطي.\n• نيوبرين (أخضر، CR): من −30 إلى +170°F، للنفطي والحرارة الواطية.\nالأنواع الشائعة: Hydril (GK/GX/GL)، Shaffer الكروي، Cameron D/DL.\nالفحص: ضغط واطي 200–300 psi لـ 5 دقائق، وعالي 70% من ضغطه التشغيلي أو MASP (الأقل) لـ 10 دقائق. بالمانع الكبير المطاط يزحف شوية (Packer creep) فالضغط يتحرك شوية، ولازم نراعي هذا وقت قراءة الفحص.",
+   "a": "المانع الحلقي عنصر مطاطي مقوّى بالحديد، يسد حول أي أنبوب تقريباً (وبعض الأنواع على حفرة فارغة بس مو مفضل).\nزمن الإغلاق الأقصى:\n• بالسطح: 30 ثانية للأقطار أصغر من 18-3/4\"، و 45 ثانية لـ 18-3/4\" وأكبر.\n• تحت البحر: 60 ثانية.\nالزمن يبدأ من ضغط الزر وينتهي لما يرجع ضغط التشغيل المنظم لقيمته الطبيعية (علامة إن العنصر سد).\nأنواع المطاط (حسب الحرارة ونوع الطين):\n• مطاط طبيعي (أسود، NR): من −30 إلى +225°F، للطين المائي.\n• نتريل (شريط أحمر، NBR): من +20 إلى +190°F، للطين النفطي.\n• نيوبرين (أخضر، CR): من −30 إلى +170°F، للنفطي والحرارة الواطية.\nالأنواع الشائعة: Hydril (GK/GX/GL)، Shaffer الكروي، Cameron D/DL.\nالفحص: ضغط واطي 250–350 psi لـ 5 دقائق، وعالي 70% من ضغطه التشغيلي أو MASP (الأقل) لـ 10 دقائق. بالمانع الكبير المطاط يزحف شوية (Packer creep) فالضغط يتحرك شوية، ولازم نراعي هذا وقت قراءة الفحص.",
    "refs": [
     "IWCF Well Control Course: Surface Equipment (H.A., 2020)",
     "API RP 53 / API Std 53"
    ],
-   "aEn": "The annular preventer is a steel-reinforced rubber element that seals around almost any pipe (and some types on open hole, though this is not preferred).\nMaximum closing time:\n• Surface: 30 seconds for bores smaller than 18-3/4\", and 45 seconds for 18-3/4\" and larger.\n• Subsea: 60 seconds.\nThe time starts when the button is pressed and ends when the regulated operating pressure returns to its normal value (a sign that the element has sealed).\nRubber types (by temperature and mud type):\n• Natural rubber (black, NR): −30 to +225°F, for water-based mud.\n• Nitrile (red band, NBR): +20 to +190°F, for oil-based mud.\n• Neoprene (green, CR): −30 to +170°F, for oil-based mud and low temperature.\nCommon types: Hydril (GK/GX/GL), Shaffer spherical, Cameron D/DL.\nTesting: low pressure 200–300 psi for 5 minutes, and high pressure 70% of its working pressure or MASP (whichever is less) for 10 minutes. In a large preventer the rubber creeps slightly (packer creep) so the pressure drifts a little, which must be allowed for when reading the test."
+   "aEn": "The annular preventer is a steel-reinforced rubber element that seals around almost any pipe (and some types on open hole, though this is not preferred).\nMaximum closing time:\n• Surface: 30 seconds for bores smaller than 18-3/4\", and 45 seconds for 18-3/4\" and larger.\n• Subsea: 60 seconds.\nThe time starts when the button is pressed and ends when the regulated operating pressure returns to its normal value (a sign that the element has sealed).\nRubber types (by temperature and mud type):\n• Natural rubber (black, NR): −30 to +225°F, for water-based mud.\n• Nitrile (red band, NBR): +20 to +190°F, for oil-based mud.\n• Neoprene (green, CR): −30 to +170°F, for oil-based mud and low temperature.\nCommon types: Hydril (GK/GX/GL), Shaffer spherical, Cameron D/DL.\nTesting: low pressure 250–350 psi for 5 minutes, and high pressure 70% of its working pressure or MASP (whichever is less) for 10 minutes. In a large preventer the rubber creeps slightly (packer creep) so the pressure drifts a little, which must be allowed for when reading the test."
   },
   {
    "id": "wc-42",
@@ -7835,12 +7860,12 @@
     "vent line",
     "pressurized separator"
    ],
-   "a": "المانع الطيني (U-tube أو Dip tube) يمنع الغاز يعبر للهزاز. أقصى ضغط داخل الفاصل قبل ما يعبر الغاز = ضغط عمود الطين بالمانع:\n$$ P_{max} = 0.052 \\times \\rho_{mud} \\times h_{seal}\nمثال: مانع بارتفاع 10 ft وطين 10 ppg ← ~5.2 psi بس. يعني الفاصل مصمم لضغوط واطية جداً، وأي احتكاك عالي بخط التنفيس يكسر المانع.\nمواصفات تصميم شائعة (للنوع الجوي العمودي):\n• ارتفاع ~10 ft على الأقل، قطر ~30 in، وحواجز داخلية تساعد الغاز يطلع.\n• خط التنفيس واسع وقصير ومستقيم (8\" أو أكبر عادة) حتى يبقى الضغط الخلفي قليل.\n• المانع الطيني 8\" على الأقل.\n• خط دخول ~4\" من مانيفولد الخنق، وصمام تنظيف، ومقياس ضغط خلفي (0–20 psi).\nالنوع الأفقي يعطي مساحة سطح أكبر ووقت بقاء أطول للطين. والنوع المضغوط يشتغل بضغط خلفي معتدل (~50 psi أو أقل)، ويُستخدم لما خط التنفيس طويل جداً (مثلاً لحرق H₂S بعيد عن البرج).",
+   "a": "المانع الطيني (U-tube أو Dip tube) يمنع الغاز يعبر للهزاز. أقصى ضغط داخل الفاصل قبل ما يعبر الغاز = ضغط عمود الطين بالمانع:\n$$ P_{max} = 0.052 \\times \\rho_{mud} \\times h_{seal}\nمثال: مانع بارتفاع 10 ft وطين 10 ppg ← ~5.2 psi بس. يعني الفاصل مصمم لضغوط واطية جداً، وأي احتكاك عالي بخط التنفيس يكسر المانع.\nمواصفات تصميم شائعة (للنوع الجوي العمودي):\n• ارتفاع ~10 ft على الأقل، قطر ~30 in، وحواجز داخلية تساعد الغاز يطلع.\n• خط التنفيس واسع وقصير ومستقيم (8\" أو أكبر عادة) حتى يبقى الضغط الخلفي قليل.\n• أنبوب المانع الطيني (U-tube) بقطر 8\" على الأقل، وارتفاعه لحد 10 ft لخزان الهزاز.\n• خط دخول ~4\" من مانيفولد الخنق، وصمام تنظيف، ومقياس ضغط خلفي (0–20 psi).\nالنوع الأفقي يعطي مساحة سطح أكبر ووقت بقاء أطول للطين. والنوع المضغوط يشتغل بضغط خلفي معتدل (~50 psi أو أقل)، ويُستخدم لما خط التنفيس طويل جداً (مثلاً لحرق H₂S بعيد عن البرج).",
    "refs": [
     "Kotb, Drilling Interview Questions",
     "IWCF Well Control Course: Surface Equipment (H.A., 2020)"
    ],
-   "aEn": "The mud seal (U-tube or dip tube) stops gas passing to the shaker. The maximum pressure inside the separator before gas blows through = the pressure of the mud column in the seal:\n$$ P_{max} = 0.052 \\times \\rho_{mud} \\times h_{seal}\nExample: a seal 10 ft high with 10 ppg mud → only ~5.2 psi. So the separator is designed for very low pressures, and any high friction in the vent line breaks the seal.\nCommon design features (atmospheric vertical type):\n• At least ~10 ft high, ~30 in diameter, with internal baffles that help the gas break out.\n• A large, short, straight vent line (usually 8\" or larger) to keep back pressure low.\n• A mud seal of at least 8\".\n• A ~4\" inlet line from the choke manifold, a clean-out valve, and a back-pressure gauge (0–20 psi).\nThe horizontal type gives more surface area and longer retention time for the mud. The pressurised type works at moderate back pressure (~50 psi or less) and is used when the vent line is very long (for example to burn H₂S far from the rig)."
+   "aEn": "The mud seal (U-tube or dip tube) stops gas passing to the shaker. The maximum pressure inside the separator before gas blows through = the pressure of the mud column in the seal:\n$$ P_{max} = 0.052 \\times \\rho_{mud} \\times h_{seal}\nExample: a seal 10 ft high with 10 ppg mud → only ~5.2 psi. So the separator is designed for very low pressures, and any high friction in the vent line breaks the seal.\nCommon design features (atmospheric vertical type):\n• At least ~10 ft high, ~30 in diameter, with internal baffles that help the gas break out.\n• A large, short, straight vent line (usually 8\" or larger) to keep back pressure low.\n• A mud-seal (U-tube) line of at least 8\" diameter, standing up to 10 ft to the shaker header tank.\n• A ~4\" inlet line from the choke manifold, a clean-out valve, and a back-pressure gauge (0–20 psi).\nThe horizontal type gives more surface area and longer retention time for the mud. The pressurised type works at moderate back pressure (~50 psi or less) and is used when the vent line is very long (for example to burn H₂S far from the rig)."
   },
   {
    "id": "wc-65",
@@ -7935,12 +7960,12 @@
     "bop selection metric",
     "60 percent pmax"
    ],
-   "a": "المبدأ: أضعف عنصر بنظام السيطرة يحدد تصنيف النظام كله. مثلاً مجموعة 2,000 psi ويا مانيفولد 10,000 psi تعتبر 2,000 psi بس. نگدر نركّب مكوّنات أعلى من تصنيف المجموعة (تحضيراً لمقطع جاي)، بس ممنوع أي مكوّن أقل.\nأقصى ضغط نظري برأس البئر: البئر مملوء غاز والحذاء وصل حد التكسير:\n$$ P_{max} = \\dfrac{H\\,(G_f - D_g)}{10}\\quad (\\text{kg/cm}^2)\nحيث H عمق الحذاء (m)، G_f تدرج التكسير (kg/cm²/10m)، و D_g كثافة الغاز (تُفترض 0.3 kg/dm³).\nمثال: حذاء على 2,620 m وتدرج تكسير 1.83:\n• P_max = 2,620 × (1.83 − 0.3) ÷ 10 ≈ 401 kg/cm² ≈ 5,700 psi.\n• لاختبار الآبار (حقن غاز للطبقة) هذا الضغط واقعي، فنحتاج تصنيف يغطيه.\n• للحفر، سياسة ENI تستخدم 60% من P_max ← ≈ 3,420 psi ← مجموعة 5,000 psi كافية.\nالـ BOP يتكون من Annular وعدد محدد من الرامات، وكل مانع (عدا الـ Annular) تصنيفه لازم يفوق أقصى ضغط سطحي متوقع.",
+   "a": "المبدأ: أضعف عنصر بنظام السيطرة يحدد تصنيف النظام كله. مثلاً مجموعة 2,000 psi ويا مانيفولد 10,000 psi تعتبر 2,000 psi بس. نگدر نركّب مكوّنات أعلى من تصنيف المجموعة (تحضيراً لمقطع جاي)، بس ممنوع أي مكوّن أقل.\nأقصى ضغط نظري برأس البئر: البئر مملوء غاز والحذاء وصل حد التكسير:\n$$ P_{max} = \\dfrac{H\\,(G_f - D_g)}{10}\\quad (\\text{kg/cm}^2)\nحيث H عمق الحذاء (m)، G_f تدرج التكسير (kg/cm²/10m)، و D_g كثافة الغاز (تُفترض 0.3 kg/dm³).\nمثال (من جدول المصدر): حذاء 13⅜\" على 2,620 m وتدرج تكسير 2.01:\n• P_max = 2,620 × (2.01 − 0.3) ÷ 10 ≈ 448 kg/cm² ≈ 6,370 psi.\n• لاختبار الآبار (حقن غاز للطبقة) هذا الضغط واقعي، فنحتاج تصنيف يغطيه.\n• للحفر، سياسة ENI تستخدم 60% من P_max ← ≈ 3,820 psi ← مجموعة 5,000 psi كافية.\nالـ BOP يتكون من Annular وعدد محدد من الرامات، وكل مانع (عدا الـ Annular) تصنيفه لازم يفوق أقصى ضغط سطحي متوقع.",
    "refs": [
     "ENI, Drilling Design Manual (STAP-P-1-M-6100)",
     "Dhyaa Hussein, BOP Equipment (University of Basrah)"
    ],
-   "aEn": "The principle: the weakest element in the control system sets the rating of the whole system. For example a 2,000 psi stack with a 10,000 psi manifold is considered 2,000 psi only. Components rated above the stack may be installed (in preparation for a later section), but no component may be rated lower.\nThe maximum theoretical wellhead pressure: the well full of gas with the shoe at the fracture limit:\n$$ P_{max} = \\dfrac{H\\,(G_f - D_g)}{10}\\quad (\\text{kg/cm}^2)\nwhere H is the shoe depth (m), G_f the fracture gradient (kg/cm²/10m), and D_g the gas density (assumed 0.3 kg/dm³).\nExample: shoe at 2,620 m with a fracture gradient of 1.83:\n• P_max = 2,620 × (1.83 − 0.3) ÷ 10 ≈ 401 kg/cm² ≈ 5,700 psi.\n• For well testing (gas injected into the formation) this pressure is realistic, so a rating that covers it is needed.\n• For drilling, ENI policy uses 60% of P_max → ≈ 3,420 psi → a 5,000 psi stack is sufficient.\nThe BOP consists of an annular and a set number of rams, and each preventer (except the annular) must be rated above the maximum anticipated surface pressure."
+   "aEn": "The principle: the weakest element in the control system sets the rating of the whole system. For example a 2,000 psi stack with a 10,000 psi manifold is considered 2,000 psi only. Components rated above the stack may be installed (in preparation for a later section), but no component may be rated lower.\nThe maximum theoretical wellhead pressure: the well full of gas with the shoe at the fracture limit:\n$$ P_{max} = \\dfrac{H\\,(G_f - D_g)}{10}\\quad (\\text{kg/cm}^2)\nwhere H is the shoe depth (m), G_f the fracture gradient (kg/cm²/10m), and D_g the gas density (assumed 0.3 kg/dm³).\nExample (from the source's table): 13⅜\" shoe at 2,620 m with a fracture gradient of 2.01:\n• P_max = 2,620 × (2.01 − 0.3) ÷ 10 ≈ 448 kg/cm² ≈ 6,370 psi.\n• For well testing (gas injected into the formation) this pressure is realistic, so a rating that covers it is needed.\n• For drilling, ENI policy uses 60% of P_max → ≈ 3,820 psi → a 5,000 psi stack is sufficient.\nThe BOP consists of an annular and a set number of rams, and each preventer (except the annular) must be rated above the maximum anticipated surface pressure."
   },
   {
    "id": "wc-70",
@@ -10580,12 +10605,12 @@
     "short drill collar length",
     "stabilizer clearance"
    ],
-   "a": "الفكرة (\"ماسورة البندقية\"): مثبتات متعددة تخلي البت تحفر بنفس اتجاه الحفرة المحفورة، فالتغيرات بالزاوية تكون تدريجية والحفرة نظيفة بدون Doglegs أو مجاري أو درجات.\nأربع عوامل بالتصميم:\n1. طول التلامس: مثبت وحيد فوك البت يشتغل كنقطة ارتكاز ويبني زاوية. نقطتين ممكن تتبعن قوس، بس 3 نقاط تماس أو أكثر ما تگدر تتبع قوس، فهي الحد الأدنى للتجميعة المرصوصة.\n2. الصلابة: تتناسب ويا القطر للقوة الرابعة تقريباً؛ إذا ضاعفنا القطر تزيد الصلابة 16 مرة. مثلاً عزم القصور لـ 6½\" × 2¼\" ≈ 100 in⁴، ولـ 8\" × 2 13/16\" ≈ 486، ولـ 9\" × 3\" ≈ 713. فنختار أكبر Collars نگدر ننزلها بأمان.\n3. الفراغ: كلما المثبت أقرب للبت، كلما لازم يكون بقطر أدق. مثلاً 1/16\" نقص مقبول فوك البت، بس على 60 ft فوكه 1/8\" ممكن يخرّب التجميعة.\n4. سند الجدار: بالصخور الصلبة شفرات قصيرة تكفي، وبالطرية نحتاج شفرات طويلة حتى ما تغطس بالجدار وتضيع.\nطول الـ Collar القصير بين أول مثبتين: تقريباً قطر الحفرة بالإنج = الطول بالقدم ± 2 ft (مثلاً 6–10 ft لحفرة 8½\").\nتجميعة ENI القياسية: بت + مثبت قرب البت + Collar قصير (~7 ft) + مثبت + Monel + مثبت + 2 Collar + مثبت.",
+   "a": "الفكرة (\"ماسورة البندقية\"): مثبتات متعددة تخلي البت تحفر بنفس اتجاه الحفرة المحفورة، فالتغيرات بالزاوية تكون تدريجية والحفرة نظيفة بدون Doglegs أو مجاري أو درجات.\nأربع عوامل بالتصميم:\n1. طول التلامس: مثبت وحيد فوك البت يشتغل كنقطة ارتكاز ويبني زاوية. نقطتين ممكن تتبعن قوس، بس 3 نقاط تماس أو أكثر ما تگدر تتبع قوس، فهي الحد الأدنى للتجميعة المرصوصة.\n2. الصلابة: تتناسب ويا القطر للقوة الرابعة تقريباً؛ إذا ضاعفنا القطر تزيد الصلابة 16 مرة. مثلاً عزم القصور لـ 6½\" × 2¼\" ≈ 86 in⁴، ولـ 8\" × 2 13/16\" ≈ 198، ولـ 9\" × 3\" ≈ 318 (ولـ 11\" × 3\" ≈ 713). فنختار أكبر Collars نگدر ننزلها بأمان.\n3. الفراغ: كلما المثبت أقرب للبت، كلما لازم يكون بقطر أدق. مثلاً 1/16\" نقص مقبول فوك البت، بس على 60 ft فوكه 1/8\" ممكن يخرّب التجميعة.\n4. سند الجدار: بالصخور الصلبة شفرات قصيرة تكفي، وبالطرية نحتاج شفرات طويلة حتى ما تغطس بالجدار وتضيع.\nطول الـ Collar القصير بين أول مثبتين: تقريباً قطر الحفرة بالإنج = الطول بالقدم ± 2 ft (مثلاً 6–10 ft لحفرة 8½\").\nتجميعة ENI القياسية: بت + مثبت قرب البت + Collar قصير (~7 ft) + مثبت + Monel + مثبت + 2 Collar + مثبت.",
    "refs": [
     "ENI, Drilling Design Manual (STAP-P-1-M-6100)",
     "Bourgoyne, Ch. 8"
    ],
-   "aEn": "The idea (\"rifle barrel\"): several stabilizers make the bit drill in the same direction as the hole already drilled, so changes of angle are gradual and the hole is clean, without doglegs, key seats or ledges.\nFour design factors:\n1. Length of contact: a single stabilizer above the bit acts as a fulcrum and builds angle. Two points can follow an arc, but 3 or more contact points cannot follow an arc, so that is the minimum for a packed assembly.\n2. Stiffness: roughly proportional to diameter to the fourth power; doubling the diameter increases stiffness 16 times. For example the moment of inertia of 6½\" × 2¼\" ≈ 100 in⁴, of 8\" × 2 13/16\" ≈ 486, and of 9\" × 3\" ≈ 713. So we choose the largest collars that can be run safely.\n3. Clearance: the nearer the stabilizer is to the bit, the closer to gauge it must be. For example 1/16\" under is acceptable above the bit, but at 60 ft above it 1/8\" can spoil the assembly.\n4. Wall support: in hard rocks short blades are enough, and in soft ones we need long blades so they do not dig into the wall and lose effect.\nLength of the short collar between the first two stabilizers: roughly hole diameter in inches = length in feet ± 2 ft (for example 6–10 ft for 8½\" hole).\nENI standard assembly: bit + near-bit stabilizer + short collar (~7 ft) + stabilizer + Monel + stabilizer + 2 collars + stabilizer."
+   "aEn": "The idea (\"rifle barrel\"): several stabilizers make the bit drill in the same direction as the hole already drilled, so changes of angle are gradual and the hole is clean, without doglegs, key seats or ledges.\nFour design factors:\n1. Length of contact: a single stabilizer above the bit acts as a fulcrum and builds angle. Two points can follow an arc, but 3 or more contact points cannot follow an arc, so that is the minimum for a packed assembly.\n2. Stiffness: roughly proportional to diameter to the fourth power; doubling the diameter increases stiffness 16 times. For example the moment of inertia of 6½\" × 2¼\" ≈ 86 in⁴, of 8\" × 2 13/16\" ≈ 198, and of 9\" × 3\" ≈ 318 (and of 11\" × 3\" ≈ 713). So we choose the largest collars that can be run safely.\n3. Clearance: the nearer the stabilizer is to the bit, the closer to gauge it must be. For example 1/16\" under is acceptable above the bit, but at 60 ft above it 1/8\" can spoil the assembly.\n4. Wall support: in hard rocks short blades are enough, and in soft ones we need long blades so they do not dig into the wall and lose effect.\nLength of the short collar between the first two stabilizers: roughly hole diameter in inches = length in feet ± 2 ft (for example 6–10 ft for 8½\" hole).\nENI standard assembly: bit + near-bit stabilizer + short collar (~7 ft) + stabilizer + Monel + stabilizer + 2 collars + stabilizer."
   },
   {
    "id": "dd-26",
@@ -13938,11 +13963,11 @@
     "رمل صفحي",
     "المسامية الفعالة"
    ],
-   "a": "علامات الرمل الصفحي: النيوترون يقرا أعلى من الكثافة بثبات (~5% هنا) لأن السجيل يرفع قراءة النيوترون، والـ GR بالرمل «النظيف» أعلى من المعتاد (25–30 بدل 15 API).\n1) مؤشر السجيل:\n$$ X = \\frac{GR - GR_{clean}}{GR_{sh} - GR_{clean}} = \\frac{28 - 15}{110 - 15} \\approx 0.13\n2) حجم السجيل (تصحيح Clavier غير الخطي):\n$$ V_{sh} = 1.7 - \\left[3.38 - (X + 0.7)^2\\right]^{0.5} \\approx 0.06\n3) المسامية الفعالة (الكلية φT = معدل النيوترون والكثافة = 0.315):\n$$ \\phi_{eff} = (1 - V_{sh})\\,\\phi_T = 0.94 \\times 0.315 \\approx 0.296\nهاي اللي تدخل بالحسابات الحجمية؛ وهي قريبة من مسامية الكثافة (0.29) — لهذا كثير محللين يستخدمون الكثافة لوحدها بالرمل النفطي والمائي.\n4) تشبع الماء بالرمل الصفحي (Rsh = 2.5 Ω·m من سجيل مجاور):\n$$ \\frac{1}{R_t} = \\frac{\\phi_{eff}^m}{K R_w (1 - V_{sh})}\\,S_w^2 + \\frac{V_{sh}}{R_{sh}}\\,S_w\n← 1.129 Sw² + 0.024 Sw = 1/23 = 0.0435 ← Sw ≈ 18.5%.\nقريب من حل الرمل النظيف (19%) لأن Vsh صغير. تصحيح السجيل يصير مهم لما Vsh > 20%.",
+   "a": "علامات الرمل الصفحي: النيوترون يقرا أعلى من الكثافة بثبات (~5% هنا) لأن السجيل يرفع قراءة النيوترون، والـ GR بالرمل «النظيف» أعلى من المعتاد (25–30 بدل 15 API).\n1) مؤشر السجيل:\n$$ X = \\frac{GR - GR_{clean}}{GR_{sh} - GR_{clean}} = \\frac{28 - 15}{110 - 15} \\approx 0.137\n2) حجم السجيل (تصحيح Clavier غير الخطي):\n$$ V_{sh} = 1.7 - \\left[3.38 - (X + 0.7)^2\\right]^{0.5} \\approx 0.06\n3) المسامية الفعالة (الكلية φT = معدل النيوترون والكثافة = 0.315):\n$$ \\phi_{eff} = (1 - V_{sh})\\,\\phi_T = 0.94 \\times 0.315 \\approx 0.296\nهاي اللي تدخل بالحسابات الحجمية؛ وهي قريبة من مسامية الكثافة (0.29) — لهذا كثير محللين يستخدمون الكثافة لوحدها بالرمل النفطي والمائي.\n4) تشبع الماء بالرمل الصفحي (Rsh = 2.5 Ω·m من سجيل مجاور):\n$$ \\frac{1}{R_t} = \\frac{\\phi_{eff}^m}{K R_w (1 - V_{sh})}\\,S_w^2 + \\frac{V_{sh}}{R_{sh}}\\,S_w\n← 1.129 Sw² + 0.024 Sw = 1/23 = 0.0435 ← Sw ≈ 18.5%.\nقريب من حل الرمل النظيف (19%) لأن Vsh صغير. تصحيح السجيل يصير مهم لما Vsh > 20%.",
    "refs": [
     "Openhole Well Logs – Log Interpretation Basics, 9.3.1 Second-pass Analysis"
    ],
-   "aEn": "Signs of shaly sand: the neutron reads consistently higher than the density (~5% here) because shale raises the neutron reading, and the GR in the \"clean\" sand is higher than usual (25–30 instead of 15 API).\n1) Shale index:\n$$ X = \\frac{GR - GR_{clean}}{GR_{sh} - GR_{clean}} = \\frac{28 - 15}{110 - 15} \\approx 0.13\n2) Shale volume (the non-linear Clavier correction):\n$$ V_{sh} = 1.7 - \\left[3.38 - (X + 0.7)^2\\right]^{0.5} \\approx 0.06\n3) Effective porosity (total φT = average of neutron and density = 0.315):\n$$ \\phi_{eff} = (1 - V_{sh})\\,\\phi_T = 0.94 \\times 0.315 \\approx 0.296\nThis is what goes into the volumetric calculations; it is close to the density porosity (0.29) — which is why many analysts use the density alone in oil and water sands.\n4) Water saturation in shaly sand (Rsh = 2.5 Ω·m from an adjacent shale):\n$$ \\frac{1}{R_t} = \\frac{\\phi_{eff}^m}{K R_w (1 - V_{sh})}\\,S_w^2 + \\frac{V_{sh}}{R_{sh}}\\,S_w\n→ 1.129 Sw² + 0.024 Sw = 1/23 = 0.0435 → Sw ≈ 18.5%.\nClose to the clean-sand solution (19%) because Vsh is small. The shale correction becomes important when Vsh > 20%."
+   "aEn": "Signs of shaly sand: the neutron reads consistently higher than the density (~5% here) because shale raises the neutron reading, and the GR in the \"clean\" sand is higher than usual (25–30 instead of 15 API).\n1) Shale index:\n$$ X = \\frac{GR - GR_{clean}}{GR_{sh} - GR_{clean}} = \\frac{28 - 15}{110 - 15} \\approx 0.137\n2) Shale volume (the non-linear Clavier correction):\n$$ V_{sh} = 1.7 - \\left[3.38 - (X + 0.7)^2\\right]^{0.5} \\approx 0.06\n3) Effective porosity (total φT = average of neutron and density = 0.315):\n$$ \\phi_{eff} = (1 - V_{sh})\\,\\phi_T = 0.94 \\times 0.315 \\approx 0.296\nThis is what goes into the volumetric calculations; it is close to the density porosity (0.29) — which is why many analysts use the density alone in oil and water sands.\n4) Water saturation in shaly sand (Rsh = 2.5 Ω·m from an adjacent shale):\n$$ \\frac{1}{R_t} = \\frac{\\phi_{eff}^m}{K R_w (1 - V_{sh})}\\,S_w^2 + \\frac{V_{sh}}{R_{sh}}\\,S_w\n→ 1.129 Sw² + 0.024 Sw = 1/23 = 0.0435 → Sw ≈ 18.5%.\nClose to the clean-sand solution (19%) because Vsh is small. The shale correction becomes important when Vsh > 20%."
   },
   {
    "id": "mw-59",
@@ -13958,11 +13983,11 @@
     "طرق تحديد Rw",
     "مقاومية ماء الطبقة"
    ],
-   "a": "1) من المنطقة المائية (الأفضل إذا متوفرة): بأنظف رمل (أوطى GR) تحت التماس نفترض Sw = 100%:\n$$ R_w = \\frac{\\phi^m\\,R_t}{K}\nمثال: φ = 0.31، Rt = 0.85 Ω·m، K = 0.625، m = 2.15 ← Rw = 0.0806 × 0.85 ÷ 0.625 ≈ 0.11 Ω·m.\n2) من تحليل الماء (نموذج منتج): قياس المختبر يتصحح لحرارة الطبقة (معادلة Arps بالمئوي):\n$$ R_{w2} = R_{w1}\\,\\frac{T_1 + 21.5}{T_2 + 21.5}\nمثال: 0.125 Ω·m عند 25°C ← عند 28°C: 0.125 × 46.5 ÷ 49.5 ≈ 0.12 Ω·m. (بالفهرنهايت الثابت 6.77.)\n3) من كتالوج المياه: تحاليل من نفس الأفق الجيولوجي بالمنطقة — يعطي مدى (مثلاً 0.085–0.17 Ω·m) وأقل دقة.\n4) من الـ SP: نحتاج الـ SSP ومقاومية راشح الطين وحرارة الطبقة:\n$$ K_c = 65 + 0.24\\,T_f(^\\circ C)\\quad;\\quad R_{weq} = R_{mfeq} \\times 10^{-SSP/K_c}\nمثال: T = 28°C ← Kc = 71.7؛ Rmf = 2.8 Ω·m ← Rmfeq = 0.85 × 2.8 ≈ 2.40؛ SSP = 100 mV ← Rweq = 2.40 × 10^(−1.394) ≈ 0.097، ومن المخطط Rw ≈ 0.12 Ω·m.\nإذا الطرق الأربعة تتفق (0.11–0.12 هنا) هذا يعطي ثقة بقيم φ و K و m، بقياس Rmf، وبخطوط السجيل والرمل النظيف.",
+   "a": "1) من المنطقة المائية (الأفضل إذا متوفرة): بأنظف رمل (أوطى GR) تحت التماس نفترض Sw = 100%:\n$$ R_w = \\frac{\\phi^m\\,R_t}{K}\nمثال: φ = 0.31، Rt = 0.85 Ω·m، K = 0.625، m = 2.15 ← Rw = 0.0806 × 0.85 ÷ 0.625 ≈ 0.11 Ω·m.\n2) من تحليل الماء (نموذج منتج): قياس المختبر يتصحح لحرارة الطبقة (معادلة Arps بالمئوي):\n$$ R_{w2} = R_{w1}\\,\\frac{T_1 + 21.5}{T_2 + 21.5}\nمثال: 0.125 Ω·m عند 25°C ← عند 28°C: 0.125 × 46.5 ÷ 49.5 ≈ 0.12 Ω·m. (بالفهرنهايت الثابت 6.77.)\n3) من كتالوج المياه: تحاليل من نفس الأفق الجيولوجي بالمنطقة — يعطي مدى (مثلاً 0.085–0.17 Ω·m) وأقل دقة.\n4) من الـ SP: نحتاج الـ SSP (هنا مقدار الانحراف كرقم موجب) ومقاومية راشح الطين وحرارة الطبقة:\n$$ K_c = 65 + 0.24\\,T_f(^\\circ C)\\quad;\\quad R_{weq} = R_{mfeq} \\times 10^{-SSP/K_c}\nمثال (أرقام المصدر): T = 28°C ← Kc = 71.7؛ Rmf = 2.8 Ω·m ← Rmfeq = 0.85 × 2.8 ≈ 2.40؛ SSP = 100 mV ← Rweq = 2.40 × 10^(−1.394) ≈ 0.097، ومن المخطط Rw ≈ 0.12 Ω·m. تنبيه: المصدر نزّل Rmf من 3.0 عند 37°C إلى 2.8 عند 28°C، وهذا عكس الاتجاه — المقاومية تزيد لما الحرارة تنزل، وبمعادلة Arps تصير ≈ 3.55 ← Rmfeq ≈ 3.01 ← Rweq ≈ 0.12 Ω·m.\nإذا الطرق الأربعة تتفق (0.11–0.12 هنا) هذا يعطي ثقة بقيم φ و K و m، بقياس Rmf، وبخطوط السجيل والرمل النظيف.",
    "refs": [
     "Openhole Well Logs – Log Interpretation Basics, 9.3.1"
    ],
-   "aEn": "1) From the water zone (best if available): in the cleanest sand (lowest GR) below the contact we assume Sw = 100%:\n$$ R_w = \\frac{\\phi^m\\,R_t}{K}\nExample: φ = 0.31, Rt = 0.85 Ω·m, K = 0.625, m = 2.15 → Rw = 0.0806 × 0.85 ÷ 0.625 ≈ 0.11 Ω·m.\n2) From a water analysis (a produced sample): the laboratory measurement is corrected to formation temperature (Arps equation in Celsius):\n$$ R_{w2} = R_{w1}\\,\\frac{T_1 + 21.5}{T_2 + 21.5}\nExample: 0.125 Ω·m at 25°C → at 28°C: 0.125 × 46.5 ÷ 49.5 ≈ 0.12 Ω·m. (In Fahrenheit the constant is 6.77.)\n3) From a water catalogue: analyses from the same geological horizon in the area — it gives a range (for example 0.085–0.17 Ω·m) and is less accurate.\n4) From the SP: we need the SSP, the mud filtrate resistivity and the formation temperature:\n$$ K_c = 65 + 0.24\\,T_f(^\\circ C)\\quad;\\quad R_{weq} = R_{mfeq} \\times 10^{-SSP/K_c}\nExample: T = 28°C → Kc = 71.7; Rmf = 2.8 Ω·m → Rmfeq = 0.85 × 2.8 ≈ 2.40; SSP = 100 mV → Rweq = 2.40 × 10^(−1.394) ≈ 0.097, and from the chart Rw ≈ 0.12 Ω·m.\nIf the four methods agree (0.11–0.12 here) this gives confidence in the values of φ, K and m, in the Rmf measurement, and in the shale and clean sand baselines."
+   "aEn": "1) From the water zone (best if available): in the cleanest sand (lowest GR) below the contact we assume Sw = 100%:\n$$ R_w = \\frac{\\phi^m\\,R_t}{K}\nExample: φ = 0.31, Rt = 0.85 Ω·m, K = 0.625, m = 2.15 → Rw = 0.0806 × 0.85 ÷ 0.625 ≈ 0.11 Ω·m.\n2) From a water analysis (a produced sample): the laboratory measurement is corrected to formation temperature (Arps equation in Celsius):\n$$ R_{w2} = R_{w1}\\,\\frac{T_1 + 21.5}{T_2 + 21.5}\nExample: 0.125 Ω·m at 25°C → at 28°C: 0.125 × 46.5 ÷ 49.5 ≈ 0.12 Ω·m. (In Fahrenheit the constant is 6.77.)\n3) From a water catalogue: analyses from the same geological horizon in the area — it gives a range (for example 0.085–0.17 Ω·m) and is less accurate.\n4) From the SP: we need the SSP (here the size of the deflection as a positive number), the mud filtrate resistivity and the formation temperature:\n$$ K_c = 65 + 0.24\\,T_f(^\\circ C)\\quad;\\quad R_{weq} = R_{mfeq} \\times 10^{-SSP/K_c}\nExample (the source's figures): T = 28°C → Kc = 71.7; Rmf = 2.8 Ω·m → Rmfeq = 0.85 × 2.8 ≈ 2.40; SSP = 100 mV → Rweq = 2.40 × 10^(−1.394) ≈ 0.097, and from the chart Rw ≈ 0.12 Ω·m. Caution: the source takes Rmf from 3.0 at 37°C down to 2.8 at 28°C, which is the wrong direction — resistivity rises as temperature falls, and the Arps equation gives ≈ 3.55 → Rmfeq ≈ 3.01 → Rweq ≈ 0.12 Ω·m.\nIf the four methods agree (0.11–0.12 here) this gives confidence in the values of φ, K and m, in the Rmf measurement, and in the shale and clean sand baselines."
   },
   {
    "id": "mw-60",
@@ -15958,6 +15983,26 @@
    ]
   },
   {
+   "id": "wo-38",
+   "topic": "workover",
+   "q": "شلون تتنفذ عملية التكسير الهيدروليكي: حجوم العمليات الصغيرة والكبيرة، أسلوب Leapfrog، والمراقبة الميكروزلزالية؟",
+   "qEn": "How is a hydraulic fracturing job carried out: small and large job volumes, the leapfrog approach and microseismic monitoring?",
+   "k": [
+    "frac job volume small large",
+    "gel proppant breaker sequence",
+    "leapfrog fracking crews",
+    "microseismic monitoring geophones observation well",
+    "حجم عملية التكسير",
+    "التكسير بالقفز الضفدعي",
+    "المراقبة الميكروزلزالية"
+   ],
+   "a": "تسلسل العملية:\n1) نضخ سائل تكسير لزج — يشبه الجلي — بصخر المكمن بضغط عالي جداً، فتنفتح شقوق.\n2) حتى تبقى الشقوق مفتوحة نضيف رمل (Proppant) ونخلطه ويا السائل. تعليق الرمل بجلي البوليمر يخليه ينضخ أسهل ويوصل لعمق الشق.\n3) بعد ما يوصل الرمل لمكانه، الجلي يتكسر بفعل الزمن والحرارة لسائل خفيف ينسحب (Flowback)، والرمل يبقى بالشق.\nحجوم العمليات حسب المصدر:\n• عملية صغيرة: حوالي 100 m³ سائل (≈ 630 bbl).\n• عملية كبيرة: حوالي 2,500 m³ (≈ 15,700 bbl).\n• معدل الضخ: تقريباً 5 m³/min (≈ 31 bbl/min).\n• زمن الضخ للعملية الكبيرة: 2,500 ÷ 5 = 500 دقيقة، يعني أكثر من 8 ساعات.\nأسلوب Leapfrog: وحدة التكسير (المضخات والخلاطات) غالية جداً، فنشغّل أكثر من فريق تحضير بنفس الوقت يسبقها للمواقع الجاية — حتى توصل الوحدة وتبدي الضخ فوراً بدون انتظار التحضيرات.\nالمراقبة الميكروزلزالية (Microseismic monitoring): ننزل مجموعة سماعات أرضية (Geophones) ببئر مراقبة قريبة، تسجل الأحداث الميكروزلزالية — الطاقة اللي تنبعث لما يتشقق الصخر. بتحديد موقع كل حدث نرسم امتداد الشق واتجاهه وارتفاعه، ونستفيد منها باختيار مواقع الآبار الجاية.",
+   "aEn": "The sequence of the job:\n1) A viscous, gel-like fracturing fluid is pumped into the reservoir rock at very high pressure, opening fractures.\n2) To keep the fractures open, sand (proppant) is added and mixed with the fluid. Suspending the sand in the polymer gel makes it easier to pump and carries it deep into the fracture.\n3) Once the sand is in place, the gel breaks down with time and temperature into a thin liquid that is flowed back, leaving the sand in the fracture.\nJob sizes according to the source:\n• A small job: about 100 m³ of fluid (≈ 630 bbl).\n• A large job: about 2,500 m³ (≈ 15,700 bbl).\n• Pump rate: roughly 5 m³/min (≈ 31 bbl/min).\n• Pumping time for the large job: 2,500 ÷ 5 = 500 minutes, that is more than 8 hours.\nThe leapfrog approach: the frac spread (pumps and blenders) is very expensive, so more than one preparation crew works at the same time ahead of it on the next sites — so the spread arrives and starts pumping at once with no waiting for preparations.\nMicroseismic monitoring: an array of geophones is run in a nearby observation well to record the microseismic events — the energy released as the rock fractures. Locating each event maps the extent, direction and height of the fracture, and this is used in choosing the locations of the next wells.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — fracking process, hydraulic fracking, proppant, leapfrogging fracking, hydrofrac monitoring technique"
+   ]
+  },
+  {
    "id": "mp-01",
    "topic": "mpd",
    "q": "شنو هو الحفر بالضغط المدار (MPD)؟",
@@ -16576,6 +16621,46 @@
    "refs": [
     "قاموس مصطلحات نفطية (Petroleum dictionary), entries under A",
     "API, Publications Catalog"
+   ]
+  },
+  {
+   "id": "pl-18",
+   "topic": "planning",
+   "q": "شنو أسلوب الحفر بأقصى فاعلية (Drilling the Limit / eDtL)، وشنو بيئة العمل التعاوني (CWE) واستخدام الطائرات المسيّرة بالحقول؟",
+   "qEn": "What is Drilling the Limit (eDtL), and what are a collaborative working environment (CWE) and the use of drones in oilfields?",
+   "k": [
+    "drilling the limit DtL eDtL",
+    "rig sensors real-time performance benchmarking",
+    "collaborative working environment CWE",
+    "unmanned aerial vehicle UAV drone inspection",
+    "الحفر بأقصى فاعلية",
+    "بيئة العمل التعاوني",
+    "طائرة بدون طيار"
+   ],
+   "a": "Drilling the Limit (DtL): إنجاز البئر بأسرع وقت ممكن نظرياً — على افتراض إن التنفيذ بلا أخطاء، وبالمعارف والتقنيات والتصاميم المتوفرة حالياً.\nالـ eDtL (النسخة الإلكترونية):\n• مصادر المعلومات: حساسات البرج اللي تحدد شنو يصير بالضبط بكل نشاط، بيانات الحفر الآنية، والتقارير اليومية اللي يرفعها المشرفون. سوية تنطي صورة كاملة عن يوم العمل.\n• التحليل يكشف الوقت الضايع غير المنظور (Invisible lost time).\n• أمثلة: ليش برج معين ياخذ وقت أطول من غيره بربط الأنابيب (Connections)؟ وليش أبراج معينة دائماً أسرع بفحص الـ BOP؟\n• بعد تحديد أفضل ممارسة، مهندسو الأداء يجتمعون شهرياً ويا طاقم كل برج حتى يناقشون أداءه والمجالات اللي تتحسن.\nبيئة العمل التعاوني (CWE): مرفق يشتغل بيه اختصاصات مختلفة بإجراءات واضحة، ويا أدوات اتصال تربط الفرق بمواقع مختلفة بالصوت والصورة آنياً وباستمرار — حتى يصير القرار أسرع (مثلاً: مهندس الحفر والجيولوجي بالمكتب يتابعون البرج لحظياً).\nالطائرات المسيّرة (UAV): للفحص والتصوير بدون تعريض الأشخاص للخطر. مثال من المصدر: طائرة وزنها 1.5 kg، تطير 20 دقيقة بالمرة على ارتفاع 150 m، وبيها كاميرتين — وحدة حرارية تبيّن توزيع الحرارة، ووحدة فيديو عالي الوضوح وصور 24 ميگابكسل — ويا GPS وتحكم عن بعد.",
+   "aEn": "Drilling the Limit (DtL): completing the well in the theoretically fastest possible time — assuming flawless execution with the knowledge, technology and designs currently available.\neDtL (the electronic version):\n• Sources of information: the rig sensors that show exactly what happens in each activity, the real-time drilling data, and the daily reports submitted by the supervisors. Together they give a complete picture of the working day.\n• The analysis reveals the invisible lost time.\n• Examples: why does one rig take longer than others to make connections? Why are certain rigs consistently faster at testing the BOP?\n• Once best practice is identified, the performance engineers meet each rig crew monthly to discuss its performance and the areas for improvement.\nCollaborative working environment (CWE): a facility in which different disciplines work to clear procedures, with communication tools linking teams at different sites by voice and video continuously in real time — so decisions are made faster (for example the drilling engineer and the geologist in the office following the rig live).\nDrones (UAVs): for inspection and imaging without exposing people to danger. An example from the source: a drone weighing 1.5 kg that flies for 20 minutes at a time at a height of 150 m, with two cameras — a thermal one showing heat distribution, and one for high-definition video and 24-megapixel stills — plus GPS and remote control.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — electronically delivering the limit (eDtL), Collaborative Working Environment (CWE), unmanned aerial vehicle (UAV)"
+   ]
+  },
+  {
+   "id": "pl-19",
+   "topic": "planning",
+   "q": "شنو معنى القيمة المحلية المضافة (ICV)، مبادرة Lean، إدارة سلسلة التوريد، ووحدة String-month؟",
+   "qEn": "What do in-country value (ICV), the Lean initiative, supply-chain management and the string-month unit mean?",
+   "k": [
+    "in-country value ICV local content",
+    "lean initiative waste reduction",
+    "supply chain management",
+    "string-month rig activity measure",
+    "القيمة المحلية المضافة",
+    "مبادرة لين",
+    "شهر عمل جهاز الحفر"
+   ],
+   "a": "• القيمة المحلية المضافة (In-country value / Local content): مجموع الإنفاق اللي يبقى داخل البلد ويساهم بتطوير الأعمال المحلية وبناء القدرات البشرية وتحفيز الإنتاج بالاقتصاد — يعني مواد تتصنع وخدمات تتقدم بأيدي محلية داخل البلد. تدخل كمعيار بتقييم العطاءات.\n• Lean: مجموعة أنشطة هدفها تبسيط العمل ورفع كفاءته، وتوفير الوقت، وتقليل هدر الموارد.\n• إدارة سلسلة التوريد (Supply-chain management): إدارة كل جوانب تجهيز المواد والخدمات، من أول طلب لحد التسليم.\n• String-month: مقياس لنشاط أبراج الحفر — برج واحد يشتغل سنة كاملة يساوي 12 string-month.\nمثال: شركة شغّلت 3 أبراج سنة كاملة وبرج رابع 6 أشهر:\n• النشاط: 3 × 12 + 6 = 42 string-month\nتفيد هاي الوحدة بمقارنة حجم نشاط الحفر بين السنين والشركات، وبحساب كلفة أو عدد الآبار لكل string-month.",
+   "aEn": "• In-country value (local content): the total spend retained in the country that helps develop local business, build human capability and stimulate productivity in the economy — that is, goods made and services delivered by local hands in the country. It is used as a criterion in tender evaluation.\n• Lean: a set of activities aimed at simplifying work and raising its efficiency, saving time and reducing the waste of resources.\n• Supply-chain management: managing every aspect of supplying goods and services, from the initial order to delivery.\n• String-month: a measure of drilling rig activity — one rig working for a full year equals 12 string-months.\nExample: a company ran 3 rigs for a full year and a fourth rig for 6 months:\n• Activity: 3 × 12 + 6 = 42 string-months\nThe unit is useful for comparing the scale of drilling activity between years and companies, and for working out cost or number of wells per string-month.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — in-country value, lean initiative, supply-chain management, string-month"
    ]
   },
   {
@@ -18851,6 +18936,66 @@
    ]
   },
   {
+   "id": "pd-76",
+   "topic": "production",
+   "q": "شنو التوليد المشترك (Cogeneration) وليش يفيد بمشاريع حقن البخار للنفط الثقيل؟",
+   "qEn": "What is cogeneration, and why is it useful in steam injection projects for heavy oil?",
+   "k": [
+    "cogeneration combined heat and power CHP",
+    "gas turbine waste heat recovery steam",
+    "efficiency 28 34 60 70 percent",
+    "HRSG steam for heavy oil",
+    "التوليد المشترك",
+    "الحرارة المهدورة التوربين الغازي",
+    "بخار للنفط الثقيل"
+   ],
+   "a": "التوليد المشترك (Cogeneration): نولّد كهرباء ونستفيد من الحرارة المهدورة بنفس الوقت، بدل ما نذبها للجو.\n• التوربين الغازي يولّد كهرباء، وغازات العادم تطلع بحرارة حوالي 600°C.\n• بالدورة المفتوحة هاي الحرارة تروح للجو، وكفاءة المحطة 28–34% بس.\n• بالتوليد المشترك نستخدم حرارة العادم لإنتاج بخار (بمرجل استرجاع الحرارة HRSG) ← الكفاءة تصعد إلى 60% أو حتى 70%.\nليش مهم بالحقول النفطية:\n• مشاريع النفط الثقيل واللزج تحتاج آلاف الأطنان من البخار يومياً للحقن بالمكمن. بالتوليد المشترك البخار يجي من عادم التوربينات اللي تولّد الكهرباء، بدون حرق وقود إضافي.\n• يقل استهلاك الغاز وتقل انبعاثات غازات الاحتباس الحراري.\nمثال تقريبي: توربين ياخذ 100 MW كوقود؛ بالدورة المفتوحة ينطي حوالي 32 MW كهرباء والباقي يضيع. إذا استرجعنا 35 MW إضافية كبخار، صار المستفاد حوالي 67 MW.\n• أول تطبيق: محطة Pearl Street اللي بناها Thomas Edison سنة 1882 — ولّدت كهرباء واستخدمت الحرارة المهدورة لتدفئة البنايات المجاورة.",
+   "aEn": "Cogeneration: electricity is generated and the waste heat is used at the same time, instead of being thrown away to the atmosphere.\n• A gas turbine generates electricity, and its exhaust gas leaves at about 600°C.\n• In open cycle this heat goes to the atmosphere, and the plant efficiency is only 28–34%.\n• With cogeneration the exhaust heat is used to raise steam (in a heat recovery steam generator, HRSG) → the efficiency jumps to 60% or even 70%.\nWhy it matters in oilfields:\n• Heavy, viscous oil projects need thousands of tonnes of steam a day for injection into the reservoir. With cogeneration the steam comes from the exhaust of the turbines generating the electricity, with no extra fuel burned.\n• Gas consumption falls and so do greenhouse gas emissions.\nRough example: a turbine takes 100 MW as fuel; in open cycle it gives about 32 MW of electricity and the rest is lost. If a further 35 MW is recovered as steam, about 67 MW is put to use.\n• The first application: the Pearl Street station built by Thomas Edison in 1882 — it generated electricity and used the waste heat to warm neighbouring buildings.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — cogeneration"
+   ]
+  },
+  {
+   "id": "pd-77",
+   "topic": "production",
+   "q": "ليش يزيد الماي المنتج ويا عمر الحقل، وشنو معالجته بأحواض القصب (Reed beds)؟",
+   "qEn": "Why does produced water increase as a field ages, and how is it treated in reed beds (constructed wetlands)?",
+   "k": [
+    "produced water water cut 95 percent",
+    "reed beds constructed wetlands Nimr",
+    "deep water disposal reinjection",
+    "formation water injected water",
+    "الماي المنتج نسبة الماي",
+    "أحواض القصب",
+    "التخلص من الماي المصاحب"
+   ],
+   "a": "من وين يجي الماي:\n• ماي التكوين (Formation water): موجود طبيعياً بالمكمن جوه الهيدروكربونات لأنه أكثف.\n• ماي الحقن: نحقنه حتى ندفع النفط — وبالنهاية يطلع ويا الهيدروكربونات.\n• نسبة الماي (Water cut) = الماي ÷ مجموع السوائل المنتجة. ويا نضوج الحقل تصعد؛ بالحقول القديمة توصل 95%، وتبقى الآبار اقتصادية إذا السعر مقبول.\nشنو نسوي بيه:\n• نفصله بالسطح ونعالجه حتى نشيل أكثر ما يمكن من النفط.\n• نرجع نحقنه بنفس المكمن حتى نحافظ على الضغط، أو نتخلص منه بطبقة عميقة (Deep water disposal).\n• ممنوع يتصرف بالأعماق الضحلة: حتى بعد المعالجة يبقى بيه آثار نفط، ومكونات عضوية وغير عضوية من صخر المكمن، ومواد كيمياوية مضافة (لتحسين الإنتاج وفصل النفط عن الماي).\nأحواض القصب (Reed beds): معالجة طبيعية واطية الطاقة — نباتات القصب تمتص النفط والملوثات من الماي بشكل طبيعي.\n• مشروع نمر (Nimr) بعُمان: 2.4 مليون m² من الصحراء انزرعت بمليونين قصبة، ويعالج 660,000 bbl/d ماي منتج بكلفة قليلة مقارنة بالحقن العميق.\n• النتائج حسب المصدر: إيقاف 5 من أصل 12 مضخة تخلص عميق، توفير غاز يقدّر بـ 23 مليار قدم مكعب بعشر سنين، واسترجاع حوالي 327 bbl/d نفط.",
+   "aEn": "Where the water comes from:\n• Formation water: naturally present in the reservoir beneath the hydrocarbons because it is denser.\n• Injection water: injected to drive the oil — and in the end it comes out with the hydrocarbons.\n• Water cut = water ÷ total produced liquids. It rises as the field matures; in old fields it reaches 95%, and the wells stay economic if the price is acceptable.\nWhat is done with it:\n• It is separated at surface and treated to remove as much oil as possible.\n• It is reinjected into the same reservoir to maintain pressure, or disposed of in a deep layer (deep water disposal).\n• Discharge at shallow depths is prohibited: even after treatment it still carries traces of oil, organic and inorganic components from the reservoir rock, and added chemicals (to improve production and to separate oil from water).\nReed beds: a natural, low-energy treatment — the reed plants take up the oil and pollutants from the water naturally.\n• The Nimr project in Oman: 2.4 million m² of desert planted with two million reeds, treating 660,000 bbl/d of produced water at low cost compared with deep disposal.\n• Results according to the source: 5 of 12 deep disposal pumps shut down, gas savings estimated at 23 billion cubic feet over ten years, and about 327 bbl/d of oil recovered.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — production water, Nimr reed beds project, reed beds"
+   ]
+  },
+  {
+   "id": "pd-78",
+   "topic": "production",
+   "q": "شلون تشتغل الكابسة ذات الريش المنزلقة (Sliding vane compressor) والـ Eductor، ووين تنستخدم للغاز واطي الضغط؟",
+   "qEn": "How do a sliding vane compressor and a gas/water eductor work, and where are they used for low-pressure gas?",
+   "k": [
+    "sliding vane compressor rotary vane",
+    "gas water eductor ejector jet pump Bernoulli",
+    "low pressure gas compression",
+    "mud mixing hopper venturi",
+    "كابسة الريش المنزلقة",
+    "المضخة النافثة eductor",
+    "مبدأ برنولي"
+   ],
+   "a": "الكابسة ذات الريش المنزلقة (Sliding vane compressor):\n• أسطوانة محاطة بقميص ماي للتبريد، وبداخلها دوّار (Rotor) بيه 8 إلى 12 ريشة تتحرك بشقوق الدوّار.\n• لما يدور، القوة الطاردة المركزية تدفع الريش للخارج فتلامس جدار الأسطوانة، والغاز ينحصر بين كل ريشتين وينضغط لحد ما يطلع من فتحة التصريف بالضغط المطلوب.\n• مميزاتها: تشتغل فترات طويلة، موثوقة بالظروف القاسية، وكلفتها محدودة.\nالـ Eductor (المضخة النافثة غاز/ماي):\n• تشتغل على مبدأ Bernoulli: لما تزيد سرعة المائع ينزل ضغطه، والعكس.\n• ماي بضغط عالي يمر بفوهة فتزيد سرعته وينزل ضغطه، فيسحب الغاز واطي الضغط ويدفعه وياه.\n• أجزاءها المتحركة أقل من الكابسة الميكانيكية ← أعطال أقل، وكلفتها أقل بهواية من كابسة بنفس القدرة.\n• نفس المبدأ ينستخدم بخلط موائع الحفر: قادوس الخلط (Mud hopper) يسحب البارايت والبنتونايت بتيار الطين السريع.\nالاستخدام: رفع ضغط الغاز واطي الضغط (مثل غاز المراحل الأخيرة من العزل أو أبخرة الخزانات) حتى يدخل خط الغاز بدل ما ينحرگ بالشعلة.",
+   "aEn": "The sliding vane compressor:\n• A cylinder surrounded by a water jacket for cooling, with a rotor inside carrying 8 to 12 vanes that move in slots in the rotor.\n• As it turns, centrifugal force throws the vanes outward against the cylinder wall, and the gas is trapped between each pair of vanes and compressed until it leaves through the discharge port at the required pressure.\n• Advantages: it runs for long periods, is reliable in harsh conditions, and its cost is modest.\nThe eductor (gas/water jet pump):\n• It works on Bernoulli's principle: when the velocity of a fluid rises its pressure falls, and vice versa.\n• High-pressure water passes through a nozzle, so its velocity rises and its pressure falls, drawing in the low-pressure gas and carrying it along.\n• It has fewer moving parts than a mechanical compressor → fewer failures, and it costs far less than a compressor of the same power.\n• The same principle is used in mixing drilling fluids: the mud hopper draws in barite and bentonite with the fast mud stream.\nUse: boosting low-pressure gas (such as gas from the last separation stages or tank vapours) so that it enters the gas line instead of being flared.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — sliding vane compressor, gas/water eductor"
+   ]
+  },
+  {
    "id": "gs-01",
    "topic": "gas",
    "q": "شنو هو الغاز الطبيعي ومكوناته وشلون يتكوّن؟",
@@ -19630,6 +19775,26 @@
    "aEn": "Gas well equipment falls into three groups: the wellhead, the downhole equipment and the bottomhole (sandface) equipment.\nWellhead — three parts that hold the casing and tubing, seal the annulus and allow the well's operation to be adjusted:\n• Casing head: ties the top of the production casing to the previous casing string and seals the annulus between them; it has a base, tapered slips to hang the casing, and a sealing element squeezed between metal rings.\n• Tubing head: hangs the production tubing and seals the tubing-casing annulus, and is the base for the Christmas tree; its side outlets are for monitoring annulus pressure and for operations through the annulus.\n• Christmas tree — two types:\n– Cross type: for clean gas with no solids or liquids that promote erosion — because erosion of the cross forces a well shutdown.\n– Tee type (three-branch): for gas carrying solids and corrosive compounds (CO₂, H₂S, fatty acids). It is about 5 m tall — hard to service.\n– Both have two flow wings: one working and one standby; with a choke to control rate and wellhead pressure, a check valve, and a valve that shuts the well automatically if the flowline fails.\n• Standard working pressures: 4, 7.5, 12.5, 20, 35, 70 and 100 MPa; main bore 63 or 100 mm.\n• Gate valves are operated either fully open or fully closed — so the gate is not eroded by sand.\n• Opening sequence: the master valve first, then the valve nearest the cross/tee, then the rest on the flowline.\n• For high-rate wells: two flow lines and two chokes. For two isolated zones: separate production — one up the tubing and the other up the annulus.\nDownhole equipment (from the bottom): tail pipe, packer, circulation valve, nipple, downhole valve and tubing plug, chemical injection valve, subsurface safety valve, production tubing, and a corrosion or hydrate inhibitor fluid in the annulus. Their functions: regulating the well and preventing open flow, repairing and surveying the well without killing it, and changing the tubing without a kill.\n• Packer: seals the annulus and protects the casing from pressure, temperature and corrosive components.\n• Circulation valve: a temporary path between annulus and tubing for kick-off, treatment and killing.\n• Chemical injection valve: admits corrosion or hydrate inhibitor from the annulus into the tubing.\n• Subsurface safety valve: shuts the well in an emergency; controlled hydraulically from surface through a pressure line.\nBottomhole completion (four models):\n• a: competent rock and no bottom water → casing set at the top of the pay and the bottom left fully open.\n• b: active bottom water → partial penetration to limit early water production.\n• c and d: weak rock → casing and cement, then perforating (full or partial). The total perforation flow area equals the tubing inside cross-section to limit pressure loss.\nLoads on the packer: tubing weight G, the force of bottomhole pressure from below, the weight of fluid in the tubing and annulus, gas flow friction N, and packer-to-casing friction T. Stability condition with the well flowing:\n$$ F'_z + N - G - P_K \\le X\\,T\nand with the well shut in:\n$$ F''_z - G - P_K - P_T \\le X\\,T\nFlow friction from the Darcy-Weisbach relation:\n$$ \\Delta H_f = \\lambda\\, \\frac{H}{d_1}\\, \\frac{\\rho v^2}{2}",
    "refs": [
     "تجهيزات ومعدات الآبار الغازية — المحاضرة 4، الفصل الرابع (الأشكال 4-1 إلى 4-12)"
+   ]
+  },
+  {
+   "id": "gs-39",
+   "topic": "gas",
+   "q": "شنو تهيئة الغاز (Conditioning) وإضافة الرائحة (Odourization) ودليل Wobbe وفصائل الغاز، وشنو محطة تنظيم الضغط؟",
+   "qEn": "What are gas conditioning, odourization, the Wobbe index and gas families, and what is a pressure regulator station?",
+   "k": [
+    "Wobbe index gas families interchangeability",
+    "gas odourization mercaptan",
+    "gas conditioning enrichment",
+    "pressure regulator station transmission line transit pipeline",
+    "دليل Wobbe",
+    "إضافة الرائحة للغاز",
+    "محطة تنظيم ضغط الغاز"
+   ],
+   "a": "• خط نقل الغاز (Transmission line): ينقل الغاز بضغط عالي لمسافات طويلة، ويا معداته الملحقة. إذا عبر دولة بدون ما يجهزها يتسمى خط عبور (Transit).\n• محطة تنظيم الضغط (Pressure regulator station): تنزّل الضغط العالي تلقائياً لقيمة أقل ثابتة تناسب شبكة التوزيع.\n• تهيئة الغاز (Conditioning): تعديل خواص الغاز حسب الطلب — بنزع المكونات غير المرغوبة وإضافة المرغوبة.\n• الإثراء (Enrichment): رفع القيمة الحرارية للغاز بمزجه ويا غاز قيمته الحرارية أعلى.\n• إضافة الرائحة (Odourization): إضافة مادة كيمياوية ريحتها كريهة حتى ينكشف التسرب بالشم — وغالباً شرط قانوني بغاز التوزيع.\n• فصائل الغاز (Gas families): وقود غازي خواص احتراقه متقاربة — يعني دليل Wobbe مالته متقارب — فممكن يتبدل واحد بالثاني بدون تغيير الحارقات:\n – الفصيلة الأولى: غاز المدن (غني بالهيدروجين).\n – الثانية: الغاز الطبيعي والغاز المصاحب وما يتبدل بيهن.\n – الثالثة: الغاز البترولي المسال (بروبان وبيوتان).\nدليل Wobbe:\n$$ W = \\dfrac{HHV}{\\sqrt{SG}}\nحيث HHV القيمة الحرارية العليا و SG الكثافة النسبية للغاز (الهوا = 1).\nمثال: غاز طبيعي HHV = 1,030 Btu/scf و SG = 0.60 (جذرها ≈ 0.775):\n• W: 1,030 ÷ 0.775 ≈ 1,330 Btu/scf\nوبروبان HHV = 2,516 Btu/scf و SG = 1.52 (جذرها ≈ 1.233):\n• W: 2,516 ÷ 1.233 ≈ 2,040 Btu/scf\nالفرق الكبير يوضح ليش الحارقة المضبوطة على الغاز الطبيعي ما تشتغل صح على البروبان بدون تغيير الفوهة.",
+   "aEn": "• Gas transmission line: carries gas at high pressure over long distances, together with its associated equipment. If it crosses a country without supplying it, it is called a transit line.\n• Pressure regulator station: automatically reduces the high pressure to a lower constant value suited to the distribution network.\n• Gas conditioning: adjusting the gas properties to requirement — by removing unwanted components and adding wanted ones.\n• Enrichment: raising the heating value of the gas by blending it with a gas of higher heating value.\n• Odourization: adding a chemical with an unpleasant smell so that a leak is detected by smell — often a legal requirement for distribution gas.\n• Gas families: fuel gases with similar combustion properties — that is, similar Wobbe indices — so one can replace another without changing the burners:\n – First family: town gas (hydrogen-rich).\n – Second: natural gas, associated gas and their substitutes.\n – Third: liquefied petroleum gas (propane and butane).\nThe Wobbe index:\n$$ W = \\dfrac{HHV}{\\sqrt{SG}}\nwhere HHV is the higher heating value and SG the gas relative density (air = 1).\nExample: natural gas with HHV = 1,030 Btu/scf and SG = 0.60 (square root ≈ 0.775):\n• W: 1,030 ÷ 0.775 ≈ 1,330 Btu/scf\nAnd propane with HHV = 2,516 Btu/scf and SG = 1.52 (square root ≈ 1.233):\n• W: 2,516 ÷ 1.233 ≈ 2,040 Btu/scf\nThe large difference shows why a burner set for natural gas does not work properly on propane without changing the orifice.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — families of gases, odourization, conditioning, enrichment (gas), gas pressure regulator station, gas transmission line"
    ]
   },
   {
@@ -20472,6 +20637,26 @@
    "aEn": "The problem: a subsea well tied to a distant facility (a long tie-back) or in deep water — reservoir pressure must push the fluid through the whole flowline and the riser column. High back pressure on the wellhead reduces the rate, hastens the death of the well and leaves oil in the reservoir.\nThe solution: we move part of the processing from the platform to the seabed, close to the wells.\n1) Subsea boosting: pumps on the seabed raise the pressure of the well stream.\n• Multiphase pumps: pump oil, gas and water together without separation.\n– Helico-axial (rotodynamic): high rates and a high gas volume fraction (GVF).\n– Twin-screw (positive displacement): tolerating very high gas fractions and high viscosity.\n• Single-phase centrifugal pumps (or hybrid) after gas separation — a higher differential pressure.\n• ESP in the well, or in a caisson/dummy well on the seabed, or horizontal on a skid.\n• Benefits: higher production and more recovery (lower abandonment pressure), operating low-pressure wells, and extending the tie-back distance.\n2) Subsea separation:\n• Gas/liquid separation: the liquid is pumped by an ordinary pump (higher efficiency) and the gas rises under its own pressure in a separate line — solving slugging and hydrate problems in the riser in deep water.\n• Water separation and reinjection at the seabed: removes produced water before it goes to the platform → freeing line and processing capacity at surface, reducing the hydrostatic pressure in the riser, and reducing water discharge to sea. (Pioneering examples: Troll Pilot and Tordis in Norway.)\n3) Subsea gas compression: gas compressors on the seabed for remote gas fields (examples: Åsgard and Gullfaks in Norway) — compensating for reservoir pressure decline and preventing liquid accumulation in the lines; an alternative to a new compression platform.\n4) Subsea raw seawater injection: a pump and filtration on the seabed inject seawater directly — with no injection line from the platform.\nCommon requirements:\n• High-power electricity (megawatts) transmitted over long distances under water: cables, wet-mate connectors, transformers and variable speed drives (VSD) subsea or at surface.\n• A control and condition monitoring system, and barrier fluid for the motors and seals.\n• A modular design retrievable by vessel and ROV — because any failure = an expensive intervention.\n• Very high reliability (operating targets of 5 years without intervention) → long qualification tests before installation.\n• Sand: causes erosion and plugging — sand management is part of the design.\nWhen is it worth it? Fields far from an existing facility (instead of a new platform), deep water, heavy oil or low reservoir pressure, mature fields with high water cut where the platform is capacity-constrained, and areas under ice.\nComparison with alternatives: gas lift in the riser or in the wells (simpler but less effective and needing gas and a line), or a new floating facility (a larger investment)."
   },
   {
+   "id": "of-42",
+   "topic": "offshore",
+   "q": "شنو الكاشطة التحويلية (Bypass pig) وليش تنستخدم بدل الكاشطة العادية؟",
+   "qEn": "What is a bypass pig and why is it used instead of a conventional pig?",
+   "k": [
+    "bypass pig",
+    "sludge wax slug ahead of pig",
+    "pig velocity reduction slug catcher",
+    "intelligent pig multiphase pipeline",
+    "الكاشطة التحويلية",
+    "كاشطة بثقب",
+    "تقليل الحمأة أمام الكاشطة"
+   ],
+   "a": "الكاشطة العادية تسد مقطع الأنبوب كله، فتمشي بسرعة الجريان وتجمع كدامها كل السوائل والحمأة والشمع كسدادة وحدة كبيرة.\nالكاشطة التحويلية (Bypass pig): بيها ثقب بالوسط يسمح لجزء من الجريان اللي وراها يمر لكدامها. النتيجة:\n• الكاشطة تتأخر — تمشي أبطأ من الجريان.\n• الحمأة والمواد المتجمعة كدامها تنعالج على فترة أطول، فيقل حجمها ومعدل تجمعها بشكل ملحوظ.\n• التيار اللي يطلع من الثقب يبقي الرواسب معلقة وموزعة بدل ما تتراكم وتسد الخط.\nمتى تفيد:\n• خطوط الغاز والخطوط متعددة الطور (اللي يجري بيها سائل وغاز سوية بنسب مختلفة): بدون تحويل توصل دفعة سائل كبيرة مرة وحدة وممكن تتجاوز طاقة صائدة الدفعات (Slug catcher).\n• الخطوط اللي بيها شمع أو رواسب هواية وخطر انحشار الكاشطة.\nللمقارنة — الكاشطات الذكية (Intelligent pigs): تتحرك داخل الأنبوب وبيها مجسات تقيّم حالة جدار الأنبوب، وأشهر أساليبها تسرب الفيض المغناطيسي (MFL): نمغنط الجدار الفولاذي، وحساس بين القطبين يكشف الأماكن اللي يتسرب منها المجال — دلالة تآكل أو نقص بالمعدن — ومنها ينقاس عمق التآكل.",
+   "aEn": "A conventional pig seals the whole bore of the pipe, so it travels at the flow velocity and gathers all the liquids, sludge and wax ahead of it as one large plug.\nA bypass pig has a hole through its centre that lets part of the flow behind it pass to the front. The result:\n• The pig is slowed — it travels more slowly than the flow.\n• The sludge and material collected ahead of it are handled over a longer period, so their volume and rate of build-up are reduced noticeably.\n• The stream leaving the hole keeps the deposits suspended and spread out instead of piling up and blocking the line.\nWhere it helps:\n• Gas lines and multiphase lines (carrying liquid and gas together in varying proportions): without bypass a large liquid slug arrives all at once and can exceed the capacity of the slug catcher.\n• Lines with a lot of wax or deposits and a risk of the pig sticking.\nFor comparison — intelligent pigs travel inside the pipe carrying sensors that assess the condition of the pipe wall; the best-known method is magnetic flux leakage (MFL): the steel wall is magnetised, and a sensor between the poles detects where the field leaks out — a sign of corrosion or metal loss — from which the corrosion depth is measured.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — by-pass pigging, intelligent pigs, magnetic flux leakage, multi-phase pipeline"
+   ]
+  },
+  {
    "id": "rf-01",
    "topic": "refining",
    "q": "شنو هي درجة API للنفط الخام وشلون أحسبها من الكثافة النسبية؟",
@@ -20897,11 +21082,11 @@
     "أنواع وحدات الإصلاح",
     "التجديد المستمر"
    ],
-   "a": "التصنيف حسب طريقة وتكرار تجديد الحفاز:\n1) شبه التجديدي (Semi-regenerative) — الأكثر انتشاراً تاريخياً: 3–4 مفاعلات سرير ثابت على التوالي، تشتغل دورة 6 أشهر لسنة. نشاط الحفاز يقل بترسب الفحم (يقل مردود العطريات ونقاوة الهيدروجين)، فنرفع حرارة المفاعلات تدريجياً حتى نحافظ على الأوكتان. لما توصل الحرارة حد نهاية الدورة، الوحدة تتوقف والحفاز يتجدد بمكانه بحرق الفحم بالهواء. يشتغل بضغط عالي (200–300 psig) حتى يقل معدل التفحم. الحفاز يتجدد 5–10 مرات قبل تبديله.\n2) التجديد الدوري (Cyclic): مفاعل إضافي متأرجح (Swing reactor) يدخل بدل أي مفاعل يحتاج تجديد، فالوحدة تستمر. ضغط أوطى (~200 psig) ← مردود ريفورميت وهيدروجين أعلى ونشاط شبه ثابت. العيب: تبديل المفاعلات معقد ويحتاج احتياطات سلامة عالية، وكل المفاعلات لازم بنفس الحجم.\n3) التجديد المستمر (CCR): ضغط واطي (~50 psig، بحدود 60–150 psig)، مفاعلات سرير متحرك متراكبة فوق بعض؛ الحفاز ينزل بالجاذبية من فوق لجوه، ينسحب المستهلك من آخر مفاعل، يروح للمجدّد يحترق فحمه، ويرجع لقمة المفاعل الأول (النقل بالرفع الغازي). نشاط عالي ثابت، ريفورميت أغنى بالعطريات، وهيدروجين أنقى. أغلب الوحدات الجديدة CCR، والقديمة تتحول له.\nالمبدأ: الضغط الأوطى يحسن المردود (يشجع نزع الهيدروجين) بس يزيد التفحم — والـ CCR يحل هالتعارض لأنه يجدد باستمرار.",
+   "a": "التصنيف حسب طريقة وتكرار تجديد الحفاز:\n1) شبه التجديدي (Semi-regenerative) — الأكثر انتشاراً تاريخياً: 3–4 مفاعلات سرير ثابت على التوالي، تشتغل دورة 6 أشهر لسنة. نشاط الحفاز يقل بترسب الفحم (يقل مردود العطريات ونقاوة الهيدروجين)، فنرفع حرارة المفاعلات تدريجياً حتى نحافظ على الأوكتان. لما توصل الحرارة حد نهاية الدورة، الوحدة تتوقف والحفاز يتجدد بمكانه بحرق الفحم بالهواء. يشتغل بضغط عالي (200–300 psig) حتى يقل معدل التفحم. الحفاز يتجدد 5–10 مرات قبل تبديله.\n2) التجديد الدوري (Cyclic): مفاعل إضافي متأرجح (Swing reactor) يدخل بدل أي مفاعل يحتاج تجديد، فالوحدة تستمر. ضغط أوطى (~200 psig) ← مردود ريفورميت وهيدروجين أعلى ونشاط شبه ثابت. العيب: تبديل المفاعلات معقد ويحتاج احتياطات سلامة عالية، وكل المفاعلات لازم بنفس الحجم.\n3) التجديد المستمر (CCR): ضغط واطي (المصدر يذكر ~50 psig، والمدى النموذجي 60–150 psig)، مفاعلات سرير متحرك متراكبة فوق بعض؛ الحفاز ينزل بالجاذبية من فوق لجوه، ينسحب المستهلك من آخر مفاعل، يروح للمجدّد يحترق فحمه، ويرجع لقمة المفاعل الأول (النقل بالرفع الغازي). نشاط عالي ثابت، ريفورميت أغنى بالعطريات، وهيدروجين أنقى. أغلب الوحدات الجديدة CCR، والقديمة تتحول له.\nالمبدأ: الضغط الأوطى يحسن المردود (يشجع نزع الهيدروجين) بس يزيد التفحم — والـ CCR يحل هالتعارض لأنه يجدد باستمرار.",
    "refs": [
     "Ancheyta (2011), 4.1.2 Types of Catalytic Reforming Processes"
    ],
-   "aEn": "Classification by the method and frequency of catalyst regeneration:\n1) Semi-regenerative — historically the most widespread: 3–4 fixed-bed reactors in series, operating a cycle of 6 months to a year. Catalyst activity falls with coke deposition (aromatics yield and hydrogen purity fall), so we raise the reactor temperatures gradually to maintain octane. When the temperature reaches the end-of-cycle limit, the unit shuts down and the catalyst is regenerated in place by burning off the coke with air. It operates at high pressure (200–300 psig) to reduce the coking rate. The catalyst is regenerated 5–10 times before replacement.\n2) Cyclic regeneration: an extra swing reactor substitutes for any reactor needing regeneration, so the unit keeps running. Lower pressure (~200 psig) → higher reformate and hydrogen yield and nearly constant activity. The drawback: switching reactors is complex and needs high safety precautions, and all reactors must be the same size.\n3) Continuous catalyst regeneration (CCR): low pressure (~50 psig, in the range 60–150 psig), moving-bed reactors stacked one above another; the catalyst flows by gravity from top to bottom, the spent catalyst is withdrawn from the last reactor, goes to the regenerator where its coke is burned, and returns to the top of the first reactor (transported by gas lift). High constant activity, a reformate richer in aromatics, and purer hydrogen. Most new units are CCR, and old ones are being converted to it.\nThe principle: lower pressure improves yield (favouring dehydrogenation) but increases coking — and CCR resolves this conflict because it regenerates continuously."
+   "aEn": "Classification by the method and frequency of catalyst regeneration:\n1) Semi-regenerative — historically the most widespread: 3–4 fixed-bed reactors in series, operating a cycle of 6 months to a year. Catalyst activity falls with coke deposition (aromatics yield and hydrogen purity fall), so we raise the reactor temperatures gradually to maintain octane. When the temperature reaches the end-of-cycle limit, the unit shuts down and the catalyst is regenerated in place by burning off the coke with air. It operates at high pressure (200–300 psig) to reduce the coking rate. The catalyst is regenerated 5–10 times before replacement.\n2) Cyclic regeneration: an extra swing reactor substitutes for any reactor needing regeneration, so the unit keeps running. Lower pressure (~200 psig) → higher reformate and hydrogen yield and nearly constant activity. The drawback: switching reactors is complex and needs high safety precautions, and all reactors must be the same size.\n3) Continuous catalyst regeneration (CCR): low pressure (the source quotes ~50 psig, with a typical range of 60–150 psig), moving-bed reactors stacked one above another; the catalyst flows by gravity from top to bottom, the spent catalyst is withdrawn from the last reactor, goes to the regenerator where its coke is burned, and returns to the top of the first reactor (transported by gas lift). High constant activity, a reformate richer in aromatics, and purer hydrogen. Most new units are CCR, and old ones are being converted to it.\nThe principle: lower pressure improves yield (favouring dehydrogenation) but increases coking — and CCR resolves this conflict because it regenerates continuously."
   },
   {
    "id": "rf-23",
@@ -21280,6 +21465,26 @@
     "Gary, Handwerk & Kaiser, Petroleum Refining: Technology and Economics"
    ],
    "aEn": "Refineries are graded in complexity by their ability to convert heavy residues into valuable light products:\n1) Topping refinery: atmospheric distillation only (and sometimes vacuum). It separates the crude into its natural cuts without upgrading — the gasoline is low in octane and the fuel oil fraction is high. For remote sites and supplying simple local needs.\n2) Hydroskimming: distillation + catalytic reforming (raising naphtha octane and producing hydrogen) + hydrotreating of the cuts + isomerization. Products of good specification, but it does not convert the residue → 30–45% of the crude leaves as cheap fuel oil. Its profitability is poor with heavy crudes.\n3) Cracking/conversion refinery: adds vacuum distillation + FCC and/or hydrocracker (+ alkylation, visbreaker) — converting vacuum gas oil to gasoline and diesel. Fuel oil falls to 15–25%.\n4) Coking/deep conversion refinery: adds a coker or residue hydrocracking — converting almost the whole bottom of the barrel (a solid product: coke). Fuel oil is close to zero. It can refine cheap heavy sour crudes and get light products from them.\n(And refineries integrated with petrochemicals: steam cracking and aromatics.)\nNelson complexity index (NCI): each unit has a complexity factor representing its cost relative to the atmospheric distillation unit (= 1.0). Approximate examples: vacuum distillation ~2, reforming ~5, FCC ~6, hydrocracker ~6–8, coker ~6–7.5, alkylation ~10, hydrotreating ~2–3.\n$$ NCI = \\sum \\left(\\frac{\\text{unit capacity}}{\\text{atmospheric distillation capacity}} \\times \\text{unit factor}\\right)\nExample: a 100,000 bbl/d refinery with: atmospheric distillation (1.0), vacuum 45,000 (2.0), reforming 20,000 (5.0), FCC 30,000 (6.0), hydrotreating 50,000 (2.5):\nNCI = 1.0 + 0.45 × 2 + 0.20 × 5 + 0.30 × 6 + 0.50 × 2.5 = 1.0 + 0.9 + 1.0 + 1.8 + 1.25 = 5.95.\n• Topping ≈ 1–2; hydroskimming ≈ 2–5; cracking ≈ 6–9; coking/very complex ≈ 10–14+.\n• A higher index = more flexibility in crude selection, more valuable products, and higher investment and operating cost.\nRefining margin:\n• Gross margin = the value of the products from a barrel of crude − the price of the barrel of crude.\n• Net = gross − variable and fixed operating costs.\n• Crack spread: a quick market indicator — for example 3-2-1: (2 × gasoline price + 1 × diesel price − 3 × crude price) ÷ 3.\nExample: gasoline $100/bbl, diesel $110, crude $80 → (200 + 110 − 240) ÷ 3 ≈ $23.3/bbl.\nWhat drives the margin?\n• The price differential between light-sweet and heavy-sour crude: the wider it is, the more complex refineries gain (buying the cheap crude and making the same products).\n• The price differential between light products and fuel oil: it rewards conversion.\n• Utilization, the cost of energy and hydrogen, and environmental specifications.\nPlanning: linear programming (LP models) selects the crude slate, unit conditions and product blending to maximize the margin within capacity and specification constraints."
+  },
+  {
+   "id": "rf-41",
+   "topic": "refining",
+   "q": "شنو الخامات القياسية (Benchmark crudes) مثل Brent و WTI، وشنو يحدد فرق سعر الخام عنها؟",
+   "qEn": "What are benchmark crudes such as Brent and WTI, and what sets a crude's price differential against them?",
+   "k": [
+    "benchmark crude Brent WTI",
+    "West Texas Intermediate Cushing Oklahoma",
+    "marker crude price differential",
+    "light sweet crude API sulphur",
+    "خام برنت",
+    "خام غرب تكساس",
+    "الخامات القياسية وتسعير النفط"
+   ],
+   "a": "الخام القياسي (Benchmark / Marker crude): خام معروف المواصفات ينعتمد سعره مرجع، وباقي الخامات تتسعر بفرق عنه حسب الجودة والموقع.\n• Brent: مزيج من 15 حقل ببحر الشمال، خفيف وحلو — 38°API وكبريت 0.37%. مرجع لتسعير حوالي ثلثين إنتاج النفط العالمي، خصوصاً بأسواق أوروبا وأفريقيا.\n• WTI (West Texas Intermediate): أخف وأحلى — 39.6°API وكبريت 0.24% — وهو مرجع أمريكا الشمالية. نقطة التسعير: مدينة Cushing بولاية Oklahoma، لأنها ملتقى مجموعة كبيرة من أنابيب النفط.\n• سلة OPEC: معدل خامات من دول المنظمة. المصدر (2014) يذكر إن Brent ينباع أعلى منها بحوالي دولار وأقل من WTI بحوالي دولار — بس هاي الفروق تتغير ويا السوق، وبالسنين الأخيرة Brent صار غالباً أعلى من WTI.\nشنو يحدد الفرق السعري:\n• الكثافة (API): الخفيف ينطي منتجات خفيفة (بنزين وديزل) أكثر.\n• الكبريت: الحلو أرخص بالتكرير من الحامض.\n• الموقع: الخام يتصدر لسوق ثاني بس إذا فرق السعر أكبر من كلفة الشحن.\nمشكلة الخامات القياسية القديمة إن احتياطي وإنتاج حقولها ينزل ويا الوقت، وهذا يدفع السوق يدوّر على بدائل للتسعير.",
+   "aEn": "A benchmark (marker) crude is a crude of known quality whose price is taken as the reference; other crudes are priced at a differential to it according to quality and location.\n• Brent: a blend from 15 North Sea fields, light and sweet — 38°API and 0.37% sulphur. The reference for pricing about two-thirds of world oil production, especially in the European and African markets.\n• WTI (West Texas Intermediate): lighter and sweeter — 39.6°API and 0.24% sulphur — and the North American reference. Its pricing point is Cushing, Oklahoma, because it is the junction of a large group of oil pipelines.\n• The OPEC basket: an average of crudes from the member countries. The source (2014) says Brent sells about a dollar above it and about a dollar below WTI — but these differentials move with the market, and in recent years Brent has mostly been above WTI.\nWhat sets the price differential:\n• Density (API): a light crude yields more light products (gasoline and diesel).\n• Sulphur: a sweet crude is cheaper to refine than a sour one.\n• Location: a crude is exported to another market only if the price difference exceeds the freight cost.\nThe problem with the old benchmark crudes is that the reserves and production of their fields decline with time, which pushes the market to look for pricing alternatives.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — Brent crude, West Texas crude"
+   ]
   },
   {
    "id": "hs-01",
@@ -21845,6 +22050,67 @@
     "Atteraas et al. (eds.), Underwater Technology (UTC-80): safety analysis papers"
    ],
    "aEn": "Two kinds of safety:\n• Personal (occupational) safety: accidents affecting an individual — slips, falls, cuts, a trapped hand. High frequency and limited consequences. Its indicators: LTI and TRIR.\n• Process safety: preventing loss of containment of hazardous materials and energy — fires, explosions, toxic gas release, blowout. Low frequency and catastrophic consequences (multiple fatalities, loss of the facility, pollution).\n• The lesson from the major accidents (Piper Alpha 1988, Texas City 2005, Macondo 2010): an excellent personal safety record does not mean process safety is sound — each kind has its own indicators and management.\nThe Swiss cheese model (James Reason): between the hazard and the accident are several barriers, and each barrier has holes (like the holes in slices of cheese) — some are active failures (operator error) and some latent conditions (poor design, deferred maintenance, an incomplete procedure). The accident happens when the holes in all the slices line up at the same moment.\n→ Hence: multiple, independent barriers, and we monitor the health of each barrier continuously — we do not wait for the accident.\nTypes of barrier:\n• Preventive (before the event): sound design, mud weight, safety valves, alarms, procedures, work permits.\n• Mitigative (after the event): gas and fire detection, ESD, BOP, blowdown, firefighting, fire/blast walls, evacuation.\n• By nature: hardware, human (competence, decisions), and organizational (procedures, supervision).\nThe bow-tie diagram draws them around the top event: threats on the left with their preventive barriers, and consequences on the right with the mitigative ones.\nSafety critical elements (SCE): the equipment whose failure causes or worsens a major accident (BOP, SSSV, PSV, gas detectors, ESD, fire pumps) — each has a performance standard: its function, availability, reliability and survivability in the accident; and an inspection and verification programme, and a backlog in its maintenance is a warning indicator.\nManagement of change (MOC): behind most major accidents is a change whose risks were not assessed. Any change — to equipment, materials, procedures, operating limits, software, or people and organization; permanent or temporary — goes through:\n1. Describing the change and its reason.\n2. Risk assessment (and a HAZOP review if needed).\n3. Approval by the authorized body.\n4. Updating the documents (P&ID, procedures) and training those concerned.\n5. Pre-startup safety review (PSSR).\n6. Close-out — and a temporary change has an expiry date.\n\"Replacement in kind\" needs no MOC; anything else does.\nIn drilling: changing the well programme (shoe depth, mud weight, cancelling a test) is an MOC — and ignoring it is a recurring factor in well incident investigations.\nIndicators:\n• Lagging: measuring what has happened — loss of containment events (Tier 1/2 per API RP 754).\n• Leading: measuring barrier health before the accident — overdue SCE maintenance, overrides/bypasses of safety systems, overdue inspections, outdated procedures, open MOCs, emergency drills.\nElements of the management system (such as OSHA PSM / CCPS): process information, hazard analysis, operating procedures, training, contractor safety, mechanical integrity, work permits, MOC, incident investigation, emergency preparedness, and audit.\nCulture: reporting near misses, stop work authority for anyone, and \"chronic unease\" — not being reassured by the absence of accidents."
+  },
+  {
+   "id": "hs-29",
+   "topic": "safety",
+   "q": "شلون تنحسب مؤشرات السلامة LTIF و TRCF و LTOIF و TROIF، وشنو نظام مراقبة المركبات IVMS؟",
+   "qEn": "How are the safety indicators LTIF, TRCF, LTOIF and TROIF calculated, and what is the in-vehicle monitoring system (IVMS)?",
+   "k": [
+    "LTIF calculation per million man-hours",
+    "TRCF total recordable case frequency",
+    "LTOIF TROIF occupational illness frequency",
+    "IVMS in vehicle monitoring system",
+    "road safety speeding harsh braking seat belt",
+    "حساب LTIF",
+    "مؤشرات السلامة",
+    "نظام مراقبة المركبات"
+   ],
+   "a": "كل المعدلات تنحسب لكل مليون ساعة عمل، حتى نگدر نقارن بين مواقع وشركات بأحجام مختلفة:\n$$ \\text{Frequency} = \\dfrac{\\text{Number of cases} \\times 1{,}000{,}000}{\\text{Hours worked}}\n• LTIF (Lost-time injury frequency): عدد الإصابات المسجلة اللي تقعد العامل عن الشغل، لكل مليون ساعة.\n• TRCF (Total recordable case frequency): كل الحالات المسجلة لكل مليون ساعة.\n• LTOIF (Lost-time occupational illness frequency): حالات الأمراض المهنية اللي تخلي العامل ما يگدر يشتغل، لكل مليون ساعة.\n• TROIF (Total reportable occupational illness frequency): مجموع حالات الأمراض المهنية المسجلة لكل مليون ساعة.\nمثال: برج بيه 120 شخص، كل واحد 12 ساعة باليوم لمدة سنة:\n• الساعات: 120 × 12 × 365 = 525,600 ساعة.\n• إصابة مضيعة للوقت وحدة ← LTIF: 1 × 1,000,000 ÷ 525,600 ≈ 1.9\n• ثلاث حالات مسجلة ← TRCF: 3 × 1,000,000 ÷ 525,600 ≈ 5.7\nانتبه: بعض الجهات تحسب لكل 200,000 ساعة بدل المليون، فالرقم يطلع خُمس هذا — لازم تعرف الأساس قبل المقارنة.\nIVMS (In-vehicle monitoring system): أداة تعدّل سلوك السائقين بتسجيل الحالات غير الآمنة، وبالأخص أربعة:\n• عدم ربط حزام الأمان (حساس بقفل الحزام).\n• تجاوز السرعة القصوى.\n• التسارع المتهور.\n• الكبح الخشن.\nالثلاثة الأخيرة عن طريق الـ GPS: الجهاز يعرف موقع السيارة وسرعتها ثانية بثانية ويقارنها بحدود السرعة المخزونة لكل طريق.",
+   "aEn": "All the rates are calculated per million hours worked, so that sites and companies of different sizes can be compared:\n$$ \\text{Frequency} = \\dfrac{\\text{Number of cases} \\times 1{,}000{,}000}{\\text{Hours worked}}\n• LTIF (lost-time injury frequency): the number of recorded injuries that keep the worker off work, per million hours.\n• TRCF (total recordable case frequency): all recorded cases per million hours.\n• LTOIF (lost-time occupational illness frequency): occupational illness cases that leave the worker unable to work, per million hours.\n• TROIF (total reportable occupational illness frequency): the total of recorded occupational illness cases per million hours.\nExample: a rig with 120 people, each working 12 hours a day for a year:\n• Hours: 120 × 12 × 365 = 525,600 hours.\n• One lost-time injury → LTIF: 1 × 1,000,000 ÷ 525,600 ≈ 1.9\n• Three recorded cases → TRCF: 3 × 1,000,000 ÷ 525,600 ≈ 5.7\nNote: some bodies calculate per 200,000 hours instead of a million, so the figure comes out at one-fifth of this — the basis must be known before comparing.\nIVMS (in-vehicle monitoring system): a tool that changes driver behaviour by recording unsafe events, four in particular:\n• Not wearing the seat belt (a sensor in the belt buckle).\n• Exceeding the speed limit.\n• Reckless acceleration.\n• Harsh braking.\nThe last three use GPS: the unit knows the vehicle's position and speed second by second and compares it with the speed limits stored for each road.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — lost-time injury frequency (LTIF), lost-time occupational illness frequency (LTOIF), total reportable occupational illness frequency (TROIF), in vehicle monitoring system (IVMS)"
+   ]
+  },
+  {
+   "id": "hs-30",
+   "topic": "safety",
+   "q": "شنو منطقة التخطيط للطوارئ (EPZ) بحقول الغاز الحامضي، وليش الـ H₂S خطر حتى إذا ما شميته؟",
+   "qEn": "What is an emergency planning zone (EPZ) in sour gas fields, and why is H₂S dangerous even when you cannot smell it?",
+   "k": [
+    "emergency planning zone EPZ",
+    "sour gas field H2S release",
+    "H2S heavier than air olfactory paralysis",
+    "Harweel 10 km",
+    "منطقة التخطيط للطوارئ",
+    "حقول الغاز الحامضي",
+    "خطر H2S"
+   ],
+   "a": "منطقة التخطيط للطوارئ (EPZ): منطقة تتحدد حوالين المنشآت والآبار اللي تتعامل ويا تراكيز عالية من H₂S، ونخطط مسبقاً شلون نحمي كل اللي بداخلها إذا صار تسرب.\n• نصف قطرها يعتمد على أسوأ تسرب محتمل (تركيز الـ H₂S والضغط والكمية) — وبعض الحقول الحامضية يتجاوز 10 km (مثل حقل هرويل بعُمان حسب المصدر).\n• داخلها: تنظيم الدخول، كاشفات وصافرات إنذار، أقنعة هروب، نقاط تجمع، وخطة إخلاء أو احتماء للعاملين والسكان القريبين.\nليش الـ H₂S خطر:\n• عديم اللون، سام، وقابل للاشتعال.\n• أثقل من الهوا، فيتجمع بالأماكن الواطية وقليلة التهوية (الـ Cellar، الحفر، الخنادق).\n• ريحته لاذعة بالبداية، بس بسرعة يشل عصب الشم — فالضحية ممكن ما يحس بوجوده إلا بعد فوات الأوان. لهذا ما نعتمد على الشم أبداً، بس على الكاشفات.\nعملياً: قبل دخول الـ EPZ لازم تعريف (Induction)، كاشف شخصي، وتعرف اتجاه الريح ونقطة التجمع — والهروب يكون عكس الريح أو بشكل عمودي عليها ولمكان مرتفع.",
+   "aEn": "An emergency planning zone (EPZ) is an area defined around facilities and wells that handle high concentrations of H₂S, in which the protection of everyone inside is planned in advance in case of a release.\n• Its radius depends on the worst credible release (H₂S concentration, pressure and volume) — in some sour fields it exceeds 10 km (as at the Harweel field in Oman, according to the source).\n• Inside it: controlled access, detectors and alarm sirens, escape masks, muster points, and an evacuation or shelter plan for workers and nearby residents.\nWhy H₂S is dangerous:\n• Colourless, toxic and flammable.\n• Heavier than air, so it collects in low, poorly ventilated places (the cellar, pits, trenches).\n• Its smell is pungent at first, but it quickly paralyses the olfactory nerve — so the victim may not be aware of it until it is too late. That is why smell is never relied on, only detectors.\nIn practice: before entering the EPZ an induction, a personal detector and knowledge of the wind direction and muster point are required — and escape is upwind or crosswind and to higher ground.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — Emergency Planning Zones (EPZs)"
+   ]
+  },
+  {
+   "id": "hs-31",
+   "topic": "safety",
+   "q": "شنو تقييم الأثر البيئي (EIA) والتقييم المتكامل (IIA)، وشنو البصمة الكربونية واحتجاز الكربون (CCS)؟",
+   "qEn": "What are an environmental impact assessment (EIA) and an integrated impact assessment (IIA), and what are a carbon footprint and carbon capture and storage (CCS)?",
+   "k": [
+    "environmental impact assessment EIA",
+    "integrated impact assessment IIA social health",
+    "carbon footprint greenhouse gas",
+    "carbon capture and storage CCS",
+    "تقييم الأثر البيئي",
+    "البصمة الكربونية",
+    "احتجاز الكربون وتخزينه"
+   ],
+   "a": "• EIA (Environmental impact assessment): دراسة تنسوى قبل تطوير الحقل أو المشروع حتى تتحدد آثاره على البيئة.\n• IIA (Integrated impact assessment): أوسع — أداة تحدد وتقيّم الآثار البيئية والاجتماعية والصحية المحتملة للمشروع المقترح، وتقيّم البدائل، وتحط إجراءات تخفيف ومراقبة.\n – الهدف: تنعرف الآثار من البداية حتى تتعالج بمراحل التخطيط واتخاذ القرار، مو بعد ما ينبني المشروع.\n – تغطي كل عمر المشروع: الجدوى، التصميم، الإنشاء، التشغيل، والإيقاف (Decommissioning).\n – وتتأكد إن كل المتطلبات البيئية الحكومية مستوفاة.\n• البصمة الكربونية (Carbon footprint): مجموع انبعاثات غازات الاحتباس الحراري الناتجة عن مؤسسة أو منتج أو نشاط.\n• الحرق بالشعلة (Flaring): حرق الغاز لأغراض السلامة، أو للتخلص من الغاز المصاحب اللي ماكو جدوى اقتصادية لاستغلاله — وعليه اعتراض متزايد لأنه هدر للطاقة.\n• CCS (Carbon capture and storage): فصل CO₂ من المصادر الصناعية ومصادر الطاقة، ونقله لموقع خزن، وعزله عن الجو لأمد طويل — عادةً بحقنه بتكوينات جوفية.\nبالحقل: أكبر مصادر البصمة هي الحرق بالشعلة، وقود التوربينات والمحركات، وتسربات الميثان — وتقليلها يبدي باستغلال الغاز المصاحب بدل حرقه.",
+   "aEn": "• EIA (environmental impact assessment): a study carried out before a field or project is developed to identify its effects on the environment.\n• IIA (integrated impact assessment): broader — a tool that identifies and evaluates the likely environmental, social and health impacts of a proposed project, assesses the alternatives, and sets mitigation and monitoring measures.\n – The aim: the impacts are known from the start so they are dealt with in the planning and decision stages, not after the project is built.\n – It covers the whole project life: feasibility, design, construction, operation and decommissioning.\n – It also confirms that all government environmental requirements are met.\n• Carbon footprint: the total greenhouse gas emissions caused by an organisation, a product or an activity.\n• Flaring: burning gas for safety, or to dispose of associated gas that has no economic outlet — increasingly opposed as a waste of energy.\n• CCS (carbon capture and storage): separating CO₂ from industrial and energy sources, transporting it to a storage site and isolating it from the atmosphere for the long term — usually by injecting it into underground formations.\nIn the field: the largest sources of the footprint are flaring, fuel for turbines and engines, and methane leaks — and reducing it starts with using the associated gas instead of flaring it.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — Environmental Impact Assessment (EIA), integrated impact assessment (IIA), carbon footprint, Carbon Capture and Storage (CCS), flaring"
+   ]
   },
   {
    "id": "re-01",
@@ -23204,6 +23470,380 @@
    "refs": [
     "Whitson & Brulé, Phase Behavior, SPE Monograph 20, Ch. 3 and Ch. 7",
     "Craft & Hawkins, Applied Petroleum Reservoir Engineering, Ch. 4"
+   ]
+  },
+  {
+   "id": "re-65",
+   "topic": "reservoir",
+   "q": "شنو النفط الثقيل وشلون ينصنف بدرجة API، وشنو الإنتاج البارد (Cold production / CHOPS)؟",
+   "qEn": "What is heavy oil and how is it classified by API gravity, and what is cold production (CHOPS)?",
+   "k": [
+    "heavy oil definition API 22.3",
+    "extra heavy oil bitumen 10 API",
+    "cold production CHOPS sand production",
+    "heavy oil viscosity",
+    "النفط الثقيل",
+    "الإنتاج البارد",
+    "نفط ثقيل جداً"
+   ],
+   "a": "«ثقيل» هنا يعني كثافة ولزوجة عالية، وينقاس بدرجة API:\n• خفيف: 30°API فما فوگ.\n• ثقيل: أقل من 22.3°API.\n• ثقيل جداً (Extra-heavy): أقل من 10°API — أقرب للصلب من السائل.\nالثقيل بيه أسفلت ومعادن ثقيلة وكبريت ونتروجين أكثر، فيحتاج تكرير خاص ما متوفر إلا بعدد محدود من المصافي.\nالإنتاج البارد (Cold production): إنتاج بدون حرارة، للنفوط الثقيلة اللي لزوجتها واطية نسبياً (1,500–3,000 cP بحرارة المكمن)، بآبار عمودية أو أفقية ومضخة بقاع البئر ترفع النفط.\n• CHOPS (Cold Heavy Oil Production with Sand): نتعمد ننتج الرمل ويا النفط، لأن منع الرمل يقلل معدلات الإنتاج.\n• المميزات: كلفة رأسمالية وتشغيلية واطية، وانبعاثات CO₂ قليلة جداً.\n• العيوب: معامل الاستخلاص واطي (5–10%)، وما يصلح للمكامن اللي بيها طبقة مائية نشطة (Active aquifer).\n• مطبق بنجاح بفنزويلا وكندا.\nإذا اللزوجة أعلى ← نروح للطرق الحرارية (حقن بخار دوري أو غمر بالبخار).",
+   "aEn": "'Heavy' here means high density and viscosity, measured by API gravity:\n• Light: 30°API and above.\n• Heavy: below 22.3°API.\n• Extra-heavy: below 10°API — closer to a solid than a liquid.\nHeavy oil contains more asphalt, heavy metals, sulphur and nitrogen, so it needs special refining available in only a limited number of refineries.\nCold production: production without heat, for heavy oils of relatively low viscosity (1,500–3,000 cP at reservoir temperature), with vertical or horizontal wells and a downhole pump to lift the oil.\n• CHOPS (Cold Heavy Oil Production with Sand): sand is deliberately produced with the oil, because keeping the sand out reduces production rates.\n• Advantages: low capital and operating cost, and very low CO₂ emissions.\n• Drawbacks: a low recovery factor (5–10%), and it does not suit reservoirs with an active aquifer.\n• Applied successfully in Venezuela and Canada.\nIf the viscosity is higher → thermal methods are used (cyclic steam injection or steam flooding).",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — heavy oil, cold production"
+   ]
+  },
+  {
+   "id": "re-66",
+   "topic": "reservoir",
+   "q": "شلون يشتغل حقن البخار الدوري (Cyclic steam / Huff and puff)، وشنو الـ TAGOGD بالمكامن المتشققة؟",
+   "qEn": "How does cyclic steam injection (huff and puff) work, and what is TAGOGD in fractured reservoirs?",
+   "k": [
+    "cyclic steam injection huff and puff soak",
+    "TAGOGD thermally assisted gas oil gravity drainage",
+    "GOGD fractured carbonate heavy oil",
+    "Qarn Alam",
+    "حقن البخار الدوري",
+    "تصريف بالجاذبية بمساعدة الحرارة",
+    "مكامن متشققة نفط ثقيل"
+   ],
+   "a": "حقن البخار الدوري (Cyclic steam / Huff and puff): طريقة حرارية بيها الحقن والإنتاج من نفس البئر — ماكو بئر حقن وبئر إنتاج منفصلات. ثلاث مراحل:\n1) الحقن (Huff): نحقن بخار حتى يسخن الجزء القريب من البئر.\n2) النقع (Soak): نسد البئر مؤقتاً. البخار لما يلامس الصخر الأبرد يتكثف لماي حار ويطلق حرارة إضافية، فينساب النفط أسهل.\n3) الإنتاج (Puff): بعد كم يوم نفتح البئر وننتج خليط النفط والماي لحد ما تنزل نسبة النفط هواية، وبعدها نعيد الدورة.\n• لما يصير اتصال بين الآبار، ممكن يتحول المشروع لغمر كامل بالبخار (Steam flood).\nالـ TAGOGD (Thermally Assisted Gas-Oil Gravity Drainage): للمكامن كثيرة الشقوق:\n• البخار ينحقن مباشرة بالشقوق حتى يسخن صخر المكمن وينزّل لزوجة النفط اللي بيه.\n• البخار هنا مو مطلوب منه يدفع النفط لآبار الإنتاج (مثل الـ Steam flood) — بس يخليه يجري أسهل. الجاذبية هي اللي تشتغل: النفط ينزل للشقوق، ومنها لآبار إنتاج أفقية قريبة من أسفل المكمن.\n• التحديات: معرفة شلون الشقوق مرتبطة ببعضها، وكميات الماي الكبيرة اللي تنتج ولازم التخلص منها بدون ضرر بيئي.\n• أول مشروع كامل من نوعه بالعالم: قرن علم (Qarn Alam) بعُمان.",
+   "aEn": "Cyclic steam injection (huff and puff): a thermal method in which injection and production take place in the same well — there is no separate injector and producer. Three stages:\n1) Injection (huff): steam is injected to heat the region near the wellbore.\n2) Soak: the well is shut in temporarily. When the steam touches the cooler rock it condenses to hot water and gives up more heat, so the oil flows more easily.\n3) Production (puff): after a few days the well is opened and the oil-water mixture is produced until the oil fraction falls very low, and then the cycle is repeated.\n• Once the wells are in communication, the project can be converted to a full steam flood.\nTAGOGD (Thermally Assisted Gas-Oil Gravity Drainage): for heavily fractured reservoirs:\n• Steam is injected directly into the fractures to heat the reservoir rock and lower the viscosity of the oil in it.\n• Here the steam is not required to push the oil to the producers (as in a steam flood) — only to make it flow more easily. Gravity does the work: the oil drains into the fractures, and from there to horizontal producers near the base of the reservoir.\n• Challenges: knowing how the fractures connect to each other, and the large volumes of produced water that must be disposed of without harming the environment.\n• The first full project of its kind in the world: Qarn Alam in Oman.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — cyclic steam injection, thermally assisted gas-oil gravity drainage (TAGOGD), steam flood"
+   ]
+  },
+  {
+   "id": "re-67",
+   "topic": "reservoir",
+   "q": "شنو معنى STOIIP والاحتياطي المطوّر وغير المطوّر و SFR وهبوط الـ NFA وكلفة الإيجاد (Finding cost)؟",
+   "qEn": "What do STOIIP, developed and undeveloped reserves, SFR, NFA decline and finding cost mean?",
+   "k": [
+    "STOIIP versus reserves",
+    "developed undeveloped reserves scope for recovery SFR",
+    "NFA decline no further activity",
+    "finding cost oil equivalent gas 6000 scf",
+    "new oil old oil",
+    "الاحتياطي المطور وغير المطور",
+    "كلفة الإيجاد",
+    "هبوط الإنتاج الطبيعي"
+   ],
+   "a": "• STOIIP (Stock-tank oil initially in place): كمية النفط الموجودة أصلاً بالمكمن، معبر عنها ببراميل بظروف السطح (الضغط الجوي). بس جزء منها ينتج.\n• الاحتياطي (Reserves): الكميات اللي تشير البيانات الجيولوجية والهندسية إنها قابلة للاستخلاص بالظروف الاقتصادية والتشغيلية الحالية.\n• الفرق: الاثنين يتغيرون لما تجي معلومات جديدة عن المكمن، بس الاحتياطي وحده يزيد وينقص ويا سعر النفط والتقنية.\n• احتياطي مطوّر (Developed): بتكوينات تنتج حالياً عبر منشآت موجودة.\n• احتياطي غير مطوّر (Undeveloped): إله خطة تطوير حقل بس منشآت الإنتاج بعدها ما انبنت.\n• SFR (Scope for recovery): نفط محتمل ينتج بس خيارات التطوير بعدها غير مؤكدة.\n• Hypothetical reserves: كميات مخمّنة بأول مراحل الاستكشاف من معطيات أولية.\n• Ultimate resources: كل اللي يعتقد إنه موجود وراح ينكتشف بالنهاية — مفهوم جيولوجي بحت بدون قيود تقنية أو اقتصادية أو زمنية.\nمؤشرات:\n• هبوط الـ NFA (No further activity): الهبوط الطبيعي لإنتاج الآبار والمنشآت الموجودة بدون أي نشاط جديد. كل ما چان أكبر، نحتاج «نفط جديد» أكثر من آبار ومنشآت جديدة حتى نحافظ على الإنتاج.\n• New oil: احتياطي ينضاف من الاستكشاف بمناطق جديدة. Old oil: احتياطي ينضاف من دراسات هندسة النفط والاستكشاف قرب الحقول الموجودة.\n• Finding cost: مصروفات الاستكشاف السنوية ÷ الاحتياطي المضاف من الاستكشاف بنفس السنة.\n• الغاز المكافئ للنفط: تقريباً 6,000 ft³ غاز تعادل برميل نفط واحد بالحرارة.\nمثال: حقل ينتج 100,000 bbl/d وهبوط الـ NFA 10% بالسنة ← السنة الجاية الموجود ينطي 90,000 bbl/d، فنحتاج 10,000 bbl/d نفط جديد بس حتى نبقى بمكاننا.",
+   "aEn": "• STOIIP (stock-tank oil initially in place): the quantity of oil originally in the reservoir, expressed in barrels at surface conditions (atmospheric pressure). Only part of it is produced.\n• Reserves: the quantities that geological and engineering data indicate can be recovered under present economic and operating conditions.\n• The difference: both change when new information about the reservoir arrives, but reserves alone rise and fall with the oil price and technology.\n• Developed reserves: in formations currently producing through existing facilities.\n• Undeveloped reserves: a field development plan exists but the production facilities have not yet been built.\n• SFR (scope for recovery): oil that may be produced, but the development options are still uncertain.\n• Hypothetical reserves: quantities guessed at in the first stage of exploration from preliminary data.\n• Ultimate resources: everything believed to exist and eventually to be discovered — a purely geological concept with no technical, economic or time constraints.\nIndicators:\n• NFA (no further activity) decline: the natural decline in production from existing wells and facilities with no new activity. The larger it is, the more 'new oil' is needed from new wells and facilities to maintain production.\n• New oil: reserves added by exploration in new areas. Old oil: reserves added by petroleum engineering studies and exploration near existing fields.\n• Finding cost: annual exploration expenditure ÷ the reserves added by exploration in the same year.\n• Oil-equivalent gas: roughly 6,000 ft³ of gas equals one barrel of oil in heating value.\nExample: a field producing 100,000 bbl/d with an NFA decline of 10% per year → next year the existing base gives 90,000 bbl/d, so 10,000 bbl/d of new oil is needed just to stand still.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — stock-tank oil initially in place (STOIIP), reserves, developed and undeveloped reserves and scope for recovery, hypothetical reserves, ultimate resources, NFA decline rate, new oil, old oil, finding cost, oil-equivalent gas"
+   ]
+  },
+  {
+   "id": "ge-01",
+   "topic": "geology",
+   "q": "شنو أنواع الصخور الثلاثة (نارية، رسوبية، متحولة) وأي نوع يهم النفط؟",
+   "qEn": "What are the three rock families (igneous, sedimentary, metamorphic), and which one matters for petroleum?",
+   "k": [
+    "igneous sedimentary metamorphic rocks",
+    "rock types petroleum geology",
+    "basement rock",
+    "intrusive extrusive",
+    "أنواع الصخور",
+    "صخور نارية رسوبية متحولة",
+    "صخور القاعدة"
+   ],
+   "a": "الصخور ثلاث عوائل حسب طريقة تكوّنها:\n• النارية (Igneous): تتكون من تبلور الصهارة (Magma) لما تبرد. قسمين: متداخلة (Intrusive) تبرد جوه الأرض وما تنشاف إلا بعد ما تتعرى الصخور اللي فوگها، وسطحية (Extrusive) تطلع بالنشاط البركاني.\n• الرسوبية (Sedimentary): تتكون من رواسب ينقلها الماي والريح، تتراكم طبقات، وتتصلب بضغط الرواسب اللي تجي فوگها وبالمواد اللاحمة المعدنية (Cement) اللي تربط الحبيبات.\n• المتحولة (Metamorphic): صخور نارية أو رسوبية تعرضت لحرارة أو ضغط شديد (أو الاثنين) فتبلورت بمعادن جديدة — بدون ما تمر بحالة الانصهار.\nشنو يهمنا: النفط والغاز تقريباً كله بالصخور الرسوبية، لأن بيها المادة العضوية (صخر المصدر) وبيها المسامية والنفاذية (صخر المكمن).\n• صخور القاعدة (Basement rock): أقدم صخور بالمنطقة — نارية ومتحولة، غالباً من عمر ما قبل الكمبري — وتجي جوه التتابع الرسوبي. الوصول إلها يعني نهاية المقطع الرسوبي اللي ممكن يحتوي نفط، إلا إذا چانت متشققة.",
+   "aEn": "Rocks fall into three families by the way they form:\n• Igneous: formed by crystallisation of magma as it cools. Two kinds: intrusive, which cool inside the earth and are seen only after the rocks above them are eroded, and extrusive, which reach the surface through volcanic activity.\n• Sedimentary: formed from sediments carried by water and wind, laid down in layers and hardened by the weight of later sediments and by the mineral cement that binds the grains.\n• Metamorphic: igneous or sedimentary rocks subjected to intense heat or pressure (or both), so they recrystallise into new minerals — without passing through a molten stage.\nWhat matters to us: almost all oil and gas is in sedimentary rocks, because they hold the organic matter (source rock) and the porosity and permeability (reservoir rock).\n• Basement rock: the oldest rocks in an area — igneous and metamorphic, usually Precambrian — lying beneath the sedimentary sequence. Reaching it means the end of the sedimentary section that can hold petroleum, unless the basement is fractured.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — igneous rock, sedimentary rock, metamorphic rocks, basement rock"
+   ]
+  },
+  {
+   "id": "ge-02",
+   "topic": "geology",
+   "q": "شنو الفرق بين الحجر الرملي والحجر الجيري والدولومايت، وشنو معنى الطبقة (Bed) والتطبق (Bedding)؟",
+   "qEn": "What is the difference between sandstone, limestone and dolomite, and what do bed and bedding mean?",
+   "k": [
+    "sandstone limestone dolomite",
+    "clastic rock carbonate",
+    "bed bedding marker bed",
+    "reservoir rock types",
+    "حجر رملي حجر جيري دولومايت",
+    "صخور فتاتية",
+    "الطبقة التطبق"
+   ],
+   "a": "• الصخور الفتاتية (Clastic): تتكون من فتات معدني انتقل ميكانيكياً (بالماي أو الريح) وترسب.\n – الحجر الرملي (Sandstone): الرمل يجي من تجوية وتعرية صخور أقدم، وبعد ما ينطمر ويتماسك يصير حجر رملي. من أهم صخور المكامن.\n• الصخور الكربوناتية:\n – الحجر الجيري (Limestone): أساسه معدن كربونات الكالسيوم (CaCO₃). حبيباته ممكن تكون هياكل كائنات (مثل المرجان)، ويترسب بالبحار والبحيرات الصافية الدافئة.\n – الدولومايت (Dolomite): كربونات الكالسيوم والمغنيسيوم، CaMg(CO₃)₂.\n• الطبقة (Bed): أصغر وحدة طباقية صخرية، سمكها عادةً من سنتمتر واحد لعدة أمتار، وإلها صفات صخرية تميزها عن اللي فوگها وجوّاها. الطبقات المميزة تنستخدم كطبقات دالة (Marker beds) للمضاهاة (Correlation) بين الآبار.\n• التطبق (Bedding): صفة تميز الصخور الرسوبية — السطوح اللي تفصل بين حبيبات مختلفة بالحجم أو التركيب، وكل سطح يمثل سطح ترسيب متعاقب.\nللحفّار: نوع الصخر يحدد اختيار الريشة ومعدل الحفر؛ الكربونات معرضة للتكهف وفقدان الدورة، والرملي النفاذ للالتصاق التفاضلي.",
+   "aEn": "• Clastic rocks: made of mineral fragments that were transported mechanically (by water or wind) and deposited.\n – Sandstone: the sand comes from weathering and erosion of older rocks; once buried and consolidated it becomes sandstone. One of the most important reservoir rocks.\n• Carbonate rocks:\n – Limestone: made mainly of the mineral calcium carbonate (CaCO₃). Its grains can be the skeletons of organisms (such as coral), and it is deposited in clear, warm seas and lakes.\n – Dolomite: calcium magnesium carbonate, CaMg(CO₃)₂.\n• Bed: the smallest lithostratigraphic unit, usually from one centimetre to several metres thick, with rock properties that set it apart from the beds above and below. Distinctive beds are used as marker beds for correlation between wells.\n• Bedding: a feature of sedimentary rocks — the surfaces that separate grains of different size or composition, each one a successive surface of deposition.\nFor the driller: the rock type governs bit selection and rate of penetration; carbonates are prone to vugs and lost circulation, and permeable sandstone to differential sticking.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — sandstone, limestone, dolomite, clastic rock, bed, bedding"
+   ]
+  },
+  {
+   "id": "ge-03",
+   "topic": "geology",
+   "q": "شنو عناصر النظام النفطي: صخر المصدر، صخر المكمن، صخر الغطاء، المصيدة — وشنو معنى Play؟",
+   "qEn": "What are the elements of a petroleum system — source rock, reservoir rock, cap rock, trap — and what is a play?",
+   "k": [
+    "petroleum system elements",
+    "source rock reservoir rock cap rock seal",
+    "play definition",
+    "porosity permeability darcy",
+    "صخر المصدر صخر المكمن صخر الغطاء",
+    "النظام النفطي",
+    "المسامية والنفاذية"
+   ],
+   "a": "حتى يتكون تجمع نفطي لازم تتوفر خمس عناصر سوية:\n1) صخر المصدر (Source rock): رسوبيات بيها مادة عضوية وتولّد منها كميات مهمة من النفط و/أو الغاز.\n2) الهجرة (Migration): انتقال النفط من المصدر للمكمن.\n3) صخر المكمن (Reservoir rock): صخر مسامي ونفّاذ يحتوي بمساماته نفط و/أو غاز ممكن ينتج.\n4) صخر الغطاء (Cap rock / Seal): طبقات كتيمة (غير نفاذة) فوگ المكمن تمنع الهيدروكربونات تتسرب لفوگ.\n5) المصيدة (Trap): بنية جيولوجية توقف حركة الهيدروكربونات لفوگ وتخليها تتجمع.\n• الـ Play: هاي العناصر مجتمعة (مكمن + غطاء + مصدر + تركيب) بمنطقة وحدة — يعني نمط استكشافي ممكن يتكرر بأكثر من موقع.\n• المسامية (Porosity): نسبة حجم الفراغات من حجم الصخرة الكلي — هي اللي تخزن.\n• النفاذية (Permeability): سهولة جريان الموائع بالصخر، وحدتها الدارسي (D) والمليدارسي (mD) — هي اللي تنتج. نفاذية واطية تعني النفط يبقى بمكانه والطرق التقليدية ما تفيد.\nإذا غاب أي عنصر، أو التوقيت غلط (المصيدة تكونت بعد ما خلصت الهجرة)، البئر تطلع جافة.",
+   "aEn": "For a petroleum accumulation to form, five elements must be present together:\n1) Source rock: sediments containing organic matter from which significant quantities of oil and/or gas were generated.\n2) Migration: movement of the oil from the source to the reservoir.\n3) Reservoir rock: porous and permeable rock holding producible oil and/or gas in its pores.\n4) Cap rock (seal): impermeable beds above the reservoir that stop the hydrocarbons from leaking upward.\n5) Trap: a geological structure that halts the upward movement of the hydrocarbons and lets them accumulate.\n• A play: these elements combined (reservoir + seal + source + structure) in one area — an exploration pattern that can repeat at more than one location.\n• Porosity: the fraction of the bulk rock volume that is void space — it stores.\n• Permeability: how easily fluids flow through the rock, measured in darcies (D) and millidarcies (mD) — it produces. Low permeability means the oil stays in place and conventional methods do not help.\nIf any element is missing, or the timing is wrong (the trap formed after migration had ended), the well comes in dry.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — source rock, reservoir rock, cap rock, trap, play, porosity, permeability"
+   ]
+  },
+  {
+   "id": "ge-04",
+   "topic": "geology",
+   "q": "شنو الهجرة الأولية والثانوية للنفط، وشنو دلالة النزيز السطحي (Seepage)؟",
+   "qEn": "What are primary and secondary migration of oil, and what do surface seepages indicate?",
+   "k": [
+    "primary secondary migration",
+    "dismigration tertiary migration",
+    "oil seep seepage surface indications",
+    "هجرة النفط الأولية والثانوية",
+    "النزيز السطحي",
+    "ارتحال النفط"
+   ],
+   "a": "• الهجرة الأولية (Primary migration): خروج النفط من صخر المصدر باتجاه صخر المكمن.\n• الهجرة الثانوية (Secondary migration): حركة النفط داخل صخر المكمن والطبقات الناقلة لحد ما يوصل مصيدة ويتجمع بيها.\n• الهجرة الثالثية (Dismigration): النفط يطلع من المصيدة ويصعد لسطح الأرض، وهناك تتلفه العوامل الطبيعية (تبخر، أكسدة، بكتريا).\n• الدلائل السطحية (Seepages): هيدروكربونات سائلة أو غازية لگت طريق للسطح وتركت أثرها (نزيز نفط، قير، غاز). هي دليل إن بالمنطقة هيدروكربونات، بس مو ضمان: التسرب نفسه يعني الغطاء مو كتيم، وممكن الهيدروكربونات كلها راحت.\nليش الترتيب يصير غاز فوگ نفط فوگ ماي؟ بسبب فرق الكثافة: الموائع الأخف تتحرك لفوگ بقوة الطفو لحد ما يوقفها غطاء.",
+   "aEn": "• Primary migration: the oil leaving the source rock towards the reservoir rock.\n• Secondary migration: movement of the oil within the reservoir rock and carrier beds until it reaches a trap and accumulates there.\n• Tertiary migration (dismigration): the oil escapes from the trap and rises to the surface, where natural processes destroy it (evaporation, oxidation, bacteria).\n• Surface indications (seepages): liquid or gaseous hydrocarbons that found a path to the surface and left their traces (oil seeps, tar, gas). They show that hydrocarbons exist in the area, but they are no guarantee: the leak itself means the seal is not tight, and the hydrocarbons may all have gone.\nWhy is the order gas over oil over water? Because of the density difference: lighter fluids move upward by buoyancy until a seal stops them.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — migration, surface indices (seepages)"
+   ]
+  },
+  {
+   "id": "ge-05",
+   "topic": "geology",
+   "q": "شنو أنواع المصائد النفطية: التركيبية (محدبة، صدعية، قبة ملحية) والطباقية؟",
+   "qEn": "What are the types of petroleum traps: structural (anticline, fault, salt dome) and stratigraphic?",
+   "k": [
+    "trap types structural stratigraphic",
+    "anticline trap fault trap salt dome diapir",
+    "pinch-out reef unconformity trap",
+    "أنواع المصائد النفطية",
+    "مصيدة تركيبية طباقية",
+    "قبة ملحية"
+   ],
+   "a": "المصيدة (Trap): بنية جيولوجية تمنع الهيدروكربونات تتحرك لفوگ فتتجمع. نوعين رئيسيين:\n1) المصائد التركيبية (Structural): ناتجة من تشوه الطبقات — طي أو كسر أو الاثنين:\n• الطية المحدبة (Anticline): النفط يتجمع بالقمة.\n• المصيدة الصدعية (Fault trap): حركة الصدع تگطع طبقة مسامية وتحصرها مقابل صخر غير نفاذ؛ إذا الصدع سدّ بإحكام يتجمع النفط والغاز.\n• القبة الملحية (Salt dome): الملح كثافته واطية وطيّع، فلما ينطمر تحت رواسب سميكة يتحرك ويصعد (Diapir) ويرفع أو يخترق الطبقات اللي فوگه ويسوي قبب؛ النفط والغاز يتجمعون حوالين القبة وبالشقوق المرتبطة بيها.\n2) المصائد الطباقية (Stratigraphic): ناتجة من تغير نوع الصخر (Facies) مو من التشوه:\n• عدسات رملية، شعاب (Reefs)، وتلاشي الطبقة جانبياً (Pinch-out).\n• مصائد عدم التوافق (Unconformity): طبقة مكمنية مگطوعة ومغطاة بطبقة كتيمة أحدث.\nومرات تصير مصائد مركبة (Combination) بيها العاملين.\nللحفر: القبب الملحية معناها حفر ملح (زحف الملح وتوسع الحفرة وطين مشبع)، والصدوع معناها احتمال فقدان دورة أو تغير مفاجئ بالضغط.",
+   "aEn": "A trap is a geological structure that prevents hydrocarbons from moving upward, so they accumulate. Two main kinds:\n1) Structural traps: produced by deformation of the beds — folding, faulting or both:\n• Anticline: the oil collects at the crest.\n• Fault trap: movement on the fault cuts a porous bed and seals it against impermeable rock; if the fault seals tightly, oil and gas accumulate.\n• Salt dome: salt has a low density and is plastic, so when buried under thick sediments it moves and rises (a diapir), lifting or piercing the beds above and forming domes; oil and gas collect around the dome and in the associated fractures.\n2) Stratigraphic traps: produced by a change in rock type (facies), not by deformation:\n• Sand lenses, reefs and lateral pinch-out of a bed.\n• Unconformity traps: a reservoir bed truncated and covered by a younger impermeable bed.\nSometimes a combination trap has both factors.\nFor drilling: salt domes mean drilling salt (salt creep, hole enlargement and saturated mud), and faults mean possible lost circulation or a sudden change in pressure.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — trap, structural trap, fault block trap, salt dome traps, diapir"
+   ]
+  },
+  {
+   "id": "ge-06",
+   "topic": "geology",
+   "q": "شنو الصدع (Fault) وأنواعه، وشنو الطية المحدبة والمقعرة، وشلون يأثرون على مقطع البئر؟",
+   "qEn": "What is a fault and its types, what are anticlines and synclines, and how do they affect the section a well drills?",
+   "k": [
+    "fault types normal reverse thrust strike-slip",
+    "anticline syncline fold",
+    "repeated section missing section",
+    "الصدع وأنواعه",
+    "طية محدبة مقعرة",
+    "صدع عكسي اعتيادي"
+   ],
+   "a": "• الصدع (Fault): كسر بالطبقات الصخرية وجانب منه منزاح عن الثاني.\n – الاعتيادي (Normal): الكتلة المعلقة (Hanging wall) نازلة — ينتج من شد.\n – العكسي (Reverse) وصدع الدسر (Thrust): الكتلة العليا تتحرك لفوگ وفوگ الكتلة السفلى، فتصير طبقات أقدم فوگ طبقات أحدث — ينتج من انضغاط. الـ Thrust هو عكسي بميل واطي.\n – الانزلاقي (Strike-slip): الحركة أفقية.\n• الطيات (Folds):\n – المحدبة (Anticline): قوس لفوگ — أهم مصيدة نفطية.\n – المقعرة (Syncline): طية بشكل حوض، عكس المحدبة.\nأثرها على البئر:\n• إذا البئر گطعت صدع عكسي ممكن يتكرر نفس التكوين مرتين (Repeated section).\n• إذا گطعت صدع اعتيادي ممكن يغيب جزء من المقطع (Missing section).\n• بالحالتين تتغير الأعماق المتوقعة لقمم التكاوين ونقاط التغليف، وممكن يتغير الضغط عبر الصدع.",
+   "aEn": "• A fault: a fracture in the rock layers with one side displaced relative to the other.\n – Normal: the hanging wall has moved down — caused by extension.\n – Reverse and thrust: the upper block moves up and over the lower one, so older beds lie above younger beds — caused by compression. A thrust is a low-angle reverse fault.\n – Strike-slip: the movement is horizontal.\n• Folds:\n – Anticline: an upward arch — the most important petroleum trap.\n – Syncline: a basin-shaped fold, the opposite of an anticline.\nEffect on the well:\n• If the well crosses a reverse fault, the same formation can be drilled twice (repeated section).\n• If it crosses a normal fault, part of the section can be missing (missing section).\n• In both cases the expected depths of formation tops and casing points change, and the pressure can change across the fault.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — fault, thrust fault, syncline, structural trap"
+   ]
+  },
+  {
+   "id": "ge-07",
+   "topic": "geology",
+   "q": "شنو عدم التوافق (Unconformity) وعدم التوافق الزاوي، وليش يهم بالحفر والاستكشاف؟",
+   "qEn": "What are an unconformity and an angular unconformity, and why do they matter for drilling and exploration?",
+   "k": [
+    "unconformity angular unconformity",
+    "erosion surface time gap",
+    "unconformity trap",
+    "عدم التوافق",
+    "عدم التوافق الزاوي",
+    "سطح تعرية"
+   ],
+   "a": "عدم التوافق (Unconformity): سطح يفصل بين مجموعتين من الطبقات بينهن فجوة زمنية — الطبقات الجوّانية ترسبت، بعدين تشوهت (بحركة الصفائح) وانرفعت وتعرّت، وبعدها ترسبت فوگها طبقات جديدة.\n• عدم التوافق الزاوي (Angular unconformity): الطبقات اللي فوگ السطح واللي جوّاه مو متوازية — الجوّانية مايلة والفوگانية قريبة من الأفقي.\nليش يهم:\n• ممكن يسوي مصيدة: طبقة مكمنية مايلة مگطوعة ومغطاة بطبقة كتيمة.\n• سطح التعرية القديم ممكن يكون متجوّي ومتكهف (خصوصاً بالكربونات) ← خطر فقدان دورة.\n• ممكن يتغير نظام الضغط فجأة عبره.\n• ميل الطبقات يتغير عبره، وهذا يبين بمجس الميل (Dipmeter) وبالمقطع الزلزالي.",
+   "aEn": "An unconformity is a surface separating two sets of beds with a time gap between them — the lower beds were deposited, then deformed (by plate movement), uplifted and eroded, and afterwards new beds were laid down on top.\n• Angular unconformity: the beds above and below the surface are not parallel — the lower ones dip and the upper ones are close to horizontal.\nWhy it matters:\n• It can form a trap: a dipping reservoir bed truncated and covered by an impermeable bed.\n• The old erosion surface can be weathered and vuggy (especially in carbonates) → a lost circulation risk.\n• The pressure regime can change abruptly across it.\n• The bed dip changes across it, which shows on the dipmeter log and on the seismic section.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — unconformity, angular unconformity, trap"
+   ]
+  },
+  {
+   "id": "ge-08",
+   "topic": "geology",
+   "q": "شنو الفرق بين التكوين (Formation) والمكمن (Reservoir) والحقل (Field) والـ Pay zone، وشلون تتسمى التكاوين؟",
+   "qEn": "What is the difference between a formation, a reservoir, a field, a pool and a pay zone, and how are formations named?",
+   "k": [
+    "formation reservoir field pool pay zone difference",
+    "formation naming",
+    "Kolosh Aqra formation",
+    "الفرق بين التكوين والمكمن والحقل",
+    "تسمية التكاوين",
+    "النطاق المنتج"
+   ],
+   "a": "• التكوين (Formation): الوحدة الطباقية الرسمية الأساسية — كتلة طبقات إلها صفات صخرية تميزها عن اللي حواليها. الاسم يتكون من مقطعين: اسم موقع جغرافي + كلمة «تكوين» (مثل تكوين كولوش وتكوين عقرة بالعراق)، أو تنضاف له الصفة الصخرية الغالبة (مثل تكوين عقرة الجيري).\n• المكمن (Reservoir): كتلة متصلة من صخور مسامية (أو متشققة أو متكهفة) فجواتها مترابطة وتجري بيها الموائع. المكمن الواحد إله نظام ضغط واحد: الإنتاج من جزء منه يأثر على ضغط الأجزاء الباقية.\n• التجمع (Pool): تجمع طبيعي مستقل ومنفصل من النفط أو الغاز بتكوين مسامي نفاذ، صالح للإنتاج.\n• الحقل (Field): منطقة جغرافية بيها مكمن واحد أو عدة مكامن، ممكن تكون مفصولة عن بعضها أفقياً أو عمودياً.\n• النطاق المنتج (Pay zone): الجزء من المكمن اللي فعلاً يحتوي نفط أو غاز قابل للإنتاج.\nالخلاصة: الحقل يحتوي مكامن، المكمن يجي ضمن تكوين أو أكثر، والـ Pay هو الجزء المنتج منه.",
+   "aEn": "• Formation: the basic formal stratigraphic unit — a body of beds with rock properties that distinguish it from those around it. The name has two parts: a geographic locality + the word formation (such as the Kolosh Formation and the Aqra Formation in Iraq), or the dominant rock type is added (such as the Aqra Limestone Formation).\n• Reservoir: a continuous body of porous (or fractured or vuggy) rock with connected voids through which fluids flow. One reservoir has a single pressure system: producing from one part affects the pressure in the others.\n• Pool: a separate, independent natural accumulation of oil or gas in a porous, permeable formation, fit to produce.\n• Field: a geographic area containing one reservoir or several, which may be separated from each other horizontally or vertically.\n• Pay zone: the part of the reservoir that actually holds producible oil or gas.\nIn short: a field contains reservoirs, a reservoir lies within one formation or more, and the pay is its productive part.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — formation, reservoir, field, oil pool, pay zone"
+   ]
+  },
+  {
+   "id": "ge-09",
+   "topic": "geology",
+   "q": "شلون يحدد الجيولوجي عمر الصخور ويضاهيها بين الآبار: الطباقية الصخرية والحيوية والأحافير الدقيقة؟",
+   "qEn": "How does the geologist date rocks and correlate them between wells: lithostratigraphy, biostratigraphy and microfossils?",
+   "k": [
+    "lithostratigraphy biostratigraphy",
+    "microfossils palynomorphs",
+    "absolute age geological time scale",
+    "well correlation",
+    "الطباقية الصخرية والحيوية",
+    "الأحافير الدقيقة",
+    "عمر الصخور"
+   ],
+   "a": "علم الطبقات (Stratigraphy) يرتب الصخور ويضاهيها بين الآبار بأكثر من طريقة:\n• الطباقية الصخرية (Lithostratigraphy): تقسيم على أساس الصفات الصخرية (النوع، اللون، حجم الحبيبات) بدون اعتبار للعمر. وحداتها من الأصغر: الطبقة (Bed) ← العضو (Member) ← التكوين (Formation) ← المجموعة (Group). هي أساس الخرائط الجيولوجية.\n• الطباقية الحيوية (Biostratigraphy): ترتيب الصخور الرسوبية وتحديد عمرها من بقايا الأحياء (الأحافير) اللي بيها.\n – الأحافير الدقيقة (Microfossils): ما تندرس بالعين وتحتاج مجهر — وهي اللي تفيدنا بالحفر لأنها تبقى سليمة بفتات الحفر (Cuttings).\n – الـ Palynomorphs: أحافير دقيقة مثل حبوب اللقاح والأبواغ، تنستخلص بإذابة المعادن اللي حولها بالحامض، وتفيد بتحديد نوع الصخر وبيئة الترسيب والعمر.\n• العمر المطلق (Absolute age): عمر الصخرة بالسنوات، يتحدد بالطرق الإشعاعية.\n• المقياس الزمني الجيولوجي (Time scale): تقسيم تاريخ الأرض إلى دهور وحقب وعصور بالاعتماد على علم الطبقات والأحافير.\nبالموقع: جيولوجي البئر يستخدم الأحافير الدقيقة ونوع الصخر بالـ Cuttings حتى يحدد إحنا بأي تكوين، ويختار عمق التغليف وعمق التلبيب.",
+   "aEn": "Stratigraphy orders rocks and correlates them between wells in more than one way:\n• Lithostratigraphy: division by rock properties (type, colour, grain size) with no regard to age. Its units from the smallest: bed → member → formation → group. It is the basis of geological maps.\n• Biostratigraphy: ordering sedimentary rocks and dating them from the remains of organisms (fossils) they contain.\n – Microfossils: cannot be studied with the naked eye and need a microscope — they are the useful ones while drilling because they survive intact in the cuttings.\n – Palynomorphs: microfossils such as pollen grains and spores, extracted by dissolving the surrounding minerals in acid, and used to identify rock type, depositional environment and age.\n• Absolute age: the age of a rock in years, determined by radiometric methods.\n• Geological time scale: the division of earth history into eons, eras and periods based on stratigraphy and palaeontology.\nAt the wellsite: the wellsite geologist uses microfossils and the rock type in the cuttings to tell which formation is being drilled, and to pick the casing and coring depths.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — lithostratigraphy, lithostratigraphic unit, biostratigraphy, microfossil, palynomorph, absolute age, time scale"
+   ]
+  },
+  {
+   "id": "ge-10",
+   "topic": "geology",
+   "q": "شنو التجوية والترسيب والتحوير (Diagenesis) والكارست، وشلون يأثرون على نوعية المكمن؟",
+   "qEn": "What are weathering, deposition, diagenesis and karst, and how do they affect reservoir quality?",
+   "k": [
+    "weathering erosion deposition",
+    "diagenesis cementation compaction secondary porosity",
+    "karst carbonate caves lost circulation",
+    "التجوية والترسيب",
+    "التحوير diagenesis",
+    "الكارست"
+   ],
+   "a": "• التجوية (Weathering): تفتيت الصخور وتحللها على سطح الأرض أو قريب منه بفعل الجو والماي. ثلاث أنواع: فيزيائية (تكسير)، كيميائية (ذوبان وتحلل)، وحيوية. هي اللي تهيئ الصخر للنقل.\n• التعرية (Erosion): الماي والريح والجليد ينقلون الفتات.\n• الترسيب (Deposition): تراكم المواد بترسيب ميكانيكي (من الماي أو الهوا) أو كيميائي أو بالتبخر من محلول.\n• التحوير (Diagenesis): كل التغيرات الفيزيائية والكيميائية والحيوية اللي تصير على الرواسب بعد ما تنطمر وقبل ما توصل مرحلة التحول (Metamorphism): انضغاط، تلاحم (Cementation)، ذوبان، دلمتة.\n – ممكن يقلل المسامية (انضغاط وتلاحم) أو يزيدها (ذوبان يسوي مسامية ثانوية).\n• الكارست (Karst): تحلل الصخور الكربوناتية بماي المطر والمياه الجوفية الحامضية شوية ← الكسور والشقوق تتوسع وتصير كهوف.\nللحفر: الكربونات الكارستية معناها خطر فقدان دورة كلي وسقوط مفاجئ للريشة (Bit drop).",
+   "aEn": "• Weathering: the breaking down and decomposition of rocks at or near the earth's surface by the atmosphere and water. Three kinds: physical (breaking), chemical (solution and decomposition) and biological. It prepares the rock for transport.\n• Erosion: water, wind and ice carry the debris away.\n• Deposition: accumulation of material by mechanical settling (from water or air), by chemical precipitation or by evaporation from solution.\n• Diagenesis: all the physical, chemical and biological changes that affect sediments after burial and before metamorphism: compaction, cementation, dissolution, dolomitisation.\n – It can reduce porosity (compaction and cementation) or increase it (dissolution creating secondary porosity).\n• Karst: dissolution of carbonate rocks by rainwater and slightly acidic groundwater → fractures and joints widen into caves.\nFor drilling: karstified carbonates mean a risk of total lost circulation and a sudden bit drop.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — weathering, deposition, diagenesis, karst, erosion"
+   ]
+  },
+  {
+   "id": "ge-11",
+   "topic": "geology",
+   "q": "شنو الدلتا والمروحة الغرينية والرصيف القاري، وليش بيئة الترسيب مهمة للمكمن؟",
+   "qEn": "What are a delta, an alluvial fan and the continental shelf, and why does the depositional environment matter for a reservoir?",
+   "k": [
+    "delta alluvial fan",
+    "continental shelf continental slope",
+    "depositional environment reservoir geometry",
+    "الدلتا المروحة الغرينية",
+    "الرصيف القاري المنحدر القاري",
+    "بيئة الترسيب"
+   ],
+   "a": "• المروحة الغرينية (Alluvial fan): راسب بشكل مروحة أو مخروط يتكون عند قدم الجبل، لما المجرى المائي يطلع من وادي ضيق شديد الانحدار لسهل منبسط، فتتغير الظروف ويذب حمولته.\n• الدلتا (Delta): جسم رسوبي مثلثي الشكل عند مصب النهر ببحر أو بحيرة؛ النهر يذب المواد العالقة لأن سرعة التيار تقل، والرواسب تتراكم ويا الزمن. الاسم من الحرف اليوناني Δ: الراس عند نهاية مجرى النهر والقاعدة متقدمة بالماي. رمال الدلتا من أهم المكامن بالعالم.\n• الرصيف القاري (Continental shelf): الجزء الضحل المغمور بماي البحر من حافة القارة.\n• المنحدر القاري (Continental slope): الجزء اللي ينحدر بعد الرصيف باتجاه أعماق البحر.\nليش تهمنا بيئة الترسيب؟ لأنها تحدد شكل جسم المكمن وامتداده ونوعية الصخر (حجم الحبيبات والفرز، وبالتالي المسامية والنفاذية) — يعني وين نحفر الآبار وشكد تتصل ببعضها.",
+   "aEn": "• Alluvial fan: a fan- or cone-shaped deposit formed at the foot of a mountain, where a stream leaves a narrow, steep valley for a flat plain, conditions change and it drops its load.\n• Delta: a triangular body of sediment at the mouth of a river in a sea or lake; the river drops its suspended load because the current slows, and the sediment builds up over time. The name comes from the Greek letter Δ: the apex at the end of the river channel and the base advancing into the water. Deltaic sands are among the most important reservoirs in the world.\n• Continental shelf: the shallow part of the continental margin covered by the sea.\n• Continental slope: the part that descends beyond the shelf towards the deep sea.\nWhy does the depositional environment matter? Because it sets the shape and extent of the reservoir body and the rock quality (grain size and sorting, and hence porosity and permeability) — that is, where the wells are drilled and how well they connect.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — delta, alluvial fan, continental platform, continental shelf, continental slope"
+   ]
+  },
+  {
+   "id": "ge-12",
+   "topic": "geology",
+   "q": "شنو نظرية الصفائح التكتونية (Plate tectonics) وشنو علاقتها بتكوّن الأحواض والمصائد النفطية؟",
+   "qEn": "What is plate tectonics and how does it relate to the formation of basins and petroleum traps?",
+   "k": [
+    "plate tectonics",
+    "mantle convection spreading ridge",
+    "Wegener continental drift Pangaea",
+    "Zagros fold belt",
+    "الصفائح التكتونية",
+    "الوشاح الحمل الحراري",
+    "انجراف القارات"
+   ],
+   "a": "• القشرة الأرضية مقسمة إلى صفائح (Plates) قارية ومحيطية تتحرك ببطء.\n• الوشاح (Mantle): الطبقة بين القشرة واللب، من عمق حوالي 35 km لحد 2,900 km. مادته حارة وتتحرك ببطء شديد، وتيارات الحمل الحراري (Convection) بيه هي اللي تحرك الصفائح.\n• الصفائح تتباعد أو تتصادم أو تنزلق وحدة جوه الثانية — وعند حدودها تصير الزلازل والبراكين وسلاسل الجبال والخنادق المحيطية.\n• حيود الانتشار (Spreading ridges): عند تباعد الصفائح تصعد الصهارة من الصدوع تحت البحر وتكوّن قشرة محيطية جديدة — لهذا أحدث قشرة محيطية دائماً قريبة من الحيود.\n• التاريخ: Alfred Wegener اقترح سنة 1912 إن القارات چانت ملتصقة بقارة وحدة (Pangaea) وانفصلت، بس ما وضّح الآلية. Arthur Holmes اقترح الحمل الحراري بالوشاح كمصدر الطاقة. وبستينيات القرن العشرين، اكتشافات قيعان المحيطات ثبتت النظرية — بعد حوالي 50 سنة.\nعلاقتها بالنفط: حركة الصفائح تكوّن الأحواض الرسوبية (وين تتراكم الرواسب والمادة العضوية) وتسوي الطيات والصدوع (المصائد) — مثل حزام طيات زاگروس الناتج من تصادم الصفيحة العربية ويا الأوراسية.",
+   "aEn": "• The earth's crust is divided into continental and oceanic plates that move slowly.\n• The mantle: the layer between the crust and the core, from about 35 km down to 2,900 km. Its material is hot and moves extremely slowly, and the convection currents in it are what drive the plates.\n• Plates move apart, collide, or slide one beneath another — and at their boundaries earthquakes, volcanoes, mountain chains and ocean trenches occur.\n• Spreading ridges: where plates separate, magma rises through the faults beneath the sea and forms new oceanic crust — which is why the youngest oceanic crust always lies near the ridges.\n• History: Alfred Wegener proposed in 1912 that the continents were once joined in a single continent (Pangaea) and drifted apart, but did not explain the mechanism. Arthur Holmes proposed convection in the mantle as the source of energy. In the 1960s, discoveries on the ocean floors confirmed the theory — about 50 years later.\nThe link to petroleum: plate movement creates the sedimentary basins (where sediments and organic matter accumulate) and makes the folds and faults (the traps) — such as the Zagros fold belt, produced by the collision of the Arabian plate with the Eurasian plate.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — plate, plate tectonics, mantle, spreading ridge"
+   ]
+  },
+  {
+   "id": "ge-13",
+   "topic": "geology",
+   "q": "شنو أنواع الآبار حسب الغرض: Wildcat، Appraisal، Development، Infill، Observation، Offset، Relief؟",
+   "qEn": "What are the well types by purpose: wildcat, appraisal, development, infill, observation, offset and relief wells?",
+   "k": [
+    "well types by purpose",
+    "wildcat discovery appraisal delineation development well",
+    "infill observation offset relief well",
+    "dry hole marginal well step-out",
+    "أنواع الآبار",
+    "بئر استكشافية تقييمية تطويرية",
+    "بئر مراقبة بئر تنفيس"
+   ],
+   "a": "تصنيف الآبار حسب الغرض ومرحلة الحقل:\nالاستكشاف:\n• Wildcat: بئر استكشافية بمنطقة ما معروف بيها هيدروكربونات، بعيدة أميال عن أقرب بئر منتجة. ما إلها آبار مجاورة، فالتخطيط يعتمد على تفسير الزلزالي والخبرة السابقة.\n• Discovery well: أول بئر تثبت وجود نفط أو غاز بحقل جديد.\n• Dry hole: بئر ما ينتظر منها إنتاج بكميات تبرر كلفة تطويرها.\nالتقييم:\n• Appraisal well: تنحفر بعد الاكتشاف حتى نعرف حدود المكمن وإنتاجية الآبار وخواص النفط والغاز، وناخذ عينات وقياسات من أعماق مختلفة.\n• Delineation drilling: حفر عدة آبار على جوانب المكمن حتى نحدد امتداده.\n• Step-out (Outstep) well: بئر تمد الحقل خارج حدوده المقررة.\nالتطوير والإنتاج:\n• Development well: تنحفر بمنطقة مثبت بيها مكمن، للإنتاج.\n• Infill well: تنحفر بين آبار منتجة حتى نستغل المكمن أكثر.\n• Injection well (القاموس يسميها هم Key well): تنضخ منها الماي لأسفل الطبقات النفطية حتى تدعم إنتاج باقي الآبار.\n• Observation well: للمراقبة ودراسة خواص المكمن وتوجيه الإنتاج.\n• Marginal well: بئر إنتاجها واطي.\nخاصة:\n• Offset well: بئر قريبة من موقع البئر المقترحة، ومعلوماتها (جيولوجيا، ضغوط) أساس التخطيط.\n• Relief well: بئر مائلة تنحفر باتجاه بئر ثايرة (Blowout) حتى تنقتل بضخ طين ثقيل أو سمنت.",
+   "aEn": "Wells classified by purpose and stage of the field:\nExploration:\n• Wildcat: an exploration well in an area not known to hold hydrocarbons, miles from the nearest producing well. It has no neighbouring wells, so planning relies on seismic interpretation and past experience.\n• Discovery well: the first well to prove oil or gas in a new field.\n• Dry hole: a well not expected to produce enough to justify the cost of developing it.\nAppraisal:\n• Appraisal well: drilled after the discovery to find the limits of the reservoir, well productivity and the oil and gas properties, with samples and measurements taken at different depths.\n• Delineation drilling: drilling several wells on the flanks of the reservoir to define its extent.\n• Step-out (outstep) well: a well extending the field beyond its established limits.\nDevelopment and production:\n• Development well: drilled in an area proved to hold a reservoir, for production.\n• Infill well: drilled between producing wells to drain the reservoir more fully.\n• Injection well (the dictionary also calls it a key well): water is pumped through it to the base of the oil zones to support production from the other wells.\n• Observation well: for monitoring, studying reservoir properties and guiding production.\n• Marginal well: a well with low production.\nSpecial:\n• Offset well: a well near the location of the proposed well; its data (geology, pressures) are the basis of planning.\n• Relief well: a deviated well drilled towards a blowing-out well so that it can be killed by pumping heavy mud or cement.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — wildcat, discovery well, appraisal well, delineation drilling, development well, infill drilling, observation well, key well, offsetting well, relief well, dry hole, marginal well, outstepping wells"
+   ]
+  },
+  {
+   "id": "ge-14",
+   "topic": "geology",
+   "q": "شنو معنى مصطلحات المسح الزلزالي: Shot hole، Air gun، Slip-sweep، Migration، PSDM، و Two-way time؟",
+   "qEn": "What do the seismic survey terms mean: shot hole, air gun, slip-sweep, migration, PSDM and two-way time?",
+   "k": [
+    "seismic acquisition terms",
+    "shot hole air gun vibroseis slip-sweep",
+    "pre-stack depth migration PSDM stack",
+    "two-way time TWT",
+    "مصطلحات المسح الزلزالي",
+    "حفرة تفجير بندقية هوائية",
+    "الهجرة الزلزالية"
+   ],
+   "a": "المصادر:\n• Shot hole: حفرة ضيقة تنحفر عادةً بحفارة محمولة على شاحنة وتنحط بيها شحنة التفجير.\n• Air shooting: تفجير الشحنات بالهوا أو على أعمدة منصوبة بالأرض.\n• Vibroseis: شاحنات بيها صفائح هزازة — المصدر الأكثر استخدام على اليابسة.\n• Air gun: مصدر المسح البحري — يطلق هوا بضغط عالي بالماي.\nتقنيات التسجيل:\n• Slip-sweep: أسلوب على اليابسة تتداخل بيه الإشارات المنبعثة والمستقبلة من أكثر من مصدر (مجموعات هزازات)، فتنجمع بيانات أكثر بوقت محدود.\n• 3D: مصادر ومستقبلات كثيرة حتى نصور التراكيب بثلاث أبعاد بدل مقطع عرضي واحد.\n• 4D (Time-lapse): إعادة المسح فوگ حقل منتج حتى نفهم تغيرات المكمن ويا الإنتاج — حتى زيادة بسيطة بمعامل الاستخلاص إلها مردود كبير.\nالمعالجة:\n• Migration: نقل الانعكاسات من مواقع تسجيلها لمواقعها الصحيحة تحت الأرض.\n• Stack: جمع التسجيلات المتكررة لنفس النقطة حتى تتقوى الإشارة ويقل التشويش.\n• PSDM (Pre-stack depth migration): تسوية الـ Migration قبل الـ Stack وبمجال العمق — أدق بالتراكيب المعقدة.\n• Two-way time (TWT): الزمن اللي تاخذه الموجة من السطح للعاكس ورجوعها. المقاطع تنعرض بالزمن، وتحويلها لعمق يحتاج سرعات الطبقات.",
+   "aEn": "Sources:\n• Shot hole: a narrow hole, usually drilled by a truck-mounted drill, in which the explosive charge is placed.\n• Air shooting: detonating the charges in the air or on poles set in the ground.\n• Vibroseis: trucks with vibrating plates — the most widely used source on land.\n• Air gun: the marine source — it releases high-pressure air into the water.\nRecording techniques:\n• Slip-sweep: a land technique in which the emitted and received signals from more than one source (vibrator groups) are allowed to overlap, so more data are gathered in a limited time.\n• 3D: many sources and receivers so that structures are imaged in three dimensions instead of a single cross-section.\n• 4D (time-lapse): repeating the survey over a producing field to understand how the reservoir changes with production — even a small increase in recovery factor has a large payback.\nProcessing:\n• Migration: moving the reflections from where they were recorded to their correct subsurface positions.\n• Stack: summing the repeated recordings of the same point to strengthen the signal and reduce noise.\n• PSDM (pre-stack depth migration): migration done before stacking and in the depth domain — more accurate in complex structures.\n• Two-way time (TWT): the time the wave takes from the surface to the reflector and back. Sections are displayed in time, and converting them to depth needs the layer velocities.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — shot hole, air shooting, air gun, slip-sweep seismic technique, three-dimensional seismic survey, 4D time lapse seismic survey, pre-stack depth migration (PSDM), TWT"
+   ]
+  },
+  {
+   "id": "ge-15",
+   "topic": "geology",
+   "q": "شنو المكامن غير التقليدية (Tight gas، Shale gas، Tight oil) وشنو معنى Sweet spot؟",
+   "qEn": "What are unconventional reservoirs (tight gas, shale gas, tight oil), and what is a sweet spot?",
+   "k": [
+    "unconventional reservoirs definition",
+    "tight gas shale gas tight oil",
+    "sweet spot",
+    "microdarcy permeability",
+    "oil sands tar sands",
+    "المكامن غير التقليدية",
+    "المكامن الكتيمة",
+    "الغاز الصخري"
+   ],
+   "a": "المكامن غير التقليدية (Unconventional): مكامن خواصها ما تسمح بالاستخلاص بطرق الحفر والتصريف العادية. أشهرها المكامن الكتيمة (Tight) اللي نفاذيتها واطية لدرجة الغاز ما ينساب للبئر بدون تدخل.\n• المقياس حسب المصدر: المكامن التقليدية نفاذيتها لحد حوالي 0.5 دارسي، والكتيمة تنقاس بجزء من المليدارسي أو بالمايكرودارسي، وأعماقها توصل 5 km.\n• Tight gas: غاز برمال أو حجر جيري واطي المسامية والنفاذية، غالباً أعمق من 10,000 ft.\n• Shale gas: غاز متولد وباقي بالصخر الغني بالمادة العضوية؛ يكون جاف أو غني بالسوائل (مثل الإيثان المطلوب للبتروكيمياويات).\n• Tight oil (ويتسمى هم Shale oil أو Light tight oil): نفط خفيف بتكوينات واطية النفاذية، غالباً Shale أو حجر رملي.\n• كلها تحتاج حفر أفقي وتكسير هيدروليكي واسع بماي ورمل حتى يزيد التماس ويا المكمن.\n• الـ Sweet spot: منطقة مساميتها ونفاذيتها عالية ضمن مكمن خواصه واطية — هي الهدف الأول للحفر.\n• Tar sands (Oil sands): رسوبيات بيها بيتومين عالي اللزوجة ما ينستخلص بالطرق التقليدية.\nلا تخلط: الـ Tight / Shale oil نفط جاهز بصخر كتيم، أما الـ Oil shale فصخر بيه كيروجين لازم ينسخن حتى يتحول لنفط.",
+   "aEn": "Unconventional reservoirs have properties that make recovery impossible with ordinary drilling and drainage methods. The best known are tight reservoirs, whose permeability is so low that gas will not flow to the well without intervention.\n• The scale according to the source: conventional reservoirs have permeability up to about 0.5 darcy, while tight ones are measured in fractions of a millidarcy or in microdarcies, and their depths reach 5 km.\n• Tight gas: gas in sandstone or limestone of low porosity and permeability, usually deeper than 10,000 ft.\n• Shale gas: gas generated and retained in the organic-rich rock; it can be dry or liquids-rich (such as the ethane wanted by petrochemicals).\n• Tight oil (also called shale oil or light tight oil): light oil in low-permeability formations, usually shale or sandstone.\n• All of them need horizontal drilling and large-scale hydraulic fracturing with water and sand to increase contact with the reservoir.\n• A sweet spot: an area of high porosity and permeability within a reservoir of otherwise poor properties — the first drilling target.\n• Tar sands (oil sands): sediments containing highly viscous bitumen that cannot be recovered by conventional means.\nDo not confuse them: tight / shale oil is ready-formed oil in tight rock, whereas oil shale is rock holding kerogen that must be heated to turn into oil.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — unconventional field, tight gas, shale gas, tight oil, sweet spot, tar sands"
+   ]
+  },
+  {
+   "id": "ge-16",
+   "topic": "geology",
+   "q": "شنو المكمن المائي (Aquifer) والطبقة الارتوازية، وليش يهمون مهندس الحفر والمكامن؟",
+   "qEn": "What are an aquifer and an artesian aquifer, and why do they matter to the drilling and reservoir engineer?",
+   "k": [
+    "aquifer artesian confined aquifer",
+    "water flow shallow aquifer protection",
+    "aquifer support water drive",
+    "المكمن المائي",
+    "البئر الارتوازية",
+    "طبقة مائية"
+   ],
+   "a": "• المكمن المائي (Aquifer): طبقة من صخور نفاذة — أو حصى ورمل وطمي — مشبعة بالماي.\n• الطبقة الارتوازية (Artesian / Confined aquifer): ماي المطر يتسرب من منطقة مرتفعة وينحصر بين طبقتين كتيمتين ما ينفذ منهن، فيبقى تحت ضغط. إذا انثقبت الطبقة ببئر يصعد الماي تلقائياً، لحد مستوى قريب من مستوى منطقة التغذية.\nليش يهمون:\n• للحفر: الطبقات المائية العذبة القريبة من السطح لازم تنعزل بالـ Surface casing والسمنت حتى ما تتلوث. والطبقة الارتوازية معناها جريان ماي (Water flow) إذا وزن الطين ما يوازن ضغطها.\n• للمكمن: الـ Aquifer المتصل بالمكمن النفطي يدعم الضغط (Water drive) ويرفع معامل الاستخلاص، بس يجي وياه إنتاج ماي ومخروط مائي (Coning).\n• مصدر لماي الحقن، أو مكان للتخلص من الماي المنتج بالطبقات العميقة المالحة.",
+   "aEn": "• An aquifer: a layer of permeable rock — or gravel, sand and silt — saturated with water.\n• An artesian (confined) aquifer: rainwater seeps in from a high recharge area and is confined between two impermeable layers it cannot pass, so it stays under pressure. If the layer is penetrated by a well the water rises by itself, to a level close to that of the recharge area.\nWhy they matter:\n• For drilling: fresh-water aquifers near the surface must be isolated by the surface casing and cement so they are not contaminated. An artesian layer means a water flow if the mud weight does not balance its pressure.\n• For the reservoir: an aquifer connected to the oil reservoir supports the pressure (water drive) and raises the recovery factor, but brings water production and water coning with it.\n• A source of injection water, or a place to dispose of produced water in deep saline layers.",
+   "refs": [
+    "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — aquifer, artesian aquifer, water drive, disposal well"
    ]
   }
  ]

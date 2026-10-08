@@ -74,16 +74,40 @@
  ],
  "terms": [
   {
+   "a": "1P",
+   "en": "Proven reserves",
+   "ar": "الاحتياطي المؤكد",
+   "c": "re"
+  },
+  {
+   "a": "2D",
+   "en": "Two-dimensional (geophysics)",
+   "ar": "ثنائي الأبعاد (مسح زلزالي)",
+   "c": "lg"
+  },
+  {
    "a": "2P",
    "en": "Proved and probable reserves",
    "ar": "الاحتياطي المؤكد والمحتمل",
    "c": "re"
   },
   {
+   "a": "3D",
+   "en": "Three-dimensional (geophysics)",
+   "ar": "ثلاثي الأبعاد (مسح زلزالي)",
+   "c": "lg"
+  },
+  {
    "a": "3P",
    "en": "Proved, probable and possible reserves",
    "ar": "المؤكد والمحتمل والممكن",
    "c": "re"
+  },
+  {
+   "a": "4D",
+   "en": "Multiple 3Ds acquired over time (the 4th D) over the same area with the same parameters (geophysics)",
+   "ar": "مسح زلزالي رباعي الأبعاد (مسوحات 3D متكررة على نفس المنطقة ويا الزمن)",
+   "c": "lg"
   },
   {
    "a": "AAPG",
@@ -117,6 +141,12 @@
    "n": "مبدأ تقليل المخاطر."
   },
   {
+   "a": "ANSI",
+   "en": "American National Standards Institute",
+   "ar": "المعهد الوطني الأمريكي للمعايير",
+   "c": "org"
+  },
+  {
    "a": "AOF",
    "en": "Absolute open flow",
    "ar": "الجريان المفتوح المطلق",
@@ -143,6 +173,12 @@
    "c": "org"
   },
   {
+   "a": "ASP",
+   "en": "Alkali-surfactant-polymer",
+   "ar": "قلوي-مادة سطحية-بوليمر",
+   "c": "re"
+  },
+  {
    "a": "ASTM",
    "en": "American Society for Testing and Materials",
    "ar": "الجمعية الأمريكية للفحص والمواد",
@@ -167,6 +203,12 @@
    "c": "un"
   },
   {
+   "a": "Bcf",
+   "en": "Billion cubic feet (of natural gas)",
+   "ar": "مليار قدم مكعب (غاز طبيعي)",
+   "c": "un"
+  },
+  {
    "a": "BDV",
    "en": "Blowdown valve",
    "ar": "صمام التنفيس السريع",
@@ -180,10 +222,22 @@
    "n": "الجزء السفلي من سلسلة الحفر: البت، الموتور، المثبتات، الـ MWD، أثقال الحفر والـ Jar."
   },
   {
+   "a": "BHCT",
+   "en": "Bottomhole circulating temperature",
+   "ar": "حرارة القاع أثناء الدوران",
+   "c": "cs"
+  },
+  {
    "a": "BHP",
    "en": "Bottom hole pressure",
    "ar": "ضغط قاع البئر",
    "c": "wc"
+  },
+  {
+   "a": "BHT",
+   "en": "Bottomhole temperature",
+   "ar": "حرارة قاع البئر",
+   "c": "cs"
   },
   {
    "a": "boe",
@@ -217,6 +271,12 @@
    "c": "co"
   },
   {
+   "a": "BPD",
+   "en": "Barrels per day",
+   "ar": "برميل باليوم",
+   "c": "un"
+  },
+  {
    "a": "BPM",
    "en": "Barrels per minute",
    "ar": "برميل بالدقيقة",
@@ -230,11 +290,23 @@
    "n": "ينزل بمعلّاق الأنابيب."
   },
   {
+   "a": "BRT",
+   "en": "Below rotary table (used as a datum for depths in a well)",
+   "ar": "تحت طاولة الدوران (مرجع أعماق)",
+   "c": "dr"
+  },
+  {
    "a": "BS&W",
    "en": "Basic sediments and water",
    "ar": "الرواسب والماء",
    "c": "pd",
    "n": "نسبة الشوائب بالنفط الخام."
+  },
+  {
+   "a": "BSR",
+   "en": "Blind shear rams (blowout preventer)",
+   "ar": "رام أعمى قاص (مانع الانفجار)",
+   "c": "wc"
   },
   {
    "a": "BTU",
@@ -264,14 +336,26 @@
   {
    "a": "CALI",
    "en": "Caliper log",
-   "ar": "مقياس قطر البئر",
+   "ar": "مجس قياس قطر البئر (كاليبر)",
    "c": "lg"
+  },
+  {
+   "a": "CAPEX",
+   "en": "Capital expenditure",
+   "ar": "المصروفات الرأسمالية",
+   "c": "gen"
   },
   {
    "a": "CBL",
    "en": "Cement bond log",
    "ar": "مجس ترابط الإسمنت",
    "c": "lg"
+  },
+  {
+   "a": "CBM",
+   "en": "Coal-bed methane",
+   "ar": "ميثان طبقات الفحم",
+   "c": "re"
   },
   {
    "a": "CCL",
@@ -305,6 +389,12 @@
    "c": "gen"
   },
   {
+   "a": "CGR",
+   "en": "Condensate gas ratio",
+   "ar": "نسبة المكثفات للغاز",
+   "c": "pd"
+  },
+  {
    "a": "CHF",
    "en": "Casing head flange",
    "ar": "فلنج رأس التغليف",
@@ -317,16 +407,34 @@
    "c": "co"
   },
   {
+   "a": "CIRC",
+   "en": "Circulation",
+   "ar": "التدوير",
+   "c": "dr"
+  },
+  {
    "a": "CIV",
    "en": "Chemical injection valve",
    "ar": "صمام الحقن الكيمياوي",
    "c": "co"
   },
   {
+   "a": "CMT",
+   "en": "Cement",
+   "ar": "إسمنت",
+   "c": "cs"
+  },
+  {
    "a": "CNL",
    "en": "Compensated neutron log",
    "ar": "مجس النيوترون المعوَّض",
    "c": "lg"
+  },
+  {
+   "a": "CO2",
+   "en": "Carbon dioxide",
+   "ar": "ثاني أكسيد الكربون",
+   "c": "gs"
   },
   {
    "a": "CP",
@@ -377,6 +485,18 @@
    "en": "Coiled tubing drilling",
    "ar": "الحفر بالأنابيب الملفوفة",
    "c": "dr"
+  },
+  {
+   "a": "D&A",
+   "en": "Dry and abandoned",
+   "ar": "جاف ومهجور",
+   "c": "dr"
+  },
+  {
+   "a": "DBB",
+   "en": "Double block and bleed",
+   "ar": "عزل مزدوج ويا تنفيس",
+   "c": "hs"
   },
   {
    "a": "DC",
@@ -477,6 +597,12 @@
    "c": "gen"
   },
   {
+   "a": "DWOP",
+   "en": "Drilling well on paper (a theoretical exercise conducted involving the serviceprovider managers)",
+   "ar": "حفر البئر على الورق (تمرين تخطيط ويا شركات الخدمة)",
+   "c": "dr"
+  },
+  {
    "a": "E&P",
    "en": "Exploration and production, another name for the upstream sector",
    "ar": "الاستكشاف والإنتاج (القطاع العلوي Upstream)",
@@ -521,10 +647,22 @@
    "c": "re"
   },
   {
+   "a": "EPC",
+   "en": "Engineering, procurement and construction",
+   "ar": "الهندسة والمشتريات والإنشاء (نوع عقد)",
+   "c": "gen"
+  },
+  {
    "a": "EPT",
    "en": "Electromagnetic propagation",
    "ar": "مجس الانتشار الكهرومغناطيسي",
    "c": "lg"
+  },
+  {
+   "a": "ERD",
+   "en": "Extended reach drilling",
+   "ar": "الحفر الممتد المدى",
+   "c": "dr"
   },
   {
    "a": "ESD",
@@ -574,6 +712,12 @@
    "en": "First aid case",
    "ar": "حالة إسعاف أولي",
    "c": "hs"
+  },
+  {
+   "a": "FAT",
+   "en": "Factory acceptance testing",
+   "ar": "فحص القبول بالمصنع",
+   "c": "gen"
   },
   {
    "a": "FBE",
@@ -653,7 +797,7 @@
   },
   {
    "a": "FMEA",
-   "en": "Failure modes, & effects analysis",
+   "en": "Failure modes and effects analysis",
    "ar": "تحليل أنماط الفشل وتأثيراتها",
    "c": "hs"
   },
@@ -724,6 +868,12 @@
    "a": "FWHP",
    "en": "Flowing well-head pressure",
    "ar": "ضغط رأس البئر الجاري",
+   "c": "pd"
+  },
+  {
+   "a": "FWKO",
+   "en": "Free water knock-out",
+   "ar": "فاصل الماء الحر",
    "c": "pd"
   },
   {
@@ -838,6 +988,13 @@
    "c": "re"
   },
   {
+   "a": "H2S",
+   "en": "Hydrogen sulphide",
+   "ar": "كبريتيد الهيدروجين",
+   "c": "hs",
+   "n": "غاز سام وحامضي."
+  },
+  {
    "a": "HAZID",
    "en": "Hazard identification (meeting)",
    "ar": "تحديد المخاطر",
@@ -870,7 +1027,7 @@
   },
   {
    "a": "HGS",
-   "en": "High (wpecific-)gravity solids",
+   "en": "High (specific-)gravity solids",
    "ar": "مواد صلبة عالية الكثافة",
    "c": "fl",
    "n": "مواد التثقيل مثل الباريت (4.2 SG)."
@@ -931,7 +1088,7 @@
    "en": "Hydraulic power unit",
    "ar": "وحدة القدرة الهيدروليكية",
    "c": "wc",
-   "n": "وحدة الـ Accumulator (Koomey)."
+   "n": "مثل وحدة تشغيل الـ BOP (Koomey) أو لوحة التحكم برأس البئر."
   },
   {
    "a": "HSE",
@@ -943,7 +1100,7 @@
    "a": "HTHP",
    "en": "High-temperature high pressure",
    "ar": "حرارة عالية وضغط عالي",
-   "c": "fl"
+   "c": "dr"
   },
   {
    "a": "HUD",
@@ -951,13 +1108,6 @@
    "ar": "عمق التوقف",
    "c": "co",
    "n": "العمق اللي توقف عنده أدوات السلك."
-  },
-  {
-   "a": "HWDP",
-   "en": "Heavy weight drill pipe",
-   "ar": "أنابيب الحفر الثقيلة",
-   "c": "dr",
-   "n": "منطقة انتقال بين أثقال الحفر وأنابيب الحفر."
   },
   {
    "a": "HWDP",
@@ -994,6 +1144,12 @@
    "n": "بالإكمال الذكي."
   },
   {
+   "a": "ID",
+   "en": "Inner or internal diameter (of a tubular component such as a casing)",
+   "ar": "القطر الداخلي",
+   "c": "un"
+  },
+  {
    "a": "IF",
    "en": "Internal flush tool joint",
    "ar": "وصلة بقطر داخلي مستوي",
@@ -1013,6 +1169,12 @@
    "c": "lg"
   },
   {
+   "a": "ILI",
+   "en": "Inline inspection (intelligent pigging)",
+   "ar": "الفحص الداخلي للخط (Pig ذكي)",
+   "c": "of"
+  },
+  {
    "a": "IOC",
    "en": "International oil company",
    "ar": "شركة نفط عالمية",
@@ -1030,6 +1192,12 @@
    "ar": "ضغط الإغلاق الابتدائي",
    "c": "lg",
    "n": "(وبالتكسير: ضغط الإغلاق اللحظي)."
+  },
+  {
+   "a": "ISO",
+   "en": "International Organization for Standardization",
+   "ar": "المنظمة الدولية للمعايير",
+   "c": "org"
   },
   {
    "a": "IWCF",
@@ -1059,9 +1227,8 @@
   {
    "a": "JT",
    "en": "Joule-Thomson (effect/valve/separator)",
-   "ar": "تأثير جول-تومسون",
-   "c": "gs",
-   "n": "تبريد الغاز بالتمدد."
+   "ar": "جول-تومسون (تأثير/صمام/فاصل)",
+   "c": "gs"
   },
   {
    "a": "JTS",
@@ -1089,6 +1256,13 @@
    "n": "مرجع قياس الأعماق على الأرضية (مثل RKB)."
   },
   {
+   "a": "KCl",
+   "en": "Potassium chloride",
+   "ar": "كلوريد البوتاسيوم",
+   "c": "fl",
+   "n": "مثبط للشيل. (الـ PDF كاتبها KCI بالغلط.)"
+  },
+  {
    "a": "KMW",
    "en": "Kill mud weight",
    "ar": "وزن طين القتل",
@@ -1107,6 +1281,12 @@
    "ar": "نقطة بدء الانحراف",
    "c": "dr",
    "n": "العمق اللي نبدأ منه نميّل البئر."
+  },
+  {
+   "a": "KPI",
+   "en": "Key performance indicator",
+   "ar": "مؤشر الأداء الرئيسي",
+   "c": "gen"
   },
   {
    "a": "KRP",
@@ -1189,6 +1369,12 @@
    "c": "wc"
   },
   {
+   "a": "LMTD",
+   "en": "Log Mean Temperature Difference",
+   "ar": "متوسط فرق الحرارة اللوغاريتمي",
+   "c": "gs"
+  },
+  {
    "a": "LMV",
    "en": "Lower Master Valve (on a Xmas tree)",
    "ar": "الصمام الرئيسي السفلي",
@@ -1202,7 +1388,7 @@
   },
   {
    "a": "LOPA",
-   "en": "Layers of protection analysis IEC 61511",
+   "en": "Layers of protection analysis (IEC 61511)",
    "ar": "تحليل طبقات الحماية (IEC 61511)",
    "c": "hs"
   },
@@ -1246,11 +1432,24 @@
    "c": "cs"
   },
   {
+   "a": "LTI",
+   "en": "Lost time incident",
+   "ar": "حادث مضيع للوقت",
+   "c": "hs",
+   "n": "و LTIFR = معدل تكراره."
+  },
+  {
    "a": "LWD",
    "en": "Logging While Drilling",
    "ar": "التسجيل أثناء الحفر",
    "c": "lg",
    "n": "يقيس خواص الطبقات (كاما، مقاومية، كثافة...) أثناء الحفر."
+  },
+  {
+   "a": "M or m",
+   "en": "Prefix designating a number in thousands (not to be confused with SI prefix M for mega- or m for milli)",
+   "ar": "بادئة تعني بالآلاف (مو ميغا ولا ملي)",
+   "c": "un"
   },
   {
    "a": "M/U",
@@ -1311,6 +1510,12 @@
    "n": "وحدة النفاذية."
   },
   {
+   "a": "MDEA",
+   "en": "Methyl diethanolamine (aMDEA)",
+   "ar": "مثيل ثنائي إيثانول أمين",
+   "c": "gs"
+  },
+  {
    "a": "MDT",
    "en": "Modular formation dynamics tester",
    "ar": "فاحص ديناميكية الطبقة المعياري",
@@ -1357,6 +1562,13 @@
    "c": "co"
   },
   {
+   "a": "MIT",
+   "en": "Multi-finger imaging tool",
+   "ar": "أداة التصوير متعددة الأصابع",
+   "c": "lg",
+   "n": "لفحص تآكل التغليف والأنابيب."
+  },
+  {
    "a": "ML",
    "en": "Microlog, or mud log",
    "ar": "الميكرولوگ أو سجل الطين",
@@ -1367,6 +1579,18 @@
    "en": "Microlaterolog",
    "ar": "الميكرولاترولوگ",
    "c": "lg"
+  },
+  {
+   "a": "MM",
+   "en": "Prefix designating a number in millions (thousand-thousand)",
+   "ar": "بادئة تعني بالملايين (ألف ألف)",
+   "c": "un"
+  },
+  {
+   "a": "MMBTU",
+   "en": "Million British thermal units",
+   "ar": "مليون وحدة حرارية بريطانية",
+   "c": "un"
   },
   {
    "a": "MMcf",
@@ -1387,6 +1611,12 @@
    "c": "un"
   },
   {
+   "a": "MoC",
+   "en": "Management of change",
+   "ar": "إدارة التغيير",
+   "c": "hs"
+  },
+  {
    "a": "MODU",
    "en": "Mobile offshore drilling unit",
    "ar": "وحدة حفر بحرية متنقلة",
@@ -1405,6 +1635,12 @@
    "c": "dr"
   },
   {
+   "a": "MPFM",
+   "en": "Multi-phase flow meter",
+   "ar": "مقياس الجريان متعدد الأطوار",
+   "c": "pd"
+  },
+  {
    "a": "MR",
    "en": "Marine riser",
    "ar": "الرايزر البحري",
@@ -1415,6 +1651,12 @@
    "en": "Material safety data sheet",
    "ar": "صحيفة بيانات سلامة المادة",
    "c": "hs"
+  },
+  {
+   "a": "MSFL",
+   "en": "Micro SFL log; micro-spherically focussed log (resistivity)",
+   "ar": "مجس المقاومية الدقيق المركّز كروياً",
+   "c": "lg"
   },
   {
    "a": "MSL",
@@ -1512,6 +1754,13 @@
    "c": "un"
   },
   {
+   "a": "NPSH",
+   "en": "Net-positive suction head",
+   "ar": "صافي علو السحب الموجب",
+   "c": "pd",
+   "n": "NPSHR = المطلوب للمضخة."
+  },
+  {
    "a": "NPT",
    "en": "Non-productive time",
    "ar": "الوقت غير المنتج",
@@ -1573,17 +1822,17 @@
    "c": "cs"
   },
   {
+   "a": "OD",
+   "en": "Outer diameter (of a tubular component such as casing)",
+   "ar": "القطر الخارجي",
+   "c": "un"
+  },
+  {
    "a": "OH",
    "en": "Open hole",
    "ar": "الحفرة المفتوحة",
    "c": "dr",
    "n": "مقطع بدون تغليف."
-  },
-  {
-   "a": "OH",
-   "en": "Open hole log",
-   "ar": "مجس الحفرة المفتوحة",
-   "c": "dr"
   },
   {
    "a": "OHC",
@@ -1604,10 +1853,22 @@
    "c": "re"
   },
   {
+   "a": "OP",
+   "en": "Oil producer",
+   "ar": "بئر منتج للنفط",
+   "c": "pd"
+  },
+  {
    "a": "OPEC",
    "en": "Organization of Petroleum Exporting Countries",
    "ar": "منظمة الدول المصدرة للنفط (أوبك)",
    "c": "org"
+  },
+  {
+   "a": "OPEX",
+   "en": "Operating expenditure",
+   "ar": "المصروفات التشغيلية",
+   "c": "gen"
   },
   {
    "a": "OWC",
@@ -1655,6 +1916,12 @@
   },
   {
    "a": "PCP",
+   "en": "Production casing pressure",
+   "ar": "ضغط تغليف الإنتاج",
+   "c": "pd"
+  },
+  {
+   "a": "PCP",
    "en": "Progressing cavity pump",
    "ar": "المضخة اللولبية (التجويفية)",
    "c": "pd"
@@ -1665,6 +1932,19 @@
    "ar": "بت الماس متعدد البلورات",
    "c": "dr",
    "n": "بت بقواطع ثابتة تقص الصخر."
+  },
+  {
+   "a": "PDG/PDHG",
+   "en": "Permanent downhole gauge",
+   "ar": "مقياس قاعي دائم",
+   "c": "co"
+  },
+  {
+   "a": "PDM",
+   "en": "Positive displacement motor",
+   "ar": "الموتور الطيني الإزاحي",
+   "c": "dr",
+   "n": "موتور قاعي يدوّر البت بقوة الطين."
   },
   {
    "a": "PDP",
@@ -1790,6 +2070,13 @@
    "c": "hs"
   },
   {
+   "a": "ppf",
+   "en": "Pounds per foot",
+   "ar": "باوند لكل قدم",
+   "c": "un",
+   "n": "وزن الأنابيب."
+  },
+  {
    "a": "PPFG",
    "en": "Pore pressure/fracture gradient",
    "ar": "ضغط المسامات وتدرج التكسير",
@@ -1801,6 +2088,12 @@
    "ar": "باوند لكل غالون",
    "c": "un",
    "n": "وحدة وزن الطين."
+  },
+  {
+   "a": "PPM",
+   "en": "Parts per million",
+   "ar": "جزء بالمليون",
+   "c": "un"
   },
   {
    "a": "PRV",
@@ -1825,6 +2118,12 @@
    "en": "Pump setting depth",
    "ar": "عمق تثبيت المضخة",
    "c": "pd"
+  },
+  {
+   "a": "PSI",
+   "en": "Pounds per square inch",
+   "ar": "باوند/إنج²",
+   "c": "un"
   },
   {
    "a": "PSIA",
@@ -1899,6 +2198,12 @@
    "a": "QA",
    "en": "Quality assurance",
    "ar": "ضمان الجودة",
+   "c": "gen"
+  },
+  {
+   "a": "QA/QC",
+   "en": "Quality assurance / quality control",
+   "ar": "ضمان الجودة / ضبط الجودة",
    "c": "gen"
   },
   {
@@ -2005,7 +2310,7 @@
   {
    "a": "RST",
    "en": "Reservoir saturation tool (Schlumberger) log",
-   "ar": "أداة تشبع المكمن",
+   "ar": "مجس أداة تشبع المكمن (Schlumberger)",
    "c": "lg"
   },
   {
@@ -2093,6 +2398,12 @@
    "en": "Standard cubic feet (of gas) / stock tank barrel (of fluid)",
    "ar": "قدم مكعب قياسي لكل برميل خزن",
    "c": "un"
+  },
+  {
+   "a": "SCM",
+   "en": "Subsea control module",
+   "ar": "وحدة التحكم تحت البحر",
+   "c": "of"
   },
   {
    "a": "SCR",
@@ -2189,7 +2500,7 @@
   {
    "a": "SMLS",
    "en": "Seamless pipe",
-   "ar": "بدون لحام",
+   "ar": "أنبوب بدون لحام",
    "c": "cs"
   },
   {
@@ -2214,6 +2525,12 @@
    "a": "SOP",
    "en": "Standard Operating Procedure",
    "ar": "إجراء التشغيل القياسي",
+   "c": "gen"
+  },
+  {
+   "a": "SOW",
+   "en": "Scope of work",
+   "ar": "نطاق العمل",
    "c": "gen"
   },
   {
@@ -2444,6 +2761,12 @@
    "n": "العمق النهائي المخطط أو المحفور للبئر أو للمقطع."
   },
   {
+   "a": "TDC",
+   "en": "Top dead center",
+   "ar": "النقطة الميتة العليا",
+   "c": "gen"
+  },
+  {
    "a": "TDS",
    "en": "Top drive system",
    "ar": "نظام التدوير العلوي",
@@ -2459,9 +2782,8 @@
   {
    "a": "TDT",
    "en": "Thermal decay time log",
-   "ar": "زمن الاضمحلال الحراري",
-   "c": "lg",
-   "n": "مجس نيوتروني نبضي خلف التغليف."
+   "ar": "مجس زمن الاضمحلال الحراري",
+   "c": "lg"
   },
   {
    "a": "TEG",
@@ -2488,6 +2810,12 @@
    "en": "Tubing hanger",
    "ar": "معلّاق الأنابيب",
    "c": "co"
+  },
+  {
+   "a": "THP",
+   "en": "Tubing hanger pressure (pressure in the production tubing as measured at the tubing hanger)",
+   "ar": "ضغط معلّاق الأنابيب (ضغط الأنابيب عند المعلّاق)",
+   "c": "pd"
   },
   {
    "a": "THRT",
@@ -2561,7 +2889,7 @@
   {
    "a": "TT",
    "en": "Transit time log",
-   "ar": "زمن العبور",
+   "ar": "مجس زمن العبور",
    "c": "lg"
   },
   {
@@ -2732,6 +3060,12 @@
    "c": "re"
   },
   {
+   "a": "WH",
+   "en": "Wellhead",
+   "ar": "رأس البئر",
+   "c": "co"
+  },
+  {
    "a": "WHP",
    "en": "Wellhead pressure",
    "ar": "ضغط رأس البئر",
@@ -2861,9 +3195,16 @@
    "n": "YP = θ300 − PV (lb/100 ft²)؛ قدرة حمل الفتات."
   },
   {
+   "a": "°API",
+   "en": "Degrees API (American Petroleum Institute) density of oil",
+   "ar": "درجة API لكثافة النفط",
+   "c": "re",
+   "n": "°API = 141.5 ÷ SG − 131.5."
+  },
+  {
    "a": "1C",
    "en": "Proved contingent resources",
-   "ar": "الموارد المحتملة المؤكدة (التقدير الواطي)",
+   "ar": "الموارد المشروطة (Contingent) بالتقدير الواطي",
    "c": "re"
   },
   {
@@ -2873,22 +3214,10 @@
    "c": "hs"
   },
   {
-   "a": "1P",
-   "en": "Proven reserves",
-   "ar": "الاحتياطي المؤكد",
-   "c": "re"
-  },
-  {
    "a": "2C",
    "en": "Proved and probable contingent resources",
-   "ar": "الموارد المحتملة المؤكدة والمرجحة (التقدير الأفضل)",
+   "ar": "الموارد المشروطة (Contingent) بالتقدير الأفضل",
    "c": "re"
-  },
-  {
-   "a": "2D",
-   "en": "Two-dimensional (geophysics)",
-   "ar": "ثنائي الأبعاد (مسح زلزالي)",
-   "c": "lg"
   },
   {
    "a": "2oo2",
@@ -2909,27 +3238,21 @@
    "c": "hs"
   },
   {
+   "a": "2ooN",
+   "en": "Detection to reach specified alarm limit when N ≥ 3 (instrumentation)",
+   "ar": "تصويت اثنين من N للوصول لحد الإنذار (N ≥ 3)",
+   "c": "hs"
+  },
+  {
    "a": "3C",
    "en": "Proved, probable and possible contingent resources",
-   "ar": "الموارد المحتملة المؤكدة والمرجحة والممكنة (التقدير العالي)",
+   "ar": "الموارد المشروطة (Contingent) بالتقدير العالي",
    "c": "re"
   },
   {
    "a": "3C",
    "en": "Three components seismic acquisition (x, y, and z)",
    "ar": "مسح زلزالي بثلاث مركّبات (x و y و z)",
-   "c": "lg"
-  },
-  {
-   "a": "3D",
-   "en": "Three-dimensional (geophysics)",
-   "ar": "ثلاثي الأبعاد (مسح زلزالي)",
-   "c": "lg"
-  },
-  {
-   "a": "4D",
-   "en": "Multiple 3Ds acquired over time (the 4th D) over the same area with the same parameters (geophysics)",
-   "ar": "مسح زلزالي رباعي الأبعاد (مسوحات 3D متكررة على نفس المنطقة ويا الزمن)",
    "c": "lg"
   },
   {
@@ -2951,12 +3274,6 @@
    "c": "org"
   },
   {
-   "a": "AAODC",
-   "en": "American Association of Oilwell Drilling Contractors (obsolete; superseded by IADC)",
-   "ar": "الرابطة الأمريكية لمقاولي حفر الآبار النفطية (قديمة، صارت IADC)",
-   "c": "org"
-  },
-  {
    "a": "AAPL",
    "en": "American Association of Professional Landmen",
    "ar": "الرابطة الأمريكية لمختصي الأراضي والعقود النفطية",
@@ -2975,16 +3292,16 @@
    "c": "co"
   },
   {
-   "a": "ABSA",
-   "en": "Alberta Boilers Safety Association",
-   "ar": "رابطة ألبرتا لسلامة المراجل",
-   "c": "org"
-  },
-  {
    "a": "ABT",
    "en": "Annulus bore test",
    "ar": "فحص تجويف الحلقة",
    "c": "co"
+  },
+  {
+   "a": "AC",
+   "en": "Alternating current",
+   "ar": "التيار المتناوب (المتردد)",
+   "c": "gen"
   },
   {
    "a": "ACC",
@@ -3017,33 +3334,34 @@
    "c": "pd"
   },
   {
-   "a": "ADE",
-   "en": "Advanced decision-making environment",
-   "ar": "بيئة متقدمة لاتخاذ القرار",
-   "c": "gen"
-  },
-  {
-   "a": "ADEP",
-   "en": "Awaiting development with exploration potential, referring to an asset",
-   "ar": "أصل ينتظر التطوير وبيه إمكانية استكشافية",
-   "c": "gen"
-  },
-  {
    "a": "ADM",
    "en": "Advanced diagnostics module (fieldbus)",
    "ar": "وحدة التشخيص المتقدم (Fieldbus)",
    "c": "gen"
   },
   {
-   "a": "AEMO",
-   "en": "Australian Energy Market Operator",
-   "ar": "مشغّل سوق الطاقة الأسترالي",
-   "c": "org"
-  },
-  {
    "a": "AER",
    "en": "Auto excitation regulator",
    "ar": "منظم الإثارة الأوتوماتيكي (للمولدات)",
+   "c": "gen"
+  },
+  {
+   "a": "AFC",
+   "en": "Anticipated final cost",
+   "ar": "التكلفة النهائية المتوقعة",
+   "c": "gen"
+  },
+  {
+   "a": "AFC",
+   "en": "Approved for construction",
+   "ar": "معتمد للإنشاء",
+   "c": "gen",
+   "n": "حالة المخططات الهندسية."
+  },
+  {
+   "a": "AFD",
+   "en": "Approved for design",
+   "ar": "معتمد للتصميم",
    "c": "gen"
   },
   {
@@ -3066,21 +3384,15 @@
   },
   {
    "a": "AGT",
-   "en": "(1) agitator, used in drilling",
+   "en": "Agitator, used in drilling",
    "ar": "رجّاج (Agitator) يستخدم بالحفر",
    "c": "dr"
   },
   {
    "a": "AGT",
-   "en": "(2) authorised gas tester (certified by OPITTO)",
+   "en": "Authorised gas tester (certified by OPITO)",
    "ar": "فاحص غاز مخوّل (بشهادة OPITO)",
    "c": "hs"
-  },
-  {
-   "a": "AGT",
-   "en": "(3) Azerbaijan – Georgia – Turkey (a region rich in oil related activity)",
-   "ar": "أذربيجان-جورجيا-تركيا (منطقة نشاط نفطي)",
-   "c": "gen"
   },
   {
    "a": "AHBDF",
@@ -3125,12 +3437,6 @@
    "c": "hs"
   },
   {
-   "a": "AIR",
-   "en": "Assurance interface and risk",
-   "ar": "الضمان والواجهات والمخاطر",
-   "c": "gen"
-  },
-  {
    "a": "AIRG",
    "en": "Airgun",
    "ar": "مدفع هوائي (مصدر زلزالي)",
@@ -3153,12 +3459,6 @@
    "en": "Array induction tool",
    "ar": "أداة الحث المصفوفي",
    "c": "lg"
-  },
-  {
-   "a": "AL",
-   "en": "Appraisal license (United Kingdom), a type of onshore licence issued before 1996",
-   "ar": "رخصة تقييم (بريطانيا، رخصة برية قبل 1996)",
-   "c": "gen"
   },
   {
    "a": "ALAP",
@@ -3293,12 +3593,6 @@
    "c": "of"
   },
   {
-   "a": "ASP",
-   "en": "Alkali-surfactant-polymer",
-   "ar": "قلوي-مادة سطحية-بوليمر",
-   "c": "re"
-  },
-  {
    "a": "ASV",
    "en": "Accommodation and support vessel",
    "ar": "سفينة سكن وإسناد",
@@ -3323,16 +3617,16 @@
    "c": "gen"
   },
   {
-   "a": "ATM",
-   "en": "At the moment",
-   "ar": "باللحظة الحالية",
-   "c": "gen"
-  },
-  {
    "a": "ATU",
    "en": "Auto top-up unit",
    "ar": "وحدة تعبئة أوتوماتيكية",
    "c": "gen"
+  },
+  {
+   "a": "AUT",
+   "en": "Automated ultrasonic testing",
+   "ar": "الفحص الآلي بالأمواج فوق الصوتية",
+   "c": "hs"
   },
   {
    "a": "AVGMS",
@@ -3359,7 +3653,7 @@
    "c": "gen"
   },
   {
-   "a": "b",
+   "a": "B or b",
    "en": "Prefix denoting a number in billions",
    "ar": "بادئة تعني بالمليارات",
    "c": "un"
@@ -3389,12 +3683,6 @@
    "c": "hs"
   },
   {
-   "a": "Bcf",
-   "en": "Billion cubic feet (of natural gas)",
-   "ar": "مليار قدم مكعب (غاز طبيعي)",
-   "c": "un"
-  },
-  {
    "a": "Bcf/d",
    "en": "Billion cubic feet per day (of natural gas)",
    "ar": "مليار قدم مكعب باليوم",
@@ -3404,6 +3692,12 @@
    "a": "Bcfe",
    "en": "Billion cubic feet (of natural gas equivalent)",
    "ar": "مليار قدم مكعب مكافئ غاز",
+   "c": "un"
+  },
+  {
+   "a": "BCM",
+   "en": "Billion cubic metres",
+   "ar": "مليار متر مكعب",
    "c": "un"
   },
   {
@@ -3445,20 +3739,14 @@
   {
    "a": "BGWP",
    "en": "Base of ground-water protection",
-   "ar": "قاعدة حماية المياه الجوفية",
+   "ar": "أسفل عمق حماية المياه الجوفية",
    "c": "hs"
   },
   {
-   "a": "BH",
-   "en": "Bloodhound",
-   "ar": "نظام Bloodhound (كاشف غاز)",
-   "c": "gen"
-  },
-  {
-   "a": "BHCT",
-   "en": "Bottomhole circulating temperature",
-   "ar": "حرارة القاع أثناء الدوران",
-   "c": "cs"
+   "a": "BHCS",
+   "en": "BHC sonic log",
+   "ar": "المجس الصوتي المعوَّض للبئر (BHC sonic)",
+   "c": "lg"
   },
   {
    "a": "BHKA",
@@ -3473,14 +3761,14 @@
    "c": "lg"
   },
   {
-   "a": "BHT",
-   "en": "Bottomhole temperature",
-   "ar": "حرارة قاع البئر",
-   "c": "cs"
+   "a": "BLAT",
+   "en": "BOP landing assist tool",
+   "ar": "أداة مساعدة هبوط مانع الانفجار",
+   "c": "wc"
   },
   {
    "a": "BLD",
-   "en": "Bailed (refers to the practice of removing debris from the hole with a cylindrical container on a wireline)",
+   "en": "Bailed (debris removed from the hole with a bailer on wireline)",
    "ar": "مغروف بالـ Bailer (إزالة المخلفات من البئر بوعاء أسطواني على السلك)",
    "c": "co"
   },
@@ -3548,7 +3836,7 @@
    "a": "BOP",
    "en": "Bottom of pipe",
    "ar": "أسفل الأنبوب",
-   "c": "dr"
+   "c": "of"
   },
   {
    "a": "BOREH",
@@ -3563,12 +3851,6 @@
    "c": "hs"
   },
   {
-   "a": "BPD",
-   "en": "Barrels per day",
-   "ar": "برميل باليوم",
-   "c": "un"
-  },
-  {
    "a": "BPH",
    "en": "Barrels per hour",
    "ar": "برميل بالساعة",
@@ -3579,12 +3861,6 @@
    "en": "Baker plug",
    "ar": "سدادة Baker",
    "c": "co"
-  },
-  {
-   "a": "BRT",
-   "en": "Below rotary table (used as a datum for depths in a well)",
-   "ar": "تحت طاولة الدوران (مرجع أعماق)",
-   "c": "dr"
   },
   {
    "a": "BS",
@@ -3606,14 +3882,14 @@
   },
   {
    "a": "BSEE",
-   "en": "US: Bureau of Safety and Environmental Enforcement (formerly the MMS)",
+   "en": "Bureau of Safety and Environmental Enforcement (US; formerly the MMS)",
    "ar": "مكتب السلامة والإنفاذ البيئي الأمريكي (سابقاً MMS)",
    "c": "org"
   },
   {
    "a": "BSG",
    "en": "Black start generator",
-   "ar": "مولد بدء التشغيل الأسود",
+   "ar": "مولد البدء بدون مصدر خارجي (Black start)",
    "c": "gen"
   },
   {
@@ -3627,12 +3903,6 @@
    "en": "Below sea mean level",
    "ar": "تحت متوسط مستوى سطح البحر",
    "c": "un"
-  },
-  {
-   "a": "BSR",
-   "en": "Blind shear rams (blowout preventer)",
-   "ar": "رام أعمى قاص (مانع الانفجار)",
-   "c": "wc"
   },
   {
    "a": "BSW",
@@ -3701,6 +3971,12 @@
    "c": "gen"
   },
   {
+   "a": "C&P",
+   "en": "Contracting and procurement",
+   "ar": "العقود والمشتريات",
+   "c": "gen"
+  },
+  {
    "a": "C&S",
    "en": "Cased and suspended",
    "ar": "مغلّف ومعلّق",
@@ -3749,9 +4025,9 @@
    "c": "gs"
   },
   {
-   "a": "CAAF",
-   "en": "Contract authorization approval form",
-   "ar": "استمارة الموافقة على تخويل العقد",
+   "a": "CAD",
+   "en": "Computer-aided design",
+   "ar": "التصميم بمساعدة الحاسوب",
    "c": "gen"
   },
   {
@@ -3767,6 +4043,12 @@
    "c": "org"
   },
   {
+   "a": "CAP",
+   "en": "Corrective action plan",
+   "ar": "خطة الإجراءات التصحيحية",
+   "c": "hs"
+  },
+  {
    "a": "CAPP",
    "en": "Canadian Association of Petroleum Producers",
    "ar": "الرابطة الكندية لمنتجي البترول",
@@ -3777,6 +4059,13 @@
    "en": "Company Appointed Representative",
    "ar": "ممثل معيّن من الشركة",
    "c": "gen"
+  },
+  {
+   "a": "CAR",
+   "en": "Construction all risks",
+   "ar": "تأمين جميع مخاطر الإنشاء",
+   "c": "gen",
+   "n": "وثيقة تأمين."
   },
   {
    "a": "CART",
@@ -3822,21 +4111,9 @@
   },
   {
    "a": "CBM",
-   "en": "Coal-bed methane",
-   "ar": "ميثان طبقات الفحم",
-   "c": "re"
-  },
-  {
-   "a": "CBM",
    "en": "Conventional buoy mooring",
    "ar": "رباط عوامة تقليدي",
    "c": "of"
-  },
-  {
-   "a": "CCLBD",
-   "en": "Construction / commissioning logic block diagram",
-   "ar": "مخطط بلوكات منطق الإنشاء/التشغيل التجريبي",
-   "c": "gen"
   },
   {
    "a": "CCLP",
@@ -3849,6 +4126,18 @@
    "en": "Casing collar locator through tubing plug",
    "ar": "سدادة عبر الأنابيب بمحدد وصلات التغليف",
    "c": "co"
+  },
+  {
+   "a": "CCR",
+   "en": "Central control room",
+   "ar": "غرفة السيطرة المركزية",
+   "c": "pd"
+  },
+  {
+   "a": "CCS",
+   "en": "Carbon capture and storage",
+   "ar": "احتجاز الكربون وتخزينه",
+   "c": "gs"
   },
   {
    "a": "CD",
@@ -3905,6 +4194,12 @@
    "c": "cs"
   },
   {
+   "a": "CEO",
+   "en": "Chief executive officer",
+   "ar": "الرئيس التنفيذي",
+   "c": "gen"
+  },
+  {
    "a": "CEOR",
    "en": "Chemical-enhanced oil recovery",
    "ar": "استخلاص النفط المعزز كيمياوياً",
@@ -3947,16 +4242,16 @@
    "c": "org"
   },
   {
-   "a": "CGR",
-   "en": "Condensate gas ratio",
-   "ar": "نسبة المكثفات للغاز",
-   "c": "pd"
-  },
-  {
    "a": "CGTL",
    "en": "Compact gas to liquids (production equipment small enough to fit on a ship)",
    "ar": "تحويل الغاز لسوائل بوحدة مدمجة (تنحط على سفينة)",
    "c": "gs"
+  },
+  {
+   "a": "CH",
+   "en": "Contract holder",
+   "ar": "مسؤول العقد",
+   "c": "gen"
   },
   {
    "a": "CHCNC",
@@ -3972,7 +4267,7 @@
   },
   {
    "a": "CHK",
-   "en": "Choke (a restriction in a flowline or a system, usually referring to a production choke during a test or the choke in the well control system)",
+   "en": "Choke (a restriction in a flowline or the well control system)",
    "ar": "خانق (تضييق بخط الجريان أو بنظام السيطرة)",
    "c": "pd"
   },
@@ -4037,12 +4332,6 @@
    "c": "co"
   },
   {
-   "a": "CIRC",
-   "en": "Circulation",
-   "ar": "التدوير",
-   "c": "dr"
-  },
-  {
    "a": "CITHP",
    "en": "Closed-in tubing head pressure (tubing head pressure when the well is shut in)",
    "ar": "ضغط رأس الأنابيب والبئر مغلق",
@@ -4050,7 +4339,7 @@
   },
   {
    "a": "CK",
-   "en": "Choke (a restriction in a flowline or a system, usually referring to a production choke during a test or the choke in the well control system)",
+   "en": "Choke (a restriction in a flowline or the well control system)",
    "ar": "خانق",
    "c": "pd"
   },
@@ -4079,15 +4368,9 @@
    "c": "lg"
   },
   {
-   "a": "CMT",
-   "en": "Cement",
-   "ar": "إسمنت",
-   "c": "cs"
-  },
-  {
-   "a": "CNA",
-   "en": "Clay, no analysis",
-   "ar": "طين، بدون تحليل",
+   "a": "CMR",
+   "en": "Combinable magnetic resonance (NMR log tool)",
+   "ar": "أداة الرنين المغناطيسي القابلة للدمج (NMR)",
    "c": "lg"
   },
   {
@@ -4101,12 +4384,6 @@
    "en": "Compensated neutron density",
    "ar": "نيوترون-كثافة معوَّض",
    "c": "lg"
-  },
-  {
-   "a": "CNR",
-   "en": "Canadian natural resources",
-   "ar": "شركة Canadian Natural Resources",
-   "c": "org"
   },
   {
    "a": "CNS",
@@ -4133,6 +4410,12 @@
    "c": "gen"
   },
   {
+   "a": "COC",
+   "en": "Code of conduct",
+   "ar": "مدونة قواعد السلوك",
+   "c": "gen"
+  },
+  {
    "a": "COD",
    "en": "Chemical oxygen demand",
    "ar": "الطلب الكيمياوي على الأوكسجين",
@@ -4145,16 +4428,40 @@
    "c": "lg"
   },
   {
+   "a": "COMP",
+   "en": "Composite log",
+   "ar": "المجس المركّب",
+   "c": "lg"
+  },
+  {
    "a": "COND",
    "en": "Condensate production",
    "ar": "إنتاج المكثفات",
    "c": "pd"
   },
   {
+   "a": "CoP",
+   "en": "Code of practice",
+   "ar": "مدونة قواعد الممارسة",
+   "c": "gen"
+  },
+  {
+   "a": "CORLG",
+   "en": "Correlation log",
+   "ar": "مجس المضاهاة",
+   "c": "lg"
+  },
+  {
    "a": "COW",
    "en": "Control of Work",
    "ar": "السيطرة على العمل",
    "c": "hs"
+  },
+  {
+   "a": "COXY",
+   "en": "Carbon/oxygen log",
+   "ar": "مجس الكاربون/الأوكسجين",
+   "c": "lg"
   },
   {
    "a": "CP",
@@ -4172,7 +4479,8 @@
    "a": "CPI",
    "en": "Corrugated plate interceptor",
    "ar": "فاصل الصفائح المموّجة",
-   "c": "pd"
+   "c": "pd",
+   "n": "ويسمى هم CPI separator."
   },
   {
    "a": "CPP",
@@ -4185,12 +4493,6 @@
    "en": "Cuttings reinjection",
    "ar": "إعادة حقن الفتات",
    "c": "fl"
-  },
-  {
-   "a": "CRINE",
-   "en": "Cost reduction in the new era",
-   "ar": "مبادرة تقليل الكلف بالعهد الجديد (بريطانيا)",
-   "c": "gen"
   },
   {
    "a": "CRP",
@@ -4217,6 +4519,12 @@
    "c": "of"
   },
   {
+   "a": "CS",
+   "en": "Carbon steel",
+   "ar": "الفولاذ الكربوني",
+   "c": "of"
+  },
+  {
    "a": "CSC",
    "en": "Car seal closed",
    "ar": "مقفول مغلق بختم (Car seal closed)",
@@ -4227,6 +4535,12 @@
    "en": "Caesium formate",
    "ar": "فورمات السيزيوم",
    "c": "fl"
+  },
+  {
+   "a": "CSF",
+   "en": "Critical success factor",
+   "ar": "عامل النجاح الأساسي",
+   "c": "gen"
   },
   {
    "a": "CSG",
@@ -4251,6 +4565,12 @@
    "en": "Canadian Society of Petroleum Geologists",
    "ar": "الجمعية الكندية لجيولوجيي البترول",
    "c": "org"
+  },
+  {
+   "a": "CSR",
+   "en": "Company site representative",
+   "ar": "ممثل الشركة بالموقع",
+   "c": "gen"
   },
   {
    "a": "CSR",
@@ -4331,12 +4651,6 @@
    "c": "gen"
   },
   {
-   "a": "CVX",
-   "en": "Chevron",
-   "ar": "شركة Chevron",
-   "c": "org"
-  },
-  {
    "a": "CWOP",
    "en": "Complete well on paper",
    "ar": "إكمال البئر على الورق (تمرين تخطيط)",
@@ -4373,12 +4687,6 @@
    "c": "gen"
   },
   {
-   "a": "D&A",
-   "en": "Dry and abandoned",
-   "ar": "جاف ومهجور",
-   "c": "dr"
-  },
-  {
    "a": "D&C",
    "en": "Drilling and completions",
    "ar": "الحفر والإكمال",
@@ -4389,6 +4697,12 @@
    "en": "Direction and inclination (MWD borehole deviation survey)",
    "ar": "الاتجاه والميلان (مسح MWD)",
    "c": "lg"
+  },
+  {
+   "a": "D/S",
+   "en": "Downstream",
+   "ar": "الجهة السفلى باتجاه الجريان (المصب)",
+   "c": "gen"
   },
   {
    "a": "DAS",
@@ -4407,12 +4721,6 @@
    "en": "Dip and azimuth display",
    "ar": "عرض الميل والسمت",
    "c": "lg"
-  },
-  {
-   "a": "DBB",
-   "en": "Double block and bleed",
-   "ar": "عزل مزدوج ويا تنفيس",
-   "c": "hs"
   },
   {
    "a": "DBP",
@@ -4437,6 +4745,12 @@
    "en": "Distance cross course",
    "ar": "المسافة العرضية عن المسار",
    "c": "dr"
+  },
+  {
+   "a": "DD",
+   "en": "Detailed design",
+   "ar": "التصميم التفصيلي",
+   "c": "gen"
   },
   {
    "a": "DDC",
@@ -4487,6 +4801,12 @@
    "c": "of"
   },
   {
+   "a": "DEN",
+   "en": "Density log",
+   "ar": "مجس الكثافة",
+   "c": "lg"
+  },
+  {
    "a": "DEPT",
    "en": "Depth",
    "ar": "العمق",
@@ -4517,8 +4837,22 @@
    "c": "un"
   },
   {
+   "a": "DG",
+   "en": "Decision gate",
+   "ar": "بوابة القرار",
+   "c": "gen",
+   "n": "مرحلة مراجعة بالمشاريع."
+  },
+  {
+   "a": "DG",
+   "en": "Diesel generator",
+   "ar": "مولد ديزل",
+   "c": "gen",
+   "n": "DG#3 يعني المولد رقم 3."
+  },
+  {
    "a": "DGA",
-   "en": "Diglycoamine",
+   "en": "Diglycolamine",
    "ar": "ثنائي كلايكول أمين",
    "c": "gs"
   },
@@ -4559,6 +4893,12 @@
    "c": "fl"
   },
   {
+   "a": "DIL",
+   "en": "Dual-induction log",
+   "ar": "مجس الحث المزدوج",
+   "c": "lg"
+  },
+  {
    "a": "DILL",
    "en": "Dual-induction laterolog",
    "ar": "الحث المزدوج-لاترولوگ",
@@ -4577,10 +4917,10 @@
    "c": "lg"
   },
   {
-   "a": "DL",
-   "en": "Development license (United Kingdom), a type of onshore license issued before 1996",
-   "ar": "رخصة تطوير (بريطانيا، رخصة برية قبل 1996)",
-   "c": "gen"
+   "a": "DIP",
+   "en": "Dipmeter log",
+   "ar": "مجس قياس الميل (Dipmeter)",
+   "c": "lg"
   },
   {
    "a": "DM",
@@ -4591,7 +4931,7 @@
   {
    "a": "DMA",
    "en": "Dead-man anchor",
-   "ar": "مرساة خط الميت",
+   "ar": "مرساة مدفونة (Dead-man) لتثبيت حبال الشد",
    "c": "dr"
   },
   {
@@ -4631,12 +4971,6 @@
    "c": "org"
   },
   {
-   "a": "DOGGR",
-   "en": "Division of Oil, Gas, and Geothermal Resources (former name of California's regulatory entity for oil, gas, and geothermal production)",
-   "ar": "قسم النفط والغاز والموارد الجيوحرارية بكاليفورنيا (الاسم السابق)",
-   "c": "org"
-  },
-  {
    "a": "DOPH",
    "en": "Drilled-out plugged hole",
    "ar": "بئر مسدود انحفرت سدادته",
@@ -4657,7 +4991,7 @@
   {
    "a": "DPT",
    "en": "Deeper pool test, Lahee classification",
-   "ar": "فحص مكمن أعمق (تصنيف Lahee)",
+   "ar": "بئر لاختبار مكمن أعمق (تصنيف Lahee)",
    "c": "dr"
   },
   {
@@ -4709,12 +5043,6 @@
    "c": "gen"
   },
   {
-   "a": "DTI",
-   "en": "Department of Trade and Industry (UK) (obsolete; superseded by dBERR, which was then superseded by DECC)",
-   "ar": "وزارة التجارة والصناعة البريطانية (قديمة)",
-   "c": "org"
-  },
-  {
    "a": "DTT",
    "en": "Depth to time",
    "ar": "تحويل العمق لزمن",
@@ -4739,10 +5067,10 @@
    "c": "cs"
   },
   {
-   "a": "DWOP",
-   "en": "Drilling well on paper (a theoretical exercise conducted involving the serviceprovider managers)",
-   "ar": "حفر البئر على الورق (تمرين تخطيط ويا شركات الخدمة)",
-   "c": "dr"
+   "a": "DWD",
+   "en": "Deep water disposal",
+   "ar": "التخلص من الماء بالطبقات العميقة",
+   "c": "pd"
   },
   {
    "a": "E",
@@ -4775,22 +5103,10 @@
    "c": "org"
   },
   {
-   "a": "ECA",
-   "en": "Easington Catchment Area",
-   "ar": "منطقة تجميع Easington",
-   "c": "gen"
-  },
-  {
    "a": "ECMS",
    "en": "Electrical control and monitoring system",
    "ar": "نظام التحكم والمراقبة الكهربائي",
    "c": "gen"
-  },
-  {
-   "a": "ECMWF",
-   "en": "European Centre for Medium-Range Weather Forecasts",
-   "ar": "المركز الأوروبي للتنبؤات الجوية متوسطة المدى",
-   "c": "org"
   },
   {
    "a": "ECRD",
@@ -4808,13 +5124,8 @@
    "a": "EDG",
    "en": "Emergency Diesel Generator",
    "ar": "مولد ديزل للطوارئ",
-   "c": "gen"
-  },
-  {
-   "a": "EDG/EDGE",
-   "en": "Emergency diesel generator",
-   "ar": "مولد ديزل للطوارئ",
-   "c": "gen"
+   "c": "gen",
+   "n": "وتنكتب هم EDGE."
   },
   {
    "a": "EDP",
@@ -4889,6 +5200,18 @@
    "c": "of"
   },
   {
+   "a": "EL",
+   "en": "Electric log",
+   "ar": "المجس الكهربائي",
+   "c": "lg"
+  },
+  {
+   "a": "ELEC TECH",
+   "en": "Electronics technician",
+   "ar": "فني إلكترونيات",
+   "c": "gen"
+  },
+  {
    "a": "ELT",
    "en": "Economic limit test",
    "ar": "فحص الحد الاقتصادي",
@@ -4931,10 +5254,10 @@
    "c": "lg"
   },
   {
-   "a": "ENGPD",
-   "en": "Engineering porosity data",
-   "ar": "بيانات المسامية الهندسية",
-   "c": "lg"
+   "a": "EMV",
+   "en": "Expected monetary value",
+   "ar": "القيمة النقدية المتوقعة",
+   "c": "gen"
   },
   {
    "a": "Eni",
@@ -4973,6 +5296,12 @@
    "c": "co"
   },
   {
+   "a": "EOW",
+   "en": "End-of-well report",
+   "ar": "تقرير نهاية البئر",
+   "c": "dr"
+  },
+  {
    "a": "EPCM/I",
    "en": "Engineering procurement construction and management/installation",
    "ar": "الهندسة والتوريد والإنشاء والإدارة/التنصيب",
@@ -4985,10 +5314,10 @@
    "c": "of"
   },
   {
-   "a": "EPIDORIS",
-   "en": "Exploration and production integrated drilling operations and reservoir information system",
-   "ar": "نظام معلومات متكامل لعمليات الحفر والمكامن",
-   "c": "gen"
+   "a": "EPF",
+   "en": "Early production facility",
+   "ar": "منشأة الإنتاج المبكر",
+   "c": "pd"
   },
   {
    "a": "EPLG",
@@ -5021,6 +5350,12 @@
    "c": "hs"
   },
   {
+   "a": "ES-PCP",
+   "en": "Electrical submersible progressive cavity pump",
+   "ar": "مضخة تجويف تقدمي بمحرك كهربائي غاطس",
+   "c": "pd"
+  },
+  {
    "a": "ESHIA",
    "en": "Environmental, social and health impact assessment",
    "ar": "تقييم الأثر البيئي والاجتماعي والصحي",
@@ -5031,12 +5366,6 @@
    "en": "Environmental and social impact assessment",
    "ar": "تقييم الأثر البيئي والاجتماعي",
    "c": "hs"
-  },
-  {
-   "a": "ETAP",
-   "en": "Eastern Trough Area Project",
-   "ar": "مشروع منطقة الحوض الشرقي (بحر الشمال)",
-   "c": "gen"
   },
   {
    "a": "ETD",
@@ -5069,10 +5398,10 @@
    "c": "gen"
   },
   {
-   "a": "EXL",
-   "en": "Exploration licence (United Kingdom), a type of onshore licence issued between the First Onshore Licensing Round (1986) and the sixth (1992)",
-   "ar": "رخصة استكشاف (بريطانيا، رخصة برية 1986–1992)",
-   "c": "gen"
+   "a": "EWT",
+   "en": "Extended well test",
+   "ar": "فحص البئر الممتد",
+   "c": "lg"
   },
   {
    "a": "EXP",
@@ -5096,12 +5425,6 @@
    "a": "FAR",
    "en": "Field auxiliary room",
    "ar": "غرفة مساعدة حقلية",
-   "c": "gen"
-  },
-  {
-   "a": "FAT",
-   "en": "Factory acceptance testing",
-   "ar": "فحص القبول بالمصنع",
    "c": "gen"
   },
   {
@@ -5137,7 +5460,7 @@
   {
    "a": "FDF",
    "en": "Forced-draft fan",
-   "ar": "مروحة سحب قسري",
+   "ar": "مروحة دفع قسري",
    "c": "gs"
   },
   {
@@ -5177,6 +5500,12 @@
    "c": "re"
   },
   {
+   "a": "FFS",
+   "en": "Fitness for service",
+   "ar": "الجاهزية للخدمة",
+   "c": "hs"
+  },
+  {
    "a": "FG",
    "en": "Fiberglass",
    "ar": "ألياف زجاجية",
@@ -5205,6 +5534,12 @@
    "en": "Finish in hole (tripping pipe)",
    "ar": "إكمال النزول للبئر (رحلة)",
    "c": "dr"
+  },
+  {
+   "a": "FIM",
+   "en": "Free issue materials",
+   "ar": "مواد مجهّزة مجاناً (من صاحب العمل)",
+   "c": "gen"
   },
   {
    "a": "FINTP",
@@ -5270,6 +5605,12 @@
    "a": "FL",
    "en": "Fluid level",
    "ar": "مستوى السائل",
+   "c": "pd"
+  },
+  {
+   "a": "FLAP",
+   "en": "Fluid level above pump",
+   "ar": "مستوى السائل فوق المضخة",
    "c": "pd"
   },
   {
@@ -5363,6 +5704,12 @@
    "c": "dr"
   },
   {
+   "a": "FMS",
+   "en": "Formation multi-scan log; formation micro-scan log",
+   "ar": "مجس المسح الدقيق للطبقة",
+   "c": "lg"
+  },
+  {
    "a": "FMT",
    "en": "Flow management tool",
    "ar": "أداة إدارة الجريان",
@@ -5421,12 +5768,6 @@
    "en": "Feet per hour",
    "ar": "قدم بالساعة",
    "c": "un"
-  },
-  {
-   "a": "FPLP",
-   "en": "Freshman petroleum learning program (Penn State)",
-   "ar": "برنامج تعليم البترول للمستجدين (Penn State)",
-   "c": "gen"
   },
   {
    "a": "FPO",
@@ -5519,16 +5860,16 @@
    "c": "gen"
   },
   {
-   "a": "FWKO",
-   "en": "Free water knock-out",
-   "ar": "فاصل الماء الحر",
-   "c": "pd"
-  },
-  {
    "a": "FWL",
    "en": "From West line",
    "ar": "من الخط الغربي (تحديد موقع)",
    "c": "gen"
+  },
+  {
+   "a": "FWR",
+   "en": "Final well report",
+   "ar": "تقرير البئر النهائي",
+   "c": "dr"
   },
   {
    "a": "FWV",
@@ -5639,10 +5980,16 @@
    "c": "dr"
   },
   {
-   "a": "GLW",
+   "a": "GM",
    "en": "Gas migration",
    "ar": "هجرة الغاز",
    "c": "cs"
+  },
+  {
+   "a": "GOGD",
+   "en": "Gas oil gravity drainage",
+   "ar": "التصريف بالجاذبية بين الغاز والنفط",
+   "c": "re"
   },
   {
    "a": "GOM",
@@ -5661,6 +6008,12 @@
    "en": "Gallons per Mcf",
    "ar": "غالون لكل ألف قدم مكعب (غنى الغاز بالسوائل)",
    "c": "un"
+  },
+  {
+   "a": "GPS",
+   "en": "Global positioning system",
+   "ar": "نظام تحديد المواقع العالمي",
+   "c": "gen"
   },
   {
    "a": "GPTG",
@@ -5682,6 +6035,13 @@
   },
   {
    "a": "GRE",
+   "en": "Glass-reinforced epoxy",
+   "ar": "الإيبوكسي المقوى بالزجاج",
+   "c": "of",
+   "n": "مادة أنابيب."
+  },
+  {
+   "a": "GRE",
    "en": "Ground elevation",
    "ar": "ارتفاع سطح الأرض",
    "c": "dr"
@@ -5690,6 +6050,12 @@
    "a": "GRLOG",
    "en": "Grapholog",
    "ar": "مجس Grapholog",
+   "c": "lg"
+  },
+  {
+   "a": "GRN",
+   "en": "Gamma ray neutron log",
+   "ar": "مجس كاما-نيوترون",
    "c": "lg"
   },
   {
@@ -5705,10 +6071,34 @@
    "c": "gs"
   },
   {
+   "a": "GTC",
+   "en": "Gas turbine compressor",
+   "ar": "كابسة بتوربين غازي",
+   "c": "gs"
+  },
+  {
+   "a": "GTG",
+   "en": "Gas turbine generator",
+   "ar": "مولد بتوربين غازي",
+   "c": "gs"
+  },
+  {
    "a": "GTW",
    "en": "Gas to wire",
    "ar": "تحويل الغاز لكهرباء (Gas to wire)",
    "c": "gs"
+  },
+  {
+   "a": "GVI",
+   "en": "General visual inspection",
+   "ar": "الفحص البصري العام",
+   "c": "hs"
+  },
+  {
+   "a": "GW",
+   "en": "Gigawatt",
+   "ar": "گيگاواط",
+   "c": "un"
   },
   {
    "a": "GWR",
@@ -5729,6 +6119,12 @@
    "c": "hs"
   },
   {
+   "a": "HAZAN",
+   "en": "Hazard analysis",
+   "ar": "تحليل المخاطر",
+   "c": "hs"
+  },
+  {
    "a": "HBE",
    "en": "High-build epoxy",
    "ar": "إيبوكسي عالي السمك",
@@ -5739,12 +6135,6 @@
    "en": "Held by production",
    "ar": "محتفظ بيها بالإنتاج (رخصة)",
    "c": "gen"
-  },
-  {
-   "a": "HCAL",
-   "en": "HRCC caliper (in logs)(in inches)",
-   "ar": "كاليبر HRCC (بالإنج)",
-   "c": "lg"
   },
   {
    "a": "HCCS",
@@ -5781,6 +6171,12 @@
    "en": "High-density polyethylene",
    "ar": "بولي إثيلين عالي الكثافة",
    "c": "gen"
+  },
+  {
+   "a": "HDT",
+   "en": "High-resolution dipmeter log",
+   "ar": "مجس الميل عالي الدقة",
+   "c": "lg"
   },
   {
    "a": "HDU",
@@ -5839,7 +6235,7 @@
   {
    "a": "HLO",
    "en": "Heavy load-out (facility)",
-   "ar": "تحميل الأحمال الثقيلة",
+   "ar": "منشأة تحميل الأحمال الثقيلة",
    "c": "of"
   },
   {
@@ -5897,10 +6293,10 @@
    "c": "fl"
   },
   {
-   "a": "HRCC",
-   "en": "HCAl of caliper (in inches)",
-   "ar": "كاليبر HRCC (بالإنج)",
-   "c": "lg"
+   "a": "HR",
+   "en": "Human resources",
+   "ar": "الموارد البشرية",
+   "c": "gen"
   },
   {
    "a": "HRF",
@@ -5951,6 +6347,12 @@
    "c": "co"
   },
   {
+   "a": "HV",
+   "en": "High voltage (>11 kV)",
+   "ar": "الفولتية العالية",
+   "c": "gen"
+  },
+  {
    "a": "HVAC",
    "en": "Heating, ventilation and air-conditioning",
    "ar": "التدفئة والتهوية والتكييف",
@@ -5963,10 +6365,22 @@
    "c": "gen"
   },
   {
+   "a": "HWC",
+   "en": "Hydrocarbon water contact",
+   "ar": "سطح تماس الهيدروكربونات ويا الماء",
+   "c": "re"
+  },
+  {
    "a": "HYPJ",
    "en": "Hyperjet",
    "ar": "Hyperjet (شحنة تثقيب)",
    "c": "co"
+  },
+  {
+   "a": "I:P",
+   "en": "Injector to producer ratio",
+   "ar": "نسبة آبار الحقن لآبار الإنتاج",
+   "c": "re"
   },
   {
    "a": "IAT",
@@ -6024,6 +6438,12 @@
   },
   {
    "a": "ICV",
+   "en": "In-country value",
+   "ar": "القيمة المحلية المضافة",
+   "c": "gen"
+  },
+  {
+   "a": "ICV",
    "en": "Integrated cement volume (of borehole)",
    "ar": "حجم الإسمنت المتكامل (للبئر)",
    "c": "cs"
@@ -6035,16 +6455,16 @@
    "c": "gen"
   },
   {
-   "a": "ID",
-   "en": "Inner or internal diameter (of a tubular component such as a casing)",
-   "ar": "القطر الداخلي",
-   "c": "un"
-  },
-  {
    "a": "IDC",
    "en": "Intangible drilling costs",
    "ar": "كلف الحفر غير الملموسة",
    "c": "gen"
+  },
+  {
+   "a": "IECEx",
+   "en": "International Electrotechnical Commission system for certification of equipment for use in explosive atmospheres",
+   "ar": "نظام IEC لشهادات معدات الأجواء المتفجرة",
+   "c": "org"
   },
   {
    "a": "iFLS",
@@ -6092,12 +6512,6 @@
    "a": "IIC",
    "en": "Infield installation contractor",
    "ar": "مقاول التنصيب داخل الحقل",
-   "c": "of"
-  },
-  {
-   "a": "ILI",
-   "en": "Inline inspection (intelligent pigging)",
-   "ar": "الفحص الداخلي للخط (Pig ذكي)",
    "c": "of"
   },
   {
@@ -6174,6 +6588,12 @@
   },
   {
    "a": "IP",
+   "en": "Intelligent pigging",
+   "ar": "الفحص بالكاشطة الذكية",
+   "c": "of"
+  },
+  {
+   "a": "IP",
    "en": "Intermediate pressure",
    "ar": "ضغط متوسط",
    "c": "gs"
@@ -6189,6 +6609,12 @@
    "en": "Installed production capacity",
    "ar": "طاقة الإنتاج المنصوبة",
    "c": "pd"
+  },
+  {
+   "a": "IPF",
+   "en": "Instrumented protective function",
+   "ar": "وظيفة الحماية الآلية",
+   "c": "hs"
   },
   {
    "a": "IPT",
@@ -6227,6 +6653,12 @@
    "c": "of"
   },
   {
+   "a": "IT",
+   "en": "Information technology",
+   "ar": "تقنية المعلومات",
+   "c": "gen"
+  },
+  {
    "a": "ITD",
    "en": "Internal turret disconnectable",
    "ar": "برج دوار داخلي قابل للفصل",
@@ -6261,6 +6693,12 @@
    "en": "Instrument utility gas",
    "ar": "غاز خدمات الأجهزة",
    "c": "gs"
+  },
+  {
+   "a": "IVMS",
+   "en": "In-vehicle monitoring system",
+   "ar": "نظام المراقبة داخل المركبات",
+   "c": "hs"
   },
   {
    "a": "IWOCS",
@@ -6311,22 +6749,16 @@
    "c": "dr"
   },
   {
-   "a": "KBUG",
-   "en": "Kelly bushing underground (drilling up in coal mines, West Virginia, Baker & Taylor drilling)",
-   "ar": "Kelly bushing تحت الأرض (حفر صاعد بالمناجم)",
-   "c": "dr"
-  },
-  {
-   "a": "KCI",
-   "en": "Potassium chloride",
-   "ar": "كلوريد البوتاسيوم",
-   "c": "fl"
-  },
-  {
    "a": "KD",
    "en": "Kelly down",
    "ar": "الكيلي نازل (Kelly down)",
    "c": "dr"
+  },
+  {
+   "a": "KLPD",
+   "en": "Kiloliters per day",
+   "ar": "كيلولتر باليوم",
+   "c": "un"
   },
   {
    "a": "KOEBD",
@@ -6420,12 +6852,6 @@
   },
   {
    "a": "LER",
-   "en": "Lands eligible for remining or land equivalent ratio",
-   "ar": "أراضي مؤهلة لإعادة التعدين / نسبة مكافئ الأرض",
-   "c": "gen"
-  },
-  {
-   "a": "LER",
    "en": "Local Equipment Room",
    "ar": "غرفة المعدات المحلية",
    "c": "gen"
@@ -6435,6 +6861,12 @@
    "en": "Liquid Gas Ratio",
    "ar": "نسبة السائل للغاز",
    "c": "pd"
+  },
+  {
+   "a": "LHT",
+   "en": "Left hand turn",
+   "ar": "دوران لليسار",
+   "c": "dr"
   },
   {
    "a": "LIC",
@@ -6459,6 +6891,12 @@
    "en": "Lowest Known Oil",
    "ar": "أوطى نفط معروف",
    "c": "re"
+  },
+  {
+   "a": "LLI",
+   "en": "Long lead items",
+   "ar": "المواد اللي تجهيزها ياخذ وقت طويل",
+   "c": "gen"
   },
   {
    "a": "LMAP",
@@ -6495,12 +6933,6 @@
    "en": "Logging Whilst Drilling",
    "ar": "التسجيل أثناء الحفر",
    "c": "lg"
-  },
-  {
-   "a": "LOGGS",
-   "en": "Lincolnshire Offshore Gas Gathering System",
-   "ar": "منظومة تجميع الغاز البحرية بلنكولنشاير",
-   "c": "gs"
   },
   {
    "a": "LOK",
@@ -6569,6 +7001,12 @@
    "c": "gs"
   },
   {
+   "a": "LS",
+   "en": "Long string",
+   "ar": "سلسلة الأنابيب الطويلة (بالإكمال المزدوج)",
+   "c": "co"
+  },
+  {
    "a": "LSD",
    "en": "Land Surface Datum",
    "ar": "مرجع سطح الأرض",
@@ -6593,15 +7031,27 @@
    "c": "cs"
   },
   {
+   "a": "LTA",
+   "en": "Land treatment area",
+   "ar": "منطقة معالجة التربة",
+   "c": "hs"
+  },
+  {
    "a": "LTHCP",
    "en": "Lower Tubing Hanger Crown Plug",
    "ar": "سدادة التاج لمعلّاق الأنابيب السفلي",
    "c": "co"
   },
   {
+   "a": "LTIF",
+   "en": "Lost time incident frequency",
+   "ar": "معدل تكرار الحوادث المضيعة للوقت",
+   "c": "hs"
+  },
+  {
    "a": "LTP",
    "en": "Liner shaker, tensile bolting cloth, perforated panel backing",
-   "ar": "هزاز خطي بقماش مشدود وظهر مثقّب",
+   "ar": "منخل هزاز بقماش مشدود وظهر لوحي مثقّب",
    "c": "fl"
   },
   {
@@ -6641,22 +7091,10 @@
    "c": "un"
   },
   {
-   "a": "m",
-   "en": "Prefix designating a number in thousands (not to be confused with SI prefix M for mega- or m for milli)",
-   "ar": "بادئة تعني بالآلاف (مو ميغا ولا ملي)",
-   "c": "un"
-  },
-  {
    "a": "MAE",
    "en": "Major accident event",
-   "ar": "حدث حادث كبير",
+   "ar": "حادث كبير (Major accident event)",
    "c": "hs"
-  },
-  {
-   "a": "MAL",
-   "en": "Master Acronym List",
-   "ar": "القائمة الرئيسية للاختصارات",
-   "c": "gen"
   },
   {
    "a": "MAP",
@@ -6797,16 +7235,16 @@
    "c": "co"
   },
   {
-   "a": "MDEA",
-   "en": "Methyl diethanolamine (aMDEA)",
-   "ar": "مثيل ثنائي إيثانول أمين",
-   "c": "gs"
+   "a": "MD",
+   "en": "Managing director",
+   "ar": "المدير العام",
+   "c": "gen"
   },
   {
-   "a": "MDL",
-   "en": "Methane drainage license (United Kingdom)",
-   "ar": "رخصة تصريف الميثان (بريطانيا)",
-   "c": "gen"
+   "a": "MDDF",
+   "en": "Measured depth derrick floor",
+   "ar": "العمق المقاس من أرضية البرج",
+   "c": "dr"
   },
   {
    "a": "MDO",
@@ -6827,6 +7265,12 @@
    "c": "co"
   },
   {
+   "a": "MDRKB",
+   "en": "Measured depth rotary kelly bushing",
+   "ar": "العمق المقاس من الـ Rotary kelly bushing",
+   "c": "dr"
+  },
+  {
    "a": "MDRT",
    "en": "Measured depth referenced to rotary table zero datum",
    "ar": "العمق المقاس من صفر طاولة الدوران",
@@ -6834,13 +7278,19 @@
   },
   {
    "a": "MDSS",
-   "en": "Measured depth referenced to mean sea level zero",
+   "en": "Measured depth referenced to mean sea level zero datum (\"subsea\" level)",
    "ar": "العمق المقاس من متوسط مستوى سطح البحر",
    "c": "dr"
   },
   {
+   "a": "MDTHF",
+   "en": "Measured depth tubing head flange",
+   "ar": "العمق المقاس من فلنج رأس الأنابيب",
+   "c": "dr"
+  },
+  {
    "a": "MEIC",
-   "en": "Mechanical Electrical Instrumentation Commission",
+   "en": "Mechanical, electrical and instrumentation commissioning",
    "ar": "التشغيل التجريبي الميكانيكي والكهربائي والأجهزة",
    "c": "gen"
   },
@@ -6869,6 +7319,12 @@
    "c": "lg"
   },
   {
+   "a": "MGI",
+   "en": "Miscible gas injection",
+   "ar": "حقن الغاز الامتزاجي",
+   "c": "re"
+  },
+  {
    "a": "MGL",
    "en": "Magnelog",
    "ar": "مجس Magnelog",
@@ -6889,13 +7345,13 @@
   {
    "a": "MHWN",
    "en": "Mean high water neaps",
-   "ar": "متوسط المد العالي المحاقي",
+   "ar": "متوسط المد العالي بفترة المد الأصغري (Neap)",
    "c": "of"
   },
   {
    "a": "MHWS",
    "en": "Mean high water springs",
-   "ar": "متوسط المد العالي الربيعي",
+   "ar": "متوسط المد العالي بفترة المد الأعظمي (Spring)",
    "c": "of"
   },
   {
@@ -6909,6 +7365,12 @@
    "en": "Minimum industry safety training",
    "ar": "الحد الأدنى من تدريب السلامة بالصناعة",
    "c": "hs"
+  },
+  {
+   "a": "MIST",
+   "en": "Motor idle slant test",
+   "ar": "فحص المحرك بوضع الخمول والميلان",
+   "c": "gen"
   },
   {
    "a": "MIYP",
@@ -6949,25 +7411,19 @@
   {
    "a": "MLWN",
    "en": "Mean low water neaps",
-   "ar": "متوسط الجزر الواطي المحاقي",
+   "ar": "متوسط الجزر الواطي بفترة المد الأصغري (Neap)",
    "c": "of"
   },
   {
    "a": "MLWS",
    "en": "Mean low water springs",
-   "ar": "متوسط الجزر الواطي الربيعي",
+   "ar": "متوسط الجزر الواطي بفترة المد الأعظمي (Spring)",
    "c": "of"
   },
   {
    "a": "mm",
    "en": "Millimetre (SI unit)",
    "ar": "مليمتر",
-   "c": "un"
-  },
-  {
-   "a": "MM",
-   "en": "Prefix designating a number in millions (thousand-thousand)",
-   "ar": "بادئة تعني بالملايين (ألف ألف)",
    "c": "un"
   },
   {
@@ -7043,12 +7499,6 @@
    "c": "of"
   },
   {
-   "a": "MPFM",
-   "en": "Multi-phase flow meter",
-   "ar": "مقياس الجريان متعدد الأطوار",
-   "c": "pd"
-  },
-  {
    "a": "MPP",
    "en": "Multiphase pump",
    "ar": "مضخة متعددة الأطوار",
@@ -7095,6 +7545,12 @@
    "en": "Mixed refrigerant",
    "ar": "مبرّد مختلط",
    "c": "gs"
+  },
+  {
+   "a": "MR",
+   "en": "Morning report",
+   "ar": "التقرير الصباحي",
+   "c": "dr"
   },
   {
    "a": "MRBP",
@@ -7193,8 +7649,14 @@
    "c": "gen"
   },
   {
+   "a": "MTPA",
+   "en": "Million tons per annum",
+   "ar": "مليون طن بالسنة",
+   "c": "un"
+  },
+  {
    "a": "MTT",
-   "en": "MTT multi-isotope trace tool",
+   "en": "Multi-isotope trace tool",
    "ar": "أداة المقتفي متعدد النظائر",
    "c": "lg"
   },
@@ -7215,6 +7677,18 @@
    "en": "Minimum volume commitment",
    "ar": "التزام الحجم الأدنى",
    "c": "gen"
+  },
+  {
+   "a": "MW",
+   "en": "Megawatt",
+   "ar": "ميگاواط",
+   "c": "un"
+  },
+  {
+   "a": "MWh",
+   "en": "Megawatt-hour",
+   "ar": "ميگاواط ساعة",
+   "c": "un"
   },
   {
    "a": "MWP",
@@ -7283,12 +7757,6 @@
    "c": "co"
   },
   {
-   "a": "NFG",
-   "en": "No good (marking for damaged equipment)",
-   "ar": "ما يصلح (علامة على معدات متضررة)",
-   "c": "gen"
-  },
-  {
    "a": "NFI",
    "en": "No further investment",
    "ar": "بدون استثمار إضافي",
@@ -7301,34 +7769,22 @@
    "c": "dr"
   },
   {
-   "a": "NGDC",
-   "en": "National geoscience data centre (United Kingdom)",
-   "ar": "المركز الوطني لبيانات علوم الأرض (بريطانيا)",
-   "c": "org"
-  },
-  {
    "a": "NGR",
    "en": "Natural gamma ray",
    "ar": "أشعة كاما الطبيعية",
    "c": "lg"
   },
   {
-   "a": "NGRC",
-   "en": "National geological records centre (United Kingdom)",
-   "ar": "المركز الوطني للسجلات الجيولوجية (بريطانيا)",
-   "c": "org"
+   "a": "NGS",
+   "en": "NGS log",
+   "ar": "مجس NGS",
+   "c": "lg"
   },
   {
    "a": "NGT",
    "en": "Natural gamma ray tool",
    "ar": "أداة كاما الطبيعية",
    "c": "lg"
-  },
-  {
-   "a": "NHDA",
-   "en": "National Hydrocarbons Data Archive (United Kingdom)",
-   "ar": "الأرشيف الوطني لبيانات الهيدروكربونات (بريطانيا)",
-   "c": "org"
   },
   {
    "a": "NHPV",
@@ -7367,6 +7823,12 @@
    "c": "gen"
   },
   {
+   "a": "NOC",
+   "en": "No objection certificate",
+   "ar": "شهادة عدم ممانعة",
+   "c": "gen"
+  },
+  {
    "a": "NP",
    "en": "Non-producing well",
    "ar": "بئر غير منتج",
@@ -7383,12 +7845,6 @@
    "en": "New pool wildcat, Lahee classification",
    "ar": "بئر استكشافي بمكمن جديد (تصنيف Lahee)",
    "c": "dr"
-  },
-  {
-   "a": "NRB",
-   "en": "Not required back",
-   "ar": "غير مطلوب إرجاعه",
-   "c": "gen"
   },
   {
    "a": "NRPs",
@@ -7453,7 +7909,7 @@
   {
    "a": "OBO",
    "en": "Operated by others",
-   "ar": "يشغّله غيرنا",
+   "ar": "مشغَّل من قبل الغير",
    "c": "gen"
   },
   {
@@ -7479,12 +7935,6 @@
    "en": "Offshore construction supervisor",
    "ar": "مشرف الإنشاء البحري",
    "c": "of"
-  },
-  {
-   "a": "OD",
-   "en": "Outer diameter (of a tubular component such as casing)",
-   "ar": "القطر الخارجي",
-   "c": "un"
   },
   {
    "a": "ODT",
@@ -7521,6 +7971,12 @@
    "en": "Oil and Gas Authority (UK oil and gas regulatory authority)",
    "ar": "هيئة النفط والغاز البريطانية",
    "c": "org"
+  },
+  {
+   "a": "OH",
+   "en": "Open hole log",
+   "ar": "مجس الحفرة المفتوحة",
+   "c": "lg"
   },
   {
    "a": "OHD",
@@ -7583,6 +8039,12 @@
    "c": "org"
   },
   {
+   "a": "OR&A",
+   "en": "Operation readiness and assurance",
+   "ar": "الجاهزية التشغيلية والضمان",
+   "c": "gen"
+  },
+  {
    "a": "ORF",
    "en": "Onshore receiving facility",
    "ar": "منشأة الاستلام البرية",
@@ -7605,6 +8067,12 @@
    "en": "Online survey",
    "ar": "مسح مباشر (Online)",
    "c": "lg"
+  },
+  {
+   "a": "OSA",
+   "en": "Offshore safety advisor",
+   "ar": "مستشار السلامة البحري",
+   "c": "hs"
   },
   {
    "a": "OSV",
@@ -7649,14 +8117,8 @@
    "c": "gen"
   },
   {
-   "a": "OTR",
-   "en": "Order to remit",
-   "ar": "أمر تحويل مالي",
-   "c": "gen"
-  },
-  {
    "a": "OTSG",
-   "en": "One-time through steam generator",
+   "en": "Once-through steam generator",
    "ar": "مولد بخار بمرور واحد",
    "c": "re"
   },
@@ -7671,12 +8133,6 @@
    "en": "Outpost, Lahee classification",
    "ar": "بئر توسعي (Outpost، تصنيف Lahee)",
    "c": "dr"
-  },
-  {
-   "a": "OVCH",
-   "en": "Oversize charts",
-   "ar": "مخططات كبيرة الحجم",
-   "c": "gen"
   },
   {
    "a": "OVID",
@@ -7742,12 +8198,6 @@
    "a": "PAU",
    "en": "Pre-assembled unit",
    "ar": "وحدة مجمّعة مسبقاً",
-   "c": "gen"
-  },
-  {
-   "a": "PBD",
-   "en": "Pason billing system",
-   "ar": "نظام فوترة Pason",
    "c": "gen"
   },
   {
@@ -7841,12 +8291,6 @@
    "c": "co"
   },
   {
-   "a": "PDG/PDHG",
-   "en": "Permanent downhole gauge",
-   "ar": "مقياس قاعي دائم",
-   "c": "co"
-  },
-  {
    "a": "PDGB",
    "en": "Permanent drilling guide base",
    "ar": "قاعدة التوجيه الدائمية للحفر",
@@ -7919,6 +8363,12 @@
    "c": "gen"
   },
   {
+   "a": "PE",
+   "en": "Project engineer",
+   "ar": "مهندس مشاريع",
+   "c": "gen"
+  },
+  {
    "a": "PED",
    "en": "Pressure equipment directive",
    "ar": "التوجيه الأوروبي لمعدات الضغط",
@@ -7934,6 +8384,12 @@
    "a": "PEFS",
    "en": "Process engineering flow scheme",
    "ar": "مخطط الجريان الهندسي للعملية",
+   "c": "gen"
+  },
+  {
+   "a": "PEP",
+   "en": "Project execution plan",
+   "ar": "خطة تنفيذ المشروع",
    "c": "gen"
   },
   {
@@ -8123,6 +8579,12 @@
    "c": "re"
   },
   {
+   "a": "PO",
+   "en": "Purchase order",
+   "ar": "أمر شراء",
+   "c": "gen"
+  },
+  {
    "a": "POBM",
    "en": "Pseudo-oil-based mud",
    "ar": "طين شبه نفطي",
@@ -8133,6 +8595,12 @@
    "en": "Permanent operations facility",
    "ar": "منشأة العمليات الدائمية",
    "c": "gen"
+  },
+  {
+   "a": "POM",
+   "en": "Plant operating manual",
+   "ar": "دليل تشغيل المحطة",
+   "c": "pd"
   },
   {
    "a": "PON",
@@ -8163,6 +8631,18 @@
    "en": "Pack off run retrieval tool",
    "ar": "أداة إنزال واسترجاع الـ Pack-off",
    "c": "cs"
+  },
+  {
+   "a": "POS",
+   "en": "Probability of success",
+   "ar": "احتمالية النجاح",
+   "c": "re"
+  },
+  {
+   "a": "PP",
+   "en": "Petrophysics",
+   "ar": "فيزياء الصخور (البتروفيزياء)",
+   "c": "lg"
   },
   {
    "a": "PP&A",
@@ -8259,6 +8739,12 @@
    "en": "Polished rod liner",
    "ar": "بطانة القضيب المصقول",
    "c": "pd"
+  },
+  {
+   "a": "PROD",
+   "en": "Production log",
+   "ar": "مجس الإنتاج",
+   "c": "lg"
   },
   {
    "a": "PSA",
@@ -8381,6 +8867,12 @@
    "c": "gen"
   },
   {
+   "a": "PVSV",
+   "en": "Pressure vacuum safety valve",
+   "ar": "صمام أمان الضغط والفراغ",
+   "c": "hs"
+  },
+  {
    "a": "PWB",
    "en": "Production wing block (XT)",
    "ar": "بلوك جناح الإنتاج (شجرة الإنتاج)",
@@ -8403,6 +8895,18 @@
    "en": "Production wing valve (also known as a flow wing valve on a christmas tree)",
    "ar": "صمام جناح الإنتاج (بشجرة الميلاد)",
    "c": "co"
+  },
+  {
+   "a": "QJ",
+   "en": "Quad joint",
+   "ar": "وصلة رباعية (أربع أنابيب ملحومة)",
+   "c": "of"
+  },
+  {
+   "a": "QRA",
+   "en": "Quantitative risk assessment",
+   "ar": "التقييم الكمي للمخاطر",
+   "c": "hs"
   },
   {
    "a": "R&M",
@@ -8471,6 +8975,12 @@
    "c": "of"
   },
   {
+   "a": "RCRA",
+   "en": "Resource Conservation and Recovery Act",
+   "ar": "قانون حفظ الموارد واستعادتها (أمريكا)",
+   "c": "hs"
+  },
+  {
    "a": "RCU",
    "en": "Remote control unit",
    "ar": "وحدة التحكم عن بعد",
@@ -8537,12 +9047,6 @@
    "c": "re"
   },
   {
-   "a": "REZ",
-   "en": "Renewable energy zone (United Kingdom)",
-   "ar": "منطقة الطاقة المتجددة (بريطانيا)",
-   "c": "gen"
-  },
-  {
    "a": "RFCC",
    "en": "Ready for commissioning certificate",
    "ar": "شهادة الجاهزية للتشغيل التجريبي",
@@ -8571,12 +9075,6 @@
    "en": "Ready for operations (pipelines/cables)",
    "ar": "جاهز للتشغيل (خطوط/كوابل)",
    "c": "of"
-  },
-  {
-   "a": "RFR",
-   "en": "Refer to attached (e.g., letter, document)",
-   "ar": "راجع المرفق",
-   "c": "gen"
   },
   {
    "a": "RFSU",
@@ -8633,12 +9131,6 @@
    "c": "of"
   },
   {
-   "a": "RMLC",
-   "en": "Request for mineral land clearance",
-   "ar": "طلب إخلاء أرض معدنية",
-   "c": "gen"
-  },
-  {
    "a": "RMP",
    "en": "Reservoir management plan",
    "ar": "خطة إدارة المكمن",
@@ -8655,6 +9147,12 @@
    "en": "Riser monitoring system",
    "ar": "نظام مراقبة الرايزر",
    "c": "of"
+  },
+  {
+   "a": "RO",
+   "en": "Reverse osmosis",
+   "ar": "التناضح العكسي",
+   "c": "pd"
   },
   {
    "a": "ROB",
@@ -8678,6 +9176,12 @@
    "a": "ROT",
    "en": "Remote-operated tool",
    "ar": "أداة تُشغَّل عن بعد",
+   "c": "of"
+  },
+  {
+   "a": "ROW",
+   "en": "Right of way",
+   "ar": "حرم خط الأنابيب",
    "c": "of"
   },
   {
@@ -8717,12 +9221,6 @@
    "c": "hs"
   },
   {
-   "a": "RSPP",
-   "en": "RSP Permian (oil and gas producer in the Permian basin)",
-   "ar": "شركة RSP Permian (منتج نفط وغاز بحوض Permian)",
-   "c": "org"
-  },
-  {
    "a": "RSS",
    "en": "Rig site survey",
    "ar": "مسح موقع الحفارة",
@@ -8745,6 +9243,13 @@
    "en": "Real-time operation",
    "ar": "التشغيل بالوقت الحقيقي",
    "c": "gen"
+  },
+  {
+   "a": "RTP",
+   "en": "Reinforced thermoplastic",
+   "ar": "البلاستيك الحراري المقوى",
+   "c": "of",
+   "n": "مادة أنابيب."
   },
   {
    "a": "RTP/RTS",
@@ -8807,6 +9312,12 @@
    "c": "fl"
   },
   {
+   "a": "SBM",
+   "en": "Single buoy mooring",
+   "ar": "عوامة الإرساء المنفردة",
+   "c": "of"
+  },
+  {
    "a": "SBT",
    "en": "Segmented bond tool",
    "ar": "أداة الترابط المقطّعة",
@@ -8837,6 +9348,12 @@
    "c": "lg"
   },
   {
+   "a": "SCE",
+   "en": "Safety critical elements",
+   "ar": "العناصر الحرجة للسلامة",
+   "c": "hs"
+  },
+  {
    "a": "SCO",
    "en": "Sand clean-out",
    "ar": "تنظيف الرمل",
@@ -8862,7 +9379,7 @@
   },
   {
    "a": "SCVF",
-   "en": "Surface casing vent flow. It's kind of test",
+   "en": "Surface casing vent flow (a kind of test)",
    "ar": "جريان منفس التغليف السطحي (نوع فحص)",
    "c": "cs"
   },
@@ -8946,7 +9463,7 @@
   },
   {
    "a": "SEG",
-   "en": "Society of Exploration Geophysicsists",
+   "en": "Society of Exploration Geophysicists",
    "ar": "جمعية الجيوفيزيائيين الاستكشافيين",
    "c": "org"
   },
@@ -8954,6 +9471,12 @@
    "a": "SEM",
    "en": "Subsea electronics module",
    "ar": "وحدة الإلكترونيات تحت البحر",
+   "c": "of"
+  },
+  {
+   "a": "Semi",
+   "en": "Semi-submersible drilling rig",
+   "ar": "حفارة شبه غاطسة",
    "c": "of"
   },
   {
@@ -8975,12 +9498,6 @@
    "c": "pd"
   },
   {
-   "a": "SFERAE",
-   "en": "Global association for the use of knowledge on fractured rock in a state of stress, in the field of energy, culture and environment",
-   "ar": "رابطة عالمية لمعرفة الصخور المتشققة المجهدة (SFERAE)",
-   "c": "org"
-  },
-  {
    "a": "SFL",
    "en": "Steel flying lead",
    "ar": "وصلة فولاذية طائرة",
@@ -8997,12 +9514,6 @@
    "en": "Steel gravity structure",
    "ar": "هيكل ثقالي فولاذي",
    "c": "of"
-  },
-  {
-   "a": "SGSI",
-   "en": "Shell Global Solutions International",
-   "ar": "شركة Shell Global Solutions International",
-   "c": "org"
   },
   {
    "a": "SGUN",
@@ -9027,12 +9538,6 @@
    "en": "Stratigraphic high resolution dipmeter tool",
    "ar": "أداة الميل الطبقي عالي الدقة",
    "c": "lg"
-  },
-  {
-   "a": "SHINC",
-   "en": "Sunday holiday including",
-   "ar": "شاملاً الأحد والعطل",
-   "c": "gen"
   },
   {
    "a": "SHO",
@@ -9107,6 +9612,12 @@
    "c": "hs"
   },
   {
+   "a": "SIP",
+   "en": "Simultaneous injection and production",
+   "ar": "الحقن والإنتاج المتزامنين",
+   "c": "pd"
+  },
+  {
    "a": "SIPCOM",
    "en": "Simultaneous production and commissioning",
    "ar": "الإنتاج والتشغيل التجريبي المتزامنين",
@@ -9149,9 +9660,15 @@
    "c": "lg"
   },
   {
-   "a": "SMA",
-   "en": "Small amount",
-   "ar": "كمية قليلة",
+   "a": "SM",
+   "en": "Safety meeting",
+   "ar": "اجتماع السلامة",
+   "c": "hs"
+  },
+  {
+   "a": "SMEs",
+   "en": "Subject matter experts",
+   "ar": "خبراء الاختصاص",
    "c": "gen"
   },
   {
@@ -9165,12 +9682,6 @@
    "en": "Subsea multiphase pump",
    "ar": "مضخة متعددة الأطوار تحت البحر",
    "c": "of"
-  },
-  {
-   "a": "SNAM",
-   "en": "Societá Nazionale Metanodotti now Snam S.p.A. (Italy)",
-   "ar": "شركة Snam الإيطالية (سابقاً Società Nazionale Metanodotti)",
-   "c": "org"
   },
   {
    "a": "SNP",
@@ -9191,10 +9702,22 @@
    "c": "hs"
   },
   {
+   "a": "SOP",
+   "en": "Shear-out plug",
+   "ar": "سدادة تنفتح بالقص (Shear-out plug)",
+   "c": "co"
+  },
+  {
    "a": "SOR",
    "en": "Senior operations representative",
    "ar": "ممثل العمليات الأقدم",
    "c": "gen"
+  },
+  {
+   "a": "SOR",
+   "en": "Steam oil ratio",
+   "ar": "نسبة البخار إلى النفط",
+   "c": "re"
   },
   {
    "a": "SOW",
@@ -9289,7 +9812,7 @@
   {
    "a": "SPT",
    "en": "Shallower pool test, Lahee classification",
-   "ar": "فحص مكمن أضحل (تصنيف Lahee)",
+   "ar": "بئر لاختبار مكمن أضحل (تصنيف Lahee)",
    "c": "dr"
   },
   {
@@ -9321,6 +9844,12 @@
    "en": "Site receival test",
    "ar": "فحص الاستلام بالموقع",
    "c": "gen"
+  },
+  {
+   "a": "SS",
+   "en": "Short string",
+   "ar": "سلسلة الأنابيب القصيرة (بالإكمال المزدوج)",
+   "c": "co"
   },
   {
    "a": "SS",
@@ -9395,12 +9924,6 @@
    "c": "of"
   },
   {
-   "a": "SSSL",
-   "en": "Supplementary Seismic Survey Licence (United Kingdom), a type of onshore licence",
-   "ar": "رخصة مسح زلزالي تكميلي (بريطانيا)",
-   "c": "gen"
-  },
-  {
    "a": "SSTT",
    "en": "Subsea test tree",
    "ar": "شجرة الفحص تحت البحر",
@@ -9468,6 +9991,12 @@
   },
   {
    "a": "STP",
+   "en": "Sewage treatment plant",
+   "ar": "محطة معالجة مياه الصرف الصحي",
+   "c": "hs"
+  },
+  {
+   "a": "STP",
    "en": "Submerged turret production",
    "ar": "إنتاج بالبرج الدوار المغمور",
    "c": "of"
@@ -9521,6 +10050,12 @@
    "c": "of"
   },
   {
+   "a": "SUTB",
+   "en": "Subsea umbilical termination box",
+   "ar": "صندوق نهاية الحبل السري تحت البحر",
+   "c": "of"
+  },
+  {
    "a": "SUTU",
    "en": "Subsea umbilical termination unit",
    "ar": "وحدة نهاية الحبل السري تحت البحر",
@@ -9569,12 +10104,6 @@
    "c": "lg"
   },
   {
-   "a": "T",
-   "en": "Well flowing to tank",
-   "ar": "بئر يجري للخزان",
-   "c": "pd"
-  },
-  {
    "a": "T/T",
    "en": "Tangent to tangent",
    "ar": "من المماس للمماس (طول الوعاء)",
@@ -9591,12 +10120,6 @@
    "en": "Thermally assisted gas/oil gravity drainage",
    "ar": "تصريف جذبي غاز/نفط بمساعدة حرارية",
    "c": "re"
-  },
-  {
-   "a": "TAPVE",
-   "en": "Tape verification",
-   "ar": "التحقق من الأشرطة",
-   "c": "lg"
   },
   {
    "a": "TAR",
@@ -9689,12 +10212,6 @@
    "c": "gs"
   },
   {
-   "a": "TECH",
-   "en": "Electronics technician",
-   "ar": "فني إلكترونيات",
-   "c": "gen"
-  },
-  {
    "a": "TEFC",
    "en": "Totally enclosed fan-cooled",
    "ar": "مغلق كلياً ومبرد بمروحة (محرك)",
@@ -9705,18 +10222,6 @@
    "en": "Thermal electric generator",
    "ar": "مولد كهروحراري",
    "c": "gen"
-  },
-  {
-   "a": "TETT",
-   "en": "Too early to tell",
-   "ar": "بعد بكير نحكم",
-   "c": "gen"
-  },
-  {
-   "a": "TFE",
-   "en": "Total fina elf (obsolete; Now Total S.A.) major French multinational oil company",
-   "ar": "Total Fina Elf (قديمة، صارت TotalEnergies)",
-   "c": "org"
   },
   {
    "a": "TFM",
@@ -9740,6 +10245,12 @@
    "a": "TGOR",
    "en": "Total gas oil ratio (GOR uncorrected for gas lift gas present in the production fluid)",
    "ar": "نسبة الغاز للنفط الكلية (بدون تصحيح غاز الرفع)",
+   "c": "pd"
+  },
+  {
+   "a": "TGT",
+   "en": "Tank gross test",
+   "ar": "فحص إجمالي الخزان",
    "c": "pd"
   },
   {
@@ -9767,10 +10278,11 @@
    "c": "co"
   },
   {
-   "a": "THP",
-   "en": "Tubing hanger pressure (pressure in the production tubing as measured at the tubing hanger)",
-   "ar": "ضغط معلّاق الأنابيب (ضغط الأنابيب عند المعلّاق)",
-   "c": "pd"
+   "a": "Thr",
+   "en": "Thruster",
+   "ar": "دفّاعة (Thruster)",
+   "c": "of",
+   "n": "Thr#3 يعني الدفّاعة رقم 3."
   },
   {
    "a": "TIS",
@@ -9821,6 +10333,24 @@
    "c": "lg"
   },
   {
+   "a": "TOL",
+   "en": "Top of lead cement",
+   "ar": "قمة إسمنت المقدمة (Lead)",
+   "c": "cs"
+  },
+  {
+   "a": "TOP",
+   "en": "Top of pipe",
+   "ar": "أعلى الأنبوب",
+   "c": "of"
+  },
+  {
+   "a": "TOR",
+   "en": "Terms of reference",
+   "ar": "الاختصاصات والصلاحيات (للجنة أو فريق)",
+   "c": "gen"
+  },
+  {
    "a": "TORAN",
    "en": "Torque and drag analysis",
    "ar": "تحليل العزم والسحب",
@@ -9867,6 +10397,18 @@
    "en": "Top riser assembly",
    "ar": "تجميعة الرايزر العليا",
    "c": "of"
+  },
+  {
+   "a": "TRAN",
+   "en": "Transition zone",
+   "ar": "المنطقة الانتقالية",
+   "c": "re"
+  },
+  {
+   "a": "TRCF",
+   "en": "Total recordable case frequency",
+   "ar": "معدل تكرار الحوادث القابلة للتسجيل",
+   "c": "hs"
   },
   {
    "a": "TRCFR",
@@ -10001,12 +10543,6 @@
    "c": "of"
   },
   {
-   "a": "TV/BIP",
-   "en": "Ratio of total volume (ore and overburden) to bitumen in place",
-   "ar": "نسبة الحجم الكلي (خام وغطاء) للبيتومين بالمكان",
-   "c": "re"
-  },
-  {
    "a": "TVBDF",
    "en": "True vertical depth below derrick floor",
    "ar": "العمق العمودي الحقيقي تحت أرضية البرج",
@@ -10059,6 +10595,12 @@
    "en": "Unit control logic",
    "ar": "منطق تحكم الوحدة",
    "c": "gen"
+  },
+  {
+   "a": "UCR",
+   "en": "Unsafe condition report",
+   "ar": "تقرير حالة غير آمنة",
+   "c": "hs"
   },
   {
    "a": "UCSU",
@@ -10133,6 +10675,12 @@
    "c": "pd"
   },
   {
+   "a": "UR",
+   "en": "Ultimate recovery",
+   "ar": "الاستخلاص النهائي",
+   "c": "re"
+  },
+  {
    "a": "URA",
    "en": "Upper riser assembly",
    "ar": "تجميعة الرايزر العليا",
@@ -10151,6 +10699,12 @@
    "c": "of"
   },
   {
+   "a": "UT",
+   "en": "Ultrasonic testing",
+   "ar": "الفحص بالأمواج فوق الصوتية",
+   "c": "hs"
+  },
+  {
    "a": "UTA/B",
    "en": "Umbilical termination assembly/box",
    "ar": "تجميعة/صندوق نهاية الحبل السري",
@@ -10161,6 +10715,12 @@
    "en": "Umbilical termination assembly jumper",
    "ar": "وصلة تجميعة نهاية الحبل السري",
    "c": "of"
+  },
+  {
+   "a": "UTC",
+   "en": "Unit technical cost",
+   "ar": "التكلفة الفنية للوحدة",
+   "c": "gen"
   },
   {
    "a": "UTHCP",
@@ -10259,6 +10819,12 @@
    "c": "hs"
   },
   {
+   "a": "VOI",
+   "en": "Value of information",
+   "ar": "قيمة المعلومات",
+   "c": "gen"
+  },
+  {
    "a": "VOR",
    "en": "Variation order request",
    "ar": "طلب أمر تغيير",
@@ -10319,6 +10885,12 @@
    "c": "gs"
   },
   {
+   "a": "WAH",
+   "en": "Working at height",
+   "ar": "العمل بالأماكن المرتفعة",
+   "c": "hs"
+  },
+  {
    "a": "WALKS",
    "en": "Walkaway seismic profile",
    "ar": "مقطع زلزالي Walkaway",
@@ -10335,24 +10907,6 @@
    "en": "Water analysis",
    "ar": "تحليل الماء",
    "c": "pd"
-  },
-  {
-   "a": "WAV3",
-   "en": "Amplitude (in seismics)",
-   "ar": "السعة (زلزالي)",
-   "c": "lg"
-  },
-  {
-   "a": "WAV4",
-   "en": "Two-way travel time (in seismics)",
-   "ar": "زمن الانتقال الثنائي (زلزالي)",
-   "c": "lg"
-  },
-  {
-   "a": "WAV5",
-   "en": "Compensate amplitudes",
-   "ar": "تعويض السعات",
-   "c": "lg"
   },
   {
    "a": "WBCO",
@@ -10427,12 +10981,6 @@
    "c": "lg"
   },
   {
-   "a": "WHIG",
-   "en": "Whitehouse gauge",
-   "ar": "مقياس Whitehouse",
-   "c": "gen"
-  },
-  {
    "a": "WHM",
    "en": "Wellhead maintenance",
    "ar": "صيانة رأس البئر",
@@ -10471,7 +11019,7 @@
   {
    "a": "WIPSP",
    "en": "WIP stock packer",
-   "ar": "حشوة WIP",
+   "ar": "حشوة الـ Whipstock",
    "c": "co"
   },
   {
@@ -10503,6 +11051,12 @@
    "en": "Well summary",
    "ar": "ملخص البئر",
    "c": "gen"
+  },
+  {
+   "a": "WLTS",
+   "en": "Well log tracking system",
+   "ar": "نظام تتبع مجسات الآبار",
+   "c": "lg"
   },
   {
    "a": "WM",
@@ -10547,12 +11101,6 @@
    "c": "co"
   },
   {
-   "a": "WOS",
-   "en": "West of Shetland, oil province on the UKCS",
-   "ar": "غرب شتلاند (إقليم نفطي بالجرف البريطاني)",
-   "c": "gen"
-  },
-  {
    "a": "WP",
    "en": "Well proposal or working pressure",
    "ar": "مقترح البئر أو ضغط العمل",
@@ -10583,28 +11131,16 @@
    "c": "gen"
   },
   {
-   "a": "WQ",
-   "en": "A textural parameter used for CBVWE computations (Halliburton)",
-   "ar": "معامل نسيجي لحسابات CBVWE (Halliburton)",
-   "c": "lg"
-  },
-  {
-   "a": "WQCA",
-   "en": "Water Quality Control Act",
-   "ar": "قانون السيطرة على نوعية المياه",
-   "c": "hs"
-  },
-  {
-   "a": "WQCB",
-   "en": "Water Quality Control Board",
-   "ar": "مجلس السيطرة على نوعية المياه",
-   "c": "org"
-  },
-  {
    "a": "WR",
    "en": "Wet resistivity",
    "ar": "المقاومية الرطبة",
    "c": "lg"
+  },
+  {
+   "a": "WRM",
+   "en": "Well and reservoir management",
+   "ar": "إدارة الآبار والمكامن",
+   "c": "re"
   },
   {
    "a": "WRSCSSV",
@@ -10649,30 +11185,6 @@
    "c": "lg"
   },
   {
-   "a": "WSSAM",
-   "en": "Well site sample",
-   "ar": "عينة موقع البئر",
-   "c": "lg"
-  },
-  {
-   "a": "WSSOF",
-   "en": "WSS offset profile",
-   "ar": "مقطع WSS المزاح",
-   "c": "lg"
-  },
-  {
-   "a": "WSSVP",
-   "en": "WSS VSP raw shots",
-   "ar": "لقطات VSP الخام (WSS)",
-   "c": "lg"
-  },
-  {
-   "a": "WSSVS",
-   "en": "WSS VSP stacks",
-   "ar": "تجميعات VSP (WSS)",
-   "c": "lg"
-  },
-  {
    "a": "WST",
    "en": "Well seismic tool (checkshot)",
    "ar": "الأداة الزلزالية للبئر (Checkshot)",
@@ -10683,6 +11195,12 @@
    "en": "Well service unit",
    "ar": "وحدة خدمة الآبار",
    "c": "co"
+  },
+  {
+   "a": "WTP",
+   "en": "Water treatment plant",
+   "ar": "محطة معالجة الماء",
+   "c": "pd"
   },
   {
    "a": "WTR",
@@ -10727,6 +11245,12 @@
    "c": "lg"
   },
   {
+   "a": "XLPE",
+   "en": "Cross-linked polyethylene",
+   "ar": "بولي إثيلين متشابك",
+   "c": "gen"
+  },
+  {
    "a": "XMAC-E",
    "en": "XMAC elite (next generation of XMAC)",
    "ar": "XMAC Elite (الجيل الأحدث من XMAC)",
@@ -10739,12 +11263,6 @@
    "c": "lg"
   },
   {
-   "a": "XOM",
-   "en": "Exxon Mobil",
-   "ar": "شركة ExxonMobil",
-   "c": "org"
-  },
-  {
    "a": "XOV",
    "en": "Cross-over valve",
    "ar": "صمام العبور",
@@ -10755,12 +11273,6 @@
    "en": "Matrix permeability in the x-direction",
    "ar": "نفاذية المصفوفة باتجاه x",
    "c": "re"
-  },
-  {
-   "a": "XPHLOC",
-   "en": "Crossplot selection for XPHI",
-   "ar": "اختيار مخطط التقاطع لـ XPHI",
-   "c": "lg"
   },
   {
    "a": "XPOR",
@@ -10817,16 +11329,76 @@
    "c": "hs"
   },
   {
-   "a": "°API",
-   "en": "Degrees API (American Petroleum Institute) density of oil",
-   "ar": "درجة API لكثافة النفط",
-   "c": "re"
+   "a": "1D",
+   "en": "One-dimensional (geophysics)",
+   "ar": "أحادي البعد (مسح زلزالي)",
+   "c": "lg"
+  },
+  {
+   "a": "AAODC",
+   "en": "American Association of Oilwell Drilling Contractors (obsolete; superseded by IADC)",
+   "ar": "الرابطة الأمريكية لمقاولي حفر الآبار النفطية (قديمة، صارت IADC)",
+   "c": "org"
+  },
+  {
+   "a": "AAR",
+   "en": "After action review",
+   "ar": "مراجعة بعد الحدث (لاستخلاص الدروس)",
+   "c": "gen"
+  },
+  {
+   "a": "ABSA",
+   "en": "Alberta Boilers Safety Association",
+   "ar": "رابطة ألبرتا لسلامة المراجل",
+   "c": "org"
+  },
+  {
+   "a": "ACBM",
+   "en": "Activity cost based model",
+   "ar": "نموذج التكلفة المبني على النشاط",
+   "c": "gen"
+  },
+  {
+   "a": "ACCA",
+   "en": "Association of Chartered Certified Accountants",
+   "ar": "جمعية المحاسبين القانونيين المعتمدين",
+   "c": "org"
   },
   {
    "a": "ACQU",
    "en": "Acquisition log",
    "ar": "مجس/سجل الاكتساب",
    "c": "lg"
+  },
+  {
+   "a": "ACV",
+   "en": "Authorised contract value",
+   "ar": "قيمة العقد المصادق عليها",
+   "c": "gen"
+  },
+  {
+   "a": "ADE",
+   "en": "Advanced decision-making environment",
+   "ar": "بيئة متقدمة لاتخاذ القرار",
+   "c": "gen"
+  },
+  {
+   "a": "ADEP",
+   "en": "Awaiting development with exploration potential, referring to an asset",
+   "ar": "أصل ينتظر التطوير وبيه إمكانية استكشافية",
+   "c": "gen"
+  },
+  {
+   "a": "ADP",
+   "en": "Asset development plan",
+   "ar": "خطة تطوير الموجودات",
+   "c": "gen"
+  },
+  {
+   "a": "ADR",
+   "en": "Annual development review",
+   "ar": "المراجعة السنوية للتطوير",
+   "c": "gen"
   },
   {
    "a": "ADROC",
@@ -10841,10 +11413,34 @@
    "c": "dr"
   },
   {
+   "a": "AEMO",
+   "en": "Australian Energy Market Operator",
+   "ar": "مشغّل سوق الطاقة الأسترالي",
+   "c": "org"
+  },
+  {
+   "a": "AGT",
+   "en": "Azerbaijan – Georgia – Turkey (a region rich in oil related activity)",
+   "ar": "أذربيجان-جورجيا-تركيا (منطقة نشاط نفطي)",
+   "c": "gen"
+  },
+  {
+   "a": "AIR",
+   "en": "Assurance interface and risk",
+   "ar": "الضمان والواجهات والمخاطر",
+   "c": "gen"
+  },
+  {
    "a": "AIRRE",
    "en": "Airgun report",
    "ar": "تقرير المدفع الهوائي",
    "c": "lg"
+  },
+  {
+   "a": "AL",
+   "en": "Appraisal license (United Kingdom), a type of onshore licence issued before 1996",
+   "ar": "رخصة تقييم (بريطانيا، رخصة برية قبل 1996)",
+   "c": "gen"
   },
   {
    "a": "ALC",
@@ -10883,10 +11479,22 @@
    "c": "gen"
   },
   {
+   "a": "ARA",
+   "en": "Annual report and accounts",
+   "ar": "التقرير السنوي والحسابات",
+   "c": "gen"
+  },
+  {
    "a": "ARACL",
    "en": "Array acoustic log",
    "ar": "المجس الصوتي المصفوفي",
    "c": "lg"
+  },
+  {
+   "a": "ARP",
+   "en": "Asset reference plan",
+   "ar": "الخطة المرجعية للموجودات",
+   "c": "gen"
   },
   {
    "a": "ARRC",
@@ -10913,6 +11521,18 @@
    "c": "lg"
   },
   {
+   "a": "ATM",
+   "en": "At the moment",
+   "ar": "باللحظة الحالية",
+   "c": "gen"
+  },
+  {
+   "a": "BCMA",
+   "en": "Billion cubic metres per annum",
+   "ar": "مليار متر مكعب بالسنة",
+   "c": "un"
+  },
+  {
    "a": "BDL",
    "en": "Bit data log",
    "ar": "سجل بيانات البت",
@@ -10925,6 +11545,12 @@
    "c": "lg"
   },
   {
+   "a": "BH",
+   "en": "Bloodhound",
+   "ar": "Bloodhound (اسم أداة/نظام)",
+   "c": "gen"
+  },
+  {
    "a": "BHC",
    "en": "BHC gamma ray log",
    "ar": "مجس كاما BHC",
@@ -10934,12 +11560,6 @@
    "a": "BHCA",
    "en": "BHC acoustic log",
    "ar": "المجس الصوتي المعوَّض للبئر (BHC)",
-   "c": "lg"
-  },
-  {
-   "a": "BHCS",
-   "en": "BHC sonic log",
-   "ar": "المجس الصوتي المعوَّض للبئر (BHC sonic)",
    "c": "lg"
   },
   {
@@ -10997,6 +11617,12 @@
    "c": "lg"
   },
   {
+   "a": "BOS",
+   "en": "Bill of sale",
+   "ar": "فاتورة البيع",
+   "c": "gen"
+  },
+  {
    "a": "BOTHL",
    "en": "Bottom hole locator log",
    "ar": "مجس تحديد موقع القاع",
@@ -11033,10 +11659,22 @@
    "c": "lg"
   },
   {
+   "a": "C&A",
+   "en": "Control and automation",
+   "ar": "السيطرة والأتمتة",
+   "c": "gen"
+  },
+  {
    "a": "CA",
    "en": "Core analysis log",
    "ar": "سجل تحليل اللباب",
    "c": "lg"
+  },
+  {
+   "a": "CAAF",
+   "en": "Contract authorization approval form",
+   "ar": "استمارة الموافقة على تخويل العقد",
+   "c": "gen"
   },
   {
    "a": "CALOG",
@@ -11051,6 +11689,18 @@
    "c": "lg"
   },
   {
+   "a": "CAO",
+   "en": "Computer assisted operation",
+   "ar": "التشغيل بمساعدة الحاسوب",
+   "c": "gen"
+  },
+  {
+   "a": "CAR",
+   "en": "Corrective action recommendation",
+   "ar": "توصية بإجراء تصحيحي",
+   "c": "hs"
+  },
+  {
    "a": "CAS",
    "en": "Casing log",
    "ar": "مجس التغليف",
@@ -11063,10 +11713,22 @@
    "c": "lg"
   },
   {
+   "a": "CCE",
+   "en": "Cost containment estimate",
+   "ar": "تقدير احتواء التكاليف",
+   "c": "gen"
+  },
+  {
    "a": "CCHT",
    "en": "Core chart log",
    "ar": "مخطط اللباب",
    "c": "lg"
+  },
+  {
+   "a": "CCLBD",
+   "en": "Construction / commissioning logic block diagram",
+   "ar": "مخطط بلوكات منطق الإنشاء/التشغيل التجريبي",
+   "c": "gen"
   },
   {
    "a": "CDIS",
@@ -11085,6 +11747,12 @@
    "en": "CE log",
    "ar": "مجس CE",
    "c": "lg"
+  },
+  {
+   "a": "CEPI",
+   "en": "Composite environmental performance indicator",
+   "ar": "مؤشر الأداء البيئي المركّب",
+   "c": "hs"
   },
   {
    "a": "CERE",
@@ -11153,9 +11821,15 @@
    "c": "lg"
   },
   {
-   "a": "CMR",
-   "en": "Combinable magnetic resonance (NMR log tool)",
-   "ar": "أداة الرنين المغناطيسي القابلة للدمج (NMR)",
+   "a": "CMF",
+   "en": "Corporate management framework",
+   "ar": "الإطار الإداري للشركة",
+   "c": "gen"
+  },
+  {
+   "a": "CNA",
+   "en": "Clay, no analysis",
+   "ar": "طين، بدون تحليل",
    "c": "lg"
   },
   {
@@ -11177,6 +11851,18 @@
    "c": "lg"
   },
   {
+   "a": "CNR",
+   "en": "Canadian Natural Resources",
+   "ar": "شركة Canadian Natural Resources",
+   "c": "org"
+  },
+  {
+   "a": "COGEN",
+   "en": "Cogeneration",
+   "ar": "التوليد المشترك (كهرباء وحرارة)",
+   "c": "gs"
+  },
+  {
    "a": "COL",
    "en": "Collar log",
    "ar": "مجس الوصلات",
@@ -11186,12 +11872,6 @@
    "a": "COML",
    "en": "Compaction log",
    "ar": "مجس التراص",
-   "c": "lg"
-  },
-  {
-   "a": "COMP",
-   "en": "Composite log",
-   "ar": "المجس المركّب",
    "c": "lg"
   },
   {
@@ -11249,21 +11929,9 @@
    "c": "lg"
   },
   {
-   "a": "CORLG",
-   "en": "Correlation log",
-   "ar": "مجس المضاهاة",
-   "c": "lg"
-  },
-  {
    "a": "COROR",
    "en": "Core orientation report",
    "ar": "تقرير توجيه اللباب",
-   "c": "lg"
-  },
-  {
-   "a": "COXY",
-   "en": "Carbon/oxygen log",
-   "ar": "مجس الكاربون/الأوكسجين",
    "c": "lg"
   },
   {
@@ -11279,10 +11947,22 @@
    "c": "lg"
   },
   {
+   "a": "CR",
+   "en": "Corporate responsibility",
+   "ar": "مسؤولية الشركة",
+   "c": "gen"
+  },
+  {
    "a": "CRET",
    "en": "Cement retainer setting log",
    "ar": "مجس تثبيت ماسك الإسمنت",
    "c": "cs"
+  },
+  {
+   "a": "CRINE",
+   "en": "Cost reduction in the new era",
+   "ar": "مبادرة تقليل الكلف بالعهد الجديد (بريطانيا)",
+   "c": "gen"
   },
   {
    "a": "CSHN",
@@ -11339,6 +12019,12 @@
    "c": "lg"
   },
   {
+   "a": "CVX",
+   "en": "Chevron",
+   "ar": "شركة Chevron",
+   "c": "org"
+  },
+  {
    "a": "CYBD",
    "en": "Cyberbond log",
    "ar": "مجس Cyberbond",
@@ -11379,6 +12065,12 @@
    "en": "Darci log",
    "ar": "مجس Darci",
    "c": "lg"
+  },
+  {
+   "a": "DCAF",
+   "en": "Discipline controls and assurance framework",
+   "ar": "إطار ضوابط وضمان التخصصات",
+   "c": "gen"
   },
   {
    "a": "DCAL",
@@ -11423,12 +12115,6 @@
    "c": "lg"
   },
   {
-   "a": "DEN",
-   "en": "Density log",
-   "ar": "مجس الكثافة",
-   "c": "lg"
-  },
-  {
    "a": "DEPAN",
    "en": "Deposit analysis report",
    "ar": "تقرير تحليل الترسبات",
@@ -11439,6 +12125,13 @@
    "en": "Depth control log",
    "ar": "مجس ضبط العمق",
    "c": "lg"
+  },
+  {
+   "a": "DEPs",
+   "en": "Design and engineering practices",
+   "ar": "ممارسات التصميم والهندسة",
+   "c": "gen",
+   "n": "معايير Shell الهندسية."
   },
   {
    "a": "DESFL",
@@ -11483,12 +12176,6 @@
    "c": "lg"
   },
   {
-   "a": "DIL",
-   "en": "Dual-induction log",
-   "ar": "مجس الحث المزدوج",
-   "c": "lg"
-  },
-  {
    "a": "DILB",
    "en": "Dual-induction BHC log",
    "ar": "مجس الحث المزدوج BHC",
@@ -11504,12 +12191,6 @@
    "a": "DILSL",
    "en": "Dual-induction log-SLS",
    "ar": "مجس الحث المزدوج-SLS",
-   "c": "lg"
-  },
-  {
-   "a": "DIP",
-   "en": "Dipmeter log",
-   "ar": "مجس قياس الميل (Dipmeter)",
    "c": "lg"
   },
   {
@@ -11591,10 +12272,22 @@
    "c": "lg"
   },
   {
+   "a": "DL",
+   "en": "Development license (United Kingdom), a type of onshore license issued before 1996",
+   "ar": "رخصة تطوير (بريطانيا، رخصة برية قبل 1996)",
+   "c": "gen"
+  },
+  {
    "a": "DLIST",
    "en": "Dip-list log",
    "ar": "قائمة الميول",
    "c": "lg"
+  },
+  {
+   "a": "DOGGR",
+   "en": "Division of Oil, Gas, and Geothermal Resources (former name of California's regulatory entity for oil, gas, and geothermal production)",
+   "ar": "قسم النفط والغاز والموارد الجيوحرارية بكاليفورنيا (الاسم السابق)",
+   "c": "org"
   },
   {
    "a": "DOWRE",
@@ -11625,6 +12318,12 @@
    "en": "Dummy-run log",
    "ar": "إنزال تجريبي (Dummy run)",
    "c": "lg"
+  },
+  {
+   "a": "DRB",
+   "en": "Decision review board",
+   "ar": "مجلس مراجعة القرارات",
+   "c": "gen"
   },
   {
    "a": "DRI",
@@ -11729,6 +12428,19 @@
    "c": "lg"
   },
   {
+   "a": "DTI",
+   "en": "Department of Trade and Industry (UK) (obsolete; superseded by dBERR, which was then superseded by DECC)",
+   "ar": "وزارة التجارة والصناعة البريطانية (قديمة)",
+   "c": "org"
+  },
+  {
+   "a": "DtL",
+   "en": "Drill the limit",
+   "ar": "الحفر بأقصى فاعلية",
+   "c": "dr",
+   "n": "برنامج لتحسين أداء الحفر."
+  },
+  {
    "a": "DTPB",
    "en": "CNT true vertical-depth playback log",
    "ar": "إعادة عرض CNT بالعمق العمودي الحقيقي",
@@ -11753,6 +12465,36 @@
    "c": "lg"
   },
   {
+   "a": "ECA",
+   "en": "Easington Catchment Area",
+   "ar": "منطقة تجميع Easington",
+   "c": "gen"
+  },
+  {
+   "a": "ECMWF",
+   "en": "European Centre for Medium-Range Weather Forecasts",
+   "ar": "المركز الأوروبي للتنبؤات الجوية متوسطة المدى",
+   "c": "org"
+  },
+  {
+   "a": "EDF",
+   "en": "Early development facility",
+   "ar": "منشأة التطوير المبكر",
+   "c": "pd"
+  },
+  {
+   "a": "EDMS",
+   "en": "Electronic data management system",
+   "ar": "النظام الإلكتروني لإدارة البيانات",
+   "c": "gen"
+  },
+  {
+   "a": "EDMS",
+   "en": "Engineering documents management system",
+   "ar": "نظام إدارة الوثائق الهندسية",
+   "c": "gen"
+  },
+  {
    "a": "EDP",
    "en": "Exploration drilling program report",
    "ar": "تقرير برنامج الحفر الاستكشافي",
@@ -11765,16 +12507,22 @@
    "c": "dr"
   },
   {
+   "a": "EDS",
+   "en": "Explosive detection systems",
+   "ar": "أنظمة كشف المتفجرات",
+   "c": "hs"
+  },
+  {
+   "a": "EFC",
+   "en": "Estimated final cost",
+   "ar": "التكلفة النهائية المقدرة",
+   "c": "gen"
+  },
+  {
    "a": "EFR",
    "en": "Engineering factual report",
    "ar": "تقرير هندسي وقائعي",
    "c": "gen"
-  },
-  {
-   "a": "EL",
-   "en": "Electric log",
-   "ar": "المجس الكهربائي",
-   "c": "lg"
   },
   {
    "a": "EM",
@@ -11795,6 +12543,12 @@
    "c": "lg"
   },
   {
+   "a": "EN PI",
+   "en": "Enhanced productivity index log",
+   "ar": "مجس مؤشر الإنتاجية المحسّن",
+   "c": "lg"
+  },
+  {
    "a": "ENG",
    "en": "Engineering log",
    "ar": "السجل الهندسي",
@@ -11807,16 +12561,34 @@
    "c": "gen"
   },
   {
+   "a": "ENGPD",
+   "en": "Engineering porosity data",
+   "ar": "بيانات المسامية الهندسية",
+   "c": "lg"
+  },
+  {
    "a": "ENJ",
    "en": "Enerjet log",
    "ar": "مجس Enerjet (تثقيب)",
    "c": "co"
   },
   {
-   "a": "EOW",
-   "en": "End-of-well report",
-   "ar": "تقرير نهاية البئر",
-   "c": "dr"
+   "a": "EORD",
+   "en": "Engineering operation reference documents",
+   "ar": "الوثائق المرجعية للعمليات الهندسية",
+   "c": "gen"
+  },
+  {
+   "a": "EP",
+   "en": "Electronic procurement",
+   "ar": "الشراء الإلكتروني",
+   "c": "gen"
+  },
+  {
+   "a": "EPIDORIS",
+   "en": "Exploration and production integrated drilling operations and reservoir information system",
+   "ar": "نظام معلومات متكامل لعمليات الحفر والمكامن",
+   "c": "gen"
   },
   {
    "a": "EPL",
@@ -11837,9 +12609,39 @@
    "c": "lg"
   },
   {
+   "a": "EPZ",
+   "en": "Emergency planning zones",
+   "ar": "مناطق التخطيط للطوارئ",
+   "c": "hs"
+  },
+  {
+   "a": "ERD",
+   "en": "Engineering reference document",
+   "ar": "وثيقة مرجعية هندسية",
+   "c": "gen"
+  },
+  {
+   "a": "ETAP",
+   "en": "Eastern Trough Area Project",
+   "ar": "مشروع منطقة الحوض الشرقي (بحر الشمال)",
+   "c": "gen"
+  },
+  {
+   "a": "EU",
+   "en": "European Union",
+   "ar": "الاتحاد الأوروبي",
+   "c": "org"
+  },
+  {
    "a": "EVARE",
    "en": "Evaluation report",
    "ar": "تقرير التقييم",
+   "c": "gen"
+  },
+  {
+   "a": "EWMS",
+   "en": "Engineering work management system",
+   "ar": "نظام إدارة الأعمال الهندسية",
    "c": "gen"
   },
   {
@@ -11847,6 +12649,12 @@
    "en": "End-of-well report",
    "ar": "تقرير نهاية البئر",
    "c": "dr"
+  },
+  {
+   "a": "EXL",
+   "en": "Exploration licence (United Kingdom), a type of onshore licence issued between the First Onshore Licensing Round (1986) and the sixth (1992)",
+   "ar": "رخصة استكشاف (بريطانيا، رخصة برية 1986–1992)",
+   "c": "gen"
   },
   {
    "a": "FAC",
@@ -11877,6 +12685,12 @@
    "en": "Formation evaluation report",
    "ar": "تقرير تقييم الطبقة",
    "c": "lg"
+  },
+  {
+   "a": "FERM",
+   "en": "Fire and explosion risk management",
+   "ar": "إدارة مخاطر الحرائق والانفجارات",
+   "c": "hs"
   },
   {
    "a": "FFAC",
@@ -11933,12 +12747,6 @@
    "c": "lg"
   },
   {
-   "a": "FMS",
-   "en": "Formation multi-scan log; formation micro-scan log",
-   "ar": "مجس المسح الدقيق للطبقة",
-   "c": "lg"
-  },
-  {
    "a": "FMTAN",
    "en": "FMT analysis report",
    "ar": "تقرير تحليل FMT",
@@ -11954,6 +12762,18 @@
    "a": "FPLAN",
    "en": "Field plan log",
    "ar": "مخطط الحقل",
+   "c": "gen"
+  },
+  {
+   "a": "FPLP",
+   "en": "Freshman petroleum learning program (Penn State)",
+   "ar": "برنامج تعليم البترول للمستجدين (Penn State)",
+   "c": "gen"
+  },
+  {
+   "a": "FR SIT",
+   "en": "Field representation SIT",
+   "ar": "فحص SIT بتمثيل حقلي",
    "c": "gen"
   },
   {
@@ -12005,12 +12825,6 @@
    "c": "lg"
   },
   {
-   "a": "FWR",
-   "en": "Final well report",
-   "ar": "تقرير البئر النهائي",
-   "c": "dr"
-  },
-  {
    "a": "GAS",
    "en": "Gas log",
    "ar": "مجس الغاز",
@@ -12021,6 +12835,12 @@
    "en": "Gas analysis report",
    "ar": "تقرير تحليل الغاز",
    "c": "gs"
+  },
+  {
+   "a": "GCC",
+   "en": "Gulf Cooperation Council",
+   "ar": "مجلس التعاون الخليجي",
+   "c": "org"
   },
   {
    "a": "GCLOG",
@@ -12039,6 +12859,18 @@
    "en": "Geodip log",
    "ar": "مجس Geodip",
    "c": "lg"
+  },
+  {
+   "a": "GDP",
+   "en": "Gross domestic product",
+   "ar": "الناتج المحلي الإجمالي",
+   "c": "gen"
+  },
+  {
+   "a": "GEO",
+   "en": "Middle East Geosciences Conference and Exhibition",
+   "ar": "مؤتمر ومعرض الشرق الأوسط لعلوم الأرض",
+   "c": "org"
   },
   {
    "a": "GEODY",
@@ -12119,12 +12951,6 @@
    "c": "lg"
   },
   {
-   "a": "GRN",
-   "en": "Gamma ray neutron log",
-   "ar": "مجس كاما-نيوترون",
-   "c": "lg"
-  },
-  {
    "a": "GRSVY",
    "en": "Gradient survey log",
    "ar": "مسح التدرج",
@@ -12149,10 +12975,34 @@
    "c": "gen"
   },
   {
-   "a": "HDT",
-   "en": "High-resolution dipmeter log",
-   "ar": "مجس الميل عالي الدقة",
+   "a": "HCAL",
+   "en": "HRCC caliper (in logs)(in inches)",
+   "ar": "كاليبر HRCC (بالإنج)",
    "c": "lg"
+  },
+  {
+   "a": "HCM",
+   "en": "Hydrocarbon maturation",
+   "ar": "إنضاج الهيدروكربونات (تحويل الموارد لاحتياطي)",
+   "c": "re"
+  },
+  {
+   "a": "HEMP",
+   "en": "Hazards and effects management process",
+   "ar": "إجراءات إدارة المخاطر والآثار",
+   "c": "hs"
+  },
+  {
+   "a": "HPG",
+   "en": "High pressure gas",
+   "ar": "غاز عالي الضغط",
+   "c": "gs"
+  },
+  {
+   "a": "HPO",
+   "en": "High performance organization",
+   "ar": "مؤسسة عالية الأداء",
+   "c": "gen"
   },
   {
    "a": "HPPS",
@@ -12161,10 +13011,28 @@
    "c": "lg"
   },
   {
+   "a": "HRCC",
+   "en": "HCAl of caliper (in inches)",
+   "ar": "كاليبر HRCC (بالإنج)",
+   "c": "lg"
+  },
+  {
    "a": "HYROP",
    "en": "Hydrophone log",
    "ar": "مجس الهيدروفون",
    "c": "lg"
+  },
+  {
+   "a": "I/O",
+   "en": "Input / output",
+   "ar": "مدخلات / مخرجات",
+   "c": "gen"
+  },
+  {
+   "a": "IAP",
+   "en": "Integrated activity plan",
+   "ar": "الخطة المتكاملة للأنشطة",
+   "c": "gen"
   },
   {
    "a": "IDEL",
@@ -12185,10 +13053,22 @@
    "c": "lg"
   },
   {
+   "a": "IFRS",
+   "en": "International Financial Reporting Standards",
+   "ar": "المعايير الدولية للتقارير المالية",
+   "c": "org"
+  },
+  {
    "a": "IH",
    "en": "Gamma ray log",
    "ar": "مجس كاما",
    "c": "lg"
+  },
+  {
+   "a": "IIA",
+   "en": "Integrated impact assessment",
+   "ar": "التقييم المتكامل للآثار",
+   "c": "hs"
   },
   {
    "a": "IJL",
@@ -12201,6 +13081,12 @@
    "en": "Image analysis report",
    "ar": "تقرير تحليل الصور",
    "c": "lg"
+  },
+  {
+   "a": "IMP",
+   "en": "Integrity management plan",
+   "ar": "خطة إدارة السلامة الإنشائية (Integrity)",
+   "c": "of"
   },
   {
    "a": "INCR",
@@ -12255,6 +13141,12 @@
    "en": "IPLS log",
    "ar": "مجس IPLS",
    "c": "lg"
+  },
+  {
+   "a": "IPM",
+   "en": "Integrated production management",
+   "ar": "الإدارة المتكاملة للإنتاج",
+   "c": "pd"
   },
   {
    "a": "IR",
@@ -12317,6 +13209,18 @@
    "c": "lg"
   },
   {
+   "a": "KBA",
+   "en": "Key business activity",
+   "ar": "نشاط العمل الرئيسي",
+   "c": "gen"
+  },
+  {
+   "a": "KBUG",
+   "en": "Kelly bushing underground (drilling up in coal mines, West Virginia, Baker & Taylor drilling)",
+   "ar": "Kelly bushing تحت الأرض (حفر صاعد بالمناجم)",
+   "c": "dr"
+  },
+  {
    "a": "LCNLG",
    "en": "LDT CNL gamma ray log",
    "ar": "مجس LDT CNL كاما",
@@ -12339,6 +13243,12 @@
    "en": "Litho-elastic property report",
    "ar": "تقرير الخواص الليثو-مرونية",
    "c": "lg"
+  },
+  {
+   "a": "LER",
+   "en": "Lands eligible for remining or land equivalent ratio",
+   "ar": "أراضي مؤهلة لإعادة التعدين / نسبة مكافئ الأرض",
+   "c": "gen"
   },
   {
    "a": "LINCO",
@@ -12377,9 +13287,9 @@
    "c": "lg"
   },
   {
-   "a": "LMTD",
-   "en": "Log Mean Temperature Difference",
-   "ar": "متوسط فرق الحرارة اللوغاريتمي",
+   "a": "LOGGS",
+   "en": "Lincolnshire Offshore Gas Gathering System",
+   "ar": "منظومة تجميع الغاز البحرية بلنكولنشاير",
    "c": "gs"
   },
   {
@@ -12393,6 +13303,12 @@
    "en": "Log Sample",
    "ar": "عينة المجس",
    "c": "lg"
+  },
+  {
+   "a": "LPO",
+   "en": "Local purchase order",
+   "ar": "أمر شراء محلي",
+   "c": "gen"
   },
   {
    "a": "LSBGR",
@@ -12419,6 +13335,12 @@
    "c": "lg"
   },
   {
+   "a": "M&I",
+   "en": "Maintenance and inspection",
+   "ar": "الصيانة والفحص",
+   "c": "hs"
+  },
+  {
    "a": "MAC",
    "en": "Multipole acoustic log or multiarm caliper log",
    "ar": "المجس الصوتي متعدد الأقطاب أو الكاليبر متعدد الأذرع",
@@ -12437,10 +13359,22 @@
    "c": "lg"
   },
   {
+   "a": "MAL",
+   "en": "Master Acronym List",
+   "ar": "القائمة الرئيسية للاختصارات",
+   "c": "gen"
+  },
+  {
    "a": "MD",
    "en": "Measurements/drilling log",
    "ar": "سجل القياسات/الحفر",
    "c": "lg"
+  },
+  {
+   "a": "MDL",
+   "en": "Methane drainage license (United Kingdom)",
+   "ar": "رخصة تصريف الميثان (بريطانيا)",
+   "c": "gen"
   },
   {
    "a": "MEPRL",
@@ -12461,6 +13395,12 @@
    "c": "lg"
   },
   {
+   "a": "MES",
+   "en": "Minimum environmental standards",
+   "ar": "الحد الأدنى للمعايير البيئية",
+   "c": "hs"
+  },
+  {
    "a": "MIFR",
    "en": "Mini frac log",
    "ar": "مجس التكسير المصغّر",
@@ -12473,10 +13413,28 @@
    "c": "lg"
   },
   {
+   "a": "Mln",
+   "en": "Million",
+   "ar": "مليون",
+   "c": "un"
+  },
+  {
    "a": "MNP",
    "en": "Merge and playback log",
    "ar": "مجس الدمج وإعادة العرض",
    "c": "lg"
+  },
+  {
+   "a": "MOA",
+   "en": "Manual of authorities",
+   "ar": "دليل الصلاحيات",
+   "c": "gen"
+  },
+  {
+   "a": "MOL",
+   "en": "Main oil line",
+   "ar": "خط النفط الرئيسي",
+   "c": "of"
   },
   {
    "a": "MPA",
@@ -12491,28 +13449,22 @@
    "c": "lg"
   },
   {
-   "a": "MR",
-   "en": "Morning report",
-   "ar": "التقرير الصباحي",
-   "c": "dr"
-  },
-  {
    "a": "MRIRE",
    "en": "Magnetic resonance image report",
    "ar": "تقرير صورة الرنين المغناطيسي",
    "c": "lg"
   },
   {
+   "a": "MRP",
+   "en": "Maintenance reference plan",
+   "ar": "الخطة المرجعية للصيانة",
+   "c": "gen"
+  },
+  {
    "a": "MRR",
    "en": "Material receipt report",
    "ar": "تقرير استلام المواد",
    "c": "gen"
-  },
-  {
-   "a": "MSFL",
-   "en": "Micro SFL log; micro-spherically focussed log (resistivity)",
-   "ar": "مجس المقاومية الدقيق المركّز كروياً",
-   "c": "lg"
   },
   {
    "a": "MSL",
@@ -12545,16 +13497,40 @@
    "c": "lg"
   },
   {
+   "a": "NFA",
+   "en": "No further activity",
+   "ar": "بدون نشاط إضافي (إنتاج بلا تطوير جديد)",
+   "c": "re"
+  },
+  {
+   "a": "NFE",
+   "en": "Near field exploration",
+   "ar": "الاستكشاف قرب الحقول",
+   "c": "re"
+  },
+  {
+   "a": "NFG",
+   "en": "No good (marking for damaged equipment)",
+   "ar": "ما يصلح (علامة على معدات متضررة)",
+   "c": "gen"
+  },
+  {
+   "a": "NGDC",
+   "en": "National geoscience data centre (United Kingdom)",
+   "ar": "المركز الوطني لبيانات علوم الأرض (بريطانيا)",
+   "c": "org"
+  },
+  {
    "a": "NGLQT",
    "en": "NGT QL log",
    "ar": "مجس NGT السريع",
    "c": "lg"
   },
   {
-   "a": "NGS",
-   "en": "NGS log",
-   "ar": "مجس NGS",
-   "c": "lg"
+   "a": "NGRC",
+   "en": "National geological records centre (United Kingdom)",
+   "ar": "المركز الوطني للسجلات الجيولوجية (بريطانيا)",
+   "c": "org"
   },
   {
    "a": "NGSS",
@@ -12575,10 +13551,28 @@
    "c": "lg"
   },
   {
+   "a": "NGV",
+   "en": "Natural gas vehicle",
+   "ar": "مركبة تشتغل بالغاز الطبيعي",
+   "c": "gs"
+  },
+  {
+   "a": "NHDA",
+   "en": "National Hydrocarbons Data Archive (United Kingdom)",
+   "ar": "الأرشيف الوطني لبيانات الهيدروكربونات (بريطانيا)",
+   "c": "org"
+  },
+  {
    "a": "NOISL",
    "en": "Noise log",
    "ar": "مجس الضوضاء",
    "c": "lg"
+  },
+  {
+   "a": "NRB",
+   "en": "Not required back",
+   "ar": "غير مطلوب إرجاعه",
+   "c": "gen"
   },
   {
    "a": "NUMAR",
@@ -12603,6 +13597,24 @@
    "en": "Quality control log",
    "ar": "سجل ضبط الجودة",
    "c": "lg"
+  },
+  {
+   "a": "ODC",
+   "en": "Off-plot design contract",
+   "ar": "عقد التصميم خارج المحطة",
+   "c": "gen"
+  },
+  {
+   "a": "ODP",
+   "en": "Opportunity development plan",
+   "ar": "خطة تطوير الفرص",
+   "c": "gen"
+  },
+  {
+   "a": "OHL",
+   "en": "Overhead line",
+   "ar": "خط كهرباء هوائي",
+   "c": "gen"
   },
   {
    "a": "OMRL",
@@ -12635,9 +13647,27 @@
    "c": "lg"
   },
   {
+   "a": "ORP",
+   "en": "Opportunity realisation process",
+   "ar": "عملية تحقيق الفرص",
+   "c": "gen"
+  },
+  {
    "a": "OS&D",
    "en": "Over, short, and damage report",
    "ar": "تقرير الزيادة والنقص والضرر",
+   "c": "gen"
+  },
+  {
+   "a": "OTR",
+   "en": "Order to remit",
+   "ar": "أمر تحويل مالي",
+   "c": "gen"
+  },
+  {
+   "a": "OVCH",
+   "en": "Oversize charts",
+   "ar": "مخططات كبيرة الحجم",
    "c": "gen"
   },
   {
@@ -12651,6 +13681,12 @@
    "en": "Palynological analysis report",
    "ar": "تقرير تحليل حبوب اللقاح",
    "c": "lg"
+  },
+  {
+   "a": "PBD",
+   "en": "Pason billing system",
+   "ar": "نظام فوترة Pason",
+   "c": "gen"
   },
   {
    "a": "PBDMS",
@@ -12675,6 +13711,18 @@
    "en": "PDK 100 report",
    "ar": "تقرير PDK 100",
    "c": "lg"
+  },
+  {
+   "a": "PDO",
+   "en": "Petroleum Development Oman",
+   "ar": "شركة تنمية نفط عُمان",
+   "c": "org"
+  },
+  {
+   "a": "PDP",
+   "en": "Personal development plan",
+   "ar": "خطة التطوير الشخصية",
+   "c": "gen"
   },
   {
    "a": "PEA",
@@ -12779,6 +13827,24 @@
    "c": "lg"
   },
   {
+   "a": "PI",
+   "en": "Performance indicator",
+   "ar": "مؤشر الأداء",
+   "c": "gen"
+  },
+  {
+   "a": "PIP",
+   "en": "Project implementation plan",
+   "ar": "خطة تنفيذ المشروع",
+   "c": "gen"
+  },
+  {
+   "a": "PIR",
+   "en": "Post investment review",
+   "ar": "مراجعة ما بعد الاستثمار",
+   "c": "gen"
+  },
+  {
    "a": "PLG",
    "en": "Plug log",
    "ar": "مجس السدادة",
@@ -12830,12 +13896,6 @@
    "a": "PRESS",
    "en": "Pressure report",
    "ar": "تقرير الضغط",
-   "c": "lg"
-  },
-  {
-   "a": "PROD",
-   "en": "Production log",
-   "ar": "مجس الإنتاج",
    "c": "lg"
   },
   {
@@ -12923,6 +13983,12 @@
    "c": "lg"
   },
   {
+   "a": "RC",
+   "en": "Reinforced concrete",
+   "ar": "الخرسانة المسلحة",
+   "c": "gen"
+  },
+  {
    "a": "RCL",
    "en": "Retainer correlation log",
    "ar": "مجس مضاهاة الماسك",
@@ -12947,10 +14013,34 @@
    "c": "lg"
   },
   {
+   "a": "REZ",
+   "en": "Renewable energy zone (United Kingdom)",
+   "ar": "منطقة الطاقة المتجددة (بريطانيا)",
+   "c": "gen"
+  },
+  {
+   "a": "RFA",
+   "en": "Request for authority",
+   "ar": "طلب تخويل",
+   "c": "gen"
+  },
+  {
+   "a": "RFR",
+   "en": "Refer to attached (e.g., letter, document)",
+   "ar": "راجع المرفق",
+   "c": "gen"
+  },
+  {
    "a": "RFTRE",
    "en": "Repeat formation tester report",
    "ar": "تقرير فاحص الطبقة المتكرر",
    "c": "lg"
+  },
+  {
+   "a": "RMLC",
+   "en": "Request for mineral land clearance",
+   "ar": "طلب إخلاء أرض معدنية",
+   "c": "gen"
   },
   {
    "a": "RNT",
@@ -12963,6 +14053,24 @@
    "en": "Routine rock properties report",
    "ar": "تقرير خواص الصخور الروتينية",
    "c": "lg"
+  },
+  {
+   "a": "RSPP",
+   "en": "RSP Permian (oil and gas producer in the Permian basin)",
+   "ar": "شركة RSP Permian (منتج نفط وغاز بحوض Permian)",
+   "c": "org"
+  },
+  {
+   "a": "RTA",
+   "en": "Road traffic accident",
+   "ar": "حادث مروري",
+   "c": "hs"
+  },
+  {
+   "a": "SAGOGD",
+   "en": "Steam assisted gas oil gravity drainage",
+   "ar": "التصريف بالجاذبية بين الغاز والنفط بمساعدة البخار",
+   "c": "re"
   },
   {
    "a": "SAML",
@@ -12981,6 +14089,12 @@
    "en": "Sandstone analysis log",
    "ar": "سجل تحليل الحجر الرملي",
    "c": "lg"
+  },
+  {
+   "a": "SAP",
+   "en": "Systems, Applications and Products",
+   "ar": "نظام SAP (لإدارة موارد الشركة)",
+   "c": "gen"
   },
   {
    "a": "SAT",
@@ -13005,6 +14119,12 @@
    "en": "Schlumberger log",
    "ar": "مجس Schlumberger",
    "c": "lg"
+  },
+  {
+   "a": "SD",
+   "en": "Sustainable development",
+   "ar": "التنمية المستدامة",
+   "c": "gen"
   },
   {
    "a": "SDPBH",
@@ -13035,6 +14155,30 @@
    "en": "Separator sampling report",
    "ar": "تقرير أخذ عينات الفاصل",
    "c": "pd"
+  },
+  {
+   "a": "SFERAE",
+   "en": "Global association for the use of knowledge on fractured rock in a state of stress, in the field of energy, culture and environment",
+   "ar": "رابطة عالمية لمعرفة الصخور المتشققة المجهدة (SFERAE)",
+   "c": "org"
+  },
+  {
+   "a": "SFR",
+   "en": "Scope for recovery",
+   "ar": "الكميات الممكن استخلاصها مستقبلاً",
+   "c": "re"
+  },
+  {
+   "a": "SGSI",
+   "en": "Shell Global Solutions International",
+   "ar": "شركة Shell Global Solutions International",
+   "c": "org"
+  },
+  {
+   "a": "SHINC",
+   "en": "Sunday holiday including",
+   "ar": "شاملاً الأحد والعطل",
+   "c": "gen"
   },
   {
    "a": "SHOCK",
@@ -13073,6 +14217,30 @@
    "c": "lg"
   },
   {
+   "a": "SMA",
+   "en": "Small amount",
+   "ar": "كمية قليلة",
+   "c": "gen"
+  },
+  {
+   "a": "SMART",
+   "en": "Specific, measurable, achievable, realistic and time-bound (targets)",
+   "ar": "أهداف محددة وقابلة للقياس والتحقيق وواقعية ومحددة بوقت",
+   "c": "gen"
+  },
+  {
+   "a": "SMEs",
+   "en": "Small and medium enterprises",
+   "ar": "المؤسسات الصغيرة والمتوسطة",
+   "c": "gen"
+  },
+  {
+   "a": "SNAM",
+   "en": "Societá Nazionale Metanodotti now Snam S.p.A. (Italy)",
+   "ar": "شركة Snam الإيطالية (سابقاً Società Nazionale Metanodotti)",
+   "c": "org"
+  },
+  {
    "a": "SONCB",
    "en": "Sonic calibration log",
    "ar": "مجس معايرة الصوتي",
@@ -13095,6 +14263,12 @@
    "en": "Sonic waveform log",
    "ar": "مجس موجة الصوتي",
    "c": "lg"
+  },
+  {
+   "a": "SP",
+   "en": "Social performance",
+   "ar": "الأداء الاجتماعي",
+   "c": "gen"
   },
   {
    "a": "SPH",
@@ -13125,6 +14299,12 @@
    "en": "Synthetic seismic marine log",
    "ar": "مجس زلزالي اصطناعي بحري",
    "c": "lg"
+  },
+  {
+   "a": "SSSL",
+   "en": "Supplementary Seismic Survey Licence (United Kingdom), a type of onshore licence",
+   "ar": "رخصة مسح زلزالي تكميلي (بريطانيا)",
+   "c": "gen"
   },
   {
    "a": "STAGR",
@@ -13205,9 +14385,27 @@
    "c": "lg"
   },
   {
+   "a": "T",
+   "en": "Well flowing to tank",
+   "ar": "بئر يجري للخزان",
+   "c": "pd"
+  },
+  {
+   "a": "T&D",
+   "en": "Transmission and distribution",
+   "ar": "النقل والتوزيع (كهرباء)",
+   "c": "gen"
+  },
+  {
    "a": "TAPLI",
    "en": "Tape listing",
    "ar": "قائمة الأشرطة",
+   "c": "lg"
+  },
+  {
+   "a": "TAPVE",
+   "en": "Tape verification",
+   "ar": "التحقق من الأشرطة",
    "c": "lg"
   },
   {
@@ -13215,6 +14413,12 @@
    "en": "Tubing puncher log",
    "ar": "مجس ثاقب الأنابيب",
    "c": "co"
+  },
+  {
+   "a": "TDT GR",
+   "en": "TDT gamma ray casing collar locator log",
+   "ar": "مجس TDT ويا كاما ومحدد وصلات التغليف",
+   "c": "lg"
   },
   {
    "a": "TDTCP",
@@ -13229,6 +14433,18 @@
    "c": "dr"
   },
   {
+   "a": "TETT",
+   "en": "Too early to tell",
+   "ar": "من المبكر الحكم",
+   "c": "gen"
+  },
+  {
+   "a": "TFE",
+   "en": "TotalFinaElf (obsolete; now TotalEnergies), French oil company",
+   "ar": "Total Fina Elf (قديمة، صارت TotalEnergies)",
+   "c": "org"
+  },
+  {
    "a": "THERM",
    "en": "Thermometer log",
    "ar": "مجس المحرار",
@@ -13238,13 +14454,19 @@
    "a": "TIE",
    "en": "Tie-in log",
    "ar": "مجس الربط",
-   "c": "of"
+   "c": "lg"
   },
   {
    "a": "TIEBK",
    "en": "Tieback report",
    "ar": "تقرير الربط الخلفي",
    "c": "cs"
+  },
+  {
+   "a": "TL",
+   "en": "Team leader",
+   "ar": "رئيس الفريق",
+   "c": "gen"
   },
   {
    "a": "TLOG",
@@ -13257,6 +14479,12 @@
    "en": "Thermal neutron decay time/gamma ray log",
    "ar": "مجس زمن اضمحلال النيوترون الحراري وكاما",
    "c": "lg"
+  },
+  {
+   "a": "TR",
+   "en": "Total reliability",
+   "ar": "الموثوقية الشاملة",
+   "c": "gen"
   },
   {
    "a": "TRA",
@@ -13295,6 +14523,18 @@
    "c": "dr"
   },
   {
+   "a": "TRM",
+   "en": "Total reliability maintenance",
+   "ar": "صيانة الموثوقية الشاملة",
+   "c": "gen"
+  },
+  {
+   "a": "TV/BIP",
+   "en": "Ratio of total volume (ore and overburden) to bitumen in place",
+   "ar": "نسبة الحجم الكلي (خام وغطاء) للبيتومين بالمكان",
+   "c": "re"
+  },
+  {
    "a": "TVDPB",
    "en": "True vertical depth playback log",
    "ar": "إعادة عرض بالعمق العمودي الحقيقي",
@@ -13313,16 +14553,22 @@
    "c": "lg"
   },
   {
-   "a": "UCR",
-   "en": "Unsafe condition report",
-   "ar": "تقرير حالة غير آمنة",
-   "c": "hs"
-  },
-  {
    "a": "ULCGR",
    "en": "Uncompressed LDC CNL gamma ray log",
    "ar": "مجس LDC CNL كاما غير مضغوط",
    "c": "lg"
+  },
+  {
+   "a": "UN",
+   "en": "United Nations",
+   "ar": "الأمم المتحدة",
+   "c": "org"
+  },
+  {
+   "a": "VAR",
+   "en": "Value assurance review",
+   "ar": "مراجعة ضمان القيمة",
+   "c": "gen"
   },
   {
    "a": "VDENL",
@@ -13367,6 +14613,24 @@
    "c": "co"
   },
   {
+   "a": "WAV3",
+   "en": "Amplitude (in seismics)",
+   "ar": "السعة (زلزالي)",
+   "c": "lg"
+  },
+  {
+   "a": "WAV4",
+   "en": "Two-way travel time (in seismics)",
+   "ar": "زمن الانتقال الثنائي (زلزالي)",
+   "c": "lg"
+  },
+  {
+   "a": "WAV5",
+   "en": "Compensate amplitudes",
+   "ar": "تعويض السعات",
+   "c": "lg"
+  },
+  {
    "a": "WAVF",
    "en": "Waveform log",
    "ar": "مجس الموجة",
@@ -13403,6 +14667,12 @@
    "c": "lg"
   },
   {
+   "a": "WHIG",
+   "en": "Whitehouse gauge",
+   "ar": "مقياس Whitehouse",
+   "c": "gen"
+  },
+  {
    "a": "WLC",
    "en": "Wireline composite log",
    "ar": "المجس السلكي المركّب",
@@ -13415,10 +14685,34 @@
    "c": "lg"
   },
   {
+   "a": "WOS",
+   "en": "West of Shetland, oil province on the UKCS",
+   "ar": "غرب شتلاند (إقليم نفطي بالجرف البريطاني)",
+   "c": "gen"
+  },
+  {
    "a": "WPR",
    "en": "Well prognosis report",
    "ar": "تقرير توقع البئر",
    "c": "gen"
+  },
+  {
+   "a": "WQ",
+   "en": "A textural parameter used for CBVWE computations (Halliburton)",
+   "ar": "معامل نسيجي لحسابات CBVWE (Halliburton)",
+   "c": "lg"
+  },
+  {
+   "a": "WQCA",
+   "en": "Water Quality Control Act",
+   "ar": "قانون السيطرة على نوعية المياه",
+   "c": "hs"
+  },
+  {
+   "a": "WQCB",
+   "en": "Water Quality Control Board",
+   "ar": "مجلس السيطرة على نوعية المياه",
+   "c": "org"
   },
   {
    "a": "WRS",
@@ -13451,9 +14745,33 @@
    "c": "lg"
   },
   {
+   "a": "WSSAM",
+   "en": "Well site sample",
+   "ar": "عينة موقع البئر",
+   "c": "lg"
+  },
+  {
+   "a": "WSSOF",
+   "en": "WSS offset profile",
+   "ar": "مقطع WSS المزاح",
+   "c": "lg"
+  },
+  {
    "a": "WSSUR",
    "en": "Well seismic survey plot",
    "ar": "مخطط المسح الزلزالي للبئر",
+   "c": "lg"
+  },
+  {
+   "a": "WSSVP",
+   "en": "WSS VSP raw shots",
+   "ar": "لقطات VSP الخام (WSS)",
+   "c": "lg"
+  },
+  {
+   "a": "WSSVS",
+   "en": "WSS VSP stacks",
+   "ar": "تجميعات VSP (WSS)",
    "c": "lg"
   },
   {
@@ -13463,9 +14781,28 @@
    "c": "lg"
   },
   {
+   "a": "XL",
+   "en": "Exploration licence (United Kingdom), a type of onshore licence issued between the First Onshore Licensing Round (1986) and the sixth (1992)",
+   "ar": "رخصة استكشاف (بريطانيا، رخصة برية 1986–1992)",
+   "c": "gen",
+   "n": "وتنكتب هم EXL."
+  },
+  {
    "a": "XMAC",
    "en": "Cross-multipole array acoustic log",
    "ar": "المجس الصوتي المصفوفي متعدد الأقطاب المتقاطع",
+   "c": "lg"
+  },
+  {
+   "a": "XOM",
+   "en": "ExxonMobil",
+   "ar": "شركة ExxonMobil",
+   "c": "org"
+  },
+  {
+   "a": "XPHLOC",
+   "en": "Crossplot selection for XPHI",
+   "ar": "اختيار مخطط التقاطع لـ XPHI",
    "c": "lg"
   },
   {
@@ -13479,6 +14816,12 @@
    "en": "XY caliper log (Halliburton)",
    "ar": "مجس الكاليبر XY (Halliburton)",
    "c": "lg"
+  },
+  {
+   "a": "YOY",
+   "en": "Year on year",
+   "ar": "سنة بعد سنة (مقارنة سنوية)",
+   "c": "gen"
   },
   {
    "a": "ZDENP",
