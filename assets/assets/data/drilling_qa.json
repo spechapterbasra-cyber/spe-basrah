@@ -1,5 +1,5 @@
 {
- "version": 238,
+ "version": 242,
  "topics": [
   {
    "id": "rig",
@@ -1073,6 +1073,27 @@
    "aEn": "1. Jack-up rigs:\n• Mobile, with legs that carry the rig. On location the legs rest on the sea bed.\n• They drill in water about 120 m deep.\n• They are towed by vessels with the legs raised, and on arrival the crew lowers the legs, pins them to the bottom and adjusts the rig level above the water.\n2. Platform rigs:\n• Never moved once built, and several wells are drilled from the same platform.\n• They may be served by a tender floating alongside, while large platforms carry everything needed and require no tender.\n• Types: steel jacket, caisson and concrete gravity.\n3. Submersible rigs:\n• They rest on the sea bed while drilling. The crew floods the compartments in the base so the rig sinks to bottom, and to move it they pump them out so it rises and can be towed.\n• For shallow water up to 50 m.\n• Types: inland swamp barge, bottle type and arctic submersible.\n4. Semi-submersible rigs:\n• A floating rig with pontoons and columns. Flooding the pontoons partly submerges the unit, so waves affect it less.\n• Held on station by anchors or by thrusters. A dynamic positioning system linked to a computer keeps the rig over the well.\n• The wellhead and blowout preventers are fixed on the sea bed, and a hollow pipe called the riser connects the top of the BOP to the rig.\n• With dynamic positioning they drill in water up to 2,200 m deep.\n• They are carried over long distances by special transport vessels and towed over short ones.\n5. Drill ships:\n• Self-propelled mobile units, used mostly for exploration drilling.\n• They use a blowout preventer and wellhead fixed on the sea bed, like semi-submersibles.\nNote: these depths are as given in the source. Modern units exceed them — jack-ups reach about 150 m and more, and drill ships work in water deeper than 3,000 m.",
    "refs": [
     "عباس راضي عباس، أجزاء ومكونات برج الحفر (Drilling rig components)، 2022، الشرائح 8–12"
+   ]
+  },
+  {
+   "id": "rig-47",
+   "topic": "rig",
+   "q": "شنو مراحل تنفيذ بئر برية من التخطيط والـ AFE لحد إنزال بطانة الإنتاج، وشكد تاخذ كل مرحلة؟",
+   "qEn": "What are the stages of delivering an onshore well from planning and the AFE to setting production casing, and how long does each take?",
+   "k": [
+    "authorization for expenditure AFE well cost",
+    "drilling process stages planning site preparation",
+    "conductor pipe size MIRU RDMO",
+    "mud log columns open hole logging duration",
+    "trip time per thousand feet stands example",
+    "مراحل حفر البئر",
+    "تخويل الصرف AFE",
+    "تحضير موقع الحفر"
+   ],
+   "a": "خمس مراحل، والتخطيط أطولها (أشهر لسنين)، والجس وإنزال البطانة أقصرها (يوم لثلاثة لكل وحدة):\n1) التخطيط:\n• تحديد التكوين الهدف وعمقه من الآبار المجاورة (Offset) والزلزالي.\n• تصميم البئر (عمودية أو اتجاهية) وبرنامج الحفر والتغليف.\n• الـ AFE (Authorization for expenditure): كلفة مفصلة تشمل الكلف الملموسة وغير الملموسة، كلفة البئر الجافة، كلفة البئر المكملة، المصاريف الإدارية، والاحتياط.\n• العمق وتعقيد التكاوين أكثر شي يأثر على الكلفة: بالآبار الضحلة كلفة الإكمال هي الغالبة، بالمتوسطة الحفر والإكمال متقاربين، وبالعميقة الحفر هو الغالب.\n• موافقة أصحاب المصلحة (الإدارة، الشركاء، مالكي الأرض، الجهات الرقابية) ورخصة الحفر.\n• التعاقد ويا مقاول الحفر (Turnkey، Footage، أو Day rate).\n2) تحضير الموقع:\n• طريق، تسوية موقع مساحته حوالي 2–5 acres، حفر مبطنة للسوائل، وسواتر لحصر الانسكابات.\n• أنبوب التوجيه (Conductor): قطره من 18 in لأكثر من 3 ft وطوله 40–80 ft، تحفره وتنزله حفارة صغيرة.\n• حفر الـ Rathole والـ Mousehole قرب البئر لخزن الأنابيب مؤقتاً.\n3) الحفر:\n• نقل ونصب البرج (MIRU) — بالمناطق النائية ممكن يكلف 5–10% من كلفة البئر.\n• حفرة السطح لعمق 500–2,000 ft حسب الجهة المرخصة، غالباً بماي عذب، وتنزل بطانة السطح وتتسمنت: تحمي المياه الجوفية وتسند البئر. بعدها يتركب رأس البطانة والـ BOP.\n• الحفر للهدف ويا تعديل الطين، وتقرير يومي للإدارة.\n• الـ Mud logging: سجل بأعمدة — معدل الاختراق (دقيقة لكل قدم) ويا معطيات التشغيل، نوع الصخر كل 10 ft، وصف الفتات وشواهد النفط والغاز، وتركيب الغاز الطالع من الطين.\n4) الجس بالحفرة المفتوحة: يقرر بعده المشغل يكمل البئر أو يهجرها.\n• سلسلة المجسات (GR، كثافة، نيوترون، Caliper) طولها 80–120 ft.\n• القياس يتسجل بالصعود مو بالنزول لأن العمق يكون أدق. المدة 6–24 ساعة — وخلالها الطاقم يراقب علامات الـ Kick.\n• فحوص إضافية: DST و RFT.\n5) بطانة الإنتاج أو الهجر، وبعدها تفكيك البرج (RDMO).\nأرقام مفيدة:\n• زمن الـ Trip حوالي ساعة لكل 1,000 ft — يعني 8 ساعات لكل اتجاه لخيط طوله 8,000 ft.\n• عدد الـ Stands لخيط طوله 10,000 ft بيه Stand واحد Drill collar (كل Stand طوله 90 ft): (10,000 − 90) ÷ 90 ≈ 110.1، يعني 111 Stand.\n• للمقارنة: الحفر القديم بالكيبل (Cable tool) چان يحفر 25–60 ft باليوم بس.",
+   "aEn": "Five stages, of which planning is the longest (months to years), and logging and setting casing the shortest (one to three days each):\n1) Planning:\n• Identifying the target formation and its depth from offset wells and seismic.\n• Designing the well (vertical or directional) and the drilling and casing programme.\n• The AFE (authorization for expenditure): a detailed cost including tangible and intangible costs, dry hole cost, completed well cost, overhead and contingency.\n• Depth and formation complexity affect cost most: in shallow wells completion cost dominates, in medium-depth wells drilling and completion are comparable, and in deep wells drilling dominates.\n• Stakeholder approval (management, partners, land owners, regulators) and the drilling permit.\n• Contracting a drilling contractor (turnkey, footage or day rate).\n2) Site preparation:\n• A road, levelling a location of about 2–5 acres, lined pits for fluids, and berms to contain spills.\n• Conductor pipe: 18 in. to more than 3 ft in diameter and 40–80 ft long, drilled and set by a small rig.\n• The rathole and mousehole are drilled near the well for temporary pipe storage.\n3) Drilling:\n• Moving in and rigging up (MIRU) — in remote areas it can cost 5–10% of the well cost.\n• The surface hole is drilled to 500–2,000 ft as specified by the permitting agency, usually with fresh water, and the surface casing is run and cemented: it protects groundwater and supports the well. The casing head and BOP are then installed.\n• Drilling to the target while adjusting the mud, with a daily report to management.\n• Mud logging: a log in columns — rate of penetration (minutes per foot) with operating parameters, lithology every 10 ft, cuttings description and oil and gas shows, and the composition of gas released from the mud.\n4) Open-hole logging: after it the operator decides to complete or abandon the well.\n• The logging string (GR, density, neutron, caliper) is 80–120 ft long.\n• Data are recorded on the way up, not down, because the depth is more reliable. It takes 6–24 hours — during which the crew watches for signs of a kick.\n• Additional tests: DST and RFT.\n5) Production casing or abandonment, and then rigging down and moving out (RDMO).\nUseful figures:\n• Trip time is about one hour per 1,000 ft — so 8 hours each way for an 8,000 ft string.\n• The number of stands for a 10,000 ft string with one stand of drill collars (each stand 90 ft long): (10,000 − 90) ÷ 90 ≈ 110.1, that is 111 stands.\n• For comparison: the old cable tool method drilled only 25–60 ft per day.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 8.2 Rotary Drilling Rigs; 8.3 The Drilling Process, Example 8.4"
    ]
   },
   {
@@ -14324,6 +14345,27 @@
    ]
   },
   {
+   "id": "mw-76",
+   "topic": "mwd",
+   "q": "شنو مخطط Pickett ومخطط المسامية–النفاذية لتحديد الـ Cutoff، وشنو الـ Fence diagram ومقاييس بيانات المكمن (Micro إلى Giga)؟",
+   "qEn": "What are the Pickett plot and the porosity–permeability cross-plot for setting a cutoff, and what are a fence diagram and the scales of reservoir data (micro to giga)?",
+   "k": [
+    "Pickett cross-plot Archie",
+    "porosity permeability cross-plot cutoff example",
+    "fence diagram correlation between wells",
+    "scales of reservoir information microscale gigascale",
+    "SP shale content baseline example",
+    "مخطط Pickett",
+    "حد القطع للمسامية",
+    "مقاييس بيانات المكمن"
+   ],
+   "a": "المخططات التقاطعية (Cross-plots): رسم قراءة مجس مقابل قراءة ثانية.\n• مخطط Pickett: من معادلة Archie (بفرض a = 1) ناخذ اللوغاريتم:\n$$ \\log R_t = -m\\,\\log\\phi + \\log R_w - n\\,\\log S_w\nنرسم log Rt (من مجس المقاومية) مقابل log φ (من مجس الكثافة). نقاط النطاقات المشبعة بالماي تصطف على خط ميله −m، والنقاط اللي فوگه بيها هيدروكربون.\n• السونك مقابل الكثافة: يدل على نوع الصخر.\n• المسامية–النفاذية (من قياسات اللباب): مثال علاقة لبئر: K = 0.0007 × exp(71.7 φ). لحد قطع نفاذية 1 md تطلع المسامية المقابلة حوالي 0.10 — يعني الصخر اللي مساميته أقل من 10% ما ينحسب ضمن السمك الصافي.\nحدود القطع (Cutoffs): أقل قيمة للمسامية أو التشبع حتى ما يدخل الصخر غير المنتج بحساب النفط الأصلي والاحتياطي.\nمثال نسبة الطفل من الـ SP: خط الطفل (Shale baseline) +40 mV وخط الرمل −80 mV، وقراءة التكوين −30 mV:\n• (−30 + 80) ÷ (40 + 80) ≈ 0.42، يعني 42% طفل.\nالـ Fence diagram: نحط المجسات بمواقعها المكانية الصحيحة ونربط الطبقات بين الآبار المتجاورة كمقاطع طباقية؛ تقاطع المقاطع ينطي صورة ثلاثية الأبعاد ويبين تلاشي الطبقات (Pinch-out) وعدم التوافق. تذكر إن اللي بين الآبار استقراء وممكن يكون غلط.\nمجموعة المجسات (Log suite): نجمع مجسات تكمل بعض بنزلة وحدة — مثل النيوترون ويا الكثافة: الغاز يكبّر مسامية الكثافة ويصغّر مسامية النيوترون فيبين التقاطع (Crossover).\nعمق الاستقصاء التقريبي: GR حوالي 1.5 ft، الكثافة والـ PE من 1 إلى 2 ft، السونك 1–4 ft، ومجسات المقاومية المصفوفة من 1 لحد 7 ft.\nمقاييس بيانات المكمن:\n• Microscale: شريحة رقيقة تحت المجهر، ومجهر إلكتروني.\n• Macroscale: اللباب — سنتمترات.\n• Megascale: المجسات — أمتار حول البئر.\n• Gigascale: الزلزالي — عشرات الأمتار وأكثر، ويغطي كل المكمن.\nالزلزالي يعتبر «بيانات ناعمة» (Soft data) لأن الاهتزاز يمر بأوساط هواية قبل ما ينقاس، ومجس السونك يعايره عند البئر. والخاصية المقاسة (مثل المسامية) تعتمد على مقياس القياس — لهذا لازم نوفّق بين اللباب والمجسات والزلزالي.",
+   "aEn": "Cross-plots: one log reading plotted against another.\n• The Pickett plot: from Archie's equation (assuming a = 1), taking logarithms:\n$$ \\log R_t = -m\\,\\log\\phi + \\log R_w - n\\,\\log S_w\nlog Rt (from the resistivity log) is plotted against log φ (from the density log). Points from water-saturated zones fall on a line of slope −m, and points above it contain hydrocarbon.\n• Sonic versus density: indicates lithology.\n• Porosity–permeability (from core measurements): an example relation for a well: K = 0.0007 × exp(71.7 φ). For a permeability cutoff of 1 md the corresponding porosity is about 0.10 — so rock with less than 10% porosity is not counted in the net thickness.\nCutoffs: the minimum value of porosity or saturation so that unproductive rock is not included in the in-place and reserves calculation.\nShale content from SP example: the shale baseline is +40 mV and the sand baseline −80 mV, and the formation reads −30 mV:\n• (−30 + 80) ÷ (40 + 80) ≈ 0.42, that is 42% shale.\nThe fence diagram: logs are placed in their correct spatial positions and the beds are correlated between neighbouring wells as stratigraphic sections; the intersecting sections give a three-dimensional picture and show pinch-outs and unconformities. Remember that what lies between the wells is extrapolation and may be wrong.\nLog suite: complementary logs are combined in one run — such as neutron with density: gas increases density porosity and decreases neutron porosity, so the crossover appears.\nApproximate depth of investigation: GR about 1.5 ft, density and PE 1 to 2 ft, sonic 1–4 ft, and array resistivity tools from 1 up to 7 ft.\nScales of reservoir data:\n• Microscale: a thin section under the microscope, and the electron microscope.\n• Macroscale: cores — centimetres.\n• Megascale: logs — metres around the well.\n• Gigascale: seismic — tens of metres and more, covering the whole reservoir.\nSeismic is considered 'soft data' because the vibration passes through many media before it is measured, and the sonic log calibrates it at the well. A measured property (such as porosity) depends on the scale of measurement — which is why cores, logs and seismic must be reconciled.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 9.8 Reservoir Characterization Issues, Examples 9.1 and 9.6; 9.1.3 Depth of Investigation"
+   ]
+  },
+  {
    "id": "co-01",
    "topic": "completion",
    "q": "شنو هو إكمال البئر (Completion)؟",
@@ -15202,6 +15244,26 @@
    ]
   },
   {
+   "id": "co-42",
+   "topic": "completion",
+   "q": "شلون تتقيّم كفاءة تصميم التثقيب بطريقة Brooks (Npd و Npe)، وشنو اللي يحسّنها؟",
+   "qEn": "How is the efficiency of a perforation design evaluated with Brooks' method (Npd and Npe), and what improves it?",
+   "k": [
+    "Brooks perforation efficiency Npd Npe",
+    "penetration length shot density tunnel diameter",
+    "perforation skin crushed zone",
+    "shaped charge gun phasing",
+    "كفاءة التثقيب Brooks",
+    "طول الاختراق وكثافة الثقوب",
+    "تصميم التثقيب"
+   ],
+   "a": "الشحنة المشكّلة (Shaped charge): متفجر عالي بين كوب معدني خارجي وبطانة داخلية؛ عند التفجير البطانة تصير نفاث معدني سريع يثقب الـ Casing والسمنت ويدخل بالتكوين. حول نفق الثقب تبقى منطقة صخر مهروس.\n• البندقية (Gun): طولها من 1 ft لحوالي 20 ft (وتنربط لتجميعات أطول)، وقطرها من حوالي 2 in لحوالي 7 in — القطر الأكبر يشيل شحنات أكبر.\n• قرارات التصميم: أي نطاق ينثقب، قطر الثقب وطول الاختراق، عدد الثقوب بالقدم (spf)، وزاوية التوزيع (Phasing: 30، 60، 90، 180°).\nطريقة Brooks (1997) تجمع العوامل برقم واحد بلا أبعاد:\n$$ N_{pd1} = \\dfrac{(L_p - L_d)\\,n^{3/2}\\,d_p^{1/2}}{(k_h/k_v)^{5/8}}\n$$ N_{pd2} = (s_p + 1)\\left(1 + \\dfrac{s_p + 1}{N_{pd1}}\\right)\n$$ N_{pd} = \\dfrac{N_{pd1}}{N_{pd2}}\nحيث Lp طول الاختراق، Ld عمق الضرر، dp قطر النفق (كلها بالقدم)، n عدد الثقوب بالقدم، kh/kv نسبة النفاذية الأفقية للعمودية، و sp الـ Skin مال نفق الثقب.\nكفاءة الإنتاجية:\n$$ N_{pe} = 0.97\\left(1 - e^{-0.57\\,N_{pd}^{0.38}}\\right)\nالحكم: Npd أكبر من أو يساوي 100 تثقيب كفوء؛ أقل من 100 يتحسن بزيادة طول الاختراق وكثافة الثقوب؛ أقل من 10 غير كفوء أبداً.\nمثال: Lp = 16 in، Ld = 5 in، dp = 0.4 in، n = 4 spf، kh/kv = 5، sp = 5:\n• Npd1 ≈ 0.49\n• Npd2: 6 × (1 + 6 ÷ 0.49) ≈ 79.5\n• Npd: 0.49 ÷ 79.5 ≈ 0.0062 ← Npe ≈ 0.08 (غير كفوء أبداً)\nلو نظفنا الثقوب وصار sp = 0 (حسابي بنفس المعادلات): Npd2 ≈ 3.04 ← Npd ≈ 0.161 ← Npe ≈ 0.24 — يعني الكفاءة تتضاعف ثلاث مرات بس من تنظيف الأنفاق.\nالتحسين: اختراق أطول يتجاوز منطقة الضرر، كثافة ثقوب أعلى، وتنظيف الأنفاق (تثقيب Underbalance أو تحميض) حتى يقل الـ Skin.",
+   "aEn": "A shaped charge is high explosive between an outer metal cup and an inner liner; on detonation the liner becomes a high-speed metal jet that punches through the casing and cement and into the formation. A zone of crushed rock is left around the perforation tunnel.\n• The gun: its length ranges from 1 ft to about 20 ft (and guns are linked into longer assemblies), and its diameter from about 2 in. to about 7 in. — a larger diameter carries larger charges.\n• Design decisions: which zone to perforate, hole size and penetration length, shots per foot (spf) and angular phasing (30, 60, 90, 180°).\nBrooks' method (1997) combines the factors into one dimensionless number:\n$$ N_{pd1} = \\dfrac{(L_p - L_d)\\,n^{3/2}\\,d_p^{1/2}}{(k_h/k_v)^{5/8}}\n$$ N_{pd2} = (s_p + 1)\\left(1 + \\dfrac{s_p + 1}{N_{pd1}}\\right)\n$$ N_{pd} = \\dfrac{N_{pd1}}{N_{pd2}}\nwhere Lp is the penetration length, Ld the damage depth, dp the tunnel diameter (all in feet), n the shots per foot, kh/kv the ratio of horizontal to vertical permeability, and sp the skin of the perforation tunnel.\nProductivity efficiency:\n$$ N_{pe} = 0.97\\left(1 - e^{-0.57\\,N_{pd}^{0.38}}\\right)\nThe verdict: Npd of 100 or more is an efficiently perforated well; below 100 it is improved by increasing penetration length and shot density; below 10 it is very inefficient.\nExample: Lp = 16 in., Ld = 5 in., dp = 0.4 in., n = 4 spf, kh/kv = 5, sp = 5:\n• Npd1 ≈ 0.49\n• Npd2: 6 × (1 + 6 ÷ 0.49) ≈ 79.5\n• Npd: 0.49 ÷ 79.5 ≈ 0.0062 → Npe ≈ 0.08 (very inefficient)\nIf the perforations were cleaned so that sp = 0 (my calculation with the same equations): Npd2 ≈ 3.04 → Npd ≈ 0.161 → Npe ≈ 0.24 — the efficiency triples just from cleaning the tunnels.\nImprovement: longer penetration that passes the damaged zone, higher shot density, and cleaning the tunnels (underbalanced perforating or acidizing) to reduce the skin.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 10.3 Perforating, Examples 10.3–10.4"
+   ]
+  },
+  {
    "id": "wo-01",
    "topic": "workover",
    "q": "شنو هو الـ Workover ومتى نحتاجه؟",
@@ -16003,6 +16065,46 @@
    ]
   },
   {
+   "id": "wo-39",
+   "topic": "workover",
+   "q": "شلون ينحسب حجم الحامض المطلوب للتحميض من قدرة الإذابة (Dissolving power)، وشنو تسلسل معالجة الحجر الرملي؟",
+   "qEn": "How is the acid volume for a treatment calculated from dissolving power, and what is the treatment sequence for sandstone?",
+   "k": [
+    "acid dissolving power volumetric",
+    "HCl volume calculation calcium carbonate gal per ft",
+    "mud acid HF HCl preflush postflush",
+    "acidizing precipitates sludge",
+    "قدرة الإذابة للحامض",
+    "حساب حجم الحامض",
+    "تحميض الحجر الرملي"
+   ],
+   "a": "الأحماض المستخدمة:\n• HCl والفورميك والأسيتيك تهاجم المعادن الكربوناتية: الكالسايت CaCO₃، الدولومايت، والسيدرايت FeCO₃.\n• خليط HCl ويا HF للمعادن السيليكاتية بالحجر الرملي: الكوارتز والفلدسبار والأطيان.\nقدرة الإذابة الحجمية (Volumetric dissolving power): حجم المعدن المذاب لكل حجم من محلول الحامض.\n• كربونات الكالسيوم ويا HCl: 0.026 (تركيز 5%)، 0.053 (10%)، 0.082 (15%)، 0.175 (30%).\n• ويا الفورميك 15%: 0.062، وويا الأسيتيك 15%: 0.047 — أضعف من HCl.\n• الدولومايت ويا HCl 15%: 0.071.\n• الكوارتز ويا HF: 0.010 (3%) — قليلة جداً، لهذا HF يذوّب الأطيان والمواد الناعمة مو هيكل الصخر.\nحجم الحامض = حجم المعدن المطلوب إزالته ÷ قدرة الإذابة.\nمثال: إزالة CaCO₃ حوالين بئر بحجر رملي؛ المسامية 18%، و12% من حجم الحبيبات CaCO₃، والمعالجة تمتد 1 ft بعد نصف قطر البئر (0.33 ft)، بحامض HCl 15%:\n• حجم الحلقة لكل قدم: 3.1416 × (1.7689 − 0.1089) ≈ 5.215 ft³/ft\n• حجم الـ CaCO₃: 5.215 × 0.82 × 0.12 ≈ 0.513 ft³/ft\n• حجم الحامض: 0.513 ÷ 0.082 ≈ 6.26 ft³/ft\n• بالگالون: 6.26 × 7.48 ≈ 46.8 gal/ft\nتسلسل تقليدي للحجر الرملي:\n1) Preflush: حوالي 50 gal/ft من HCl 15% — يذوّب ويزيح الكربونات حتى ما يترسب فلوريد الكالسيوم لما يجي الـ HF.\n2) المعالجة الرئيسية: 50–200 gal/ft من Mud acid (3% HF ويا 12% HCl).\n3) Postflush: حوالي 200 gal/ft محلول ملحي، وبعدها إرجاع فوري (Flowback).\nالتوجه الحديث تراكيز أوطى حتى تقل الرواسب وخطر تفكك التكوين.\nمشاكل لازم تنحسب:\n• صدأ الحديد من الـ Casing يترسب كـ Fe(OH)₃ بالتكوين.\n• الحامض ويا الأسفلتينات يكوّن Sludge — لازم فحص ويا نفط التكوين قبل المعالجة، وإذا تكوّن ننزل مذيب أروماتي يزيح النفط.\n• ترسب السيليكا الغروية — لهذا ينحقن الـ HF بمعدل عالي وينرجع بسرعة.",
+   "aEn": "The acids used:\n• HCl, formic and acetic acids attack carbonate minerals: calcite CaCO₃, dolomite and siderite FeCO₃.\n• Mixtures of HCl and HF are used for the silicate minerals in sandstone: quartz, feldspars and clays.\nVolumetric dissolving power: the volume of mineral dissolved per volume of acid solution.\n• Calcium carbonate with HCl: 0.026 (5% strength), 0.053 (10%), 0.082 (15%), 0.175 (30%).\n• With 15% formic: 0.062, and with 15% acetic: 0.047 — weaker than HCl.\n• Dolomite with 15% HCl: 0.071.\n• Quartz with HF: 0.010 (3%) — very small, which is why HF dissolves the clays and fines, not the rock framework.\nAcid volume = volume of mineral to be removed ÷ dissolving power.\nExample: removing CaCO₃ around a well in sandstone; porosity 18%, 12% of the grain volume is CaCO₃, and the treatment extends 1 ft beyond the well radius (0.33 ft), with 15% HCl:\n• Annular volume per foot: 3.1416 × (1.7689 − 0.1089) ≈ 5.215 ft³/ft\n• CaCO₃ volume: 5.215 × 0.82 × 0.12 ≈ 0.513 ft³/ft\n• Acid volume: 0.513 ÷ 0.082 ≈ 6.26 ft³/ft\n• In gallons: 6.26 × 7.48 ≈ 46.8 gal/ft\nA traditional sequence for sandstone:\n1) Preflush: about 50 gal/ft of 15% HCl — it dissolves and displaces the carbonates so that calcium fluoride does not precipitate when the HF arrives.\n2) Main treatment: 50–200 gal/ft of mud acid (3% HF with 12% HCl).\n3) Postflush: about 200 gal/ft of brine, then immediate flowback.\nThe recent trend is towards lower concentrations to reduce precipitates and the risk of unconsolidating the formation.\nProblems that must be allowed for:\n• Iron rust from the casing precipitates as Fe(OH)₃ in the formation.\n• Acid with asphaltenes forms sludge — a test with formation oil is essential before the treatment, and if sludge forms an aromatic solvent is injected to displace the oil.\n• Precipitation of colloidal silica — which is why HF is injected at a high rate and flowed back quickly.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 10.4 Acidizing, Tables 10.1–10.2, Example 10.5"
+   ]
+  },
+  {
+   "id": "wo-40",
+   "topic": "workover",
+   "q": "شنو التوصيلية النسبية للشق (Relative conductivity) ومخطط McGuire–Sikora، وشلون أختار الـ Proppant حسب ضغط الانغلاق وحجم الحبيبات؟",
+   "qEn": "What are fracture relative conductivity and the McGuire–Sikora chart, and how is proppant chosen by closure pressure and grain size?",
+   "k": [
+    "McGuire Sikora productivity index ratio",
+    "fracture relative conductivity width permeability",
+    "proppant closure pressure limit sand ceramic",
+    "proppant mesh size permeability porosity",
+    "التوصيلية النسبية للشق",
+    "اختيار البروبانت",
+    "ضغط انغلاق الشق"
+   ],
+   "a": "قدرة الشق على الجريان تعتمد على عرضه وعلى نفاذية الـ Proppant اللي يسنده. التشبيه: نفاذية الـ Proppant مثل السرعة على الطريق السريع، وعرض الشق مثل عدد المسارات. الهدف إن قدرة الشق تساوي أو تزيد شوية على قدرة التكوين.\nالتوصيلية النسبية (McGuire & Sikora، 1960):\n$$ C_r = \\dfrac{w\\,k_f}{k}\\sqrt{\\dfrac{40}{A}}\nحيث w عرض الشق المسنود (in)، kf نفاذية الـ Proppant (md)، k نفاذية التكوين (md)، و A مساحة الصرف (acres). لازم الالتزام بهاي الوحدات.\nالمخطط ينطي نسبة معامل الإنتاجية بعد التكسير لقبله (J/Jo) كدالة للتوصيلية النسبية وللنسبة R (طول الشق ÷ ضلع ربع مساحة الصرف، وهو 660 ft لـ 40 acre).\nمثال: k = 2 md، kf = 150 darcy، w = 0.3 in، A = 40 acre، وطول الشق 120 ft:\n• التوصيلية النسبية: 0.3 × 150,000 ÷ 2 = 22,500\n• R: 120 ÷ 660 ≈ 0.18\n• من المخطط J/Jo ≈ 4 — الإنتاجية تتضاعف أربع مرات.\nالدرس المهم:\n• إذا التوصيلية واطية (حوالي 1,000) النسبة بحدود 1.8 وما تتحسن بإطالة الشق — الأحسن نزيد العرض أو نفاذية الـ Proppant.\n• إذا رفعناها إلى 10,000، تصير إطالة الشق لحد R = 0.4 مفيدة والنسبة توصل حوالي 5.6.\nاختيار الـ Proppant حسب ضغط الانغلاق (Closure pressure) — إذا تجاوز الضغط قوة الحبيبات تنسحق وتضيع فايدة الشق:\n• رمل: لحد 4,000 psi.\n• رمل مطلي بالراتنج: لحد 8,000 psi (وحد حراري 250°F).\n• سيراميك متوسط القوة: لحد 10,000 psi.\n• سيراميك عالي القوة: أكثر من 12,000 psi.\nحجم الحبيبات (Mesh): Proppant قياسه 30–50 يمر من منخل 30 (فتحة 0.060 cm) وينحجز على منخل 50 (0.030 cm). أرقام ثانية: منخل 20 فتحته 0.085 cm، و40 فتحته 0.043 cm، و100 فتحته 0.015 cm.\nنفاذية حشوة نظيفة (k بـ cm²، d قطر الحبيبة بـ cm، φ مسامية الحشوة وهي عادةً 35–40%):\n$$ k = \\dfrac{\\phi^3 d^2}{150\\,(1-\\phi)^2}\nمثال: φ = 0.38 و d = 0.063 cm ← النتيجة 383 darcy تقريباً. الحبيبات الأكبر تنطي نفاذية أعلى بس تتحمل ضغط أقل.\nالنفاذية الفعلية بالشق أقل من هذا بسبب بقايا سائل التكسير، انسحاق وانغراز الحبيبات بجدار الشق، والمواد الناعمة.\nكتلة الـ Proppant بالشق عادةً 50,000 إلى 500,000 lb.",
+   "aEn": "The flow capacity of a fracture depends on its width and on the permeability of the proppant holding it open. The analogy: proppant permeability is like speed on a freeway, and fracture width like the number of lanes. The aim is a fracture capacity equal to or slightly above that of the formation.\nRelative conductivity (McGuire & Sikora, 1960):\n$$ C_r = \\dfrac{w\\,k_f}{k}\\sqrt{\\dfrac{40}{A}}\nwhere w is the propped fracture width (in.), kf the proppant permeability (md), k the formation permeability (md) and A the well spacing (acres). These units must be used strictly.\nThe chart gives the ratio of productivity index after fracturing to before (J/Jo) as a function of relative conductivity and of the ratio R (fracture length ÷ the side of the drainage quadrant, which is 660 ft for 40 acres).\nExample: k = 2 md, kf = 150 darcies, w = 0.3 in., A = 40 acres, and a fracture length of 120 ft:\n• Relative conductivity: 0.3 × 150,000 ÷ 2 = 22,500\n• R: 120 ÷ 660 ≈ 0.18\n• From the chart J/Jo ≈ 4 — productivity is four times greater.\nThe important lesson:\n• If the conductivity is low (about 1,000) the ratio is around 1.8 and does not improve with a longer fracture — it is better to increase the width or the proppant permeability.\n• If it is raised to 10,000, lengthening the fracture up to R = 0.4 becomes worthwhile and the ratio reaches about 5.6.\nChoosing proppant by closure pressure — if the pressure exceeds the grain strength the grains are crushed and the benefit of the fracture is lost:\n• Sand: up to 4,000 psi.\n• Resin-coated sand: up to 8,000 psi (and a temperature limit of 250°F).\n• Intermediate-strength ceramic: up to 10,000 psi.\n• High-strength ceramic: above 12,000 psi.\nGrain size (mesh): a 30–50 proppant passes a 30 mesh sieve (0.060 cm opening) and is retained on a 50 mesh sieve (0.030 cm). Other figures: 20 mesh has a 0.085 cm opening, 40 mesh 0.043 cm, and 100 mesh 0.015 cm.\nPermeability of a clean pack (k in cm², d the grain diameter in cm, φ the pack porosity, usually 35–40%):\n$$ k = \\dfrac{\\phi^3 d^2}{150\\,(1-\\phi)^2}\nExample: φ = 0.38 and d = 0.063 cm → the result is about 383 darcies. Larger grains give higher permeability but withstand less pressure.\nThe actual permeability in the fracture is lower than this because of fracturing fluid residue, crushing and embedment of grains in the fracture wall, and fines.\nThe mass of proppant in a fracture is typically 50,000 to 500,000 lb.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 10.5 Hydraulic Fracturing, Tables 10.3–10.4, Examples 10.9–10.12"
+   ]
+  },
+  {
    "id": "mp-01",
    "topic": "mpd",
    "q": "شنو هو الحفر بالضغط المدار (MPD)؟",
@@ -16661,6 +16763,66 @@
    "aEn": "• In-country value (local content): the total spend retained in the country that helps develop local business, build human capability and stimulate productivity in the economy — that is, goods made and services delivered by local hands in the country. It is used as a criterion in tender evaluation.\n• Lean: a set of activities aimed at simplifying work and raising its efficiency, saving time and reducing the waste of resources.\n• Supply-chain management: managing every aspect of supplying goods and services, from the initial order to delivery.\n• String-month: a measure of drilling rig activity — one rig working for a full year equals 12 string-months.\nExample: a company ran 3 rigs for a full year and a fourth rig for 6 months:\n• Activity: 3 × 12 + 6 = 42 string-months\nThe unit is useful for comparing the scale of drilling activity between years and companies, and for working out cost or number of wells per string-month.",
    "refs": [
     "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — in-country value, lean initiative, supply-chain management, string-month"
+   ]
+  },
+  {
+   "id": "pl-20",
+   "topic": "planning",
+   "q": "شنو مراحل عمر الحقل ومنحنى إنتاجه (Buildup، Plateau، Decline)، وشلون سعر النفط يحدد تقنية الاستخلاص ونقطة التعادل؟",
+   "qEn": "What are the stages of a field's life and its production profile (buildup, plateau, decline), and how does the oil price determine the recovery technology and the breakeven point?",
+   "k": [
+    "field life cycle production profile buildup plateau decline",
+    "economic limit abandonment",
+    "oil price recovery technology EOR product substitution",
+    "breakeven price example IOR infill",
+    "مراحل عمر الحقل",
+    "منحنى الإنتاج الهضبة",
+    "نقطة التعادل وسعر النفط"
+   ],
+   "a": "دورة حياة المكمن تبدي لما يصير هدف استكشافي (Prospect) وما تخلص إلا بالهجر الصحيح:\n1) الاستكشاف ← بئر استكشافية ← اكتشاف.\n2) التقييم: آبار Appraisal (خواص المكمن والجريان) وآبار Delineation (حدود المكمن) — وبعضها يتحول لآبار تطوير.\n3) التطوير وأول نفط (First oil).\n4) فترة الصعود (Buildup) لحد ما يوصل الإنتاج الهضبة (Plateau).\n5) الهضبة: سببها عادةً محددات المنشآت (مثل طاقة الأنبوب)، مو المكمن.\n6) الهبوط (Decline) لحد الحد الاقتصادي (Economic limit)، وبعدها الهجر.\nمصطلحات:\n• IOR (Improved oil recovery) = الـ EOR + الحفر البيني (Infill). والحفر البيني ممكن هم يسرّع الإنتاج (Acceleration) بدون ما يزيد الاحتياطي.\n• حقن الغاز يعتبر ثانوي إذا ضغطه أوطى من ضغط الامتزاج، و EOR إذا صار امتزاجي.\nسعر النفط وتقنية الاستخلاص (أسعار 2016 حسب المصدر):\n• التقليدي: 38–63 $/bbl.\n• الاستخلاص المعزز EOR: 51–101 $/bbl.\n• النفط الثقيل جداً (مثل الرمال القيرية): 63–114 $/bbl.\n• الطاقات البديلة: 101–152 $/bbl.\nالمعنى: التقنيات الحالية استخلصت حوالي ثلث النفط بالحقول المعروفة، والباقي موجود — بس استخراجه مسألة كلفة. والسعر ما يصعد بلا حد: إذا بقى عالي فترة طويلة المستهلك يتحول لبديل أرخص (Product substitution).\nمثال نقطة التعادل (بدون القيمة الزمنية للنقود): مشروع يستخلص 500 مليون STB، كلفة البنى التحتية 1.8 مليار $ والمصاريف الثانية 2 مليار $:\n• سعر التعادل: 3.8 ÷ 0.5 = 7.6 $/STB\nإذا صارت كارثة بيئية كلفتها 20 مليار $:\n• سعر التعادل: 23.8 ÷ 0.5 = 47.6 $/STB\nيعني حادث واحد ممكن يضاعف سعر التعادل ست مرات — وهذا السبب الاقتصادي للاستثمار بالسلامة.",
+   "aEn": "The life cycle of a reservoir begins when it becomes an exploration prospect and does not end until it is properly abandoned:\n1) Exploration → exploration well → discovery.\n2) Appraisal: appraisal wells (reservoir properties and flow) and delineation wells (reservoir boundaries) — some of which are converted to development wells.\n3) Development and first oil.\n4) The buildup period until production reaches the plateau.\n5) The plateau: usually caused by facility limits (such as pipeline capacity), not by the reservoir.\n6) Decline down to the economic limit, and then abandonment.\nTerms:\n• IOR (improved oil recovery) = EOR + infill drilling. Infill drilling can also accelerate production without adding reserves.\n• Gas injection is counted as secondary if its pressure is below the miscibility pressure, and as EOR if it becomes miscible.\nOil price and recovery technology (2016 prices according to the source):\n• Conventional: 38–63 $/bbl.\n• Enhanced oil recovery (EOR): 51–101 $/bbl.\n• Extra heavy oil (such as tar sands): 63–114 $/bbl.\n• Alternative energy sources: 101–152 $/bbl.\nThe meaning: current techniques have recovered about one-third of the oil in known fields, and the rest is still there — but producing it is a question of cost. And the price does not rise without limit: if it stays high for long, consumers switch to a cheaper alternative (product substitution).\nBreakeven example (ignoring the time value of money): a project recovers 500 million STB, with infrastructure costing $1.8 billion and other expenses of $2 billion:\n• Breakeven price: 3.8 ÷ 0.5 = 7.6 $/STB\nIf an environmental disaster costing $20 billion occurs:\n• Breakeven price: 23.8 ÷ 0.5 = 47.6 $/STB\nSo a single accident can multiply the breakeven price six times — which is the economic reason for investing in safety.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 1.2 Life Cycle of a Reservoir; 1.4.2–1.4.3, Table 1.5; Example 1.7"
+   ]
+  },
+  {
+   "id": "pl-21",
+   "topic": "planning",
+   "q": "شنو حقوق المعادن وعقد الإيجار (Lease) والإتاوة (Royalty) واتفاقية التشغيل المشترك (JOA) وتوحيد الحقل (Unitization)؟",
+   "qEn": "What are mineral rights, a lease, a royalty, a joint operating agreement (JOA) and unitization?",
+   "k": [
+    "mineral rights lease royalty bonus",
+    "primary term secondary term lease",
+    "joint operating agreement JOA operator",
+    "unitization unit agreement prorating",
+    "حقوق المعادن",
+    "الإتاوة وعقد الإيجار",
+    "اتفاقية التشغيل المشترك"
+   ],
+   "a": "قبل الحفر لازم المشغل يملك حق الوصول للمورد ووضع المعدات على السطح.\n• حقوق المعادن (Mineral rights): حق استخراج المعادن والموائع من تحت الأرض ويا استخدام معقول للسطح. بأمريكا ممكن يملكها أفراد؛ خارجها المالك بالعادة هو الدولة — والتوازن بين الحكومات والشركات يتطور من بداية القرن العشرين، واليوم الدول سيطرتها أكبر بهواية.\n• عقد الإيجار (Lease): المشغل يستأجر الحقوق من مالكها، ويحصل حق الاستكشاف والحفر والإنتاج والبيع. بالمقابل المالك ياخذ:\n – منحة توقيع (Bonus) مقدماً.\n – إتاوة (Royalty) منتظمة من الإنتاج — مثلاً 12.5% من الإيراد الإجمالي ناقص الضرائب.\n• مدد العقد: مدة أولية (Primary term) من 1 إلى 5 سنين وهي فترة الاستكشاف، ومدة ثانوية تغطي فترة الإنتاج. إذا المستأجر ما حفر خلال المدة الأولية ينتهي العقد ولازم يتفاوض من جديد — ولهذا الشركات ترتب أولويات مشاريعها حسب مواعيد عقودها.\n• اتفاقية التشغيل المشترك (JOA): كلفة البئر بالملايين، فالتمويل غالباً بمشاركة عدة أطراف. الاتفاقية تحدد حقوق وواجبات كل طرف، ومنو المشغل (Operator) المسؤول عن العمليات اليومية، وشلون ينقسم الإنتاج. المشغل مو شرط يكون صاحب الحصة الأكبر.\n• التوحيد (Unitization): إذا عدة مشغلين ينتجون من نفس التكوين بعقود متجاورة، يفيدهم يدمجون العقود بوحدة وحدة بمشغل واحد. أهم بند: توزيع الإنتاج على الأعضاء حسب حصة كل عقد من الاحتياطي.\nمثال: بئر تبيع نفط بمليون دولار بالشهر والإتاوة 12.5% ← المالك ياخذ 125,000 $ بدون ما يتحمل كلفة الحفر أو التشغيل.",
+   "aEn": "Before drilling, the operator must have the right of access to the resource and to place equipment on the surface.\n• Mineral rights: the right to extract minerals and fluids from the subsurface with reasonable use of the surface. In the United States they can be owned by individuals; elsewhere the owner is normally the state — and the balance between governments and companies has been evolving since the early twentieth century, with countries exerting much more control today.\n• A lease: the operator leases the rights from their owner and receives the right to explore, drill, produce and sell. In exchange the owner receives:\n – An upfront bonus.\n – A regular royalty on production — for example 12.5% of gross revenue minus taxes.\n• Lease terms: a primary term of 1 to 5 years, which is the exploration period, and a secondary term covering the production period. If the lessee does not drill during the primary term the lease expires and must be renegotiated — which is why companies prioritise their projects by their lease dates.\n• Joint operating agreement (JOA): a well costs millions, so financing usually involves several participants. The agreement defines the rights and duties of each party, who the operator in charge of day-to-day operations is, and how production is shared. The operator need not hold the largest share.\n• Unitization: if several operators produce from the same formation on adjacent leases, they benefit from joining the leases into one unit with one operator. The key provision: prorating production to the members by each lease's share of the reserves.\nExample: a well sells oil worth one million dollars a month and the royalty is 12.5% → the owner receives $125,000 without bearing any drilling or operating cost.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 8.1 Drilling Rights"
+   ]
+  },
+  {
+   "id": "pl-22",
+   "topic": "planning",
+   "q": "شنو نظرية ذروة النفط (Peak oil / Hubbert)، وشلون يتوزع احتياطي النفط والغاز بالعالم، وشكد ياخذ الانتقال الطاقي؟",
+   "qEn": "What is the peak oil theory (Hubbert), how are world oil and gas reserves distributed, and how long does an energy transition take?",
+   "k": [
+    "peak oil Hubbert curve",
+    "world proved reserves by country 2014 Iraq",
+    "Middle East share of reserves",
+    "energy transition duration natural gas transition fuel",
+    "ذروة النفط",
+    "توزيع الاحتياطي العالمي",
+    "الانتقال الطاقي"
+   ],
+   "a": "ذروة النفط (Peak oil): M. King Hubbert (1956) درس إنتاج أمريكا القارية كمورد غير متجدد: الإنتاج السنوي يصعد لحد ذروة وبعدها ينزل لأن الاكتشاف والإنتاج يصعبون.\n• توقع ذروة أمريكا بين 1965 و1970 — وفعلاً صارت سنة 1970 عند 9.4 مليون bbl/d.\n• وتوقع ذروة عالمية حوالي سنة 2000 بمعدل 12–13 مليار برميل بالسنة (33–36 مليون bbl/d) — وهذا ما صار: الإنتاج العالمي كمل يصعد.\n• السبب: التقنية تضيف موارد جديدة وتأخر الذروة — مثل زيادة طاقة المنشآت بالسعودية والنفط الصخري الأمريكي بعد 2000. التوقعات المبنية على مطابقة منحنى Gaussian تنطي ذروة بين 2010 و2030، بس الدليل غير حاسم.\n• الإنتاج العالمي للفرد بالمقابل وصل ذروته بالسبعينيات وبقى أوطى منها.\nتوزيع الاحتياطي المثبت (نهاية 2014، حسب المصدر):\n• النفط — العالم 1,656 مليار برميل: فنزويلا 298، السعودية 268، كندا 173، إيران 157، العراق 140، الكويت 104، الإمارات 98، روسيا 80.\n• الغاز — العالم 6,972 Tcf: روسيا 1,688، إيران 1,193، قطر 885، أمريكا 338، السعودية 291. والعراق 112.\n• الشرق الأوسط الأول بالاثنين: 804 مليار برميل نفط و2,813 Tcf غاز.\n• حصة الشرق الأوسط من النفط: 804 ÷ 1,656 ≈ 0.49 — يعني تقريباً نص احتياطي العالم.\n• أوروبا الأخيرة بالاثنين — وهذا من أسباب توجهها للطاقات المتجددة والنووية.\nالانتقال الطاقي:\n• تاريخياً (بيانات أمريكا)، كل انتقال — من الخشب للفحم، ومن الفحم للنفط — أخذ حوالي 60–70 سنة من ظهور المصدر لحد ذروته.\n• الاتجاه العام «إزالة الكربون»: كل مصدر جديد بيه كربون أقل. والغاز الطبيعي مرشح كوقود انتقالي: متوفر، وانبعاثاته حوالي نص انبعاثات النفط والفحم، وبناه التحتية معقولة الكلفة.\n• الانتقال السريع جداً يضر الاقتصاد، والبطيء جداً يضر البيئة — والمطلوب وتيرة «معقولة» وسياسة متوقعة. بكل الأحوال النفط والغاز باقين مصدر رئيسي بالمدى المنظور.",
+   "aEn": "Peak oil: M. King Hubbert (1956) studied production in the contiguous United States as a non-renewable resource: annual production rises to a peak and then declines as finding and producing oil becomes harder.\n• He predicted the US peak between 1965 and 1970 — and it did occur in 1970 at 9.4 million bbl/d.\n• He also predicted a global peak around 2000 at 12–13 billion barrels per year (33–36 million bbl/d) — and that did not happen: world production went on rising.\n• The reason: technology adds new resources and postpones the peak — such as the increase in facility capacity in Saudi Arabia and US shale oil after 2000. Forecasts based on fitting a Gaussian curve give a peak between 2010 and 2030, but the evidence is inconclusive.\n• World production per capita, by contrast, peaked in the 1970s and has stayed below that level.\nDistribution of proved reserves (end of 2014, according to the source):\n• Oil — world 1,656 billion barrels: Venezuela 298, Saudi Arabia 268, Canada 173, Iran 157, Iraq 140, Kuwait 104, UAE 98, Russia 80.\n• Gas — world 6,972 Tcf: Russia 1,688, Iran 1,193, Qatar 885, United States 338, Saudi Arabia 291. Iraq has 112.\n• The Middle East is first in both: 804 billion barrels of oil and 2,813 Tcf of gas.\n• The Middle East share of oil: 804 ÷ 1,656 ≈ 0.49 — almost half of world reserves.\n• Europe is last in both — one of the reasons for its move to renewable and nuclear energy.\nThe energy transition:\n• Historically (US data), each transition — from wood to coal, and from coal to oil — took about 60–70 years from the appearance of the source to its peak.\n• The general trend is decarbonisation: each new source contains less carbon. Natural gas is a candidate transition fuel: it is abundant, its emissions are about half those of oil and coal, and its infrastructure is reasonably affordable.\n• Too fast a transition damages the economy, and too slow a one damages the environment — what is needed is a 'just right' pace and predictable policy. In any case oil and gas remain a key source for the foreseeable future.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 2.4 Global Distribution of Oil and Gas Reserves, Tables 2.3–2.4; 2.5 Peak Oil; 2.6 Future Energy Options"
    ]
   },
   {
@@ -18996,6 +19158,66 @@
    ]
   },
   {
+   "id": "pd-79",
+   "topic": "production",
+   "q": "شلون ينحسب إجهاد جدار العازلة أو الخزان (Hoop و Axial) وأقصى ضغط تشغيل، وليش الخزانات الكروية تتحمل أكثر؟",
+   "qEn": "How are the wall stresses of a separator or tank (hoop and axial) and the maximum operating pressure calculated, and why do spherical tanks withstand more?",
+   "k": [
+    "separator pressure rating thin-walled vessel",
+    "hoop stress axial stress formula",
+    "spherical tank stress",
+    "maximum working pressure nameplate 20000 psi",
+    "إجهاد جدار العازلة",
+    "الضغط التصميمي للخزان",
+    "خزان كروي"
+   ],
+   "a": "العازلات وخزانات الموقع غالباً أسطوانية، وبعض خزانات المصافي كروية. تنعامل كأوعية ضغط رقيقة الجدار (Thin-walled) إذا سمك الجدار t أقل من عُشر نصف القطر الداخلي r.\nللأسطوانة — الإجهاد المحيطي (Hoop):\n$$ \\sigma_h = \\dfrac{(p - p_a)\\,r}{t}\nوالإجهاد المحوري (Axial) نصه:\n$$ \\sigma_a = \\dfrac{(p - p_a)\\,r}{2\\,t}\nللكرة — الإجهاد متساوي بكل الاتجاهات:\n$$ \\sigma_s = \\dfrac{(p - p_a)\\,r}{2\\,t}\nحيث p الضغط الداخلي و pa الضغط الجوي — يعني الفرق هو الضغط المقروء بالمقياس (psig).\nمثال: عازلة نصف قطرها الداخلي 20 in وسمك جدارها 0.25 in، بضغط 250 psig:\n• الإجهاد المحيطي: 250 × 20 ÷ 0.25 = 20,000 psi\n• الإجهاد المحوري: 250 × 20 ÷ 0.5 = 10,000 psi\nأوعية الضغط الفولاذية غالباً تتصمم على إجهاد أقصى 20,000 psi (يختلف حسب السبيكة والمصنّع) — يعني 250 psig ممكن يكون أقصى ضغط تشغيل آمن لهذا الوعاء.\nاستنتاجات:\n• بالأسطوانة الإجهاد المحيطي هو الحاكم — لهذا الأسطوانات تنشگ طولياً.\n• الكرة بنفس القطر والسمك إجهادها نص إجهاد الأسطوانة — فتتحمل ضعف الضغط، ولهذا تنستخدم لخزن الغازات المسالة تحت ضغط.\n• ضغط التشغيل الأقصى مكتوب على لوحة الوعاء (Nameplate) وما يتجاوز أبداً؛ والتآكل ينقص السمك t فيرفع الإجهاد لنفس الضغط — وهذا سبب فحص السمك الدوري.",
+   "aEn": "Separators and site tanks are mostly cylindrical, and some refinery tanks are spherical. They are treated as thin-walled pressure vessels if the wall thickness t is less than one-tenth of the inner radius r.\nFor a cylinder — the hoop (circumferential) stress:\n$$ \\sigma_h = \\dfrac{(p - p_a)\\,r}{t}\nand the axial stress is half of it:\n$$ \\sigma_a = \\dfrac{(p - p_a)\\,r}{2\\,t}\nFor a sphere — the stress is the same in all directions:\n$$ \\sigma_s = \\dfrac{(p - p_a)\\,r}{2\\,t}\nwhere p is the internal pressure and pa the atmospheric pressure — so the difference is the gauge pressure (psig).\nExample: a separator with an inner radius of 20 in. and a wall thickness of 0.25 in., at 250 psig:\n• Hoop stress: 250 × 20 ÷ 0.25 = 20,000 psi\n• Axial stress: 250 × 20 ÷ 0.5 = 10,000 psi\nSteel pressure vessels are often designed for a maximum stress of 20,000 psi (it varies with the alloy and the manufacturer) — so 250 psig may be the maximum safe operating pressure for this vessel.\nConclusions:\n• In a cylinder the hoop stress governs — which is why cylinders split lengthwise.\n• A sphere of the same diameter and thickness has half the stress of a cylinder — so it withstands twice the pressure, which is why spheres are used to store liquefied gases under pressure.\n• The maximum working pressure is stamped on the vessel nameplate and must never be exceeded; corrosion reduces the thickness t and so raises the stress at the same pressure — which is the reason for periodic thickness inspection.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 11.3 Pressure Rating for Separators, Example 11.5"
+   ]
+  },
+  {
+   "id": "pd-80",
+   "topic": "production",
+   "q": "شنو الآبار الذكية (Intelligent wells) والحقل الذكي (i-field)، وشلون يتحدد نمط توزيع الآبار؟",
+   "qEn": "What are intelligent wells and the intelligent field (i-field), and how is the well pattern chosen?",
+   "k": [
+    "intelligent well smart completion remote control",
+    "i-field SCADA real-time monitoring",
+    "producer to injector ratio patterns",
+    "peripheral injection horizontal well fractures",
+    "الآبار الذكية",
+    "الحقل الذكي",
+    "نمط توزيع الآبار"
+   ],
+   "a": "البئر الذكية (Intelligent well): بئر مصممة حتى المشغل يتحكم عن بعد بخواصها الجوفية، مثل أي نطاق مفتوح للإنتاج.\n• ليش: خلال عمر المكمن نحتاج نغيّر نطاق الإكمال حتى نعدّل نسبة الماي–النفط أو الغاز–النفط. بالبئر العادية هذا يعني عملية Workover؛ بالذكية يتغير أوتوماتيكياً أو بأمر من السطح.\n• هم تنطي قياسات قاعية مستمرة وآنية: ضغط، حرارة، واهتزازات.\nالحقل الذكي (i-field): تشغيل متكامل يستخدم تقنية المعلومات — وبالأخص SCADA (نظام المراقبة والتحكم وجمع البيانات) — حتى يراقب الحقل ويستجيب للتغيرات بالوقت الحقيقي.\n• الكلفة الرأسمالية أعلى، بس التصميم الجيد ينزّل الكلف التشغيلية بالأتمتة، ويسمح بالتحكم عن بعد بالبيئات الصعبة — يعني تدخل بشري مباشر أقل.\nنمط الآبار (Well pattern): العوامل اللي نگدر نتحكم بيها بكفاءة الاستخلاص هي عدد الآبار ونوعها ومعدلاتها ومواقعها.\n• نسبة آبار الإنتاج لآبار الحقن بالأنماط الشائعة: Four-spot = 2، Five-spot = 1، Direct line drive = 1، Staggered line drive = 1، Seven-spot = 1/2، Nine-spot = 1/3.\n• هاي الأنماط المتناظرة تناسب المكامن قليلة الميل وواسعة المساحة. المكامن شديدة الميل (مثل طية محدبة) تحتاج حقن محيطي أو جناحي (Peripheral / Flank).\n• بالمكمن المتشقق: الأحسن بئر أفقية باتجاه يگطع أكبر عدد من الشقوق، لأن الإنتاج يجي من الـ Matrix للشقوق وبعدها للبئر.\n• تقليل التباعد بين الآبار يعني حفر بيني (Infill) وزيادة كثافة الآبار.\n• الاختيار النهائي يعتمد على مقارنة اقتصاديات البدائل — ونماذج المحاكاة هي الأداة الرئيسية لهذا.",
+   "aEn": "An intelligent well is designed so that the operator can remotely control its subsurface characteristics, such as which interval is open to production.\n• Why: during the life of a reservoir the completion interval must be changed to adjust the water–oil or gas–oil ratio. In an ordinary well that means a workover; in an intelligent well it changes automatically or on command from surface.\n• It also provides continuous, real-time downhole measurements: pressure, temperature and vibrations.\nThe intelligent field (i-field): an integrated operation that uses information technology — in particular SCADA (supervisory control and data acquisition) — to monitor the field and respond to changes in real time.\n• The capital cost is higher, but a good design lowers operating costs through automation and allows remote control in difficult environments — that is, less direct human intervention.\nThe well pattern: the factors of recovery efficiency that can be controlled are the number and type of wells, their rates and their locations.\n• The ratio of producers to injectors in the common patterns: four-spot = 2, five-spot = 1, direct line drive = 1, staggered line drive = 1, seven-spot = 1/2, nine-spot = 1/3.\n• These symmetric patterns suit reservoirs with small dip and large areal extent. Steeply dipping reservoirs (such as an anticline) need peripheral or flank injection.\n• In a fractured reservoir: a horizontal well in a direction that intersects as many fractures as possible is best, because production flows from the matrix into the fractures and then to the well.\n• Reducing well spacing means infill drilling and a higher well density.\n• The final choice depends on comparing the economics of the alternatives — and simulation models are the main tool for that.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 11.6 Well Patterns, Table 11.1; 11.6.1 Intelligent Wells and Intelligent Fields"
+   ]
+  },
+  {
+   "id": "pd-81",
+   "topic": "production",
+   "q": "شنو خرائط الفقاعات (Bubble maps) وبيانات أداء الحقل، وشلون أعرف من تغير معامل الإنتاجية إن البئر تحتاج Workover؟",
+   "qEn": "What are bubble maps and field performance data, and how does a change in productivity index show that a well needs a workover?",
+   "k": [
+    "bubble map cumulative production",
+    "field performance database consistency",
+    "productivity index decline workover decision example",
+    "gathering center pipeline capacity example",
+    "خرائط الفقاعات",
+    "بيانات أداء الحقل",
+    "معامل الإنتاجية و workover"
+   ],
+   "a": "قاعدة بيانات أداء الحقل لازم تجمع: المسوح الزلزالية، تحليل اللباب، المجسات، فحوص الضغط، مراقبة الإنتاج والحقن (معدلات وحجوم كل الآبار)، مسوح المتتبِّعات (Tracers)، وضغوط الآبار وأداء المعدات السطحية والجوفية.\n• البيانات من مصادر مختلفة لازم تتطابق: مثلاً عمق سطوح التماس من المجسات ومن الزلزالي، والنفاذية من اللباب ومن فحوص الآبار — وأي فرق لازم يتفسر ويتوفّق.\n• التحدي الدائم: قاعدة بيانات كاملة ومحدّثة وموثوقة.\nخريطة الفقاعات (Bubble map): نرسم لكل بئر دائرة بمكانها على الخريطة، ونصف قطرها يمثل مقدار المتغير — إنتاج تراكمي، معدل، ضغط، نسبة ماي.\n• تنطي مقارنة بصرية سريعة بين الآبار وتبين الاتجاهات بالحقل.\n• فقاعة صغيرة وسط فقاعات كبيرة = قياس شاذ أو بئر متضررة — مرشحة للـ Workover.\nمعامل الإنتاجية (PI) كمؤشر لصحة البئر:\nمثال: بئر تنتج 10,000 STB/d بسحب ضغط 10 psi ← PI = 1,000 STB/d/psi.\n• إذا نزل 5% بالسنة لسنتين: 1,000 × 0.95 × 0.95 = 902.5 STB/d/psi\n• بس إذا انقاس 750 ببداية السنة الثالثة، وفحص البئر بيّن Skin موجب وزايد ← النزول أكثر من الطبيعي وسببه ضرر قرب البئر، فالبئر تحتاج تحفيز (Workover).\nمثال على قيود المنشآت: مركز تجميع يستلم من 16 بئر، كل بئر لحد 5,000 bbl/d:\n• 16 × 5,000 = 80,000 bbl/d\nإذا أنبوب التصدير يشيل 50,000 bbl/d بس، ما تگدر كل الآبار تنتج بطاقتها — لازم يتوسع الخط أو يتحدد الإنتاج. وهذا مثال على «الهضبة» اللي سببها المنشآت مو المكمن.\nملاحظة: مركز التجميع المشترك يوفر كلفة المعالجة، بس يصعّب معرفة إنتاج كل بئر لوحدها — لهذا نحتاج فحص دوري لكل بئر بعازلة الفحص.",
+   "aEn": "The field performance database should bring together: seismic surveys, core analysis, logs, pressure tests, production and injection monitoring (rates and volumes for all wells), tracer surveys, and well pressures and the performance of surface and subsurface equipment.\n• Data from different sources must agree: for example the depth of fluid contacts from logs and from seismic, and permeability from cores and from well tests — any difference must be explained and reconciled.\n• The standing challenge: a complete, up-to-date and trustworthy database.\nThe bubble map: a circle is drawn for each well at its position on the map, with a radius representing the size of the variable — cumulative production, rate, pressure, water cut.\n• It gives a quick visual comparison between wells and shows trends across the field.\n• A small bubble among large ones = an anomalous measurement or a damaged well — a workover candidate.\nProductivity index (PI) as an indicator of well health:\nExample: a well produces 10,000 STB/d at a drawdown of 10 psi → PI = 1,000 STB/d/psi.\n• If it declines 5% a year for two years: 1,000 × 0.95 × 0.95 = 902.5 STB/d/psi\n• But if 750 is measured at the start of year three, and a well test shows a positive, increased skin → the decline is more than natural and is caused by near-well damage, so the well needs stimulation (a workover).\nAn example of facility constraints: a gathering centre receives from 16 wells, each up to 5,000 bbl/d:\n• 16 × 5,000 = 80,000 bbl/d\nIf the export line carries only 50,000 bbl/d, not all wells can produce at capacity — the line must be expanded or production limited. This is an example of a 'plateau' caused by facilities, not by the reservoir.\nNote: a shared gathering centre saves processing cost but makes it harder to know each well's production — which is why periodic testing of each well through the test separator is needed.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 13.1 Field Performance Data, Example 13.1; 13.1.1 Bubble Mapping; 11.1 Onshore Facilities, Example 11.1"
+   ]
+  },
+  {
    "id": "gs-01",
    "topic": "gas",
    "q": "شنو هو الغاز الطبيعي ومكوناته وشلون يتكوّن؟",
@@ -19795,6 +20017,66 @@
    "aEn": "• Gas transmission line: carries gas at high pressure over long distances, together with its associated equipment. If it crosses a country without supplying it, it is called a transit line.\n• Pressure regulator station: automatically reduces the high pressure to a lower constant value suited to the distribution network.\n• Gas conditioning: adjusting the gas properties to requirement — by removing unwanted components and adding wanted ones.\n• Enrichment: raising the heating value of the gas by blending it with a gas of higher heating value.\n• Odourization: adding a chemical with an unpleasant smell so that a leak is detected by smell — often a legal requirement for distribution gas.\n• Gas families: fuel gases with similar combustion properties — that is, similar Wobbe indices — so one can replace another without changing the burners:\n – First family: town gas (hydrogen-rich).\n – Second: natural gas, associated gas and their substitutes.\n – Third: liquefied petroleum gas (propane and butane).\nThe Wobbe index:\n$$ W = \\dfrac{HHV}{\\sqrt{SG}}\nwhere HHV is the higher heating value and SG the gas relative density (air = 1).\nExample: natural gas with HHV = 1,030 Btu/scf and SG = 0.60 (square root ≈ 0.775):\n• W: 1,030 ÷ 0.775 ≈ 1,330 Btu/scf\nAnd propane with HHV = 2,516 Btu/scf and SG = 1.52 (square root ≈ 1.233):\n• W: 2,516 ÷ 1.233 ≈ 2,040 Btu/scf\nThe large difference shows why a burner set for natural gas does not work properly on propane without changing the orifice.",
    "refs": [
     "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — families of gases, odourization, conditioning, enrichment (gas), gas pressure regulator station, gas transmission line"
+   ]
+  },
+  {
+   "id": "gs-40",
+   "topic": "gas",
+   "q": "شلون تطور غاز الـ Barnett Shale: الحفر الأفقي، التكسير بالـ Slickwater، منصات الآبار المتعددة (Pad)، والتحديات البيئية؟",
+   "qEn": "How was Barnett Shale gas developed: horizontal drilling, slickwater fracturing, multi-well pads and the environmental challenges?",
+   "k": [
+    "Barnett Shale development history Mitchell",
+    "slickwater fracturing composition water proppant chemicals",
+    "multi-well pad urban drilling",
+    "flowback water Class II disposal well induced seismicity",
+    "غاز Barnett Shale",
+    "التكسير بالماء الزلق",
+    "منصة آبار متعددة"
+   ],
+   "a": "الـ Barnett Shale (حوض Fort Worth، تكساس): صخر طيني واطي النفاذية جداً، سمكه مئات الأقدام (لحد 450 ft) على عمق 5,000–8,000 ft، ويغطي أكثر من 5,000 ميل مربع.\n• نفاذية الـ Shale غير المتشقق من 0.01 md لحد 0.00001 md — لهذا الآبار العمودية معدلاتها ضعيفة.\n• Mitchell Energy حفرت بئر الاكتشاف 1981، وبعد سنين من التجارب ثبت إن الإنتاج يعتمد على حجم صخر المصدر اللي تلامسه الشقوق الصناعية.\n• اختراقين تقنيين: التكسير الهيدروليكي أولاً، وبعده الحفر الأفقي — البئر العمودية تمر بحوالي 400 ft من الـ Shale، والأفقية بميلين أو أكثر. الاثنين سوية (ويا سعر غاز معقول) خلّوا الإنتاج تجاري.\nالتكسير:\n• على مراحل متعددة، وكل مرحلة تحتاج عشرات آلاف البراميل من الماي.\n• Slickwater: ماي ويا مخفّض احتكاك حتى ينضخ بمعدل أعلى.\n• التركيب بالحجم: أكثر من 90% ماي، حوالي 9% Proppant (رمل)، وحوالي 1% كيمياويات.\n• الحفر والتكسير يستهلكون تقريباً 3 إلى 5 مليون گالون ماي لكل بئر؛ وأكثر من ثلث الماي المحقون يرجع كـ Flowback.\nمنصات الآبار (Pads) والعمل داخل المدن:\n• آبار كثيرة من منصة وحدة، ومساراتها تتوزع حتى تلامس أكبر حجم من الصخر المحفَّز (ينقاس بالأحداث الميكروزلزالية).\n• المنصة الوحدة تقلل عدد المواقع والأنابيب والضوضاء، والحفر الأفقي يوصل تحت الأحياء السكنية من موقع بعيد.\n• إجراءات: حواجز صوت وحجب رؤية، تنظيم حركة الشاحنات، والتواصل ويا السكان قبل الشغل (API Bulletin 100-3).\nالتحديات البيئية:\n• الماي المنتج: يتدوّر أو ينحقن بآبار تصريف (Class II حسب تصنيف EPA) بتكوين Ellenberger المائي على 10,000–12,000 ft.\n• الزلازل المستحثة: الأحداث الميكروزلزالية مال التكسير صغيرة، بس زلازل بقدر حوالي 3 ارتبطت بحقن ماي التصريف بمعدلات عالية.\n• تسرب الغاز: سببه Casing معيوب أو سمنت رديء — خصوصاً بالآبار الأفقية اللي صعب يتوزع السمنت بيها بانتظام.\nالغاز المنتج جاف وأغلبه ميثان، فمعالجته بسيطة: عازلة، كابسات، وخط تجميع.",
+   "aEn": "The Barnett Shale (Fort Worth Basin, Texas): a very low permeability mud rock hundreds of feet thick (up to 450 ft) at depths of 5,000–8,000 ft, covering more than 5,000 square miles.\n• The permeability of unfractured shale ranges from 0.01 md down to 0.00001 md — which is why vertical wells flow at low rates.\n• Mitchell Energy drilled the discovery well in 1981, and after years of trials it was shown that production depends on the volume of source rock contacted by induced fractures.\n• Two technological breakthroughs: hydraulic fracturing first, and then horizontal drilling — a vertical well passes through about 400 ft of shale, a horizontal one through two miles or more. The two together (with a reasonable gas price) made production commercial.\nFracturing:\n• In multiple stages, each needing tens of thousands of barrels of water.\n• Slickwater: water with a friction reducer so it can be pumped at a higher rate.\n• Composition by volume: more than 90% water, about 9% proppant (sand) and about 1% chemicals.\n• Drilling and fracturing use roughly 3 to 5 million gallons of water per well; and more than a third of the injected water returns as flowback.\nWell pads and working inside cities:\n• Many wells are drilled from one pad, with trajectories spread to contact the largest volume of stimulated rock (measured with microseismic events).\n• A single pad reduces the number of sites, pipelines and noise, and horizontal drilling reaches beneath residential areas from a distant site.\n• Measures: noise and sight barriers, control of truck traffic, and engaging the community before work begins (API Bulletin 100-3).\nEnvironmental challenges:\n• Produced water: recycled or injected into disposal wells (Class II in the EPA classification) in the water-bearing Ellenberger formation at 10,000–12,000 ft.\n• Induced seismicity: the microseismic events of fracturing are small, but earthquakes of about magnitude 3 have been linked to wastewater injection at high rates.\n• Gas leaks: caused by faulty casing or poor cement — especially in horizontal wells, where it is hard for the cement to fill the annulus uniformly.\nThe produced gas is dry and mostly methane, so its treatment is simple: a separator, compressors and a gathering line.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 11.8 Urban Operations: The Barnett Shale; 14.4.1 Barnett Shale, Texas: Shale Gas Production"
+   ]
+  },
+  {
+   "id": "gs-41",
+   "topic": "gas",
+   "q": "شنو الفرق بين طريقة SBA وطريقة LIT بتحليل فحص إنتاجية بئر الغاز، وليش زمن الاستقرار مشكلة بالمكامن الكتيمة وشنو الـ RTA؟",
+   "qEn": "What is the difference between the SBA and LIT methods of analysing a gas well deliverability test, and why is stabilization time a problem in tight reservoirs, and what is RTA?",
+   "k": [
+    "LIT method laminar inertial turbulent pseudopressure",
+    "simplified backpressure analysis SBA AOF example",
+    "stabilization time tight gas shale permeability",
+    "rate transient analysis RTA two-rate test turbulence",
+    "طريقة LIT",
+    "زمن الاستقرار",
+    "تحليل المعدل العابر RTA"
+   ],
+   "a": "فحص الإنتاجية (Deliverability) ينطي علاقة بين المعدل وضغط الجريان، ومنها التدفق المفتوح المطلق (AOF) — المعدل النظري لما ضغط قاع البئر صفر. طريقتين للتحليل:\n1) SBA (Simplified backpressure analysis) — تستخدم الضغوط، وصالحة للضغوط الواطية (أقل من 2,000 psia):\n$$ q_{sc} = C\\left(p_r^2 - p_{wf}^2\\right)^n\nنرسم لوغاريتم المعدل مقابل لوغاريتم فرق مربعات الضغط: الميل n والتقاطع log C.\nمثال: C = 0.0589 و n = 0.3477 والضغط المستقر 1,815 psia (المعدل بـ MMSCF/d):\n• مربع الضغط مرفوع للأس n يساوي حوالي 184.6\n• AOF: 0.0589 × 184.6 ≈ 10.9 MMSCF/d\n2) LIT (Laminar–inertial–turbulent) — تستخدم الضغط الكاذب للغاز الحقيقي m(p)، وصالحة لكل الضغوط:\n$$ m(p_r) - m(p_{wf}) = a\\,q_{sc} + b\\,q_{sc}^2\nالحد الأول يمثل الجريان الطباقي، والثاني الجريان القصوري والمضطرب. نرسم Δm ÷ q مقابل q: الميل b والتقاطع a. وبعدها:\n$$ q_{sc} = \\dfrac{-a + \\sqrt{a^2 + 4\\,b\\,\\Delta m}}{2\\,b}\nمثال: a = 3.19 × 10⁶ و b = 1.64 × 10⁶ والضغط الكاذب عند ضغط المكمن 3.13 × 10⁸ psia²/cp ← AOF ≈ 12.9 MMSCF/d (الأسس موجبة؛ هيچ يطلع جواب الكتاب).\nمعامل الاضطراب D ينحسب من فحصين بمعدلين مختلفين (Two-rate test): الـ Skin الظاهري يساوي الـ Skin الحقيقي زائد D × q.\nزمن الاستقرار (Stabilization time) يتناسب عكسياً ويا النفاذية:\n• مكمن تقليدي 10 md: لنفرض ساعة وحدة.\n• غاز كتيم 0.001 md (مايكرودارسي): 10,000 ساعة — أكثر من سنة.\n• غاز Shale بنانودارسي (0.000001 md): 10 مليون ساعة.\nلهذا:\n• بالمكامن واطية النفاذية نستخدم الفحص Isochronal أو Modified isochronal (فترات جريان متساوية وقصيرة بدل انتظار الاستقرار).\n• وبالمكامن الكتيمة جداً ما ممكن نوصل حدود المكمن بفحص واقعي المدة، فنستخدم RTA (Rate transient analysis): تحليل بيانات الإنتاج الاعتيادية — المعدل وضغط الجريان — بحلول مبنية على قانون Darcy ومعادلة الحالة والموازنة المادية لأشكال مختلفة من الآبار والمكامن. الحل اللي يطابق البيانات ينطي النفاذية والغاز الأصلي.\n• دقة الـ RTA تتأثر بضوضاء البيانات: جريان متعدد الأطوار، تداخل آبار ثانية، وتوزيع المعدلات على الطبقات.",
+   "aEn": "A deliverability test gives a relationship between rate and flowing pressure, and from it the absolute open flow (AOF) — the theoretical rate when bottom-hole pressure is zero. Two methods of analysis:\n1) SBA (simplified backpressure analysis) — uses pressures, and is valid at low pressures (below 2,000 psia):\n$$ q_{sc} = C\\left(p_r^2 - p_{wf}^2\\right)^n\nThe logarithm of rate is plotted against the logarithm of the difference of squared pressures: the slope is n and the intercept log C.\nExample: C = 0.0589, n = 0.3477 and a stabilized pressure of 1,815 psia (rate in MMSCF/d):\n• The squared pressure raised to the power n is about 184.6\n• AOF: 0.0589 × 184.6 ≈ 10.9 MMSCF/d\n2) LIT (laminar–inertial–turbulent) — uses the real gas pseudopressure m(p), and is valid at all pressures:\n$$ m(p_r) - m(p_{wf}) = a\\,q_{sc} + b\\,q_{sc}^2\nThe first term represents laminar flow, and the second inertial and turbulent flow. Δm ÷ q is plotted against q: the slope is b and the intercept a. Then:\n$$ q_{sc} = \\dfrac{-a + \\sqrt{a^2 + 4\\,b\\,\\Delta m}}{2\\,b}\nExample: a = 3.19 × 10⁶, b = 1.64 × 10⁶ and a pseudopressure at reservoir pressure of 3.13 × 10⁸ psia²/cp → AOF ≈ 12.9 MMSCF/d (the exponents are positive; that is how the book's answer is obtained).\nThe turbulence factor D is found from two tests at two different rates (two-rate test): the apparent skin equals the true skin plus D × q.\nStabilization time is inversely proportional to permeability:\n• A conventional 10 md reservoir: say one hour.\n• Tight gas at 0.001 md (a microdarcy): 10,000 hours — more than a year.\n• Shale gas at a nanodarcy (0.000001 md): 10 million hours.\nTherefore:\n• In low-permeability reservoirs the isochronal or modified isochronal test is used (short, equal flow periods instead of waiting for stabilization).\n• In very tight reservoirs the reservoir boundaries cannot be reached in a test of realistic duration, so RTA (rate transient analysis) is used: ordinary production data — rate and flowing pressure — are analysed with solutions based on Darcy's law, an equation of state and material balance for different well and reservoir geometries. The solution that matches the data gives the permeability and the original gas in place.\n• The accuracy of RTA is affected by noise in the data: multiphase flow, interference from other wells, and the allocation of rates to layers.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 12.3.4–12.3.6; 12.4 Gas Well Deliverability, Examples 12.6–12.8"
+   ]
+  },
+  {
+   "id": "gs-42",
+   "topic": "gas",
+   "q": "شنو قطاع الـ Midstream، وشنو Henry Hub، وشنو مكونات الغاز الطبيعي و LNG و LPG و NGL وشكد يسترجع كل نوع معمل؟",
+   "qEn": "What is the midstream sector, what is the Henry Hub, and what are the components of natural gas, LNG, LPG and NGL and how much does each type of plant recover?",
+   "k": [
+    "midstream sector gathering lines trunk lines",
+    "Henry Hub benchmark gas price",
+    "natural gas LNG LPG NGL composition natural gasoline",
+    "NGL recovery lean oil refrigeration cryogenic percent",
+    "قطاع النقل midstream",
+    "مكونات LNG و LPG و NGL",
+    "استرجاع سوائل الغاز"
+   ],
+   "a": "الـ Midstream: نقل الهيدروكربونات من الإنتاج (Upstream) للتكرير والمعالجة (Downstream).\n• وسائل النقل: الأنابيب (الخيار الأول غالباً)، الشاحنات (الأكثر مرونة على اليابسة)، القطارات (اقتصادية للحجوم الكبيرة)، والصنادل والناقلات.\n• خطوط التجميع (Gathering lines): أقطار صغيرة تربط الآبار بالخطوط الرئيسية (Trunk lines) الأكبر.\n• الخطوط الطويلة تحتاج محطات كابسات (للغاز) أو مضخات (للسوائل)؛ وكبس الغاز هم يزيد كثافته فتزيد كمية الغاز اللي يشيلها الخط.\n• الصيانة: الماي ممكن يتكثف من الغاز ويا تغير الضغط والحرارة على طول الخط، فتنرسل كاشطات (Pigs) يدفعها الجريان حتى تشيل الماي والشمع، والكاشطات الذكية تفحص الجدار.\n• Henry Hub: نقطة تبادل لأنابيب الغاز بولاية Louisiana — هي نقطة التسليم لعقود بيع الغاز، وسعرها هو السعر المرجعي للغاز بأمريكا.\n• الخزن: خزانات كروية وأسطوانية، كهوف ملحية، ومكامن ناضبة. الغاز الأساس (Base gas) يبقى بالمخزن حتى يحافظ على ضغط تشغيل آمن، والغاز العامل (Working gas) هو اللي ينسحب للاستخدام. والطلب على الغاز موسمي — وهذا سبب الخزن.\nمكونات المنتجات:\n• الغاز الطبيعي الخام: ميثان لحد البنتانات والأثقل، ويا غازات غير هيدروكربونية (CO₂، H₂S، N₂) وماي.\n• غاز المنازل: ميثان وإيثان بالأساس.\n• LNG: أغلبه ميثان ويا شوية إيثان وبروبان ونتروجين. ينشحن سائل عند نقطة غليانه −162°C (−259°F)، ويتبخر ويتسخن بالميناء المستلم.\n• LPG: بروبان أو بيوتان أو خليطهم. ينخزن بأوعية ضغط — من حوالي 40 psi لحد قريب من 200 psi بحرارة الجو حسب التركيب.\n• NGL: من الإيثان فما فوگ. والگازولين الطبيعي (Natural gasoline): بنتانات وأثقل، عادةً لحد 10 ذرات كربون.\nاسترجاع الـ NGL حسب نوع المعمل:\n• Lean oil: إيثان 15–30%، بروبان 65–75%، بيوتانات وأثقل 99%.\n• التبريد (Refrigeration، بالبروبان): إيثان 80–85%، والبروبان وما فوگه 100%.\n• Cryogenic: إيثان 85–90%، والباقي 100%.\nيعني الفرق بين التقنيات هو بالمكونات الخفيفة (الإيثان والبروبان) — واختيار المعمل يعتمد على قيمة الإيثان بالسوق.",
+   "aEn": "Midstream: transporting hydrocarbons from production (upstream) to refining and processing (downstream).\n• Modes of transport: pipelines (usually the first choice), trucks (the most versatile on land), trains (cost-effective for large volumes), and barges and tankers.\n• Gathering lines: small-diameter lines connecting wells to the larger trunk lines.\n• Long lines need compressor stations (for gas) or pump stations (for liquids); compressing gas also raises its density, so the line carries more gas.\n• Maintenance: water can drop out of the gas as pressure and temperature change along the line, so pigs driven by the flow are run to remove water and wax, and intelligent pigs inspect the wall.\n• The Henry Hub: a gas pipeline interchange in Louisiana — it is the delivery point for gas sales contracts, and its price is the benchmark gas price in the United States.\n• Storage: spherical and cylindrical tanks, salt caverns and depleted reservoirs. Base gas stays in the store to maintain a safe operating pressure, and working gas is what is withdrawn for use. Demand for gas is seasonal — which is the reason for storage.\nComponents of the products:\n• Raw natural gas: methane through pentanes and heavier, with non-hydrocarbon gases (CO₂, H₂S, N₂) and water.\n• Residential gas: essentially methane and ethane.\n• LNG: mostly methane with small amounts of ethane, propane and nitrogen. It is shipped as a liquid at its boiling point of −162°C (−259°F), and vaporised and warmed at the receiving terminal.\n• LPG: propane or butane or a mixture of the two. It is stored in pressure vessels — from about 40 psi to almost 200 psi at ambient temperature depending on composition.\n• NGL: ethane and heavier. Natural gasoline: pentanes and heavier, usually up to 10 carbon atoms.\nNGL recovery by plant type:\n• Lean oil: ethane 15–30%, propane 65–75%, butanes and heavier 99%.\n• Refrigeration (with propane): ethane 80–85%, and propane and heavier 100%.\n• Cryogenic: ethane 85–90%, and the rest 100%.\nSo the difference between the technologies lies in the light components (ethane and propane) — and the choice of plant depends on the market value of ethane.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 15.1 The Midstream Sector; 15.3 The Downstream Sector: Natural Gas Processing Plants, Tables 15.2–15.3"
    ]
   },
   {
@@ -20657,6 +20939,27 @@
    ]
   },
   {
+   "id": "of-43",
+   "topic": "offshore",
+   "q": "شنو مشروع Sakhalin-2 بروسيا وشلون انبنت سلسلته: المنصات، أنبوب TransSakhalin، معمل الـ LNG وميناء التصدير؟",
+   "qEn": "What is the Sakhalin-2 project in Russia and how was its chain built: the platforms, the TransSakhalin pipeline, the LNG plant and the export terminal?",
+   "k": [
+    "Sakhalin-2 project infrastructure",
+    "Molikpaq platform Lunskoye Piltun-Astokhskoye",
+    "TransSakhalin pipeline onshore processing facility",
+    "LNG plant Prigorodnoye oil export terminal",
+    "production sharing agreement Sakhalin Energy",
+    "مشروع سخالين 2",
+    "منصة Molikpaq",
+    "معمل LNG وميناء التصدير"
+   ],
+   "a": "Sakhalin-2: مشروع بحري شرق روسيا يطور حقلين مقابل الساحل الشمالي الشرقي لجزيرة Sakhalin، وهو مثال كامل على سلسلة الـ Midstream والـ Downstream.\nالحقلين:\n• Lunskoye (مكتشف 1984): مكمن غاز بيه حافة نفطية.\n• Piltun-Astokhskoye (مكتشف 1986): حقل نفطي من طيتين محدبتين بينهن طية مقعرة.\nالعقد: اتفاقية مشاركة بالإنتاج (PSA) سنة 1994 بين الحكومة الروسية وإدارة Sakhalin وشركة Sakhalin Energy. بنهاية 2000 الشركاء: Shell 55%، Mitsui 25%، Mitsubishi 20%. وسنة 2006 دخلت Gazprom بالأغلبية (50% + سهم)، و Shell 27.5%، Mitsui 12.5%، Mitsubishi 10%.\nالمنشآت:\n• منصة Molikpaq (PA-A): منصة مستعملة انسحبت من بحر Beaufort، تجددت بكوريا، وانحطت على قاعدة فولاذية انملت رمل كجزيرة صناعية بماي ضحل. أول إنتاج نفط منها 1999 — وهو أول إنتاج نفط بحري بروسيا. صارت تشتغل كل السنة من 2008 بعد ربطها بالأنابيب.\n• منصتي Lun-A و PA-B: قواعد خرسانية ثقالية (Gravity base) انصبت صيف 2005، والأجزاء العلوية 2006 و2007. Lun-A بدت تنتج غاز بداية 2009.\n• منشأة المعالجة البرية (OPF) بالشمال: تستلم الإنتاج وتجهز الغاز والمكثفات والنفط للنقل.\n• نظام TransSakhalin: أنبوب نفط وأنبوب غاز بممر واحد طوله 800 km على طول الجزيرة، ويا مضخات وكابسات تعزيز. بدى النقل 2008.\n• مجمع Prigorodnoye بالجنوب على خليج Aniva: معمل LNG (اشتغل شباط 2009) ورصيف تحميل لناقلات الـ LNG، وميناء تصدير النفط (OET) بأنبوب بحري ووحدة تحميل للناقلات.\nالدروس:\n• الحقول البحرية البعيدة تحتاج بنى تحتية كاملة جديدة — المنشآت البرية القديمة ما تكفي.\n• الغاز البعيد عن السوق ينباع كـ LNG بعقود طويلة الأمد (وقّعت ويا شركات يابانية وكورية 2003–2004) قبل ما يكمل البناء.\n• البحر يتجمد شتاءً — لهذا الإنتاج طول السنة ما صار إلا بعد مد الأنابيب بدل التحميل الموسمي.",
+   "aEn": "Sakhalin-2: an offshore project in eastern Russia developing two fields off the north-east coast of Sakhalin Island, and a complete example of the midstream and downstream chain.\nThe two fields:\n• Lunskoye (discovered 1984): a gas reservoir with an oil rim.\n• Piltun-Astokhskoye (discovered 1986): an oil field of two anticlines connected by a syncline.\nThe contract: a production sharing agreement (PSA) in 1994 between the Russian government, the Sakhalin administration and Sakhalin Energy. By the end of 2000 the shareholders were Shell 55%, Mitsui 25% and Mitsubishi 20%. In 2006 Gazprom took a majority (50% plus one share), with Shell 27.5%, Mitsui 12.5% and Mitsubishi 10%.\nThe facilities:\n• The Molikpaq (PA-A) platform: a used platform towed from the Beaufort Sea, refurbished in Korea and set on a steel base filled with sand as an artificial island in shallow water. First oil from it came in 1999 — the first offshore oil production in Russia. It has operated year-round since 2008 after being tied in to the pipelines.\n• The Lun-A and PA-B platforms: concrete gravity base structures installed in the summer of 2005, with topsides in 2006 and 2007. Lun-A began producing gas at the start of 2009.\n• The onshore processing facility (OPF) in the north: receives the production and prepares gas, condensate and oil for transport.\n• The TransSakhalin system: an oil pipeline and a gas pipeline in one 800 km corridor along the island, with booster pumps and compressors. Transport began in 2008.\n• The Prigorodnoye complex in the south on Aniva Bay: the LNG plant (commissioned February 2009) with a loading jetty for LNG carriers, and the oil export terminal (OET) with an offshore pipeline and tanker loading unit.\nThe lessons:\n• Remote offshore fields need a complete new infrastructure — the old onshore facilities are not enough.\n• Gas far from market is sold as LNG under long-term contracts (signed with Japanese and Korean firms in 2003–2004) before construction is finished.\n• The sea freezes in winter — which is why year-round production came only after the pipelines replaced seasonal loading.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 15.4.2 The Sakhalin-2 Project"
+   ]
+  },
+  {
    "id": "rf-01",
    "topic": "refining",
    "q": "شنو هي درجة API للنفط الخام وشلون أحسبها من الكثافة النسبية؟",
@@ -21484,6 +21787,27 @@
    "aEn": "A benchmark (marker) crude is a crude of known quality whose price is taken as the reference; other crudes are priced at a differential to it according to quality and location.\n• Brent: a blend from 15 North Sea fields, light and sweet — 38°API and 0.37% sulphur. The reference for pricing about two-thirds of world oil production, especially in the European and African markets.\n• WTI (West Texas Intermediate): lighter and sweeter — 39.6°API and 0.24% sulphur — and the North American reference. Its pricing point is Cushing, Oklahoma, because it is the junction of a large group of oil pipelines.\n• The OPEC basket: an average of crudes from the member countries. The source (2014) says Brent sells about a dollar above it and about a dollar below WTI — but these differentials move with the market, and in recent years Brent has mostly been above WTI.\nWhat sets the price differential:\n• Density (API): a light crude yields more light products (gasoline and diesel).\n• Sulphur: a sweet crude is cheaper to refine than a sour one.\n• Location: a crude is exported to another market only if the price difference exceeds the freight cost.\nThe problem with the old benchmark crudes is that the reserves and production of their fields decline with time, which pushes the market to look for pricing alternatives.",
    "refs": [
     "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — Brent crude, West Texas crude"
+   ]
+  },
+  {
+   "id": "rf-42",
+   "topic": "refining",
+   "q": "شنو مقاطع برج التقطير ودرجات غليانها وأعداد الكربون، وشلون ينحسب الفصل داخل البرج بحساب الـ Flash، ومتى تتوقف المصفى للصيانة؟",
+   "qEn": "What are the distillation tower fractions with their boiling ranges and carbon numbers, how is the separation inside the tower calculated with a flash calculation, and when is a refinery shut down for maintenance?",
+   "k": [
+    "distillation fractions boiling range carbon number table",
+    "flash calculation distillation Wilson k-value",
+    "two-phase check feed composition example",
+    "refinery maintenance shutdown turnaround",
+    "separation conversion purification",
+    "مقاطع برج التقطير",
+    "حساب الوميض flash",
+    "صيانة المصفى الدورية"
+   ],
+   "a": "المصفى يحول الخام لمنتجات بثلاث عمليات: الفصل (التقطير)، التحويل (FCC، التكسير الهيدروجيني، التفحيم، الألكلة، التهذيب)، والتنقية (المعالجة الهيدروجينية لإزالة الكبريت).\nبرج التقطير الجوي: الفرن يسخن الخام؛ الحرارة حوالي 700°F بأسفل البرج وتنزل لحوالي 90°F بأعلاه، والضغط قريب من 30 psig. كل مقطع يتكثف بمدى حرارته:\n• غازات: C1–C4.\n• نفثا خفيفة: C5–C6، غليانها 90–190°F.\n• نفثا ثقيلة: C6–C12، 190–330°F — للگازولين.\n• كيروسين: C10–C16، 330–480°F — لوقود الطائرات.\n• زيوت الديزل: C14–C20، 480–610°F.\n• زيت الوقود: C20–C70، 610–700°F.\n• المتبقي (Residue): أثقل من C70 — يروح لبرج التقطير الفراغي، لأن نقطة الغليان تنزل لما ينزل الضغط.\nحساب الـ Flash لكل مقطع بالبرج — ثلاث خطوات:\n1) قيم K (نسبة الكسر المولي بالغاز للسائل)، وتتقدر بمعادلة Wilson:\n$$ K_i = \\dfrac{P_{ci}}{P}\\exp\\left[5.37\\,(1+\\omega_i)\\left(1-\\dfrac{T_{ci}}{T}\\right)\\right]\nبدرجات حرارة مطلقة؛ Pc و Tc الضغط والحرارة الحرجين و ω المعامل اللامركزي.\n2) فحص الطورين: إذا مجموع (z × K) ومجموع (z ÷ K) الاثنين أكبر من 1 فالخليط ينفصل لغاز وسائل.\n3) نلگى نسبة الغاز G اللي تخلي مجموع الكسور المولية بالسائل يساوي 1.\nمثال: خمس ألكانات بنسب متساوية (0.20 لكل واحد): C5، C8، C12، C16، C20 عند 45 psia:\n• عند 330°F: قيم K تساوي 6.77، 0.898، 0.101، 0.0162، 0.00337 ← نسبة الغاز G = 0.123 — وحوالي 79% من الغاز هو C5.\n• عند 600°F: نسبة الغاز تصعد إلى 0.841، والسائل الباقي أغلبه C20 (حوالي 59%).\nهذا يوضح ليش كل صينية بالبرج بحرارة مختلفة تسحب مقطع مختلف.\nرقم الأوكتان: البرافينات المستقيمة واطية الأوكتان والأروماتيات عالية — لهذا التهذيب الحفزي يحول البرافينات لأروماتيات وينتج هيدروجين.\nالصيانة الدورية: المعدات تتآكل والعوامل الحفازة تنستهلك، فالمصفى يتوقف مرتين بالسنة — بالربيع والخريف لما الطلب أقل (الصيف موسم سياقة والشتاء موسم تدفئة) — والتوقف من كم يوم لكم أسبوع.",
+   "aEn": "A refinery turns crude into products with three processes: separation (distillation), conversion (FCC, hydrocracking, coking, alkylation, reforming) and purification (hydrotreating to remove sulphur).\nThe atmospheric distillation tower: a furnace heats the crude; the temperature is about 700°F at the bottom of the tower and falls to about 90°F at the top, and the pressure is near 30 psig. Each fraction condenses in its own temperature range:\n• Gases: C1–C4.\n• Light naphtha: C5–C6, boiling at 90–190°F.\n• Heavy naphtha: C6–C12, 190–330°F — for gasoline.\n• Kerosene: C10–C16, 330–480°F — for jet fuel.\n• Diesel oils: C14–C20, 480–610°F.\n• Fuel oil: C20–C70, 610–700°F.\n• Residue: heavier than C70 — it goes to the vacuum distillation tower, because the boiling point falls as pressure is lowered.\nThe flash calculation for each section of the tower — three steps:\n1) K-values (the ratio of the mole fraction in the gas to that in the liquid), estimated with the Wilson equation:\n$$ K_i = \\dfrac{P_{ci}}{P}\\exp\\left[5.37\\,(1+\\omega_i)\\left(1-\\dfrac{T_{ci}}{T}\\right)\\right]\nwith absolute temperatures; Pc and Tc are the critical pressure and temperature and ω the acentric factor.\n2) The two-phase check: if the sum of (z × K) and the sum of (z ÷ K) both exceed 1, the mixture splits into gas and liquid.\n3) Find the gas fraction G that makes the liquid mole fractions sum to 1.\nExample: five alkanes in equal proportions (0.20 each): C5, C8, C12, C16, C20 at 45 psia:\n• At 330°F: the K-values are 6.77, 0.898, 0.101, 0.0162, 0.00337 → the gas fraction G = 0.123 — and about 79% of the gas is C5.\n• At 600°F: the gas fraction rises to 0.841, and the remaining liquid is mostly C20 (about 59%).\nThis shows why each tray in the tower, at a different temperature, draws off a different fraction.\nOctane number: straight-chain paraffins have a low octane number and aromatics a high one — which is why catalytic reforming converts paraffins to aromatics and generates hydrogen.\nPeriodic maintenance: equipment wears and catalysts are consumed, so a refinery is shut down twice a year — in spring and autumn when demand is lowest (summer is the driving season and winter the heating season) — for a few days to a few weeks.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 15.2 The Downstream Sector: Refineries, Figure 15.5, Examples 15.1–15.4; 11.2 Flash Calculation for Separators"
    ]
   },
   {
@@ -23534,6 +23858,207 @@
    ]
   },
   {
+   "id": "re-68",
+   "topic": "reservoir",
+   "q": "ليش نماذج Arps ما تكفي لآبار الـ Shale، وشنو نماذج SEDM و LNDM وتحليل الهبوط الاحتمالي؟",
+   "qEn": "Why are the Arps models not enough for shale wells, and what are the SEDM and LNDM models and probabilistic decline analysis?",
+   "k": [
+    "stretched exponential decline SEDM",
+    "logarithmic decline LNDM shale gas",
+    "probabilistic decline curve analysis Monte Carlo",
+    "EUR P10 P50 P90",
+    "نماذج هبوط الإنتاج للشيل",
+    "الهبوط الأسي الممدد",
+    "تحليل الهبوط الاحتمالي"
+   ],
+   "a": "تحليل منحنيات الهبوط (DCA): نطابق منحنى على بيانات المعدل ويا الزمن ونمده لحد المعدل الاقتصادي؛ الاحتياطي هو الفرق بين الإنتاج التراكمي عند الهجر والتراكمي الحالي.\nمثال Arps الأسي: بئر بدت بـ 4,800 STB/d ونزلت لـ 3,700 بعد سنتين ← معامل الهبوط 0.130 بالسنة، وتوصل 100 STB/d بعد حوالي 30 سنة.\nالمشكلة: نموذج Arps الأسي ما يمثل دائماً هبوط آبار المكامن غير التقليدية (هبوط سريع جداً بالبداية وبعدها ذيل طويل). بدائل:\n1) الأسي الممدد SEDM (Valkó & Lee، 2010) — فكرته إن البئر مجموعة أنظمة متناقصة مجتمعة (مثل هبوط الإنتاج من عدة نطاقات):\n$$ q = q_i \\exp\\left[-\\left(\\dfrac{t}{\\tau}\\right)^{n}\\right]\nثلاث معاملات: qi و τ و n. إذا n = 1 يرجع لنموذج Arps الأسي.\nمثال: بئر غاز Shale، qi = 80,000 MSCF/month و τ = 0.3 month و n = 0.2، بعد 36 شهر:\n• 36 ÷ 0.3 = 120، و 120 مرفوعة للأس 0.2 ≈ 2.605، والأس السالب مالها ≈ 0.0739\n• q: 80,000 × 0.0739 ≈ 5,910 MSCF/month\n2) اللوغاريتمي LNDM — مبني على العلاقة اللوغاريتمية بين الضغط والزمن بالجريان القطري:\n$$ q = a\\,\\ln t + b\nمثال: a = −10,000 و b = 150,000، بعد 36 شهر (ln 36 ≈ 3.584):\n• q: 150,000 − 10,000 × 3.584 ≈ 114,200 MSCF/month\nالتحليل الاحتمالي (Monte Carlo):\n1) نجمع بيانات المعدل–الزمن ونشيل فترات الغلق الطويلة.\n2) نختار النموذج ونحدد توزيع لكل معامل (منتظم أو مثلثي).\n3) نحدد شروط القبول (دالة الهدف، المعدل والتراكمي بنهاية التاريخ).\n4) نولّد عدد كبير من المحاولات بعينات عشوائية.\n5) نبقي بس المحاولات اللي تطابق التاريخ.\n6) نطلع توزيع الـ EUR للمحاولات المقبولة ونحسب المئينات.\n7) نربطها بالاحتمالات: P10 = المئين 90، P50 = المئين 50، P90 = المئين 10 (P90 هو الرقم اللي احتمال تجاوزه 90%، يعني المتحفظ).",
+   "aEn": "Decline curve analysis (DCA): a curve is fitted to rate-versus-time data and extended to the economic rate; reserves are the difference between cumulative production at abandonment and the current cumulative.\nArps exponential example: a well started at 4,800 STB/d and fell to 3,700 after two years → the decline factor is 0.130 per year, and it reaches 100 STB/d after about 30 years.\nThe problem: the Arps exponential model does not always represent the decline of wells in unconventional reservoirs (a very steep early decline followed by a long tail). Alternatives:\n1) The stretched exponential SEDM (Valkó & Lee, 2010) — its idea is that the well is a collection of decaying systems combined (such as declining production from several zones):\n$$ q = q_i \\exp\\left[-\\left(\\dfrac{t}{\\tau}\\right)^{n}\\right]\nThree parameters: qi, τ and n. With n = 1 it reduces to the Arps exponential model.\nExample: a shale gas well with qi = 80,000 MSCF/month, τ = 0.3 month and n = 0.2, after 36 months:\n• 36 ÷ 0.3 = 120, and 120 raised to the power 0.2 ≈ 2.605, whose negative exponential ≈ 0.0739\n• q: 80,000 × 0.0739 ≈ 5,910 MSCF/month\n2) The logarithmic LNDM — based on the logarithmic relation between pressure and time in radial flow:\n$$ q = a\\,\\ln t + b\nExample: a = −10,000 and b = 150,000, after 36 months (ln 36 ≈ 3.584):\n• q: 150,000 − 10,000 × 3.584 ≈ 114,200 MSCF/month\nProbabilistic analysis (Monte Carlo):\n1) Gather the rate–time data and remove long shut-in periods.\n2) Choose the model and specify a distribution for each parameter (uniform or triangular).\n3) Specify the acceptance criteria (objective function, rate and cumulative at the end of history).\n4) Generate a large number of trials from random samples.\n5) Keep only the trials that match the history.\n6) Build the EUR distribution of the accepted trials and calculate the percentiles.\n7) Relate them to probabilities: P10 = the 90th percentile, P50 = the 50th, P90 = the 10th (P90 is the figure with a 90% chance of being exceeded, that is the conservative one).",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 13.2 Decline Curve Analysis; 13.2.1 Alternative DCA Models; 13.3 Probabilistic DCA, Examples 13.2–13.4"
+   ]
+  },
+  {
+   "id": "re-69",
+   "topic": "reservoir",
+   "q": "شنو مؤشرات الدفع (Drive indices) من معادلة الموازنة المادية العامة، وشلون أعرف آلية الدفع من سلوك الـ GOR والضغط؟",
+   "qEn": "What are the drive indices from the general material balance equation, and how is the drive mechanism recognised from GOR and pressure behaviour?",
+   "k": [
+    "drive indices material balance Schilthuis",
+    "solution gas gas cap water drive index sum equals one",
+    "GOR signature critical gas saturation",
+    "combination drive East Texas gravity drainage",
+    "مؤشرات الدفع",
+    "آلية الدفع من سلوك GOR",
+    "الموازنة المادية العامة"
+   ],
+   "a": "معادلة الموازنة المادية العامة (Schilthuis، 1936) تعامل المكمن كخزان واحد بتوازن ضغط: تغيرات حجوم الموائع والصخر داخل المكمن = الإنتاج ناقص الحقن والتدفق المائي.\nإذا قسمنا كل حد على إنتاج الهيدروكربونات نحصل مؤشرات الدفع، ومجموعها دائماً واحد:\n$$ I_{sg} + I_{gc} + I_w + I_i + I_e = 1\n• Isg: دفع الغاز المذاب (تمدد النفط وغازه).\n• Igc: دفع القبعة الغازية.\n• Iw: الدفع المائي (التدفق المائي الصافي من الـ Aquifer).\n• Ii: الموائع المحقونة (ماي أو غاز).\n• Ie: تمدد الماي المحبوس (Connate) والصخر.\nالمؤشر الأكبر هو الآلية المسيطرة — وممكن تتغير خلال عمر المكمن.\nمثال: مكمن نفطي غير مشبع، بدون قبعة غازية، بدون Aquifer وبدون حقن، وضغطه بعده فوگ نقطة الفقاعة ← Igc و Iw و Ii كلها صفر، فيبقى Isg + Ie = 1.\nبصمة كل آلية بالإنتاج:\n• دفع الغاز المذاب: الـ GOR ثابت بالبداية، بعدها نزلة صغيرة لما ينزل الضغط جوه نقطة الفقاعة ويتكون التشبع الغازي الحرج (عادةً 3–5% من حجم المسام)، وبعدها يصعد بقوة لما الغاز الحر يصير متحرك، وبالنهاية ينزل. الضغط يهبط بسرعة.\n• دفع القبعة الغازية: الـ GOR ثابت لحد ما يوصل سطح تماس الغاز–النفط للبئر، وبعدها يزيد.\n• الدفع المائي: الضغط يتماسك، والـ GOR يبقى واطي، ونسبة الماي تصعد — وهو أكفأ آلية.\nمعاملات الاستخلاص الأولية (Ahmed، 2000): دفع مائي 35–75%، قبعة غازية 20–40%، غاز مذاب 5–30% من النفط الأصلي. مكمن الغاز الجاف بالاستنزاف 80–90%، وإذا بيه دفع مائي 50–70% (لأن الماي المتقدم يحبس غاز).\nالدفع المركب (Combination): آليتين أو أكثر سوية — مثل حقل East Texas (مكتشف 1930، إنتاجه تجاوز 5 مليار برميل) اللي اشتغل بيه التصريف بالجاذبية ويا الدفع المائي من Aquifer يتغذى من منكشف سطحي.",
+   "aEn": "The general material balance equation (Schilthuis, 1936) treats the reservoir as a single tank in pressure equilibrium: the changes in fluid and rock volumes inside the reservoir = production minus injection and water influx.\nDividing each term by the hydrocarbon production gives the drive indices, which always sum to one:\n$$ I_{sg} + I_{gc} + I_w + I_i + I_e = 1\n• Isg: solution gas drive (expansion of the oil and its gas).\n• Igc: gas cap drive.\n• Iw: water drive (net water influx from the aquifer).\n• Ii: injected fluids (water or gas).\n• Ie: expansion of connate water and rock.\nThe largest index is the dominant mechanism — and it can change during the life of the reservoir.\nExample: an undersaturated oil reservoir with no gas cap, no aquifer and no injection, with pressure still above the bubble point → Igc, Iw and Ii are all zero, leaving Isg + Ie = 1.\nThe production signature of each mechanism:\n• Solution gas drive: GOR is constant at first, then dips slightly as pressure falls below the bubble point and the critical gas saturation forms (typically 3–5% of pore volume), then rises strongly once the free gas becomes mobile, and finally declines. Pressure falls quickly.\n• Gas cap drive: GOR is constant until the gas–oil contact reaches the well, and then increases.\n• Water drive: pressure is maintained, GOR stays low and the water cut rises — it is the most efficient mechanism.\nPrimary recovery efficiencies (Ahmed, 2000): water drive 35–75%, gas cap 20–40%, solution gas 5–30% of the original oil. A dry gas reservoir under depletion 80–90%, and with water drive 50–70% (because the advancing water traps gas).\nCombination drive: two or more mechanisms together — such as the East Texas field (discovered in 1930, with production exceeding 5 billion barrels), where gravity drainage worked together with water drive from an aquifer recharged at a surface outcrop.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 13.4.2 Schilthuis Material Balance Equation, Tables 13.3–13.5; 13.6 Depletion Drive Mechanisms and Recovery Efficiencies, Example 13.7"
+   ]
+  },
+  {
+   "id": "re-70",
+   "topic": "reservoir",
+   "q": "شلون ينحسب الاحتياطي المثبت والمحتمل والممكن (P90، P50، P10) من توزيع احتمالي طبيعي؟",
+   "qEn": "How are proved, probable and possible reserves (P90, P50, P10) calculated from a normal probability distribution?",
+   "k": [
+    "P90 P50 P10 normal distribution reserves",
+    "mean minus 1.28 standard deviation",
+    "proved probable possible example",
+    "SPE PRMS probability",
+    "حساب P90 P50 P10",
+    "التوزيع الطبيعي للاحتياطي",
+    "الاحتياطي المثبت والمحتمل والممكن"
+   ],
+   "a": "تعاريف SPE-PRMS مربوطة بالاحتمال:\n• المثبت (Proved): لازم يكون على الأقل 90% احتمال (P90) إن المستخلص فعلاً يساوي أو يزيد على التقدير الواطي.\n• المحتمل (Probable): على الأقل 50% (P50) إنه يساوي أو يزيد على التقدير الأفضل.\n• الممكن (Possible): على الأقل 10% (P10) إنه يساوي أو يزيد على التقدير العالي.\nإذا فرضنا توزيع الاحتياطي طبيعي (Normal) بمعدل μ وانحراف معياري σ:\n$$ P_{90} = \\mu - 1.28\\,\\sigma\n$$ P_{50} = \\mu\n$$ P_{10} = \\mu + 1.28\\,\\sigma\nمثال 1: المعدل 200 MMSTB والانحراف المعياري 20 MMSTB:\n• P90: 200 − 1.28 × 20 = 174.4 MMSTB\n• P50: 200 MMSTB\n• P10: 200 + 1.28 × 20 = 225.6 MMSTB\nمثال 2 (حقل منتج): المعدل 255 MSTB والانحراف 25 MSTB:\n• P90: 255 − 1.28 × 25 = 223 MSTB\n• P10: 255 + 1.28 × 25 = 287 MSTB\nشنو يعني هذا:\n• كل ما چان عدم اليقين أكبر (σ أكبر) يبتعد الـ P90 عن الـ P50 — يعني الاحتياطي المثبت يصغر حتى لو المعدل نفسه.\n• بيانات إضافية (آبار، تاريخ إنتاج) تصغّر σ فيقترب P90 من P50 — وهذا سبب إن الحقل المنتج يتثبت احتياطيه أكثر ويا الوقت.\n• التوزيع نفسه يجي من جمع عدم اليقين بحجم المكمن ومعامل الاستخلاص، وغالباً بمحاكاة Monte Carlo.",
+   "aEn": "The SPE-PRMS definitions are tied to probability:\n• Proved: there should be at least a 90% probability (P90) that the quantity actually recovered will equal or exceed the low estimate.\n• Probable: at least 50% (P50) that it will equal or exceed the best estimate.\n• Possible: at least 10% (P10) that it will equal or exceed the high estimate.\nIf the distribution of reserves is assumed normal with mean μ and standard deviation σ:\n$$ P_{90} = \\mu - 1.28\\,\\sigma\n$$ P_{50} = \\mu\n$$ P_{10} = \\mu + 1.28\\,\\sigma\nExample 1: a mean of 200 MMSTB and a standard deviation of 20 MMSTB:\n• P90: 200 − 1.28 × 20 = 174.4 MMSTB\n• P50: 200 MMSTB\n• P10: 200 + 1.28 × 20 = 225.6 MMSTB\nExample 2 (a producing field): a mean of 255 MSTB and a standard deviation of 25 MSTB:\n• P90: 255 − 1.28 × 25 = 223 MSTB\n• P10: 255 + 1.28 × 25 = 287 MSTB\nWhat this means:\n• The larger the uncertainty (larger σ), the further P90 lies from P50 — so proved reserves shrink even if the mean is the same.\n• More data (wells, production history) reduces σ, so P90 moves towards P50 — which is why a producing field has more of its reserves proved with time.\n• The distribution itself comes from combining the uncertainty in reservoir size and recovery factor, usually by Monte Carlo simulation.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 2.2.1 Reserves, Table 2.1, Example 2.1; Example 14.3"
+   ]
+  },
+  {
+   "id": "re-71",
+   "topic": "reservoir",
+   "q": "شنو وحدات الجريان (Flow units) والنموذج الستاتيكي والديناميكي، وشنو الفرق بين منهجية الحقل الأخضر والحقل البني بالمحاكاة؟",
+   "qEn": "What are flow units and the static and dynamic models, and how do green field and brown field workflows differ in simulation?",
+   "k": [
+    "flow units static dynamic model",
+    "geologic model realization upscaling grid cells",
+    "green field brown field workflow",
+    "deterministic probabilistic forecast history match",
+    "وحدات الجريان",
+    "النموذج الستاتيكي والديناميكي",
+    "الحقل الأخضر والحقل البني"
+   ],
+   "a": "وحدة الجريان (Flow unit): جزء قابل للرسم من المكمن، خواصه الجيولوجية والبتروفيزيائية اللي تأثر على جريان الموائع متجانسة ومختلفة بشكل متوقع عن باقي الأجزاء.\n• تتحدد أولاً من البيانات الستاتيكية (اللي ما تتغير ويا الزمن، مثل التركيب ونوع الصخر)، وبعدها تتأكد بالبيانات الديناميكية (معدلات وضغوط وفحوص جريان) — وإذا ما تطابقت تتعدل.\nالنماذج:\n• النموذج الجيولوجي (الستاتيكي): تركيب المكمن ويا الخواص موزعة على خلايا (Grid cells): قمم، سمك كلي وصافي، مسامية، نفاذية، تشبعات، صدوع وشقوق.\n• كل نموذج ممكن هو تحقق واحد (Realization)؛ لأن البيانات غير مؤكدة، نگدر نبني نماذج ثانية كلها تطابق البيانات.\n• نموذج الجريان (الديناميكي): نسخة مبسطة (Upscaled) تشتغل بالمحاكي حتى يحسب الجريان بين الخلايا ومن وإلى الآبار.\nمثال التبسيط: نموذج جيولوجي 300 × 400 × 100 خلية:\n• 300 × 400 × 100 = 12,000,000 خلية\nونموذج جريان 150 × 200 × 10:\n• 150 × 200 × 10 = 300,000 خلية\nمثال حجم الخلية: خلية 100 × 100 ft، سمكها الصافي 16 ft ومساميتها 0.14:\n• الحجم المسامي: 100 × 100 × 16 × 0.14 = 22,400 ft³، يعني حوالي 3,990 RB\n• بئر تنتج 100 RB/d بخطوة زمنية 5 أيام تسحب 500 RB — حوالي 12.5% من حجم الخلية المسامي. إذا النسبة عالية هواية لازم تصغر الخطوة الزمنية أو تكبر الخلية.\nمنهجيتين للدراسة:\n• الحقل الأخضر (Green field): مكتشف وما متطور. ماكو تاريخ إنتاج يقيّد النتائج، فنحدد المعاملات غير المؤكدة وتوزيعاتها، نولّد تحققات ونطلع توزيع للاستخلاص.\n• الحقل البني (Brown field): إله تاريخ إنتاج مهم. الخطوات: جمع البيانات ← تحديد المعاملات وعدم يقينها ← معايير ومتغيرات مطابقة التاريخ ← التوقع ← تقييم جودة المطابقة ← توزيع النتائج ← التحقق.\n – التوقع الحتمي (Deterministic): نموذج واحد يتطابق ويا التاريخ ويتوقع.\n – الاحتمالي (Probabilistic): مجموعة تحققات تشتغل كلها وتتقارن ويا التاريخ.",
+   "aEn": "A flow unit is a mappable portion of the reservoir within which the geological and petrophysical properties that affect fluid flow are consistent and predictably different from those of the other parts.\n• It is first identified from static data (which do not change with time, such as structure and rock type), and then validated against dynamic data (rates, pressures and flow tests) — and modified if they disagree.\nThe models:\n• The geologic (static) model: the reservoir structure with properties distributed over grid cells: tops, gross and net thickness, porosity, permeability, saturations, faults and fractures.\n• Each possible model is one realization; because the data are uncertain, other models can be built that all honour the data.\n• The flow (dynamic) model: an upscaled version run in the simulator to calculate flow between cells and into and out of wells.\nUpscaling example: a geologic model of 300 × 400 × 100 cells:\n• 300 × 400 × 100 = 12,000,000 cells\nand a flow model of 150 × 200 × 10:\n• 150 × 200 × 10 = 300,000 cells\nCell size example: a cell of 100 × 100 ft with a net thickness of 16 ft and a porosity of 0.14:\n• Pore volume: 100 × 100 × 16 × 0.14 = 22,400 ft³, which is about 3,990 RB\n• A well producing 100 RB/d over a 5-day timestep withdraws 500 RB — about 12.5% of the cell pore volume. If the fraction is very high the timestep must be reduced or the cell enlarged.\nTwo workflows for a study:\n• Green field: discovered but undeveloped. There is no production history to constrain the results, so the uncertain parameters and their distributions are identified, realizations are generated and a distribution of recovery is produced.\n• Brown field: it has significant production history. The steps: gather data → identify parameters and their uncertainties → history match criteria and variables → forecast → assess the quality of the match → distribution of results → verify.\n – Deterministic forecasting: a single model is matched to history and used to forecast.\n – Probabilistic forecasting: an ensemble of realizations is all run and compared with history.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 14.1 Reservoir Flow Simulators; 14.2 Reservoir Flow Modeling Workflows, Table 14.1, Examples 14.1–14.2"
+   ]
+  },
+  {
+   "id": "re-72",
+   "topic": "reservoir",
+   "q": "شنو الدروس من حقل Wilmington (هبوط السطح والغمر المائي) وحقل Prudhoe Bay (تدوير الغاز والحقن الامتزاجي)؟",
+   "qEn": "What are the lessons from the Wilmington Field (subsidence and waterflooding) and the Prudhoe Bay Field (gas cycling and miscible injection)?",
+   "k": [
+    "Wilmington field subsidence waterflood",
+    "Prudhoe Bay gas cycling miscible gas injection",
+    "tar mat aquifer blocked",
+    "case history reservoir performance",
+    "حقل Wilmington هبوط السطح",
+    "حقل Prudhoe Bay",
+    "تدوير الغاز"
+   ],
+   "a": "حقل Wilmington (كاليفورنيا، حوض لوس أنجلوس):\n• طية محدبة طولها حوالي 13 ميل وعرضها 3 ميل، مقسمة لكتل صدعية بصدوع اعتيادية. النفط الأصلي حوالي 8.8 مليار برميل.\n• سبع نطاقات بين 2,000 و 7,500 ft؛ الستة العليا رمال غير متماسكة أو ضعيفة التماسك متداخلة ويا Shale — وانضغاطيتها عالية.\n• الإنتاج بالاستنزاف (دفع غاز مذاب) من 1936 للخمسينيات سبب هبوط السطح (Subsidence) لحد 29 ft؛ بعض المناطق نزلت جوه مستوى البحر وانحمت بسدود.\n• الدرس: الجزء اللي تحت ميناء Long Beach ما انسمح بتطويره إلا باتفاق يمنع الهبوط — فبدى الحقن المائي بيه من أول يوم (حفاظ على الضغط = منع الانضغاط).\n• النفط ثقيل (12–21°API) ولزج (15–70 cP)، فنسبة الحركية غير مواتية؛ انطبق غمر بنمط Staggered line drive بتباعد 10 acre، وحقن محيطي بالنطاقات الباقية.\n• الآبار انحفرت اتجاهياً من أربع جزر صناعية. الحقن وصل مليون برميل ماي باليوم، وذروة الإنتاج 150,000 bbl/d سنة 1969.\n• من عقود والمنشآت تتعامل ويا نسبة ماي 80–97%. بالتسعينيات انضافت آبار أفقية وغمر بخاري.\nحقل Prudhoe Bay (ألاسكا، مكتشف 1968):\n• مكمن رملي (Ivishak) بيه قبعة غازية أكثر من 30 Tcf فوگ نطاق نفطي أكثر من 20 مليار برميل (حوالي 28°API).\n• Tar mat بسمك 20–60 ft بقاعدة النفط فوگ سطح تماس النفط–الماي: هيدروكربونات ثقيلة عالية اللزوجة تسد الجريان — فمنعت دخول الـ Aquifer. النتيجة: الدفع الأولي چان تمدد القبعة الغازية والتصريف بالجاذبية، ودعم الضغط لازم يجي من الحقن.\n• بدى الإنتاج 1977 بعد إكمال أنبوب Trans Alaska. الهضبة 1.5 مليون bbl/d من 1979 لحد 1988.\n• تدوير الغاز (Gas cycling): الغاز المنتج ينحقن بالقبعة لدعم الضغط. سنة 1986 انضاف معمل يفصل سوائل الغاز (NGL) وتنخلط ويا النفط.\n• حقن ماي البحر من 1984، والحقن الامتزاجي بدى بتجربة صغيرة (Pilot) سنة 1982 وتوسع من 1987: الغاز ينحقن بضغط أعلى من ضغط الامتزاج الأدنى (MMP) فيمتزج ويا النفط وينفخه.\nمثال مراحل الإنتاج: الاستخلاص الأولي 100 MMSTB، والغمر المائي أضاف 25% من النفط الأصلي، والمجموع 50% ← الأولي هم 25%، فالغمر استخلص 100 MMSTB، والنفط الأصلي: 200 ÷ 0.5 = 400 MMSTB.",
+   "aEn": "The Wilmington Field (California, Los Angeles Basin):\n• An anticline about 13 miles long and 3 miles wide, cut into fault blocks by normal faults. Original oil in place is about 8.8 billion barrels.\n• Seven zones between 2,000 and 7,500 ft; the upper six are unconsolidated to poorly consolidated sands interbedded with shale — and highly compactible.\n• Production by depletion (solution gas drive) from 1936 to the 1950s caused surface subsidence of up to 29 ft; some areas sank below sea level and were protected by dikes.\n• The lesson: the part beneath Long Beach Harbor could not be developed until an agreement was reached to prevent subsidence — so water injection began there from the outset (pressure maintenance = preventing compaction).\n• The oil is heavy (12–21°API) and viscous (15–70 cP), so the mobility ratio is unfavourable; a staggered line drive flood on 10-acre spacing was applied, with peripheral flooding in the other zones.\n• The wells were drilled directionally from four artificial islands. Injection reached one million barrels of water per day, and oil production peaked at 150,000 bbl/d in 1969.\n• For decades the facilities have handled water cuts of 80–97%. In the 1990s horizontal wells and a steam flood were added.\nThe Prudhoe Bay Field (Alaska, discovered 1968):\n• A sandstone reservoir (Ivishak) with a gas cap of more than 30 Tcf above an oil zone of more than 20 billion barrels (about 28°API).\n• A tar mat 20–60 ft thick at the base of the oil above the oil–water contact: heavy, highly viscous hydrocarbons that block flow — so it shut off aquifer influx. The result: the primary drives were gas cap expansion and gravity drainage, and pressure support had to come from injection.\n• Production began in 1977 after the Trans Alaska Pipeline was completed. The plateau was 1.5 million bbl/d from 1979 to 1988.\n• Gas cycling: produced gas is reinjected into the gas cap to support pressure. In 1986 a plant was added to separate natural gas liquids (NGL), which are blended with the oil.\n• Seawater injection started in 1984, and miscible injection began with a small pilot in 1982 and was expanded from 1987: gas is injected above the minimum miscibility pressure (MMP) so that it mixes with the oil and swells it.\nProduction stages example: primary recovery was 100 MMSTB, the waterflood added 25% of the original oil, and the total was 50% → primary was also 25%, so the flood recovered 100 MMSTB, and the original oil in place: 200 ÷ 0.5 = 400 MMSTB.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 14.3 Performance of Conventional Oil and Gas Reservoirs, Example 14.4"
+   ]
+  },
+  {
+   "id": "re-73",
+   "topic": "reservoir",
+   "q": "شنو أنواع فحوص الضغط العابر حسب نوع البئر وتغيير المعدل: Buildup، Drawdown، Falloff، Injectivity، و Interference؟",
+   "qEn": "What are the types of pressure transient test by well type and rate change: buildup, drawdown, falloff, injectivity and interference?",
+   "k": [
+    "pressure transient test types table",
+    "buildup drawdown falloff injectivity test",
+    "interference pulse test pressure communication",
+    "wellbore storage infinite acting boundary effects",
+    "أنواع فحوص الضغط العابر",
+    "فحص الحقنية",
+    "فحص التداخل بين الآبار"
+   ],
+   "a": "فحص الضغط العابر (PTT): نغيّر معدل البئر ونراقب استجابة الضغط ويا الزمن. المعدل ممكن يزيد أو يقل، بآبار الإنتاج أو الحقن — فتطلع أربع أنواع:\n• بئر إنتاج، المعدل يقل (غلق): Pressure buildup (PBU) — ضغط البئر أوطى من ضغط التكوين، فلما تنسد يصعد.\n• بئر إنتاج، المعدل يزيد (فتح): Pressure drawdown — الضغط ينزل.\n• بئر حقن، المعدل يقل (غلق): Pressure falloff — ضغط بئر الحقن أعلى من التكوين، فلما تنسد ينزل.\n• بئر حقن، المعدل يزيد: Injectivity test — نتأكد إن البئر تگدر توصل معدل الحقن المطلوب.\nفحوص بين بئرين:\n• Interference / Pulse test: نغيّر المعدل ببئر ونقيس الضغط ببئر ثانية. إذا تغير الضغط هناك فالبئرين بيناتهم اتصال ضغطي (Pressure communication) — يعني ماكو حاجز (صدع سادّ مثلاً) بينهم.\nطريقة تغيير المعدل:\n• تغيير مفاجئ للغلق: بالـ Buildup والـ Falloff.\n• تغيير تدريجي على خطوات: بفحوص إنتاجية آبار الغاز (Deliverability).\nمراحل الاستجابة ويا الزمن:\n1) الزمن المبكر: تسيطر عليه تأثيرات البئر — خزن البئر (Wellbore storage، بسبب حجم البئر) والـ Skin (نوعية جدار البئر).\n2) منطقة انتقالية.\n3) منطقة التصرف اللانهائي (Infinite-acting): الاستجابة ما متأثرة لا بالبئر ولا بالحدود — منها تنحسب النفاذية.\n4) تأثير الحدود: الانحراف عن الاتجاه السابق يعني موجة الضغط وصلت حد المكمن.\nشنو نطلع من الفحوص: النفاذية وقدرة الجريان (kh)، الـ Skin، ضغط المكمن، المسافة للحدود والصدوع، والاتصال بين الآبار. ودقتها تعتمد على دقة بيانات الإنتاج وخواص الموائع والسمك والمسامية — ولازم تتطابق نتائجها ويا النموذج الجيولوجي.\nالمحدد العملي: الكلفة، وخسارة الإنتاج خلال الغلق.",
+   "aEn": "A pressure transient test (PTT): the well rate is changed and the pressure response is monitored with time. The rate can be increased or decreased, in production or injection wells — which gives four types:\n• Production well, rate decreased (shut in): pressure buildup (PBU) — the wellbore pressure is lower than formation pressure, so it rises when the well is shut in.\n• Production well, rate increased (opened): pressure drawdown — the pressure falls.\n• Injection well, rate decreased (shut in): pressure falloff — the pressure in an injector is higher than the formation, so it falls when the well is shut in.\n• Injection well, rate increased: injectivity test — it confirms that the well can achieve the desired injection rate.\nTests between two wells:\n• Interference / pulse test: the rate is changed at one well and the pressure is measured at another. If the pressure changes there, the two wells are in pressure communication — that is, there is no barrier (such as a sealing fault) between them.\nHow the rate is changed:\n• An abrupt change to shut-in: in buildup and falloff tests.\n• Incremental changes in steps: in gas well deliverability tests.\nThe stages of the response with time:\n1) Early time: dominated by wellbore effects — wellbore storage (due to the volume of the wellbore) and skin (the quality of the borehole wall).\n2) A transition region.\n3) The infinite-acting region: the response is affected neither by the wellbore nor by the boundaries — permeability is calculated from it.\n4) Boundary effects: a departure from the earlier trend means the pressure transient has reached the reservoir boundary.\nWhat the tests give: permeability and flow capacity (kh), skin, reservoir pressure, the distance to boundaries and faults, and communication between wells. Their accuracy depends on the accuracy of production data, fluid properties, thickness and porosity — and their results must be consistent with the geological model.\nThe practical limit: cost, and the production lost during shut-in.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 12.1 Pressure Transient Testing, Table 12.1; 12.5 Summary of Transient Well Testing"
+   ]
+  },
+  {
+   "id": "re-74",
+   "topic": "reservoir",
+   "q": "شلون ينحسب معدل النفاذية لطبقات متوازية ولطبقات على التوالي، وشنو الفرق بين السرعة الظاهرية والسرعة الحقيقية بالمسام؟",
+   "qEn": "How is average permeability calculated for layers in parallel and in series, and what is the difference between superficial velocity and interstitial velocity?",
+   "k": [
+    "average permeability parallel series layers",
+    "arithmetic harmonic average permeability",
+    "Dykstra-Parsons from arithmetic and harmonic mean",
+    "superficial Darcy velocity interstitial velocity",
+    "permeability anisotropy kv kh pressure dependence",
+    "معدل النفاذية طبقات متوازية وتوالي",
+    "السرعة الظاهرية والحقيقية",
+    "تباين النفاذية"
+   ],
+   "a": "1) طبقات متوازية (الجريان يمشي بكل الطبقات سوية، نفس ضغط الدخول والخروج) — معدل موزون بالسمك، وصالح للجريان الخطي والقطري:\n$$ k_{ave} = \\dfrac{\\sum k_i h_i}{\\sum h_i}\nمثال: طبقة 100 md بسمك 10 ft وطبقة 10 md بسمك 30 ft:\n• (100 × 10 + 10 × 30) ÷ (10 + 30) = 32.5 md\n2) مقاطع على التوالي (نفس المعدل يمر بكل المقاطع، وهبوط الضغط يتجمع) — معدل توافقي موزون بالطول:\n$$ k_{ave} = \\dfrac{\\sum L_i}{\\sum L_i / k_i}\nمثال: مقطع 100 md طوله 10 ft وبعده مقطع 10 md طوله 30 ft:\n• (10 + 30) ÷ (10 ÷ 100 + 30 ÷ 10) ≈ 12.9 md\nالمعنى: بالتوالي المقطع الضعيف هو الحاكم — وهذا سبب إن منطقة ضرر صغيرة حول البئر (Skin) تأثر هواية على الإنتاجية. بالجريان القطري المقاطع تصير حلقات حول البئر وتدخل اللوغاريتمات بالمعادلة.\n3) معامل Dykstra–Parsons من المعدلين (لطبقات متساوية السمك):\n$$ V_{DP} = 1 - \\exp\\left(-\\sqrt{\\ln\\left(k_A/k_H\\right)}\\right)\nحيث kA المعدل الحسابي و kH المعدل التوافقي. صفر = متجانس، ويقترب من 1 كل ما زاد التباين؛ أغلب المكامن بين 0.3 و 0.9.\nمثال: ثلاث طبقات 100 و 5 و 25 md:\n• kA: (100 + 5 + 25) ÷ 3 ≈ 43.3 md\n• kH: 3 ÷ (1 ÷ 100 + 1 ÷ 5 + 1 ÷ 25) = 12 md\n• VDP ≈ 0.678\n4) النفاذية الاتجاهية: بهواية مكامن النفاذية الأفقية حوالي 10 أضعاف العمودية — بسبب التطبق، وأوضح بالرملي من الجيري. إذا kx ما تساوي ky منطقة الصرف تصير بيضوية مو دائرية.\n5) النفاذية تتأثر بالضغط: لما ينزل ضغط المسام وزن الطبقات ينضغط الصخر فتقل النفاذية — بمثال الكتاب من حوالي 33 md عند 2,500 psi لحوالي 26 md عند 1,000 psi (نقص حوالي 21%).\n6) السرعات:\n• الظاهرية (Superficial / Darcy velocity): المعدل ÷ مساحة المقطع الكلية — تتجاهل المسامية.\n• الحقيقية (Interstitial): الظاهرية ÷ المسامية — هي سرعة المائع الفعلية بالمسام، ودائماً أكبر.\nمثال: سرعة ظاهرية 1 ft/d ومسامية 0.20:\n• 1 ÷ 0.20 = 5 ft/d\nوهي اللي تنستخدم لحساب زمن وصول الماي المحقون أو المتتبِّع (Tracer).",
+   "aEn": "1) Layers in parallel (flow passes through all layers together, with the same inlet and outlet pressure) — a thickness-weighted average, valid for linear and radial flow:\n$$ k_{ave} = \\dfrac{\\sum k_i h_i}{\\sum h_i}\nExample: a 100 md layer 10 ft thick and a 10 md layer 30 ft thick:\n• (100 × 10 + 10 × 30) ÷ (10 + 30) = 32.5 md\n2) Segments in series (the same rate passes through every segment, and the pressure drops add) — a length-weighted harmonic average:\n$$ k_{ave} = \\dfrac{\\sum L_i}{\\sum L_i / k_i}\nExample: a 100 md segment 10 ft long followed by a 10 md segment 30 ft long:\n• (10 + 30) ÷ (10 ÷ 100 + 30 ÷ 10) ≈ 12.9 md\nThe meaning: in series the poor segment governs — which is why a small damaged zone around the well (skin) has a large effect on productivity. In radial flow the segments become rings around the well and logarithms enter the equation.\n3) The Dykstra–Parsons coefficient from the two averages (for layers of equal thickness):\n$$ V_{DP} = 1 - \\exp\\left(-\\sqrt{\\ln\\left(k_A/k_H\\right)}\\right)\nwhere kA is the arithmetic average and kH the harmonic average. Zero = homogeneous, approaching 1 as heterogeneity increases; most reservoirs lie between 0.3 and 0.9.\nExample: three layers of 100, 5 and 25 md:\n• kA: (100 + 5 + 25) ÷ 3 ≈ 43.3 md\n• kH: 3 ÷ (1 ÷ 100 + 1 ÷ 5 + 1 ÷ 25) = 12 md\n• VDP ≈ 0.678\n4) Directional permeability: in many reservoirs horizontal permeability is about 10 times the vertical — because of layering, and more so in sandstones than in limestones. If kx differs from ky the drainage area becomes elliptical rather than circular.\n5) Permeability depends on pressure: as pore pressure falls the overburden compresses the rock and permeability decreases — in the book's example from about 33 md at 2,500 psi to about 26 md at 1,000 psi (a loss of about 21%).\n6) Velocities:\n• Superficial (Darcy) velocity: rate ÷ total cross-sectional area — it ignores porosity.\n• Interstitial velocity: superficial ÷ porosity — the actual fluid velocity in the pores, and always larger.\nExample: a superficial velocity of 1 ft/d and a porosity of 0.20:\n• 1 ÷ 0.20 = 5 ft/d\nIt is the one used to calculate the arrival time of injected water or a tracer.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 4.2.1–4.2.2; 4.3 Reservoir Heterogeneity and Permeability; 4.4 Directional Permeability, Example 4.5"
+   ]
+  },
+  {
+   "id": "re-75",
+   "topic": "reservoir",
+   "q": "شكد المسامية والنفاذية المعتادة لأنواع الصخور، وشلون تنقاس مسامية وتشبع اللباب بالمختبر، وشنو انضغاطية حجم المسام؟",
+   "qEn": "What are typical porosities and permeabilities of rock types, how are core porosity and saturation measured in the laboratory, and what is pore volume compressibility?",
+   "k": [
+    "typical porosity by rock type table",
+    "typical permeability shale tight sandstone limestone",
+    "core porosity saturation measurement example",
+    "pore volume compressibility subsidence Long Beach",
+    "مسامية أنواع الصخور",
+    "قياس مسامية اللباب",
+    "انضغاطية حجم المسام"
+   ],
+   "a": "المسامية المعتادة:\n• فحم 2–3%، Shale 5–10%.\n• حجر رملي أقل من 25%، حجر جيري أقل من 25%، دولومايت أقل من 30%.\n• رمل سائب جيد الفرز 32–42%، Diatomite 40–60%.\n• أغلب المكامن التقليدية 15–25%.\nالنفاذية المعتادة:\n• Shale أقل من 0.005 md، ورملي غازي كتيم أقل من 0.01 md.\n• حجر رملي متماسك 0.1–200 md، وحجر جيري 0.1–200 md، وفحم 0.1–200 md.\n• رملي متماسك جزئياً 0.2–2 darcy، و Diatomite 1–10 md.\n• رملي خشن الحبيبات ممكن 500 md، وناعم الحبيبات بس كم مليدارسي.\nقياس مسامية اللباب (طريقة التشبيع): لباب أسطواني طوله 3 in وقطره 0.75 in ← الحجم الكلي 21.7 cc. وزنه جاف 125 g ومشبع بماي عذب 127.95 g:\n• حجم المسام: 127.95 − 125 = 2.95 cc\n• المسامية: 2.95 ÷ 21.7 ≈ 0.136\nقياس التشبع: نفس اللباب مشبع بـ 2.95 ml ماي؛ حقنّا نفط وطلع 2.10 ml ماي:\n• تشبع النفط: 2.10 ÷ 2.95 ≈ 0.712، وتشبع الماي 0.288.\nالحجم الكلي = حجم الحبيبات + حجم المسام. ونهتم بس بالمسام المتصلة.\nانضغاطية حجم المسام (cf): تغير حجم المسام النسبي لكل وحدة تغير بضغط المسام. المدى المعتاد 10 × 10⁻⁶ إلى 60 × 10⁻⁶ لكل psi.\nمثال: cf = 0.00003 لكل psi ونزل الضغط 1,000 psi:\n• 0.00003 × 1,000 = 0.03 — يعني حجم المسام ينقص 3%.\nالنتيجة العملية — هبوط السطح: مدينة Long Beach هبطت لحد 29 ft بين الأربعينيات والستينيات بسبب إنتاج حقل Wilmington وانضغاط المسام. من منتصف الستينيات انفرض على المنتجين يحقنون حوالي 1.05 برميل ماي لكل برميل نفط وماي ينتج — فتوقف الهبوط.\nمقدار الهبوط يعتمد على قوة الصخر وسمك التكاوين المنتجة.",
+   "aEn": "Typical porosities:\n• Coal 2–3%, shale 5–10%.\n• Sandstone below 25%, limestone below 25%, dolomite below 30%.\n• Well-sorted loose sand 32–42%, diatomite 40–60%.\n• Most conventional reservoirs 15–25%.\nTypical permeabilities:\n• Shale below 0.005 md, and tight gas sandstone below 0.01 md.\n• Consolidated sandstone 0.1–200 md, limestone 0.1–200 md, and coal 0.1–200 md.\n• Partially consolidated sandstone 0.2–2 darcies, and diatomite 1–10 md.\n• Coarse-grained sandstone may be 500 md, and fine-grained only a few millidarcies.\nMeasuring core porosity (saturation method): a cylindrical core 3 in. long and 0.75 in. in diameter → bulk volume 21.7 cc. It weighs 125 g dry and 127.95 g saturated with fresh water:\n• Pore volume: 127.95 − 125 = 2.95 cc\n• Porosity: 2.95 ÷ 21.7 ≈ 0.136\nMeasuring saturation: the same core holds 2.95 ml of water; oil is injected and 2.10 ml of water is collected:\n• Oil saturation: 2.10 ÷ 2.95 ≈ 0.712, and water saturation 0.288.\nBulk volume = grain volume + pore volume. Only connected pores are of interest.\nPore volume compressibility (cf): the fractional change in pore volume per unit change in pore pressure. The usual range is 10 × 10⁻⁶ to 60 × 10⁻⁶ per psi.\nExample: cf = 0.00003 per psi and the pressure falls 1,000 psi:\n• 0.00003 × 1,000 = 0.03 — so the pore volume shrinks by 3%.\nThe practical result — subsidence: the city of Long Beach sank up to 29 ft between the 1940s and the 1960s because of production from the Wilmington field and compression of the pores. From the mid-1960s producers were required to inject about 1.05 barrels of water for every barrel of oil and water produced — and the subsidence stopped.\nThe amount of subsidence depends on rock strength and the thickness of the producing formations.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 4.1 Porosity, Tables 4.1–4.2, Examples 4.1–4.2; 4.1.1 Compressibility of Pore Volume"
+   ]
+  },
+  {
+   "id": "re-76",
+   "topic": "reservoir",
+   "q": "شنو التخلف (Hysteresis) بمنحنيات الضغط الشعري — Drainage و Imbibition — وشكد قيم الشد السطحي وزوايا التماس المعتادة؟",
+   "qEn": "What is hysteresis in capillary pressure curves — drainage and imbibition — and what are the usual values of interfacial tension and contact angle?",
+   "k": [
+    "capillary pressure hysteresis drainage imbibition",
+    "interfacial tension ranges oil brine gas oil",
+    "contact angle wetting classes table",
+    "capillary pressure gradient with height example",
+    "تخلف الضغط الشعري",
+    "الشد السطحي البيني",
+    "زاوية التماس والتبلل"
+   ],
+   "a": "الشد السطحي البيني (IFT): قوة لكل وحدة طول عند السطح الفاصل بين طورين، سببها اختلاف التجاذب الجزيئي (جزيئات الماي قطبية ومترابطة، والنفط لا).\n• هوا–ماي ملحي: 72–100 mN/m.\n• نفط–ماي ملحي: 15–40.\n• غاز–نفط: 35–65.\nتصنيف التبلل بزاوية التماس (نفط وماي على سطح صلب):\n• 0–30°: شديد التبلل بالماي. 30–75°: متوسط التبلل بالماي.\n• 75–105°: متعادل.\n• 105–150°: متوسط التبلل بالنفط. 150–180°: شديد التبلل بالنفط.\nالتبلل ممكن يتغير بتماس اللباب ويا سوائل الحفر أو الأوكسجين — لهذا لازم عناية باللباب.\nالضغط الشعري = ضغط الطور غير المبلِّل ناقص ضغط الطور المبلِّل، ويزيد كل ما صغر نصف قطر المسام — بالـ Shale ممكن يقترب من 1,000 psi.\nمثال: ضغط الماي 2,500 psia والضغط الشعري 35 psi ← ضغط النفط 2,535 psia.\nالتغير ويا الارتفاع: ضغط الماي ينزل لفوگ حوالي 0.45 psi/ft وضغط النفط حوالي 0.35 psi/ft — فالضغط الشعري يزيد 0.10 psi/ft كل ما صعدنا فوگ مستوى الماي الحر. على ارتفاع 100 ft:\n• 0.10 × 100 = 10 psi\nوهذا سبب المنطقة الانتقالية: الحدود بين النفط والماي مو سطح حاد، والآبار المكملة بيها تنتج الطورين سوية.\nالتخلف (Hysteresis): علاقة الضغط الشعري بالتشبع تعتمد على اتجاه تغير التشبع:\n• Primary drainage: الصخر مشبع ماي وندخل نفط — تشبع الطور المبلِّل يقل. هذا يمثل امتلاء المكمن بالنفط بالزمن الجيولوجي.\n• Imbibition: نرجع ندخل ماي — تشبع الطور المبلِّل يزيد. هذا يمثل الغمر المائي أو تقدم الـ Aquifer.\n• Secondary drainage: ندخل نفط مرة ثانية — منحنى ثالث مختلف.\nالمعنى العملي: لازم نختار المنحنى المناسب للعملية — منحنى الـ Drainage لحساب توزيع التشبعات الأصلي، ومنحنيات الـ Imbibition لمحاكاة الغمر المائي. ونفس الشي ينطبق على النفاذية النسبية.",
+   "aEn": "Interfacial tension (IFT): force per unit length at the interface between two phases, caused by the difference in molecular attraction (water molecules are polar and bonded, oil molecules are not).\n• Air–brine: 72–100 mN/m.\n• Oil–brine: 15–40.\n• Gas–oil: 35–65.\nWetting classes by contact angle (oil and water on a solid surface):\n• 0–30°: strongly water wet. 30–75°: moderately water wet.\n• 75–105°: neutrally wet.\n• 105–150°: moderately oil wet. 150–180°: strongly oil wet.\nWettability can be changed by contact of the core with drilling fluids or oxygen — which is why cores need careful handling.\nCapillary pressure = non-wetting phase pressure minus wetting phase pressure, and it increases as pore radius decreases — in shales it can approach 1,000 psi.\nExample: water pressure 2,500 psia and capillary pressure 35 psi → oil pressure 2,535 psia.\nThe change with height: water pressure decreases upward at about 0.45 psi/ft and oil pressure at about 0.35 psi/ft — so capillary pressure increases by 0.10 psi/ft going up above the free water level. At a height of 100 ft:\n• 0.10 × 100 = 10 psi\nThis is the reason for the transition zone: the boundary between oil and water is not a sharp surface, and wells completed in it produce both phases together.\nHysteresis: the relation between capillary pressure and saturation depends on the direction of saturation change:\n• Primary drainage: the rock is water saturated and oil is injected — the wetting phase saturation decreases. This represents the filling of the reservoir with oil over geologic time.\n• Imbibition: water is injected again — the wetting phase saturation increases. This represents waterflooding or aquifer advance.\n• Secondary drainage: oil is injected once more — a third, different curve.\nThe practical meaning: the right curve must be chosen for the process — the drainage curve to calculate the original saturation distribution, and imbibition curves to simulate a waterflood. The same applies to relative permeability.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 5.1 Interfacial Tension, Wettability, and Capillary Pressure, Tables 5.1–5.2; 5.2 Fluid Distribution and Capillary Pressure"
+   ]
+  },
+  {
+   "id": "re-77",
+   "topic": "reservoir",
+   "q": "شلون أميّز نمط الجريان (قطري، خطي، كروي) من مشتقة الضغط، وشكد يوصل نصف قطر الاستقصاء ببئر نفط تقليدية مقابل بئر غاز Shale؟",
+   "qEn": "How is the flow pattern (radial, linear, spherical) recognised from the pressure derivative, and how far does the radius of investigation reach in a conventional oil well compared with a shale gas well?",
+   "k": [
+    "pressure derivative diagnostic plot slopes",
+    "radial linear spherical flow wellbore storage unit slope",
+    "radius of investigation oil well shale gas example",
+    "gas well buildup pseudopressure non-Darcy skin",
+    "مشتقة الضغط",
+    "نمط الجريان الكروي والخطي",
+    "نصف قطر الاستقصاء"
+   ],
+   "a": "الرسم التشخيصي (Log–log diagnostic plot): نرسم تغير الضغط ومشتقة الضغط مقابل الزمن على مقياس لوغاريتمي مزدوج. المشتقة هي Δt × dp/d(Δt)، وهي أحس من الضغط نفسه بخواص المكمن ونمط الجريان.\nميل المشتقة يحدد النمط:\n• خزن البئر (Wellbore storage): ميل 1.\n• جريان خطي (مثل الجريان لشق هيدروليكي): ميل موجب 1/2.\n• جريان قطري: ميل صفر (خط أفقي) — منه تنحسب النفاذية.\n• جريان كروي (بئر مكملة جزئياً): ميل سالب 1/2. بعدها يتحول لقطري لما الجريان يوصل سقف وقاع الطبقة.\nنصف قطر الاستقصاء (Radius of investigation): المسافة اللي وصلتها موجة الضغط. لبئر نفط (rinv بالقدم، k بـ md، Δt بالساعة، μ بـ cp، cT لكل psi):\n$$ r_{inv} = 0.029\\sqrt{\\dfrac{k\\,\\Delta t}{\\phi\\,\\mu\\,c_T}}\nولبئر غاز نفس الصيغة بمعامل 0.0325.\nمثال نفط تقليدي: k = 150 md، φ = 0.14، μ = 0.9 cp، cT = 8 × 10⁻⁶، وغلق 24 ساعة ← حوالي 1,733 ft.\nمثال غاز Shale: k = 0.0001 md، φ = 0.05، μ = 0.02 cp، cT = 1 × 10⁻⁴:\n• بعد يوم: حوالي 5 ft.\n• بعد 7 أيام: 13 ft.\n• بعد 30 يوم: 28 ft.\n• بعد سنة: 96 ft بس.\nالاستنتاج: بالـ Shale فحص الـ Buildup ما يشوف إلا أمتار حول البئر حتى بعد مدة طويلة — لهذا نعتمد على تحليل بيانات الإنتاج (RTA) بدل الفحوص التقليدية.\nالاستخدام: إذا تغير ميل الضغط بزمن معين، نحسب نصف قطر الاستقصاء بذاك الزمن فنعرف المسافة للحاجز (صدع سادّ أو تلاشي نفاذية).\nفحص الـ Buildup ببئر غاز: نفس طريقة Horner بس نستخدم الضغط الكاذب m(p) بدل الضغط حتى ندخل تغير Z واللزوجة ويا الضغط. والـ Skin الظاهري يساوي الـ Skin الحقيقي زائد D × q — و D معامل الجريان غير الدارسي (الاضطراب) اللي يكبر بالمعدلات العالية.",
+   "aEn": "The log–log diagnostic plot: the pressure change and the pressure derivative are plotted against time on a log–log scale. The derivative is Δt × dp/d(Δt), and it is more sensitive than pressure itself to reservoir properties and flow pattern.\nThe slope of the derivative identifies the pattern:\n• Wellbore storage: unit slope.\n• Linear flow (such as flow to a hydraulic fracture): positive half slope.\n• Radial flow: zero slope (a horizontal line) — permeability is calculated from it.\n• Spherical flow (a partially completed well): negative half slope. It then changes to radial when the flow reaches the top and bottom of the bed.\nRadius of investigation: the distance the pressure transient has travelled. For an oil well (rinv in feet, k in md, Δt in hours, μ in cp, cT per psi):\n$$ r_{inv} = 0.029\\sqrt{\\dfrac{k\\,\\Delta t}{\\phi\\,\\mu\\,c_T}}\nand for a gas well the same form with a coefficient of 0.0325.\nConventional oil example: k = 150 md, φ = 0.14, μ = 0.9 cp, cT = 8 × 10⁻⁶ and a 24-hour shut-in → about 1,733 ft.\nShale gas example: k = 0.0001 md, φ = 0.05, μ = 0.02 cp, cT = 1 × 10⁻⁴:\n• After one day: about 5 ft.\n• After 7 days: 13 ft.\n• After 30 days: 28 ft.\n• After a year: only 96 ft.\nThe conclusion: in shale a buildup test sees only a few metres around the well even after a long time — which is why production data analysis (RTA) is relied on instead of conventional tests.\nUse: if the pressure slope changes at a certain time, the radius of investigation at that time gives the distance to the barrier (a sealing fault or a permeability pinch-out).\nA buildup test in a gas well: the same Horner method, but the pseudopressure m(p) is used instead of pressure to account for the change of Z and viscosity with pressure. The apparent skin equals the true skin plus D × q — where D is the non-Darcy (turbulence) flow coefficient, which grows at high rates.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 12.2.2 Interpreting Pressure Transient Tests; 12.2.3; 12.3.2–12.3.3, Examples 12.4–12.5"
+   ]
+  },
+  {
    "id": "ge-01",
    "topic": "geology",
    "q": "شنو أنواع الصخور الثلاثة (نارية، رسوبية، متحولة) وأي نوع يهم النفط؟",
@@ -23844,6 +24369,228 @@
    "aEn": "• An aquifer: a layer of permeable rock — or gravel, sand and silt — saturated with water.\n• An artesian (confined) aquifer: rainwater seeps in from a high recharge area and is confined between two impermeable layers it cannot pass, so it stays under pressure. If the layer is penetrated by a well the water rises by itself, to a level close to that of the recharge area.\nWhy they matter:\n• For drilling: fresh-water aquifers near the surface must be isolated by the surface casing and cement so they are not contaminated. An artesian layer means a water flow if the mud weight does not balance its pressure.\n• For the reservoir: an aquifer connected to the oil reservoir supports the pressure (water drive) and raises the recovery factor, but brings water production and water coning with it.\n• A source of injection water, or a place to dispose of produced water in deep saline layers.",
    "refs": [
     "PDO, Oil & Gas Dictionary (English–Arabic), 2nd ed. 2014 — aquifer, artesian aquifer, water drive, disposal well"
+   ]
+  },
+  {
+   "id": "ge-17",
+   "topic": "geology",
+   "q": "شنو الفرق بين موجات P وموجات S الزلزالية، وشلون تنحسب سرعتهن من خواص الصخر؟",
+   "qEn": "What is the difference between seismic P-waves and S-waves, and how are their velocities calculated from rock properties?",
+   "k": [
+    "P-wave S-wave velocity",
+    "compressional shear wave bulk modulus shear modulus",
+    "two-way travel time example",
+    "geophone hydrophone seismogram trace",
+    "موجات P و S",
+    "سرعة الموجة الزلزالية",
+    "معامل القص والمعامل الحجمي"
+   ],
+   "a": "الموجات الزلزالية اهتزازات تنتشر من مصدر (تفجير، هزازات، Air gun) وترجع منعكسة للمستقبلات: Geophones على اليابسة (تحول حركة الأرض لفولتية) و Hydrophones بالبحر. تسجيل مستقبل واحد اسمه Trace، ومجموعة التسجيلات تكوّن المقطع الزلزالي. الترددات الزلزالية المعتادة 5–100 Hz.\n• موجات P (Compressional / Primary): طولية — الجزيئات تهتز بنفس اتجاه انتشار الموجة (انضغاط وتخلخل). هي الأسرع وتوصل أول.\n• موجات S (Shear / Secondary): مستعرضة — الجزيئات تهتز عمودي على اتجاه الانتشار. أبطأ وتوصل ثاني.\n• الاثنين موجات جسمية (Body waves)، وغيرهن اكو موجات سطحية.\nالسرعة بوسط مرن متجانس:\n$$ V_P = \\sqrt{\\dfrac{K + \\frac{4}{3}G}{\\rho}}\n$$ V_S = \\sqrt{\\dfrac{G}{\\rho}}\nحيث K المعامل الحجمي (Bulk modulus)، G معامل القص (Shear modulus)، و ρ الكثافة. من المعادلتين: VP دائماً أكبر من VS، والسوائل (G = 0) ما تمر بيها موجات S.\nمثال: دولومايت K = 95 GPa و G = 46 GPa و ρ = 2,800 kg/m³:\n• VP ≈ 7,470 m/s و VS ≈ 4,050 m/s (جواب الكتاب المطبوع 7,519 و 4,008 محسوب بقيم مختلفة شوية عن المعطاة).\nمثال زمن الرحلة: موجة سرعتها 5 km/s تنزل لعاكس على عمق 2,000 m وترجع:\n• زمن النزول: 2,000 ÷ 5,000 = 0.4 s، والزمن المزدوج (Two-way time) 0.8 s.",
+   "aEn": "Seismic waves are vibrations that travel from a source (explosion, vibrators, air gun) and return by reflection to the receivers: geophones on land (which convert ground motion to a voltage) and hydrophones at sea. The record of one receiver is a trace, and a collection of traces makes the seismic section. Typical seismic frequencies are 5–100 Hz.\n• P-waves (compressional / primary): longitudinal — the particles vibrate in the direction the wave travels (compression and rarefaction). They are the fastest and arrive first.\n• S-waves (shear / secondary): transverse — the particles vibrate perpendicular to the direction of travel. They are slower and arrive second.\n• Both are body waves; there are also surface waves.\nVelocity in an elastic, homogeneous medium:\n$$ V_P = \\sqrt{\\dfrac{K + \\frac{4}{3}G}{\\rho}}\n$$ V_S = \\sqrt{\\dfrac{G}{\\rho}}\nwhere K is the bulk modulus, G the shear modulus and ρ the density. From the two equations: VP is always greater than VS, and liquids (G = 0) do not carry S-waves.\nExample: dolomite with K = 95 GPa, G = 46 GPa and ρ = 2,800 kg/m³:\n• VP ≈ 7,470 m/s and VS ≈ 4,050 m/s (the book's printed answer of 7,519 and 4,008 is calculated with values slightly different from those given).\nTravel-time example: a wave travelling at 5 km/s goes down to a reflector at 2,000 m and back:\n• Time down: 2,000 ÷ 5,000 = 0.4 s, and the two-way time is 0.8 s.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.1 Seismic Waves, Examples 7.1–7.2"
+   ]
+  },
+  {
+   "id": "ge-18",
+   "topic": "geology",
+   "q": "شنو معامل الانعكاس الزلزالي (Reflection coefficient)، وليش تنعكس الموجة عند حدود الطبقات (تباين الممانعة)؟",
+   "qEn": "What is the seismic reflection coefficient, and why is a wave reflected at layer boundaries (impedance contrast)?",
+   "k": [
+    "seismic reflection coefficient",
+    "impedance contrast bulk density velocity",
+    "zero offset reflection",
+    "negative reflection coefficient polarity",
+    "معامل الانعكاس الزلزالي",
+    "تباين الممانعة",
+    "انعكاس الموجة الزلزالية"
+   ],
+   "a": "لما الموجة الزلزالية توصل سطح بين طبقتين، جزء من طاقتها ينفذ وجزء ينعكس. الانعكاس يصير بس إذا الطبقتين مختلفات بالممانعة الصوتية.\n• الممانعة الصوتية (Acoustic impedance): حاصل ضرب الكثافة الكلية بسرعة الموجة:\n$$ Z = \\rho_B\\,V\n• الكثافة الكلية تعتمد على المسامية وكثافة الحبيبات وكثافة المائع:\n$$ \\rho_B = (1-\\phi)\\,\\rho_m + \\phi\\,\\rho_f\nوكثافة المائع معدل موزون بالتشبعات (نفط، ماي، غاز). لهذا تغير المائع — خصوصاً دخول الغاز — يغيّر الممانعة والانعكاس.\n• معامل الانعكاس (للسقوط العمودي، Zero offset) بين طبقة فوگانية 1 وجوّانية 2:\n$$ RC = \\dfrac{Z_2 - Z_1}{Z_2 + Z_1}\nإذا الممانعتين متساويتين RC = 0 وما ينشاف عاكس.\nمثال: الطبقة العليا ρ = 2,800 kg/m³ و VP = 3.0 km/s، والسفلى ρ = 2,600 kg/m³ و VP = 2.8 km/s:\n• Z العليا: 2,800 × 3.0 = 8,400\n• Z السفلى: 2,600 × 2.8 = 7,280\n• RC: (7,280 − 8,400) ÷ (7,280 + 8,400) ≈ −0.0714\nالإشارة السالبة معناها الممانعة قلّت بالنزول، فقطبية الموجة المنعكسة تنقلب. والرقم الصغير يوضح إن أغلب الطاقة تنفذ وتكمل للطبقات الأعمق.",
+   "aEn": "When a seismic wave reaches a surface between two layers, part of its energy is transmitted and part is reflected. Reflection occurs only if the two layers differ in acoustic impedance.\n• Acoustic impedance: the product of bulk density and wave velocity:\n$$ Z = \\rho_B\\,V\n• Bulk density depends on porosity, grain density and fluid density:\n$$ \\rho_B = (1-\\phi)\\,\\rho_m + \\phi\\,\\rho_f\nand the fluid density is a saturation-weighted average (oil, water, gas). That is why a change of fluid — especially the arrival of gas — changes the impedance and the reflection.\n• The reflection coefficient (for normal incidence, zero offset) between an upper layer 1 and a lower layer 2:\n$$ RC = \\dfrac{Z_2 - Z_1}{Z_2 + Z_1}\nIf the two impedances are equal RC = 0 and no reflector is seen.\nExample: the upper layer has ρ = 2,800 kg/m³ and VP = 3.0 km/s, and the lower ρ = 2,600 kg/m³ and VP = 2.8 km/s:\n• Upper Z: 2,800 × 3.0 = 8,400\n• Lower Z: 2,600 × 2.8 = 7,280\n• RC: (7,280 − 8,400) ÷ (7,280 + 8,400) ≈ −0.0714\nThe negative sign means the impedance decreases downward, so the polarity of the reflected wave is reversed. The small figure shows that most of the energy is transmitted and carries on to the deeper layers.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.2 Acoustic Impedance and Reflection Coefficients, Example 7.4"
+   ]
+  },
+  {
+   "id": "ge-19",
+   "topic": "geology",
+   "q": "شنو دقة التمييز الزلزالي (Seismic resolution) العمودية والأفقية، وشكد أنحف طبقة يگدر الزلزالي يميزها؟",
+   "qEn": "What are vertical and lateral seismic resolution, and how thin a bed can seismic distinguish?",
+   "k": [
+    "seismic resolution vertical lateral",
+    "quarter wavelength dominant frequency",
+    "Fresnel zone radius",
+    "thin bed tuning",
+    "دقة التمييز الزلزالي",
+    "ربع الطول الموجي",
+    "منطقة فرينل"
+   ],
+   "a": "دقة التمييز (Resolution): أقل مسافة بين عاكسين يگدر الزلزالي يشوفهم كعاكسين منفصلين.\nالطول الموجي السائد:\n$$ \\lambda_d = \\dfrac{v}{f_d}\n1) العمودية — أنحف طبقة ينشاف سقفها وقاعها منفصلين هي ربع الطول الموجي:\n$$ \\delta z_V = \\dfrac{\\lambda_d}{4} = \\dfrac{v}{4 f_d}\nمثال: سرعة 10,000 ft/s وتردد سائد 25 Hz:\n• الطول الموجي: 10,000 ÷ 25 = 400 ft\n• الدقة العمودية: 400 ÷ 4 = 100 ft\nيعني طبقة أنحف من 100 ft صعب أو مستحيل ينفصل سقفها عن قاعها.\n2) الأفقية — تتحدد بنصف قطر منطقة فرينل (Fresnel zone)، الجزء من العاكس اللي يرجّع الطاقة للمستقبل:\n$$ r_F = \\dfrac{v}{2}\\sqrt{\\dfrac{\\Delta t}{f_d}}\nحيث Δt الزمن المزدوج. لنفس المثال و Δt = 0.6 s (0.6 ÷ 25 = 0.024، وجذرها التربيعي حوالي 0.155):\n• rF: 5,000 × 0.155 ≈ 775 ft\nيعني معلمين أفقيين لازم يبتعدون 775 ft على الأقل حتى يتميزون.\nمثال ثاني: موجة سرعتها 1,800 m/s وترددها 60 Hz:\n• الطول الموجي: 1,800 ÷ 60 = 30 m\n• أقل فصل: 30 ÷ 4 = 7.5 m\nالخلاصة: كل ما زاد التردد تحسنت الدقة (نميّز طبقات أنحف). بس الترددات العالية تتوهن ويا العمق، والسرعة تزيد ويا العمق — فالدقة تسوء بالأهداف العميقة. لهذا مجسات البئر (دقتها بالأقدام) مكملة للزلزالي مو بديل عنه.",
+   "aEn": "Resolution is the smallest separation between two reflectors at which seismic can still see them as separate.\nThe dominant wavelength:\n$$ \\lambda_d = \\dfrac{v}{f_d}\n1) Vertical — the thinnest bed whose top and base are seen separately is a quarter of the wavelength:\n$$ \\delta z_V = \\dfrac{\\lambda_d}{4} = \\dfrac{v}{4 f_d}\nExample: velocity 10,000 ft/s and dominant frequency 25 Hz:\n• Wavelength: 10,000 ÷ 25 = 400 ft\n• Vertical resolution: 400 ÷ 4 = 100 ft\nSo for a bed thinner than 100 ft it is difficult or impossible to separate its top from its base.\n2) Lateral — set by the radius of the Fresnel zone, the part of the reflector that returns energy to the receiver:\n$$ r_F = \\dfrac{v}{2}\\sqrt{\\dfrac{\\Delta t}{f_d}}\nwhere Δt is the two-way time. For the same example with Δt = 0.6 s (0.6 ÷ 25 = 0.024, whose square root is about 0.155):\n• rF: 5,000 × 0.155 ≈ 775 ft\nSo two lateral features must be at least 775 ft apart to be distinguished.\nSecond example: a wave travelling at 1,800 m/s with a frequency of 60 Hz:\n• Wavelength: 1,800 ÷ 60 = 30 m\n• Minimum separation: 30 ÷ 4 = 7.5 m\nIn short: the higher the frequency, the better the resolution (thinner beds are distinguished). But high frequencies are attenuated with depth, and velocity increases with depth — so resolution worsens for deep targets. That is why well logs (with resolution in feet) complement seismic rather than replace it.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.3 Seismic Resolution, Example 7.5"
+   ]
+  },
+  {
+   "id": "ge-20",
+   "topic": "geology",
+   "q": "شلون تنقاس قوة الزلازل (Richter و Moment magnitude)، وشنو علاقتها بالتكسير الهيدروليكي وآبار التصريف؟",
+   "qEn": "How is earthquake magnitude measured (Richter and moment magnitude), and how does it relate to hydraulic fracturing and disposal wells?",
+   "k": [
+    "Richter scale local magnitude",
+    "seismic moment moment magnitude",
+    "earthquake classification",
+    "microseismic negative magnitude induced seismicity disposal well",
+    "مقياس ريختر",
+    "قوة الزلزال",
+    "الزلازل المستحثة بالحقن"
+   ],
+   "a": "• مقياس Richter (القدر المحلي ML): مبني على أقصى سعة A يسجلها جهاز Wood–Anderson مقارنة بسعة مرجعية A₀ للمنطقة:\n$$ M_L = \\log_{10}\\dfrac{A}{A_0}\nRichter عيّن ML = 3 لسعة 1 mm مسجلة على بعد 100 km — يعني A₀ = 0.001 mm. المقياس لوغاريتمي: كل درجة تعني سعة أكبر بعشر مرات. عيبه إنه يقلل تقدير الزلازل الكبيرة.\n• العزم الزلزالي (Seismic moment) — مقياس فيزيائي أدق:\n$$ M_0 = G\\,d\\,S\nحيث G معامل القص للصخر (Pa)، d مسافة انزلاق كتلة الصدع (m)، و S مساحة السطح المتمزق (m²). الوحدة N·m. والطاقة المنطلقة تقريباً M₀ ÷ 20,000 بالجول.\n• القدر العزمي (Hanks & Kanamori):\n$$ M_w = \\dfrac{2}{3}\\left(\\log_{10} M_0 - 9.1\\right)\nالتصنيف:\n• 2.0–2.9 ضعيف جداً (بالكاد ينحس)، 3.0–3.9 ضعيف، 4.0–4.9 خفيف (اهتزاز واضح).\n• 5.0–5.9 متوسط (ضرر بسيط)، 6.0–6.9 قوي، 7.0–7.9 كبير، أكثر من 8.0 عظيم.\nعلاقتها بالنفط:\n• الأحداث الميكروزلزالية الناتجة من التكسير الهيدروليكي بالـ Shale قدرها سالب، بحدود −2 إلى −3 — أضعف بهواية من إنه ينحس، وتنستخدم لرسم امتداد الشقوق.\n• حقن الماي المنتج بآبار التصريف العميقة ممكن يسبب زلازل تنحس على السطح — وهذا يتسمى Injection-induced seismicity، وهو سبب تشديد الرقابة على آبار التصريف ببعض المناطق.",
+   "aEn": "• The Richter scale (local magnitude ML): based on the maximum amplitude A recorded by a Wood–Anderson instrument compared with a reference amplitude A₀ for the region:\n$$ M_L = \\log_{10}\\dfrac{A}{A_0}\nRichter assigned ML = 3 to an amplitude of 1 mm recorded 100 km away — that is, A₀ = 0.001 mm. The scale is logarithmic: each unit means an amplitude ten times larger. Its weakness is that it underestimates large earthquakes.\n• The seismic moment — a more fundamental physical measure:\n$$ M_0 = G\\,d\\,S\nwhere G is the shear modulus of the rock (Pa), d the distance one fault block slips (m), and S the ruptured surface area (m²). The unit is N·m. The energy released is roughly M₀ ÷ 20,000 in joules.\n• The moment magnitude (Hanks & Kanamori):\n$$ M_w = \\dfrac{2}{3}\\left(\\log_{10} M_0 - 9.1\\right)\nClassification:\n• 2.0–2.9 very minor (hardly felt), 3.0–3.9 minor, 4.0–4.9 light (obvious vibrations).\n• 5.0–5.9 moderate (slight damage), 6.0–6.9 strong, 7.0–7.9 major, above 8.0 great.\nThe link to petroleum:\n• The microseismic events caused by hydraulic fracturing in shale have negative magnitudes, of the order of −2 to −3 — far too weak to be felt, and they are used to map the extent of the fractures.\n• Injecting produced water into deep disposal wells can cause earthquakes that are felt at the surface — this is called injection-induced seismicity, and it is the reason for tighter regulation of disposal wells in some areas.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.1.1 Earthquake Magnitude, Table 7.1; 1.5.2 Environmental Issues"
+   ]
+  },
+  {
+   "id": "ge-21",
+   "topic": "geology",
+   "q": "شلون يتحول المقطع الزلزالي من زمن إلى عمق (Velocity model، Checkshot، VSP)، وشنو الانعكاس الزلزالي (Seismic inversion)؟",
+   "qEn": "How is a seismic section converted from time to depth (velocity model, checkshot, VSP), and what is seismic inversion?",
+   "k": [
+    "time to depth conversion velocity model",
+    "checkshot VSP vertical seismic profile",
+    "seismic inversion acoustic impedance porosity",
+    "exploration geophysics reservoir geophysics",
+    "تحويل الزمن إلى عمق",
+    "نموذج السرعة",
+    "الانعكاس الزلزالي"
+   ],
+   "a": "ثلاث خطوات للشغل الزلزالي: جمع البيانات (Acquisition)، المعالجة (Processing)، والتفسير (Interpretation).\nالتحويل من زمن لعمق:\n• المستقبلات تسجل زمن الرحلة، بس الجيولوجي والمهندس يشتغلون بالعمق. التحويل يحتاج سرعة الموجة بكل طبقة — ومجموعة هاي السرعات اسمها نموذج السرعة (Velocity model).\n• السرعة تتغير ويا العمق ونوع الصخر، فإذا ظهر دليل إن النموذج غلط لازم تنعاد المعالجة.\n• Checkshot: مصدر اهتزاز على السطح ومستقبل نازل بالبئر — يقيس زمن الوصول لأعماق معروفة. إذا المصدر فوگ المستقبل مباشرة فهو VSP بدون إزاحة (Zero offset)، وإذا مزاح فهو Offset VSP. والـ Reverse VSP: المصدر بالبئر والمستقبل على السطح.\n• نموذج السرعة يتحقق منه بمقارنة بيانات الـ VSP والـ Checkshot ويا المجسات واللباب.\n• المعالجة هم ترفع نسبة الإشارة للضوضاء (ضوضاء الريح، الموجات السطحية Ground roll، اهتزاز عمليات ثانية).\nجيوفيزياء الاستكشاف مقابل جيوفيزياء المكامن:\n• بالاستكشاف ماكو آبار، فما نگدر نعاير الزلزالي بالمجسات — النتيجة صورة للتراكيب والطبقات.\n• بعد حفر الآبار نعاير الزلزالي بالمجسات، فتصير النتائج كمية أكثر.\nالانعكاس الزلزالي (Seismic inversion): استخدام الزلزالي المعايَر للتنبؤ بخواص المكمن — نربط خاصية زلزالية (مثل الممانعة الصوتية) بخاصية صخرية (مثل المسامية) برسم تقاطعي (Cross-plot)، وبعدها ننشر الخاصية بين الآبار.\nالـ 4D (Time-lapse): مقارنة مسحين 3D لنفس المكان بوقتين — التركيب ثابت، فأي فرق سببه تغير الضغط والتشبعات ← نشوف حركة الموائع بين الآبار والنفط المتجاوَز (Bypassed).",
+   "aEn": "Seismic work has three steps: data acquisition, processing and interpretation.\nConverting time to depth:\n• The receivers record travel time, but the geologist and the engineer work in depth. The conversion needs the wave velocity in each layer — and the set of these velocities is the velocity model.\n• Velocity changes with depth and rock type, so if evidence shows the model is wrong the data must be reprocessed.\n• A checkshot: a vibration source at surface and a receiver lowered in the well — it measures arrival time at known depths. If the source is directly above the receiver it is a zero-offset VSP, and if it is displaced it is an offset VSP. A reverse VSP has the source in the well and the receiver at surface.\n• The velocity model is validated by comparing VSP and checkshot data with logs and cores.\n• Processing also raises the signal-to-noise ratio (noise from wind, ground roll, vibrations from other operations).\nExploration geophysics versus reservoir geophysics:\n• In exploration there are no wells, so seismic cannot be calibrated with logs — the result is a picture of structure and stratigraphy.\n• After wells are drilled seismic is calibrated with logs, so the results become more quantitative.\nSeismic inversion: using calibrated seismic to predict reservoir properties — a seismic attribute (such as acoustic impedance) is related to a rock property (such as porosity) on a cross-plot, and the property is then spread between the wells.\n4D (time-lapse): comparing two 3D surveys of the same place at two times — the structure is the same, so any difference is due to changes in pressure and saturation → fluid movement between wells and bypassed oil are seen.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.3.3 Exploration Geophysics and Reservoir Geophysics; 7.4 Seismic Data Acquisition, Processing, and Interpretation"
+   ]
+  },
+  {
+   "id": "ge-22",
+   "topic": "geology",
+   "q": "شلون تنحسب الخواص الميكانيكية للصخر (نسبة Poisson ومعامل Young) من السرعات الزلزالية، وشنو الفرق بين الديناميكي والستاتيكي؟",
+   "qEn": "How are rock mechanical properties (Poisson's ratio and Young's modulus) calculated from seismic velocities, and what is the difference between dynamic and static values?",
+   "k": [
+    "dynamic Poisson ratio from Vp Vs",
+    "dynamic static Young modulus",
+    "Castagna sandstone velocity porosity clay",
+    "Biot coefficient effective pressure compaction",
+    "نسبة بواسون الديناميكية",
+    "معامل يونگ",
+    "خواص ميكانيكية من السرعات"
+   ],
+   "a": "النموذج البتروإيلاستيكي يربط السرعات الزلزالية بخواص الصخر والمائع.\n• علاقة Castagna للحجر الرملي (السرعات بـ km/s، φ المسامية و C نسبة الطين ككسر):\n$$ V_P = 5.81 - 9.42\\,\\phi - 2.21\\,C\n$$ V_S = 3.89 - 7.07\\,\\phi - 2.04\\,C\n• نسبة Poisson الديناميكية من السرعتين:\n$$ \\nu_d = \\dfrac{0.5\\,V_P^2 - V_S^2}{V_P^2 - V_S^2}\n• معامل القص ومعامل Young الديناميكي:\n$$ G = \\rho_B\\,V_S^2\n$$ E_d = 2\\,(1 + \\nu_d)\\,G\nمثال: حجر رملي φ = 0.20 و C = 0.10:\n• VP: 5.81 − 9.42 × 0.20 − 2.21 × 0.10 = 3.705 km/s\n• VS: 3.89 − 7.07 × 0.20 − 2.04 × 0.10 = 2.272 km/s\n• مربع VP ≈ 13.727 ومربع VS ≈ 5.162، فـ νd: (0.5 × 13.727 − 5.162) ÷ (13.727 − 5.162) ≈ 0.199\n• بكثافة كلية 2,320 kg/m³ يطلع G ≈ 12.0 GPa، و Ed: 2 × (1 + 0.199) × 12.0 ≈ 28.8 GPa\nالديناميكي مقابل الستاتيكي:\n• الديناميكي ينحسب من سرعات الموجات (زلزالي أو مجس صوتي).\n• الستاتيكي ينقاس بالمختبر على اللباب، وهو اللي يمثل سلوك صخر المكمن بدقة أكثر — لهذا نحتاج علاقة تحويل من الديناميكي للستاتيكي (معايرة باللباب).\nمفاهيم مرتبطة:\n• الضغط الفعال: ضغط الحصر ناقص α × ضغط المسام، و α معامل Biot.\n• لما تنسحب الموائع وينزل ضغط المسام، يزيد الضغط الفعال فينضغط المكمن (Compaction) وممكن يهبط السطح (Subsidence).\nالاستخدام: تصميم التكسير، ثباتية جدار البئر، وتوقع إنتاج الرمل.",
+   "aEn": "The petroelastic model relates seismic velocities to rock and fluid properties.\n• Castagna's relation for sandstone (velocities in km/s, φ the porosity and C the clay fraction):\n$$ V_P = 5.81 - 9.42\\,\\phi - 2.21\\,C\n$$ V_S = 3.89 - 7.07\\,\\phi - 2.04\\,C\n• Dynamic Poisson's ratio from the two velocities:\n$$ \\nu_d = \\dfrac{0.5\\,V_P^2 - V_S^2}{V_P^2 - V_S^2}\n• Shear modulus and dynamic Young's modulus:\n$$ G = \\rho_B\\,V_S^2\n$$ E_d = 2\\,(1 + \\nu_d)\\,G\nExample: a sandstone with φ = 0.20 and C = 0.10:\n• VP: 5.81 − 9.42 × 0.20 − 2.21 × 0.10 = 3.705 km/s\n• VS: 3.89 − 7.07 × 0.20 − 2.04 × 0.10 = 2.272 km/s\n• VP squared ≈ 13.727 and VS squared ≈ 5.162, so νd: (0.5 × 13.727 − 5.162) ÷ (13.727 − 5.162) ≈ 0.199\n• With a bulk density of 2,320 kg/m³, G ≈ 12.0 GPa, and Ed: 2 × (1 + 0.199) × 12.0 ≈ 28.8 GPa\nDynamic versus static:\n• Dynamic values are calculated from wave velocities (seismic or sonic log).\n• Static values are measured in the laboratory on cores, and they represent reservoir rock behaviour more accurately — so a transform from dynamic to static (calibrated with cores) is needed.\nRelated concepts:\n• Effective pressure: confining pressure minus α × pore pressure, where α is the Biot coefficient.\n• When fluids are withdrawn and pore pressure falls, the effective pressure rises, so the reservoir compacts and the surface may subside.\nUses: fracture design, wellbore stability and sand production prediction.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 7.5 Petroelastic Model; 7.6 Geomechanical Model"
+   ]
+  },
+  {
+   "id": "ge-23",
+   "topic": "geology",
+   "q": "شنو المقياس الزمني الجيولوجي: الدهور والحقب والعصور وأعمارها بملايين السنين؟",
+   "qEn": "What is the geologic time scale: the eons, eras and periods and their ages in millions of years?",
+   "k": [
+    "geologic time scale eras periods ages",
+    "Paleozoic Mesozoic Cenozoic",
+    "Cambrian Jurassic Cretaceous Tertiary million years",
+    "Precambrian",
+    "المقياس الزمني الجيولوجي",
+    "العصر الطباشيري الجوراسي",
+    "الحقب الجيولوجية"
+   ],
+   "a": "عمر الأرض حوالي 4.5–4.6 مليار سنة (من التأريخ الإشعاعي لأقدم الصخور). الزمن الجيولوجي ينقسم: دهر (Eon) ← حقبة (Era) ← عصر (Period) ← فترة (Epoch). الأرقام بملايين السنين قبل الحاضر:\nما قبل الكمبري (Precambrian): من نشأة الأرض لحد 541 — يشمل Hadean (لحد 4,000)، Archean (لحد 2,500)، و Proterozoic (لحد 541).\nدهر الحياة الظاهرة (Phanerozoic):\n• حقبة الحياة القديمة (Paleozoic)، 541–252:\n – Cambrian 541–485، Ordovician 485–444، Silurian 444–419، Devonian 419–359، Carboniferous 359–299 (وينقسم بأمريكا إلى Mississippian و Pennsylvanian)، Permian 299–252.\n• حقبة الحياة الوسطى (Mesozoic)، 252–66:\n – Triassic 252–201، Jurassic 201–145، Cretaceous (الطباشيري) 145–66.\n• حقبة الحياة الحديثة (Cenozoic)، 66–الحاضر:\n – Paleogene 66–23 (فتراته Paleocene لحد 56، Eocene لحد 33.9، Oligocene لحد 23).\n – Neogene 23–2.6 (Miocene لحد 5.3، Pliocene لحد 2.6).\n – Quaternary 2.6–الحاضر (Pleistocene، وبعده Holocene من حوالي 10,000 سنة).\nالـ Paleogene والـ Neogene سوية ينسمون بالتسمية القديمة Tertiary (الثلاثي).\nليش يهم المهندس: أسماء التكاوين وأعمارها تتكرر ببرامج الحفر والتقارير، والعمر يدل على ترتيب الطبقات المتوقع بالبئر.\nمعلومة عامة (مو من الكتاب): أغلب مكامن جنوب العراق طباشيرية العمر (مثل المشرف والزبير ونهر عمر واليمامة)، والمكامن الرئيسية بالشمال ثلاثية العمر (مثل مجموعة كركوك/الآسماري)، وصخور المصدر المهمة جوراسية.",
+   "aEn": "The Earth is about 4.5–4.6 billion years old (from radiometric dating of the oldest rocks). Geologic time is divided: eon → era → period → epoch. The figures are in millions of years before present:\nPrecambrian: from the formation of the Earth to 541 — it includes the Hadean (to 4,000), the Archean (to 2,500) and the Proterozoic (to 541).\nThe Phanerozoic eon:\n• Paleozoic era, 541–252:\n – Cambrian 541–485, Ordovician 485–444, Silurian 444–419, Devonian 419–359, Carboniferous 359–299 (divided in America into the Mississippian and Pennsylvanian), Permian 299–252.\n• Mesozoic era, 252–66:\n – Triassic 252–201, Jurassic 201–145, Cretaceous 145–66.\n• Cenozoic era, 66–present:\n – Paleogene 66–23 (its epochs are the Paleocene to 56, the Eocene to 33.9 and the Oligocene to 23).\n – Neogene 23–2.6 (Miocene to 5.3, Pliocene to 2.6).\n – Quaternary 2.6–present (Pleistocene, followed by the Holocene from about 10,000 years ago).\nThe Paleogene and Neogene together are called the Tertiary in the older terminology.\nWhy it matters to the engineer: formation names and ages recur in drilling programmes and reports, and the age indicates the order of beds expected in the well.\nGeneral information (not from the book): most reservoirs of southern Iraq are Cretaceous in age (such as the Mishrif, Zubair, Nahr Umr and Yamama), the main reservoirs in the north are Tertiary (such as the Kirkuk/Asmari group), and the important source rocks are Jurassic.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 6.1 Geologic History of the Earth, Table 6.1"
+   ]
+  },
+  {
+   "id": "ge-24",
+   "topic": "geology",
+   "q": "شنو دورة الصخور، وشلون شكل الحبيبات وفرزها يأثر على النفاذية، وشنو خرائط التركيب والسمك (Isopach) وقواعد الكنتور؟",
+   "qEn": "What is the rock cycle, how do grain shape and sorting affect permeability, and what are structure and isopach maps and the rules of contouring?",
+   "k": [
+    "rock cycle",
+    "grain shape rounding sorting permeability",
+    "structure map isopach map stratigraphic column",
+    "contouring rules",
+    "net to gross ratio example",
+    "دورة الصخور",
+    "فرز الحبيبات",
+    "خريطة تركيبية وخريطة السمك"
+   ],
+   "a": "دورة الصخور (Rock cycle): الصهارة تبرد وتتصلب ← صخر ناري ← تعرية ونقل وترسيب وتلاحم ← صخر رسوبي ← طمر وحرارة وضغط ← صخر متحول ← انصهار، وترجع الدورة.\nالحبيبات والنفاذية:\n• شكل الحبيبة: الحبيبات الحادة الزوايا غالباً ما انتقلت بعيد (بيئة واطية الطاقة)، والمدورة انتقلت ببيئة عالية الطاقة مثل نهر سريع. الصخر المكوّن من حبيبات مدورة نفاذيته أعلى من المكوّن من حبيبات مسطحة أو حادة.\n• الفرز (Sorting): تجانس حجم الحبيبات. الصخر جيد الفرز تجري بيه الموائع أحسن من رديء الفرز.\nالتكوين وتقسيماته:\n• التكوين (Formation): وحدة صخرية قابلة للرسم على الخرائط، ترسبت بظروف ترسيب سائدة بوقت واحد. ممكن يحتوي أكثر من نوع صخر، وإذا چانت قابلة للرسم تتسمى أعضاء (Members).\n• الطبقة (Stratum): الأحدث فوگ والأقدم جوه. ممكن تنفقد طبقات إذا انكشفت وتعرّت قبل ما تنطمر من جديد.\n• سمك التكوين يعتمد على شكد بقت البيئة بنفس المكان وشكد چان الهبوط (Subsidence).\n• الرمل النهري يصير أنعم كل ما صعدنا (Fining upward) والخشن بالقاعدة، ويمتد بنمط متعرج لمسافات؛ الدلتاوي يتجمع بمكان محدود.\nالخرائط:\n• العمود الطباقي (Stratigraphic column): تتابع الطبقات.\n• الخريطة التركيبية (Structure map): كنتورات عمق سقف أو قاعدة الطبقة.\n• خريطة السمك (Isopach map): كنتورات سمك الوحدة الصخرية.\nقواعد الكنتور:\n1) خطوط الكنتور ما تتفرع.\n2) ما تتقاطع.\n3) إما تنغلق أو تطلع من حدود الخريطة.\n4) الميل الشديد خطوطه متقاربة، والخفيف خطوطه متباعدة.\nأي انقطاع بالخطوط لازم يتبرر بصدع أو عدم توافق.\nمثال Net-to-gross: وحدة بيها 6 ft Shale و4 ft حجر طيني (غير نفاذة) و30 ft حجر رملي و10 ft Conglomerate (نفاذة):\n• السمك الكلي: 6 + 4 + 30 + 10 = 50 ft\n• السمك الصافي: 30 + 10 = 40 ft\n• النسبة: 40 ÷ 50 = 0.80",
+   "aEn": "The rock cycle: magma cools and solidifies → igneous rock → erosion, transport, deposition and cementation → sedimentary rock → burial, heat and pressure → metamorphic rock → melting, and the cycle starts again.\nGrains and permeability:\n• Grain shape: sharp-edged grains probably did not travel far (a low-energy environment), while rounded grains were transported in a high-energy environment such as a fast stream. Rock made of rounded grains has higher permeability than rock made of flat or sharp grains.\n• Sorting: the uniformity of grain size. Fluids flow better through well-sorted rock than through poorly sorted rock.\nThe formation and its divisions:\n• A formation: a mappable rock unit deposited under a dominant set of depositional conditions at one time. It may contain more than one rock type, which are called members if they are mappable.\n• A stratum: the youngest is on top and the oldest at the bottom. Layers can be missing if they were exposed and eroded before being buried again.\n• The thickness of a formation depends on how long the environment stayed in one place and how much subsidence there was.\n• Fluvial sand becomes finer upward (fining upward) with the coarse sand at the base, and extends in a meandering pattern over long distances; deltaic sand accumulates in a more compact location.\nMaps:\n• Stratigraphic column: the succession of layers.\n• Structure map: contours of the depth to the top or base of a layer.\n• Isopach map: contours of the thickness of a rock unit.\nRules of contouring:\n1) Contour lines do not branch.\n2) They do not cross.\n3) They either close or run off the map.\n4) Steep slopes have closely spaced lines, and gentle slopes have widely spaced lines.\nAny break in the lines must be justified by a fault or an unconformity.\nNet-to-gross example: a unit with 6 ft of shale and 4 ft of mudstone (impermeable) and 30 ft of sandstone and 10 ft of conglomerate (permeable):\n• Gross thickness: 6 + 4 + 30 + 10 = 50 ft\n• Net thickness: 30 + 10 = 40 ft\n• Ratio: 40 ÷ 50 = 0.80",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 6.2 Rocks and Formations, Example 6.4"
+   ]
+  },
+  {
+   "id": "ge-25",
+   "topic": "geology",
+   "q": "شنو تركيب باطن الأرض (القشرة، الوشاح، اللب، Moho، Lithosphere)، وشكد سرعة حركة الصفائح والتعرية؟",
+   "qEn": "What is the structure of the Earth's interior (crust, mantle, core, Moho, lithosphere), and how fast are plate movement and erosion?",
+   "k": [
+    "earth interior crust mantle core",
+    "Moho lithosphere asthenosphere",
+    "subduction zone convergent boundary seafloor spreading",
+    "plate separation rate erosion rate example",
+    "باطن الأرض القشرة الوشاح اللب",
+    "الغلاف الصخري",
+    "سرعة حركة الصفائح"
+   ],
+   "a": "تركيب الأرض:\n• اللب (Core): لب داخلي بلوري ولب خارجي منصهر، سبيكة حديد ونيكل.\n• الوشاح (Mantle): أكثف من القشرة، أغلبه بازلت (سيليكات مغنيسيوم وحديد).\n• القشرة (Crust): رقيقة نسبياً. القشرة القارية گرانيتية (سيليكا وألمنيوم)، والمحيطية بازلتية.\n• انقطاع Mohorovicic (Moho): الحد بين القشرة والوشاح.\n• الغلاف الصخري (Lithosphere): القشرة ويا الجزء الصلب العلوي من الوشاح — وهو مقسم لصفائح صلبة.\n• الـ Asthenosphere: الجزء اللدن شبه المنصهر جوه الغلاف الصخري، والصفائح تطفو وتتحرك عليه.\nحدود الصفائح:\n• حد تقاربي (Convergent): تصادم صفيحتين يكوّن سلاسل جبال عظيمة مثل الهملايا.\n• نطاق الاندساس (Subduction zone): صفيحة تنزل جوه الثانية ومادتها ترجع للوشاح.\n• انتشار قاع البحر (Seafloor spreading): تباعد صفيحتين وخروج بازلت جديد، مثل حيد وسط الأطلسي.\n• القارات چانت كتلة وحدة (Pangaea) قبل حوالي 225 مليون سنة، وحركة الصفائح هي سبب أغلب عدم التجانس الجيولوجي بالمكامن.\nالعمليات الجيولوجية بطيئة جداً:\n• تباعد الصفائح: أمريكا الجنوبية وأفريقيا ابتعدوا حوالي 4,500 ميل بـ 225 مليون سنة ← حوالي 0.032 m بالسنة (3.2 cm) — قريب من سرعة نمو الأظافر.\n• التعرية: بمعدل 3 mm بالقرن، جبل ارتفاعه ميل (1,609 m) يحتاج حوالي 54 مليون سنة حتى يتعرى كله.\n• الرفع: نهر كولورادو حفر وادي عمقه ميل بحوالي 8 مليون سنة ← معدل رفع السطح حوالي 0.2 mm بالسنة.\nالمعنى: التراكيب اللي نحفر بيها نتيجة ملايين السنين من حركات بهذا البطء.",
+   "aEn": "The structure of the Earth:\n• The core: a crystalline inner core and a molten outer core, an alloy of iron and nickel.\n• The mantle: denser than the crust, mostly basalt (magnesium and iron silicates).\n• The crust: relatively thin. Continental crust is granitic (silica and aluminium), and oceanic crust is basaltic.\n• The Mohorovicic discontinuity (Moho): the boundary between the crust and the mantle.\n• The lithosphere: the crust together with the rigid uppermost mantle — it is divided into rigid plates.\n• The asthenosphere: the ductile, semi-molten part beneath the lithosphere, on which the plates float and move.\nPlate boundaries:\n• Convergent boundary: a collision of two plates forms great mountain ranges such as the Himalayas.\n• Subduction zone: one plate moves beneath another and its material returns to the mantle.\n• Seafloor spreading: two plates separate and new basalt is extruded, as at the mid-Atlantic Ridge.\n• The continents were a single land mass (Pangaea) about 225 million years ago, and plate movement is responsible for much of the geologic heterogeneity in reservoirs.\nGeological processes are extremely slow:\n• Plate separation: South America and Africa moved about 4,500 miles apart in 225 million years → about 0.032 m per year (3.2 cm) — close to the rate at which fingernails grow.\n• Erosion: at 3 mm per century, a mountain one mile high (1,609 m) takes about 54 million years to erode completely.\n• Uplift: the Colorado River carved a canyon a mile deep in about 8 million years → the surface uplift rate is about 0.2 mm per year.\nThe point: the structures we drill are the result of millions of years of movements this slow.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 6.1 Geologic History of the Earth, Examples 6.1–6.3"
+   ]
+  },
+  {
+   "id": "ge-26",
+   "topic": "geology",
+   "q": "شنو الحوض الرسوبي وصخر الناقل (Carrier rock) وعامل التوقيت، وشنو مثلث الموارد والحقول العملاقة (Giant / Supergiant)؟",
+   "qEn": "What are a sedimentary basin, carrier rock and the timing factor, and what are the resource triangle and giant and supergiant fields?",
+   "k": [
+    "sedimentary basin transformation ratio",
+    "carrier rock timing of trap",
+    "resource triangle conventional unconventional definition",
+    "giant supergiant field size",
+    "combination trap Prudhoe Bay",
+    "الحوض الرسوبي",
+    "مثلث الموارد",
+    "حقل عملاق"
+   ],
+   "a": "الحوض الرسوبي (Sedimentary basin): منطقة من القشرة أوطى من اللي حولها، تراكم بيها تتابع سميك من الصخور الرسوبية. كل المكامن موجودة بأحواض رسوبية.\n• ويا زيادة سمك الرواسب تزيد الحرارة والضغط بالقاعدة، فتتحلل المادة العضوية ويتكون النفط.\n• كمية النفط المتولدة تعتمد على مساحة الحوض، سمك صخر المصدر، وكفاءة التحويل.\n• نسبة التحول (Transformation ratio): كمية النفط المتكونة ÷ كمية المادة اللي چانت متوفرة لتوليده.\nأربع شروط حتى يتكون مكمن:\n1) صخر مصدر.\n2) مسار نفاذ من المصدر للمكمن يتسمى الصخر الناقل (Carrier rock) — تكوين نفاذ أو متشقق.\n3) مصيدة تحتجز الهيدروكربونات بصخر يگدر يخزن وينتج بمعدلات اقتصادية.\n4) التوقيت — وهو فوگ الكل: المصيدة لازم تكون موجودة وقت الهجرة. إذا تكونت بعد ما مر النفط، ما يبقى شي ينحبس.\n• المصيدة المركبة (Combination): تركيبية وطباقية سوية، مثل حقل Prudhoe Bay — طية محدبة مگطوعة ومحدودة بـ Shale كتيم.\nمثلث الموارد (Resource triangle):\n• بالقمة: مكامن عالية الجودة، سهلة الاستخراج ورخيصة — بس كميتها قليلة.\n• بالقاعدة: تركيز واطي وصعبة وغالية — بس كميتها هواية (نفط واطي النفاذية، رمال غاز كتيمة، غاز الـ Shale، نفط ثقيل، غاز الفحم، هيدرات الغاز، Oil shale).\n• التقليدي (Conventional): ينتج بمعدلات اقتصادية بدون تحفيز أو تقنيات خاصة. غير التقليدي: ما ينتج اقتصادياً إلا بيها.\nأحجام الحقول:\n• حقل نفط عملاق (Giant): 500 مليون إلى 5 مليار برميل قابلة للاستخلاص.\n• Supergiant: أكثر من 5 مليار برميل.\n• حقل غاز عملاق: 3 إلى 30 Tcf، و Supergiant أكثر من 30 Tcf.",
+   "aEn": "A sedimentary basin is an area of the crust lower than its surroundings in which a thick sequence of sedimentary rocks has accumulated. All reservoirs are found in sedimentary basins.\n• As the sediment thickens, temperature and pressure at the base increase, so the organic matter decays and petroleum forms.\n• The volume of petroleum generated depends on the area of the basin, the thickness of source rock and the efficiency of transformation.\n• The transformation ratio: the amount of petroleum formed ÷ the amount of material that was available to generate it.\nFour conditions for a reservoir to form:\n1) A source rock.\n2) A permeable path from the source to the reservoir, called carrier rock — a permeable or fractured formation.\n3) A trap that holds the hydrocarbons in rock that can store them and produce at economic rates.\n4) Timing — which overrides all the others: the trap must exist when migration occurs. If it forms after the oil has passed, nothing is left to capture.\n• A combination trap is both structural and stratigraphic, such as the Prudhoe Bay Field — an anticline truncated and bounded by impermeable shale.\nThe resource triangle:\n• At the top: high-quality deposits, easy and cheap to extract — but small in amount.\n• At the base: low concentration, difficult and expensive — but large in amount (low-permeability oil, tight gas sands, gas shales, heavy oil, coal gas, gas hydrates, oil shales).\n• Conventional: produces at economic rates without stimulation or special technologies. Unconventional: does not produce economically without them.\nField sizes:\n• A giant oil field: 500 million to 5 billion barrels recoverable.\n• A supergiant: more than 5 billion barrels.\n• A giant gas field: 3 to 30 Tcf, and a supergiant more than 30 Tcf.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 6.3 Sedimentary Basins and Traps; 6.4; 2.2 Resources and Reserves; 2.3 Oil and Gas Resources"
+   ]
+  },
+  {
+   "id": "ge-27",
+   "topic": "geology",
+   "q": "شلون يتكون النفط والغاز (النظرية الحيوية والنضج الحراري)، وليش الطبقات العميقة بيها غاز أكثر، وشنو الهيدروكربونات غير المألوفة؟",
+   "qEn": "How do oil and gas form (the biogenic theory and thermal maturation), why do deep formations hold more gas, and what are the unusual hydrocarbons?",
+   "k": [
+    "origin of petroleum biogenic theory biomarkers",
+    "thermal maturation temperature depth gas",
+    "gilsonite ozokerite tar sands helium",
+    "compositional variation gradient",
+    "أصل النفط",
+    "النضج الحراري",
+    "ليش الغاز بالأعماق"
+   ],
+   "a": "أصل النفط: من 1860 لحد 1960 چان اكو جدل إذا النفط حيوي أو لا. التحليل الجيوكيميائي لگى بالنفوط جزيئات تركيبها يشبه مركبات الكائنات الحية — تتسمى المؤشرات الحيوية (Biomarkers) — فصار المقبول إن الأصل حيوي.\nالخطوات:\n1) كائنات مثل الطحالب والعوالق عاشت قبل ملايين السنين ببيئات مائية، وبعد موتها كوّنت رواسب غنية بالمادة العضوية.\n2) فعل بكتيري بظروف لاهوائية داخل الرواسب.\n3) بعد الطمر تحت طبقات هواية: عمليات حرارية تكسّر الجزيئات العضوية الكبيرة لجزيئات أصغر — هذا النضج (Maturation).\n4) جزء يبقى بصخر المصدر، وأغلبه يهاجر لفوگ بالطفو؛ اللي ينحبس يكوّن مكمن، والباقي يوصل السطح ويتبدد.\nالنضج والعمق:\n• إذا حرارة الـ Shale 200°F على الأقل، النضج مستمر بدرجة ما. وسرعته تزيد ويا الحرارة.\n• الحرارة تزيد ويا العمق حوالي 0.01–0.02°F لكل قدم. مثال: حرارة سطح 60°F وتدرج 0.02 على عمق 8,000 ft:\n• 60 + 8,000 × 0.02 = 220°F\n• كل ما زاد العمق زاد التكسير فصغر حجم الجزيئات — لهذا التكاوين العميقة الأرجح بيها غاز مو نفط.\n• أغلب نفط وغاز الـ Shale اليوم يعتقد إنه باقي بصخر المصدر الأصلي.\nهيدروكربونات غير مألوفة:\n• رمال Athabasca بكندا: «قير» أثقل من الماي ولزوجته عالية جداً، ينستخرج أغلبه بالتعدين.\n• Gilsonite: صلب ينحفر من مناجم Utah، تركيبه يشبه أكبر جزيئات النفط.\n• Ozokerite: شمع طبيعي — نفط انفقدت منه كل المكونات عدا الشمعية.\n• هيدرات الغاز: صلبة، تتكون من ماي وغاز بحرارة واطية وضغط عالي على قاع البحر.\n• غاز الفحم: متولد من نضج الفحم (مادة نباتية)، فتركيبه يختلف عن غاز الطحالب والعوالق.\n• الهيليوم: غازات غرب Kansas و Oklahoma وشمال Texas بيها لحد 2% هيليوم، ناتج من تحلل ألفا للمعادن المشعة.\nليش يختلف التركيب من مكان لمكان: نوع الكائنات الأصلية، تاريخ الحرارة، وطريقة الحبس وحركة الماي. حتى بنفس التكوين يتغير التركيب ويا العمق والموقع (Compositional gradient) بسبب الجاذبية والانتشار الحراري أو تماس النفط ويا Aquifer نشط.",
+   "aEn": "The origin of oil: from 1860 to 1960 there was debate over whether oil was biological or not. Geochemical analysis found molecules in oils whose structure resembles compounds in living organisms — called biomarkers — so a biological origin became accepted.\nThe steps:\n1) Organisms such as algae and plankton lived millions of years ago in aqueous environments, and after death formed organic-rich sediments.\n2) Bacterial action under anaerobic conditions in the sediment.\n3) After burial under many layers: thermal processes break the large organic molecules into smaller ones — this is maturation.\n4) Part remains in the source rock, and most migrates upward by buoyancy; what is trapped forms a reservoir, and the rest reaches the surface and dissipates.\nMaturation and depth:\n• If a shale is at 200°F or more, maturation is ongoing to some extent. Its rate increases with temperature.\n• Temperature increases with depth at about 0.01–0.02°F per foot. Example: a surface temperature of 60°F and a gradient of 0.02 at 8,000 ft:\n• 60 + 8,000 × 0.02 = 220°F\n• The greater the depth, the more cracking and the smaller the molecules — which is why deep formations are more likely to hold gas than oil.\n• Most shale oil and gas today is thought to be still in the original source rock.\nUnusual hydrocarbons:\n• The Athabasca sands in Canada: 'tar' denser than water with very high viscosity, mostly recovered by mining.\n• Gilsonite: a solid mined in Utah, similar in composition to the largest molecules in oil.\n• Ozokerite: a natural wax — oil that has lost everything but its waxy portion.\n• Gas hydrates: solids formed from water and gas at low temperature and high pressure on the sea floor.\n• Coal gas: generated by maturation of coal (plant matter), so its composition differs from gas derived from algae and plankton.\n• Helium: gases from western Kansas and Oklahoma and northern Texas contain up to 2% helium, produced by alpha decay of radioactive minerals.\nWhy composition varies from place to place: the type of original organisms, the temperature history, and the trapping process and water movement. Even within one formation composition changes with depth and location (a compositional gradient) because of gravity and thermal diffusion or contact of the oil with an active aquifer.",
+   "refs": [
+    "Fanchi & Christiansen, Introduction to Petroleum Engineering (Wiley, 2017), 3.1 Origin"
    ]
   }
  ]
