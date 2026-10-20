@@ -17,6 +17,9 @@
   <base href="/spe-basrah/">
 
   <meta charset="UTF-8">
+  <!-- Set from the start so the loader is drawn at phone size, not at the
+       desktop width the browser assumes until Flutter adds its own tag. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="SPE Basrah Student Chapter academic and engineering platform.">
 
@@ -321,33 +324,53 @@
   <script src="fcm-push.js" defer></script>
 </head>
 <body>
-  <!-- Shown at once while the app downloads (the first visit can take several
-       seconds), in the colours of the app's own launch screen, which takes
-       over seamlessly when Flutter draws its first frame. -->
+  <!-- The one launch screen on the web: drawn at once while the app
+       downloads (the first visit can take several seconds) and kept over the
+       app until it is ready. It matches the app's own launch splash
+       (lib/widgets/launch_splash.dart), which calls speBasrahHideLoader()
+       when it closes, so the visitor never sees a second screen. -->
   <style>
+    html, body { background: #0C2460; }
     #spe-loader {
       position: fixed; inset: 0; z-index: 9999;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: radial-gradient(circle at 50% 35%, #16408F 0%, #0C2460 55%, #081A4A 100%);
+      background: linear-gradient(180deg, #16408F 0%, #081A4A 100%);
       color: #fff; font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
-      transition: opacity .35s ease;
+      transition: opacity .3s ease;
     }
     #spe-loader.spe-hide { opacity: 0; pointer-events: none; }
-    #spe-loader img { width: 96px; height: 96px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
-    #spe-loader .spe-name { margin-top: 18px; font-size: 24px; font-weight: 800; letter-spacing: .3px; }
-    #spe-loader .spe-sub { margin-top: 6px; font-size: 13px; opacity: .8; }
-    #spe-loader .spe-bar { margin-top: 28px; width: 160px; height: 4px; border-radius: 4px; background: rgba(255,255,255,.18); overflow: hidden; }
-    #spe-loader .spe-bar i { display: block; width: 40%; height: 100%; border-radius: 4px; background: #fff; animation: spe-slide 1.1s ease-in-out infinite; }
-    #spe-loader .spe-wait { margin-top: 16px; font-size: 12px; opacity: 0; transition: opacity .4s ease; text-align: center; padding: 0 24px; }
+    #spe-loader img {
+      position: absolute; left: 50%; top: 50%; width: 176px; height: 176px;
+      transform: translate(-50%, calc(-50% - 34px));
+    }
+    #spe-loader .spe-text {
+      position: absolute; left: 0; right: 0; top: 50%; text-align: center;
+      transform: translateY(calc(-50% + 98px));
+    }
+    #spe-loader .spe-name { font-size: 24px; font-weight: 700; letter-spacing: .3px; line-height: 1.2; }
+    #spe-loader .spe-sub { margin-top: 6px; font-size: 14px; color: #9CC4FF; line-height: 1.4; padding: 0 24px; }
+    #spe-loader .spe-foot {
+      position: absolute; left: 0; right: 0; bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+      display: flex; flex-direction: column; align-items: center;
+    }
+    #spe-loader .spe-wait {
+      margin-bottom: 14px; font-size: 12px; opacity: 0; transition: opacity .4s ease;
+      text-align: center; padding: 0 24px;
+    }
     #spe-loader .spe-wait.spe-show { opacity: .75; }
+    #spe-loader .spe-bar { width: 104px; height: 4px; border-radius: 2px; background: rgba(255,255,255,.2); overflow: hidden; }
+    #spe-loader .spe-bar i { display: block; width: 40%; height: 100%; border-radius: 2px; background: #7FC4FF; animation: spe-slide 1.1s ease-in-out infinite; }
     @keyframes spe-slide { 0% { transform: translateX(-110%); } 100% { transform: translateX(260%); } }
   </style>
   <div id="spe-loader" aria-label="SPE Basrah">
-    <img src="icons/Icon-192.png?v=5" alt="">
-    <div class="spe-name">SPE Basrah</div>
-    <div class="spe-sub" id="spe-loader-sub">الفرع الطلابي في جامعة البصرة</div>
-    <div class="spe-bar"><i></i></div>
-    <div class="spe-wait" id="spe-loader-wait">أول فتح ياخذ وقت أطول شوية، بعدها يفتح بسرعة…</div>
+    <img src="assets/assets/images/app_logo_white.png" alt="">
+    <div class="spe-text">
+      <div class="spe-name">SPE Basrah</div>
+      <div class="spe-sub" id="spe-loader-sub">الفرع الطلابي في جامعة البصرة</div>
+    </div>
+    <div class="spe-foot">
+      <div class="spe-wait" id="spe-loader-wait">أول فتح ياخذ وقت أطول شوية، بعدها يفتح بسرعة…</div>
+      <div class="spe-bar"><i></i></div>
+    </div>
   </div>
   <script>
     (function () {
@@ -368,10 +391,14 @@
         clearTimeout(hint);
         if (!loader) return;
         loader.className = 'spe-hide';
-        setTimeout(function () { if (loader && loader.parentNode) loader.parentNode.removeChild(loader); loader = null; }, 400);
+        var el = loader;
+        loader = null;
+        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 350);
       }
-      window.addEventListener('flutter-first-frame', done, { once: true });
-      // Safety net: never cover the app if the event is missed.
+      // Called by the app's launch splash once the first page is ready.
+      window.speBasrahHideLoader = done;
+      // Safety nets: never cover the app if that call is missed.
+      window.addEventListener('flutter-first-frame', function () { setTimeout(done, 10000); }, { once: true });
       setTimeout(done, 60000);
     })();
   </script>
